@@ -2,11 +2,11 @@
 
 pub const MAX_AXIS: u32 = 32;
 pub const MAX_SPINDLE: u32 = 8;
-pub const MAX_CNCPATH: u32 = 10;
-pub const MAX_IFSB_LINE: u32 = 3;
 pub const MAX_AXISNAME: u32 = 4;
 pub const ALL_AXES: i32 = -1;
 pub const ALL_SPINDLES: i32 = -1;
+pub const MAX_IFSB_LINE: u32 = 4;
+pub const MAX_CNCPATH: u32 = 15;
 pub const MAX_LOCK_PROG: u32 = 12;
 pub const EW_PROTOCOL: i32 = -17;
 pub const EW_SOCKET: i32 = -16;
@@ -361,11 +361,6 @@ impl Default for iodbpsd64__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbpsd64__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbpsd64__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbpsd64"][::std::mem::size_of::<iodbpsd64>() - 776usize];
@@ -383,15 +378,6 @@ impl Default for iodbpsd64 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbpsd64 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbpsd64 {{ datano: {:?}, type: {:?}, axis: {:?}, dummy: {:?}, u: {:?} }}",
-            self.datano, self.type_, self.axis, self.dummy, self.u
-        )
     }
 }
 pub type IODBPSD64 = iodbpsd64;
@@ -525,11 +511,6 @@ impl Default for odbdgn64__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbdgn64__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbdgn64__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdgn64"][::std::mem::size_of::<odbdgn64>() - 776usize];
@@ -547,15 +528,6 @@ impl Default for odbdgn64 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbdgn64 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbdgn64 {{ datano: {:?}, type: {:?}, axis: {:?}, dummy: {:?}, u: {:?} }}",
-            self.datano, self.type_, self.axis, self.dummy, self.u
-        )
     }
 }
 pub type ODBDGN64 = odbdgn64;
@@ -658,11 +630,6 @@ impl Default for odbdy__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbdy__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbdy__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdy"][::std::mem::size_of::<odbdy>() - 1064usize];
@@ -684,23 +651,6 @@ impl Default for odbdy {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbdy {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbdy {{ dummy: {:?}, axis: {:?}, alarm: {:?}, prgnum: {:?}, prgmnum: {:?}, seqnum: {:?}, actf: {:?}, acts: {:?}, pos: {:?} }}",
-            self.dummy,
-            self.axis,
-            self.alarm,
-            self.prgnum,
-            self.prgmnum,
-            self.seqnum,
-            self.actf,
-            self.acts,
-            self.pos
-        )
     }
 }
 pub type ODBDY = odbdy;
@@ -787,11 +737,6 @@ impl Default for odbdy2__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbdy2__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbdy2__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdy2"][::std::mem::size_of::<odbdy2>() - 1080usize];
@@ -813,23 +758,6 @@ impl Default for odbdy2 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbdy2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbdy2 {{ dummy: {:?}, axis: {:?}, alarm: {:?}, prgnum: {:?}, prgmnum: {:?}, seqnum: {:?}, actf: {:?}, acts: {:?}, pos: {:?} }}",
-            self.dummy,
-            self.axis,
-            self.alarm,
-            self.prgnum,
-            self.prgmnum,
-            self.seqnum,
-            self.actf,
-            self.acts,
-            self.pos
-        )
     }
 }
 pub type ODBDY2 = odbdy2;
@@ -916,11 +844,6 @@ impl Default for odbdy3__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbdy3__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbdy3__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdy3"][::std::mem::size_of::<odbdy3>() - 1080usize];
@@ -942,23 +865,6 @@ impl Default for odbdy3 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbdy3 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbdy3 {{ dummy: {:?}, axis: {:?}, alarm: {:?}, prgnum: {:?}, prgmnum: {:?}, seqnum: {:?}, actf: {:?}, acts: {:?}, pos: {:?} }}",
-            self.dummy,
-            self.axis,
-            self.alarm,
-            self.prgnum,
-            self.prgmnum,
-            self.seqnum,
-            self.actf,
-            self.acts,
-            self.pos
-        )
     }
 }
 pub type ODBDY3 = odbdy3;
@@ -1046,11 +952,6 @@ impl Default for odbdy3m__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbdy3m__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbdy3m__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdy3m"][::std::mem::size_of::<odbdy3m>() - 1080usize];
@@ -1072,23 +973,6 @@ impl Default for odbdy3m {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbdy3m {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbdy3m {{ dummy: {:?}, axis: {:?}, alarm: {:?}, prgnum: {:?}, prgmnum: {:?}, seqnum: {:?}, actf: {:?}, acts: {:?}, pos: {:?} }}",
-            self.dummy,
-            self.axis,
-            self.alarm,
-            self.prgnum,
-            self.prgmnum,
-            self.seqnum,
-            self.actf,
-            self.acts,
-            self.pos
-        )
     }
 }
 pub type ODBDY3M = odbdy3m;
@@ -1684,11 +1568,6 @@ impl Default for odbnc__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbnc__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbnc__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbnc"][::std::mem::size_of::<odbnc>() - 32usize];
@@ -1702,11 +1581,6 @@ impl Default for odbnc {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbnc {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbnc {{ u: {:?} }}", self.u)
     }
 }
 pub type ODBNC = odbnc;
@@ -2543,11 +2417,6 @@ impl Default for iodbto__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbto__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbto__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbto"][::std::mem::size_of::<iodbto>() - 368usize];
@@ -2564,15 +2433,6 @@ impl Default for iodbto {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbto {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbto {{ datano_s: {:?}, type: {:?}, datano_e: {:?}, u: {:?} }}",
-            self.datano_s, self.type_, self.datano_e, self.u
-        )
     }
 }
 pub type IODBTO = iodbto;
@@ -2779,11 +2639,6 @@ impl Default for iodbpsd__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbpsd__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbpsd__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbpsd"][::std::mem::size_of::<iodbpsd>() - 520usize];
@@ -2799,15 +2654,6 @@ impl Default for iodbpsd {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbpsd {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbpsd {{ datano: {:?}, type: {:?}, u: {:?} }}",
-            self.datano, self.type_, self.u
-        )
     }
 }
 pub type IODBPSD = iodbpsd;
@@ -2888,11 +2734,6 @@ impl Default for iodbbook__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbbook__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbbook__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbbook"][::std::mem::size_of::<iodbbook>() - 24usize];
@@ -2909,15 +2750,6 @@ impl Default for iodbbook {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbbook {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbbook {{ param_no: {:?}, axis: {:?}, type: {:?}, u: {:?} }}",
-            self.param_no, self.axis, self.type_, self.u
-        )
     }
 }
 pub type IODBBOOK = iodbbook;
@@ -3501,11 +3333,6 @@ impl Default for hspdata {
         }
     }
 }
-impl ::std::fmt::Debug for hspdata {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "hspdata {{ union }}")
-    }
-}
 pub type HSPDATA = hspdata;
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -3531,11 +3358,6 @@ impl Default for hspdatam {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for hspdatam {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "hspdatam {{ union }}")
     }
 }
 pub type HSPDATAM = hspdatam;
@@ -3641,11 +3463,6 @@ impl Default for iodbctpr__bindgen_ty_2__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbctpr__bindgen_ty_2__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbctpr__bindgen_ty_2__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbctpr__bindgen_ty_2"][::std::mem::size_of::<iodbctpr__bindgen_ty_2>() - 264usize];
@@ -3667,15 +3484,6 @@ impl Default for iodbctpr__bindgen_ty_2 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbctpr__bindgen_ty_2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbctpr__bindgen_ty_2 {{ datano: {:?}, type: {:?}, u: {:?} }}",
-            self.datano, self.type_, self.u
-        )
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbctpr"][::std::mem::size_of::<iodbctpr>() - 2144usize];
@@ -3690,15 +3498,6 @@ impl Default for iodbctpr {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbctpr {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbctpr {{ data: {:?}, prm: {:?} }}",
-            self.data, self.prm
-        )
     }
 }
 pub type IODBCTPR = iodbctpr;
@@ -3818,11 +3617,6 @@ impl Default for iodbctprm__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbctprm__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbctprm__bindgen_ty_1 {{ union }}")
-    }
-}
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct iodbctprm__bindgen_ty_2 {
@@ -3874,11 +3668,6 @@ impl Default for iodbctprm__bindgen_ty_2__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbctprm__bindgen_ty_2__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbctprm__bindgen_ty_2__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbctprm__bindgen_ty_2"]
@@ -3901,15 +3690,6 @@ impl Default for iodbctprm__bindgen_ty_2 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbctprm__bindgen_ty_2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbctprm__bindgen_ty_2 {{ datano: {:?}, type: {:?}, u: {:?} }}",
-            self.datano, self.type_, self.u
-        )
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbctprm"][::std::mem::size_of::<iodbctprm>() - 4200usize];
@@ -3924,15 +3704,6 @@ impl Default for iodbctprm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbctprm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbctprm {{ data: {:?}, prm: {:?} }}",
-            self.data, self.prm
-        )
     }
 }
 pub type IODBCTPRM = iodbctprm;
@@ -4907,11 +4678,6 @@ impl Default for idbtlm__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for idbtlm__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "idbtlm__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of idbtlm"][::std::mem::size_of::<idbtlm>() - 16usize];
@@ -4926,15 +4692,6 @@ impl Default for idbtlm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for idbtlm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "idbtlm {{ data_id: {:?}, item: {:?} }}",
-            self.data_id, self.item
-        )
     }
 }
 pub type IDBTLM = idbtlm;
@@ -4973,11 +4730,6 @@ impl Default for iodbtlm2__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbtlm2__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbtlm2__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbtlm2"][::std::mem::size_of::<iodbtlm2>() - 16usize];
@@ -4993,15 +4745,6 @@ impl Default for iodbtlm2 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbtlm2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbtlm2 {{ number: {:?}, reserve: {:?}, item: {:?} }}",
-            self.number, self.reserve, self.item
-        )
     }
 }
 pub type IODBTLM2 = iodbtlm2;
@@ -5448,15 +5191,6 @@ impl Default for idbtlm_srchdt {
         }
     }
 }
-impl ::std::fmt::Debug for idbtlm_srchdt {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "idbtlm_srchdt {{ id_info: {:?}, srch_cond: {:?}, add_cond: {:?} }}",
-            self.id_info, self.srch_cond, self.add_cond
-        )
-    }
-}
 pub type IDBTLM_SRCHDT = idbtlm_srchdt;
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -5595,11 +5329,6 @@ impl Default for odbtlmng_edge_data__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbtlmng_edge_data__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbtlmng_edge_data__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbtlmng_edge_data"][::std::mem::size_of::<odbtlmng_edge_data>() - 88usize];
@@ -5614,11 +5343,6 @@ impl Default for odbtlmng_edge_data {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbtlmng_edge_data {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbtlmng_edge_data {{ u: {:?} }}", self.u)
     }
 }
 pub type ODBTLMNG_EDGE_DATA = odbtlmng_edge_data;
@@ -5647,15 +5371,6 @@ impl Default for odbtlmng_mu_edge {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbtlmng_mu_edge {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbtlmng_mu_edge {{ data_no: {:?}, edge_no: {:?}, edge_data: {:?} }}",
-            self.data_no, self.edge_no, self.edge_data
-        )
     }
 }
 pub type ODBTLMNG_MU_EDGE = odbtlmng_mu_edge;
@@ -5739,11 +5454,6 @@ impl Default for iodbtlmgr_page__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbtlmgr_page__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbtlmgr_page__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbtlmgr_page"][::std::mem::size_of::<iodbtlmgr_page>() - 8usize];
@@ -5758,11 +5468,6 @@ impl Default for iodbtlmgr_page {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbtlmgr_page {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbtlmgr_page {{ info: {:?} }}", self.info)
     }
 }
 pub type IODBTLMGR_PAGE = iodbtlmgr_page;
@@ -5943,11 +5648,6 @@ impl Default for odbhis__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbhis__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbhis__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbhis"][::std::mem::size_of::<odbhis>() - 86usize];
@@ -5964,15 +5664,6 @@ impl Default for odbhis {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbhis {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbhis {{ s_no: {:?}, type: {:?}, e_no: {:?}, data: {:?} }}",
-            self.s_no, self.type_, self.e_no, self.data
-        )
     }
 }
 pub type ODBHIS = odbhis;
@@ -6136,11 +5827,6 @@ impl Default for odbophis__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbophis__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbophis__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbophis"][::std::mem::size_of::<odbophis>() - 24usize];
@@ -6156,15 +5842,6 @@ impl Default for odbophis {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbophis {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbophis {{ rec_len: {:?}, rec_type: {:?}, u: {:?} }}",
-            self.rec_len, self.rec_type, self.u
-        )
     }
 }
 pub type ODBOPHIS = odbophis;
@@ -6328,11 +6005,6 @@ impl Default for odbophis3__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbophis3__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbophis3__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbophis3"][::std::mem::size_of::<odbophis3>() - 24usize];
@@ -6348,15 +6020,6 @@ impl Default for odbophis3 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbophis3 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbophis3 {{ rec_len: {:?}, rec_type: {:?}, u: {:?} }}",
-            self.rec_len, self.rec_type, self.u
-        )
     }
 }
 pub type ODBOPHIS3 = odbophis3;
@@ -7037,11 +6700,6 @@ impl Default for odbophis4__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbophis4__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbophis4__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbophis4"][::std::mem::size_of::<odbophis4>() - 872usize];
@@ -7057,15 +6715,6 @@ impl Default for odbophis4 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbophis4 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbophis4 {{ rec_len: {:?}, rec_type: {:?}, u: {:?} }}",
-            self.rec_len, self.rec_type, self.u
-        )
     }
 }
 pub type ODBOPHIS4 = odbophis4;
@@ -7984,11 +7633,6 @@ impl Default for odbcrntshp__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbcrntshp__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbcrntshp__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbcrntshp"][::std::mem::size_of::<odbcrntshp>() - 120usize];
@@ -8009,15 +7653,6 @@ impl Default for odbcrntshp {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbcrntshp {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbcrntshp {{ fig_type: {:?}, reserve: {:?}, fig: {:?}, cb_form: {:?}, reserve2: {:?} }}",
-            self.fig_type, self.reserve, self.fig, self.cb_form, self.reserve2
-        )
     }
 }
 pub type ODBCRNTSHP = odbcrntshp;
@@ -8155,11 +7790,6 @@ impl Default for odbfig__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbfig__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbfig__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbfig"][::std::mem::size_of::<odbfig>() - 112usize];
@@ -8177,15 +7807,6 @@ impl Default for odbfig {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbfig {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbfig {{ fig_type: {:?}, fig: {:?}, fig_no: {:?}, n_unit: {:?}, cb_form: {:?} }}",
-            self.fig_type, self.fig, self.fig_no, self.n_unit, self.cb_form
-        )
     }
 }
 pub type ODBFIG = odbfig;
@@ -8491,11 +8112,6 @@ impl Default for alminfo__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for alminfo__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "alminfo__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of alminfo"][::std::mem::size_of::<alminfo>() - 248usize];
@@ -8509,11 +8125,6 @@ impl Default for alminfo {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for alminfo {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "alminfo {{ u: {:?} }}", self.u)
     }
 }
 pub type ALMINFO = alminfo;
@@ -8647,11 +8258,6 @@ impl Default for alminfo2__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for alminfo2__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "alminfo2__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of alminfo2"][::std::mem::size_of::<alminfo2>() - 202usize];
@@ -8665,11 +8271,6 @@ impl Default for alminfo2 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for alminfo2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "alminfo2 {{ u: {:?} }}", self.u)
     }
 }
 pub type ALMINFO2 = alminfo2;
@@ -8860,11 +8461,6 @@ impl Default for odbmdl__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbmdl__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbmdl__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbmdl"][::std::mem::size_of::<odbmdl>() - 520usize];
@@ -8880,15 +8476,6 @@ impl Default for odbmdl {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbmdl {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbmdl {{ datano: {:?}, type: {:?}, modal: {:?} }}",
-            self.datano, self.type_, self.modal
-        )
     }
 }
 pub type ODBMDL = odbmdl;
@@ -8991,11 +8578,6 @@ impl Default for odbdgn__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbdgn__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbdgn__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdgn"][::std::mem::size_of::<odbdgn>() - 520usize];
@@ -9011,15 +8593,6 @@ impl Default for odbdgn {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbdgn {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbdgn {{ datano: {:?}, type: {:?}, u: {:?} }}",
-            self.datano, self.type_, self.u
-        )
     }
 }
 pub type ODBDGN = odbdgn;
@@ -10097,11 +9670,6 @@ impl Default for iodbwave__bindgen_ty_1__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbwave__bindgen_ty_1__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbwave__bindgen_ty_1__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbwave__bindgen_ty_1"][::std::mem::size_of::<iodbwave__bindgen_ty_1>() - 16usize];
@@ -10119,15 +9687,6 @@ impl Default for iodbwave__bindgen_ty_1 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbwave__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbwave__bindgen_ty_1 {{ kind: {:?}, u: {:?} }}",
-            self.kind, self.u
-        )
     }
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
@@ -10149,21 +9708,6 @@ impl Default for iodbwave {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbwave {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbwave {{ condition: {:?}, trg_adr: {:?}, trg_bit: {:?}, trg_no: {:?}, delay: {:?}, t_range: {:?}, ch: {:?} }}",
-            self.condition,
-            self.trg_adr,
-            self.trg_bit,
-            self.trg_no,
-            self.delay,
-            self.t_range,
-            self.ch
-        )
     }
 }
 pub type IODBWAVE = iodbwave;
@@ -10232,11 +9776,6 @@ impl Default for iodbwvprm__bindgen_ty_1__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbwvprm__bindgen_ty_1__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbwvprm__bindgen_ty_1__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbwvprm__bindgen_ty_1"][::std::mem::size_of::<iodbwvprm__bindgen_ty_1>() - 24usize];
@@ -10256,15 +9795,6 @@ impl Default for iodbwvprm__bindgen_ty_1 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbwvprm__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbwvprm__bindgen_ty_1 {{ kind: {:?}, u: {:?}, reserve2: {:?} }}",
-            self.kind, self.u, self.reserve2
-        )
     }
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
@@ -10288,22 +9818,6 @@ impl Default for iodbwvprm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbwvprm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbwvprm {{ condition: {:?}, trg_adr: {:?}, trg_bit: {:?}, trg_no: {:?}, reserve1: {:?}, delay: {:?}, t_range: {:?}, ch: {:?} }}",
-            self.condition,
-            self.trg_adr,
-            self.trg_bit,
-            self.trg_no,
-            self.reserve1,
-            self.delay,
-            self.t_range,
-            self.ch
-        )
     }
 }
 pub type IODBWVPRM = iodbwvprm;
@@ -10413,11 +9927,6 @@ impl Default for iodbwvprm3__bindgen_ty_1__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbwvprm3__bindgen_ty_1__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbwvprm3__bindgen_ty_1__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbwvprm3__bindgen_ty_1"]
@@ -10438,15 +9947,6 @@ impl Default for iodbwvprm3__bindgen_ty_1 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbwvprm3__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbwvprm3__bindgen_ty_1 {{ kind: {:?}, reserve2: {:?}, u: {:?} }}",
-            self.kind, self.reserve2, self.u
-        )
     }
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
@@ -10482,28 +9982,6 @@ impl Default for iodbwvprm3 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbwvprm3 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbwvprm3 {{ condition: {:?}, trg_unittype: {:?}, trg_adr: {:?}, trg_bit: {:?}, trg_no: {:?}, alm_kind: {:?}, alm_no: {:?}, alm_axis: {:?}, reserve1: {:?}, delay: {:?}, t_range: {:?}, wav_cycle: {:?}, dio_cycle: {:?}, ch: {:?} }}",
-            self.condition,
-            self.trg_unittype,
-            self.trg_adr,
-            self.trg_bit,
-            self.trg_no,
-            self.alm_kind,
-            self.alm_no,
-            self.alm_axis,
-            self.reserve1,
-            self.delay,
-            self.t_range,
-            self.wav_cycle,
-            self.dio_cycle,
-            self.ch
-        )
     }
 }
 pub type IODBWVPRM3 = iodbwvprm3;
@@ -10567,11 +10045,6 @@ impl Default for odbwvdt__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbwvdt__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbwvdt__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbwvdt"][::std::mem::size_of::<odbwvdt>() - 16400usize];
@@ -10595,25 +10068,6 @@ impl Default for odbwvdt {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbwvdt {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbwvdt {{ channel: {:?}, kind: {:?}, u: {:?}, year: {:?}, month: {:?}, day: {:?}, hour: {:?}, minute: {:?}, second: {:?}, t_cycle: {:?}, data: {:?} }}",
-            self.channel,
-            self.kind,
-            self.u,
-            self.year,
-            self.month,
-            self.day,
-            self.hour,
-            self.minute,
-            self.second,
-            self.t_cycle,
-            self.data
-        )
     }
 }
 pub type ODBWVDT = odbwvdt;
@@ -10690,11 +10144,6 @@ impl Default for odbwvdt2__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbwvdt2__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbwvdt2__bindgen_ty_1 {{ union }}")
-    }
-}
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
 pub struct odbwvdt2__bindgen_ty_2 {
@@ -10742,15 +10191,6 @@ impl Default for odbwvdt2 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbwvdt2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbwvdt2 {{ channel: {:?}, u: {:?}, start: {:?}, stop: {:?}, t_cycle: {:?}, adjust: {:?}, data: {:?} }}",
-            self.channel, self.u, self.start, self.stop, self.t_cycle, self.adjust, self.data
-        )
     }
 }
 pub type ODBWVDT2 = odbwvdt2;
@@ -10837,11 +10277,6 @@ impl Default for odbwvdt3__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbwvdt3__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbwvdt3__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbwvdt3"][::std::mem::size_of::<odbwvdt3>() - 16404usize];
@@ -10865,25 +10300,6 @@ impl Default for odbwvdt3 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbwvdt3 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbwvdt3 {{ channel: {:?}, kind: {:?}, u: {:?}, year: {:?}, month: {:?}, day: {:?}, hour: {:?}, minute: {:?}, second: {:?}, t_cycle: {:?}, data: {:?} }}",
-            self.channel,
-            self.kind,
-            self.u,
-            self.year,
-            self.month,
-            self.day,
-            self.hour,
-            self.minute,
-            self.second,
-            self.t_cycle,
-            self.data
-        )
     }
 }
 pub type ODBWVDT3 = odbwvdt3;
@@ -10966,11 +10382,6 @@ impl Default for iodbrmtprm__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbrmtprm__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbrmtprm__bindgen_ty_1 {{ union }}")
-    }
-}
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
 pub struct iodbrmtprm__bindgen_ty_2 {
@@ -11015,23 +10426,6 @@ impl Default for iodbrmtprm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbrmtprm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbrmtprm {{ condition: {:?}, reserve: {:?}, trg: {:?}, delay: {:?}, wv_intrvl: {:?}, io_intrvl: {:?}, kind1: {:?}, kind2: {:?}, smpl: {:?} }}",
-            self.condition,
-            self.reserve,
-            self.trg,
-            self.delay,
-            self.wv_intrvl,
-            self.io_intrvl,
-            self.kind1,
-            self.kind2,
-            self.smpl
-        )
     }
 }
 pub type IODBRMTPRM = iodbrmtprm;
@@ -12843,11 +12237,6 @@ impl Default for iodbtimer__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbtimer__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbtimer__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbtimer"][::std::mem::size_of::<iodbtimer>() - 10usize];
@@ -12863,15 +12252,6 @@ impl Default for iodbtimer {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbtimer {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbtimer {{ type: {:?}, dummy: {:?}, data: {:?} }}",
-            self.type_, self.dummy, self.data
-        )
     }
 }
 pub type IODBTIMER = iodbtimer;
@@ -13675,11 +13055,6 @@ impl Default for iodbunsolic__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbunsolic__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbunsolic__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbunsolic"][::std::mem::size_of::<iodbunsolic>() - 104usize];
@@ -13704,23 +13079,6 @@ impl Default for iodbunsolic {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbunsolic {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbunsolic {{ ipaddr: {:?}, port: {:?}, reqaddr: {:?}, pmcno: {:?}, retry: {:?}, timeout: {:?}, alivetime: {:?}, setno: {:?}, rddata: {:?} }}",
-            self.ipaddr,
-            self.port,
-            self.reqaddr,
-            self.pmcno,
-            self.retry,
-            self.timeout,
-            self.alivetime,
-            self.setno,
-            self.rddata
-        )
     }
 }
 pub type IODBUNSOLIC = iodbunsolic;
@@ -13803,11 +13161,6 @@ impl Default for unsolicmsg_type_prm__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for unsolicmsg_type_prm__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "unsolicmsg_type_prm__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of unsolicmsg_type_prm"][::std::mem::size_of::<unsolicmsg_type_prm>() - 32usize];
@@ -13826,15 +13179,6 @@ impl Default for unsolicmsg_type_prm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for unsolicmsg_type_prm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "unsolicmsg_type_prm {{ type: {:?}, dummy1: {:?}, prm: {:?} }}",
-            self.type_, self.dummy1, self.prm
-        )
     }
 }
 pub type UNSOLICMSG_TYPE_PRM = unsolicmsg_type_prm;
@@ -13881,24 +13225,6 @@ impl Default for iodbunsolic2 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbunsolic2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbunsolic2 {{ ipaddr: {:?}, port: {:?}, retry: {:?}, timeout: {:?}, alivetime: {:?}, dummy1: {:?}, cntrl: {:?}, transnum: {:?}, dummy2: {:?}, trans: {:?} }}",
-            self.ipaddr,
-            self.port,
-            self.retry,
-            self.timeout,
-            self.alivetime,
-            self.dummy1,
-            self.cntrl,
-            self.transnum,
-            self.dummy2,
-            self.trans
-        )
     }
 }
 pub type IODBUNSOLIC2 = iodbunsolic2;
@@ -14049,11 +13375,6 @@ impl Default for unsolicmsg_type_msg__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for unsolicmsg_type_msg__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "unsolicmsg_type_msg__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of unsolicmsg_type_msg"][::std::mem::size_of::<unsolicmsg_type_msg>() - 32usize];
@@ -14072,15 +13393,6 @@ impl Default for unsolicmsg_type_msg {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for unsolicmsg_type_msg {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "unsolicmsg_type_msg {{ type: {:?}, dummy1: {:?}, msg: {:?} }}",
-            self.type_, self.dummy1, self.msg
-        )
     }
 }
 pub type UNSOLICMSG_TYPE_MSG = unsolicmsg_type_msg;
@@ -14108,15 +13420,6 @@ impl Default for idbunsolicmsg2 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for idbunsolicmsg2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "idbunsolicmsg2 {{ getnum: {:?}, dummy: {:?}, get: {:?} }}",
-            self.getnum, self.dummy, self.get
-        )
     }
 }
 pub type IDBUNSOLICMSG2 = idbunsolicmsg2;
@@ -14245,11 +13548,6 @@ impl Default for iodbembethprmw__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbembethprmw__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbembethprmw__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbembethprmw"][::std::mem::size_of::<iodbembethprmw>() - 48usize];
@@ -14264,11 +13562,6 @@ impl Default for iodbembethprmw {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbembethprmw {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbembethprmw {{ embethprm: {:?} }}", self.embethprm)
     }
 }
 pub type IODBEMBETHPRMW = iodbembethprmw;
@@ -14329,7 +13622,7 @@ pub struct odbsysex {
     pub ctrl_mchn: ::std::os::raw::c_short,
     pub addinfo: ::std::os::raw::c_short,
     pub reserved: [::std::os::raw::c_short; 2usize],
-    pub path: [odbsysex__bindgen_ty_1; 10usize],
+    pub path: [odbsysex__bindgen_ty_1; 15usize],
 }
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -14367,7 +13660,7 @@ const _: () = {
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsysex"][::std::mem::size_of::<odbsysex>() - 184usize];
+    ["Size of odbsysex"][::std::mem::size_of::<odbsysex>() - 264usize];
     ["Alignment of odbsysex"][::std::mem::align_of::<odbsysex>() - 2usize];
     ["Offset of field: odbsysex::max_axis"][::std::mem::offset_of!(odbsysex, max_axis) - 0usize];
     ["Offset of field: odbsysex::max_spdl"][::std::mem::offset_of!(odbsysex, max_spdl) - 2usize];
@@ -14675,7 +13968,7 @@ pub type POSINF = posinf;
 #[derive(Debug, Default, Copy, Clone)]
 pub struct odb3dchk {
     pub pathno: ::std::os::raw::c_long,
-    pub path: [odb3dchk__bindgen_ty_1; 10usize],
+    pub path: [odb3dchk__bindgen_ty_1; 15usize],
 }
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -14713,7 +14006,7 @@ const _: () = {
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odb3dchk"][::std::mem::size_of::<odb3dchk>() - 16648usize];
+    ["Size of odb3dchk"][::std::mem::size_of::<odb3dchk>() - 24968usize];
     ["Alignment of odb3dchk"][::std::mem::align_of::<odb3dchk>() - 8usize];
     ["Offset of field: odb3dchk::pathno"][::std::mem::offset_of!(odb3dchk, pathno) - 0usize];
     ["Offset of field: odb3dchk::path"][::std::mem::offset_of!(odb3dchk, path) - 8usize];
@@ -14773,7 +14066,7 @@ pub type ODB3DMTBINFO2 = odb3dmtbinfo2;
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
 pub struct idb3dmstop {
-    pub path: [idb3dmstop__bindgen_ty_1; 10usize],
+    pub path: [idb3dmstop__bindgen_ty_1; 15usize],
 }
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -14794,7 +14087,7 @@ const _: () = {
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idb3dmstop"][::std::mem::size_of::<idb3dmstop>() - 160usize];
+    ["Size of idb3dmstop"][::std::mem::size_of::<idb3dmstop>() - 240usize];
     ["Alignment of idb3dmstop"][::std::mem::align_of::<idb3dmstop>() - 8usize];
     ["Offset of field: idb3dmstop::path"][::std::mem::offset_of!(idb3dmstop, path) - 0usize];
 };
@@ -15008,11 +14301,6 @@ impl Default for odbmdgval {
         }
     }
 }
-impl ::std::fmt::Debug for odbmdgval {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbmdgval {{ union }}")
-    }
-}
 pub type ODBMDGVAL = odbmdgval;
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -15036,15 +14324,6 @@ impl Default for odbmdgdt {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbmdgdt {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbmdgdt {{ dt: {:?}, fp: {:?}, reserved: {:?} }}",
-            self.dt, self.fp, self.reserved
-        )
     }
 }
 pub type ODBMDGDT = odbmdgdt;
@@ -15102,21 +14381,6 @@ impl Default for odbsv2_grp1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbsv2_grp1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbsv2_grp1 {{ cmd_pls: {:?}, fb_pls: {:?}, refc: {:?}, pos_err: {:?}, act_spd: {:?}, amr: {:?}, reserved: {:?} }}",
-            self.cmd_pls,
-            self.fb_pls,
-            self.refc,
-            self.pos_err,
-            self.act_spd,
-            self.amr,
-            self.reserved
-        )
-    }
-}
 pub type ODBSV2_GRP1 = odbsv2_grp1;
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -15150,15 +14414,6 @@ impl Default for odbsv2_grp2 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbsv2_grp2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbsv2_grp2 {{ mt_cur: {:?}, trq_cmd: {:?}, efc_cur: {:?}, dlvl: {:?}, heat: {:?}, opt: {:?}, opt2: {:?} }}",
-            self.mt_cur, self.trq_cmd, self.efc_cur, self.dlvl, self.heat, self.opt, self.opt2
-        )
     }
 }
 pub type ODBSV2_GRP2 = odbsv2_grp2;
@@ -15201,22 +14456,6 @@ impl Default for odbsv2_grp3 {
         }
     }
 }
-impl ::std::fmt::Debug for odbsv2_grp3 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbsv2_grp3 {{ ps_vumb: {:?}, ps_vthd: {:?}, freq: {:?}, ps_vrms: {:?}, ps_cur: {:?}, dvolt: {:?}, ps_statf: {:?}, reserved: {:?} }}",
-            self.ps_vumb,
-            self.ps_vthd,
-            self.freq,
-            self.ps_vrms,
-            self.ps_cur,
-            self.dvolt,
-            self.ps_statf,
-            self.reserved
-        )
-    }
-}
 pub type ODBSV2_GRP3 = odbsv2_grp3;
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -15243,15 +14482,6 @@ impl Default for odbsv2_grp4 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbsv2_grp4 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbsv2_grp4 {{ resistance: {:?}, detect_res: {:?}, reserved: {:?} }}",
-            self.resistance, self.detect_res, self.reserved
-        )
     }
 }
 pub type ODBSV2_GRP4 = odbsv2_grp4;
@@ -15457,24 +14687,6 @@ impl Default for odbsp2_grp2 {
         }
     }
 }
-impl ::std::fmt::Debug for odbsp2_grp2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbsp2_grp2 {{ pos_err: {:?}, syn_err: {:?}, sp_spd: {:?}, mt_spd: {:?}, mt_cur: {:?}, ldmtr: {:?}, trq_cmd: {:?}, heat_mt: {:?}, heat_amp: {:?}, reserved: {:?} }}",
-            self.pos_err,
-            self.syn_err,
-            self.sp_spd,
-            self.mt_spd,
-            self.mt_cur,
-            self.ldmtr,
-            self.trq_cmd,
-            self.heat_mt,
-            self.heat_amp,
-            self.reserved
-        )
-    }
-}
 pub type ODBSP2_GRP2 = odbsp2_grp2;
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -15515,22 +14727,6 @@ impl Default for odbsp2_grp3 {
         }
     }
 }
-impl ::std::fmt::Debug for odbsp2_grp3 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbsp2_grp3 {{ ps_vumb: {:?}, ps_vthd: {:?}, freq: {:?}, ps_vrms: {:?}, ps_cur: {:?}, dvolt: {:?}, ps_statf: {:?}, reserved: {:?} }}",
-            self.ps_vumb,
-            self.ps_vthd,
-            self.freq,
-            self.ps_vrms,
-            self.ps_cur,
-            self.dvolt,
-            self.ps_statf,
-            self.reserved
-        )
-    }
-}
 pub type ODBSP2_GRP3 = odbsp2_grp3;
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -15557,15 +14753,6 @@ impl Default for odbsp2_grp4 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbsp2_grp4 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbsp2_grp4 {{ resistance: {:?}, detect_res: {:?}, reserved: {:?} }}",
-            self.resistance, self.detect_res, self.reserved
-        )
     }
 }
 pub type ODBSP2_GRP4 = odbsp2_grp4;
@@ -15684,24 +14871,6 @@ impl Default for odbsp2_grp7 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbsp2_grp7 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbsp2_grp7 {{ iab_amplt: {:?}, eab_amplt: {:?}, iab_ofs_a: {:?}, iab_ofs_b: {:?}, iab_noise: {:?}, eab_ofs_a: {:?}, eab_ofs_b: {:?}, eab_noise: {:?}, iab_max_flt: {:?}, eab_max_flt: {:?} }}",
-            self.iab_amplt,
-            self.eab_amplt,
-            self.iab_ofs_a,
-            self.iab_ofs_b,
-            self.iab_noise,
-            self.eab_ofs_a,
-            self.eab_ofs_b,
-            self.eab_noise,
-            self.iab_max_flt,
-            self.eab_max_flt
-        )
     }
 }
 pub type ODBSP2_GRP7 = odbsp2_grp7;
@@ -15831,11 +15000,6 @@ impl Default for odbviewgrp2 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbviewgrp2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbviewgrp2 {{ union }}")
     }
 }
 pub type ODBVIEWGRP2 = odbviewgrp2;
@@ -16324,11 +15488,6 @@ impl Default for odbdyo8__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbdyo8__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbdyo8__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdyo8"][::std::mem::size_of::<odbdyo8>() - 1072usize];
@@ -16350,23 +15509,6 @@ impl Default for odbdyo8 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbdyo8 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "odbdyo8 {{ dummy: {:?}, axis: {:?}, alarm: {:?}, prgnum: {:?}, prgmnum: {:?}, seqnum: {:?}, actf: {:?}, acts: {:?}, pos: {:?} }}",
-            self.dummy,
-            self.axis,
-            self.alarm,
-            self.prgnum,
-            self.prgmnum,
-            self.seqnum,
-            self.actf,
-            self.acts,
-            self.pos
-        )
     }
 }
 pub type ODBDYO8 = odbdyo8;
@@ -16653,11 +15795,11 @@ pub struct tagODBIFSBINFO {
     pub fssb_line_mnt_st: ::std::os::raw::c_uchar,
     pub reserve: ::std::os::raw::c_uchar,
     pub card_num: ::std::os::raw::c_ushort,
-    pub line_info: [ODBIFSBLINE; 3usize],
+    pub line_info: [ODBIFSBLINE; 4usize],
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tagODBIFSBINFO"][::std::mem::size_of::<tagODBIFSBINFO>() - 28usize];
+    ["Size of tagODBIFSBINFO"][::std::mem::size_of::<tagODBIFSBINFO>() - 36usize];
     ["Alignment of tagODBIFSBINFO"][::std::mem::align_of::<tagODBIFSBINFO>() - 2usize];
     ["Offset of field: tagODBIFSBINFO::fssb_line_mnt_st"]
         [::std::mem::offset_of!(tagODBIFSBINFO, fssb_line_mnt_st) - 0usize];
@@ -17577,11 +16719,6 @@ impl Default for iodbpmc__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbpmc__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbpmc__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbpmc"][::std::mem::size_of::<iodbpmc>() - 48usize];
@@ -17599,15 +16736,6 @@ impl Default for iodbpmc {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbpmc {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbpmc {{ type_a: {:?}, type_d: {:?}, datano_s: {:?}, datano_e: {:?}, u: {:?} }}",
-            self.type_a, self.type_d, self.datano_s, self.datano_e, self.u
-        )
     }
 }
 pub type IODBPMC = iodbpmc;
@@ -18652,11 +17780,6 @@ impl Default for _iodbetp__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _iodbetp__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_iodbetp__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _iodbetp"][::std::mem::size_of::<_iodbetp>() - 212usize];
@@ -18672,15 +17795,6 @@ impl Default for _iodbetp {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _iodbetp {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "_iodbetp {{ ParameterType: {:?}, prm: {:?} }}",
-            self.ParameterType, self.prm
-        )
     }
 }
 pub type IODBETP = _iodbetp;
@@ -19226,24 +18340,6 @@ impl Default for _unsolicmsg_prm {
         }
     }
 }
-impl ::std::fmt::Debug for _unsolicmsg_prm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "_unsolicmsg_prm {{ HostName: {:?}, Port: {:?}, RetryCount: {:?}, Timeout: {:?}, AliveTime: {:?}, dummy1: {:?}, Control: {:?}, TransmissionNumber: {:?}, dummy2: {:?}, Transmission: {:?} }}",
-            self.HostName,
-            self.Port,
-            self.RetryCount,
-            self.Timeout,
-            self.AliveTime,
-            self.dummy1,
-            self.Control,
-            self.TransmissionNumber,
-            self.dummy2,
-            self.Transmission
-        )
-    }
-}
 pub type UNSOLICMSG_PRM = _unsolicmsg_prm;
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -19686,11 +18782,6 @@ impl Default for _unsolicmsg_type_prm_flg__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _unsolicmsg_type_prm_flg__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_unsolicmsg_type_prm_flg__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _unsolicmsg_type_prm_flg"]
@@ -19713,15 +18804,6 @@ impl Default for _unsolicmsg_type_prm_flg {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _unsolicmsg_type_prm_flg {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "_unsolicmsg_type_prm_flg {{ Type: {:?}, dummy1: {:?}, Prm: {:?}, dummy2: {:?} }}",
-            self.Type, self.dummy1, self.Prm, self.dummy2
-        )
     }
 }
 pub type UNSOLICMSG_TYPE_PRM_FLG = _unsolicmsg_type_prm_flg;
@@ -19771,24 +18853,6 @@ impl Default for _unsolicmsg_prm_flg {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _unsolicmsg_prm_flg {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "_unsolicmsg_prm_flg {{ HostName: {:?}, Port: {:?}, RetryCount: {:?}, Timeout: {:?}, AliveTime: {:?}, dummy1: {:?}, Control: {:?}, TransmissionNumber: {:?}, dummy2: {:?}, Transmission: {:?} }}",
-            self.HostName,
-            self.Port,
-            self.RetryCount,
-            self.Timeout,
-            self.AliveTime,
-            self.dummy1,
-            self.Control,
-            self.TransmissionNumber,
-            self.dummy2,
-            self.Transmission
-        )
     }
 }
 pub type UNSOLICMSG_PRM_FLG = _unsolicmsg_prm_flg;
@@ -19955,11 +19019,6 @@ impl Default for _in_ethprm_flag__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _in_ethprm_flag__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_in_ethprm_flag__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _in_ethprm_flag"][::std::mem::size_of::<_in_ethprm_flag>() - 44usize];
@@ -19974,11 +19033,6 @@ impl Default for _in_ethprm_flag {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _in_ethprm_flag {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_in_ethprm_flag {{ flg: {:?} }}", self.flg)
     }
 }
 pub type IN_ETHPRMFLAG = _in_ethprm_flag;
@@ -20049,11 +19103,6 @@ impl Default for _in_ethprm__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _in_ethprm__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_in_ethprm__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _in_ethprm"][::std::mem::size_of::<_in_ethprm>() - 1024usize];
@@ -20079,21 +19128,6 @@ impl Default for _in_ethprm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _in_ethprm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "_in_ethprm {{ reserve01: {:?}, reserve02: {:?}, reserve03: {:?}, reserve04: {:?}, reserve05: {:?}, reserve06: {:?}, prm: {:?} }}",
-            self.reserve01,
-            self.reserve02,
-            self.reserve03,
-            self.reserve04,
-            self.reserve05,
-            self.reserve06,
-            self.prm
-        )
     }
 }
 pub type IN_ETHPRM = _in_ethprm;
@@ -20164,11 +19198,6 @@ impl Default for _out_ethprm__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _out_ethprm__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_out_ethprm__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _out_ethprm"][::std::mem::size_of::<_out_ethprm>() - 1024usize];
@@ -20191,21 +19220,6 @@ impl Default for _out_ethprm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _out_ethprm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "_out_ethprm {{ Option: {:?}, Type: {:?}, Dhcp: {:?}, ValidDevice: {:?}, DtsvrChannel: {:?}, Storage: {:?}, prm: {:?} }}",
-            self.Option,
-            self.Type,
-            self.Dhcp,
-            self.ValidDevice,
-            self.DtsvrChannel,
-            self.Storage,
-            self.prm
-        )
     }
 }
 pub type OUT_ETHPRM = _out_ethprm;
@@ -20384,11 +19398,6 @@ impl Default for _out_ethlsi__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _out_ethlsi__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_out_ethlsi__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _out_ethlsi"][::std::mem::size_of::<_out_ethlsi>() - 32usize];
@@ -20411,20 +19420,6 @@ impl Default for _out_ethlsi {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _out_ethlsi {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "_out_ethlsi {{ Type: {:?}, Baudrate: {:?}, RecvPacketCount: {:?}, RecvBroadcastCount: {:?}, SendPacketCount: {:?}, lst: {:?} }}",
-            self.Type,
-            self.Baudrate,
-            self.RecvPacketCount,
-            self.RecvBroadcastCount,
-            self.SendPacketCount,
-            self.lst
-        )
     }
 }
 pub type OUT_ETHLSI = _out_ethlsi;
@@ -20860,11 +19855,6 @@ impl Default for _out_netdevprm__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _out_netdevprm__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_out_netdevprm__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _out_netdevprm"][::std::mem::size_of::<_out_netdevprm>() - 32usize];
@@ -20878,11 +19868,6 @@ impl Default for _out_netdevprm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _out_netdevprm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_out_netdevprm {{ prm: {:?} }}", self.prm)
     }
 }
 pub type OUT_NETDEVPRM = _out_netdevprm;
@@ -21100,11 +20085,6 @@ impl Default for _eip_type_prm__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _eip_type_prm__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_eip_type_prm__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _eip_type_prm"][::std::mem::size_of::<_eip_type_prm>() - 64usize];
@@ -21123,15 +20103,6 @@ impl Default for _eip_type_prm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _eip_type_prm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "_eip_type_prm {{ Type: {:?}, pad: {:?}, prm: {:?}, TagName: {:?}, pad2: {:?} }}",
-            self.Type, self.pad, self.prm, self.TagName, self.pad2
-        )
     }
 }
 pub type EIP_TYPE_PRM = _eip_type_prm;
@@ -21164,15 +20135,6 @@ impl Default for _eipa_alloc_prm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _eipa_alloc_prm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "_eipa_alloc_prm {{ State: {:?}, Option: {:?}, pad: {:?}, DI: {:?}, DO: {:?} }}",
-            self.State, self.Option, self.pad, self.DI, self.DO
-        )
     }
 }
 pub type EIPA_ALLOC_PRM = _eipa_alloc_prm;
@@ -21431,11 +20393,6 @@ impl Default for _eip_multi_addr__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _eip_multi_addr__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_eip_multi_addr__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _eip_multi_addr"][::std::mem::size_of::<_eip_multi_addr>() - 16usize];
@@ -21450,11 +20407,6 @@ impl Default for _eip_multi_addr {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _eip_multi_addr {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_eip_multi_addr {{ Prm: {:?} }}", self.Prm)
     }
 }
 pub type EIP_MULTI_ADDR = _eip_multi_addr;
@@ -21569,26 +20521,6 @@ impl Default for _eips_conn_prm {
         }
     }
 }
-impl ::std::fmt::Debug for _eips_conn_prm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "_eips_conn_prm {{ AssemblyInstance: {:?}, Type: {:?}, pad1: {:?}, Addr: {:?}, Size: {:?}, RPI: {:?}, TransportType: {:?}, HeaderFormat: {:?}, Priority: {:?}, pad2: {:?}, reserve: {:?}, pad3: {:?} }}",
-            self.AssemblyInstance,
-            self.Type,
-            self.pad1,
-            self.Addr,
-            self.Size,
-            self.RPI,
-            self.TransportType,
-            self.HeaderFormat,
-            self.Priority,
-            self.pad2,
-            self.reserve,
-            self.pad3
-        )
-    }
-}
 pub type EIPS_CONN_PRM = _eips_conn_prm;
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -21688,31 +20620,6 @@ impl Default for _eips_alloc_prm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _eips_alloc_prm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "_eips_alloc_prm {{ IpAddress: {:?}, Option1: {:?}, Option2: {:?}, DataUnit: {:?}, Endian: {:?}, ConfigInstance: {:?}, ConnT2O: {:?}, ConnO2T: {:?}, reserve1: {:?}, reserve2: {:?}, ProductTrigger: {:?}, Timeout: {:?}, Reconnect: {:?}, pad: {:?}, ElectronicKey: {:?}, DataPerSec: {:?}, DataPerSecTotal: {:?} }}",
-            self.IpAddress,
-            self.Option1,
-            self.Option2,
-            self.DataUnit,
-            self.Endian,
-            self.ConfigInstance,
-            self.ConnT2O,
-            self.ConnO2T,
-            self.reserve1,
-            self.reserve2,
-            self.ProductTrigger,
-            self.Timeout,
-            self.Reconnect,
-            self.pad,
-            self.ElectronicKey,
-            self.DataPerSec,
-            self.DataPerSecTotal
-        )
     }
 }
 pub type EIPS_ALLOC_PRM = _eips_alloc_prm;
@@ -21893,15 +20800,6 @@ impl Default for _in_eips_alloc {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _in_eips_alloc {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "_in_eips_alloc {{ flg: {:?}, prm: {:?} }}",
-            self.flg, self.prm
-        )
     }
 }
 pub type IN_EIPS_ALLOC = _in_eips_alloc;
@@ -22600,11 +21498,6 @@ impl Default for _OUT_PBMPRM__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _OUT_PBMPRM__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_OUT_PBMPRM__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _OUT_PBMPRM"][::std::mem::size_of::<_OUT_PBMPRM>() - 392usize];
@@ -22618,11 +21511,6 @@ impl Default for _OUT_PBMPRM {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _OUT_PBMPRM {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_OUT_PBMPRM {{ prm: {:?} }}", self.prm)
     }
 }
 pub type OUT_PBMPRM = _OUT_PBMPRM;
@@ -23032,11 +21920,6 @@ impl Default for _IN_PBMPRM__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _IN_PBMPRM__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_IN_PBMPRM__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _IN_PBMPRM"][::std::mem::size_of::<_IN_PBMPRM>() - 392usize];
@@ -23050,11 +21933,6 @@ impl Default for _IN_PBMPRM {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _IN_PBMPRM {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_IN_PBMPRM {{ prm: {:?} }}", self.prm)
     }
 }
 pub type IN_PBMPRM = _IN_PBMPRM;
@@ -23104,11 +21982,6 @@ impl Default for _IN_PBMPRMFLG__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _IN_PBMPRMFLG__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_IN_PBMPRMFLG__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _IN_PBMPRMFLG"][::std::mem::size_of::<_IN_PBMPRMFLG>() - 28usize];
@@ -23122,11 +21995,6 @@ impl Default for _IN_PBMPRMFLG {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _IN_PBMPRMFLG {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_IN_PBMPRMFLG {{ flg: {:?} }}", self.flg)
     }
 }
 pub type IN_PBMPRMFLG = _IN_PBMPRMFLG;
@@ -23262,11 +22130,6 @@ impl Default for _OUT_PBMSUBPRM__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _OUT_PBMSUBPRM__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_OUT_PBMSUBPRM__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _OUT_PBMSUBPRM"][::std::mem::size_of::<_OUT_PBMSUBPRM>() - 4usize];
@@ -23281,11 +22144,6 @@ impl Default for _OUT_PBMSUBPRM {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _OUT_PBMSUBPRM {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_OUT_PBMSUBPRM {{ subprm: {:?} }}", self.subprm)
     }
 }
 pub type OUT_PBMSUBPRM = _OUT_PBMSUBPRM;
@@ -23374,11 +22232,6 @@ impl Default for _OUT_PBMCOMINFO__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _OUT_PBMCOMINFO__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_OUT_PBMCOMINFO__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _OUT_PBMCOMINFO"][::std::mem::size_of::<_OUT_PBMCOMINFO>() - 6usize];
@@ -23393,11 +22246,6 @@ impl Default for _OUT_PBMCOMINFO {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _OUT_PBMCOMINFO {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_OUT_PBMCOMINFO {{ cominfo: {:?} }}", self.cominfo)
     }
 }
 pub type OUT_PBMCOMINFO = _OUT_PBMCOMINFO;
@@ -24483,11 +23331,6 @@ impl Default for _out_dnmprm__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _out_dnmprm__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_out_dnmprm__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _out_dnmprm"][::std::mem::size_of::<_out_dnmprm>() - 40usize];
@@ -24501,11 +23344,6 @@ impl Default for _out_dnmprm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _out_dnmprm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_out_dnmprm {{ prm: {:?} }}", self.prm)
     }
 }
 pub type OUT_DNMPRM = _out_dnmprm;
@@ -24589,11 +23427,6 @@ impl Default for _out_dnmprm2__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _out_dnmprm2__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_out_dnmprm2__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _out_dnmprm2"][::std::mem::size_of::<_out_dnmprm2>() - 40usize];
@@ -24607,11 +23440,6 @@ impl Default for _out_dnmprm2 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _out_dnmprm2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_out_dnmprm2 {{ prm: {:?} }}", self.prm)
     }
 }
 pub type OUT_DNMPRM2 = _out_dnmprm2;
@@ -24713,11 +23541,6 @@ impl Default for _in_dnmprmflag__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _in_dnmprmflag__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_in_dnmprmflag__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _in_dnmprmflag"][::std::mem::size_of::<_in_dnmprmflag>() - 16usize];
@@ -24731,11 +23554,6 @@ impl Default for _in_dnmprmflag {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _in_dnmprmflag {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_in_dnmprmflag {{ flg: {:?} }}", self.flg)
     }
 }
 pub type IN_DNMPRMFLAG = _in_dnmprmflag;
@@ -24810,11 +23628,6 @@ impl Default for _in_dnmprmflag2__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _in_dnmprmflag2__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_in_dnmprmflag2__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _in_dnmprmflag2"][::std::mem::size_of::<_in_dnmprmflag2>() - 16usize];
@@ -24829,11 +23642,6 @@ impl Default for _in_dnmprmflag2 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _in_dnmprmflag2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_in_dnmprmflag2 {{ flg: {:?} }}", self.flg)
     }
 }
 pub type IN_DNMPRMFLAG2 = _in_dnmprmflag2;
@@ -24945,11 +23753,6 @@ impl Default for _in_dnmprm__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _in_dnmprm__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_in_dnmprm__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _in_dnmprm"][::std::mem::size_of::<_in_dnmprm>() - 40usize];
@@ -24963,11 +23766,6 @@ impl Default for _in_dnmprm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _in_dnmprm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_in_dnmprm {{ prm: {:?} }}", self.prm)
     }
 }
 pub type IN_DNMPRM = _in_dnmprm;
@@ -25042,11 +23840,6 @@ impl Default for _in_dnmprm2__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for _in_dnmprm2__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_in_dnmprm2__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _in_dnmprm2"][::std::mem::size_of::<_in_dnmprm2>() - 40usize];
@@ -25060,11 +23853,6 @@ impl Default for _in_dnmprm2 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for _in_dnmprm2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "_in_dnmprm2 {{ prm: {:?} }}", self.prm)
     }
 }
 pub type IN_DNMPRM2 = _in_dnmprm2;
@@ -27608,11 +26396,6 @@ impl Default for odbptaxistat__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbptaxistat__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbptaxistat__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbptaxistat"][::std::mem::size_of::<odbptaxistat>() - 56usize];
@@ -27626,11 +26409,6 @@ impl Default for odbptaxistat {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbptaxistat {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbptaxistat {{ u: {:?} }}", self.u)
     }
 }
 pub type ODBPTAXISTAT = odbptaxistat;
@@ -27755,11 +26533,6 @@ impl Default for odbptspstat__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbptspstat__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbptspstat__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbptspstat"][::std::mem::size_of::<odbptspstat>() - 72usize];
@@ -27773,11 +26546,6 @@ impl Default for odbptspstat {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbptspstat {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbptspstat {{ u: {:?} }}", self.u)
     }
 }
 pub type ODBPTSPSTAT = odbptspstat;
@@ -27919,11 +26687,6 @@ impl Default for odbptaxfuncstat__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for odbptaxfuncstat__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbptaxfuncstat__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbptaxfuncstat"][::std::mem::size_of::<odbptaxfuncstat>() - 64usize];
@@ -27937,11 +26700,6 @@ impl Default for odbptaxfuncstat {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for odbptaxfuncstat {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "odbptaxfuncstat {{ u: {:?} }}", self.u)
     }
 }
 pub type ODBPTAXFUNCSTAT = odbptaxfuncstat;
@@ -28343,7 +27101,7 @@ pub type IODBPALAX = iodbpalax;
 #[derive(Debug, Default, Copy, Clone)]
 pub struct odbahdck {
     pub dat_path: ::std::os::raw::c_short,
-    pub info: [odbahdck__bindgen_ty_1; 10usize],
+    pub info: [odbahdck__bindgen_ty_1; 15usize],
 }
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -28363,7 +27121,7 @@ const _: () = {
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbahdck"][::std::mem::size_of::<odbahdck>() - 42usize];
+    ["Size of odbahdck"][::std::mem::size_of::<odbahdck>() - 62usize];
     ["Alignment of odbahdck"][::std::mem::align_of::<odbahdck>() - 2usize];
     ["Offset of field: odbahdck::dat_path"][::std::mem::offset_of!(odbahdck, dat_path) - 0usize];
     ["Offset of field: odbahdck::info"][::std::mem::offset_of!(odbahdck, info) - 2usize];
@@ -29559,11 +28317,6 @@ impl Default for idbviewgrp {
         }
     }
 }
-impl ::std::fmt::Debug for idbviewgrp {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "idbviewgrp {{ union }}")
-    }
-}
 pub type IDBTWPFORM = idbviewgrp;
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -29827,11 +28580,6 @@ impl Default for iodbpunch1_ex__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbpunch1_ex__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbpunch1_ex__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbpunch1_ex"][::std::mem::size_of::<iodbpunch1_ex>() - 32usize];
@@ -29852,15 +28600,6 @@ impl Default for iodbpunch1_ex {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbpunch1_ex {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbpunch1_ex {{ number: {:?}, attr: {:?}, u: {:?}, decimal: {:?}, reserve: {:?} }}",
-            self.number, self.attr, self.u, self.decimal, self.reserve
-        )
     }
 }
 pub type IODBPUNCH1_EX = iodbpunch1_ex;
@@ -29908,11 +28647,6 @@ impl Default for iodbpunch2_ex__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbpunch2_ex__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbpunch2_ex__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbpunch2_ex"][::std::mem::size_of::<iodbpunch2_ex>() - 40usize];
@@ -29933,15 +28667,6 @@ impl Default for iodbpunch2_ex {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbpunch2_ex {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbpunch2_ex {{ number: {:?}, attr: {:?}, u: {:?}, decimal: {:?}, reserve: {:?} }}",
-            self.number, self.attr, self.u, self.decimal, self.reserve
-        )
     }
 }
 pub type IODBPUNCH2_EX = iodbpunch2_ex;
@@ -30809,11 +29534,6 @@ impl Default for iodbsimuelm__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbsimuelm__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbsimuelm__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm"][::std::mem::size_of::<iodbsimuelm>() - 400usize];
@@ -30863,43 +29583,6 @@ impl Default for iodbsimuelm {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbsimuelm {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbsimuelm {{ type: {:?}, rot_w: {:?}, type2: {:?}, plane: {:?}, tcode: {:?}, data: {:?}, dm_type: {:?}, cssc_md: {:?}, dm_x: {:?}, dm_y: {:?}, dm_z: {:?}, cnt_x: {:?}, cord: {:?}, tlchng: {:?}, fd_type: {:?}, mcode: {:?}, dummy4: {:?}, cylndr: {:?}, aux: {:?}, dcode: {:?}, smax: {:?}, dwell: {:?}, fcode: {:?}, scode: {:?}, nummcd: {:?}, fcddec: {:?}, shift: {:?}, fbsft: {:?}, tilt: {:?} }}",
-            self.type_,
-            self.rot_w,
-            self.type2,
-            self.plane,
-            self.tcode,
-            self.data,
-            self.dm_type,
-            self.cssc_md,
-            self.dm_x,
-            self.dm_y,
-            self.dm_z,
-            self.cnt_x,
-            self.cord,
-            self.tlchng,
-            self.fd_type,
-            self.mcode,
-            self.dummy4,
-            self.cylndr,
-            self.aux,
-            self.dcode,
-            self.smax,
-            self.dwell,
-            self.fcode,
-            self.scode,
-            self.nummcd,
-            self.fcddec,
-            self.shift,
-            self.fbsft,
-            self.tilt
-        )
     }
 }
 pub type IODBSIMUELM = iodbsimuelm;
@@ -31076,11 +29759,6 @@ impl Default for iodbsimuelm2__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbsimuelm2__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbsimuelm2__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm2"][::std::mem::size_of::<iodbsimuelm2>() - 512usize];
@@ -31150,49 +29828,6 @@ impl Default for iodbsimuelm2 {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbsimuelm2 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbsimuelm2 {{ type: {:?}, rot_w: {:?}, type2: {:?}, plane: {:?}, tcode: {:?}, data: {:?}, dm_type: {:?}, cssc_md: {:?}, dm_x: {:?}, dm_y: {:?}, dm_z: {:?}, cnt_x: {:?}, cord: {:?}, tlchng: {:?}, fd_type: {:?}, mcode: {:?}, dummy4: {:?}, cylndr: {:?}, aux: {:?}, dcode: {:?}, smax: {:?}, dwell: {:?}, fcode: {:?}, scode: {:?}, nummcd: {:?}, fcddec: {:?}, shift: {:?}, fbsft: {:?}, tilt: {:?}, dummy6: {:?}, mcode2: {:?}, mcode3: {:?}, mcode4: {:?}, mcode5: {:?}, reserve: {:?} }}",
-            self.type_,
-            self.rot_w,
-            self.type2,
-            self.plane,
-            self.tcode,
-            self.data,
-            self.dm_type,
-            self.cssc_md,
-            self.dm_x,
-            self.dm_y,
-            self.dm_z,
-            self.cnt_x,
-            self.cord,
-            self.tlchng,
-            self.fd_type,
-            self.mcode,
-            self.dummy4,
-            self.cylndr,
-            self.aux,
-            self.dcode,
-            self.smax,
-            self.dwell,
-            self.fcode,
-            self.scode,
-            self.nummcd,
-            self.fcddec,
-            self.shift,
-            self.fbsft,
-            self.tilt,
-            self.dummy6,
-            self.mcode2,
-            self.mcode3,
-            self.mcode4,
-            self.mcode5,
-            self.reserve
-        )
     }
 }
 pub type IODBSIMUELM2 = iodbsimuelm2;
@@ -31322,11 +29957,6 @@ impl Default for iodbrct_item_data_info__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbrct_item_data_info__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbrct_item_data_info__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbrct_item_data_info"][::std::mem::size_of::<iodbrct_item_data_info>() - 528usize];
@@ -31348,15 +29978,6 @@ impl Default for iodbrct_item_data_info {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbrct_item_data_info {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbrct_item_data_info {{ enable: {:?}, dummy2: {:?}, attr2: {:?}, uParam: {:?} }}",
-            self.enable, self.dummy2, self.attr2, self.uParam
-        )
     }
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
@@ -31381,15 +30002,6 @@ impl Default for iodbrct_item {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbrct_item {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbrct_item {{ item_num: {:?}, type: {:?}, axsp_num: {:?}, ptn_num: {:?}, dummy: {:?}, attr: {:?}, ptn: {:?} }}",
-            self.item_num, self.type_, self.axsp_num, self.ptn_num, self.dummy, self.attr, self.ptn
-        )
     }
 }
 pub type IODBRCT_ITEM = iodbrct_item;
@@ -31643,11 +30255,6 @@ impl Default for soctldat__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for soctldat__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "soctldat__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of soctldat"][::std::mem::size_of::<soctldat>() - 16usize];
@@ -31661,11 +30268,6 @@ impl Default for soctldat {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for soctldat {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "soctldat {{ u: {:?} }}", self.u)
     }
 }
 pub type IODBSOCTLDAT = soctldat;
@@ -42697,11 +41299,6 @@ impl Default for iodbcbp__bindgen_ty_1 {
         }
     }
 }
-impl ::std::fmt::Debug for iodbcbp__bindgen_ty_1 {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(f, "iodbcbp__bindgen_ty_1 {{ union }}")
-    }
-}
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbcbp"][::std::mem::size_of::<iodbcbp>() - 520usize];
@@ -42717,15 +41314,6 @@ impl Default for iodbcbp {
             ::std::ptr::write_bytes(s.as_mut_ptr(), 0, 1);
             s.assume_init()
         }
-    }
-}
-impl ::std::fmt::Debug for iodbcbp {
-    fn fmt(&self, f: &mut ::std::fmt::Formatter<'_>) -> ::std::fmt::Result {
-        write!(
-            f,
-            "iodbcbp {{ datano: {:?}, type: {:?}, u: {:?} }}",
-            self.datano, self.type_, self.u
-        )
     }
 }
 pub type IODBCBP = iodbcbp;
@@ -44939,4 +43527,16 @@ unsafe extern "C" {
         FwHndl: ::std::os::raw::c_ushort,
         vers: *mut ODBDLLVERSION,
     ) -> ::std::os::raw::c_short;
+}
+unsafe extern "C" {
+    pub fn cnc_startupprocess(
+        arg1: ::std::os::raw::c_long,
+        arg2: *const ::std::os::raw::c_char,
+    ) -> ::std::os::raw::c_short;
+}
+unsafe extern "C" {
+    pub fn cnc_exitprocess() -> ::std::os::raw::c_short;
+}
+unsafe extern "C" {
+    pub fn cnc_exitthread() -> ::std::os::raw::c_short;
 }

@@ -13,16 +13,27 @@ fn main() {
         println!("cargo:rustc-link-lib=dylib=fwlib32");
     }
 
-    let header_path = "include/Fwlib32.h";
+    let header_path = if target_os == "windows" {
+        "include/Fwlib32.h"
+    } else {
+        "include/fwlib32.h"
+    };
     println!("cargo:rerun-if-changed={}", header_path);
 
     let mut builder = bindgen::Builder::default()
         .header(header_path)
         .derive_debug(true)
-        .impl_debug(true)
         .derive_default(true)
         .parse_callbacks(Box::new(bindgen::CargoCallbacks::new()));
-    if target_os == "linux" {
+    if target_os == "windows" {
+        builder = builder
+            .allowlist_function("cnc_.*")
+            .allowlist_function("pmc_.*")
+            .allowlist_type("ODB.*")
+            .allowlist_type("IODB.*")
+            .allowlist_var("EW_.*")
+            .allowlist_var("MAX_.*")
+    } else if target_os == "linux" {
         builder = builder
             .clang_arg("-DTCHAR=char")
             .clang_arg("-D_TCHAR_DEFINED");

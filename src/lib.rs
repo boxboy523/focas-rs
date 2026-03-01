@@ -13,7 +13,6 @@ use crate::bindings::*;
 #[cfg(target_os = "linux")]
 mod bindings {
     include!("bindings_linux.rs");
-    // 또는 include!("bindings.rs"); (파일을 직접 생성했을 경우)
 }
 
 #[allow(non_upper_case_globals)]
@@ -23,6 +22,31 @@ mod bindings {
 #[cfg(target_os = "windows")]
 mod bindings {
     include!("bindings_windows.rs");
+}
+
+#[cfg(target_os = "linux")]
+pub fn cnc_startup(log_path: &str) -> i16 {
+    use std::path::Path;
+
+    let path = Path::new(log_path);
+    if !path.exists() {
+        use std::fs::File;
+
+        match File::create(path) {
+            Ok(_) => println!("Log file created at: {}", log_path),
+            Err(e) => {
+                eprintln!("Failed to create log file: {}", e);
+                return -1; // 파일 생성 실패 시 -1 반환
+            }
+        }
+    }
+    let log_cstr = CString::new(log_path).unwrap();
+    unsafe { cnc_startupprocess(3, log_cstr.as_ptr()) }
+}
+
+#[cfg(target_os = "linux")]
+pub fn cnc_exit() -> i16 {
+    unsafe { cnc_exitprocess() }
 }
 
 #[derive(Debug, Clone, Error)]
@@ -68,6 +92,10 @@ impl FocasClient {
         })
     }
 
+    pub fn get_handle(&self) -> u16 {
+        self.handle
+    }
+
     pub fn sysinfo(&self) -> Result<ODBSYS, FocasError> {
         let mut info: ODBSYS = ODBSYS::default();
 
@@ -90,13 +118,35 @@ impl FocasClient {
         Ok(info)
     }
 
-    pub fn wrtofs(&self, ofs_number: i16, ofs_type: i16, offset: i64) -> Result<(), FocasError> {
+    pub fn wrtofs(&self, ofs_number: i16, ofs_type: i16, offset: i32) -> Result<(), FocasError> {
         let ret = unsafe { cnc_wrtofs(self.handle, ofs_number, ofs_type, 8, offset) };
         if ret != 0 {
             return Err(FocasError::ApiError(ret));
         }
 
         Ok(())
+    }
+
+    pub fn rdlife(&self, life_number: i16) -> Result<ODBTLIFE3, FocasError> {
+        let mut info = ODBTLIFE3::default();
+
+        let ret = unsafe { cnc_rdlife(self.handle, life_number, &mut info) };
+        if ret != 0 {
+            return Err(FocasError::ApiError(ret));
+        }
+
+        Ok(info)
+    }
+
+    pub fn rdcount(&self, count_number: i16) -> Result<ODBTLIFE3, FocasError> {
+        let mut info = ODBTLIFE3::default();
+
+        let ret = unsafe { cnc_rdcount(self.handle, count_number, &mut info) };
+        if ret != 0 {
+            return Err(FocasError::ApiError(ret));
+        }
+
+        Ok(info)
     }
 }
 

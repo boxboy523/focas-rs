@@ -8,3 +8,6 @@ thiserror = "2.0.18"
 
 [build-dependencies]
 bindgen = "0.72.1"
+
+[build]
+target = "i686-unknown-linux-gnu"

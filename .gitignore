@@ -1,3 +1,5 @@
 /target
 /src/target
+/src/main.rs
 /.direnv
+*.log
