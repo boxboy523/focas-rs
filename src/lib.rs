@@ -226,10 +226,10 @@ impl FocasClient {
                 responder,
             } => {
                 let result = self.rdlife(life_number);
-                let _ = responder.send(result);
                 if let Err(e) = &result {
                     err = Some(Err(e.clone().into()));
                 }
+                let _ = responder.send(result);
             }
             FocasRequest::RDCOUNT {
                 count_number,
