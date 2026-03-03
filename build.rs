@@ -40,6 +40,7 @@ fn main() {
             clang_args.push(format!("-I{}", crt_path.display()));
         }
         builder = builder
+            .clang_args(&clang_args)
             .allowlist_function("cnc_.*")
             .allowlist_function("pmc_.*")
             .allowlist_type("ODB.*")

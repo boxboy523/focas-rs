@@ -258,10 +258,6 @@ impl FocasClient {
         }
     }
 
-    fn get_handle(&self) -> u16 {
-        self.handle
-    }
-
     fn sysinfo(&self) -> Result<ODBSYS, FocasError> {
         let mut info: ODBSYS = ODBSYS::default();
 

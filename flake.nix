@@ -43,6 +43,13 @@
         devShells.default = pkgs.mkShell {
           buildInputs = packages;
 
+          CC_i686_pc_windows_msvc = "${pkgs.clang}/bin/clang";
+          CXX_i686_pc_windows_msvc = "${pkgs.clang}/bin/clang++";
+          AR_i686_pc_windows_msvc = "${pkgs.llvmPackages.llvm}/bin/llvm-ar";
+          RC_i686_pc_windows_msvc = "${pkgs.llvmPackages.llvm}/bin/llvm-rc";
+
+          CRATE_CC_NO_DEFAULTS = "1";
+
           CARGO_TARGET_I686_UNKNOWN_LINUX_GNU_LINKER = "${pkgs32.gcc}/bin/gcc";
           RUST_SRC_PATH = "${rustToolchain}/lib/rustlib/src/rust/library";
           LIBCLANG_PATH = pkgs.lib.makeLibraryPath [ pkgs.llvmPackages.libclang.lib ];
@@ -50,10 +57,20 @@
           XDG_DATA_DIRS = "${pkgs.gsettings-desktop-schemas}/share/gsettings-schemas/${pkgs.gsettings-desktop-schemas.name}:${pkgs.gtk3}/share/gsettings-schemas/${pkgs.gtk3.name}:$XDG_DATA_DIRS";
           CC_i686_unknown_linux_gnu = "${pkgs.pkgsi686Linux.stdenv.cc}/bin/cc";
           shellHook = ''
+                        export PATH="${pkgs.llvmPackages.llvm}/bin:$PATH"
+                        export XWIN_CACHE_DIR="$HOME/.cache/xwin"
+
+                        export RUSTFLAGS="-L native=$XWIN_CACHE_DIR/xwin/crt/lib/x86 \
+                              -L native=$XWIN_CACHE_DIR/xwin/sdk/lib/ucrt/x86 \
+                              -L native=$XWIN_CACHE_DIR/xwin/sdk/lib/um/x86"
+                        export CFLAGS_i686_pc_windows_msvc="-Wno-unused-command-line-argument"
+
                         export XWIN_CACHE_DIR="$HOME/.cache/xwin"
                         export RUSTFLAGS="-L native=$XWIN_CACHE_DIR/xwin/crt/lib/x86 \
                         -L native=$XWIN_CACHE_DIR/xwin/sdk/lib/ucrt/x86 \
                         -L native=$XWIN_CACHE_DIR/xwin/sdk/lib/um/x86"
+
+                        export BINDGEN_EXTRA_CLANG_ARGS="--target=i686-pc-windows-msvc"
           '';
         };
       }
