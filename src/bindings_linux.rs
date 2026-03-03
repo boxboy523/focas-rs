@@ -133,10 +133,10 @@ pub struct odbact {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbact"][::std::mem::size_of::<odbact>() - 16usize];
-    ["Alignment of odbact"][::std::mem::align_of::<odbact>() - 8usize];
+    ["Size of odbact"][::std::mem::size_of::<odbact>() - 8usize];
+    ["Alignment of odbact"][::std::mem::align_of::<odbact>() - 4usize];
     ["Offset of field: odbact::dummy"][::std::mem::offset_of!(odbact, dummy) - 0usize];
-    ["Offset of field: odbact::data"][::std::mem::offset_of!(odbact, data) - 8usize];
+    ["Offset of field: odbact::data"][::std::mem::offset_of!(odbact, data) - 4usize];
 };
 pub type ODBACT = odbact;
 #[repr(C)]
@@ -148,11 +148,11 @@ pub struct odbact2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbact2"][::std::mem::size_of::<odbact2>() - 72usize];
-    ["Alignment of odbact2"][::std::mem::align_of::<odbact2>() - 8usize];
+    ["Size of odbact2"][::std::mem::size_of::<odbact2>() - 36usize];
+    ["Alignment of odbact2"][::std::mem::align_of::<odbact2>() - 4usize];
     ["Offset of field: odbact2::datano"][::std::mem::offset_of!(odbact2, datano) - 0usize];
     ["Offset of field: odbact2::type_"][::std::mem::offset_of!(odbact2, type_) - 2usize];
-    ["Offset of field: odbact2::data"][::std::mem::offset_of!(odbact2, data) - 8usize];
+    ["Offset of field: odbact2::data"][::std::mem::offset_of!(odbact2, data) - 4usize];
 };
 pub type ODBACT2 = odbact2;
 #[repr(C)]
@@ -164,11 +164,11 @@ pub struct odbaxis {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbaxis"][::std::mem::size_of::<odbaxis>() - 264usize];
-    ["Alignment of odbaxis"][::std::mem::align_of::<odbaxis>() - 8usize];
+    ["Size of odbaxis"][::std::mem::size_of::<odbaxis>() - 132usize];
+    ["Alignment of odbaxis"][::std::mem::align_of::<odbaxis>() - 4usize];
     ["Offset of field: odbaxis::dummy"][::std::mem::offset_of!(odbaxis, dummy) - 0usize];
     ["Offset of field: odbaxis::type_"][::std::mem::offset_of!(odbaxis, type_) - 2usize];
-    ["Offset of field: odbaxis::data"][::std::mem::offset_of!(odbaxis, data) - 8usize];
+    ["Offset of field: odbaxis::data"][::std::mem::offset_of!(odbaxis, data) - 4usize];
 };
 pub type ODBAXIS = odbaxis;
 #[repr(C)]
@@ -180,11 +180,11 @@ pub struct odbaxis_ex {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbaxis_ex"][::std::mem::size_of::<odbaxis_ex>() - 264usize];
-    ["Alignment of odbaxis_ex"][::std::mem::align_of::<odbaxis_ex>() - 8usize];
+    ["Size of odbaxis_ex"][::std::mem::size_of::<odbaxis_ex>() - 132usize];
+    ["Alignment of odbaxis_ex"][::std::mem::align_of::<odbaxis_ex>() - 4usize];
     ["Offset of field: odbaxis_ex::counter"][::std::mem::offset_of!(odbaxis_ex, counter) - 0usize];
     ["Offset of field: odbaxis_ex::type_"][::std::mem::offset_of!(odbaxis_ex, type_) - 2usize];
-    ["Offset of field: odbaxis_ex::data"][::std::mem::offset_of!(odbaxis_ex, data) - 8usize];
+    ["Offset of field: odbaxis_ex::data"][::std::mem::offset_of!(odbaxis_ex, data) - 4usize];
 };
 pub type ODBAXIS_EX = odbaxis_ex;
 #[repr(C)]
@@ -196,11 +196,11 @@ pub struct realdata {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of realdata"][::std::mem::size_of::<realdata>() - 24usize];
-    ["Alignment of realdata"][::std::mem::align_of::<realdata>() - 8usize];
+    ["Size of realdata"][::std::mem::size_of::<realdata>() - 16usize];
+    ["Alignment of realdata"][::std::mem::align_of::<realdata>() - 4usize];
     ["Offset of field: realdata::val"][::std::mem::offset_of!(realdata, val) - 0usize];
     ["Offset of field: realdata::dec"][::std::mem::offset_of!(realdata, dec) - 8usize];
-    ["Offset of field: realdata::dummy"][::std::mem::offset_of!(realdata, dummy) - 16usize];
+    ["Offset of field: realdata::dummy"][::std::mem::offset_of!(realdata, dummy) - 12usize];
 };
 pub type REALDATA = realdata;
 #[repr(C)]
@@ -213,8 +213,8 @@ pub struct idbwra64 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbwra64"][::std::mem::size_of::<idbwra64>() - 776usize];
-    ["Alignment of idbwra64"][::std::mem::align_of::<idbwra64>() - 8usize];
+    ["Size of idbwra64"][::std::mem::size_of::<idbwra64>() - 520usize];
+    ["Alignment of idbwra64"][::std::mem::align_of::<idbwra64>() - 4usize];
     ["Offset of field: idbwra64::datano"][::std::mem::offset_of!(idbwra64, datano) - 0usize];
     ["Offset of field: idbwra64::type_"][::std::mem::offset_of!(idbwra64, type_) - 2usize];
     ["Offset of field: idbwra64::dummy"][::std::mem::offset_of!(idbwra64, dummy) - 4usize];
@@ -231,8 +231,8 @@ pub struct idbwrr64 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbwrr64"][::std::mem::size_of::<idbwrr64>() - 776usize];
-    ["Alignment of idbwrr64"][::std::mem::align_of::<idbwrr64>() - 8usize];
+    ["Size of idbwrr64"][::std::mem::size_of::<idbwrr64>() - 520usize];
+    ["Alignment of idbwrr64"][::std::mem::align_of::<idbwrr64>() - 4usize];
     ["Offset of field: idbwrr64::datano"][::std::mem::offset_of!(idbwrr64, datano) - 0usize];
     ["Offset of field: idbwrr64::type_"][::std::mem::offset_of!(idbwrr64, type_) - 2usize];
     ["Offset of field: idbwrr64::dummy"][::std::mem::offset_of!(idbwrr64, dummy) - 4usize];
@@ -250,13 +250,13 @@ pub struct odbcmd64 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbcmd64"][::std::mem::size_of::<odbcmd64>() - 24usize];
-    ["Alignment of odbcmd64"][::std::mem::align_of::<odbcmd64>() - 8usize];
+    ["Size of odbcmd64"][::std::mem::size_of::<odbcmd64>() - 16usize];
+    ["Alignment of odbcmd64"][::std::mem::align_of::<odbcmd64>() - 4usize];
     ["Offset of field: odbcmd64::adrs"][::std::mem::offset_of!(odbcmd64, adrs) - 0usize];
     ["Offset of field: odbcmd64::num"][::std::mem::offset_of!(odbcmd64, num) - 1usize];
     ["Offset of field: odbcmd64::flag"][::std::mem::offset_of!(odbcmd64, flag) - 2usize];
-    ["Offset of field: odbcmd64::dec_val"][::std::mem::offset_of!(odbcmd64, dec_val) - 8usize];
-    ["Offset of field: odbcmd64::cmd_val"][::std::mem::offset_of!(odbcmd64, cmd_val) - 16usize];
+    ["Offset of field: odbcmd64::dec_val"][::std::mem::offset_of!(odbcmd64, dec_val) - 4usize];
+    ["Offset of field: odbcmd64::cmd_val"][::std::mem::offset_of!(odbcmd64, cmd_val) - 8usize];
 };
 pub type ODBCMD64 = odbcmd64;
 #[repr(C)]
@@ -269,14 +269,14 @@ pub struct odbdatrng64 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdatrng64"][::std::mem::size_of::<odbdatrng64>() - 32usize];
-    ["Alignment of odbdatrng64"][::std::mem::align_of::<odbdatrng64>() - 8usize];
+    ["Size of odbdatrng64"][::std::mem::size_of::<odbdatrng64>() - 24usize];
+    ["Alignment of odbdatrng64"][::std::mem::align_of::<odbdatrng64>() - 4usize];
     ["Offset of field: odbdatrng64::data_min"]
         [::std::mem::offset_of!(odbdatrng64, data_min) - 0usize];
     ["Offset of field: odbdatrng64::data_max"]
         [::std::mem::offset_of!(odbdatrng64, data_max) - 8usize];
     ["Offset of field: odbdatrng64::dec"][::std::mem::offset_of!(odbdatrng64, dec) - 16usize];
-    ["Offset of field: odbdatrng64::status"][::std::mem::offset_of!(odbdatrng64, status) - 24usize];
+    ["Offset of field: odbdatrng64::status"][::std::mem::offset_of!(odbdatrng64, status) - 20usize];
 };
 pub type ODBDATRNG64 = odbdatrng64;
 #[repr(C)]
@@ -290,8 +290,8 @@ pub struct iodbzor64 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbzor64"][::std::mem::size_of::<iodbzor64>() - 6152usize];
-    ["Alignment of iodbzor64"][::std::mem::align_of::<iodbzor64>() - 8usize];
+    ["Size of iodbzor64"][::std::mem::size_of::<iodbzor64>() - 4104usize];
+    ["Alignment of iodbzor64"][::std::mem::align_of::<iodbzor64>() - 4usize];
     ["Offset of field: iodbzor64::datano_s"][::std::mem::offset_of!(iodbzor64, datano_s) - 0usize];
     ["Offset of field: iodbzor64::type_"][::std::mem::offset_of!(iodbzor64, type_) - 2usize];
     ["Offset of field: iodbzor64::datano_e"][::std::mem::offset_of!(iodbzor64, datano_e) - 4usize];
@@ -332,9 +332,9 @@ pub union iodbpsd64__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbpsd64__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbpsd64__bindgen_ty_1>() - 768usize];
+        [::std::mem::size_of::<iodbpsd64__bindgen_ty_1>() - 512usize];
     ["Alignment of iodbpsd64__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbpsd64__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbpsd64__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbpsd64__bindgen_ty_1::cdata"]
         [::std::mem::offset_of!(iodbpsd64__bindgen_ty_1, cdata) - 0usize];
     ["Offset of field: iodbpsd64__bindgen_ty_1::idata"]
@@ -363,8 +363,8 @@ impl Default for iodbpsd64__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpsd64"][::std::mem::size_of::<iodbpsd64>() - 776usize];
-    ["Alignment of iodbpsd64"][::std::mem::align_of::<iodbpsd64>() - 8usize];
+    ["Size of iodbpsd64"][::std::mem::size_of::<iodbpsd64>() - 520usize];
+    ["Alignment of iodbpsd64"][::std::mem::align_of::<iodbpsd64>() - 4usize];
     ["Offset of field: iodbpsd64::datano"][::std::mem::offset_of!(iodbpsd64, datano) - 0usize];
     ["Offset of field: iodbpsd64::type_"][::std::mem::offset_of!(iodbpsd64, type_) - 2usize];
     ["Offset of field: iodbpsd64::axis"][::std::mem::offset_of!(iodbpsd64, axis) - 4usize];
@@ -391,8 +391,8 @@ pub struct iodbwcsf64 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbwcsf64"][::std::mem::size_of::<iodbwcsf64>() - 776usize];
-    ["Alignment of iodbwcsf64"][::std::mem::align_of::<iodbwcsf64>() - 8usize];
+    ["Size of iodbwcsf64"][::std::mem::size_of::<iodbwcsf64>() - 520usize];
+    ["Alignment of iodbwcsf64"][::std::mem::align_of::<iodbwcsf64>() - 4usize];
     ["Offset of field: iodbwcsf64::dummy1"][::std::mem::offset_of!(iodbwcsf64, dummy1) - 0usize];
     ["Offset of field: iodbwcsf64::type_"][::std::mem::offset_of!(iodbwcsf64, type_) - 2usize];
     ["Offset of field: iodbwcsf64::dummy2"][::std::mem::offset_of!(iodbwcsf64, dummy2) - 4usize];
@@ -409,8 +409,8 @@ pub struct iodbzofs64 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbzofs64"][::std::mem::size_of::<iodbzofs64>() - 776usize];
-    ["Alignment of iodbzofs64"][::std::mem::align_of::<iodbzofs64>() - 8usize];
+    ["Size of iodbzofs64"][::std::mem::size_of::<iodbzofs64>() - 520usize];
+    ["Alignment of iodbzofs64"][::std::mem::align_of::<iodbzofs64>() - 4usize];
     ["Offset of field: iodbzofs64::datano"][::std::mem::offset_of!(iodbzofs64, datano) - 0usize];
     ["Offset of field: iodbzofs64::type_"][::std::mem::offset_of!(iodbzofs64, type_) - 2usize];
     ["Offset of field: iodbzofs64::dummy"][::std::mem::offset_of!(iodbzofs64, dummy) - 4usize];
@@ -427,8 +427,8 @@ pub struct odbaxis64 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbaxis64"][::std::mem::size_of::<odbaxis64>() - 776usize];
-    ["Alignment of odbaxis64"][::std::mem::align_of::<odbaxis64>() - 8usize];
+    ["Size of odbaxis64"][::std::mem::size_of::<odbaxis64>() - 520usize];
+    ["Alignment of odbaxis64"][::std::mem::align_of::<odbaxis64>() - 4usize];
     ["Offset of field: odbaxis64::dummy1"][::std::mem::offset_of!(odbaxis64, dummy1) - 0usize];
     ["Offset of field: odbaxis64::type_"][::std::mem::offset_of!(odbaxis64, type_) - 2usize];
     ["Offset of field: odbaxis64::dummy2"][::std::mem::offset_of!(odbaxis64, dummy2) - 4usize];
@@ -449,7 +449,7 @@ pub struct odbaxdt64 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbaxdt64"][::std::mem::size_of::<odbaxdt64>() - 24usize];
-    ["Alignment of odbaxdt64"][::std::mem::align_of::<odbaxdt64>() - 8usize];
+    ["Alignment of odbaxdt64"][::std::mem::align_of::<odbaxdt64>() - 4usize];
     ["Offset of field: odbaxdt64::name"][::std::mem::offset_of!(odbaxdt64, name) - 0usize];
     ["Offset of field: odbaxdt64::dummy"][::std::mem::offset_of!(odbaxdt64, dummy) - 4usize];
     ["Offset of field: odbaxdt64::data"][::std::mem::offset_of!(odbaxdt64, data) - 8usize];
@@ -482,9 +482,9 @@ pub union odbdgn64__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdgn64__bindgen_ty_1"][::std::mem::size_of::<odbdgn64__bindgen_ty_1>() - 768usize];
+    ["Size of odbdgn64__bindgen_ty_1"][::std::mem::size_of::<odbdgn64__bindgen_ty_1>() - 512usize];
     ["Alignment of odbdgn64__bindgen_ty_1"]
-        [::std::mem::align_of::<odbdgn64__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbdgn64__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdgn64__bindgen_ty_1::cdata"]
         [::std::mem::offset_of!(odbdgn64__bindgen_ty_1, cdata) - 0usize];
     ["Offset of field: odbdgn64__bindgen_ty_1::idata"]
@@ -513,8 +513,8 @@ impl Default for odbdgn64__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdgn64"][::std::mem::size_of::<odbdgn64>() - 776usize];
-    ["Alignment of odbdgn64"][::std::mem::align_of::<odbdgn64>() - 8usize];
+    ["Size of odbdgn64"][::std::mem::size_of::<odbdgn64>() - 520usize];
+    ["Alignment of odbdgn64"][::std::mem::align_of::<odbdgn64>() - 4usize];
     ["Offset of field: odbdgn64::datano"][::std::mem::offset_of!(odbdgn64, datano) - 0usize];
     ["Offset of field: odbdgn64::type_"][::std::mem::offset_of!(odbdgn64, type_) - 2usize];
     ["Offset of field: odbdgn64::axis"][::std::mem::offset_of!(odbdgn64, axis) - 4usize];
@@ -540,11 +540,11 @@ pub struct realmes64 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of realmes64"][::std::mem::size_of::<realmes64>() - 24usize];
-    ["Alignment of realmes64"][::std::mem::align_of::<realmes64>() - 8usize];
+    ["Size of realmes64"][::std::mem::size_of::<realmes64>() - 16usize];
+    ["Alignment of realmes64"][::std::mem::align_of::<realmes64>() - 4usize];
     ["Offset of field: realmes64::mes_val"][::std::mem::offset_of!(realmes64, mes_val) - 0usize];
     ["Offset of field: realmes64::dec_val"][::std::mem::offset_of!(realmes64, dec_val) - 8usize];
-    ["Offset of field: realmes64::dummy"][::std::mem::offset_of!(realmes64, dummy) - 16usize];
+    ["Offset of field: realmes64::dummy"][::std::mem::offset_of!(realmes64, dummy) - 12usize];
 };
 pub type REALMES64 = realmes64;
 #[repr(C)]
@@ -577,17 +577,17 @@ pub struct odbdy__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdy__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<odbdy__bindgen_ty_1__bindgen_ty_1>() - 1024usize];
+        [::std::mem::size_of::<odbdy__bindgen_ty_1__bindgen_ty_1>() - 512usize];
     ["Alignment of odbdy__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<odbdy__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbdy__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdy__bindgen_ty_1__bindgen_ty_1::absolute"]
         [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_1, absolute) - 0usize];
     ["Offset of field: odbdy__bindgen_ty_1__bindgen_ty_1::machine"]
-        [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_1, machine) - 256usize];
+        [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_1, machine) - 128usize];
     ["Offset of field: odbdy__bindgen_ty_1__bindgen_ty_1::relative"]
-        [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_1, relative) - 512usize];
+        [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_1, relative) - 256usize];
     ["Offset of field: odbdy__bindgen_ty_1__bindgen_ty_1::distance"]
-        [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_1, distance) - 768usize];
+        [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_1, distance) - 384usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -600,22 +600,22 @@ pub struct odbdy__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdy__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<odbdy__bindgen_ty_1__bindgen_ty_2>() - 32usize];
+        [::std::mem::size_of::<odbdy__bindgen_ty_1__bindgen_ty_2>() - 16usize];
     ["Alignment of odbdy__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<odbdy__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<odbdy__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: odbdy__bindgen_ty_1__bindgen_ty_2::absolute"]
         [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_2, absolute) - 0usize];
     ["Offset of field: odbdy__bindgen_ty_1__bindgen_ty_2::machine"]
-        [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_2, machine) - 8usize];
+        [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_2, machine) - 4usize];
     ["Offset of field: odbdy__bindgen_ty_1__bindgen_ty_2::relative"]
-        [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_2, relative) - 16usize];
+        [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_2, relative) - 8usize];
     ["Offset of field: odbdy__bindgen_ty_1__bindgen_ty_2::distance"]
-        [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_2, distance) - 24usize];
+        [::std::mem::offset_of!(odbdy__bindgen_ty_1__bindgen_ty_2, distance) - 12usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdy__bindgen_ty_1"][::std::mem::size_of::<odbdy__bindgen_ty_1>() - 1024usize];
-    ["Alignment of odbdy__bindgen_ty_1"][::std::mem::align_of::<odbdy__bindgen_ty_1>() - 8usize];
+    ["Size of odbdy__bindgen_ty_1"][::std::mem::size_of::<odbdy__bindgen_ty_1>() - 512usize];
+    ["Alignment of odbdy__bindgen_ty_1"][::std::mem::align_of::<odbdy__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdy__bindgen_ty_1::faxis"]
         [::std::mem::offset_of!(odbdy__bindgen_ty_1, faxis) - 0usize];
     ["Offset of field: odbdy__bindgen_ty_1::oaxis"]
@@ -632,17 +632,17 @@ impl Default for odbdy__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdy"][::std::mem::size_of::<odbdy>() - 1064usize];
-    ["Alignment of odbdy"][::std::mem::align_of::<odbdy>() - 8usize];
+    ["Size of odbdy"][::std::mem::size_of::<odbdy>() - 536usize];
+    ["Alignment of odbdy"][::std::mem::align_of::<odbdy>() - 4usize];
     ["Offset of field: odbdy::dummy"][::std::mem::offset_of!(odbdy, dummy) - 0usize];
     ["Offset of field: odbdy::axis"][::std::mem::offset_of!(odbdy, axis) - 2usize];
     ["Offset of field: odbdy::alarm"][::std::mem::offset_of!(odbdy, alarm) - 4usize];
     ["Offset of field: odbdy::prgnum"][::std::mem::offset_of!(odbdy, prgnum) - 6usize];
     ["Offset of field: odbdy::prgmnum"][::std::mem::offset_of!(odbdy, prgmnum) - 8usize];
-    ["Offset of field: odbdy::seqnum"][::std::mem::offset_of!(odbdy, seqnum) - 16usize];
-    ["Offset of field: odbdy::actf"][::std::mem::offset_of!(odbdy, actf) - 24usize];
-    ["Offset of field: odbdy::acts"][::std::mem::offset_of!(odbdy, acts) - 32usize];
-    ["Offset of field: odbdy::pos"][::std::mem::offset_of!(odbdy, pos) - 40usize];
+    ["Offset of field: odbdy::seqnum"][::std::mem::offset_of!(odbdy, seqnum) - 12usize];
+    ["Offset of field: odbdy::actf"][::std::mem::offset_of!(odbdy, actf) - 16usize];
+    ["Offset of field: odbdy::acts"][::std::mem::offset_of!(odbdy, acts) - 20usize];
+    ["Offset of field: odbdy::pos"][::std::mem::offset_of!(odbdy, pos) - 24usize];
 };
 impl Default for odbdy {
     fn default() -> Self {
@@ -684,17 +684,17 @@ pub struct odbdy2__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdy2__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<odbdy2__bindgen_ty_1__bindgen_ty_1>() - 1024usize];
+        [::std::mem::size_of::<odbdy2__bindgen_ty_1__bindgen_ty_1>() - 512usize];
     ["Alignment of odbdy2__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<odbdy2__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbdy2__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdy2__bindgen_ty_1__bindgen_ty_1::absolute"]
         [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_1, absolute) - 0usize];
     ["Offset of field: odbdy2__bindgen_ty_1__bindgen_ty_1::machine"]
-        [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_1, machine) - 256usize];
+        [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_1, machine) - 128usize];
     ["Offset of field: odbdy2__bindgen_ty_1__bindgen_ty_1::relative"]
-        [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_1, relative) - 512usize];
+        [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_1, relative) - 256usize];
     ["Offset of field: odbdy2__bindgen_ty_1__bindgen_ty_1::distance"]
-        [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_1, distance) - 768usize];
+        [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_1, distance) - 384usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -707,22 +707,22 @@ pub struct odbdy2__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdy2__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<odbdy2__bindgen_ty_1__bindgen_ty_2>() - 32usize];
+        [::std::mem::size_of::<odbdy2__bindgen_ty_1__bindgen_ty_2>() - 16usize];
     ["Alignment of odbdy2__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<odbdy2__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<odbdy2__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: odbdy2__bindgen_ty_1__bindgen_ty_2::absolute"]
         [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_2, absolute) - 0usize];
     ["Offset of field: odbdy2__bindgen_ty_1__bindgen_ty_2::machine"]
-        [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_2, machine) - 8usize];
+        [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_2, machine) - 4usize];
     ["Offset of field: odbdy2__bindgen_ty_1__bindgen_ty_2::relative"]
-        [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_2, relative) - 16usize];
+        [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_2, relative) - 8usize];
     ["Offset of field: odbdy2__bindgen_ty_1__bindgen_ty_2::distance"]
-        [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_2, distance) - 24usize];
+        [::std::mem::offset_of!(odbdy2__bindgen_ty_1__bindgen_ty_2, distance) - 12usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdy2__bindgen_ty_1"][::std::mem::size_of::<odbdy2__bindgen_ty_1>() - 1024usize];
-    ["Alignment of odbdy2__bindgen_ty_1"][::std::mem::align_of::<odbdy2__bindgen_ty_1>() - 8usize];
+    ["Size of odbdy2__bindgen_ty_1"][::std::mem::size_of::<odbdy2__bindgen_ty_1>() - 512usize];
+    ["Alignment of odbdy2__bindgen_ty_1"][::std::mem::align_of::<odbdy2__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdy2__bindgen_ty_1::faxis"]
         [::std::mem::offset_of!(odbdy2__bindgen_ty_1, faxis) - 0usize];
     ["Offset of field: odbdy2__bindgen_ty_1::oaxis"]
@@ -739,17 +739,17 @@ impl Default for odbdy2__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdy2"][::std::mem::size_of::<odbdy2>() - 1080usize];
-    ["Alignment of odbdy2"][::std::mem::align_of::<odbdy2>() - 8usize];
+    ["Size of odbdy2"][::std::mem::size_of::<odbdy2>() - 540usize];
+    ["Alignment of odbdy2"][::std::mem::align_of::<odbdy2>() - 4usize];
     ["Offset of field: odbdy2::dummy"][::std::mem::offset_of!(odbdy2, dummy) - 0usize];
     ["Offset of field: odbdy2::axis"][::std::mem::offset_of!(odbdy2, axis) - 2usize];
-    ["Offset of field: odbdy2::alarm"][::std::mem::offset_of!(odbdy2, alarm) - 8usize];
-    ["Offset of field: odbdy2::prgnum"][::std::mem::offset_of!(odbdy2, prgnum) - 16usize];
-    ["Offset of field: odbdy2::prgmnum"][::std::mem::offset_of!(odbdy2, prgmnum) - 24usize];
-    ["Offset of field: odbdy2::seqnum"][::std::mem::offset_of!(odbdy2, seqnum) - 32usize];
-    ["Offset of field: odbdy2::actf"][::std::mem::offset_of!(odbdy2, actf) - 40usize];
-    ["Offset of field: odbdy2::acts"][::std::mem::offset_of!(odbdy2, acts) - 48usize];
-    ["Offset of field: odbdy2::pos"][::std::mem::offset_of!(odbdy2, pos) - 56usize];
+    ["Offset of field: odbdy2::alarm"][::std::mem::offset_of!(odbdy2, alarm) - 4usize];
+    ["Offset of field: odbdy2::prgnum"][::std::mem::offset_of!(odbdy2, prgnum) - 8usize];
+    ["Offset of field: odbdy2::prgmnum"][::std::mem::offset_of!(odbdy2, prgmnum) - 12usize];
+    ["Offset of field: odbdy2::seqnum"][::std::mem::offset_of!(odbdy2, seqnum) - 16usize];
+    ["Offset of field: odbdy2::actf"][::std::mem::offset_of!(odbdy2, actf) - 20usize];
+    ["Offset of field: odbdy2::acts"][::std::mem::offset_of!(odbdy2, acts) - 24usize];
+    ["Offset of field: odbdy2::pos"][::std::mem::offset_of!(odbdy2, pos) - 28usize];
 };
 impl Default for odbdy2 {
     fn default() -> Self {
@@ -791,17 +791,17 @@ pub struct odbdy3__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdy3__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<odbdy3__bindgen_ty_1__bindgen_ty_1>() - 1024usize];
+        [::std::mem::size_of::<odbdy3__bindgen_ty_1__bindgen_ty_1>() - 512usize];
     ["Alignment of odbdy3__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<odbdy3__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbdy3__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdy3__bindgen_ty_1__bindgen_ty_1::absolute"]
         [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_1, absolute) - 0usize];
     ["Offset of field: odbdy3__bindgen_ty_1__bindgen_ty_1::machine"]
-        [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_1, machine) - 256usize];
+        [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_1, machine) - 128usize];
     ["Offset of field: odbdy3__bindgen_ty_1__bindgen_ty_1::relative"]
-        [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_1, relative) - 512usize];
+        [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_1, relative) - 256usize];
     ["Offset of field: odbdy3__bindgen_ty_1__bindgen_ty_1::distance"]
-        [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_1, distance) - 768usize];
+        [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_1, distance) - 384usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -814,22 +814,22 @@ pub struct odbdy3__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdy3__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<odbdy3__bindgen_ty_1__bindgen_ty_2>() - 32usize];
+        [::std::mem::size_of::<odbdy3__bindgen_ty_1__bindgen_ty_2>() - 16usize];
     ["Alignment of odbdy3__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<odbdy3__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<odbdy3__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: odbdy3__bindgen_ty_1__bindgen_ty_2::absolute"]
         [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_2, absolute) - 0usize];
     ["Offset of field: odbdy3__bindgen_ty_1__bindgen_ty_2::machine"]
-        [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_2, machine) - 8usize];
+        [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_2, machine) - 4usize];
     ["Offset of field: odbdy3__bindgen_ty_1__bindgen_ty_2::relative"]
-        [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_2, relative) - 16usize];
+        [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_2, relative) - 8usize];
     ["Offset of field: odbdy3__bindgen_ty_1__bindgen_ty_2::distance"]
-        [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_2, distance) - 24usize];
+        [::std::mem::offset_of!(odbdy3__bindgen_ty_1__bindgen_ty_2, distance) - 12usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdy3__bindgen_ty_1"][::std::mem::size_of::<odbdy3__bindgen_ty_1>() - 1024usize];
-    ["Alignment of odbdy3__bindgen_ty_1"][::std::mem::align_of::<odbdy3__bindgen_ty_1>() - 8usize];
+    ["Size of odbdy3__bindgen_ty_1"][::std::mem::size_of::<odbdy3__bindgen_ty_1>() - 512usize];
+    ["Alignment of odbdy3__bindgen_ty_1"][::std::mem::align_of::<odbdy3__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdy3__bindgen_ty_1::faxis"]
         [::std::mem::offset_of!(odbdy3__bindgen_ty_1, faxis) - 0usize];
     ["Offset of field: odbdy3__bindgen_ty_1::oaxis"]
@@ -846,17 +846,17 @@ impl Default for odbdy3__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdy3"][::std::mem::size_of::<odbdy3>() - 1080usize];
-    ["Alignment of odbdy3"][::std::mem::align_of::<odbdy3>() - 8usize];
+    ["Size of odbdy3"][::std::mem::size_of::<odbdy3>() - 540usize];
+    ["Alignment of odbdy3"][::std::mem::align_of::<odbdy3>() - 4usize];
     ["Offset of field: odbdy3::dummy"][::std::mem::offset_of!(odbdy3, dummy) - 0usize];
     ["Offset of field: odbdy3::axis"][::std::mem::offset_of!(odbdy3, axis) - 2usize];
-    ["Offset of field: odbdy3::alarm"][::std::mem::offset_of!(odbdy3, alarm) - 8usize];
-    ["Offset of field: odbdy3::prgnum"][::std::mem::offset_of!(odbdy3, prgnum) - 16usize];
-    ["Offset of field: odbdy3::prgmnum"][::std::mem::offset_of!(odbdy3, prgmnum) - 24usize];
-    ["Offset of field: odbdy3::seqnum"][::std::mem::offset_of!(odbdy3, seqnum) - 32usize];
-    ["Offset of field: odbdy3::actf"][::std::mem::offset_of!(odbdy3, actf) - 40usize];
-    ["Offset of field: odbdy3::acts"][::std::mem::offset_of!(odbdy3, acts) - 48usize];
-    ["Offset of field: odbdy3::pos"][::std::mem::offset_of!(odbdy3, pos) - 56usize];
+    ["Offset of field: odbdy3::alarm"][::std::mem::offset_of!(odbdy3, alarm) - 4usize];
+    ["Offset of field: odbdy3::prgnum"][::std::mem::offset_of!(odbdy3, prgnum) - 8usize];
+    ["Offset of field: odbdy3::prgmnum"][::std::mem::offset_of!(odbdy3, prgmnum) - 12usize];
+    ["Offset of field: odbdy3::seqnum"][::std::mem::offset_of!(odbdy3, seqnum) - 16usize];
+    ["Offset of field: odbdy3::actf"][::std::mem::offset_of!(odbdy3, actf) - 20usize];
+    ["Offset of field: odbdy3::acts"][::std::mem::offset_of!(odbdy3, acts) - 24usize];
+    ["Offset of field: odbdy3::pos"][::std::mem::offset_of!(odbdy3, pos) - 28usize];
 };
 impl Default for odbdy3 {
     fn default() -> Self {
@@ -898,17 +898,17 @@ pub struct odbdy3m__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdy3m__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<odbdy3m__bindgen_ty_1__bindgen_ty_1>() - 1024usize];
+        [::std::mem::size_of::<odbdy3m__bindgen_ty_1__bindgen_ty_1>() - 512usize];
     ["Alignment of odbdy3m__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<odbdy3m__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbdy3m__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdy3m__bindgen_ty_1__bindgen_ty_1::absolute"]
         [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_1, absolute) - 0usize];
     ["Offset of field: odbdy3m__bindgen_ty_1__bindgen_ty_1::machine"]
-        [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_1, machine) - 256usize];
+        [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_1, machine) - 128usize];
     ["Offset of field: odbdy3m__bindgen_ty_1__bindgen_ty_1::relative"]
-        [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_1, relative) - 512usize];
+        [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_1, relative) - 256usize];
     ["Offset of field: odbdy3m__bindgen_ty_1__bindgen_ty_1::distance"]
-        [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_1, distance) - 768usize];
+        [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_1, distance) - 384usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -921,23 +921,23 @@ pub struct odbdy3m__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdy3m__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<odbdy3m__bindgen_ty_1__bindgen_ty_2>() - 32usize];
+        [::std::mem::size_of::<odbdy3m__bindgen_ty_1__bindgen_ty_2>() - 16usize];
     ["Alignment of odbdy3m__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<odbdy3m__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<odbdy3m__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: odbdy3m__bindgen_ty_1__bindgen_ty_2::absolute"]
         [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_2, absolute) - 0usize];
     ["Offset of field: odbdy3m__bindgen_ty_1__bindgen_ty_2::machine"]
-        [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_2, machine) - 8usize];
+        [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_2, machine) - 4usize];
     ["Offset of field: odbdy3m__bindgen_ty_1__bindgen_ty_2::relative"]
-        [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_2, relative) - 16usize];
+        [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_2, relative) - 8usize];
     ["Offset of field: odbdy3m__bindgen_ty_1__bindgen_ty_2::distance"]
-        [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_2, distance) - 24usize];
+        [::std::mem::offset_of!(odbdy3m__bindgen_ty_1__bindgen_ty_2, distance) - 12usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdy3m__bindgen_ty_1"][::std::mem::size_of::<odbdy3m__bindgen_ty_1>() - 1024usize];
+    ["Size of odbdy3m__bindgen_ty_1"][::std::mem::size_of::<odbdy3m__bindgen_ty_1>() - 512usize];
     ["Alignment of odbdy3m__bindgen_ty_1"]
-        [::std::mem::align_of::<odbdy3m__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbdy3m__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdy3m__bindgen_ty_1::faxis"]
         [::std::mem::offset_of!(odbdy3m__bindgen_ty_1, faxis) - 0usize];
     ["Offset of field: odbdy3m__bindgen_ty_1::oaxis"]
@@ -954,17 +954,17 @@ impl Default for odbdy3m__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdy3m"][::std::mem::size_of::<odbdy3m>() - 1080usize];
-    ["Alignment of odbdy3m"][::std::mem::align_of::<odbdy3m>() - 8usize];
+    ["Size of odbdy3m"][::std::mem::size_of::<odbdy3m>() - 540usize];
+    ["Alignment of odbdy3m"][::std::mem::align_of::<odbdy3m>() - 4usize];
     ["Offset of field: odbdy3m::dummy"][::std::mem::offset_of!(odbdy3m, dummy) - 0usize];
     ["Offset of field: odbdy3m::axis"][::std::mem::offset_of!(odbdy3m, axis) - 2usize];
-    ["Offset of field: odbdy3m::alarm"][::std::mem::offset_of!(odbdy3m, alarm) - 8usize];
-    ["Offset of field: odbdy3m::prgnum"][::std::mem::offset_of!(odbdy3m, prgnum) - 16usize];
-    ["Offset of field: odbdy3m::prgmnum"][::std::mem::offset_of!(odbdy3m, prgmnum) - 24usize];
-    ["Offset of field: odbdy3m::seqnum"][::std::mem::offset_of!(odbdy3m, seqnum) - 32usize];
-    ["Offset of field: odbdy3m::actf"][::std::mem::offset_of!(odbdy3m, actf) - 40usize];
-    ["Offset of field: odbdy3m::acts"][::std::mem::offset_of!(odbdy3m, acts) - 48usize];
-    ["Offset of field: odbdy3m::pos"][::std::mem::offset_of!(odbdy3m, pos) - 56usize];
+    ["Offset of field: odbdy3m::alarm"][::std::mem::offset_of!(odbdy3m, alarm) - 4usize];
+    ["Offset of field: odbdy3m::prgnum"][::std::mem::offset_of!(odbdy3m, prgnum) - 8usize];
+    ["Offset of field: odbdy3m::prgmnum"][::std::mem::offset_of!(odbdy3m, prgmnum) - 12usize];
+    ["Offset of field: odbdy3m::seqnum"][::std::mem::offset_of!(odbdy3m, seqnum) - 16usize];
+    ["Offset of field: odbdy3m::actf"][::std::mem::offset_of!(odbdy3m, actf) - 20usize];
+    ["Offset of field: odbdy3m::acts"][::std::mem::offset_of!(odbdy3m, acts) - 24usize];
+    ["Offset of field: odbdy3m::pos"][::std::mem::offset_of!(odbdy3m, pos) - 28usize];
 };
 impl Default for odbdy3m {
     fn default() -> Self {
@@ -985,11 +985,11 @@ pub struct idbwrr {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbwrr"][::std::mem::size_of::<idbwrr>() - 264usize];
-    ["Alignment of idbwrr"][::std::mem::align_of::<idbwrr>() - 8usize];
+    ["Size of idbwrr"][::std::mem::size_of::<idbwrr>() - 132usize];
+    ["Alignment of idbwrr"][::std::mem::align_of::<idbwrr>() - 4usize];
     ["Offset of field: idbwrr::datano"][::std::mem::offset_of!(idbwrr, datano) - 0usize];
     ["Offset of field: idbwrr::type_"][::std::mem::offset_of!(idbwrr, type_) - 2usize];
-    ["Offset of field: idbwrr::data"][::std::mem::offset_of!(idbwrr, data) - 8usize];
+    ["Offset of field: idbwrr::data"][::std::mem::offset_of!(idbwrr, data) - 4usize];
 };
 pub type IDBWRR = idbwrr;
 #[repr(C)]
@@ -1001,11 +1001,11 @@ pub struct idbwra {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbwra"][::std::mem::size_of::<idbwra>() - 264usize];
-    ["Alignment of idbwra"][::std::mem::align_of::<idbwra>() - 8usize];
+    ["Size of idbwra"][::std::mem::size_of::<idbwra>() - 132usize];
+    ["Alignment of idbwra"][::std::mem::align_of::<idbwra>() - 4usize];
     ["Offset of field: idbwra::datano"][::std::mem::offset_of!(idbwra, datano) - 0usize];
     ["Offset of field: idbwra::type_"][::std::mem::offset_of!(idbwra, type_) - 2usize];
-    ["Offset of field: idbwra::data"][::std::mem::offset_of!(idbwra, data) - 8usize];
+    ["Offset of field: idbwra::data"][::std::mem::offset_of!(idbwra, data) - 4usize];
 };
 pub type IDBWRA = idbwra;
 #[repr(C)]
@@ -1017,11 +1017,11 @@ pub struct iodbovl {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbovl"][::std::mem::size_of::<iodbovl>() - 520usize];
-    ["Alignment of iodbovl"][::std::mem::align_of::<iodbovl>() - 8usize];
+    ["Size of iodbovl"][::std::mem::size_of::<iodbovl>() - 260usize];
+    ["Alignment of iodbovl"][::std::mem::align_of::<iodbovl>() - 4usize];
     ["Offset of field: iodbovl::datano"][::std::mem::offset_of!(iodbovl, datano) - 0usize];
     ["Offset of field: iodbovl::type_"][::std::mem::offset_of!(iodbovl, type_) - 2usize];
-    ["Offset of field: iodbovl::data"][::std::mem::offset_of!(iodbovl, data) - 8usize];
+    ["Offset of field: iodbovl::data"][::std::mem::offset_of!(iodbovl, data) - 4usize];
 };
 pub type IODBOVL = iodbovl;
 #[repr(C)]
@@ -1033,11 +1033,11 @@ pub struct iodbovlm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbovlm"][::std::mem::size_of::<iodbovlm>() - 520usize];
-    ["Alignment of iodbovlm"][::std::mem::align_of::<iodbovlm>() - 8usize];
+    ["Size of iodbovlm"][::std::mem::size_of::<iodbovlm>() - 260usize];
+    ["Alignment of iodbovlm"][::std::mem::align_of::<iodbovlm>() - 4usize];
     ["Offset of field: iodbovlm::datano"][::std::mem::offset_of!(iodbovlm, datano) - 0usize];
     ["Offset of field: iodbovlm::type_"][::std::mem::offset_of!(iodbovlm, type_) - 2usize];
-    ["Offset of field: iodbovlm::data"][::std::mem::offset_of!(iodbovlm, data) - 8usize];
+    ["Offset of field: iodbovlm::data"][::std::mem::offset_of!(iodbovlm, data) - 4usize];
 };
 pub type IODBOVLM = iodbovlm;
 #[repr(C)]
@@ -1068,14 +1068,14 @@ pub struct poselm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of poselm"][::std::mem::size_of::<poselm>() - 16usize];
-    ["Alignment of poselm"][::std::mem::align_of::<poselm>() - 8usize];
+    ["Size of poselm"][::std::mem::size_of::<poselm>() - 12usize];
+    ["Alignment of poselm"][::std::mem::align_of::<poselm>() - 4usize];
     ["Offset of field: poselm::data"][::std::mem::offset_of!(poselm, data) - 0usize];
-    ["Offset of field: poselm::dec"][::std::mem::offset_of!(poselm, dec) - 8usize];
-    ["Offset of field: poselm::unit"][::std::mem::offset_of!(poselm, unit) - 10usize];
-    ["Offset of field: poselm::disp"][::std::mem::offset_of!(poselm, disp) - 12usize];
-    ["Offset of field: poselm::name"][::std::mem::offset_of!(poselm, name) - 14usize];
-    ["Offset of field: poselm::suff"][::std::mem::offset_of!(poselm, suff) - 15usize];
+    ["Offset of field: poselm::dec"][::std::mem::offset_of!(poselm, dec) - 4usize];
+    ["Offset of field: poselm::unit"][::std::mem::offset_of!(poselm, unit) - 6usize];
+    ["Offset of field: poselm::disp"][::std::mem::offset_of!(poselm, disp) - 8usize];
+    ["Offset of field: poselm::name"][::std::mem::offset_of!(poselm, name) - 10usize];
+    ["Offset of field: poselm::suff"][::std::mem::offset_of!(poselm, suff) - 11usize];
 };
 pub type POSELM = poselm;
 #[repr(C)]
@@ -1088,12 +1088,12 @@ pub struct odbpos {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpos"][::std::mem::size_of::<odbpos>() - 64usize];
-    ["Alignment of odbpos"][::std::mem::align_of::<odbpos>() - 8usize];
+    ["Size of odbpos"][::std::mem::size_of::<odbpos>() - 48usize];
+    ["Alignment of odbpos"][::std::mem::align_of::<odbpos>() - 4usize];
     ["Offset of field: odbpos::abs"][::std::mem::offset_of!(odbpos, abs) - 0usize];
-    ["Offset of field: odbpos::mach"][::std::mem::offset_of!(odbpos, mach) - 16usize];
-    ["Offset of field: odbpos::rel"][::std::mem::offset_of!(odbpos, rel) - 32usize];
-    ["Offset of field: odbpos::dist"][::std::mem::offset_of!(odbpos, dist) - 48usize];
+    ["Offset of field: odbpos::mach"][::std::mem::offset_of!(odbpos, mach) - 12usize];
+    ["Offset of field: odbpos::rel"][::std::mem::offset_of!(odbpos, rel) - 24usize];
+    ["Offset of field: odbpos::dist"][::std::mem::offset_of!(odbpos, dist) - 36usize];
 };
 pub type ODBPOS = odbpos;
 #[repr(C)]
@@ -1104,10 +1104,10 @@ pub struct odbhnd {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbhnd"][::std::mem::size_of::<odbhnd>() - 32usize];
-    ["Alignment of odbhnd"][::std::mem::align_of::<odbhnd>() - 8usize];
+    ["Size of odbhnd"][::std::mem::size_of::<odbhnd>() - 24usize];
+    ["Alignment of odbhnd"][::std::mem::align_of::<odbhnd>() - 4usize];
     ["Offset of field: odbhnd::input"][::std::mem::offset_of!(odbhnd, input) - 0usize];
-    ["Offset of field: odbhnd::output"][::std::mem::offset_of!(odbhnd, output) - 16usize];
+    ["Offset of field: odbhnd::output"][::std::mem::offset_of!(odbhnd, output) - 12usize];
 };
 pub type ODBHND = odbhnd;
 #[repr(C)]
@@ -1122,14 +1122,14 @@ pub struct speedelm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of speedelm"][::std::mem::size_of::<speedelm>() - 16usize];
-    ["Alignment of speedelm"][::std::mem::align_of::<speedelm>() - 8usize];
+    ["Size of speedelm"][::std::mem::size_of::<speedelm>() - 12usize];
+    ["Alignment of speedelm"][::std::mem::align_of::<speedelm>() - 4usize];
     ["Offset of field: speedelm::data"][::std::mem::offset_of!(speedelm, data) - 0usize];
-    ["Offset of field: speedelm::dec"][::std::mem::offset_of!(speedelm, dec) - 8usize];
-    ["Offset of field: speedelm::unit"][::std::mem::offset_of!(speedelm, unit) - 10usize];
-    ["Offset of field: speedelm::disp"][::std::mem::offset_of!(speedelm, disp) - 12usize];
-    ["Offset of field: speedelm::name"][::std::mem::offset_of!(speedelm, name) - 14usize];
-    ["Offset of field: speedelm::suff"][::std::mem::offset_of!(speedelm, suff) - 15usize];
+    ["Offset of field: speedelm::dec"][::std::mem::offset_of!(speedelm, dec) - 4usize];
+    ["Offset of field: speedelm::unit"][::std::mem::offset_of!(speedelm, unit) - 6usize];
+    ["Offset of field: speedelm::disp"][::std::mem::offset_of!(speedelm, disp) - 8usize];
+    ["Offset of field: speedelm::name"][::std::mem::offset_of!(speedelm, name) - 10usize];
+    ["Offset of field: speedelm::suff"][::std::mem::offset_of!(speedelm, suff) - 11usize];
 };
 pub type SPEEDELM = speedelm;
 #[repr(C)]
@@ -1140,10 +1140,10 @@ pub struct odbspeed {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbspeed"][::std::mem::size_of::<odbspeed>() - 32usize];
-    ["Alignment of odbspeed"][::std::mem::align_of::<odbspeed>() - 8usize];
+    ["Size of odbspeed"][::std::mem::size_of::<odbspeed>() - 24usize];
+    ["Alignment of odbspeed"][::std::mem::align_of::<odbspeed>() - 4usize];
     ["Offset of field: odbspeed::actf"][::std::mem::offset_of!(odbspeed, actf) - 0usize];
-    ["Offset of field: odbspeed::acts"][::std::mem::offset_of!(odbspeed, acts) - 16usize];
+    ["Offset of field: odbspeed::acts"][::std::mem::offset_of!(odbspeed, acts) - 12usize];
 };
 pub type ODBSPEED = odbspeed;
 #[repr(C)]
@@ -1153,8 +1153,8 @@ pub struct odbjogdrun {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbjogdrun"][::std::mem::size_of::<odbjogdrun>() - 16usize];
-    ["Alignment of odbjogdrun"][::std::mem::align_of::<odbjogdrun>() - 8usize];
+    ["Size of odbjogdrun"][::std::mem::size_of::<odbjogdrun>() - 12usize];
+    ["Alignment of odbjogdrun"][::std::mem::align_of::<odbjogdrun>() - 4usize];
     ["Offset of field: odbjogdrun::jogdrun"][::std::mem::offset_of!(odbjogdrun, jogdrun) - 0usize];
 };
 pub type ODBJOGDRUN = odbjogdrun;
@@ -1171,15 +1171,15 @@ pub struct loadelm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of loadelm"][::std::mem::size_of::<loadelm>() - 16usize];
-    ["Alignment of loadelm"][::std::mem::align_of::<loadelm>() - 8usize];
+    ["Size of loadelm"][::std::mem::size_of::<loadelm>() - 12usize];
+    ["Alignment of loadelm"][::std::mem::align_of::<loadelm>() - 4usize];
     ["Offset of field: loadelm::data"][::std::mem::offset_of!(loadelm, data) - 0usize];
-    ["Offset of field: loadelm::dec"][::std::mem::offset_of!(loadelm, dec) - 8usize];
-    ["Offset of field: loadelm::unit"][::std::mem::offset_of!(loadelm, unit) - 10usize];
-    ["Offset of field: loadelm::name"][::std::mem::offset_of!(loadelm, name) - 12usize];
-    ["Offset of field: loadelm::suff1"][::std::mem::offset_of!(loadelm, suff1) - 13usize];
-    ["Offset of field: loadelm::suff2"][::std::mem::offset_of!(loadelm, suff2) - 14usize];
-    ["Offset of field: loadelm::reserve"][::std::mem::offset_of!(loadelm, reserve) - 15usize];
+    ["Offset of field: loadelm::dec"][::std::mem::offset_of!(loadelm, dec) - 4usize];
+    ["Offset of field: loadelm::unit"][::std::mem::offset_of!(loadelm, unit) - 6usize];
+    ["Offset of field: loadelm::name"][::std::mem::offset_of!(loadelm, name) - 8usize];
+    ["Offset of field: loadelm::suff1"][::std::mem::offset_of!(loadelm, suff1) - 9usize];
+    ["Offset of field: loadelm::suff2"][::std::mem::offset_of!(loadelm, suff2) - 10usize];
+    ["Offset of field: loadelm::reserve"][::std::mem::offset_of!(loadelm, reserve) - 11usize];
 };
 pub type LOADELM = loadelm;
 #[repr(C)]
@@ -1189,8 +1189,8 @@ pub struct odbsvload {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsvload"][::std::mem::size_of::<odbsvload>() - 16usize];
-    ["Alignment of odbsvload"][::std::mem::align_of::<odbsvload>() - 8usize];
+    ["Size of odbsvload"][::std::mem::size_of::<odbsvload>() - 12usize];
+    ["Alignment of odbsvload"][::std::mem::align_of::<odbsvload>() - 4usize];
     ["Offset of field: odbsvload::svload"][::std::mem::offset_of!(odbsvload, svload) - 0usize];
 };
 pub type ODBSVLOAD = odbsvload;
@@ -1202,10 +1202,10 @@ pub struct odbspload {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbspload"][::std::mem::size_of::<odbspload>() - 32usize];
-    ["Alignment of odbspload"][::std::mem::align_of::<odbspload>() - 8usize];
+    ["Size of odbspload"][::std::mem::size_of::<odbspload>() - 24usize];
+    ["Alignment of odbspload"][::std::mem::align_of::<odbspload>() - 4usize];
     ["Offset of field: odbspload::spload"][::std::mem::offset_of!(odbspload, spload) - 0usize];
-    ["Offset of field: odbspload::spspeed"][::std::mem::offset_of!(odbspload, spspeed) - 16usize];
+    ["Offset of field: odbspload::spspeed"][::std::mem::offset_of!(odbspload, spspeed) - 12usize];
 };
 pub type ODBSPLOAD = odbspload;
 #[repr(C)]
@@ -1220,14 +1220,14 @@ pub struct odbaxdt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbaxdt"][::std::mem::size_of::<odbaxdt>() - 24usize];
-    ["Alignment of odbaxdt"][::std::mem::align_of::<odbaxdt>() - 8usize];
+    ["Size of odbaxdt"][::std::mem::size_of::<odbaxdt>() - 16usize];
+    ["Alignment of odbaxdt"][::std::mem::align_of::<odbaxdt>() - 4usize];
     ["Offset of field: odbaxdt::name"][::std::mem::offset_of!(odbaxdt, name) - 0usize];
-    ["Offset of field: odbaxdt::data"][::std::mem::offset_of!(odbaxdt, data) - 8usize];
-    ["Offset of field: odbaxdt::dec"][::std::mem::offset_of!(odbaxdt, dec) - 16usize];
-    ["Offset of field: odbaxdt::unit"][::std::mem::offset_of!(odbaxdt, unit) - 18usize];
-    ["Offset of field: odbaxdt::flag"][::std::mem::offset_of!(odbaxdt, flag) - 20usize];
-    ["Offset of field: odbaxdt::reserve"][::std::mem::offset_of!(odbaxdt, reserve) - 22usize];
+    ["Offset of field: odbaxdt::data"][::std::mem::offset_of!(odbaxdt, data) - 4usize];
+    ["Offset of field: odbaxdt::dec"][::std::mem::offset_of!(odbaxdt, dec) - 8usize];
+    ["Offset of field: odbaxdt::unit"][::std::mem::offset_of!(odbaxdt, unit) - 10usize];
+    ["Offset of field: odbaxdt::flag"][::std::mem::offset_of!(odbaxdt, flag) - 12usize];
+    ["Offset of field: odbaxdt::reserve"][::std::mem::offset_of!(odbaxdt, reserve) - 14usize];
 };
 pub type ODBAXDT = odbaxdt;
 #[repr(C)]
@@ -1239,11 +1239,11 @@ pub struct odbcss {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbcss"][::std::mem::size_of::<odbcss>() - 24usize];
-    ["Alignment of odbcss"][::std::mem::align_of::<odbcss>() - 8usize];
+    ["Size of odbcss"][::std::mem::size_of::<odbcss>() - 12usize];
+    ["Alignment of odbcss"][::std::mem::align_of::<odbcss>() - 4usize];
     ["Offset of field: odbcss::srpm"][::std::mem::offset_of!(odbcss, srpm) - 0usize];
-    ["Offset of field: odbcss::sspm"][::std::mem::offset_of!(odbcss, sspm) - 8usize];
-    ["Offset of field: odbcss::smax"][::std::mem::offset_of!(odbcss, smax) - 16usize];
+    ["Offset of field: odbcss::sspm"][::std::mem::offset_of!(odbcss, sspm) - 4usize];
+    ["Offset of field: odbcss::smax"][::std::mem::offset_of!(odbcss, smax) - 8usize];
 };
 pub type ODBCSS = odbcss;
 #[repr(C)]
@@ -1258,14 +1258,14 @@ pub struct odbsiml {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsiml"][::std::mem::size_of::<odbsiml>() - 544usize];
-    ["Alignment of odbsiml"][::std::mem::align_of::<odbsiml>() - 8usize];
+    ["Size of odbsiml"][::std::mem::size_of::<odbsiml>() - 272usize];
+    ["Alignment of odbsiml"][::std::mem::align_of::<odbsiml>() - 4usize];
     ["Offset of field: odbsiml::t_code"][::std::mem::offset_of!(odbsiml, t_code) - 0usize];
-    ["Offset of field: odbsiml::b_code"][::std::mem::offset_of!(odbsiml, b_code) - 8usize];
-    ["Offset of field: odbsiml::axis_no"][::std::mem::offset_of!(odbsiml, axis_no) - 16usize];
-    ["Offset of field: odbsiml::machine"][::std::mem::offset_of!(odbsiml, machine) - 24usize];
-    ["Offset of field: odbsiml::dec"][::std::mem::offset_of!(odbsiml, dec) - 280usize];
-    ["Offset of field: odbsiml::fscsl"][::std::mem::offset_of!(odbsiml, fscsl) - 536usize];
+    ["Offset of field: odbsiml::b_code"][::std::mem::offset_of!(odbsiml, b_code) - 4usize];
+    ["Offset of field: odbsiml::axis_no"][::std::mem::offset_of!(odbsiml, axis_no) - 8usize];
+    ["Offset of field: odbsiml::machine"][::std::mem::offset_of!(odbsiml, machine) - 12usize];
+    ["Offset of field: odbsiml::dec"][::std::mem::offset_of!(odbsiml, dec) - 140usize];
+    ["Offset of field: odbsiml::fscsl"][::std::mem::offset_of!(odbsiml, fscsl) - 268usize];
 };
 pub type ODBSIML = odbsiml;
 #[repr(C)]
@@ -1292,10 +1292,10 @@ pub struct prgpnt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of prgpnt"][::std::mem::size_of::<prgpnt>() - 16usize];
-    ["Alignment of prgpnt"][::std::mem::align_of::<prgpnt>() - 8usize];
+    ["Size of prgpnt"][::std::mem::size_of::<prgpnt>() - 8usize];
+    ["Alignment of prgpnt"][::std::mem::align_of::<prgpnt>() - 4usize];
     ["Offset of field: prgpnt::prog_no"][::std::mem::offset_of!(prgpnt, prog_no) - 0usize];
-    ["Offset of field: prgpnt::blk_no"][::std::mem::offset_of!(prgpnt, blk_no) - 8usize];
+    ["Offset of field: prgpnt::blk_no"][::std::mem::offset_of!(prgpnt, blk_no) - 4usize];
 };
 pub type PRGPNT = prgpnt;
 #[repr(C)]
@@ -1308,12 +1308,12 @@ pub struct odbactptw {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbactptw"][::std::mem::size_of::<odbactptw>() - 32usize];
-    ["Alignment of odbactptw"][::std::mem::align_of::<odbactptw>() - 8usize];
+    ["Size of odbactptw"][::std::mem::size_of::<odbactptw>() - 16usize];
+    ["Alignment of odbactptw"][::std::mem::align_of::<odbactptw>() - 4usize];
     ["Offset of field: odbactptw::mprgno"][::std::mem::offset_of!(odbactptw, mprgno) - 0usize];
-    ["Offset of field: odbactptw::mblkno"][::std::mem::offset_of!(odbactptw, mblkno) - 8usize];
-    ["Offset of field: odbactptw::sprgno"][::std::mem::offset_of!(odbactptw, sprgno) - 16usize];
-    ["Offset of field: odbactptw::sblkno"][::std::mem::offset_of!(odbactptw, sblkno) - 24usize];
+    ["Offset of field: odbactptw::mblkno"][::std::mem::offset_of!(odbactptw, mblkno) - 4usize];
+    ["Offset of field: odbactptw::sprgno"][::std::mem::offset_of!(odbactptw, sprgno) - 8usize];
+    ["Offset of field: odbactptw::sblkno"][::std::mem::offset_of!(odbactptw, sblkno) - 12usize];
 };
 pub type ODBACTPTW = odbactptw;
 #[repr(C)]
@@ -1337,23 +1337,23 @@ pub struct odb5axman {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odb5axman"][::std::mem::size_of::<odb5axman>() - 104usize];
-    ["Alignment of odb5axman"][::std::mem::align_of::<odb5axman>() - 8usize];
+    ["Size of odb5axman"][::std::mem::size_of::<odb5axman>() - 56usize];
+    ["Alignment of odb5axman"][::std::mem::align_of::<odb5axman>() - 4usize];
     ["Offset of field: odb5axman::type1"][::std::mem::offset_of!(odb5axman, type1) - 0usize];
     ["Offset of field: odb5axman::type2"][::std::mem::offset_of!(odb5axman, type2) - 2usize];
     ["Offset of field: odb5axman::type3"][::std::mem::offset_of!(odb5axman, type3) - 4usize];
     ["Offset of field: odb5axman::data1"][::std::mem::offset_of!(odb5axman, data1) - 8usize];
-    ["Offset of field: odb5axman::data2"][::std::mem::offset_of!(odb5axman, data2) - 16usize];
-    ["Offset of field: odb5axman::data3"][::std::mem::offset_of!(odb5axman, data3) - 24usize];
-    ["Offset of field: odb5axman::c1"][::std::mem::offset_of!(odb5axman, c1) - 32usize];
-    ["Offset of field: odb5axman::c2"][::std::mem::offset_of!(odb5axman, c2) - 40usize];
-    ["Offset of field: odb5axman::dummy"][::std::mem::offset_of!(odb5axman, dummy) - 48usize];
-    ["Offset of field: odb5axman::td"][::std::mem::offset_of!(odb5axman, td) - 56usize];
-    ["Offset of field: odb5axman::r1"][::std::mem::offset_of!(odb5axman, r1) - 64usize];
-    ["Offset of field: odb5axman::r2"][::std::mem::offset_of!(odb5axman, r2) - 72usize];
-    ["Offset of field: odb5axman::vr"][::std::mem::offset_of!(odb5axman, vr) - 80usize];
-    ["Offset of field: odb5axman::h1"][::std::mem::offset_of!(odb5axman, h1) - 88usize];
-    ["Offset of field: odb5axman::h2"][::std::mem::offset_of!(odb5axman, h2) - 96usize];
+    ["Offset of field: odb5axman::data2"][::std::mem::offset_of!(odb5axman, data2) - 12usize];
+    ["Offset of field: odb5axman::data3"][::std::mem::offset_of!(odb5axman, data3) - 16usize];
+    ["Offset of field: odb5axman::c1"][::std::mem::offset_of!(odb5axman, c1) - 20usize];
+    ["Offset of field: odb5axman::c2"][::std::mem::offset_of!(odb5axman, c2) - 24usize];
+    ["Offset of field: odb5axman::dummy"][::std::mem::offset_of!(odb5axman, dummy) - 28usize];
+    ["Offset of field: odb5axman::td"][::std::mem::offset_of!(odb5axman, td) - 32usize];
+    ["Offset of field: odb5axman::r1"][::std::mem::offset_of!(odb5axman, r1) - 36usize];
+    ["Offset of field: odb5axman::r2"][::std::mem::offset_of!(odb5axman, r2) - 40usize];
+    ["Offset of field: odb5axman::vr"][::std::mem::offset_of!(odb5axman, vr) - 44usize];
+    ["Offset of field: odb5axman::h1"][::std::mem::offset_of!(odb5axman, h1) - 48usize];
+    ["Offset of field: odb5axman::h2"][::std::mem::offset_of!(odb5axman, h2) - 52usize];
 };
 pub type ODB5AXMAN = odb5axman;
 #[repr(C)]
@@ -1364,10 +1364,10 @@ pub struct odbposfig {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbposfig"][::std::mem::size_of::<odbposfig>() - 16usize];
-    ["Alignment of odbposfig"][::std::mem::align_of::<odbposfig>() - 8usize];
+    ["Size of odbposfig"][::std::mem::size_of::<odbposfig>() - 8usize];
+    ["Alignment of odbposfig"][::std::mem::align_of::<odbposfig>() - 4usize];
     ["Offset of field: odbposfig::val"][::std::mem::offset_of!(odbposfig, val) - 0usize];
-    ["Offset of field: odbposfig::dec"][::std::mem::offset_of!(odbposfig, dec) - 8usize];
+    ["Offset of field: odbposfig::dec"][::std::mem::offset_of!(odbposfig, dec) - 4usize];
 };
 pub type ODBPOSFIG = odbposfig;
 #[repr(C)]
@@ -1383,8 +1383,8 @@ pub struct odbdncdgn {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdncdgn"][::std::mem::size_of::<odbdncdgn>() - 40usize];
-    ["Alignment of odbdncdgn"][::std::mem::align_of::<odbdncdgn>() - 8usize];
+    ["Size of odbdncdgn"][::std::mem::size_of::<odbdncdgn>() - 32usize];
+    ["Alignment of odbdncdgn"][::std::mem::align_of::<odbdncdgn>() - 4usize];
     ["Offset of field: odbdncdgn::ctrl_word"]
         [::std::mem::offset_of!(odbdncdgn, ctrl_word) - 0usize];
     ["Offset of field: odbdncdgn::can_word"][::std::mem::offset_of!(odbdncdgn, can_word) - 2usize];
@@ -1395,7 +1395,7 @@ const _: () = {
     ["Offset of field: odbdncdgn::empty_cnt"]
         [::std::mem::offset_of!(odbdncdgn, empty_cnt) - 24usize];
     ["Offset of field: odbdncdgn::total_size"]
-        [::std::mem::offset_of!(odbdncdgn, total_size) - 32usize];
+        [::std::mem::offset_of!(odbdncdgn, total_size) - 28usize];
 };
 pub type ODBDNCDGN = odbdncdgn;
 #[repr(C)]
@@ -1411,8 +1411,8 @@ pub struct odbdncdgn2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdncdgn2"][::std::mem::size_of::<odbdncdgn2>() - 88usize];
-    ["Alignment of odbdncdgn2"][::std::mem::align_of::<odbdncdgn2>() - 8usize];
+    ["Size of odbdncdgn2"][::std::mem::size_of::<odbdncdgn2>() - 80usize];
+    ["Alignment of odbdncdgn2"][::std::mem::align_of::<odbdncdgn2>() - 4usize];
     ["Offset of field: odbdncdgn2::ctrl_word"]
         [::std::mem::offset_of!(odbdncdgn2, ctrl_word) - 0usize];
     ["Offset of field: odbdncdgn2::can_word"]
@@ -1425,7 +1425,7 @@ const _: () = {
     ["Offset of field: odbdncdgn2::empty_cnt"]
         [::std::mem::offset_of!(odbdncdgn2, empty_cnt) - 72usize];
     ["Offset of field: odbdncdgn2::total_size"]
-        [::std::mem::offset_of!(odbdncdgn2, total_size) - 80usize];
+        [::std::mem::offset_of!(odbdncdgn2, total_size) - 76usize];
 };
 impl Default for odbdncdgn2 {
     fn default() -> Self {
@@ -1538,22 +1538,22 @@ pub struct odbnc__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbnc__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<odbnc__bindgen_ty_1__bindgen_ty_1>() - 24usize];
+        [::std::mem::size_of::<odbnc__bindgen_ty_1__bindgen_ty_1>() - 12usize];
     ["Alignment of odbnc__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<odbnc__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbnc__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbnc__bindgen_ty_1__bindgen_ty_1::reg_prg"]
         [::std::mem::offset_of!(odbnc__bindgen_ty_1__bindgen_ty_1, reg_prg) - 0usize];
     ["Offset of field: odbnc__bindgen_ty_1__bindgen_ty_1::unreg_prg"]
         [::std::mem::offset_of!(odbnc__bindgen_ty_1__bindgen_ty_1, unreg_prg) - 2usize];
     ["Offset of field: odbnc__bindgen_ty_1__bindgen_ty_1::used_mem"]
-        [::std::mem::offset_of!(odbnc__bindgen_ty_1__bindgen_ty_1, used_mem) - 8usize];
+        [::std::mem::offset_of!(odbnc__bindgen_ty_1__bindgen_ty_1, used_mem) - 4usize];
     ["Offset of field: odbnc__bindgen_ty_1__bindgen_ty_1::unused_mem"]
-        [::std::mem::offset_of!(odbnc__bindgen_ty_1__bindgen_ty_1, unused_mem) - 16usize];
+        [::std::mem::offset_of!(odbnc__bindgen_ty_1__bindgen_ty_1, unused_mem) - 8usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbnc__bindgen_ty_1"][::std::mem::size_of::<odbnc__bindgen_ty_1>() - 32usize];
-    ["Alignment of odbnc__bindgen_ty_1"][::std::mem::align_of::<odbnc__bindgen_ty_1>() - 8usize];
+    ["Alignment of odbnc__bindgen_ty_1"][::std::mem::align_of::<odbnc__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbnc__bindgen_ty_1::bin"]
         [::std::mem::offset_of!(odbnc__bindgen_ty_1, bin) - 0usize];
     ["Offset of field: odbnc__bindgen_ty_1::asc"]
@@ -1571,7 +1571,7 @@ impl Default for odbnc__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbnc"][::std::mem::size_of::<odbnc>() - 32usize];
-    ["Alignment of odbnc"][::std::mem::align_of::<odbnc>() - 8usize];
+    ["Alignment of odbnc"][::std::mem::align_of::<odbnc>() - 4usize];
     ["Offset of field: odbnc::u"][::std::mem::offset_of!(odbnc, u) - 0usize];
 };
 impl Default for odbnc {
@@ -1608,10 +1608,10 @@ pub struct odbexeprg {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbexeprg"][::std::mem::size_of::<odbexeprg>() - 48usize];
-    ["Alignment of odbexeprg"][::std::mem::align_of::<odbexeprg>() - 8usize];
+    ["Size of odbexeprg"][::std::mem::size_of::<odbexeprg>() - 40usize];
+    ["Alignment of odbexeprg"][::std::mem::align_of::<odbexeprg>() - 4usize];
     ["Offset of field: odbexeprg::name"][::std::mem::offset_of!(odbexeprg, name) - 0usize];
-    ["Offset of field: odbexeprg::o_num"][::std::mem::offset_of!(odbexeprg, o_num) - 40usize];
+    ["Offset of field: odbexeprg::o_num"][::std::mem::offset_of!(odbexeprg, o_num) - 36usize];
 };
 impl Default for odbexeprg {
     fn default() -> Self {
@@ -1631,10 +1631,10 @@ pub struct odbdncprg {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdncprg"][::std::mem::size_of::<odbdncprg>() - 48usize];
-    ["Alignment of odbdncprg"][::std::mem::align_of::<odbdncprg>() - 8usize];
+    ["Size of odbdncprg"][::std::mem::size_of::<odbdncprg>() - 40usize];
+    ["Alignment of odbdncprg"][::std::mem::align_of::<odbdncprg>() - 4usize];
     ["Offset of field: odbdncprg::name"][::std::mem::offset_of!(odbdncprg, name) - 0usize];
-    ["Offset of field: odbdncprg::o_num"][::std::mem::offset_of!(odbdncprg, o_num) - 40usize];
+    ["Offset of field: odbdncprg::o_num"][::std::mem::offset_of!(odbdncprg, o_num) - 36usize];
 };
 impl Default for odbdncprg {
     fn default() -> Self {
@@ -1654,10 +1654,10 @@ pub struct odbseq {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbseq"][::std::mem::size_of::<odbseq>() - 16usize];
-    ["Alignment of odbseq"][::std::mem::align_of::<odbseq>() - 8usize];
+    ["Size of odbseq"][::std::mem::size_of::<odbseq>() - 8usize];
+    ["Alignment of odbseq"][::std::mem::align_of::<odbseq>() - 4usize];
     ["Offset of field: odbseq::dummy"][::std::mem::offset_of!(odbseq, dummy) - 0usize];
-    ["Offset of field: odbseq::data"][::std::mem::offset_of!(odbseq, data) - 8usize];
+    ["Offset of field: odbseq::data"][::std::mem::offset_of!(odbseq, data) - 4usize];
 };
 pub type ODBSEQ = odbseq;
 #[repr(C)]
@@ -1724,12 +1724,12 @@ pub struct odbmdip {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmdip"][::std::mem::size_of::<odbmdip>() - 32usize];
-    ["Alignment of odbmdip"][::std::mem::align_of::<odbmdip>() - 8usize];
+    ["Size of odbmdip"][::std::mem::size_of::<odbmdip>() - 16usize];
+    ["Alignment of odbmdip"][::std::mem::align_of::<odbmdip>() - 4usize];
     ["Offset of field: odbmdip::mdiprog"][::std::mem::offset_of!(odbmdip, mdiprog) - 0usize];
-    ["Offset of field: odbmdip::mdipntr"][::std::mem::offset_of!(odbmdip, mdipntr) - 8usize];
-    ["Offset of field: odbmdip::crntprog"][::std::mem::offset_of!(odbmdip, crntprog) - 16usize];
-    ["Offset of field: odbmdip::crntpntr"][::std::mem::offset_of!(odbmdip, crntpntr) - 24usize];
+    ["Offset of field: odbmdip::mdipntr"][::std::mem::offset_of!(odbmdip, mdipntr) - 4usize];
+    ["Offset of field: odbmdip::crntprog"][::std::mem::offset_of!(odbmdip, crntprog) - 8usize];
+    ["Offset of field: odbmdip::crntpntr"][::std::mem::offset_of!(odbmdip, crntpntr) - 12usize];
 };
 pub type ODBMDIP = odbmdip;
 #[repr(C)]
@@ -1742,12 +1742,12 @@ pub struct odbnest {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbnest"][::std::mem::size_of::<odbnest>() - 328usize];
-    ["Alignment of odbnest"][::std::mem::align_of::<odbnest>() - 8usize];
+    ["Size of odbnest"][::std::mem::size_of::<odbnest>() - 320usize];
+    ["Alignment of odbnest"][::std::mem::align_of::<odbnest>() - 4usize];
     ["Offset of field: odbnest::attrib"][::std::mem::offset_of!(odbnest, attrib) - 0usize];
-    ["Offset of field: odbnest::comment"][::std::mem::offset_of!(odbnest, comment) - 8usize];
-    ["Offset of field: odbnest::prog_name"][::std::mem::offset_of!(odbnest, prog_name) - 72usize];
-    ["Offset of field: odbnest::dummy"][::std::mem::offset_of!(odbnest, dummy) - 317usize];
+    ["Offset of field: odbnest::comment"][::std::mem::offset_of!(odbnest, comment) - 4usize];
+    ["Offset of field: odbnest::prog_name"][::std::mem::offset_of!(odbnest, prog_name) - 68usize];
+    ["Offset of field: odbnest::dummy"][::std::mem::offset_of!(odbnest, dummy) - 313usize];
 };
 impl Default for odbnest {
     fn default() -> Self {
@@ -1785,13 +1785,13 @@ pub struct odbpdfinf {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpdfinf"][::std::mem::size_of::<odbpdfinf>() - 32usize];
-    ["Alignment of odbpdfinf"][::std::mem::align_of::<odbpdfinf>() - 8usize];
+    ["Size of odbpdfinf"][::std::mem::size_of::<odbpdfinf>() - 16usize];
+    ["Alignment of odbpdfinf"][::std::mem::align_of::<odbpdfinf>() - 4usize];
     ["Offset of field: odbpdfinf::used_page"]
         [::std::mem::offset_of!(odbpdfinf, used_page) - 0usize];
-    ["Offset of field: odbpdfinf::all_page"][::std::mem::offset_of!(odbpdfinf, all_page) - 8usize];
-    ["Offset of field: odbpdfinf::used_dir"][::std::mem::offset_of!(odbpdfinf, used_dir) - 16usize];
-    ["Offset of field: odbpdfinf::all_dir"][::std::mem::offset_of!(odbpdfinf, all_dir) - 24usize];
+    ["Offset of field: odbpdfinf::all_page"][::std::mem::offset_of!(odbpdfinf, all_page) - 4usize];
+    ["Offset of field: odbpdfinf::used_dir"][::std::mem::offset_of!(odbpdfinf, used_dir) - 8usize];
+    ["Offset of field: odbpdfinf::all_dir"][::std::mem::offset_of!(odbpdfinf, all_dir) - 12usize];
 };
 pub type ODBPDFINF = odbpdfinf;
 #[repr(C)]
@@ -1897,8 +1897,8 @@ pub struct odbpdfadir {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpdfadir"][::std::mem::size_of::<odbpdfadir>() - 144usize];
-    ["Alignment of odbpdfadir"][::std::mem::align_of::<odbpdfadir>() - 8usize];
+    ["Size of odbpdfadir"][::std::mem::size_of::<odbpdfadir>() - 128usize];
+    ["Alignment of odbpdfadir"][::std::mem::align_of::<odbpdfadir>() - 4usize];
     ["Offset of field: odbpdfadir::data_kind"]
         [::std::mem::offset_of!(odbpdfadir, data_kind) - 0usize];
     ["Offset of field: odbpdfadir::year"][::std::mem::offset_of!(odbpdfadir, year) - 2usize];
@@ -1909,11 +1909,11 @@ const _: () = {
     ["Offset of field: odbpdfadir::sec"][::std::mem::offset_of!(odbpdfadir, sec) - 12usize];
     ["Offset of field: odbpdfadir::dummy"][::std::mem::offset_of!(odbpdfadir, dummy) - 14usize];
     ["Offset of field: odbpdfadir::dummy2"][::std::mem::offset_of!(odbpdfadir, dummy2) - 16usize];
-    ["Offset of field: odbpdfadir::size"][::std::mem::offset_of!(odbpdfadir, size) - 24usize];
-    ["Offset of field: odbpdfadir::attr"][::std::mem::offset_of!(odbpdfadir, attr) - 32usize];
-    ["Offset of field: odbpdfadir::d_f"][::std::mem::offset_of!(odbpdfadir, d_f) - 40usize];
-    ["Offset of field: odbpdfadir::comment"][::std::mem::offset_of!(odbpdfadir, comment) - 76usize];
-    ["Offset of field: odbpdfadir::o_time"][::std::mem::offset_of!(odbpdfadir, o_time) - 128usize];
+    ["Offset of field: odbpdfadir::size"][::std::mem::offset_of!(odbpdfadir, size) - 20usize];
+    ["Offset of field: odbpdfadir::attr"][::std::mem::offset_of!(odbpdfadir, attr) - 24usize];
+    ["Offset of field: odbpdfadir::d_f"][::std::mem::offset_of!(odbpdfadir, d_f) - 28usize];
+    ["Offset of field: odbpdfadir::comment"][::std::mem::offset_of!(odbpdfadir, comment) - 64usize];
+    ["Offset of field: odbpdfadir::o_time"][::std::mem::offset_of!(odbpdfadir, o_time) - 116usize];
 };
 impl Default for odbpdfadir {
     fn default() -> Self {
@@ -1969,18 +1969,18 @@ pub struct odbpdfprg {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpdfprg"][::std::mem::size_of::<odbpdfprg>() - 96usize];
-    ["Alignment of odbpdfprg"][::std::mem::align_of::<odbpdfprg>() - 8usize];
+    ["Size of odbpdfprg"][::std::mem::size_of::<odbpdfprg>() - 84usize];
+    ["Alignment of odbpdfprg"][::std::mem::align_of::<odbpdfprg>() - 4usize];
     ["Offset of field: odbpdfprg::year"][::std::mem::offset_of!(odbpdfprg, year) - 0usize];
     ["Offset of field: odbpdfprg::mon"][::std::mem::offset_of!(odbpdfprg, mon) - 2usize];
     ["Offset of field: odbpdfprg::day"][::std::mem::offset_of!(odbpdfprg, day) - 4usize];
     ["Offset of field: odbpdfprg::hour"][::std::mem::offset_of!(odbpdfprg, hour) - 6usize];
     ["Offset of field: odbpdfprg::min"][::std::mem::offset_of!(odbpdfprg, min) - 8usize];
     ["Offset of field: odbpdfprg::sec"][::std::mem::offset_of!(odbpdfprg, sec) - 10usize];
-    ["Offset of field: odbpdfprg::size"][::std::mem::offset_of!(odbpdfprg, size) - 16usize];
-    ["Offset of field: odbpdfprg::attr"][::std::mem::offset_of!(odbpdfprg, attr) - 24usize];
-    ["Offset of field: odbpdfprg::comment"][::std::mem::offset_of!(odbpdfprg, comment) - 32usize];
-    ["Offset of field: odbpdfprg::o_time"][::std::mem::offset_of!(odbpdfprg, o_time) - 84usize];
+    ["Offset of field: odbpdfprg::size"][::std::mem::offset_of!(odbpdfprg, size) - 12usize];
+    ["Offset of field: odbpdfprg::attr"][::std::mem::offset_of!(odbpdfprg, attr) - 16usize];
+    ["Offset of field: odbpdfprg::comment"][::std::mem::offset_of!(odbpdfprg, comment) - 20usize];
+    ["Offset of field: odbpdfprg::o_time"][::std::mem::offset_of!(odbpdfprg, o_time) - 72usize];
 };
 impl Default for odbpdfprg {
     fn default() -> Self {
@@ -2055,10 +2055,10 @@ pub struct idbpdftdir {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbpdftdir"][::std::mem::size_of::<idbpdftdir>() - 16usize];
-    ["Alignment of idbpdftdir"][::std::mem::align_of::<idbpdftdir>() - 8usize];
+    ["Size of idbpdftdir"][::std::mem::size_of::<idbpdftdir>() - 8usize];
+    ["Alignment of idbpdftdir"][::std::mem::align_of::<idbpdftdir>() - 4usize];
     ["Offset of field: idbpdftdir::slct"][::std::mem::offset_of!(idbpdftdir, slct) - 0usize];
-    ["Offset of field: idbpdftdir::attr"][::std::mem::offset_of!(idbpdftdir, attr) - 8usize];
+    ["Offset of field: idbpdftdir::attr"][::std::mem::offset_of!(idbpdftdir, attr) - 4usize];
 };
 pub type IDBPDFTDIR = idbpdftdir;
 #[repr(C)]
@@ -2074,16 +2074,16 @@ pub struct in_dsfile {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of in_dsfile"][::std::mem::size_of::<in_dsfile>() - 280usize];
-    ["Alignment of in_dsfile"][::std::mem::align_of::<in_dsfile>() - 8usize];
+    ["Size of in_dsfile"][::std::mem::size_of::<in_dsfile>() - 272usize];
+    ["Alignment of in_dsfile"][::std::mem::align_of::<in_dsfile>() - 4usize];
     ["Offset of field: in_dsfile::path"][::std::mem::offset_of!(in_dsfile, path) - 0usize];
     ["Offset of field: in_dsfile::fnum"][::std::mem::offset_of!(in_dsfile, fnum) - 256usize];
-    ["Offset of field: in_dsfile::offset"][::std::mem::offset_of!(in_dsfile, offset) - 264usize];
-    ["Offset of field: in_dsfile::req_num"][::std::mem::offset_of!(in_dsfile, req_num) - 272usize];
+    ["Offset of field: in_dsfile::offset"][::std::mem::offset_of!(in_dsfile, offset) - 260usize];
+    ["Offset of field: in_dsfile::req_num"][::std::mem::offset_of!(in_dsfile, req_num) - 264usize];
     ["Offset of field: in_dsfile::size_type"]
-        [::std::mem::offset_of!(in_dsfile, size_type) - 274usize];
-    ["Offset of field: in_dsfile::detail"][::std::mem::offset_of!(in_dsfile, detail) - 276usize];
-    ["Offset of field: in_dsfile::dummy"][::std::mem::offset_of!(in_dsfile, dummy) - 278usize];
+        [::std::mem::offset_of!(in_dsfile, size_type) - 266usize];
+    ["Offset of field: in_dsfile::detail"][::std::mem::offset_of!(in_dsfile, detail) - 268usize];
+    ["Offset of field: in_dsfile::dummy"][::std::mem::offset_of!(in_dsfile, dummy) - 270usize];
 };
 impl Default for in_dsfile {
     fn default() -> Self {
@@ -2108,17 +2108,17 @@ pub struct out_dsinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of out_dsinfo"][::std::mem::size_of::<out_dsinfo>() - 296usize];
-    ["Alignment of out_dsinfo"][::std::mem::align_of::<out_dsinfo>() - 8usize];
+    ["Size of out_dsinfo"][::std::mem::size_of::<out_dsinfo>() - 276usize];
+    ["Alignment of out_dsinfo"][::std::mem::align_of::<out_dsinfo>() - 4usize];
     ["Offset of field: out_dsinfo::type_"][::std::mem::offset_of!(out_dsinfo, type_) - 0usize];
     ["Offset of field: out_dsinfo::dummy"][::std::mem::offset_of!(out_dsinfo, dummy) - 2usize];
-    ["Offset of field: out_dsinfo::fnum"][::std::mem::offset_of!(out_dsinfo, fnum) - 8usize];
-    ["Offset of field: out_dsinfo::total"][::std::mem::offset_of!(out_dsinfo, total) - 16usize];
+    ["Offset of field: out_dsinfo::fnum"][::std::mem::offset_of!(out_dsinfo, fnum) - 4usize];
+    ["Offset of field: out_dsinfo::total"][::std::mem::offset_of!(out_dsinfo, total) - 8usize];
     ["Offset of field: out_dsinfo::remain_h"]
-        [::std::mem::offset_of!(out_dsinfo, remain_h) - 24usize];
+        [::std::mem::offset_of!(out_dsinfo, remain_h) - 12usize];
     ["Offset of field: out_dsinfo::remain_l"]
-        [::std::mem::offset_of!(out_dsinfo, remain_l) - 32usize];
-    ["Offset of field: out_dsinfo::dir"][::std::mem::offset_of!(out_dsinfo, dir) - 40usize];
+        [::std::mem::offset_of!(out_dsinfo, remain_l) - 16usize];
+    ["Offset of field: out_dsinfo::dir"][::std::mem::offset_of!(out_dsinfo, dir) - 20usize];
 };
 impl Default for out_dsinfo {
     fn default() -> Self {
@@ -2146,18 +2146,18 @@ pub struct out_dsfile {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of out_dsfile"][::std::mem::size_of::<out_dsfile>() - 200usize];
-    ["Alignment of out_dsfile"][::std::mem::align_of::<out_dsfile>() - 8usize];
+    ["Size of out_dsfile"][::std::mem::size_of::<out_dsfile>() - 184usize];
+    ["Alignment of out_dsfile"][::std::mem::align_of::<out_dsfile>() - 4usize];
     ["Offset of field: out_dsfile::year"][::std::mem::offset_of!(out_dsfile, year) - 0usize];
     ["Offset of field: out_dsfile::mon"][::std::mem::offset_of!(out_dsfile, mon) - 2usize];
     ["Offset of field: out_dsfile::day"][::std::mem::offset_of!(out_dsfile, day) - 4usize];
     ["Offset of field: out_dsfile::hour"][::std::mem::offset_of!(out_dsfile, hour) - 6usize];
     ["Offset of field: out_dsfile::min"][::std::mem::offset_of!(out_dsfile, min) - 8usize];
     ["Offset of field: out_dsfile::sec"][::std::mem::offset_of!(out_dsfile, sec) - 10usize];
-    ["Offset of field: out_dsfile::size"][::std::mem::offset_of!(out_dsfile, size) - 16usize];
-    ["Offset of field: out_dsfile::attr"][::std::mem::offset_of!(out_dsfile, attr) - 24usize];
-    ["Offset of field: out_dsfile::file"][::std::mem::offset_of!(out_dsfile, file) - 32usize];
-    ["Offset of field: out_dsfile::info"][::std::mem::offset_of!(out_dsfile, info) - 68usize];
+    ["Offset of field: out_dsfile::size"][::std::mem::offset_of!(out_dsfile, size) - 12usize];
+    ["Offset of field: out_dsfile::attr"][::std::mem::offset_of!(out_dsfile, attr) - 16usize];
+    ["Offset of field: out_dsfile::file"][::std::mem::offset_of!(out_dsfile, file) - 20usize];
+    ["Offset of field: out_dsfile::info"][::std::mem::offset_of!(out_dsfile, info) - 56usize];
 };
 impl Default for out_dsfile {
     fn default() -> Self {
@@ -2180,17 +2180,17 @@ pub struct in_dsfile_req {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of in_dsfile_req"][::std::mem::size_of::<in_dsfile_req>() - 280usize];
-    ["Alignment of in_dsfile_req"][::std::mem::align_of::<in_dsfile_req>() - 8usize];
+    ["Size of in_dsfile_req"][::std::mem::size_of::<in_dsfile_req>() - 268usize];
+    ["Alignment of in_dsfile_req"][::std::mem::align_of::<in_dsfile_req>() - 4usize];
     ["Offset of field: in_dsfile_req::file"][::std::mem::offset_of!(in_dsfile_req, file) - 0usize];
     ["Offset of field: in_dsfile_req::fnum"]
         [::std::mem::offset_of!(in_dsfile_req, fnum) - 256usize];
     ["Offset of field: in_dsfile_req::offset"]
-        [::std::mem::offset_of!(in_dsfile_req, offset) - 264usize];
+        [::std::mem::offset_of!(in_dsfile_req, offset) - 260usize];
     ["Offset of field: in_dsfile_req::detail"]
-        [::std::mem::offset_of!(in_dsfile_req, detail) - 272usize];
+        [::std::mem::offset_of!(in_dsfile_req, detail) - 264usize];
     ["Offset of field: in_dsfile_req::option"]
-        [::std::mem::offset_of!(in_dsfile_req, option) - 274usize];
+        [::std::mem::offset_of!(in_dsfile_req, option) - 266usize];
 };
 impl Default for in_dsfile_req {
     fn default() -> Self {
@@ -2226,12 +2226,12 @@ pub struct odbembedfinf {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbembedfinf"][::std::mem::size_of::<odbembedfinf>() - 16usize];
-    ["Alignment of odbembedfinf"][::std::mem::align_of::<odbembedfinf>() - 8usize];
+    ["Size of odbembedfinf"][::std::mem::size_of::<odbembedfinf>() - 8usize];
+    ["Alignment of odbembedfinf"][::std::mem::align_of::<odbembedfinf>() - 4usize];
     ["Offset of field: odbembedfinf::used_page"]
         [::std::mem::offset_of!(odbembedfinf, used_page) - 0usize];
     ["Offset of field: odbembedfinf::all_page"]
-        [::std::mem::offset_of!(odbembedfinf, all_page) - 8usize];
+        [::std::mem::offset_of!(odbembedfinf, all_page) - 4usize];
 };
 pub type ODBEMBEDFINF = odbembedfinf;
 #[repr(C)]
@@ -2243,11 +2243,11 @@ pub struct odbtofs {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtofs"][::std::mem::size_of::<odbtofs>() - 16usize];
-    ["Alignment of odbtofs"][::std::mem::align_of::<odbtofs>() - 8usize];
+    ["Size of odbtofs"][::std::mem::size_of::<odbtofs>() - 8usize];
+    ["Alignment of odbtofs"][::std::mem::align_of::<odbtofs>() - 4usize];
     ["Offset of field: odbtofs::datano"][::std::mem::offset_of!(odbtofs, datano) - 0usize];
     ["Offset of field: odbtofs::type_"][::std::mem::offset_of!(odbtofs, type_) - 2usize];
-    ["Offset of field: odbtofs::data"][::std::mem::offset_of!(odbtofs, data) - 8usize];
+    ["Offset of field: odbtofs::data"][::std::mem::offset_of!(odbtofs, data) - 4usize];
 };
 pub type ODBTOFS = odbtofs;
 #[repr(C)]
@@ -2285,13 +2285,13 @@ pub struct iodbto__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbto__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbto__bindgen_ty_1__bindgen_ty_1>() - 16usize];
+        [::std::mem::size_of::<iodbto__bindgen_ty_1__bindgen_ty_1>() - 8usize];
     ["Alignment of iodbto__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbto__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbto__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbto__bindgen_ty_1__bindgen_ty_1::tip"]
         [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_1, tip) - 0usize];
     ["Offset of field: iodbto__bindgen_ty_1__bindgen_ty_1::data"]
-        [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_1, data) - 8usize];
+        [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_1, data) - 4usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -2302,13 +2302,13 @@ pub struct iodbto__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbto__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<iodbto__bindgen_ty_1__bindgen_ty_2>() - 24usize];
+        [::std::mem::size_of::<iodbto__bindgen_ty_1__bindgen_ty_2>() - 12usize];
     ["Alignment of iodbto__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<iodbto__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<iodbto__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: iodbto__bindgen_ty_1__bindgen_ty_2::tip"]
         [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_2, tip) - 0usize];
     ["Offset of field: iodbto__bindgen_ty_1__bindgen_ty_2::data"]
-        [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_2, data) - 8usize];
+        [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_2, data) - 4usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -2319,13 +2319,13 @@ pub struct iodbto__bindgen_ty_1__bindgen_ty_3 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbto__bindgen_ty_1__bindgen_ty_3"]
-        [::std::mem::size_of::<iodbto__bindgen_ty_1__bindgen_ty_3>() - 40usize];
+        [::std::mem::size_of::<iodbto__bindgen_ty_1__bindgen_ty_3>() - 20usize];
     ["Alignment of iodbto__bindgen_ty_1__bindgen_ty_3"]
-        [::std::mem::align_of::<iodbto__bindgen_ty_1__bindgen_ty_3>() - 8usize];
+        [::std::mem::align_of::<iodbto__bindgen_ty_1__bindgen_ty_3>() - 4usize];
     ["Offset of field: iodbto__bindgen_ty_1__bindgen_ty_3::tip"]
         [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_3, tip) - 0usize];
     ["Offset of field: iodbto__bindgen_ty_1__bindgen_ty_3::data"]
-        [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_3, data) - 8usize];
+        [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_3, data) - 4usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -2336,13 +2336,13 @@ pub struct iodbto__bindgen_ty_1__bindgen_ty_4 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbto__bindgen_ty_1__bindgen_ty_4"]
-        [::std::mem::size_of::<iodbto__bindgen_ty_1__bindgen_ty_4>() - 40usize];
+        [::std::mem::size_of::<iodbto__bindgen_ty_1__bindgen_ty_4>() - 20usize];
     ["Alignment of iodbto__bindgen_ty_1__bindgen_ty_4"]
-        [::std::mem::align_of::<iodbto__bindgen_ty_1__bindgen_ty_4>() - 8usize];
+        [::std::mem::align_of::<iodbto__bindgen_ty_1__bindgen_ty_4>() - 4usize];
     ["Offset of field: iodbto__bindgen_ty_1__bindgen_ty_4::tip"]
         [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_4, tip) - 0usize];
     ["Offset of field: iodbto__bindgen_ty_1__bindgen_ty_4::data"]
-        [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_4, data) - 8usize];
+        [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_4, data) - 4usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -2353,13 +2353,13 @@ pub struct iodbto__bindgen_ty_1__bindgen_ty_5 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbto__bindgen_ty_1__bindgen_ty_5"]
-        [::std::mem::size_of::<iodbto__bindgen_ty_1__bindgen_ty_5>() - 72usize];
+        [::std::mem::size_of::<iodbto__bindgen_ty_1__bindgen_ty_5>() - 36usize];
     ["Alignment of iodbto__bindgen_ty_1__bindgen_ty_5"]
-        [::std::mem::align_of::<iodbto__bindgen_ty_1__bindgen_ty_5>() - 8usize];
+        [::std::mem::align_of::<iodbto__bindgen_ty_1__bindgen_ty_5>() - 4usize];
     ["Offset of field: iodbto__bindgen_ty_1__bindgen_ty_5::tip"]
         [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_5, tip) - 0usize];
     ["Offset of field: iodbto__bindgen_ty_1__bindgen_ty_5::data"]
-        [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_5, data) - 8usize];
+        [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_5, data) - 4usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -2369,16 +2369,16 @@ pub struct iodbto__bindgen_ty_1__bindgen_ty_6 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbto__bindgen_ty_1__bindgen_ty_6"]
-        [::std::mem::size_of::<iodbto__bindgen_ty_1__bindgen_ty_6>() - 16usize];
+        [::std::mem::size_of::<iodbto__bindgen_ty_1__bindgen_ty_6>() - 8usize];
     ["Alignment of iodbto__bindgen_ty_1__bindgen_ty_6"]
-        [::std::mem::align_of::<iodbto__bindgen_ty_1__bindgen_ty_6>() - 8usize];
+        [::std::mem::align_of::<iodbto__bindgen_ty_1__bindgen_ty_6>() - 4usize];
     ["Offset of field: iodbto__bindgen_ty_1__bindgen_ty_6::data"]
         [::std::mem::offset_of!(iodbto__bindgen_ty_1__bindgen_ty_6, data) - 0usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbto__bindgen_ty_1"][::std::mem::size_of::<iodbto__bindgen_ty_1>() - 360usize];
-    ["Alignment of iodbto__bindgen_ty_1"][::std::mem::align_of::<iodbto__bindgen_ty_1>() - 8usize];
+    ["Size of iodbto__bindgen_ty_1"][::std::mem::size_of::<iodbto__bindgen_ty_1>() - 180usize];
+    ["Alignment of iodbto__bindgen_ty_1"][::std::mem::align_of::<iodbto__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbto__bindgen_ty_1::m_ofs"]
         [::std::mem::offset_of!(iodbto__bindgen_ty_1, m_ofs) - 0usize];
     ["Offset of field: iodbto__bindgen_ty_1::m_ofs_a"]
@@ -2419,8 +2419,8 @@ impl Default for iodbto__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbto"][::std::mem::size_of::<iodbto>() - 368usize];
-    ["Alignment of iodbto"][::std::mem::align_of::<iodbto>() - 8usize];
+    ["Size of iodbto"][::std::mem::size_of::<iodbto>() - 188usize];
+    ["Alignment of iodbto"][::std::mem::align_of::<iodbto>() - 4usize];
     ["Offset of field: iodbto::datano_s"][::std::mem::offset_of!(iodbto, datano_s) - 0usize];
     ["Offset of field: iodbto::type_"][::std::mem::offset_of!(iodbto, type_) - 2usize];
     ["Offset of field: iodbto::datano_e"][::std::mem::offset_of!(iodbto, datano_e) - 4usize];
@@ -2445,11 +2445,11 @@ pub struct iodbzofs {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbzofs"][::std::mem::size_of::<iodbzofs>() - 264usize];
-    ["Alignment of iodbzofs"][::std::mem::align_of::<iodbzofs>() - 8usize];
+    ["Size of iodbzofs"][::std::mem::size_of::<iodbzofs>() - 132usize];
+    ["Alignment of iodbzofs"][::std::mem::align_of::<iodbzofs>() - 4usize];
     ["Offset of field: iodbzofs::datano"][::std::mem::offset_of!(iodbzofs, datano) - 0usize];
     ["Offset of field: iodbzofs::type_"][::std::mem::offset_of!(iodbzofs, type_) - 2usize];
-    ["Offset of field: iodbzofs::data"][::std::mem::offset_of!(iodbzofs, data) - 8usize];
+    ["Offset of field: iodbzofs::data"][::std::mem::offset_of!(iodbzofs, data) - 4usize];
 };
 pub type IODBZOFS = iodbzofs;
 #[repr(C)]
@@ -2462,8 +2462,8 @@ pub struct iodbzor {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbzor"][::std::mem::size_of::<iodbzor>() - 2056usize];
-    ["Alignment of iodbzor"][::std::mem::align_of::<iodbzor>() - 8usize];
+    ["Size of iodbzor"][::std::mem::size_of::<iodbzor>() - 1032usize];
+    ["Alignment of iodbzor"][::std::mem::align_of::<iodbzor>() - 4usize];
     ["Offset of field: iodbzor::datano_s"][::std::mem::offset_of!(iodbzor, datano_s) - 0usize];
     ["Offset of field: iodbzor::type_"][::std::mem::offset_of!(iodbzor, type_) - 2usize];
     ["Offset of field: iodbzor::datano_e"][::std::mem::offset_of!(iodbzor, datano_e) - 4usize];
@@ -2487,11 +2487,11 @@ pub struct iodbjogcmdcode {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbjogcmdcode"][::std::mem::size_of::<iodbjogcmdcode>() - 16usize];
-    ["Alignment of iodbjogcmdcode"][::std::mem::align_of::<iodbjogcmdcode>() - 8usize];
+    ["Size of iodbjogcmdcode"][::std::mem::size_of::<iodbjogcmdcode>() - 8usize];
+    ["Alignment of iodbjogcmdcode"][::std::mem::align_of::<iodbjogcmdcode>() - 4usize];
     ["Offset of field: iodbjogcmdcode::adrs"]
         [::std::mem::offset_of!(iodbjogcmdcode, adrs) - 0usize];
-    ["Offset of field: iodbjogcmdcode::num"][::std::mem::offset_of!(iodbjogcmdcode, num) - 8usize];
+    ["Offset of field: iodbjogcmdcode::num"][::std::mem::offset_of!(iodbjogcmdcode, num) - 4usize];
 };
 pub type ODBJOGCMDCODE = iodbjogcmdcode;
 #[repr(C)]
@@ -2502,12 +2502,12 @@ pub struct iodbjogcmdscode {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbjogcmdscode"][::std::mem::size_of::<iodbjogcmdscode>() - 16usize];
-    ["Alignment of iodbjogcmdscode"][::std::mem::align_of::<iodbjogcmdscode>() - 8usize];
+    ["Size of iodbjogcmdscode"][::std::mem::size_of::<iodbjogcmdscode>() - 8usize];
+    ["Alignment of iodbjogcmdscode"][::std::mem::align_of::<iodbjogcmdscode>() - 4usize];
     ["Offset of field: iodbjogcmdscode::adrs"]
         [::std::mem::offset_of!(iodbjogcmdscode, adrs) - 0usize];
     ["Offset of field: iodbjogcmdscode::num"]
-        [::std::mem::offset_of!(iodbjogcmdscode, num) - 8usize];
+        [::std::mem::offset_of!(iodbjogcmdscode, num) - 4usize];
 };
 pub type ODBJOGCMDSCODE = iodbjogcmdscode;
 #[repr(C)]
@@ -2519,13 +2519,13 @@ pub struct iodbjogcmdaxis {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbjogcmdaxis"][::std::mem::size_of::<iodbjogcmdaxis>() - 24usize];
-    ["Alignment of iodbjogcmdaxis"][::std::mem::align_of::<iodbjogcmdaxis>() - 8usize];
+    ["Size of iodbjogcmdaxis"][::std::mem::size_of::<iodbjogcmdaxis>() - 12usize];
+    ["Alignment of iodbjogcmdaxis"][::std::mem::align_of::<iodbjogcmdaxis>() - 4usize];
     ["Offset of field: iodbjogcmdaxis::name"]
         [::std::mem::offset_of!(iodbjogcmdaxis, name) - 0usize];
     ["Offset of field: iodbjogcmdaxis::data"]
-        [::std::mem::offset_of!(iodbjogcmdaxis, data) - 8usize];
-    ["Offset of field: iodbjogcmdaxis::dec"][::std::mem::offset_of!(iodbjogcmdaxis, dec) - 16usize];
+        [::std::mem::offset_of!(iodbjogcmdaxis, data) - 4usize];
+    ["Offset of field: iodbjogcmdaxis::dec"][::std::mem::offset_of!(iodbjogcmdaxis, dec) - 8usize];
 };
 pub type ODBJOGCMDAXIS = iodbjogcmdaxis;
 #[repr(C)]
@@ -2543,18 +2543,18 @@ pub struct odbjogcmd {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbjogcmd"][::std::mem::size_of::<odbjogcmd>() - 936usize];
-    ["Alignment of odbjogcmd"][::std::mem::align_of::<odbjogcmd>() - 8usize];
+    ["Size of odbjogcmd"][::std::mem::size_of::<odbjogcmd>() - 468usize];
+    ["Alignment of odbjogcmd"][::std::mem::align_of::<odbjogcmd>() - 4usize];
     ["Offset of field: odbjogcmd::gcode"][::std::mem::offset_of!(odbjogcmd, gcode) - 0usize];
-    ["Offset of field: odbjogcmd::mcode"][::std::mem::offset_of!(odbjogcmd, mcode) - 16usize];
-    ["Offset of field: odbjogcmd::scode"][::std::mem::offset_of!(odbjogcmd, scode) - 32usize];
-    ["Offset of field: odbjogcmd::tcode"][::std::mem::offset_of!(odbjogcmd, tcode) - 48usize];
-    ["Offset of field: odbjogcmd::bcode"][::std::mem::offset_of!(odbjogcmd, bcode) - 64usize];
-    ["Offset of field: odbjogcmd::padr"][::std::mem::offset_of!(odbjogcmd, padr) - 80usize];
-    ["Offset of field: odbjogcmd::extscode"][::std::mem::offset_of!(odbjogcmd, extscode) - 96usize];
-    ["Offset of field: odbjogcmd::axis"][::std::mem::offset_of!(odbjogcmd, axis) - 160usize];
+    ["Offset of field: odbjogcmd::mcode"][::std::mem::offset_of!(odbjogcmd, mcode) - 8usize];
+    ["Offset of field: odbjogcmd::scode"][::std::mem::offset_of!(odbjogcmd, scode) - 16usize];
+    ["Offset of field: odbjogcmd::tcode"][::std::mem::offset_of!(odbjogcmd, tcode) - 24usize];
+    ["Offset of field: odbjogcmd::bcode"][::std::mem::offset_of!(odbjogcmd, bcode) - 32usize];
+    ["Offset of field: odbjogcmd::padr"][::std::mem::offset_of!(odbjogcmd, padr) - 40usize];
+    ["Offset of field: odbjogcmd::extscode"][::std::mem::offset_of!(odbjogcmd, extscode) - 48usize];
+    ["Offset of field: odbjogcmd::axis"][::std::mem::offset_of!(odbjogcmd, axis) - 80usize];
     ["Offset of field: odbjogcmd::axis_cnt"]
-        [::std::mem::offset_of!(odbjogcmd, axis_cnt) - 928usize];
+        [::std::mem::offset_of!(odbjogcmd, axis_cnt) - 464usize];
 };
 pub type ODBJOGCMD = odbjogcmd;
 #[repr(C)]
@@ -2583,10 +2583,10 @@ pub struct realprm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of realprm"][::std::mem::size_of::<realprm>() - 16usize];
-    ["Alignment of realprm"][::std::mem::align_of::<realprm>() - 8usize];
+    ["Size of realprm"][::std::mem::size_of::<realprm>() - 8usize];
+    ["Alignment of realprm"][::std::mem::align_of::<realprm>() - 4usize];
     ["Offset of field: realprm::prm_val"][::std::mem::offset_of!(realprm, prm_val) - 0usize];
-    ["Offset of field: realprm::dec_val"][::std::mem::offset_of!(realprm, dec_val) - 8usize];
+    ["Offset of field: realprm::dec_val"][::std::mem::offset_of!(realprm, dec_val) - 4usize];
 };
 pub type REALPRM = realprm;
 #[repr(C)]
@@ -2610,9 +2610,9 @@ pub union iodbpsd__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpsd__bindgen_ty_1"][::std::mem::size_of::<iodbpsd__bindgen_ty_1>() - 512usize];
+    ["Size of iodbpsd__bindgen_ty_1"][::std::mem::size_of::<iodbpsd__bindgen_ty_1>() - 256usize];
     ["Alignment of iodbpsd__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbpsd__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbpsd__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbpsd__bindgen_ty_1::cdata"]
         [::std::mem::offset_of!(iodbpsd__bindgen_ty_1, cdata) - 0usize];
     ["Offset of field: iodbpsd__bindgen_ty_1::idata"]
@@ -2641,11 +2641,11 @@ impl Default for iodbpsd__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpsd"][::std::mem::size_of::<iodbpsd>() - 520usize];
-    ["Alignment of iodbpsd"][::std::mem::align_of::<iodbpsd>() - 8usize];
+    ["Size of iodbpsd"][::std::mem::size_of::<iodbpsd>() - 260usize];
+    ["Alignment of iodbpsd"][::std::mem::align_of::<iodbpsd>() - 4usize];
     ["Offset of field: iodbpsd::datano"][::std::mem::offset_of!(iodbpsd, datano) - 0usize];
     ["Offset of field: iodbpsd::type_"][::std::mem::offset_of!(iodbpsd, type_) - 2usize];
-    ["Offset of field: iodbpsd::u"][::std::mem::offset_of!(iodbpsd, u) - 8usize];
+    ["Offset of field: iodbpsd::u"][::std::mem::offset_of!(iodbpsd, u) - 4usize];
 };
 impl Default for iodbpsd {
     fn default() -> Self {
@@ -2675,24 +2675,24 @@ pub struct iodbprm__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbprm__bindgen_ty_1"][::std::mem::size_of::<iodbprm__bindgen_ty_1>() - 16usize];
+    ["Size of iodbprm__bindgen_ty_1"][::std::mem::size_of::<iodbprm__bindgen_ty_1>() - 8usize];
     ["Alignment of iodbprm__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbprm__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbprm__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbprm__bindgen_ty_1::prm_val"]
         [::std::mem::offset_of!(iodbprm__bindgen_ty_1, prm_val) - 0usize];
     ["Offset of field: iodbprm__bindgen_ty_1::dec_val"]
-        [::std::mem::offset_of!(iodbprm__bindgen_ty_1, dec_val) - 8usize];
+        [::std::mem::offset_of!(iodbprm__bindgen_ty_1, dec_val) - 4usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbprm"][::std::mem::size_of::<iodbprm>() - 528usize];
-    ["Alignment of iodbprm"][::std::mem::align_of::<iodbprm>() - 8usize];
+    ["Size of iodbprm"][::std::mem::size_of::<iodbprm>() - 268usize];
+    ["Alignment of iodbprm"][::std::mem::align_of::<iodbprm>() - 4usize];
     ["Offset of field: iodbprm::datano"][::std::mem::offset_of!(iodbprm, datano) - 0usize];
-    ["Offset of field: iodbprm::type_"][::std::mem::offset_of!(iodbprm, type_) - 8usize];
-    ["Offset of field: iodbprm::axis"][::std::mem::offset_of!(iodbprm, axis) - 10usize];
-    ["Offset of field: iodbprm::info"][::std::mem::offset_of!(iodbprm, info) - 12usize];
-    ["Offset of field: iodbprm::unit"][::std::mem::offset_of!(iodbprm, unit) - 14usize];
-    ["Offset of field: iodbprm::data"][::std::mem::offset_of!(iodbprm, data) - 16usize];
+    ["Offset of field: iodbprm::type_"][::std::mem::offset_of!(iodbprm, type_) - 4usize];
+    ["Offset of field: iodbprm::axis"][::std::mem::offset_of!(iodbprm, axis) - 6usize];
+    ["Offset of field: iodbprm::info"][::std::mem::offset_of!(iodbprm, info) - 8usize];
+    ["Offset of field: iodbprm::unit"][::std::mem::offset_of!(iodbprm, unit) - 10usize];
+    ["Offset of field: iodbprm::data"][::std::mem::offset_of!(iodbprm, data) - 12usize];
 };
 pub type IODBPRM = iodbprm;
 #[repr(C)]
@@ -2713,9 +2713,9 @@ pub union iodbbook__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbbook__bindgen_ty_1"][::std::mem::size_of::<iodbbook__bindgen_ty_1>() - 16usize];
+    ["Size of iodbbook__bindgen_ty_1"][::std::mem::size_of::<iodbbook__bindgen_ty_1>() - 8usize];
     ["Alignment of iodbbook__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbbook__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbbook__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbbook__bindgen_ty_1::cdata"]
         [::std::mem::offset_of!(iodbbook__bindgen_ty_1, cdata) - 0usize];
     ["Offset of field: iodbbook__bindgen_ty_1::idata"]
@@ -2736,12 +2736,12 @@ impl Default for iodbbook__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbbook"][::std::mem::size_of::<iodbbook>() - 24usize];
-    ["Alignment of iodbbook"][::std::mem::align_of::<iodbbook>() - 8usize];
+    ["Size of iodbbook"][::std::mem::size_of::<iodbbook>() - 12usize];
+    ["Alignment of iodbbook"][::std::mem::align_of::<iodbbook>() - 4usize];
     ["Offset of field: iodbbook::param_no"][::std::mem::offset_of!(iodbbook, param_no) - 0usize];
     ["Offset of field: iodbbook::axis"][::std::mem::offset_of!(iodbbook, axis) - 2usize];
     ["Offset of field: iodbbook::type_"][::std::mem::offset_of!(iodbbook, type_) - 3usize];
-    ["Offset of field: iodbbook::u"][::std::mem::offset_of!(iodbbook, u) - 8usize];
+    ["Offset of field: iodbbook::u"][::std::mem::offset_of!(iodbbook, u) - 4usize];
 };
 impl Default for iodbbook {
     fn default() -> Self {
@@ -2779,10 +2779,10 @@ pub struct iodbovmst {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbovmst"][::std::mem::size_of::<iodbovmst>() - 16usize];
-    ["Alignment of iodbovmst"][::std::mem::align_of::<iodbovmst>() - 8usize];
+    ["Size of iodbovmst"][::std::mem::size_of::<iodbovmst>() - 8usize];
+    ["Alignment of iodbovmst"][::std::mem::align_of::<iodbovmst>() - 4usize];
     ["Offset of field: iodbovmst::adrs"][::std::mem::offset_of!(iodbovmst, adrs) - 0usize];
-    ["Offset of field: iodbovmst::num"][::std::mem::offset_of!(iodbovmst, num) - 8usize];
+    ["Offset of field: iodbovmst::num"][::std::mem::offset_of!(iodbovmst, num) - 4usize];
 };
 pub type IODBOVMST = iodbovmst;
 #[repr(C)]
@@ -2795,12 +2795,12 @@ pub struct iodbovstr {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbovstr"][::std::mem::size_of::<iodbovstr>() - 64usize];
-    ["Alignment of iodbovstr"][::std::mem::align_of::<iodbovstr>() - 8usize];
+    ["Size of iodbovstr"][::std::mem::size_of::<iodbovstr>() - 32usize];
+    ["Alignment of iodbovstr"][::std::mem::align_of::<iodbovstr>() - 4usize];
     ["Offset of field: iodbovstr::mcode"][::std::mem::offset_of!(iodbovstr, mcode) - 0usize];
-    ["Offset of field: iodbovstr::scode"][::std::mem::offset_of!(iodbovstr, scode) - 16usize];
-    ["Offset of field: iodbovstr::tcode"][::std::mem::offset_of!(iodbovstr, tcode) - 32usize];
-    ["Offset of field: iodbovstr::bcode"][::std::mem::offset_of!(iodbovstr, bcode) - 48usize];
+    ["Offset of field: iodbovstr::scode"][::std::mem::offset_of!(iodbovstr, scode) - 8usize];
+    ["Offset of field: iodbovstr::tcode"][::std::mem::offset_of!(iodbovstr, tcode) - 16usize];
+    ["Offset of field: iodbovstr::bcode"][::std::mem::offset_of!(iodbovstr, bcode) - 24usize];
 };
 pub type IODBOVSTR = iodbovstr;
 #[repr(C)]
@@ -2819,24 +2819,24 @@ pub struct tagIODBPITCHBLK__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of tagIODBPITCHBLK__bindgen_ty_1"]
-        [::std::mem::size_of::<tagIODBPITCHBLK__bindgen_ty_1>() - 24usize];
+        [::std::mem::size_of::<tagIODBPITCHBLK__bindgen_ty_1>() - 12usize];
     ["Alignment of tagIODBPITCHBLK__bindgen_ty_1"]
-        [::std::mem::align_of::<tagIODBPITCHBLK__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<tagIODBPITCHBLK__bindgen_ty_1>() - 4usize];
     ["Offset of field: tagIODBPITCHBLK__bindgen_ty_1::s_no"]
         [::std::mem::offset_of!(tagIODBPITCHBLK__bindgen_ty_1, s_no) - 0usize];
     ["Offset of field: tagIODBPITCHBLK__bindgen_ty_1::e_no"]
-        [::std::mem::offset_of!(tagIODBPITCHBLK__bindgen_ty_1, e_no) - 8usize];
+        [::std::mem::offset_of!(tagIODBPITCHBLK__bindgen_ty_1, e_no) - 4usize];
     ["Offset of field: tagIODBPITCHBLK__bindgen_ty_1::attr"]
-        [::std::mem::offset_of!(tagIODBPITCHBLK__bindgen_ty_1, attr) - 16usize];
+        [::std::mem::offset_of!(tagIODBPITCHBLK__bindgen_ty_1, attr) - 8usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tagIODBPITCHBLK"][::std::mem::size_of::<tagIODBPITCHBLK>() - 200usize];
-    ["Alignment of tagIODBPITCHBLK"][::std::mem::align_of::<tagIODBPITCHBLK>() - 8usize];
+    ["Size of tagIODBPITCHBLK"][::std::mem::size_of::<tagIODBPITCHBLK>() - 100usize];
+    ["Alignment of tagIODBPITCHBLK"][::std::mem::align_of::<tagIODBPITCHBLK>() - 4usize];
     ["Offset of field: tagIODBPITCHBLK::group_num"]
         [::std::mem::offset_of!(tagIODBPITCHBLK, group_num) - 0usize];
     ["Offset of field: tagIODBPITCHBLK::pginf"]
-        [::std::mem::offset_of!(tagIODBPITCHBLK, pginf) - 8usize];
+        [::std::mem::offset_of!(tagIODBPITCHBLK, pginf) - 4usize];
 };
 pub type IODBPITCHBLK = tagIODBPITCHBLK;
 #[repr(C)]
@@ -2852,17 +2852,17 @@ pub struct tagODBVOLC {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tagODBVOLC"][::std::mem::size_of::<tagODBVOLC>() - 624usize];
-    ["Alignment of tagODBVOLC"][::std::mem::align_of::<tagODBVOLC>() - 8usize];
+    ["Size of tagODBVOLC"][::std::mem::size_of::<tagODBVOLC>() - 312usize];
+    ["Alignment of tagODBVOLC"][::std::mem::align_of::<tagODBVOLC>() - 4usize];
     ["Offset of field: tagODBVOLC::start_no"]
         [::std::mem::offset_of!(tagODBVOLC, start_no) - 0usize];
     ["Offset of field: tagODBVOLC::start_ax"]
-        [::std::mem::offset_of!(tagODBVOLC, start_ax) - 8usize];
-    ["Offset of field: tagODBVOLC::end_no"][::std::mem::offset_of!(tagODBVOLC, end_no) - 16usize];
-    ["Offset of field: tagODBVOLC::end_ax"][::std::mem::offset_of!(tagODBVOLC, end_ax) - 24usize];
-    ["Offset of field: tagODBVOLC::num"][::std::mem::offset_of!(tagODBVOLC, num) - 32usize];
-    ["Offset of field: tagODBVOLC::type_"][::std::mem::offset_of!(tagODBVOLC, type_) - 40usize];
-    ["Offset of field: tagODBVOLC::data"][::std::mem::offset_of!(tagODBVOLC, data) - 48usize];
+        [::std::mem::offset_of!(tagODBVOLC, start_ax) - 4usize];
+    ["Offset of field: tagODBVOLC::end_no"][::std::mem::offset_of!(tagODBVOLC, end_no) - 8usize];
+    ["Offset of field: tagODBVOLC::end_ax"][::std::mem::offset_of!(tagODBVOLC, end_ax) - 12usize];
+    ["Offset of field: tagODBVOLC::num"][::std::mem::offset_of!(tagODBVOLC, num) - 16usize];
+    ["Offset of field: tagODBVOLC::type_"][::std::mem::offset_of!(tagODBVOLC, type_) - 20usize];
+    ["Offset of field: tagODBVOLC::data"][::std::mem::offset_of!(tagODBVOLC, data) - 24usize];
 };
 impl Default for tagODBVOLC {
     fn default() -> Self {
@@ -2882,10 +2882,10 @@ pub struct iodbrotvolc {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbrotvolc"][::std::mem::size_of::<iodbrotvolc>() - 48usize];
-    ["Alignment of iodbrotvolc"][::std::mem::align_of::<iodbrotvolc>() - 8usize];
+    ["Size of iodbrotvolc"][::std::mem::size_of::<iodbrotvolc>() - 24usize];
+    ["Alignment of iodbrotvolc"][::std::mem::align_of::<iodbrotvolc>() - 4usize];
     ["Offset of field: iodbrotvolc::lin"][::std::mem::offset_of!(iodbrotvolc, lin) - 0usize];
-    ["Offset of field: iodbrotvolc::rot"][::std::mem::offset_of!(iodbrotvolc, rot) - 24usize];
+    ["Offset of field: iodbrotvolc::rot"][::std::mem::offset_of!(iodbrotvolc, rot) - 12usize];
 };
 pub type IODBROTVOLC = iodbrotvolc;
 #[repr(C)]
@@ -2895,8 +2895,8 @@ pub struct tagODBVOLCOMP {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tagODBVOLCOMP"][::std::mem::size_of::<tagODBVOLCOMP>() - 40usize];
-    ["Alignment of tagODBVOLCOMP"][::std::mem::align_of::<tagODBVOLCOMP>() - 8usize];
+    ["Size of tagODBVOLCOMP"][::std::mem::size_of::<tagODBVOLCOMP>() - 20usize];
+    ["Alignment of tagODBVOLCOMP"][::std::mem::align_of::<tagODBVOLCOMP>() - 4usize];
     ["Offset of field: tagODBVOLCOMP::comp"][::std::mem::offset_of!(tagODBVOLCOMP, comp) - 0usize];
 };
 pub type ODBVOLCOMP = tagODBVOLCOMP;
@@ -2910,12 +2910,12 @@ pub struct odbm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbm"][::std::mem::size_of::<odbm>() - 24usize];
-    ["Alignment of odbm"][::std::mem::align_of::<odbm>() - 8usize];
+    ["Size of odbm"][::std::mem::size_of::<odbm>() - 12usize];
+    ["Alignment of odbm"][::std::mem::align_of::<odbm>() - 4usize];
     ["Offset of field: odbm::datano"][::std::mem::offset_of!(odbm, datano) - 0usize];
     ["Offset of field: odbm::dummy"][::std::mem::offset_of!(odbm, dummy) - 2usize];
-    ["Offset of field: odbm::mcr_val"][::std::mem::offset_of!(odbm, mcr_val) - 8usize];
-    ["Offset of field: odbm::dec_val"][::std::mem::offset_of!(odbm, dec_val) - 16usize];
+    ["Offset of field: odbm::mcr_val"][::std::mem::offset_of!(odbm, mcr_val) - 4usize];
+    ["Offset of field: odbm::dec_val"][::std::mem::offset_of!(odbm, dec_val) - 8usize];
 };
 pub type ODBM = odbm;
 #[repr(C)]
@@ -2927,11 +2927,11 @@ pub struct odbm3 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbm3"][::std::mem::size_of::<odbm3>() - 24usize];
-    ["Alignment of odbm3"][::std::mem::align_of::<odbm3>() - 8usize];
+    ["Size of odbm3"][::std::mem::size_of::<odbm3>() - 12usize];
+    ["Alignment of odbm3"][::std::mem::align_of::<odbm3>() - 4usize];
     ["Offset of field: odbm3::datano"][::std::mem::offset_of!(odbm3, datano) - 0usize];
-    ["Offset of field: odbm3::mcr_val"][::std::mem::offset_of!(odbm3, mcr_val) - 8usize];
-    ["Offset of field: odbm3::dec_val"][::std::mem::offset_of!(odbm3, dec_val) - 16usize];
+    ["Offset of field: odbm3::mcr_val"][::std::mem::offset_of!(odbm3, mcr_val) - 4usize];
+    ["Offset of field: odbm3::dec_val"][::std::mem::offset_of!(odbm3, dec_val) - 8usize];
 };
 pub type ODBM3 = odbm3;
 #[repr(C)]
@@ -2950,17 +2950,17 @@ pub struct iodbmr__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbmr__bindgen_ty_1"][::std::mem::size_of::<iodbmr__bindgen_ty_1>() - 16usize];
-    ["Alignment of iodbmr__bindgen_ty_1"][::std::mem::align_of::<iodbmr__bindgen_ty_1>() - 8usize];
+    ["Size of iodbmr__bindgen_ty_1"][::std::mem::size_of::<iodbmr__bindgen_ty_1>() - 8usize];
+    ["Alignment of iodbmr__bindgen_ty_1"][::std::mem::align_of::<iodbmr__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbmr__bindgen_ty_1::mcr_val"]
         [::std::mem::offset_of!(iodbmr__bindgen_ty_1, mcr_val) - 0usize];
     ["Offset of field: iodbmr__bindgen_ty_1::dec_val"]
-        [::std::mem::offset_of!(iodbmr__bindgen_ty_1, dec_val) - 8usize];
+        [::std::mem::offset_of!(iodbmr__bindgen_ty_1, dec_val) - 4usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbmr"][::std::mem::size_of::<iodbmr>() - 88usize];
-    ["Alignment of iodbmr"][::std::mem::align_of::<iodbmr>() - 8usize];
+    ["Size of iodbmr"][::std::mem::size_of::<iodbmr>() - 48usize];
+    ["Alignment of iodbmr"][::std::mem::align_of::<iodbmr>() - 4usize];
     ["Offset of field: iodbmr::datano_s"][::std::mem::offset_of!(iodbmr, datano_s) - 0usize];
     ["Offset of field: iodbmr::dummy"][::std::mem::offset_of!(iodbmr, dummy) - 2usize];
     ["Offset of field: iodbmr::datano_e"][::std::mem::offset_of!(iodbmr, datano_e) - 4usize];
@@ -2976,7 +2976,7 @@ pub struct iodbmnr {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbmnr"][::std::mem::size_of::<iodbmnr>() - 24usize];
-    ["Alignment of iodbmnr"][::std::mem::align_of::<iodbmnr>() - 8usize];
+    ["Alignment of iodbmnr"][::std::mem::align_of::<iodbmnr>() - 4usize];
     ["Offset of field: iodbmnr::mcr_val"][::std::mem::offset_of!(iodbmnr, mcr_val) - 0usize];
     ["Offset of field: iodbmnr::name"][::std::mem::offset_of!(iodbmnr, name) - 8usize];
 };
@@ -2990,7 +2990,7 @@ pub struct iodbmnr3 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbmnr3"][::std::mem::size_of::<iodbmnr3>() - 40usize];
-    ["Alignment of iodbmnr3"][::std::mem::align_of::<iodbmnr3>() - 8usize];
+    ["Alignment of iodbmnr3"][::std::mem::align_of::<iodbmnr3>() - 4usize];
     ["Offset of field: iodbmnr3::mcr_val"][::std::mem::offset_of!(iodbmnr3, mcr_val) - 0usize];
     ["Offset of field: iodbmnr3::name"][::std::mem::offset_of!(iodbmnr3, name) - 8usize];
 };
@@ -3004,7 +3004,7 @@ pub struct iodbmnr4 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbmnr4"][::std::mem::size_of::<iodbmnr4>() - 72usize];
-    ["Alignment of iodbmnr4"][::std::mem::align_of::<iodbmnr4>() - 8usize];
+    ["Alignment of iodbmnr4"][::std::mem::align_of::<iodbmnr4>() - 4usize];
     ["Offset of field: iodbmnr4::mcr_val"][::std::mem::offset_of!(iodbmnr4, mcr_val) - 0usize];
     ["Offset of field: iodbmnr4::name"][::std::mem::offset_of!(iodbmnr4, name) - 8usize];
 };
@@ -3028,12 +3028,12 @@ pub struct odbpm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpm"][::std::mem::size_of::<odbpm>() - 32usize];
-    ["Alignment of odbpm"][::std::mem::align_of::<odbpm>() - 8usize];
+    ["Size of odbpm"][::std::mem::size_of::<odbpm>() - 16usize];
+    ["Alignment of odbpm"][::std::mem::align_of::<odbpm>() - 4usize];
     ["Offset of field: odbpm::datano"][::std::mem::offset_of!(odbpm, datano) - 0usize];
-    ["Offset of field: odbpm::dummy"][::std::mem::offset_of!(odbpm, dummy) - 8usize];
-    ["Offset of field: odbpm::mcr_val"][::std::mem::offset_of!(odbpm, mcr_val) - 16usize];
-    ["Offset of field: odbpm::dec_val"][::std::mem::offset_of!(odbpm, dec_val) - 24usize];
+    ["Offset of field: odbpm::dummy"][::std::mem::offset_of!(odbpm, dummy) - 4usize];
+    ["Offset of field: odbpm::mcr_val"][::std::mem::offset_of!(odbpm, mcr_val) - 8usize];
+    ["Offset of field: odbpm::dec_val"][::std::mem::offset_of!(odbpm, dec_val) - 12usize];
 };
 pub type ODBPM = odbpm;
 #[repr(C)]
@@ -3052,21 +3052,21 @@ pub struct iodbpr__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpr__bindgen_ty_1"][::std::mem::size_of::<iodbpr__bindgen_ty_1>() - 16usize];
-    ["Alignment of iodbpr__bindgen_ty_1"][::std::mem::align_of::<iodbpr__bindgen_ty_1>() - 8usize];
+    ["Size of iodbpr__bindgen_ty_1"][::std::mem::size_of::<iodbpr__bindgen_ty_1>() - 8usize];
+    ["Alignment of iodbpr__bindgen_ty_1"][::std::mem::align_of::<iodbpr__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbpr__bindgen_ty_1::mcr_val"]
         [::std::mem::offset_of!(iodbpr__bindgen_ty_1, mcr_val) - 0usize];
     ["Offset of field: iodbpr__bindgen_ty_1::dec_val"]
-        [::std::mem::offset_of!(iodbpr__bindgen_ty_1, dec_val) - 8usize];
+        [::std::mem::offset_of!(iodbpr__bindgen_ty_1, dec_val) - 4usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpr"][::std::mem::size_of::<iodbpr>() - 104usize];
-    ["Alignment of iodbpr"][::std::mem::align_of::<iodbpr>() - 8usize];
+    ["Size of iodbpr"][::std::mem::size_of::<iodbpr>() - 52usize];
+    ["Alignment of iodbpr"][::std::mem::align_of::<iodbpr>() - 4usize];
     ["Offset of field: iodbpr::datano_s"][::std::mem::offset_of!(iodbpr, datano_s) - 0usize];
-    ["Offset of field: iodbpr::dummy"][::std::mem::offset_of!(iodbpr, dummy) - 8usize];
-    ["Offset of field: iodbpr::datano_e"][::std::mem::offset_of!(iodbpr, datano_e) - 16usize];
-    ["Offset of field: iodbpr::data"][::std::mem::offset_of!(iodbpr, data) - 24usize];
+    ["Offset of field: iodbpr::dummy"][::std::mem::offset_of!(iodbpr, dummy) - 4usize];
+    ["Offset of field: iodbpr::datano_e"][::std::mem::offset_of!(iodbpr, datano_e) - 8usize];
+    ["Offset of field: iodbpr::data"][::std::mem::offset_of!(iodbpr, data) - 12usize];
 };
 pub type IODBPR = iodbpr;
 #[repr(C)]
@@ -3142,14 +3142,14 @@ pub struct odbpminf2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpminf2"][::std::mem::size_of::<odbpminf2>() - 32usize];
-    ["Alignment of odbpminf2"][::std::mem::align_of::<odbpminf2>() - 8usize];
+    ["Size of odbpminf2"][::std::mem::size_of::<odbpminf2>() - 20usize];
+    ["Alignment of odbpminf2"][::std::mem::align_of::<odbpminf2>() - 4usize];
     ["Offset of field: odbpminf2::use_no1"][::std::mem::offset_of!(odbpminf2, use_no1) - 0usize];
-    ["Offset of field: odbpminf2::use_no2"][::std::mem::offset_of!(odbpminf2, use_no2) - 8usize];
-    ["Offset of field: odbpminf2::use_no20"][::std::mem::offset_of!(odbpminf2, use_no20) - 16usize];
-    ["Offset of field: odbpminf2::v1_type"][::std::mem::offset_of!(odbpminf2, v1_type) - 24usize];
-    ["Offset of field: odbpminf2::v2_type"][::std::mem::offset_of!(odbpminf2, v2_type) - 26usize];
-    ["Offset of field: odbpminf2::v20_type"][::std::mem::offset_of!(odbpminf2, v20_type) - 28usize];
+    ["Offset of field: odbpminf2::use_no2"][::std::mem::offset_of!(odbpminf2, use_no2) - 4usize];
+    ["Offset of field: odbpminf2::use_no20"][::std::mem::offset_of!(odbpminf2, use_no20) - 8usize];
+    ["Offset of field: odbpminf2::v1_type"][::std::mem::offset_of!(odbpminf2, v1_type) - 12usize];
+    ["Offset of field: odbpminf2::v2_type"][::std::mem::offset_of!(odbpminf2, v2_type) - 14usize];
+    ["Offset of field: odbpminf2::v20_type"][::std::mem::offset_of!(odbpminf2, v20_type) - 16usize];
 };
 pub type ODBPMINF2 = odbpminf2;
 #[repr(C)]
@@ -3162,12 +3162,12 @@ pub struct odbpminf3 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpminf3"][::std::mem::size_of::<odbpminf3>() - 24usize];
-    ["Alignment of odbpminf3"][::std::mem::align_of::<odbpminf3>() - 8usize];
+    ["Size of odbpminf3"][::std::mem::size_of::<odbpminf3>() - 12usize];
+    ["Alignment of odbpminf3"][::std::mem::align_of::<odbpminf3>() - 4usize];
     ["Offset of field: odbpminf3::use_no1"][::std::mem::offset_of!(odbpminf3, use_no1) - 0usize];
-    ["Offset of field: odbpminf3::use_no2"][::std::mem::offset_of!(odbpminf3, use_no2) - 8usize];
-    ["Offset of field: odbpminf3::v1_type"][::std::mem::offset_of!(odbpminf3, v1_type) - 16usize];
-    ["Offset of field: odbpminf3::v2_type"][::std::mem::offset_of!(odbpminf3, v2_type) - 18usize];
+    ["Offset of field: odbpminf3::use_no2"][::std::mem::offset_of!(odbpminf3, use_no2) - 4usize];
+    ["Offset of field: odbpminf3::v1_type"][::std::mem::offset_of!(odbpminf3, v1_type) - 8usize];
+    ["Offset of field: odbpminf3::v2_type"][::std::mem::offset_of!(odbpminf3, v2_type) - 10usize];
 };
 pub type ODBPMINF3 = odbpminf3;
 #[repr(C)]
@@ -3198,11 +3198,11 @@ pub struct odbdatrng {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdatrng"][::std::mem::size_of::<odbdatrng>() - 24usize];
-    ["Alignment of odbdatrng"][::std::mem::align_of::<odbdatrng>() - 8usize];
+    ["Size of odbdatrng"][::std::mem::size_of::<odbdatrng>() - 12usize];
+    ["Alignment of odbdatrng"][::std::mem::align_of::<odbdatrng>() - 4usize];
     ["Offset of field: odbdatrng::data_min"][::std::mem::offset_of!(odbdatrng, data_min) - 0usize];
-    ["Offset of field: odbdatrng::data_max"][::std::mem::offset_of!(odbdatrng, data_max) - 8usize];
-    ["Offset of field: odbdatrng::status"][::std::mem::offset_of!(odbdatrng, status) - 16usize];
+    ["Offset of field: odbdatrng::data_max"][::std::mem::offset_of!(odbdatrng, data_max) - 4usize];
+    ["Offset of field: odbdatrng::status"][::std::mem::offset_of!(odbdatrng, status) - 8usize];
 };
 pub type ODBDATRNG = odbdatrng;
 #[repr(C)]
@@ -3219,21 +3219,21 @@ pub struct ODBHOLDATA {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of ODBHOLDATA"][::std::mem::size_of::<ODBHOLDATA>() - 104usize];
-    ["Alignment of ODBHOLDATA"][::std::mem::align_of::<ODBHOLDATA>() - 8usize];
+    ["Size of ODBHOLDATA"][::std::mem::size_of::<ODBHOLDATA>() - 52usize];
+    ["Alignment of ODBHOLDATA"][::std::mem::align_of::<ODBHOLDATA>() - 4usize];
     ["Offset of field: ODBHOLDATA::mes_axis"]
         [::std::mem::offset_of!(ODBHOLDATA, mes_axis) - 0usize];
     ["Offset of field: ODBHOLDATA::mes_parl"]
         [::std::mem::offset_of!(ODBHOLDATA, mes_parl) - 2usize];
     ["Offset of field: ODBHOLDATA::mes_val1"]
-        [::std::mem::offset_of!(ODBHOLDATA, mes_val1) - 8usize];
-    ["Offset of field: ODBHOLDATA::mes_dp1"][::std::mem::offset_of!(ODBHOLDATA, mes_dp1) - 24usize];
+        [::std::mem::offset_of!(ODBHOLDATA, mes_val1) - 4usize];
+    ["Offset of field: ODBHOLDATA::mes_dp1"][::std::mem::offset_of!(ODBHOLDATA, mes_dp1) - 12usize];
     ["Offset of field: ODBHOLDATA::mes_val2"]
-        [::std::mem::offset_of!(ODBHOLDATA, mes_val2) - 40usize];
-    ["Offset of field: ODBHOLDATA::mes_dp2"][::std::mem::offset_of!(ODBHOLDATA, mes_dp2) - 56usize];
+        [::std::mem::offset_of!(ODBHOLDATA, mes_val2) - 20usize];
+    ["Offset of field: ODBHOLDATA::mes_dp2"][::std::mem::offset_of!(ODBHOLDATA, mes_dp2) - 28usize];
     ["Offset of field: ODBHOLDATA::mes_val3"]
-        [::std::mem::offset_of!(ODBHOLDATA, mes_val3) - 72usize];
-    ["Offset of field: ODBHOLDATA::mes_dp3"][::std::mem::offset_of!(ODBHOLDATA, mes_dp3) - 88usize];
+        [::std::mem::offset_of!(ODBHOLDATA, mes_val3) - 36usize];
+    ["Offset of field: ODBHOLDATA::mes_dp3"][::std::mem::offset_of!(ODBHOLDATA, mes_dp3) - 44usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -3249,16 +3249,16 @@ pub struct hol64 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of hol64"][::std::mem::size_of::<hol64>() - 104usize];
-    ["Alignment of hol64"][::std::mem::align_of::<hol64>() - 8usize];
+    ["Size of hol64"][::std::mem::size_of::<hol64>() - 76usize];
+    ["Alignment of hol64"][::std::mem::align_of::<hol64>() - 4usize];
     ["Offset of field: hol64::mes_val1"][::std::mem::offset_of!(hol64, mes_val1) - 0usize];
     ["Offset of field: hol64::mes_dp1"][::std::mem::offset_of!(hol64, mes_dp1) - 16usize];
-    ["Offset of field: hol64::mes_val2"][::std::mem::offset_of!(hol64, mes_val2) - 32usize];
-    ["Offset of field: hol64::mes_dp2"][::std::mem::offset_of!(hol64, mes_dp2) - 48usize];
-    ["Offset of field: hol64::mes_val3"][::std::mem::offset_of!(hol64, mes_val3) - 64usize];
-    ["Offset of field: hol64::mes_dp3"][::std::mem::offset_of!(hol64, mes_dp3) - 80usize];
-    ["Offset of field: hol64::mes_axis"][::std::mem::offset_of!(hol64, mes_axis) - 96usize];
-    ["Offset of field: hol64::mes_parl"][::std::mem::offset_of!(hol64, mes_parl) - 98usize];
+    ["Offset of field: hol64::mes_val2"][::std::mem::offset_of!(hol64, mes_val2) - 24usize];
+    ["Offset of field: hol64::mes_dp2"][::std::mem::offset_of!(hol64, mes_dp2) - 40usize];
+    ["Offset of field: hol64::mes_val3"][::std::mem::offset_of!(hol64, mes_val3) - 48usize];
+    ["Offset of field: hol64::mes_dp3"][::std::mem::offset_of!(hol64, mes_dp3) - 64usize];
+    ["Offset of field: hol64::mes_axis"][::std::mem::offset_of!(hol64, mes_axis) - 72usize];
+    ["Offset of field: hol64::mes_parl"][::std::mem::offset_of!(hol64, mes_parl) - 74usize];
 };
 pub type ODBHOLDATA64 = hol64;
 #[repr(C)]
@@ -3272,13 +3272,13 @@ pub struct tlmsinf {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tlmsinf"][::std::mem::size_of::<tlmsinf>() - 40usize];
-    ["Alignment of tlmsinf"][::std::mem::align_of::<tlmsinf>() - 8usize];
+    ["Size of tlmsinf"][::std::mem::size_of::<tlmsinf>() - 20usize];
+    ["Alignment of tlmsinf"][::std::mem::align_of::<tlmsinf>() - 4usize];
     ["Offset of field: tlmsinf::t"][::std::mem::offset_of!(tlmsinf, t) - 0usize];
-    ["Offset of field: tlmsinf::m"][::std::mem::offset_of!(tlmsinf, m) - 8usize];
-    ["Offset of field: tlmsinf::hm"][::std::mem::offset_of!(tlmsinf, hm) - 16usize];
-    ["Offset of field: tlmsinf::hm_dp"][::std::mem::offset_of!(tlmsinf, hm_dp) - 24usize];
-    ["Offset of field: tlmsinf::tlofs_no"][::std::mem::offset_of!(tlmsinf, tlofs_no) - 32usize];
+    ["Offset of field: tlmsinf::m"][::std::mem::offset_of!(tlmsinf, m) - 4usize];
+    ["Offset of field: tlmsinf::hm"][::std::mem::offset_of!(tlmsinf, hm) - 8usize];
+    ["Offset of field: tlmsinf::hm_dp"][::std::mem::offset_of!(tlmsinf, hm_dp) - 12usize];
+    ["Offset of field: tlmsinf::tlofs_no"][::std::mem::offset_of!(tlmsinf, tlofs_no) - 16usize];
 };
 pub type ODBTLMSINF = tlmsinf;
 #[repr(C)]
@@ -3289,10 +3289,10 @@ pub struct tldata {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tldata"][::std::mem::size_of::<tldata>() - 16usize];
-    ["Alignment of tldata"][::std::mem::align_of::<tldata>() - 8usize];
+    ["Size of tldata"][::std::mem::size_of::<tldata>() - 8usize];
+    ["Alignment of tldata"][::std::mem::align_of::<tldata>() - 4usize];
     ["Offset of field: tldata::tl"][::std::mem::offset_of!(tldata, tl) - 0usize];
-    ["Offset of field: tldata::tl_dp"][::std::mem::offset_of!(tldata, tl_dp) - 8usize];
+    ["Offset of field: tldata::tl_dp"][::std::mem::offset_of!(tldata, tl_dp) - 4usize];
 };
 pub type ODBTLDATA = tldata;
 #[repr(C)]
@@ -3317,8 +3317,8 @@ pub union hspdata {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of hspdata"][::std::mem::size_of::<hspdata>() - 512usize];
-    ["Alignment of hspdata"][::std::mem::align_of::<hspdata>() - 8usize];
+    ["Size of hspdata"][::std::mem::size_of::<hspdata>() - 256usize];
+    ["Alignment of hspdata"][::std::mem::align_of::<hspdata>() - 4usize];
     ["Offset of field: hspdata::cdata"][::std::mem::offset_of!(hspdata, cdata) - 0usize];
     ["Offset of field: hspdata::idata"][::std::mem::offset_of!(hspdata, idata) - 0usize];
     ["Offset of field: hspdata::ldata"][::std::mem::offset_of!(hspdata, ldata) - 0usize];
@@ -3344,8 +3344,8 @@ pub union hspdatam {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of hspdatam"][::std::mem::size_of::<hspdatam>() - 512usize];
-    ["Alignment of hspdatam"][::std::mem::align_of::<hspdatam>() - 8usize];
+    ["Size of hspdatam"][::std::mem::size_of::<hspdatam>() - 256usize];
+    ["Alignment of hspdatam"][::std::mem::align_of::<hspdatam>() - 4usize];
     ["Offset of field: hspdatam::cdata"][::std::mem::offset_of!(hspdatam, cdata) - 0usize];
     ["Offset of field: hspdatam::idata"][::std::mem::offset_of!(hspdatam, idata) - 0usize];
     ["Offset of field: hspdatam::ldata"][::std::mem::offset_of!(hspdatam, ldata) - 0usize];
@@ -3369,10 +3369,10 @@ pub struct odbfofs {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbfofs"][::std::mem::size_of::<odbfofs>() - 16usize];
-    ["Alignment of odbfofs"][::std::mem::align_of::<odbfofs>() - 8usize];
+    ["Size of odbfofs"][::std::mem::size_of::<odbfofs>() - 8usize];
+    ["Alignment of odbfofs"][::std::mem::align_of::<odbfofs>() - 4usize];
     ["Offset of field: odbfofs::mcrval"][::std::mem::offset_of!(odbfofs, mcrval) - 0usize];
-    ["Offset of field: odbfofs::decval"][::std::mem::offset_of!(odbfofs, decval) - 8usize];
+    ["Offset of field: odbfofs::decval"][::std::mem::offset_of!(odbfofs, decval) - 4usize];
 };
 pub type ODBFOFS = odbfofs;
 #[repr(C)]
@@ -3396,27 +3396,27 @@ pub struct iodbctpr__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbctpr__bindgen_ty_1"][::std::mem::size_of::<iodbctpr__bindgen_ty_1>() - 1616usize];
+    ["Size of iodbctpr__bindgen_ty_1"][::std::mem::size_of::<iodbctpr__bindgen_ty_1>() - 840usize];
     ["Alignment of iodbctpr__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbctpr__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbctpr__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbctpr__bindgen_ty_1::acc_bipl"]
         [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, acc_bipl) - 0usize];
     ["Offset of field: iodbctpr__bindgen_ty_1::acc_chg_time"]
-        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, acc_chg_time) - 256usize];
+        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, acc_chg_time) - 128usize];
     ["Offset of field: iodbctpr__bindgen_ty_1::jerk_acc_diff"]
-        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, jerk_acc_diff) - 264usize];
+        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, jerk_acc_diff) - 132usize];
     ["Offset of field: iodbctpr__bindgen_ty_1::jerk_acc_diff_lin"]
-        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, jerk_acc_diff_lin) - 520usize];
+        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, jerk_acc_diff_lin) - 260usize];
     ["Offset of field: iodbctpr__bindgen_ty_1::jerk_acc_ratio"]
-        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, jerk_acc_ratio) - 776usize];
+        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, jerk_acc_ratio) - 388usize];
     ["Offset of field: iodbctpr__bindgen_ty_1::max_acc"]
-        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, max_acc) - 784usize];
+        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, max_acc) - 392usize];
     ["Offset of field: iodbctpr__bindgen_ty_1::t_con_aipl"]
-        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, t_con_aipl) - 1040usize];
+        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, t_con_aipl) - 520usize];
     ["Offset of field: iodbctpr__bindgen_ty_1::corner_feed_diff"]
-        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, corner_feed_diff) - 1104usize];
+        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, corner_feed_diff) - 584usize];
     ["Offset of field: iodbctpr__bindgen_ty_1::max_cut_fdrate"]
-        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, max_cut_fdrate) - 1360usize];
+        [::std::mem::offset_of!(iodbctpr__bindgen_ty_1, max_cut_fdrate) - 712usize];
 };
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -3438,9 +3438,9 @@ pub union iodbctpr__bindgen_ty_2__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbctpr__bindgen_ty_2__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbctpr__bindgen_ty_2__bindgen_ty_1>() - 256usize];
+        [::std::mem::size_of::<iodbctpr__bindgen_ty_2__bindgen_ty_1>() - 128usize];
     ["Alignment of iodbctpr__bindgen_ty_2__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbctpr__bindgen_ty_2__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbctpr__bindgen_ty_2__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbctpr__bindgen_ty_2__bindgen_ty_1::cdata"]
         [::std::mem::offset_of!(iodbctpr__bindgen_ty_2__bindgen_ty_1, cdata) - 0usize];
     ["Offset of field: iodbctpr__bindgen_ty_2__bindgen_ty_1::idata"]
@@ -3465,15 +3465,15 @@ impl Default for iodbctpr__bindgen_ty_2__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbctpr__bindgen_ty_2"][::std::mem::size_of::<iodbctpr__bindgen_ty_2>() - 264usize];
+    ["Size of iodbctpr__bindgen_ty_2"][::std::mem::size_of::<iodbctpr__bindgen_ty_2>() - 132usize];
     ["Alignment of iodbctpr__bindgen_ty_2"]
-        [::std::mem::align_of::<iodbctpr__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<iodbctpr__bindgen_ty_2>() - 4usize];
     ["Offset of field: iodbctpr__bindgen_ty_2::datano"]
         [::std::mem::offset_of!(iodbctpr__bindgen_ty_2, datano) - 0usize];
     ["Offset of field: iodbctpr__bindgen_ty_2::type_"]
         [::std::mem::offset_of!(iodbctpr__bindgen_ty_2, type_) - 2usize];
     ["Offset of field: iodbctpr__bindgen_ty_2::u"]
-        [::std::mem::offset_of!(iodbctpr__bindgen_ty_2, u) - 8usize];
+        [::std::mem::offset_of!(iodbctpr__bindgen_ty_2, u) - 4usize];
 };
 impl Default for iodbctpr__bindgen_ty_2 {
     fn default() -> Self {
@@ -3486,10 +3486,10 @@ impl Default for iodbctpr__bindgen_ty_2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbctpr"][::std::mem::size_of::<iodbctpr>() - 2144usize];
-    ["Alignment of iodbctpr"][::std::mem::align_of::<iodbctpr>() - 8usize];
+    ["Size of iodbctpr"][::std::mem::size_of::<iodbctpr>() - 1104usize];
+    ["Alignment of iodbctpr"][::std::mem::align_of::<iodbctpr>() - 4usize];
     ["Offset of field: iodbctpr::data"][::std::mem::offset_of!(iodbctpr, data) - 0usize];
-    ["Offset of field: iodbctpr::prm"][::std::mem::offset_of!(iodbctpr, prm) - 1616usize];
+    ["Offset of field: iodbctpr::prm"][::std::mem::offset_of!(iodbctpr, prm) - 840usize];
 };
 impl Default for iodbctpr {
     fn default() -> Self {
@@ -3529,31 +3529,31 @@ pub struct iodbctprm__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbctprm__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbctprm__bindgen_ty_1__bindgen_ty_1>() - 416usize];
+        [::std::mem::size_of::<iodbctprm__bindgen_ty_1__bindgen_ty_1>() - 216usize];
     ["Alignment of iodbctprm__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbctprm__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbctprm__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_1::acc_bipl"]
         [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, acc_bipl) - 0usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_1::acc_chg_time"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, acc_chg_time) - 64usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, acc_chg_time) - 32usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_1::jerk_acc_diff"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, jerk_acc_diff) - 72usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, jerk_acc_diff) - 36usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_1::jerk_acc_diff_lin"][::std::mem::offset_of!(
         iodbctprm__bindgen_ty_1__bindgen_ty_1,
         jerk_acc_diff_lin
-    ) - 136usize];
+    ) - 68usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_1::jerk_acc_ratio"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, jerk_acc_ratio) - 200usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, jerk_acc_ratio) - 100usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_1::max_acc"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, max_acc) - 208usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, max_acc) - 104usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_1::t_con_aipl"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, t_con_aipl) - 272usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, t_con_aipl) - 136usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_1::corner_feed_diff"][::std::mem::offset_of!(
         iodbctprm__bindgen_ty_1__bindgen_ty_1,
         corner_feed_diff
-    ) - 288usize];
+    ) - 152usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_1::max_cut_fdrate"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, max_cut_fdrate) - 352usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_1, max_cut_fdrate) - 184usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -3571,38 +3571,38 @@ pub struct iodbctprm__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbctprm__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<iodbctprm__bindgen_ty_1__bindgen_ty_2>() - 3160usize];
+        [::std::mem::size_of::<iodbctprm__bindgen_ty_1__bindgen_ty_2>() - 1612usize];
     ["Alignment of iodbctprm__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<iodbctprm__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<iodbctprm__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_2::acc_bipl"]
         [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, acc_bipl) - 0usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_2::acc_chg_time"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, acc_chg_time) - 512usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, acc_chg_time) - 256usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_2::jerk_acc_diff"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, jerk_acc_diff) - 528usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, jerk_acc_diff) - 264usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_2::jerk_acc_diff_lin"][::std::mem::offset_of!(
         iodbctprm__bindgen_ty_1__bindgen_ty_2,
         jerk_acc_diff_lin
-    ) - 1040usize];
+    ) - 520usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_2::jerk_acc_ratio"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, jerk_acc_ratio) - 1552usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, jerk_acc_ratio) - 776usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_2::max_acc"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, max_acc) - 1560usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, max_acc) - 780usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_2::t_con_aipl"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, t_con_aipl) - 2072usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, t_con_aipl) - 1036usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_2::corner_feed_diff"][::std::mem::offset_of!(
         iodbctprm__bindgen_ty_1__bindgen_ty_2,
         corner_feed_diff
-    ) - 2136usize];
+    ) - 1100usize];
     ["Offset of field: iodbctprm__bindgen_ty_1__bindgen_ty_2::max_cut_fdrate"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, max_cut_fdrate) - 2648usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_1__bindgen_ty_2, max_cut_fdrate) - 1356usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbctprm__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbctprm__bindgen_ty_1>() - 3160usize];
+        [::std::mem::size_of::<iodbctprm__bindgen_ty_1>() - 1612usize];
     ["Alignment of iodbctprm__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbctprm__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbctprm__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbctprm__bindgen_ty_1::data_160"]
         [::std::mem::offset_of!(iodbctprm__bindgen_ty_1, data_160) - 0usize];
     ["Offset of field: iodbctprm__bindgen_ty_1::data_30i"]
@@ -3639,9 +3639,9 @@ pub union iodbctprm__bindgen_ty_2__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbctprm__bindgen_ty_2__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbctprm__bindgen_ty_2__bindgen_ty_1>() - 512usize];
+        [::std::mem::size_of::<iodbctprm__bindgen_ty_2__bindgen_ty_1>() - 256usize];
     ["Alignment of iodbctprm__bindgen_ty_2__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbctprm__bindgen_ty_2__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbctprm__bindgen_ty_2__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbctprm__bindgen_ty_2__bindgen_ty_1::cdata"]
         [::std::mem::offset_of!(iodbctprm__bindgen_ty_2__bindgen_ty_1, cdata) - 0usize];
     ["Offset of field: iodbctprm__bindgen_ty_2__bindgen_ty_1::idata"]
@@ -3671,15 +3671,15 @@ impl Default for iodbctprm__bindgen_ty_2__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbctprm__bindgen_ty_2"]
-        [::std::mem::size_of::<iodbctprm__bindgen_ty_2>() - 520usize];
+        [::std::mem::size_of::<iodbctprm__bindgen_ty_2>() - 260usize];
     ["Alignment of iodbctprm__bindgen_ty_2"]
-        [::std::mem::align_of::<iodbctprm__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<iodbctprm__bindgen_ty_2>() - 4usize];
     ["Offset of field: iodbctprm__bindgen_ty_2::datano"]
         [::std::mem::offset_of!(iodbctprm__bindgen_ty_2, datano) - 0usize];
     ["Offset of field: iodbctprm__bindgen_ty_2::type_"]
         [::std::mem::offset_of!(iodbctprm__bindgen_ty_2, type_) - 2usize];
     ["Offset of field: iodbctprm__bindgen_ty_2::u"]
-        [::std::mem::offset_of!(iodbctprm__bindgen_ty_2, u) - 8usize];
+        [::std::mem::offset_of!(iodbctprm__bindgen_ty_2, u) - 4usize];
 };
 impl Default for iodbctprm__bindgen_ty_2 {
     fn default() -> Self {
@@ -3692,10 +3692,10 @@ impl Default for iodbctprm__bindgen_ty_2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbctprm"][::std::mem::size_of::<iodbctprm>() - 4200usize];
-    ["Alignment of iodbctprm"][::std::mem::align_of::<iodbctprm>() - 8usize];
+    ["Size of iodbctprm"][::std::mem::size_of::<iodbctprm>() - 2132usize];
+    ["Alignment of iodbctprm"][::std::mem::align_of::<iodbctprm>() - 4usize];
     ["Offset of field: iodbctprm::data"][::std::mem::offset_of!(iodbctprm, data) - 0usize];
-    ["Offset of field: iodbctprm::prm"][::std::mem::offset_of!(iodbctprm, prm) - 3160usize];
+    ["Offset of field: iodbctprm::prm"][::std::mem::offset_of!(iodbctprm, prm) - 1612usize];
 };
 impl Default for iodbctprm {
     fn default() -> Self {
@@ -3719,14 +3719,14 @@ pub struct IODBTLGS {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of IODBTLGS"][::std::mem::size_of::<IODBTLGS>() - 32usize];
-    ["Alignment of IODBTLGS"][::std::mem::align_of::<IODBTLGS>() - 8usize];
+    ["Size of IODBTLGS"][::std::mem::size_of::<IODBTLGS>() - 20usize];
+    ["Alignment of IODBTLGS"][::std::mem::align_of::<IODBTLGS>() - 4usize];
     ["Offset of field: IODBTLGS::data1"][::std::mem::offset_of!(IODBTLGS, data1) - 0usize];
-    ["Offset of field: IODBTLGS::data2"][::std::mem::offset_of!(IODBTLGS, data2) - 8usize];
-    ["Offset of field: IODBTLGS::tooltype"][::std::mem::offset_of!(IODBTLGS, tooltype) - 16usize];
-    ["Offset of field: IODBTLGS::install"][::std::mem::offset_of!(IODBTLGS, install) - 17usize];
-    ["Offset of field: IODBTLGS::toolname"][::std::mem::offset_of!(IODBTLGS, toolname) - 18usize];
-    ["Offset of field: IODBTLGS::dummy"][::std::mem::offset_of!(IODBTLGS, dummy) - 27usize];
+    ["Offset of field: IODBTLGS::data2"][::std::mem::offset_of!(IODBTLGS, data2) - 4usize];
+    ["Offset of field: IODBTLGS::tooltype"][::std::mem::offset_of!(IODBTLGS, tooltype) - 8usize];
+    ["Offset of field: IODBTLGS::install"][::std::mem::offset_of!(IODBTLGS, install) - 9usize];
+    ["Offset of field: IODBTLGS::toolname"][::std::mem::offset_of!(IODBTLGS, toolname) - 10usize];
+    ["Offset of field: IODBTLGS::dummy"][::std::mem::offset_of!(IODBTLGS, dummy) - 19usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -3742,19 +3742,19 @@ pub struct iodbtlgsext {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtlgsext"][::std::mem::size_of::<iodbtlgsext>() - 48usize];
-    ["Alignment of iodbtlgsext"][::std::mem::align_of::<iodbtlgsext>() - 8usize];
+    ["Size of iodbtlgsext"][::std::mem::size_of::<iodbtlgsext>() - 28usize];
+    ["Alignment of iodbtlgsext"][::std::mem::align_of::<iodbtlgsext>() - 4usize];
     ["Offset of field: iodbtlgsext::data1"][::std::mem::offset_of!(iodbtlgsext, data1) - 0usize];
-    ["Offset of field: iodbtlgsext::data2"][::std::mem::offset_of!(iodbtlgsext, data2) - 8usize];
-    ["Offset of field: iodbtlgsext::data3"][::std::mem::offset_of!(iodbtlgsext, data3) - 16usize];
-    ["Offset of field: iodbtlgsext::data4"][::std::mem::offset_of!(iodbtlgsext, data4) - 24usize];
+    ["Offset of field: iodbtlgsext::data2"][::std::mem::offset_of!(iodbtlgsext, data2) - 4usize];
+    ["Offset of field: iodbtlgsext::data3"][::std::mem::offset_of!(iodbtlgsext, data3) - 8usize];
+    ["Offset of field: iodbtlgsext::data4"][::std::mem::offset_of!(iodbtlgsext, data4) - 12usize];
     ["Offset of field: iodbtlgsext::tooltype"]
-        [::std::mem::offset_of!(iodbtlgsext, tooltype) - 32usize];
+        [::std::mem::offset_of!(iodbtlgsext, tooltype) - 16usize];
     ["Offset of field: iodbtlgsext::install"]
-        [::std::mem::offset_of!(iodbtlgsext, install) - 33usize];
-    ["Offset of field: iodbtlgsext::holder"][::std::mem::offset_of!(iodbtlgsext, holder) - 34usize];
+        [::std::mem::offset_of!(iodbtlgsext, install) - 17usize];
+    ["Offset of field: iodbtlgsext::holder"][::std::mem::offset_of!(iodbtlgsext, holder) - 18usize];
     ["Offset of field: iodbtlgsext::toolname"]
-        [::std::mem::offset_of!(iodbtlgsext, toolname) - 35usize];
+        [::std::mem::offset_of!(iodbtlgsext, toolname) - 19usize];
 };
 pub type IODBTLGSEXT = iodbtlgsext;
 #[repr(C)]
@@ -3777,27 +3777,27 @@ pub struct iodbtlgsext2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtlgsext2"][::std::mem::size_of::<iodbtlgsext2>() - 96usize];
-    ["Alignment of iodbtlgsext2"][::std::mem::align_of::<iodbtlgsext2>() - 8usize];
+    ["Size of iodbtlgsext2"][::std::mem::size_of::<iodbtlgsext2>() - 52usize];
+    ["Alignment of iodbtlgsext2"][::std::mem::align_of::<iodbtlgsext2>() - 4usize];
     ["Offset of field: iodbtlgsext2::data1"][::std::mem::offset_of!(iodbtlgsext2, data1) - 0usize];
-    ["Offset of field: iodbtlgsext2::data2"][::std::mem::offset_of!(iodbtlgsext2, data2) - 8usize];
-    ["Offset of field: iodbtlgsext2::data3"][::std::mem::offset_of!(iodbtlgsext2, data3) - 16usize];
-    ["Offset of field: iodbtlgsext2::data4"][::std::mem::offset_of!(iodbtlgsext2, data4) - 24usize];
-    ["Offset of field: iodbtlgsext2::data5"][::std::mem::offset_of!(iodbtlgsext2, data5) - 32usize];
-    ["Offset of field: iodbtlgsext2::data6"][::std::mem::offset_of!(iodbtlgsext2, data6) - 40usize];
-    ["Offset of field: iodbtlgsext2::data7"][::std::mem::offset_of!(iodbtlgsext2, data7) - 48usize];
-    ["Offset of field: iodbtlgsext2::data8"][::std::mem::offset_of!(iodbtlgsext2, data8) - 56usize];
-    ["Offset of field: iodbtlgsext2::data9"][::std::mem::offset_of!(iodbtlgsext2, data9) - 64usize];
+    ["Offset of field: iodbtlgsext2::data2"][::std::mem::offset_of!(iodbtlgsext2, data2) - 4usize];
+    ["Offset of field: iodbtlgsext2::data3"][::std::mem::offset_of!(iodbtlgsext2, data3) - 8usize];
+    ["Offset of field: iodbtlgsext2::data4"][::std::mem::offset_of!(iodbtlgsext2, data4) - 12usize];
+    ["Offset of field: iodbtlgsext2::data5"][::std::mem::offset_of!(iodbtlgsext2, data5) - 16usize];
+    ["Offset of field: iodbtlgsext2::data6"][::std::mem::offset_of!(iodbtlgsext2, data6) - 20usize];
+    ["Offset of field: iodbtlgsext2::data7"][::std::mem::offset_of!(iodbtlgsext2, data7) - 24usize];
+    ["Offset of field: iodbtlgsext2::data8"][::std::mem::offset_of!(iodbtlgsext2, data8) - 28usize];
+    ["Offset of field: iodbtlgsext2::data9"][::std::mem::offset_of!(iodbtlgsext2, data9) - 32usize];
     ["Offset of field: iodbtlgsext2::data10"]
-        [::std::mem::offset_of!(iodbtlgsext2, data10) - 72usize];
+        [::std::mem::offset_of!(iodbtlgsext2, data10) - 36usize];
     ["Offset of field: iodbtlgsext2::tooltype"]
-        [::std::mem::offset_of!(iodbtlgsext2, tooltype) - 80usize];
+        [::std::mem::offset_of!(iodbtlgsext2, tooltype) - 40usize];
     ["Offset of field: iodbtlgsext2::install"]
-        [::std::mem::offset_of!(iodbtlgsext2, install) - 81usize];
+        [::std::mem::offset_of!(iodbtlgsext2, install) - 41usize];
     ["Offset of field: iodbtlgsext2::holder"]
-        [::std::mem::offset_of!(iodbtlgsext2, holder) - 82usize];
+        [::std::mem::offset_of!(iodbtlgsext2, holder) - 42usize];
     ["Offset of field: iodbtlgsext2::toolname"]
-        [::std::mem::offset_of!(iodbtlgsext2, toolname) - 83usize];
+        [::std::mem::offset_of!(iodbtlgsext2, toolname) - 43usize];
 };
 pub type IODBTLGSEXT2 = iodbtlgsext2;
 #[repr(C)]
@@ -3809,11 +3809,11 @@ pub struct odbtlife1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtlife1"][::std::mem::size_of::<odbtlife1>() - 16usize];
-    ["Alignment of odbtlife1"][::std::mem::align_of::<odbtlife1>() - 8usize];
+    ["Size of odbtlife1"][::std::mem::size_of::<odbtlife1>() - 8usize];
+    ["Alignment of odbtlife1"][::std::mem::align_of::<odbtlife1>() - 4usize];
     ["Offset of field: odbtlife1::dummy"][::std::mem::offset_of!(odbtlife1, dummy) - 0usize];
     ["Offset of field: odbtlife1::type_"][::std::mem::offset_of!(odbtlife1, type_) - 2usize];
-    ["Offset of field: odbtlife1::data"][::std::mem::offset_of!(odbtlife1, data) - 8usize];
+    ["Offset of field: odbtlife1::data"][::std::mem::offset_of!(odbtlife1, data) - 4usize];
 };
 pub type ODBTLIFE1 = odbtlife1;
 #[repr(C)]
@@ -3824,10 +3824,10 @@ pub struct odbtlife2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtlife2"][::std::mem::size_of::<odbtlife2>() - 16usize];
-    ["Alignment of odbtlife2"][::std::mem::align_of::<odbtlife2>() - 8usize];
+    ["Size of odbtlife2"][::std::mem::size_of::<odbtlife2>() - 8usize];
+    ["Alignment of odbtlife2"][::std::mem::align_of::<odbtlife2>() - 4usize];
     ["Offset of field: odbtlife2::dummy"][::std::mem::offset_of!(odbtlife2, dummy) - 0usize];
-    ["Offset of field: odbtlife2::data"][::std::mem::offset_of!(odbtlife2, data) - 8usize];
+    ["Offset of field: odbtlife2::data"][::std::mem::offset_of!(odbtlife2, data) - 4usize];
 };
 pub type ODBTLIFE2 = odbtlife2;
 #[repr(C)]
@@ -3839,11 +3839,11 @@ pub struct odbtlife3 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtlife3"][::std::mem::size_of::<odbtlife3>() - 16usize];
-    ["Alignment of odbtlife3"][::std::mem::align_of::<odbtlife3>() - 8usize];
+    ["Size of odbtlife3"][::std::mem::size_of::<odbtlife3>() - 8usize];
+    ["Alignment of odbtlife3"][::std::mem::align_of::<odbtlife3>() - 4usize];
     ["Offset of field: odbtlife3::datano"][::std::mem::offset_of!(odbtlife3, datano) - 0usize];
     ["Offset of field: odbtlife3::dummy"][::std::mem::offset_of!(odbtlife3, dummy) - 2usize];
-    ["Offset of field: odbtlife3::data"][::std::mem::offset_of!(odbtlife3, data) - 8usize];
+    ["Offset of field: odbtlife3::data"][::std::mem::offset_of!(odbtlife3, data) - 4usize];
 };
 pub type ODBTLIFE3 = odbtlife3;
 #[repr(C)]
@@ -3855,11 +3855,11 @@ pub struct odbtlife4 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtlife4"][::std::mem::size_of::<odbtlife4>() - 16usize];
-    ["Alignment of odbtlife4"][::std::mem::align_of::<odbtlife4>() - 8usize];
+    ["Size of odbtlife4"][::std::mem::size_of::<odbtlife4>() - 8usize];
+    ["Alignment of odbtlife4"][::std::mem::align_of::<odbtlife4>() - 4usize];
     ["Offset of field: odbtlife4::datano"][::std::mem::offset_of!(odbtlife4, datano) - 0usize];
     ["Offset of field: odbtlife4::type_"][::std::mem::offset_of!(odbtlife4, type_) - 2usize];
-    ["Offset of field: odbtlife4::data"][::std::mem::offset_of!(odbtlife4, data) - 8usize];
+    ["Offset of field: odbtlife4::data"][::std::mem::offset_of!(odbtlife4, data) - 4usize];
 };
 pub type ODBTLIFE4 = odbtlife4;
 #[repr(C)]
@@ -3871,11 +3871,11 @@ pub struct odbtlife5 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtlife5"][::std::mem::size_of::<odbtlife5>() - 24usize];
-    ["Alignment of odbtlife5"][::std::mem::align_of::<odbtlife5>() - 8usize];
+    ["Size of odbtlife5"][::std::mem::size_of::<odbtlife5>() - 12usize];
+    ["Alignment of odbtlife5"][::std::mem::align_of::<odbtlife5>() - 4usize];
     ["Offset of field: odbtlife5::dummy"][::std::mem::offset_of!(odbtlife5, dummy) - 0usize];
-    ["Offset of field: odbtlife5::type_"][::std::mem::offset_of!(odbtlife5, type_) - 8usize];
-    ["Offset of field: odbtlife5::data"][::std::mem::offset_of!(odbtlife5, data) - 16usize];
+    ["Offset of field: odbtlife5::type_"][::std::mem::offset_of!(odbtlife5, type_) - 4usize];
+    ["Offset of field: odbtlife5::data"][::std::mem::offset_of!(odbtlife5, data) - 8usize];
 };
 pub type ODBTLIFE5 = odbtlife5;
 #[repr(C)]
@@ -3895,19 +3895,19 @@ pub struct iodbtr__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtr__bindgen_ty_1"][::std::mem::size_of::<iodbtr__bindgen_ty_1>() - 24usize];
-    ["Alignment of iodbtr__bindgen_ty_1"][::std::mem::align_of::<iodbtr__bindgen_ty_1>() - 8usize];
+    ["Size of iodbtr__bindgen_ty_1"][::std::mem::size_of::<iodbtr__bindgen_ty_1>() - 12usize];
+    ["Alignment of iodbtr__bindgen_ty_1"][::std::mem::align_of::<iodbtr__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbtr__bindgen_ty_1::ntool"]
         [::std::mem::offset_of!(iodbtr__bindgen_ty_1, ntool) - 0usize];
     ["Offset of field: iodbtr__bindgen_ty_1::life"]
-        [::std::mem::offset_of!(iodbtr__bindgen_ty_1, life) - 8usize];
+        [::std::mem::offset_of!(iodbtr__bindgen_ty_1, life) - 4usize];
     ["Offset of field: iodbtr__bindgen_ty_1::count"]
-        [::std::mem::offset_of!(iodbtr__bindgen_ty_1, count) - 16usize];
+        [::std::mem::offset_of!(iodbtr__bindgen_ty_1, count) - 8usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtr"][::std::mem::size_of::<iodbtr>() - 128usize];
-    ["Alignment of iodbtr"][::std::mem::align_of::<iodbtr>() - 8usize];
+    ["Size of iodbtr"][::std::mem::size_of::<iodbtr>() - 68usize];
+    ["Alignment of iodbtr"][::std::mem::align_of::<iodbtr>() - 4usize];
     ["Offset of field: iodbtr::datano_s"][::std::mem::offset_of!(iodbtr, datano_s) - 0usize];
     ["Offset of field: iodbtr::dummy"][::std::mem::offset_of!(iodbtr, dummy) - 2usize];
     ["Offset of field: iodbtr::datano_e"][::std::mem::offset_of!(iodbtr, datano_e) - 4usize];
@@ -3935,29 +3935,29 @@ pub struct odbtg__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtg__bindgen_ty_1"][::std::mem::size_of::<odbtg__bindgen_ty_1>() - 40usize];
-    ["Alignment of odbtg__bindgen_ty_1"][::std::mem::align_of::<odbtg__bindgen_ty_1>() - 8usize];
+    ["Size of odbtg__bindgen_ty_1"][::std::mem::size_of::<odbtg__bindgen_ty_1>() - 20usize];
+    ["Alignment of odbtg__bindgen_ty_1"][::std::mem::align_of::<odbtg__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbtg__bindgen_ty_1::tuse_num"]
         [::std::mem::offset_of!(odbtg__bindgen_ty_1, tuse_num) - 0usize];
     ["Offset of field: odbtg__bindgen_ty_1::tool_num"]
-        [::std::mem::offset_of!(odbtg__bindgen_ty_1, tool_num) - 8usize];
+        [::std::mem::offset_of!(odbtg__bindgen_ty_1, tool_num) - 4usize];
     ["Offset of field: odbtg__bindgen_ty_1::length_num"]
-        [::std::mem::offset_of!(odbtg__bindgen_ty_1, length_num) - 16usize];
+        [::std::mem::offset_of!(odbtg__bindgen_ty_1, length_num) - 8usize];
     ["Offset of field: odbtg__bindgen_ty_1::radius_num"]
-        [::std::mem::offset_of!(odbtg__bindgen_ty_1, radius_num) - 24usize];
+        [::std::mem::offset_of!(odbtg__bindgen_ty_1, radius_num) - 12usize];
     ["Offset of field: odbtg__bindgen_ty_1::tinfo"]
-        [::std::mem::offset_of!(odbtg__bindgen_ty_1, tinfo) - 32usize];
+        [::std::mem::offset_of!(odbtg__bindgen_ty_1, tinfo) - 16usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtg"][::std::mem::size_of::<odbtg>() - 232usize];
-    ["Alignment of odbtg"][::std::mem::align_of::<odbtg>() - 8usize];
+    ["Size of odbtg"][::std::mem::size_of::<odbtg>() - 120usize];
+    ["Alignment of odbtg"][::std::mem::align_of::<odbtg>() - 4usize];
     ["Offset of field: odbtg::grp_num"][::std::mem::offset_of!(odbtg, grp_num) - 0usize];
     ["Offset of field: odbtg::dummy"][::std::mem::offset_of!(odbtg, dummy) - 2usize];
     ["Offset of field: odbtg::ntool"][::std::mem::offset_of!(odbtg, ntool) - 8usize];
-    ["Offset of field: odbtg::life"][::std::mem::offset_of!(odbtg, life) - 16usize];
-    ["Offset of field: odbtg::count"][::std::mem::offset_of!(odbtg, count) - 24usize];
-    ["Offset of field: odbtg::data"][::std::mem::offset_of!(odbtg, data) - 32usize];
+    ["Offset of field: odbtg::life"][::std::mem::offset_of!(odbtg, life) - 12usize];
+    ["Offset of field: odbtg::count"][::std::mem::offset_of!(odbtg, count) - 16usize];
+    ["Offset of field: odbtg::data"][::std::mem::offset_of!(odbtg, data) - 20usize];
 };
 pub type ODBTG = odbtg;
 #[repr(C)]
@@ -3976,17 +3976,17 @@ pub struct idbwrc__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbwrc__bindgen_ty_1"][::std::mem::size_of::<idbwrc__bindgen_ty_1>() - 24usize];
-    ["Alignment of idbwrc__bindgen_ty_1"][::std::mem::align_of::<idbwrc__bindgen_ty_1>() - 8usize];
+    ["Size of idbwrc__bindgen_ty_1"][::std::mem::size_of::<idbwrc__bindgen_ty_1>() - 12usize];
+    ["Alignment of idbwrc__bindgen_ty_1"][::std::mem::align_of::<idbwrc__bindgen_ty_1>() - 4usize];
     ["Offset of field: idbwrc__bindgen_ty_1::dummy"]
         [::std::mem::offset_of!(idbwrc__bindgen_ty_1, dummy) - 0usize];
     ["Offset of field: idbwrc__bindgen_ty_1::count"]
-        [::std::mem::offset_of!(idbwrc__bindgen_ty_1, count) - 16usize];
+        [::std::mem::offset_of!(idbwrc__bindgen_ty_1, count) - 8usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbwrc"][::std::mem::size_of::<idbwrc>() - 128usize];
-    ["Alignment of idbwrc"][::std::mem::align_of::<idbwrc>() - 8usize];
+    ["Size of idbwrc"][::std::mem::size_of::<idbwrc>() - 68usize];
+    ["Alignment of idbwrc"][::std::mem::align_of::<idbwrc>() - 4usize];
     ["Offset of field: idbwrc::datano_s"][::std::mem::offset_of!(idbwrc, datano_s) - 0usize];
     ["Offset of field: idbwrc::dummy"][::std::mem::offset_of!(idbwrc, dummy) - 2usize];
     ["Offset of field: idbwrc::datano_e"][::std::mem::offset_of!(idbwrc, datano_e) - 4usize];
@@ -4004,13 +4004,13 @@ pub struct odbusegr {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbusegr"][::std::mem::size_of::<odbusegr>() - 32usize];
-    ["Alignment of odbusegr"][::std::mem::align_of::<odbusegr>() - 8usize];
+    ["Size of odbusegr"][::std::mem::size_of::<odbusegr>() - 16usize];
+    ["Alignment of odbusegr"][::std::mem::align_of::<odbusegr>() - 4usize];
     ["Offset of field: odbusegr::datano"][::std::mem::offset_of!(odbusegr, datano) - 0usize];
     ["Offset of field: odbusegr::type_"][::std::mem::offset_of!(odbusegr, type_) - 2usize];
-    ["Offset of field: odbusegr::next"][::std::mem::offset_of!(odbusegr, next) - 8usize];
-    ["Offset of field: odbusegr::use_"][::std::mem::offset_of!(odbusegr, use_) - 16usize];
-    ["Offset of field: odbusegr::slct"][::std::mem::offset_of!(odbusegr, slct) - 24usize];
+    ["Offset of field: odbusegr::next"][::std::mem::offset_of!(odbusegr, next) - 4usize];
+    ["Offset of field: odbusegr::use_"][::std::mem::offset_of!(odbusegr, use_) - 8usize];
+    ["Offset of field: odbusegr::slct"][::std::mem::offset_of!(odbusegr, slct) - 12usize];
 };
 pub type ODBUSEGR = odbusegr;
 #[repr(C)]
@@ -4039,8 +4039,8 @@ pub struct odbtluse {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtluse"][::std::mem::size_of::<odbtluse>() - 48usize];
-    ["Alignment of odbtluse"][::std::mem::align_of::<odbtluse>() - 8usize];
+    ["Size of odbtluse"][::std::mem::size_of::<odbtluse>() - 28usize];
+    ["Alignment of odbtluse"][::std::mem::align_of::<odbtluse>() - 4usize];
     ["Offset of field: odbtluse::s_grp"][::std::mem::offset_of!(odbtluse, s_grp) - 0usize];
     ["Offset of field: odbtluse::dummy"][::std::mem::offset_of!(odbtluse, dummy) - 2usize];
     ["Offset of field: odbtluse::e_grp"][::std::mem::offset_of!(odbtluse, e_grp) - 4usize];
@@ -4059,14 +4059,14 @@ pub struct iodbtd {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtd"][::std::mem::size_of::<iodbtd>() - 40usize];
-    ["Alignment of iodbtd"][::std::mem::align_of::<iodbtd>() - 8usize];
+    ["Size of iodbtd"][::std::mem::size_of::<iodbtd>() - 20usize];
+    ["Alignment of iodbtd"][::std::mem::align_of::<iodbtd>() - 4usize];
     ["Offset of field: iodbtd::datano"][::std::mem::offset_of!(iodbtd, datano) - 0usize];
     ["Offset of field: iodbtd::type_"][::std::mem::offset_of!(iodbtd, type_) - 2usize];
-    ["Offset of field: iodbtd::tool_num"][::std::mem::offset_of!(iodbtd, tool_num) - 8usize];
-    ["Offset of field: iodbtd::h_code"][::std::mem::offset_of!(iodbtd, h_code) - 16usize];
-    ["Offset of field: iodbtd::d_code"][::std::mem::offset_of!(iodbtd, d_code) - 24usize];
-    ["Offset of field: iodbtd::tool_inf"][::std::mem::offset_of!(iodbtd, tool_inf) - 32usize];
+    ["Offset of field: iodbtd::tool_num"][::std::mem::offset_of!(iodbtd, tool_num) - 4usize];
+    ["Offset of field: iodbtd::h_code"][::std::mem::offset_of!(iodbtd, h_code) - 8usize];
+    ["Offset of field: iodbtd::d_code"][::std::mem::offset_of!(iodbtd, d_code) - 12usize];
+    ["Offset of field: iodbtd::tool_inf"][::std::mem::offset_of!(iodbtd, tool_inf) - 16usize];
 };
 pub type IODBTD = iodbtd;
 #[repr(C)]
@@ -4082,15 +4082,15 @@ pub struct iodbtd2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtd2"][::std::mem::size_of::<iodbtd2>() - 48usize];
-    ["Alignment of iodbtd2"][::std::mem::align_of::<iodbtd2>() - 8usize];
+    ["Size of iodbtd2"][::std::mem::size_of::<iodbtd2>() - 24usize];
+    ["Alignment of iodbtd2"][::std::mem::align_of::<iodbtd2>() - 4usize];
     ["Offset of field: iodbtd2::datano"][::std::mem::offset_of!(iodbtd2, datano) - 0usize];
     ["Offset of field: iodbtd2::dummy"][::std::mem::offset_of!(iodbtd2, dummy) - 2usize];
-    ["Offset of field: iodbtd2::type_"][::std::mem::offset_of!(iodbtd2, type_) - 8usize];
-    ["Offset of field: iodbtd2::tool_num"][::std::mem::offset_of!(iodbtd2, tool_num) - 16usize];
-    ["Offset of field: iodbtd2::h_code"][::std::mem::offset_of!(iodbtd2, h_code) - 24usize];
-    ["Offset of field: iodbtd2::d_code"][::std::mem::offset_of!(iodbtd2, d_code) - 32usize];
-    ["Offset of field: iodbtd2::tool_inf"][::std::mem::offset_of!(iodbtd2, tool_inf) - 40usize];
+    ["Offset of field: iodbtd2::type_"][::std::mem::offset_of!(iodbtd2, type_) - 4usize];
+    ["Offset of field: iodbtd2::tool_num"][::std::mem::offset_of!(iodbtd2, tool_num) - 8usize];
+    ["Offset of field: iodbtd2::h_code"][::std::mem::offset_of!(iodbtd2, h_code) - 12usize];
+    ["Offset of field: iodbtd2::d_code"][::std::mem::offset_of!(iodbtd2, d_code) - 16usize];
+    ["Offset of field: iodbtd2::tool_inf"][::std::mem::offset_of!(iodbtd2, tool_inf) - 20usize];
 };
 pub type IODBTD2 = iodbtd2;
 #[repr(C)]
@@ -4111,22 +4111,22 @@ pub struct iodbtgi__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtgi__bindgen_ty_1"][::std::mem::size_of::<iodbtgi__bindgen_ty_1>() - 32usize];
+    ["Size of iodbtgi__bindgen_ty_1"][::std::mem::size_of::<iodbtgi__bindgen_ty_1>() - 16usize];
     ["Alignment of iodbtgi__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbtgi__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbtgi__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbtgi__bindgen_ty_1::n_tool"]
         [::std::mem::offset_of!(iodbtgi__bindgen_ty_1, n_tool) - 0usize];
     ["Offset of field: iodbtgi__bindgen_ty_1::count_value"]
-        [::std::mem::offset_of!(iodbtgi__bindgen_ty_1, count_value) - 8usize];
+        [::std::mem::offset_of!(iodbtgi__bindgen_ty_1, count_value) - 4usize];
     ["Offset of field: iodbtgi__bindgen_ty_1::counter"]
-        [::std::mem::offset_of!(iodbtgi__bindgen_ty_1, counter) - 16usize];
+        [::std::mem::offset_of!(iodbtgi__bindgen_ty_1, counter) - 8usize];
     ["Offset of field: iodbtgi__bindgen_ty_1::count_type"]
-        [::std::mem::offset_of!(iodbtgi__bindgen_ty_1, count_type) - 24usize];
+        [::std::mem::offset_of!(iodbtgi__bindgen_ty_1, count_type) - 12usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtgi"][::std::mem::size_of::<iodbtgi>() - 168usize];
-    ["Alignment of iodbtgi"][::std::mem::align_of::<iodbtgi>() - 8usize];
+    ["Size of iodbtgi"][::std::mem::size_of::<iodbtgi>() - 88usize];
+    ["Alignment of iodbtgi"][::std::mem::align_of::<iodbtgi>() - 4usize];
     ["Offset of field: iodbtgi::s_grp"][::std::mem::offset_of!(iodbtgi, s_grp) - 0usize];
     ["Offset of field: iodbtgi::dummy"][::std::mem::offset_of!(iodbtgi, dummy) - 2usize];
     ["Offset of field: iodbtgi::e_grp"][::std::mem::offset_of!(iodbtgi, e_grp) - 4usize];
@@ -4143,8 +4143,8 @@ pub struct iodbtgi2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtgi2"][::std::mem::size_of::<iodbtgi2>() - 48usize];
-    ["Alignment of iodbtgi2"][::std::mem::align_of::<iodbtgi2>() - 8usize];
+    ["Size of iodbtgi2"][::std::mem::size_of::<iodbtgi2>() - 28usize];
+    ["Alignment of iodbtgi2"][::std::mem::align_of::<iodbtgi2>() - 4usize];
     ["Offset of field: iodbtgi2::s_grp"][::std::mem::offset_of!(iodbtgi2, s_grp) - 0usize];
     ["Offset of field: iodbtgi2::dummy"][::std::mem::offset_of!(iodbtgi2, dummy) - 2usize];
     ["Offset of field: iodbtgi2::e_grp"][::std::mem::offset_of!(iodbtgi2, e_grp) - 4usize];
@@ -4161,8 +4161,8 @@ pub struct iodbtgi3 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtgi3"][::std::mem::size_of::<iodbtgi3>() - 48usize];
-    ["Alignment of iodbtgi3"][::std::mem::align_of::<iodbtgi3>() - 8usize];
+    ["Size of iodbtgi3"][::std::mem::size_of::<iodbtgi3>() - 28usize];
+    ["Alignment of iodbtgi3"][::std::mem::align_of::<iodbtgi3>() - 4usize];
     ["Offset of field: iodbtgi3::s_grp"][::std::mem::offset_of!(iodbtgi3, s_grp) - 0usize];
     ["Offset of field: iodbtgi3::dummy"][::std::mem::offset_of!(iodbtgi3, dummy) - 2usize];
     ["Offset of field: iodbtgi3::e_grp"][::std::mem::offset_of!(iodbtgi3, e_grp) - 4usize];
@@ -4182,17 +4182,17 @@ pub struct iodbtgi4 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtgi4"][::std::mem::size_of::<iodbtgi4>() - 56usize];
-    ["Alignment of iodbtgi4"][::std::mem::align_of::<iodbtgi4>() - 8usize];
+    ["Size of iodbtgi4"][::std::mem::size_of::<iodbtgi4>() - 28usize];
+    ["Alignment of iodbtgi4"][::std::mem::align_of::<iodbtgi4>() - 4usize];
     ["Offset of field: iodbtgi4::grp_no"][::std::mem::offset_of!(iodbtgi4, grp_no) - 0usize];
-    ["Offset of field: iodbtgi4::n_tool"][::std::mem::offset_of!(iodbtgi4, n_tool) - 8usize];
+    ["Offset of field: iodbtgi4::n_tool"][::std::mem::offset_of!(iodbtgi4, n_tool) - 4usize];
     ["Offset of field: iodbtgi4::count_value"]
-        [::std::mem::offset_of!(iodbtgi4, count_value) - 16usize];
-    ["Offset of field: iodbtgi4::counter"][::std::mem::offset_of!(iodbtgi4, counter) - 24usize];
+        [::std::mem::offset_of!(iodbtgi4, count_value) - 8usize];
+    ["Offset of field: iodbtgi4::counter"][::std::mem::offset_of!(iodbtgi4, counter) - 12usize];
     ["Offset of field: iodbtgi4::count_type"]
-        [::std::mem::offset_of!(iodbtgi4, count_type) - 32usize];
-    ["Offset of field: iodbtgi4::opt_grpno"][::std::mem::offset_of!(iodbtgi4, opt_grpno) - 40usize];
-    ["Offset of field: iodbtgi4::life_rest"][::std::mem::offset_of!(iodbtgi4, life_rest) - 48usize];
+        [::std::mem::offset_of!(iodbtgi4, count_type) - 16usize];
+    ["Offset of field: iodbtgi4::opt_grpno"][::std::mem::offset_of!(iodbtgi4, opt_grpno) - 20usize];
+    ["Offset of field: iodbtgi4::life_rest"][::std::mem::offset_of!(iodbtgi4, life_rest) - 24usize];
 };
 pub type IODBTGI4 = iodbtgi4;
 #[repr(C)]
@@ -4204,11 +4204,11 @@ pub struct idbitd {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbitd"][::std::mem::size_of::<idbitd>() - 16usize];
-    ["Alignment of idbitd"][::std::mem::align_of::<idbitd>() - 8usize];
+    ["Size of idbitd"][::std::mem::size_of::<idbitd>() - 8usize];
+    ["Alignment of idbitd"][::std::mem::align_of::<idbitd>() - 4usize];
     ["Offset of field: idbitd::datano"][::std::mem::offset_of!(idbitd, datano) - 0usize];
     ["Offset of field: idbitd::type_"][::std::mem::offset_of!(idbitd, type_) - 2usize];
-    ["Offset of field: idbitd::data"][::std::mem::offset_of!(idbitd, data) - 8usize];
+    ["Offset of field: idbitd::data"][::std::mem::offset_of!(idbitd, data) - 4usize];
 };
 pub type IDBITD = idbitd;
 #[repr(C)]
@@ -4220,11 +4220,11 @@ pub struct idbitd2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbitd2"][::std::mem::size_of::<idbitd2>() - 24usize];
-    ["Alignment of idbitd2"][::std::mem::align_of::<idbitd2>() - 8usize];
+    ["Size of idbitd2"][::std::mem::size_of::<idbitd2>() - 12usize];
+    ["Alignment of idbitd2"][::std::mem::align_of::<idbitd2>() - 4usize];
     ["Offset of field: idbitd2::datano"][::std::mem::offset_of!(idbitd2, datano) - 0usize];
-    ["Offset of field: idbitd2::type_"][::std::mem::offset_of!(idbitd2, type_) - 8usize];
-    ["Offset of field: idbitd2::data"][::std::mem::offset_of!(idbitd2, data) - 16usize];
+    ["Offset of field: idbitd2::type_"][::std::mem::offset_of!(idbitd2, type_) - 4usize];
+    ["Offset of field: idbitd2::data"][::std::mem::offset_of!(idbitd2, data) - 8usize];
 };
 pub type IDBITD2 = idbitd2;
 #[repr(C)]
@@ -4237,15 +4237,15 @@ pub struct odbtlinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtlinfo"][::std::mem::size_of::<odbtlinfo>() - 32usize];
-    ["Alignment of odbtlinfo"][::std::mem::align_of::<odbtlinfo>() - 8usize];
+    ["Size of odbtlinfo"][::std::mem::size_of::<odbtlinfo>() - 16usize];
+    ["Alignment of odbtlinfo"][::std::mem::align_of::<odbtlinfo>() - 4usize];
     ["Offset of field: odbtlinfo::max_group"]
         [::std::mem::offset_of!(odbtlinfo, max_group) - 0usize];
-    ["Offset of field: odbtlinfo::max_tool"][::std::mem::offset_of!(odbtlinfo, max_tool) - 8usize];
+    ["Offset of field: odbtlinfo::max_tool"][::std::mem::offset_of!(odbtlinfo, max_tool) - 4usize];
     ["Offset of field: odbtlinfo::max_minute"]
-        [::std::mem::offset_of!(odbtlinfo, max_minute) - 16usize];
+        [::std::mem::offset_of!(odbtlinfo, max_minute) - 8usize];
     ["Offset of field: odbtlinfo::max_cycle"]
-        [::std::mem::offset_of!(odbtlinfo, max_cycle) - 24usize];
+        [::std::mem::offset_of!(odbtlinfo, max_cycle) - 12usize];
 };
 pub type ODBTLINFO = odbtlinfo;
 #[repr(C)]
@@ -4260,14 +4260,14 @@ pub struct odbusegrp {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbusegrp"][::std::mem::size_of::<odbusegrp>() - 48usize];
-    ["Alignment of odbusegrp"][::std::mem::align_of::<odbusegrp>() - 8usize];
+    ["Size of odbusegrp"][::std::mem::size_of::<odbusegrp>() - 24usize];
+    ["Alignment of odbusegrp"][::std::mem::align_of::<odbusegrp>() - 4usize];
     ["Offset of field: odbusegrp::next"][::std::mem::offset_of!(odbusegrp, next) - 0usize];
-    ["Offset of field: odbusegrp::use_"][::std::mem::offset_of!(odbusegrp, use_) - 8usize];
-    ["Offset of field: odbusegrp::slct"][::std::mem::offset_of!(odbusegrp, slct) - 16usize];
-    ["Offset of field: odbusegrp::opt_next"][::std::mem::offset_of!(odbusegrp, opt_next) - 24usize];
-    ["Offset of field: odbusegrp::opt_use"][::std::mem::offset_of!(odbusegrp, opt_use) - 32usize];
-    ["Offset of field: odbusegrp::opt_slct"][::std::mem::offset_of!(odbusegrp, opt_slct) - 40usize];
+    ["Offset of field: odbusegrp::use_"][::std::mem::offset_of!(odbusegrp, use_) - 4usize];
+    ["Offset of field: odbusegrp::slct"][::std::mem::offset_of!(odbusegrp, slct) - 8usize];
+    ["Offset of field: odbusegrp::opt_next"][::std::mem::offset_of!(odbusegrp, opt_next) - 12usize];
+    ["Offset of field: odbusegrp::opt_use"][::std::mem::offset_of!(odbusegrp, opt_use) - 16usize];
+    ["Offset of field: odbusegrp::opt_slct"][::std::mem::offset_of!(odbusegrp, opt_slct) - 20usize];
 };
 pub type ODBUSEGRP = odbusegrp;
 #[repr(C)]
@@ -4285,20 +4285,20 @@ pub struct iodbtlgrp {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtlgrp"][::std::mem::size_of::<iodbtlgrp>() - 64usize];
-    ["Alignment of iodbtlgrp"][::std::mem::align_of::<iodbtlgrp>() - 8usize];
+    ["Size of iodbtlgrp"][::std::mem::size_of::<iodbtlgrp>() - 32usize];
+    ["Alignment of iodbtlgrp"][::std::mem::align_of::<iodbtlgrp>() - 4usize];
     ["Offset of field: iodbtlgrp::ntool"][::std::mem::offset_of!(iodbtlgrp, ntool) - 0usize];
-    ["Offset of field: iodbtlgrp::nfree"][::std::mem::offset_of!(iodbtlgrp, nfree) - 8usize];
-    ["Offset of field: iodbtlgrp::life"][::std::mem::offset_of!(iodbtlgrp, life) - 16usize];
-    ["Offset of field: iodbtlgrp::count"][::std::mem::offset_of!(iodbtlgrp, count) - 24usize];
-    ["Offset of field: iodbtlgrp::use_tool"][::std::mem::offset_of!(iodbtlgrp, use_tool) - 32usize];
+    ["Offset of field: iodbtlgrp::nfree"][::std::mem::offset_of!(iodbtlgrp, nfree) - 4usize];
+    ["Offset of field: iodbtlgrp::life"][::std::mem::offset_of!(iodbtlgrp, life) - 8usize];
+    ["Offset of field: iodbtlgrp::count"][::std::mem::offset_of!(iodbtlgrp, count) - 12usize];
+    ["Offset of field: iodbtlgrp::use_tool"][::std::mem::offset_of!(iodbtlgrp, use_tool) - 16usize];
     ["Offset of field: iodbtlgrp::opt_grpno"]
-        [::std::mem::offset_of!(iodbtlgrp, opt_grpno) - 40usize];
+        [::std::mem::offset_of!(iodbtlgrp, opt_grpno) - 20usize];
     ["Offset of field: iodbtlgrp::life_rest"]
-        [::std::mem::offset_of!(iodbtlgrp, life_rest) - 48usize];
-    ["Offset of field: iodbtlgrp::rest_sig"][::std::mem::offset_of!(iodbtlgrp, rest_sig) - 56usize];
+        [::std::mem::offset_of!(iodbtlgrp, life_rest) - 24usize];
+    ["Offset of field: iodbtlgrp::rest_sig"][::std::mem::offset_of!(iodbtlgrp, rest_sig) - 28usize];
     ["Offset of field: iodbtlgrp::count_type"]
-        [::std::mem::offset_of!(iodbtlgrp, count_type) - 58usize];
+        [::std::mem::offset_of!(iodbtlgrp, count_type) - 30usize];
 };
 pub type IODBTLGRP = iodbtlgrp;
 #[repr(C)]
@@ -4311,14 +4311,14 @@ pub struct iodbtltool {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtltool"][::std::mem::size_of::<iodbtltool>() - 32usize];
-    ["Alignment of iodbtltool"][::std::mem::align_of::<iodbtltool>() - 8usize];
+    ["Size of iodbtltool"][::std::mem::size_of::<iodbtltool>() - 16usize];
+    ["Alignment of iodbtltool"][::std::mem::align_of::<iodbtltool>() - 4usize];
     ["Offset of field: iodbtltool::tool_num"]
         [::std::mem::offset_of!(iodbtltool, tool_num) - 0usize];
-    ["Offset of field: iodbtltool::h_code"][::std::mem::offset_of!(iodbtltool, h_code) - 8usize];
-    ["Offset of field: iodbtltool::d_code"][::std::mem::offset_of!(iodbtltool, d_code) - 16usize];
+    ["Offset of field: iodbtltool::h_code"][::std::mem::offset_of!(iodbtltool, h_code) - 4usize];
+    ["Offset of field: iodbtltool::d_code"][::std::mem::offset_of!(iodbtltool, d_code) - 8usize];
     ["Offset of field: iodbtltool::tool_inf"]
-        [::std::mem::offset_of!(iodbtltool, tool_inf) - 24usize];
+        [::std::mem::offset_of!(iodbtltool, tool_inf) - 12usize];
 };
 pub type IODBTLTOOL = iodbtltool;
 #[repr(C)]
@@ -4329,10 +4329,10 @@ pub struct exgrp {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of exgrp"][::std::mem::size_of::<exgrp>() - 16usize];
-    ["Alignment of exgrp"][::std::mem::align_of::<exgrp>() - 8usize];
+    ["Size of exgrp"][::std::mem::size_of::<exgrp>() - 8usize];
+    ["Alignment of exgrp"][::std::mem::align_of::<exgrp>() - 4usize];
     ["Offset of field: exgrp::grp_no"][::std::mem::offset_of!(exgrp, grp_no) - 0usize];
-    ["Offset of field: exgrp::opt_grpno"][::std::mem::offset_of!(exgrp, opt_grpno) - 8usize];
+    ["Offset of field: exgrp::opt_grpno"][::std::mem::offset_of!(exgrp, opt_grpno) - 4usize];
 };
 pub type ODBEXGP = exgrp;
 #[repr(C)]
@@ -4384,70 +4384,69 @@ pub struct iodbtlmng {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtlmng"][::std::mem::size_of::<iodbtlmng>() - 256usize];
-    ["Alignment of iodbtlmng"][::std::mem::align_of::<iodbtlmng>() - 8usize];
+    ["Size of iodbtlmng"][::std::mem::size_of::<iodbtlmng>() - 140usize];
+    ["Alignment of iodbtlmng"][::std::mem::align_of::<iodbtlmng>() - 4usize];
     ["Offset of field: iodbtlmng::T_code"][::std::mem::offset_of!(iodbtlmng, T_code) - 0usize];
     ["Offset of field: iodbtlmng::life_count"]
-        [::std::mem::offset_of!(iodbtlmng, life_count) - 8usize];
-    ["Offset of field: iodbtlmng::max_life"][::std::mem::offset_of!(iodbtlmng, max_life) - 16usize];
+        [::std::mem::offset_of!(iodbtlmng, life_count) - 4usize];
+    ["Offset of field: iodbtlmng::max_life"][::std::mem::offset_of!(iodbtlmng, max_life) - 8usize];
     ["Offset of field: iodbtlmng::rest_life"]
-        [::std::mem::offset_of!(iodbtlmng, rest_life) - 24usize];
+        [::std::mem::offset_of!(iodbtlmng, rest_life) - 12usize];
     ["Offset of field: iodbtlmng::life_stat"]
-        [::std::mem::offset_of!(iodbtlmng, life_stat) - 32usize];
+        [::std::mem::offset_of!(iodbtlmng, life_stat) - 16usize];
     ["Offset of field: iodbtlmng::cust_bits"]
-        [::std::mem::offset_of!(iodbtlmng, cust_bits) - 33usize];
+        [::std::mem::offset_of!(iodbtlmng, cust_bits) - 17usize];
     ["Offset of field: iodbtlmng::tool_info"]
-        [::std::mem::offset_of!(iodbtlmng, tool_info) - 34usize];
-    ["Offset of field: iodbtlmng::H_code"][::std::mem::offset_of!(iodbtlmng, H_code) - 36usize];
-    ["Offset of field: iodbtlmng::D_code"][::std::mem::offset_of!(iodbtlmng, D_code) - 38usize];
+        [::std::mem::offset_of!(iodbtlmng, tool_info) - 18usize];
+    ["Offset of field: iodbtlmng::H_code"][::std::mem::offset_of!(iodbtlmng, H_code) - 20usize];
+    ["Offset of field: iodbtlmng::D_code"][::std::mem::offset_of!(iodbtlmng, D_code) - 22usize];
     ["Offset of field: iodbtlmng::spindle_speed"]
-        [::std::mem::offset_of!(iodbtlmng, spindle_speed) - 40usize];
-    ["Offset of field: iodbtlmng::feedrate"][::std::mem::offset_of!(iodbtlmng, feedrate) - 48usize];
-    ["Offset of field: iodbtlmng::magazine"][::std::mem::offset_of!(iodbtlmng, magazine) - 56usize];
-    ["Offset of field: iodbtlmng::pot"][::std::mem::offset_of!(iodbtlmng, pot) - 58usize];
-    ["Offset of field: iodbtlmng::G_code"][::std::mem::offset_of!(iodbtlmng, G_code) - 60usize];
-    ["Offset of field: iodbtlmng::W_code"][::std::mem::offset_of!(iodbtlmng, W_code) - 62usize];
-    ["Offset of field: iodbtlmng::gno"][::std::mem::offset_of!(iodbtlmng, gno) - 64usize];
-    ["Offset of field: iodbtlmng::grp"][::std::mem::offset_of!(iodbtlmng, grp) - 66usize];
-    ["Offset of field: iodbtlmng::edge"][::std::mem::offset_of!(iodbtlmng, edge) - 68usize];
+        [::std::mem::offset_of!(iodbtlmng, spindle_speed) - 24usize];
+    ["Offset of field: iodbtlmng::feedrate"][::std::mem::offset_of!(iodbtlmng, feedrate) - 28usize];
+    ["Offset of field: iodbtlmng::magazine"][::std::mem::offset_of!(iodbtlmng, magazine) - 32usize];
+    ["Offset of field: iodbtlmng::pot"][::std::mem::offset_of!(iodbtlmng, pot) - 34usize];
+    ["Offset of field: iodbtlmng::G_code"][::std::mem::offset_of!(iodbtlmng, G_code) - 36usize];
+    ["Offset of field: iodbtlmng::W_code"][::std::mem::offset_of!(iodbtlmng, W_code) - 38usize];
+    ["Offset of field: iodbtlmng::gno"][::std::mem::offset_of!(iodbtlmng, gno) - 40usize];
+    ["Offset of field: iodbtlmng::grp"][::std::mem::offset_of!(iodbtlmng, grp) - 42usize];
+    ["Offset of field: iodbtlmng::edge"][::std::mem::offset_of!(iodbtlmng, edge) - 44usize];
     ["Offset of field: iodbtlmng::org_magazine"]
-        [::std::mem::offset_of!(iodbtlmng, org_magazine) - 70usize];
-    ["Offset of field: iodbtlmng::org_pot"][::std::mem::offset_of!(iodbtlmng, org_pot) - 72usize];
-    ["Offset of field: iodbtlmng::edge_num"][::std::mem::offset_of!(iodbtlmng, edge_num) - 74usize];
+        [::std::mem::offset_of!(iodbtlmng, org_magazine) - 46usize];
+    ["Offset of field: iodbtlmng::org_pot"][::std::mem::offset_of!(iodbtlmng, org_pot) - 48usize];
+    ["Offset of field: iodbtlmng::edge_num"][::std::mem::offset_of!(iodbtlmng, edge_num) - 50usize];
     ["Offset of field: iodbtlmng::reserve_c"]
-        [::std::mem::offset_of!(iodbtlmng, reserve_c) - 75usize];
-    ["Offset of field: iodbtlmng::reserved"][::std::mem::offset_of!(iodbtlmng, reserved) - 80usize];
-    ["Offset of field: iodbtlmng::custom1"][::std::mem::offset_of!(iodbtlmng, custom1) - 96usize];
-    ["Offset of field: iodbtlmng::custom2"][::std::mem::offset_of!(iodbtlmng, custom2) - 104usize];
-    ["Offset of field: iodbtlmng::custom3"][::std::mem::offset_of!(iodbtlmng, custom3) - 112usize];
-    ["Offset of field: iodbtlmng::custom4"][::std::mem::offset_of!(iodbtlmng, custom4) - 120usize];
-    ["Offset of field: iodbtlmng::custom5"][::std::mem::offset_of!(iodbtlmng, custom5) - 128usize];
-    ["Offset of field: iodbtlmng::custom6"][::std::mem::offset_of!(iodbtlmng, custom6) - 136usize];
-    ["Offset of field: iodbtlmng::custom7"][::std::mem::offset_of!(iodbtlmng, custom7) - 144usize];
-    ["Offset of field: iodbtlmng::custom8"][::std::mem::offset_of!(iodbtlmng, custom8) - 152usize];
-    ["Offset of field: iodbtlmng::custom9"][::std::mem::offset_of!(iodbtlmng, custom9) - 160usize];
-    ["Offset of field: iodbtlmng::custom10"]
-        [::std::mem::offset_of!(iodbtlmng, custom10) - 168usize];
+        [::std::mem::offset_of!(iodbtlmng, reserve_c) - 51usize];
+    ["Offset of field: iodbtlmng::reserved"][::std::mem::offset_of!(iodbtlmng, reserved) - 52usize];
+    ["Offset of field: iodbtlmng::custom1"][::std::mem::offset_of!(iodbtlmng, custom1) - 60usize];
+    ["Offset of field: iodbtlmng::custom2"][::std::mem::offset_of!(iodbtlmng, custom2) - 64usize];
+    ["Offset of field: iodbtlmng::custom3"][::std::mem::offset_of!(iodbtlmng, custom3) - 68usize];
+    ["Offset of field: iodbtlmng::custom4"][::std::mem::offset_of!(iodbtlmng, custom4) - 72usize];
+    ["Offset of field: iodbtlmng::custom5"][::std::mem::offset_of!(iodbtlmng, custom5) - 76usize];
+    ["Offset of field: iodbtlmng::custom6"][::std::mem::offset_of!(iodbtlmng, custom6) - 80usize];
+    ["Offset of field: iodbtlmng::custom7"][::std::mem::offset_of!(iodbtlmng, custom7) - 84usize];
+    ["Offset of field: iodbtlmng::custom8"][::std::mem::offset_of!(iodbtlmng, custom8) - 88usize];
+    ["Offset of field: iodbtlmng::custom9"][::std::mem::offset_of!(iodbtlmng, custom9) - 92usize];
+    ["Offset of field: iodbtlmng::custom10"][::std::mem::offset_of!(iodbtlmng, custom10) - 96usize];
     ["Offset of field: iodbtlmng::custom11"]
-        [::std::mem::offset_of!(iodbtlmng, custom11) - 176usize];
+        [::std::mem::offset_of!(iodbtlmng, custom11) - 100usize];
     ["Offset of field: iodbtlmng::custom12"]
-        [::std::mem::offset_of!(iodbtlmng, custom12) - 184usize];
+        [::std::mem::offset_of!(iodbtlmng, custom12) - 104usize];
     ["Offset of field: iodbtlmng::custom13"]
-        [::std::mem::offset_of!(iodbtlmng, custom13) - 192usize];
+        [::std::mem::offset_of!(iodbtlmng, custom13) - 108usize];
     ["Offset of field: iodbtlmng::custom14"]
-        [::std::mem::offset_of!(iodbtlmng, custom14) - 200usize];
+        [::std::mem::offset_of!(iodbtlmng, custom14) - 112usize];
     ["Offset of field: iodbtlmng::custom15"]
-        [::std::mem::offset_of!(iodbtlmng, custom15) - 208usize];
+        [::std::mem::offset_of!(iodbtlmng, custom15) - 116usize];
     ["Offset of field: iodbtlmng::custom16"]
-        [::std::mem::offset_of!(iodbtlmng, custom16) - 216usize];
+        [::std::mem::offset_of!(iodbtlmng, custom16) - 120usize];
     ["Offset of field: iodbtlmng::custom17"]
-        [::std::mem::offset_of!(iodbtlmng, custom17) - 224usize];
+        [::std::mem::offset_of!(iodbtlmng, custom17) - 124usize];
     ["Offset of field: iodbtlmng::custom18"]
-        [::std::mem::offset_of!(iodbtlmng, custom18) - 232usize];
+        [::std::mem::offset_of!(iodbtlmng, custom18) - 128usize];
     ["Offset of field: iodbtlmng::custom19"]
-        [::std::mem::offset_of!(iodbtlmng, custom19) - 240usize];
+        [::std::mem::offset_of!(iodbtlmng, custom19) - 132usize];
     ["Offset of field: iodbtlmng::custom20"]
-        [::std::mem::offset_of!(iodbtlmng, custom20) - 248usize];
+        [::std::mem::offset_of!(iodbtlmng, custom20) - 136usize];
 };
 pub type IODBTLMNG = iodbtlmng;
 #[repr(C)]
@@ -4519,130 +4518,130 @@ pub struct iodbtlmng_f2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtlmng_f2"][::std::mem::size_of::<iodbtlmng_f2>() - 416usize];
-    ["Alignment of iodbtlmng_f2"][::std::mem::align_of::<iodbtlmng_f2>() - 8usize];
+    ["Size of iodbtlmng_f2"][::std::mem::size_of::<iodbtlmng_f2>() - 220usize];
+    ["Alignment of iodbtlmng_f2"][::std::mem::align_of::<iodbtlmng_f2>() - 4usize];
     ["Offset of field: iodbtlmng_f2::T_code"]
         [::std::mem::offset_of!(iodbtlmng_f2, T_code) - 0usize];
     ["Offset of field: iodbtlmng_f2::life_count"]
-        [::std::mem::offset_of!(iodbtlmng_f2, life_count) - 8usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, life_count) - 4usize];
     ["Offset of field: iodbtlmng_f2::max_life"]
-        [::std::mem::offset_of!(iodbtlmng_f2, max_life) - 16usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, max_life) - 8usize];
     ["Offset of field: iodbtlmng_f2::rest_life"]
-        [::std::mem::offset_of!(iodbtlmng_f2, rest_life) - 24usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, rest_life) - 12usize];
     ["Offset of field: iodbtlmng_f2::life_stat"]
-        [::std::mem::offset_of!(iodbtlmng_f2, life_stat) - 32usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, life_stat) - 16usize];
     ["Offset of field: iodbtlmng_f2::cust_bits"]
-        [::std::mem::offset_of!(iodbtlmng_f2, cust_bits) - 33usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, cust_bits) - 17usize];
     ["Offset of field: iodbtlmng_f2::tool_info"]
-        [::std::mem::offset_of!(iodbtlmng_f2, tool_info) - 34usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, tool_info) - 18usize];
     ["Offset of field: iodbtlmng_f2::H_code"]
-        [::std::mem::offset_of!(iodbtlmng_f2, H_code) - 36usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, H_code) - 20usize];
     ["Offset of field: iodbtlmng_f2::D_code"]
-        [::std::mem::offset_of!(iodbtlmng_f2, D_code) - 38usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, D_code) - 22usize];
     ["Offset of field: iodbtlmng_f2::spindle_speed"]
-        [::std::mem::offset_of!(iodbtlmng_f2, spindle_speed) - 40usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, spindle_speed) - 24usize];
     ["Offset of field: iodbtlmng_f2::feedrate"]
-        [::std::mem::offset_of!(iodbtlmng_f2, feedrate) - 48usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, feedrate) - 28usize];
     ["Offset of field: iodbtlmng_f2::magazine"]
-        [::std::mem::offset_of!(iodbtlmng_f2, magazine) - 56usize];
-    ["Offset of field: iodbtlmng_f2::pot"][::std::mem::offset_of!(iodbtlmng_f2, pot) - 58usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, magazine) - 32usize];
+    ["Offset of field: iodbtlmng_f2::pot"][::std::mem::offset_of!(iodbtlmng_f2, pot) - 34usize];
     ["Offset of field: iodbtlmng_f2::G_code"]
-        [::std::mem::offset_of!(iodbtlmng_f2, G_code) - 60usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, G_code) - 36usize];
     ["Offset of field: iodbtlmng_f2::W_code"]
-        [::std::mem::offset_of!(iodbtlmng_f2, W_code) - 62usize];
-    ["Offset of field: iodbtlmng_f2::gno"][::std::mem::offset_of!(iodbtlmng_f2, gno) - 64usize];
-    ["Offset of field: iodbtlmng_f2::grp"][::std::mem::offset_of!(iodbtlmng_f2, grp) - 66usize];
-    ["Offset of field: iodbtlmng_f2::edge"][::std::mem::offset_of!(iodbtlmng_f2, edge) - 68usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, W_code) - 38usize];
+    ["Offset of field: iodbtlmng_f2::gno"][::std::mem::offset_of!(iodbtlmng_f2, gno) - 40usize];
+    ["Offset of field: iodbtlmng_f2::grp"][::std::mem::offset_of!(iodbtlmng_f2, grp) - 42usize];
+    ["Offset of field: iodbtlmng_f2::edge"][::std::mem::offset_of!(iodbtlmng_f2, edge) - 44usize];
     ["Offset of field: iodbtlmng_f2::org_magazine"]
-        [::std::mem::offset_of!(iodbtlmng_f2, org_magazine) - 70usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, org_magazine) - 46usize];
     ["Offset of field: iodbtlmng_f2::org_pot"]
-        [::std::mem::offset_of!(iodbtlmng_f2, org_pot) - 72usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, org_pot) - 48usize];
     ["Offset of field: iodbtlmng_f2::edge_num"]
-        [::std::mem::offset_of!(iodbtlmng_f2, edge_num) - 74usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, edge_num) - 50usize];
     ["Offset of field: iodbtlmng_f2::reserve_c"]
-        [::std::mem::offset_of!(iodbtlmng_f2, reserve_c) - 75usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, reserve_c) - 51usize];
     ["Offset of field: iodbtlmng_f2::reserved"]
-        [::std::mem::offset_of!(iodbtlmng_f2, reserved) - 80usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, reserved) - 52usize];
     ["Offset of field: iodbtlmng_f2::custom1"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom1) - 96usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom1) - 60usize];
     ["Offset of field: iodbtlmng_f2::custom2"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom2) - 104usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom2) - 64usize];
     ["Offset of field: iodbtlmng_f2::custom3"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom3) - 112usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom3) - 68usize];
     ["Offset of field: iodbtlmng_f2::custom4"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom4) - 120usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom4) - 72usize];
     ["Offset of field: iodbtlmng_f2::custom5"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom5) - 128usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom5) - 76usize];
     ["Offset of field: iodbtlmng_f2::custom6"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom6) - 136usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom6) - 80usize];
     ["Offset of field: iodbtlmng_f2::custom7"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom7) - 144usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom7) - 84usize];
     ["Offset of field: iodbtlmng_f2::custom8"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom8) - 152usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom8) - 88usize];
     ["Offset of field: iodbtlmng_f2::custom9"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom9) - 160usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom9) - 92usize];
     ["Offset of field: iodbtlmng_f2::custom10"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom10) - 168usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom10) - 96usize];
     ["Offset of field: iodbtlmng_f2::custom11"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom11) - 176usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom11) - 100usize];
     ["Offset of field: iodbtlmng_f2::custom12"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom12) - 184usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom12) - 104usize];
     ["Offset of field: iodbtlmng_f2::custom13"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom13) - 192usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom13) - 108usize];
     ["Offset of field: iodbtlmng_f2::custom14"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom14) - 200usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom14) - 112usize];
     ["Offset of field: iodbtlmng_f2::custom15"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom15) - 208usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom15) - 116usize];
     ["Offset of field: iodbtlmng_f2::custom16"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom16) - 216usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom16) - 120usize];
     ["Offset of field: iodbtlmng_f2::custom17"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom17) - 224usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom17) - 124usize];
     ["Offset of field: iodbtlmng_f2::custom18"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom18) - 232usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom18) - 128usize];
     ["Offset of field: iodbtlmng_f2::custom19"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom19) - 240usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom19) - 132usize];
     ["Offset of field: iodbtlmng_f2::custom20"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom20) - 248usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom20) - 136usize];
     ["Offset of field: iodbtlmng_f2::custom21"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom21) - 256usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom21) - 140usize];
     ["Offset of field: iodbtlmng_f2::custom22"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom22) - 264usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom22) - 144usize];
     ["Offset of field: iodbtlmng_f2::custom23"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom23) - 272usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom23) - 148usize];
     ["Offset of field: iodbtlmng_f2::custom24"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom24) - 280usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom24) - 152usize];
     ["Offset of field: iodbtlmng_f2::custom25"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom25) - 288usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom25) - 156usize];
     ["Offset of field: iodbtlmng_f2::custom26"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom26) - 296usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom26) - 160usize];
     ["Offset of field: iodbtlmng_f2::custom27"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom27) - 304usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom27) - 164usize];
     ["Offset of field: iodbtlmng_f2::custom28"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom28) - 312usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom28) - 168usize];
     ["Offset of field: iodbtlmng_f2::custom29"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom29) - 320usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom29) - 172usize];
     ["Offset of field: iodbtlmng_f2::custom30"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom30) - 328usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom30) - 176usize];
     ["Offset of field: iodbtlmng_f2::custom31"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom31) - 336usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom31) - 180usize];
     ["Offset of field: iodbtlmng_f2::custom32"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom32) - 344usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom32) - 184usize];
     ["Offset of field: iodbtlmng_f2::custom33"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom33) - 352usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom33) - 188usize];
     ["Offset of field: iodbtlmng_f2::custom34"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom34) - 360usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom34) - 192usize];
     ["Offset of field: iodbtlmng_f2::custom35"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom35) - 368usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom35) - 196usize];
     ["Offset of field: iodbtlmng_f2::custom36"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom36) - 376usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom36) - 200usize];
     ["Offset of field: iodbtlmng_f2::custom37"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom37) - 384usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom37) - 204usize];
     ["Offset of field: iodbtlmng_f2::custom38"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom38) - 392usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom38) - 208usize];
     ["Offset of field: iodbtlmng_f2::custom39"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom39) - 400usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom39) - 212usize];
     ["Offset of field: iodbtlmng_f2::custom40"]
-        [::std::mem::offset_of!(iodbtlmng_f2, custom40) - 408usize];
+        [::std::mem::offset_of!(iodbtlmng_f2, custom40) - 216usize];
 };
 pub type IODBTLMNG_F2 = iodbtlmng_f2;
 #[repr(C)]
@@ -4660,8 +4659,8 @@ pub union idbtlm__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbtlm__bindgen_ty_1"][::std::mem::size_of::<idbtlm__bindgen_ty_1>() - 8usize];
-    ["Alignment of idbtlm__bindgen_ty_1"][::std::mem::align_of::<idbtlm__bindgen_ty_1>() - 8usize];
+    ["Size of idbtlm__bindgen_ty_1"][::std::mem::size_of::<idbtlm__bindgen_ty_1>() - 4usize];
+    ["Alignment of idbtlm__bindgen_ty_1"][::std::mem::align_of::<idbtlm__bindgen_ty_1>() - 4usize];
     ["Offset of field: idbtlm__bindgen_ty_1::data1"]
         [::std::mem::offset_of!(idbtlm__bindgen_ty_1, data1) - 0usize];
     ["Offset of field: idbtlm__bindgen_ty_1::data2"]
@@ -4680,10 +4679,10 @@ impl Default for idbtlm__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbtlm"][::std::mem::size_of::<idbtlm>() - 16usize];
-    ["Alignment of idbtlm"][::std::mem::align_of::<idbtlm>() - 8usize];
+    ["Size of idbtlm"][::std::mem::size_of::<idbtlm>() - 8usize];
+    ["Alignment of idbtlm"][::std::mem::align_of::<idbtlm>() - 4usize];
     ["Offset of field: idbtlm::data_id"][::std::mem::offset_of!(idbtlm, data_id) - 0usize];
-    ["Offset of field: idbtlm::item"][::std::mem::offset_of!(idbtlm, item) - 8usize];
+    ["Offset of field: idbtlm::item"][::std::mem::offset_of!(idbtlm, item) - 4usize];
 };
 impl Default for idbtlm {
     fn default() -> Self {
@@ -4711,9 +4710,9 @@ pub union iodbtlm2__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtlm2__bindgen_ty_1"][::std::mem::size_of::<iodbtlm2__bindgen_ty_1>() - 8usize];
+    ["Size of iodbtlm2__bindgen_ty_1"][::std::mem::size_of::<iodbtlm2__bindgen_ty_1>() - 4usize];
     ["Alignment of iodbtlm2__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbtlm2__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbtlm2__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbtlm2__bindgen_ty_1::data1"]
         [::std::mem::offset_of!(iodbtlm2__bindgen_ty_1, data1) - 0usize];
     ["Offset of field: iodbtlm2__bindgen_ty_1::data2"]
@@ -4732,11 +4731,11 @@ impl Default for iodbtlm2__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtlm2"][::std::mem::size_of::<iodbtlm2>() - 16usize];
-    ["Alignment of iodbtlm2"][::std::mem::align_of::<iodbtlm2>() - 8usize];
+    ["Size of iodbtlm2"][::std::mem::size_of::<iodbtlm2>() - 8usize];
+    ["Alignment of iodbtlm2"][::std::mem::align_of::<iodbtlm2>() - 4usize];
     ["Offset of field: iodbtlm2::number"][::std::mem::offset_of!(iodbtlm2, number) - 0usize];
     ["Offset of field: iodbtlm2::reserve"][::std::mem::offset_of!(iodbtlm2, reserve) - 2usize];
-    ["Offset of field: iodbtlm2::item"][::std::mem::offset_of!(iodbtlm2, item) - 8usize];
+    ["Offset of field: iodbtlm2::item"][::std::mem::offset_of!(iodbtlm2, item) - 4usize];
 };
 impl Default for iodbtlm2 {
     fn default() -> Self {
@@ -4892,23 +4891,23 @@ pub struct iodbtllf {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtllf"][::std::mem::size_of::<iodbtllf>() - 48usize];
-    ["Alignment of iodbtllf"][::std::mem::align_of::<iodbtllf>() - 8usize];
+    ["Size of iodbtllf"][::std::mem::size_of::<iodbtllf>() - 24usize];
+    ["Alignment of iodbtllf"][::std::mem::align_of::<iodbtllf>() - 4usize];
     ["Offset of field: iodbtllf::T_code_sum"]
         [::std::mem::offset_of!(iodbtllf, T_code_sum) - 0usize];
     ["Offset of field: iodbtllf::life_count_sum"]
-        [::std::mem::offset_of!(iodbtllf, life_count_sum) - 8usize];
+        [::std::mem::offset_of!(iodbtllf, life_count_sum) - 4usize];
     ["Offset of field: iodbtllf::rem_life_sum"]
-        [::std::mem::offset_of!(iodbtllf, rem_life_sum) - 16usize];
+        [::std::mem::offset_of!(iodbtllf, rem_life_sum) - 8usize];
     ["Offset of field: iodbtllf::max_life_sum"]
-        [::std::mem::offset_of!(iodbtllf, max_life_sum) - 24usize];
+        [::std::mem::offset_of!(iodbtllf, max_life_sum) - 12usize];
     ["Offset of field: iodbtllf::notice_life_sum"]
-        [::std::mem::offset_of!(iodbtllf, notice_life_sum) - 32usize];
-    ["Offset of field: iodbtllf::tools_sum"][::std::mem::offset_of!(iodbtllf, tools_sum) - 40usize];
+        [::std::mem::offset_of!(iodbtllf, notice_life_sum) - 16usize];
+    ["Offset of field: iodbtllf::tools_sum"][::std::mem::offset_of!(iodbtllf, tools_sum) - 20usize];
     ["Offset of field: iodbtllf::notice_stat_sum"]
-        [::std::mem::offset_of!(iodbtllf, notice_stat_sum) - 42usize];
+        [::std::mem::offset_of!(iodbtllf, notice_stat_sum) - 22usize];
     ["Offset of field: iodbtllf::count_type_sum"]
-        [::std::mem::offset_of!(iodbtllf, count_type_sum) - 43usize];
+        [::std::mem::offset_of!(iodbtllf, count_type_sum) - 23usize];
 };
 pub type IODBTLLF = iodbtllf;
 #[repr(C)]
@@ -4948,21 +4947,21 @@ pub struct iodbtllfd {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtllfd"][::std::mem::size_of::<iodbtllfd>() - 48usize];
-    ["Alignment of iodbtllfd"][::std::mem::align_of::<iodbtllfd>() - 8usize];
+    ["Size of iodbtllfd"][::std::mem::size_of::<iodbtllfd>() - 24usize];
+    ["Alignment of iodbtllfd"][::std::mem::align_of::<iodbtllfd>() - 4usize];
     ["Offset of field: iodbtllfd::order"][::std::mem::offset_of!(iodbtllfd, order) - 0usize];
     ["Offset of field: iodbtllfd::tool_num"][::std::mem::offset_of!(iodbtllfd, tool_num) - 2usize];
     ["Offset of field: iodbtllfd::life_count"]
-        [::std::mem::offset_of!(iodbtllfd, life_count) - 8usize];
-    ["Offset of field: iodbtllfd::rem_life"][::std::mem::offset_of!(iodbtllfd, rem_life) - 16usize];
-    ["Offset of field: iodbtllfd::max_life"][::std::mem::offset_of!(iodbtllfd, max_life) - 24usize];
+        [::std::mem::offset_of!(iodbtllfd, life_count) - 4usize];
+    ["Offset of field: iodbtllfd::rem_life"][::std::mem::offset_of!(iodbtllfd, rem_life) - 8usize];
+    ["Offset of field: iodbtllfd::max_life"][::std::mem::offset_of!(iodbtllfd, max_life) - 12usize];
     ["Offset of field: iodbtllfd::notice_life"]
-        [::std::mem::offset_of!(iodbtllfd, notice_life) - 32usize];
+        [::std::mem::offset_of!(iodbtllfd, notice_life) - 16usize];
     ["Offset of field: iodbtllfd::life_stat"]
-        [::std::mem::offset_of!(iodbtllfd, life_stat) - 40usize];
+        [::std::mem::offset_of!(iodbtllfd, life_stat) - 20usize];
     ["Offset of field: iodbtllfd::count_type"]
-        [::std::mem::offset_of!(iodbtllfd, count_type) - 41usize];
-    ["Offset of field: iodbtllfd::reserve"][::std::mem::offset_of!(iodbtllfd, reserve) - 42usize];
+        [::std::mem::offset_of!(iodbtllfd, count_type) - 21usize];
+    ["Offset of field: iodbtllfd::reserve"][::std::mem::offset_of!(iodbtllfd, reserve) - 22usize];
 };
 pub type IODBTLLFD = iodbtllfd;
 #[repr(C)]
@@ -4974,14 +4973,14 @@ pub struct iodbtlmgr_check {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtlmgr_check"][::std::mem::size_of::<iodbtlmgr_check>() - 16usize];
-    ["Alignment of iodbtlmgr_check"][::std::mem::align_of::<iodbtlmgr_check>() - 8usize];
+    ["Size of iodbtlmgr_check"][::std::mem::size_of::<iodbtlmgr_check>() - 8usize];
+    ["Alignment of iodbtlmgr_check"][::std::mem::align_of::<iodbtlmgr_check>() - 4usize];
     ["Offset of field: iodbtlmgr_check::T_code"]
         [::std::mem::offset_of!(iodbtlmgr_check, T_code) - 0usize];
     ["Offset of field: iodbtlmgr_check::tool_num"]
-        [::std::mem::offset_of!(iodbtlmgr_check, tool_num) - 8usize];
+        [::std::mem::offset_of!(iodbtlmgr_check, tool_num) - 4usize];
     ["Offset of field: iodbtlmgr_check::reserve"]
-        [::std::mem::offset_of!(iodbtlmgr_check, reserve) - 10usize];
+        [::std::mem::offset_of!(iodbtlmgr_check, reserve) - 6usize];
 };
 pub type IODBTLMGR_CHECK = iodbtlmgr_check;
 #[repr(C)]
@@ -5016,8 +5015,8 @@ pub struct iodbtool_inhis {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtool_inhis"][::std::mem::size_of::<iodbtool_inhis>() - 432usize];
-    ["Alignment of iodbtool_inhis"][::std::mem::align_of::<iodbtool_inhis>() - 8usize];
+    ["Size of iodbtool_inhis"][::std::mem::size_of::<iodbtool_inhis>() - 236usize];
+    ["Alignment of iodbtool_inhis"][::std::mem::align_of::<iodbtool_inhis>() - 4usize];
     ["Offset of field: iodbtool_inhis::tool_no"]
         [::std::mem::offset_of!(iodbtool_inhis, tool_no) - 0usize];
     ["Offset of field: iodbtool_inhis::reserve"]
@@ -5038,8 +5037,8 @@ pub struct iodbtool_outhis {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtool_outhis"][::std::mem::size_of::<iodbtool_outhis>() - 432usize];
-    ["Alignment of iodbtool_outhis"][::std::mem::align_of::<iodbtool_outhis>() - 8usize];
+    ["Size of iodbtool_outhis"][::std::mem::size_of::<iodbtool_outhis>() - 236usize];
+    ["Alignment of iodbtool_outhis"][::std::mem::align_of::<iodbtool_outhis>() - 4usize];
     ["Offset of field: iodbtool_outhis::tool_no"]
         [::std::mem::offset_of!(iodbtool_outhis, tool_no) - 0usize];
     ["Offset of field: iodbtool_outhis::cause"]
@@ -5084,14 +5083,14 @@ pub struct iodbtlmng_sort {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtlmng_sort"][::std::mem::size_of::<iodbtlmng_sort>() - 424usize];
-    ["Alignment of iodbtlmng_sort"][::std::mem::align_of::<iodbtlmng_sort>() - 8usize];
+    ["Size of iodbtlmng_sort"][::std::mem::size_of::<iodbtlmng_sort>() - 224usize];
+    ["Alignment of iodbtlmng_sort"][::std::mem::align_of::<iodbtlmng_sort>() - 4usize];
     ["Offset of field: iodbtlmng_sort::tl_num"]
         [::std::mem::offset_of!(iodbtlmng_sort, tl_num) - 0usize];
     ["Offset of field: iodbtlmng_sort::reserve"]
         [::std::mem::offset_of!(iodbtlmng_sort, reserve) - 2usize];
     ["Offset of field: iodbtlmng_sort::data"]
-        [::std::mem::offset_of!(iodbtlmng_sort, data) - 8usize];
+        [::std::mem::offset_of!(iodbtlmng_sort, data) - 4usize];
 };
 pub type IODBTLMNG_SORT = iodbtlmng_sort;
 #[repr(C)]
@@ -5107,8 +5106,8 @@ pub struct iodbmagprty {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbmagprty"][::std::mem::size_of::<iodbmagprty>() - 48usize];
-    ["Alignment of iodbmagprty"][::std::mem::align_of::<iodbmagprty>() - 8usize];
+    ["Size of iodbmagprty"][::std::mem::size_of::<iodbmagprty>() - 28usize];
+    ["Alignment of iodbmagprty"][::std::mem::align_of::<iodbmagprty>() - 4usize];
     ["Offset of field: iodbmagprty::mag"][::std::mem::offset_of!(iodbmagprty, mag) - 0usize];
     ["Offset of field: iodbmagprty::reserve_s"]
         [::std::mem::offset_of!(iodbmagprty, reserve_s) - 2usize];
@@ -5119,7 +5118,7 @@ const _: () = {
     ["Offset of field: iodbmagprty::mt_line"]
         [::std::mem::offset_of!(iodbmagprty, mt_line) - 8usize];
     ["Offset of field: iodbmagprty::mt_row"][::std::mem::offset_of!(iodbmagprty, mt_row) - 10usize];
-    ["Offset of field: iodbmagprty::cstm"][::std::mem::offset_of!(iodbmagprty, cstm) - 16usize];
+    ["Offset of field: iodbmagprty::cstm"][::std::mem::offset_of!(iodbmagprty, cstm) - 12usize];
 };
 pub type IODBMAGPRTY = iodbmagprty;
 #[repr(C)]
@@ -5134,8 +5133,8 @@ pub struct iodbpotprty {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpotprty"][::std::mem::size_of::<iodbpotprty>() - 88usize];
-    ["Alignment of iodbpotprty"][::std::mem::align_of::<iodbpotprty>() - 8usize];
+    ["Size of iodbpotprty"][::std::mem::size_of::<iodbpotprty>() - 48usize];
+    ["Alignment of iodbpotprty"][::std::mem::align_of::<iodbpotprty>() - 4usize];
     ["Offset of field: iodbpotprty::tool_no"]
         [::std::mem::offset_of!(iodbpotprty, tool_no) - 0usize];
     ["Offset of field: iodbpotprty::pot_type"]
@@ -5173,14 +5172,14 @@ pub struct idbtlm_srchdt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbtlm_srchdt"][::std::mem::size_of::<idbtlm_srchdt>() - 24usize];
-    ["Alignment of idbtlm_srchdt"][::std::mem::align_of::<idbtlm_srchdt>() - 8usize];
+    ["Size of idbtlm_srchdt"][::std::mem::size_of::<idbtlm_srchdt>() - 12usize];
+    ["Alignment of idbtlm_srchdt"][::std::mem::align_of::<idbtlm_srchdt>() - 4usize];
     ["Offset of field: idbtlm_srchdt::id_info"]
         [::std::mem::offset_of!(idbtlm_srchdt, id_info) - 0usize];
     ["Offset of field: idbtlm_srchdt::srch_cond"]
-        [::std::mem::offset_of!(idbtlm_srchdt, srch_cond) - 16usize];
+        [::std::mem::offset_of!(idbtlm_srchdt, srch_cond) - 8usize];
     ["Offset of field: idbtlm_srchdt::add_cond"]
-        [::std::mem::offset_of!(idbtlm_srchdt, add_cond) - 18usize];
+        [::std::mem::offset_of!(idbtlm_srchdt, add_cond) - 10usize];
 };
 impl Default for idbtlm_srchdt {
     fn default() -> Self {
@@ -5258,41 +5257,41 @@ pub struct iodbtlmng_mu_edge_data {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtlmng_mu_edge_data"][::std::mem::size_of::<iodbtlmng_mu_edge_data>() - 88usize];
+    ["Size of iodbtlmng_mu_edge_data"][::std::mem::size_of::<iodbtlmng_mu_edge_data>() - 48usize];
     ["Alignment of iodbtlmng_mu_edge_data"]
-        [::std::mem::align_of::<iodbtlmng_mu_edge_data>() - 8usize];
+        [::std::mem::align_of::<iodbtlmng_mu_edge_data>() - 4usize];
     ["Offset of field: iodbtlmng_mu_edge_data::life_count"]
         [::std::mem::offset_of!(iodbtlmng_mu_edge_data, life_count) - 0usize];
     ["Offset of field: iodbtlmng_mu_edge_data::max_life"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, max_life) - 8usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, max_life) - 4usize];
     ["Offset of field: iodbtlmng_mu_edge_data::rest_life"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, rest_life) - 16usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, rest_life) - 8usize];
     ["Offset of field: iodbtlmng_mu_edge_data::life_stat"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, life_stat) - 24usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, life_stat) - 12usize];
     ["Offset of field: iodbtlmng_mu_edge_data::cust_bits"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, cust_bits) - 25usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, cust_bits) - 13usize];
     ["Offset of field: iodbtlmng_mu_edge_data::reserve_s"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, reserve_s) - 26usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, reserve_s) - 14usize];
     ["Offset of field: iodbtlmng_mu_edge_data::H_code"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, H_code) - 28usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, H_code) - 16usize];
     ["Offset of field: iodbtlmng_mu_edge_data::D_code"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, D_code) - 30usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, D_code) - 18usize];
     ["Offset of field: iodbtlmng_mu_edge_data::spindle_speed"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, spindle_speed) - 32usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, spindle_speed) - 20usize];
     ["Offset of field: iodbtlmng_mu_edge_data::feedrate"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, feedrate) - 40usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, feedrate) - 24usize];
     ["Offset of field: iodbtlmng_mu_edge_data::G_code"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, G_code) - 48usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, G_code) - 28usize];
     ["Offset of field: iodbtlmng_mu_edge_data::W_code"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, W_code) - 50usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, W_code) - 30usize];
     ["Offset of field: iodbtlmng_mu_edge_data::custom1"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, custom1) - 56usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, custom1) - 32usize];
     ["Offset of field: iodbtlmng_mu_edge_data::custom2"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, custom2) - 64usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, custom2) - 36usize];
     ["Offset of field: iodbtlmng_mu_edge_data::custom3"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, custom3) - 72usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, custom3) - 40usize];
     ["Offset of field: iodbtlmng_mu_edge_data::custom4"]
-        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, custom4) - 80usize];
+        [::std::mem::offset_of!(iodbtlmng_mu_edge_data, custom4) - 44usize];
 };
 pub type IODBTLMNG_MU_EDGE_DATA = iodbtlmng_mu_edge_data;
 #[repr(C)]
@@ -5310,9 +5309,9 @@ pub union odbtlmng_edge_data__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbtlmng_edge_data__bindgen_ty_1"]
-        [::std::mem::size_of::<odbtlmng_edge_data__bindgen_ty_1>() - 88usize];
+        [::std::mem::size_of::<odbtlmng_edge_data__bindgen_ty_1>() - 48usize];
     ["Alignment of odbtlmng_edge_data__bindgen_ty_1"]
-        [::std::mem::align_of::<odbtlmng_edge_data__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbtlmng_edge_data__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbtlmng_edge_data__bindgen_ty_1::edge"]
         [::std::mem::offset_of!(odbtlmng_edge_data__bindgen_ty_1, edge) - 0usize];
     ["Offset of field: odbtlmng_edge_data__bindgen_ty_1::tllf"]
@@ -5331,8 +5330,8 @@ impl Default for odbtlmng_edge_data__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtlmng_edge_data"][::std::mem::size_of::<odbtlmng_edge_data>() - 88usize];
-    ["Alignment of odbtlmng_edge_data"][::std::mem::align_of::<odbtlmng_edge_data>() - 8usize];
+    ["Size of odbtlmng_edge_data"][::std::mem::size_of::<odbtlmng_edge_data>() - 48usize];
+    ["Alignment of odbtlmng_edge_data"][::std::mem::align_of::<odbtlmng_edge_data>() - 4usize];
     ["Offset of field: odbtlmng_edge_data::u"]
         [::std::mem::offset_of!(odbtlmng_edge_data, u) - 0usize];
 };
@@ -5355,14 +5354,14 @@ pub struct odbtlmng_mu_edge {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtlmng_mu_edge"][::std::mem::size_of::<odbtlmng_mu_edge>() - 96usize];
-    ["Alignment of odbtlmng_mu_edge"][::std::mem::align_of::<odbtlmng_mu_edge>() - 8usize];
+    ["Size of odbtlmng_mu_edge"][::std::mem::size_of::<odbtlmng_mu_edge>() - 52usize];
+    ["Alignment of odbtlmng_mu_edge"][::std::mem::align_of::<odbtlmng_mu_edge>() - 4usize];
     ["Offset of field: odbtlmng_mu_edge::data_no"]
         [::std::mem::offset_of!(odbtlmng_mu_edge, data_no) - 0usize];
     ["Offset of field: odbtlmng_mu_edge::edge_no"]
         [::std::mem::offset_of!(odbtlmng_mu_edge, edge_no) - 2usize];
     ["Offset of field: odbtlmng_mu_edge::edge_data"]
-        [::std::mem::offset_of!(odbtlmng_mu_edge, edge_data) - 8usize];
+        [::std::mem::offset_of!(odbtlmng_mu_edge, edge_data) - 4usize];
 };
 impl Default for odbtlmng_mu_edge {
     fn default() -> Self {
@@ -5398,12 +5397,12 @@ pub struct idbtlmgr_add_info {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbtlmgr_add_info"][::std::mem::size_of::<idbtlmgr_add_info>() - 16usize];
-    ["Alignment of idbtlmgr_add_info"][::std::mem::align_of::<idbtlmgr_add_info>() - 8usize];
+    ["Size of idbtlmgr_add_info"][::std::mem::size_of::<idbtlmgr_add_info>() - 8usize];
+    ["Alignment of idbtlmgr_add_info"][::std::mem::align_of::<idbtlmgr_add_info>() - 4usize];
     ["Offset of field: idbtlmgr_add_info::dsp_info"]
         [::std::mem::offset_of!(idbtlmgr_add_info, dsp_info) - 0usize];
     ["Offset of field: idbtlmgr_add_info::data_kind"]
-        [::std::mem::offset_of!(idbtlmgr_add_info, data_kind) - 8usize];
+        [::std::mem::offset_of!(idbtlmgr_add_info, data_kind) - 4usize];
 };
 pub type IDBTLMGR_ADD_INFO = idbtlmgr_add_info;
 #[repr(C)]
@@ -6224,9 +6223,9 @@ pub struct odbophis4__bindgen_ty_1__bindgen_ty_5 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbophis4__bindgen_ty_1__bindgen_ty_5"]
-        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_5>() - 800usize];
+        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_5>() - 452usize];
     ["Alignment of odbophis4__bindgen_ty_1__bindgen_ty_5"]
-        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_5>() - 8usize];
+        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_5>() - 4usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::alm_grp"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, alm_grp) - 0usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::alm_no"]
@@ -6256,25 +6255,25 @@ const _: () = {
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::dummy1"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, dummy1) - 26usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::g_modal"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, g_modal) - 32usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, g_modal) - 28usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::g_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, g_dp) - 112usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, g_dp) - 68usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::dummy2"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, dummy2) - 122usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, dummy2) - 78usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::a_modal"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, a_modal) - 128usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, a_modal) - 80usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::a_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, a_dp) - 208usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, a_dp) - 120usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::dummy3"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, dummy3) - 218usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, dummy3) - 130usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::abs_pos"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, abs_pos) - 224usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, abs_pos) - 132usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::abs_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, abs_dp) - 480usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, abs_dp) - 260usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::mcn_pos"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, mcn_pos) - 512usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, mcn_pos) - 292usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_5::mcn_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, mcn_dp) - 768usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_5, mcn_dp) - 420usize];
 };
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -6308,9 +6307,9 @@ pub struct odbophis4__bindgen_ty_1__bindgen_ty_6 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbophis4__bindgen_ty_1__bindgen_ty_6"]
-        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_6>() - 864usize];
+        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_6>() - 516usize];
     ["Alignment of odbophis4__bindgen_ty_1__bindgen_ty_6"]
-        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_6>() - 8usize];
+        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_6>() - 4usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::alm_grp"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, alm_grp) - 0usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::alm_no"]
@@ -6342,25 +6341,25 @@ const _: () = {
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::dummy1"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, dummy1) - 90usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::g_modal"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, g_modal) - 96usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, g_modal) - 92usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::g_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, g_dp) - 176usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, g_dp) - 132usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::dummy2"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, dummy2) - 186usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, dummy2) - 142usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::a_modal"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, a_modal) - 192usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, a_modal) - 144usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::a_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, a_dp) - 272usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, a_dp) - 184usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::dummy3"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, dummy3) - 282usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, dummy3) - 194usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::abs_pos"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, abs_pos) - 288usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, abs_pos) - 196usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::abs_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, abs_dp) - 544usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, abs_dp) - 324usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::mcn_pos"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, mcn_pos) - 576usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, mcn_pos) - 356usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_6::mcn_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, mcn_dp) - 832usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_6, mcn_dp) - 484usize];
 };
 impl Default for odbophis4__bindgen_ty_1__bindgen_ty_6 {
     fn default() -> Self {
@@ -6435,9 +6434,9 @@ pub struct odbophis4__bindgen_ty_1__bindgen_ty_8 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbophis4__bindgen_ty_1__bindgen_ty_8"]
-        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_8>() - 40usize];
+        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_8>() - 24usize];
     ["Alignment of odbophis4__bindgen_ty_1__bindgen_ty_8"]
-        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_8>() - 8usize];
+        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_8>() - 4usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_8::ofs_grp"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_8, ofs_grp) - 0usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_8::ofs_no"]
@@ -6451,13 +6450,13 @@ const _: () = {
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_8::pth_no"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_8, pth_no) - 10usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_8::ofs_old"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_8, ofs_old) - 16usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_8, ofs_old) - 12usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_8::ofs_new"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_8, ofs_new) - 24usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_8, ofs_new) - 16usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_8::old_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_8, old_dp) - 32usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_8, old_dp) - 20usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_8::new_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_8, new_dp) - 34usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_8, new_dp) - 22usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -6477,9 +6476,9 @@ pub struct odbophis4__bindgen_ty_1__bindgen_ty_9 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbophis4__bindgen_ty_1__bindgen_ty_9"]
-        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_9>() - 48usize];
+        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_9>() - 28usize];
     ["Alignment of odbophis4__bindgen_ty_1__bindgen_ty_9"]
-        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_9>() - 8usize];
+        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_9>() - 4usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_9::prm_grp"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_9, prm_grp) - 0usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_9::prm_num"]
@@ -6493,15 +6492,15 @@ const _: () = {
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_9::prm_len"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_9, prm_len) - 10usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_9::prm_no"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_9, prm_no) - 16usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_9, prm_no) - 12usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_9::prm_old"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_9, prm_old) - 24usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_9, prm_old) - 16usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_9::prm_new"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_9, prm_new) - 32usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_9, prm_new) - 20usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_9::old_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_9, old_dp) - 40usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_9, old_dp) - 24usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_9::new_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_9, new_dp) - 42usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_9, new_dp) - 26usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -6522,9 +6521,9 @@ pub struct odbophis4__bindgen_ty_1__bindgen_ty_10 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbophis4__bindgen_ty_1__bindgen_ty_10"]
-        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_10>() - 40usize];
+        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_10>() - 28usize];
     ["Alignment of odbophis4__bindgen_ty_1__bindgen_ty_10"]
-        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_10>() - 8usize];
+        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_10>() - 4usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_10::ofs_grp"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_10, ofs_grp) - 0usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_10::ofs_no"]
@@ -6544,11 +6543,11 @@ const _: () = {
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_10::ofs_old"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_10, ofs_old) - 16usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_10::ofs_new"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_10, ofs_new) - 24usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_10, ofs_new) - 20usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_10::old_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_10, old_dp) - 32usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_10, old_dp) - 24usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_10::new_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_10, new_dp) - 34usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_10, new_dp) - 26usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -6567,9 +6566,9 @@ pub struct odbophis4__bindgen_ty_1__bindgen_ty_11 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbophis4__bindgen_ty_1__bindgen_ty_11"]
-        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_11>() - 40usize];
+        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_11>() - 24usize];
     ["Alignment of odbophis4__bindgen_ty_1__bindgen_ty_11"]
-        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_11>() - 8usize];
+        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_11>() - 4usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_11::mac_no"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_11, mac_no) - 0usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_11::hour"]
@@ -6583,13 +6582,13 @@ const _: () = {
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_11::dummy"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_11, dummy) - 10usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_11::mac_old"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_11, mac_old) - 16usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_11, mac_old) - 12usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_11::mac_new"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_11, mac_new) - 24usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_11, mac_new) - 16usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_11::old_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_11, old_dp) - 32usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_11, old_dp) - 20usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_11::new_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_11, new_dp) - 34usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_11, new_dp) - 22usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -6607,27 +6606,27 @@ pub struct odbophis4__bindgen_ty_1__bindgen_ty_12 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbophis4__bindgen_ty_1__bindgen_ty_12"]
-        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_12>() - 40usize];
+        [::std::mem::size_of::<odbophis4__bindgen_ty_1__bindgen_ty_12>() - 24usize];
     ["Alignment of odbophis4__bindgen_ty_1__bindgen_ty_12"]
-        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_12>() - 8usize];
+        [::std::mem::align_of::<odbophis4__bindgen_ty_1__bindgen_ty_12>() - 4usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_12::mac_no"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, mac_no) - 0usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_12::hour"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, hour) - 8usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, hour) - 4usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_12::minute"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, minute) - 10usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, minute) - 6usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_12::second"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, second) - 12usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, second) - 8usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_12::pth_no"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, pth_no) - 14usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, pth_no) - 10usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_12::mac_old"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, mac_old) - 16usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, mac_old) - 12usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_12::mac_new"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, mac_new) - 24usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, mac_new) - 16usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_12::old_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, old_dp) - 32usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, old_dp) - 20usize];
     ["Offset of field: odbophis4__bindgen_ty_1__bindgen_ty_12::new_dp"]
-        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, new_dp) - 34usize];
+        [::std::mem::offset_of!(odbophis4__bindgen_ty_1__bindgen_ty_12, new_dp) - 22usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -6661,9 +6660,9 @@ const _: () = {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbophis4__bindgen_ty_1"]
-        [::std::mem::size_of::<odbophis4__bindgen_ty_1>() - 864usize];
+        [::std::mem::size_of::<odbophis4__bindgen_ty_1>() - 516usize];
     ["Alignment of odbophis4__bindgen_ty_1"]
-        [::std::mem::align_of::<odbophis4__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbophis4__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbophis4__bindgen_ty_1::rec_mdi"]
         [::std::mem::offset_of!(odbophis4__bindgen_ty_1, rec_mdi) - 0usize];
     ["Offset of field: odbophis4__bindgen_ty_1::rec_sgn"]
@@ -6702,11 +6701,11 @@ impl Default for odbophis4__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbophis4"][::std::mem::size_of::<odbophis4>() - 872usize];
-    ["Alignment of odbophis4"][::std::mem::align_of::<odbophis4>() - 8usize];
+    ["Size of odbophis4"][::std::mem::size_of::<odbophis4>() - 520usize];
+    ["Alignment of odbophis4"][::std::mem::align_of::<odbophis4>() - 4usize];
     ["Offset of field: odbophis4::rec_len"][::std::mem::offset_of!(odbophis4, rec_len) - 0usize];
     ["Offset of field: odbophis4::rec_type"][::std::mem::offset_of!(odbophis4, rec_type) - 2usize];
-    ["Offset of field: odbophis4::u"][::std::mem::offset_of!(odbophis4, u) - 8usize];
+    ["Offset of field: odbophis4::u"][::std::mem::offset_of!(odbophis4, u) - 4usize];
 };
 impl Default for odbophis4 {
     fn default() -> Self {
@@ -7030,9 +7029,9 @@ pub struct odbahis5__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbahis5__bindgen_ty_1"][::std::mem::size_of::<odbahis5__bindgen_ty_1>() - 864usize];
+    ["Size of odbahis5__bindgen_ty_1"][::std::mem::size_of::<odbahis5__bindgen_ty_1>() - 516usize];
     ["Alignment of odbahis5__bindgen_ty_1"]
-        [::std::mem::align_of::<odbahis5__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbahis5__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbahis5__bindgen_ty_1::alm_grp"]
         [::std::mem::offset_of!(odbahis5__bindgen_ty_1, alm_grp) - 0usize];
     ["Offset of field: odbahis5__bindgen_ty_1::alm_no"]
@@ -7064,25 +7063,25 @@ const _: () = {
     ["Offset of field: odbahis5__bindgen_ty_1::alm_msg"]
         [::std::mem::offset_of!(odbahis5__bindgen_ty_1, alm_msg) - 28usize];
     ["Offset of field: odbahis5__bindgen_ty_1::g_modal"]
-        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, g_modal) - 96usize];
+        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, g_modal) - 92usize];
     ["Offset of field: odbahis5__bindgen_ty_1::g_dp"]
-        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, g_dp) - 176usize];
+        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, g_dp) - 132usize];
     ["Offset of field: odbahis5__bindgen_ty_1::dummy1"]
-        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, dummy1) - 186usize];
+        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, dummy1) - 142usize];
     ["Offset of field: odbahis5__bindgen_ty_1::a_modal"]
-        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, a_modal) - 192usize];
+        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, a_modal) - 144usize];
     ["Offset of field: odbahis5__bindgen_ty_1::a_dp"]
-        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, a_dp) - 272usize];
+        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, a_dp) - 184usize];
     ["Offset of field: odbahis5__bindgen_ty_1::dummy2"]
-        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, dummy2) - 282usize];
+        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, dummy2) - 194usize];
     ["Offset of field: odbahis5__bindgen_ty_1::abs_pos"]
-        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, abs_pos) - 288usize];
+        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, abs_pos) - 196usize];
     ["Offset of field: odbahis5__bindgen_ty_1::abs_dp"]
-        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, abs_dp) - 544usize];
+        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, abs_dp) - 324usize];
     ["Offset of field: odbahis5__bindgen_ty_1::mcn_pos"]
-        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, mcn_pos) - 576usize];
+        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, mcn_pos) - 356usize];
     ["Offset of field: odbahis5__bindgen_ty_1::mcn_dp"]
-        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, mcn_dp) - 832usize];
+        [::std::mem::offset_of!(odbahis5__bindgen_ty_1, mcn_dp) - 484usize];
 };
 impl Default for odbahis5__bindgen_ty_1 {
     fn default() -> Self {
@@ -7095,11 +7094,11 @@ impl Default for odbahis5__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbahis5"][::std::mem::size_of::<odbahis5>() - 8648usize];
-    ["Alignment of odbahis5"][::std::mem::align_of::<odbahis5>() - 8usize];
+    ["Size of odbahis5"][::std::mem::size_of::<odbahis5>() - 5164usize];
+    ["Alignment of odbahis5"][::std::mem::align_of::<odbahis5>() - 4usize];
     ["Offset of field: odbahis5::s_no"][::std::mem::offset_of!(odbahis5, s_no) - 0usize];
     ["Offset of field: odbahis5::e_no"][::std::mem::offset_of!(odbahis5, e_no) - 2usize];
-    ["Offset of field: odbahis5::alm_his"][::std::mem::offset_of!(odbahis5, alm_his) - 8usize];
+    ["Offset of field: odbahis5::alm_his"][::std::mem::offset_of!(odbahis5, alm_his) - 4usize];
 };
 impl Default for odbahis5 {
     fn default() -> Self {
@@ -7404,18 +7403,18 @@ pub struct odbshp {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbshp"][::std::mem::size_of::<odbshp>() - 128usize];
-    ["Alignment of odbshp"][::std::mem::align_of::<odbshp>() - 8usize];
+    ["Size of odbshp"][::std::mem::size_of::<odbshp>() - 76usize];
+    ["Alignment of odbshp"][::std::mem::align_of::<odbshp>() - 4usize];
     ["Offset of field: odbshp::ob_type"][::std::mem::offset_of!(odbshp, ob_type) - 0usize];
     ["Offset of field: odbshp::obj_no"][::std::mem::offset_of!(odbshp, obj_no) - 2usize];
     ["Offset of field: odbshp::shp_no"][::std::mem::offset_of!(odbshp, shp_no) - 4usize];
     ["Offset of field: odbshp::fig_ele"][::std::mem::offset_of!(odbshp, fig_ele) - 6usize];
-    ["Offset of field: odbshp::ref_pos"][::std::mem::offset_of!(odbshp, ref_pos) - 32usize];
-    ["Offset of field: odbshp::tool_ref"][::std::mem::offset_of!(odbshp, tool_ref) - 56usize];
-    ["Offset of field: odbshp::tool_dir"][::std::mem::offset_of!(odbshp, tool_dir) - 80usize];
-    ["Offset of field: odbshp::ref_ang1"][::std::mem::offset_of!(odbshp, ref_ang1) - 104usize];
-    ["Offset of field: odbshp::ref_ang2"][::std::mem::offset_of!(odbshp, ref_ang2) - 112usize];
-    ["Offset of field: odbshp::n_unit"][::std::mem::offset_of!(odbshp, n_unit) - 120usize];
+    ["Offset of field: odbshp::ref_pos"][::std::mem::offset_of!(odbshp, ref_pos) - 28usize];
+    ["Offset of field: odbshp::tool_ref"][::std::mem::offset_of!(odbshp, tool_ref) - 40usize];
+    ["Offset of field: odbshp::tool_dir"][::std::mem::offset_of!(odbshp, tool_dir) - 52usize];
+    ["Offset of field: odbshp::ref_ang1"][::std::mem::offset_of!(odbshp, ref_ang1) - 64usize];
+    ["Offset of field: odbshp::ref_ang2"][::std::mem::offset_of!(odbshp, ref_ang2) - 68usize];
+    ["Offset of field: odbshp::n_unit"][::std::mem::offset_of!(odbshp, n_unit) - 72usize];
 };
 pub type ODBSHP = odbshp;
 #[repr(C)]
@@ -7430,14 +7429,14 @@ pub struct odbcub {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbcub"][::std::mem::size_of::<odbcub>() - 104usize];
-    ["Alignment of odbcub"][::std::mem::align_of::<odbcub>() - 8usize];
+    ["Size of odbcub"][::std::mem::size_of::<odbcub>() - 52usize];
+    ["Alignment of odbcub"][::std::mem::align_of::<odbcub>() - 4usize];
     ["Offset of field: odbcub::ref_vtx"][::std::mem::offset_of!(odbcub, ref_vtx) - 0usize];
-    ["Offset of field: odbcub::adj_vtx1"][::std::mem::offset_of!(odbcub, adj_vtx1) - 24usize];
-    ["Offset of field: odbcub::adj_vtx2"][::std::mem::offset_of!(odbcub, adj_vtx2) - 48usize];
-    ["Offset of field: odbcub::adj_vtx3"][::std::mem::offset_of!(odbcub, adj_vtx3) - 72usize];
-    ["Offset of field: odbcub::n_unit"][::std::mem::offset_of!(odbcub, n_unit) - 96usize];
-    ["Offset of field: odbcub::cb_form"][::std::mem::offset_of!(odbcub, cb_form) - 97usize];
+    ["Offset of field: odbcub::adj_vtx1"][::std::mem::offset_of!(odbcub, adj_vtx1) - 12usize];
+    ["Offset of field: odbcub::adj_vtx2"][::std::mem::offset_of!(odbcub, adj_vtx2) - 24usize];
+    ["Offset of field: odbcub::adj_vtx3"][::std::mem::offset_of!(odbcub, adj_vtx3) - 36usize];
+    ["Offset of field: odbcub::n_unit"][::std::mem::offset_of!(odbcub, n_unit) - 48usize];
+    ["Offset of field: odbcub::cb_form"][::std::mem::offset_of!(odbcub, cb_form) - 49usize];
 };
 pub type ODBCUB = odbcub;
 #[repr(C)]
@@ -7494,20 +7493,20 @@ pub struct odbmva__bindgen_ty_2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmva__bindgen_ty_2"][::std::mem::size_of::<odbmva__bindgen_ty_2>() - 48usize];
-    ["Alignment of odbmva__bindgen_ty_2"][::std::mem::align_of::<odbmva__bindgen_ty_2>() - 8usize];
+    ["Size of odbmva__bindgen_ty_2"][::std::mem::size_of::<odbmva__bindgen_ty_2>() - 24usize];
+    ["Alignment of odbmva__bindgen_ty_2"][::std::mem::align_of::<odbmva__bindgen_ty_2>() - 4usize];
     ["Offset of field: odbmva__bindgen_ty_2::axis_no"]
         [::std::mem::offset_of!(odbmva__bindgen_ty_2, axis_no) - 0usize];
     ["Offset of field: odbmva__bindgen_ty_2::c_ax_dir"]
         [::std::mem::offset_of!(odbmva__bindgen_ty_2, c_ax_dir) - 2usize];
     ["Offset of field: odbmva__bindgen_ty_2::c_pos"]
-        [::std::mem::offset_of!(odbmva__bindgen_ty_2, c_pos) - 8usize];
+        [::std::mem::offset_of!(odbmva__bindgen_ty_2, c_pos) - 4usize];
     ["Offset of field: odbmva__bindgen_ty_2::inc_ang"]
-        [::std::mem::offset_of!(odbmva__bindgen_ty_2, inc_ang) - 32usize];
+        [::std::mem::offset_of!(odbmva__bindgen_ty_2, inc_ang) - 16usize];
     ["Offset of field: odbmva__bindgen_ty_2::rot_dir"]
-        [::std::mem::offset_of!(odbmva__bindgen_ty_2, rot_dir) - 40usize];
+        [::std::mem::offset_of!(odbmva__bindgen_ty_2, rot_dir) - 20usize];
     ["Offset of field: odbmva__bindgen_ty_2::reserve"]
-        [::std::mem::offset_of!(odbmva__bindgen_ty_2, reserve) - 42usize];
+        [::std::mem::offset_of!(odbmva__bindgen_ty_2, reserve) - 22usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -7526,13 +7525,13 @@ const _: () = {
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmva"][::std::mem::size_of::<odbmva>() - 136usize];
-    ["Alignment of odbmva"][::std::mem::align_of::<odbmva>() - 8usize];
+    ["Size of odbmva"][::std::mem::size_of::<odbmva>() - 88usize];
+    ["Alignment of odbmva"][::std::mem::align_of::<odbmva>() - 4usize];
     ["Offset of field: odbmva::sync_obj"][::std::mem::offset_of!(odbmva, sync_obj) - 0usize];
     ["Offset of field: odbmva::path"][::std::mem::offset_of!(odbmva, path) - 2usize];
     ["Offset of field: odbmva::lin_ax"][::std::mem::offset_of!(odbmva, lin_ax) - 4usize];
     ["Offset of field: odbmva::rot_ax"][::std::mem::offset_of!(odbmva, rot_ax) - 16usize];
-    ["Offset of field: odbmva::rot_ele"][::std::mem::offset_of!(odbmva, rot_ele) - 112usize];
+    ["Offset of field: odbmva::rot_ele"][::std::mem::offset_of!(odbmva, rot_ele) - 64usize];
 };
 pub type ODBMVA = odbmva;
 #[repr(C)]
@@ -7564,7 +7563,7 @@ const _: () = {
     ["Size of odbcrntshp__bindgen_ty_1__bindgen_ty_1"]
         [::std::mem::size_of::<odbcrntshp__bindgen_ty_1__bindgen_ty_1>() - 96usize];
     ["Alignment of odbcrntshp__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<odbcrntshp__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbcrntshp__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbcrntshp__bindgen_ty_1__bindgen_ty_1::base_pos"]
         [::std::mem::offset_of!(odbcrntshp__bindgen_ty_1__bindgen_ty_1, base_pos) - 0usize];
     ["Offset of field: odbcrntshp__bindgen_ty_1__bindgen_ty_1::vect1"]
@@ -7586,7 +7585,7 @@ const _: () = {
     ["Size of odbcrntshp__bindgen_ty_1__bindgen_ty_2"]
         [::std::mem::size_of::<odbcrntshp__bindgen_ty_1__bindgen_ty_2>() - 56usize];
     ["Alignment of odbcrntshp__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<odbcrntshp__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<odbcrntshp__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: odbcrntshp__bindgen_ty_1__bindgen_ty_2::vect1"]
         [::std::mem::offset_of!(odbcrntshp__bindgen_ty_1__bindgen_ty_2, vect1) - 0usize];
     ["Offset of field: odbcrntshp__bindgen_ty_1__bindgen_ty_2::vect2"]
@@ -7605,7 +7604,7 @@ const _: () = {
     ["Size of odbcrntshp__bindgen_ty_1__bindgen_ty_3"]
         [::std::mem::size_of::<odbcrntshp__bindgen_ty_1__bindgen_ty_3>() - 48usize];
     ["Alignment of odbcrntshp__bindgen_ty_1__bindgen_ty_3"]
-        [::std::mem::align_of::<odbcrntshp__bindgen_ty_1__bindgen_ty_3>() - 8usize];
+        [::std::mem::align_of::<odbcrntshp__bindgen_ty_1__bindgen_ty_3>() - 4usize];
     ["Offset of field: odbcrntshp__bindgen_ty_1__bindgen_ty_3::point"]
         [::std::mem::offset_of!(odbcrntshp__bindgen_ty_1__bindgen_ty_3, point) - 0usize];
     ["Offset of field: odbcrntshp__bindgen_ty_1__bindgen_ty_3::vect"]
@@ -7616,7 +7615,7 @@ const _: () = {
     ["Size of odbcrntshp__bindgen_ty_1"]
         [::std::mem::size_of::<odbcrntshp__bindgen_ty_1>() - 96usize];
     ["Alignment of odbcrntshp__bindgen_ty_1"]
-        [::std::mem::align_of::<odbcrntshp__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbcrntshp__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbcrntshp__bindgen_ty_1::par"]
         [::std::mem::offset_of!(odbcrntshp__bindgen_ty_1, par) - 0usize];
     ["Offset of field: odbcrntshp__bindgen_ty_1::cyl"]
@@ -7635,16 +7634,16 @@ impl Default for odbcrntshp__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbcrntshp"][::std::mem::size_of::<odbcrntshp>() - 120usize];
-    ["Alignment of odbcrntshp"][::std::mem::align_of::<odbcrntshp>() - 8usize];
+    ["Size of odbcrntshp"][::std::mem::size_of::<odbcrntshp>() - 112usize];
+    ["Alignment of odbcrntshp"][::std::mem::align_of::<odbcrntshp>() - 4usize];
     ["Offset of field: odbcrntshp::fig_type"]
         [::std::mem::offset_of!(odbcrntshp, fig_type) - 0usize];
-    ["Offset of field: odbcrntshp::reserve"][::std::mem::offset_of!(odbcrntshp, reserve) - 8usize];
-    ["Offset of field: odbcrntshp::fig"][::std::mem::offset_of!(odbcrntshp, fig) - 16usize];
+    ["Offset of field: odbcrntshp::reserve"][::std::mem::offset_of!(odbcrntshp, reserve) - 4usize];
+    ["Offset of field: odbcrntshp::fig"][::std::mem::offset_of!(odbcrntshp, fig) - 8usize];
     ["Offset of field: odbcrntshp::cb_form"]
-        [::std::mem::offset_of!(odbcrntshp, cb_form) - 112usize];
+        [::std::mem::offset_of!(odbcrntshp, cb_form) - 104usize];
     ["Offset of field: odbcrntshp::reserve2"]
-        [::std::mem::offset_of!(odbcrntshp, reserve2) - 113usize];
+        [::std::mem::offset_of!(odbcrntshp, reserve2) - 105usize];
 };
 impl Default for odbcrntshp {
     fn default() -> Self {
@@ -7667,13 +7666,13 @@ pub struct odbcyl {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbcyl"][::std::mem::size_of::<odbcyl>() - 64usize];
-    ["Alignment of odbcyl"][::std::mem::align_of::<odbcyl>() - 8usize];
+    ["Size of odbcyl"][::std::mem::size_of::<odbcyl>() - 32usize];
+    ["Alignment of odbcyl"][::std::mem::align_of::<odbcyl>() - 4usize];
     ["Offset of field: odbcyl::sta_pnt"][::std::mem::offset_of!(odbcyl, sta_pnt) - 0usize];
-    ["Offset of field: odbcyl::end_pnt"][::std::mem::offset_of!(odbcyl, end_pnt) - 24usize];
-    ["Offset of field: odbcyl::radius"][::std::mem::offset_of!(odbcyl, radius) - 48usize];
-    ["Offset of field: odbcyl::n_unit"][::std::mem::offset_of!(odbcyl, n_unit) - 56usize];
-    ["Offset of field: odbcyl::cb_form"][::std::mem::offset_of!(odbcyl, cb_form) - 57usize];
+    ["Offset of field: odbcyl::end_pnt"][::std::mem::offset_of!(odbcyl, end_pnt) - 12usize];
+    ["Offset of field: odbcyl::radius"][::std::mem::offset_of!(odbcyl, radius) - 24usize];
+    ["Offset of field: odbcyl::n_unit"][::std::mem::offset_of!(odbcyl, n_unit) - 28usize];
+    ["Offset of field: odbcyl::cb_form"][::std::mem::offset_of!(odbcyl, cb_form) - 29usize];
 };
 pub type ODBCYL = odbcyl;
 #[repr(C)]
@@ -7686,12 +7685,12 @@ pub struct odbpln {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpln"][::std::mem::size_of::<odbpln>() - 56usize];
-    ["Alignment of odbpln"][::std::mem::align_of::<odbpln>() - 8usize];
+    ["Size of odbpln"][::std::mem::size_of::<odbpln>() - 28usize];
+    ["Alignment of odbpln"][::std::mem::align_of::<odbpln>() - 4usize];
     ["Offset of field: odbpln::point"][::std::mem::offset_of!(odbpln, point) - 0usize];
-    ["Offset of field: odbpln::vect"][::std::mem::offset_of!(odbpln, vect) - 24usize];
-    ["Offset of field: odbpln::n_unit"][::std::mem::offset_of!(odbpln, n_unit) - 48usize];
-    ["Offset of field: odbpln::cb_form"][::std::mem::offset_of!(odbpln, cb_form) - 49usize];
+    ["Offset of field: odbpln::vect"][::std::mem::offset_of!(odbpln, vect) - 12usize];
+    ["Offset of field: odbpln::n_unit"][::std::mem::offset_of!(odbpln, n_unit) - 24usize];
+    ["Offset of field: odbpln::cb_form"][::std::mem::offset_of!(odbpln, cb_form) - 25usize];
 };
 pub type ODBPLN = odbpln;
 #[repr(C)]
@@ -7721,17 +7720,17 @@ pub struct odbfig__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbfig__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<odbfig__bindgen_ty_1__bindgen_ty_1>() - 96usize];
+        [::std::mem::size_of::<odbfig__bindgen_ty_1__bindgen_ty_1>() - 48usize];
     ["Alignment of odbfig__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<odbfig__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbfig__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbfig__bindgen_ty_1__bindgen_ty_1::ref_vtx"]
         [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_1, ref_vtx) - 0usize];
     ["Offset of field: odbfig__bindgen_ty_1__bindgen_ty_1::adj_vtx1"]
-        [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_1, adj_vtx1) - 24usize];
+        [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_1, adj_vtx1) - 12usize];
     ["Offset of field: odbfig__bindgen_ty_1__bindgen_ty_1::adj_vtx2"]
-        [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_1, adj_vtx2) - 48usize];
+        [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_1, adj_vtx2) - 24usize];
     ["Offset of field: odbfig__bindgen_ty_1__bindgen_ty_1::adj_vtx3"]
-        [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_1, adj_vtx3) - 72usize];
+        [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_1, adj_vtx3) - 36usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -7743,15 +7742,15 @@ pub struct odbfig__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbfig__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<odbfig__bindgen_ty_1__bindgen_ty_2>() - 56usize];
+        [::std::mem::size_of::<odbfig__bindgen_ty_1__bindgen_ty_2>() - 28usize];
     ["Alignment of odbfig__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<odbfig__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<odbfig__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: odbfig__bindgen_ty_1__bindgen_ty_2::sta_pnt"]
         [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_2, sta_pnt) - 0usize];
     ["Offset of field: odbfig__bindgen_ty_1__bindgen_ty_2::end_pnt"]
-        [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_2, end_pnt) - 24usize];
+        [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_2, end_pnt) - 12usize];
     ["Offset of field: odbfig__bindgen_ty_1__bindgen_ty_2::radius"]
-        [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_2, radius) - 48usize];
+        [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_2, radius) - 24usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -7762,18 +7761,18 @@ pub struct odbfig__bindgen_ty_1__bindgen_ty_3 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbfig__bindgen_ty_1__bindgen_ty_3"]
-        [::std::mem::size_of::<odbfig__bindgen_ty_1__bindgen_ty_3>() - 48usize];
+        [::std::mem::size_of::<odbfig__bindgen_ty_1__bindgen_ty_3>() - 24usize];
     ["Alignment of odbfig__bindgen_ty_1__bindgen_ty_3"]
-        [::std::mem::align_of::<odbfig__bindgen_ty_1__bindgen_ty_3>() - 8usize];
+        [::std::mem::align_of::<odbfig__bindgen_ty_1__bindgen_ty_3>() - 4usize];
     ["Offset of field: odbfig__bindgen_ty_1__bindgen_ty_3::point"]
         [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_3, point) - 0usize];
     ["Offset of field: odbfig__bindgen_ty_1__bindgen_ty_3::vect"]
-        [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_3, vect) - 24usize];
+        [::std::mem::offset_of!(odbfig__bindgen_ty_1__bindgen_ty_3, vect) - 12usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbfig__bindgen_ty_1"][::std::mem::size_of::<odbfig__bindgen_ty_1>() - 96usize];
-    ["Alignment of odbfig__bindgen_ty_1"][::std::mem::align_of::<odbfig__bindgen_ty_1>() - 8usize];
+    ["Size of odbfig__bindgen_ty_1"][::std::mem::size_of::<odbfig__bindgen_ty_1>() - 48usize];
+    ["Alignment of odbfig__bindgen_ty_1"][::std::mem::align_of::<odbfig__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbfig__bindgen_ty_1::par"]
         [::std::mem::offset_of!(odbfig__bindgen_ty_1, par) - 0usize];
     ["Offset of field: odbfig__bindgen_ty_1::cyl"]
@@ -7792,13 +7791,13 @@ impl Default for odbfig__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbfig"][::std::mem::size_of::<odbfig>() - 112usize];
-    ["Alignment of odbfig"][::std::mem::align_of::<odbfig>() - 8usize];
+    ["Size of odbfig"][::std::mem::size_of::<odbfig>() - 56usize];
+    ["Alignment of odbfig"][::std::mem::align_of::<odbfig>() - 4usize];
     ["Offset of field: odbfig::fig_type"][::std::mem::offset_of!(odbfig, fig_type) - 0usize];
-    ["Offset of field: odbfig::fig"][::std::mem::offset_of!(odbfig, fig) - 8usize];
-    ["Offset of field: odbfig::fig_no"][::std::mem::offset_of!(odbfig, fig_no) - 104usize];
-    ["Offset of field: odbfig::n_unit"][::std::mem::offset_of!(odbfig, n_unit) - 106usize];
-    ["Offset of field: odbfig::cb_form"][::std::mem::offset_of!(odbfig, cb_form) - 107usize];
+    ["Offset of field: odbfig::fig"][::std::mem::offset_of!(odbfig, fig) - 4usize];
+    ["Offset of field: odbfig::fig_no"][::std::mem::offset_of!(odbfig, fig_no) - 52usize];
+    ["Offset of field: odbfig::n_unit"][::std::mem::offset_of!(odbfig, n_unit) - 54usize];
+    ["Offset of field: odbfig::cb_form"][::std::mem::offset_of!(odbfig, cb_form) - 55usize];
 };
 impl Default for odbfig {
     fn default() -> Self {
@@ -7842,10 +7841,10 @@ pub struct _odbsramif {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _odbsramif"][::std::mem::size_of::<_odbsramif>() - 16usize];
-    ["Alignment of _odbsramif"][::std::mem::align_of::<_odbsramif>() - 8usize];
+    ["Size of _odbsramif"][::std::mem::size_of::<_odbsramif>() - 8usize];
+    ["Alignment of _odbsramif"][::std::mem::align_of::<_odbsramif>() - 4usize];
     ["Offset of field: _odbsramif::protect"][::std::mem::offset_of!(_odbsramif, protect) - 0usize];
-    ["Offset of field: _odbsramif::size"][::std::mem::offset_of!(_odbsramif, size) - 8usize];
+    ["Offset of field: _odbsramif::size"][::std::mem::offset_of!(_odbsramif, size) - 4usize];
 };
 pub type ODBSRAMIF = _odbsramif;
 #[repr(C)]
@@ -7857,12 +7856,12 @@ pub struct _odbsramif2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _odbsramif2"][::std::mem::size_of::<_odbsramif2>() - 24usize];
-    ["Alignment of _odbsramif2"][::std::mem::align_of::<_odbsramif2>() - 8usize];
+    ["Size of _odbsramif2"][::std::mem::size_of::<_odbsramif2>() - 12usize];
+    ["Alignment of _odbsramif2"][::std::mem::align_of::<_odbsramif2>() - 4usize];
     ["Offset of field: _odbsramif2::protect"]
         [::std::mem::offset_of!(_odbsramif2, protect) - 0usize];
-    ["Offset of field: _odbsramif2::adrs"][::std::mem::offset_of!(_odbsramif2, adrs) - 8usize];
-    ["Offset of field: _odbsramif2::size"][::std::mem::offset_of!(_odbsramif2, size) - 16usize];
+    ["Offset of field: _odbsramif2::adrs"][::std::mem::offset_of!(_odbsramif2, adrs) - 4usize];
+    ["Offset of field: _odbsramif2::size"][::std::mem::offset_of!(_odbsramif2, size) - 8usize];
 };
 pub type ODBSRAMIF2 = _odbsramif2;
 #[repr(C)]
@@ -8026,26 +8025,26 @@ pub struct alminfo__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of alminfo__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<alminfo__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1>() - 16usize];
+        [::std::mem::size_of::<alminfo__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1>() - 8usize];
     ["Alignment of alminfo__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<alminfo__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<alminfo__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: alminfo__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1::axis"]
         [::std::mem::offset_of!(alminfo__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1, axis) - 0usize];
     ["Offset of field: alminfo__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1::alm_no"][::std::mem::offset_of!(
         alminfo__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1,
         alm_no
-    ) - 8usize];
+    ) - 4usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of alminfo__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<alminfo__bindgen_ty_1__bindgen_ty_1>() - 88usize];
+        [::std::mem::size_of::<alminfo__bindgen_ty_1__bindgen_ty_1>() - 44usize];
     ["Alignment of alminfo__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<alminfo__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<alminfo__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: alminfo__bindgen_ty_1__bindgen_ty_1::alm"]
         [::std::mem::offset_of!(alminfo__bindgen_ty_1__bindgen_ty_1, alm) - 0usize];
     ["Offset of field: alminfo__bindgen_ty_1__bindgen_ty_1::data_end"]
-        [::std::mem::offset_of!(alminfo__bindgen_ty_1__bindgen_ty_1, data_end) - 80usize];
+        [::std::mem::offset_of!(alminfo__bindgen_ty_1__bindgen_ty_1, data_end) - 40usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -8064,40 +8063,40 @@ pub struct alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1"]
-        [::std::mem::size_of::<alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1>() - 48usize];
+        [::std::mem::size_of::<alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1>() - 40usize];
     ["Alignment of alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1"]
-        [::std::mem::align_of::<alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1>() - 4usize];
     ["Offset of field: alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1::axis"]
         [::std::mem::offset_of!(alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1, axis) - 0usize];
     ["Offset of field: alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1::alm_no"][::std::mem::offset_of!(
         alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1,
         alm_no
-    ) - 8usize];
+    ) - 4usize];
     ["Offset of field: alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1::msg_len"][::std::mem::offset_of!(
         alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1,
         msg_len
-    ) - 10usize];
+    ) - 6usize];
     ["Offset of field: alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1::alm_msg"][::std::mem::offset_of!(
         alminfo__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1,
         alm_msg
-    ) - 12usize];
+    ) - 8usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of alminfo__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<alminfo__bindgen_ty_1__bindgen_ty_2>() - 248usize];
+        [::std::mem::size_of::<alminfo__bindgen_ty_1__bindgen_ty_2>() - 204usize];
     ["Alignment of alminfo__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<alminfo__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<alminfo__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: alminfo__bindgen_ty_1__bindgen_ty_2::alm"]
         [::std::mem::offset_of!(alminfo__bindgen_ty_1__bindgen_ty_2, alm) - 0usize];
     ["Offset of field: alminfo__bindgen_ty_1__bindgen_ty_2::data_end"]
-        [::std::mem::offset_of!(alminfo__bindgen_ty_1__bindgen_ty_2, data_end) - 240usize];
+        [::std::mem::offset_of!(alminfo__bindgen_ty_1__bindgen_ty_2, data_end) - 200usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of alminfo__bindgen_ty_1"][::std::mem::size_of::<alminfo__bindgen_ty_1>() - 248usize];
+    ["Size of alminfo__bindgen_ty_1"][::std::mem::size_of::<alminfo__bindgen_ty_1>() - 204usize];
     ["Alignment of alminfo__bindgen_ty_1"]
-        [::std::mem::align_of::<alminfo__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<alminfo__bindgen_ty_1>() - 4usize];
     ["Offset of field: alminfo__bindgen_ty_1::alm1"]
         [::std::mem::offset_of!(alminfo__bindgen_ty_1, alm1) - 0usize];
     ["Offset of field: alminfo__bindgen_ty_1::alm2"]
@@ -8114,8 +8113,8 @@ impl Default for alminfo__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of alminfo"][::std::mem::size_of::<alminfo>() - 248usize];
-    ["Alignment of alminfo"][::std::mem::align_of::<alminfo>() - 8usize];
+    ["Size of alminfo"][::std::mem::size_of::<alminfo>() - 204usize];
+    ["Alignment of alminfo"][::std::mem::align_of::<alminfo>() - 4usize];
     ["Offset of field: alminfo::u"][::std::mem::offset_of!(alminfo, u) - 0usize];
 };
 impl Default for alminfo {
@@ -8286,14 +8285,14 @@ pub struct odbalmmsg {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbalmmsg"][::std::mem::size_of::<odbalmmsg>() - 48usize];
-    ["Alignment of odbalmmsg"][::std::mem::align_of::<odbalmmsg>() - 8usize];
+    ["Size of odbalmmsg"][::std::mem::size_of::<odbalmmsg>() - 44usize];
+    ["Alignment of odbalmmsg"][::std::mem::align_of::<odbalmmsg>() - 4usize];
     ["Offset of field: odbalmmsg::alm_no"][::std::mem::offset_of!(odbalmmsg, alm_no) - 0usize];
-    ["Offset of field: odbalmmsg::type_"][::std::mem::offset_of!(odbalmmsg, type_) - 8usize];
-    ["Offset of field: odbalmmsg::axis"][::std::mem::offset_of!(odbalmmsg, axis) - 10usize];
-    ["Offset of field: odbalmmsg::dummy"][::std::mem::offset_of!(odbalmmsg, dummy) - 12usize];
-    ["Offset of field: odbalmmsg::msg_len"][::std::mem::offset_of!(odbalmmsg, msg_len) - 14usize];
-    ["Offset of field: odbalmmsg::alm_msg"][::std::mem::offset_of!(odbalmmsg, alm_msg) - 16usize];
+    ["Offset of field: odbalmmsg::type_"][::std::mem::offset_of!(odbalmmsg, type_) - 4usize];
+    ["Offset of field: odbalmmsg::axis"][::std::mem::offset_of!(odbalmmsg, axis) - 6usize];
+    ["Offset of field: odbalmmsg::dummy"][::std::mem::offset_of!(odbalmmsg, dummy) - 8usize];
+    ["Offset of field: odbalmmsg::msg_len"][::std::mem::offset_of!(odbalmmsg, msg_len) - 10usize];
+    ["Offset of field: odbalmmsg::alm_msg"][::std::mem::offset_of!(odbalmmsg, alm_msg) - 12usize];
 };
 pub type ODBALMMSG = odbalmmsg;
 #[repr(C)]
@@ -8308,14 +8307,14 @@ pub struct odbalmmsg2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbalmmsg2"][::std::mem::size_of::<odbalmmsg2>() - 80usize];
-    ["Alignment of odbalmmsg2"][::std::mem::align_of::<odbalmmsg2>() - 8usize];
+    ["Size of odbalmmsg2"][::std::mem::size_of::<odbalmmsg2>() - 76usize];
+    ["Alignment of odbalmmsg2"][::std::mem::align_of::<odbalmmsg2>() - 4usize];
     ["Offset of field: odbalmmsg2::alm_no"][::std::mem::offset_of!(odbalmmsg2, alm_no) - 0usize];
-    ["Offset of field: odbalmmsg2::type_"][::std::mem::offset_of!(odbalmmsg2, type_) - 8usize];
-    ["Offset of field: odbalmmsg2::axis"][::std::mem::offset_of!(odbalmmsg2, axis) - 10usize];
-    ["Offset of field: odbalmmsg2::dummy"][::std::mem::offset_of!(odbalmmsg2, dummy) - 12usize];
-    ["Offset of field: odbalmmsg2::msg_len"][::std::mem::offset_of!(odbalmmsg2, msg_len) - 14usize];
-    ["Offset of field: odbalmmsg2::alm_msg"][::std::mem::offset_of!(odbalmmsg2, alm_msg) - 16usize];
+    ["Offset of field: odbalmmsg2::type_"][::std::mem::offset_of!(odbalmmsg2, type_) - 4usize];
+    ["Offset of field: odbalmmsg2::axis"][::std::mem::offset_of!(odbalmmsg2, axis) - 6usize];
+    ["Offset of field: odbalmmsg2::dummy"][::std::mem::offset_of!(odbalmmsg2, dummy) - 8usize];
+    ["Offset of field: odbalmmsg2::msg_len"][::std::mem::offset_of!(odbalmmsg2, msg_len) - 10usize];
+    ["Offset of field: odbalmmsg2::alm_msg"][::std::mem::offset_of!(odbalmmsg2, alm_msg) - 12usize];
 };
 impl Default for odbalmmsg2 {
     fn default() -> Self {
@@ -8339,14 +8338,14 @@ pub struct odbalmmsg3 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbalmmsg3"][::std::mem::size_of::<odbalmmsg3>() - 272usize];
-    ["Alignment of odbalmmsg3"][::std::mem::align_of::<odbalmmsg3>() - 8usize];
+    ["Size of odbalmmsg3"][::std::mem::size_of::<odbalmmsg3>() - 268usize];
+    ["Alignment of odbalmmsg3"][::std::mem::align_of::<odbalmmsg3>() - 4usize];
     ["Offset of field: odbalmmsg3::alm_no"][::std::mem::offset_of!(odbalmmsg3, alm_no) - 0usize];
-    ["Offset of field: odbalmmsg3::type_"][::std::mem::offset_of!(odbalmmsg3, type_) - 8usize];
-    ["Offset of field: odbalmmsg3::axis"][::std::mem::offset_of!(odbalmmsg3, axis) - 10usize];
-    ["Offset of field: odbalmmsg3::dummy"][::std::mem::offset_of!(odbalmmsg3, dummy) - 12usize];
-    ["Offset of field: odbalmmsg3::msg_len"][::std::mem::offset_of!(odbalmmsg3, msg_len) - 14usize];
-    ["Offset of field: odbalmmsg3::alm_msg"][::std::mem::offset_of!(odbalmmsg3, alm_msg) - 16usize];
+    ["Offset of field: odbalmmsg3::type_"][::std::mem::offset_of!(odbalmmsg3, type_) - 4usize];
+    ["Offset of field: odbalmmsg3::axis"][::std::mem::offset_of!(odbalmmsg3, axis) - 6usize];
+    ["Offset of field: odbalmmsg3::dummy"][::std::mem::offset_of!(odbalmmsg3, dummy) - 8usize];
+    ["Offset of field: odbalmmsg3::msg_len"][::std::mem::offset_of!(odbalmmsg3, msg_len) - 10usize];
+    ["Offset of field: odbalmmsg3::alm_msg"][::std::mem::offset_of!(odbalmmsg3, alm_msg) - 12usize];
 };
 impl Default for odbalmmsg3 {
     fn default() -> Self {
@@ -8385,15 +8384,15 @@ pub struct odbmdl__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbmdl__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<odbmdl__bindgen_ty_1__bindgen_ty_1>() - 16usize];
+        [::std::mem::size_of::<odbmdl__bindgen_ty_1__bindgen_ty_1>() - 8usize];
     ["Alignment of odbmdl__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<odbmdl__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbmdl__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbmdl__bindgen_ty_1__bindgen_ty_1::aux_data"]
         [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_1, aux_data) - 0usize];
     ["Offset of field: odbmdl__bindgen_ty_1__bindgen_ty_1::flag1"]
-        [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_1, flag1) - 8usize];
+        [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_1, flag1) - 4usize];
     ["Offset of field: odbmdl__bindgen_ty_1__bindgen_ty_1::flag2"]
-        [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_1, flag2) - 9usize];
+        [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_1, flag2) - 5usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -8405,15 +8404,15 @@ pub struct odbmdl__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbmdl__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<odbmdl__bindgen_ty_1__bindgen_ty_2>() - 16usize];
+        [::std::mem::size_of::<odbmdl__bindgen_ty_1__bindgen_ty_2>() - 8usize];
     ["Alignment of odbmdl__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<odbmdl__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<odbmdl__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: odbmdl__bindgen_ty_1__bindgen_ty_2::aux_data"]
         [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_2, aux_data) - 0usize];
     ["Offset of field: odbmdl__bindgen_ty_1__bindgen_ty_2::flag1"]
-        [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_2, flag1) - 8usize];
+        [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_2, flag1) - 4usize];
     ["Offset of field: odbmdl__bindgen_ty_1__bindgen_ty_2::flag2"]
-        [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_2, flag2) - 9usize];
+        [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_2, flag2) - 5usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -8425,20 +8424,20 @@ pub struct odbmdl__bindgen_ty_1__bindgen_ty_3 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbmdl__bindgen_ty_1__bindgen_ty_3"]
-        [::std::mem::size_of::<odbmdl__bindgen_ty_1__bindgen_ty_3>() - 16usize];
+        [::std::mem::size_of::<odbmdl__bindgen_ty_1__bindgen_ty_3>() - 8usize];
     ["Alignment of odbmdl__bindgen_ty_1__bindgen_ty_3"]
-        [::std::mem::align_of::<odbmdl__bindgen_ty_1__bindgen_ty_3>() - 8usize];
+        [::std::mem::align_of::<odbmdl__bindgen_ty_1__bindgen_ty_3>() - 4usize];
     ["Offset of field: odbmdl__bindgen_ty_1__bindgen_ty_3::aux_data"]
         [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_3, aux_data) - 0usize];
     ["Offset of field: odbmdl__bindgen_ty_1__bindgen_ty_3::flag1"]
-        [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_3, flag1) - 8usize];
+        [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_3, flag1) - 4usize];
     ["Offset of field: odbmdl__bindgen_ty_1__bindgen_ty_3::flag2"]
-        [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_3, flag2) - 9usize];
+        [::std::mem::offset_of!(odbmdl__bindgen_ty_1__bindgen_ty_3, flag2) - 5usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmdl__bindgen_ty_1"][::std::mem::size_of::<odbmdl__bindgen_ty_1>() - 512usize];
-    ["Alignment of odbmdl__bindgen_ty_1"][::std::mem::align_of::<odbmdl__bindgen_ty_1>() - 8usize];
+    ["Size of odbmdl__bindgen_ty_1"][::std::mem::size_of::<odbmdl__bindgen_ty_1>() - 256usize];
+    ["Alignment of odbmdl__bindgen_ty_1"][::std::mem::align_of::<odbmdl__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbmdl__bindgen_ty_1::g_data"]
         [::std::mem::offset_of!(odbmdl__bindgen_ty_1, g_data) - 0usize];
     ["Offset of field: odbmdl__bindgen_ty_1::g_rdata"]
@@ -8463,11 +8462,11 @@ impl Default for odbmdl__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmdl"][::std::mem::size_of::<odbmdl>() - 520usize];
-    ["Alignment of odbmdl"][::std::mem::align_of::<odbmdl>() - 8usize];
+    ["Size of odbmdl"][::std::mem::size_of::<odbmdl>() - 260usize];
+    ["Alignment of odbmdl"][::std::mem::align_of::<odbmdl>() - 4usize];
     ["Offset of field: odbmdl::datano"][::std::mem::offset_of!(odbmdl, datano) - 0usize];
     ["Offset of field: odbmdl::type_"][::std::mem::offset_of!(odbmdl, type_) - 2usize];
-    ["Offset of field: odbmdl::modal"][::std::mem::offset_of!(odbmdl, modal) - 8usize];
+    ["Offset of field: odbmdl::modal"][::std::mem::offset_of!(odbmdl, modal) - 4usize];
 };
 impl Default for odbmdl {
     fn default() -> Self {
@@ -8506,13 +8505,13 @@ pub struct odbcmd {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbcmd"][::std::mem::size_of::<odbcmd>() - 24usize];
-    ["Alignment of odbcmd"][::std::mem::align_of::<odbcmd>() - 8usize];
+    ["Size of odbcmd"][::std::mem::size_of::<odbcmd>() - 12usize];
+    ["Alignment of odbcmd"][::std::mem::align_of::<odbcmd>() - 4usize];
     ["Offset of field: odbcmd::adrs"][::std::mem::offset_of!(odbcmd, adrs) - 0usize];
     ["Offset of field: odbcmd::num"][::std::mem::offset_of!(odbcmd, num) - 1usize];
     ["Offset of field: odbcmd::flag"][::std::mem::offset_of!(odbcmd, flag) - 2usize];
-    ["Offset of field: odbcmd::cmd_val"][::std::mem::offset_of!(odbcmd, cmd_val) - 8usize];
-    ["Offset of field: odbcmd::dec_val"][::std::mem::offset_of!(odbcmd, dec_val) - 16usize];
+    ["Offset of field: odbcmd::cmd_val"][::std::mem::offset_of!(odbcmd, cmd_val) - 4usize];
+    ["Offset of field: odbcmd::dec_val"][::std::mem::offset_of!(odbcmd, dec_val) - 8usize];
 };
 pub type ODBCMD = odbcmd;
 #[repr(C)]
@@ -8523,10 +8522,10 @@ pub struct realdgn {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of realdgn"][::std::mem::size_of::<realdgn>() - 16usize];
-    ["Alignment of realdgn"][::std::mem::align_of::<realdgn>() - 8usize];
+    ["Size of realdgn"][::std::mem::size_of::<realdgn>() - 8usize];
+    ["Alignment of realdgn"][::std::mem::align_of::<realdgn>() - 4usize];
     ["Offset of field: realdgn::dgn_val"][::std::mem::offset_of!(realdgn, dgn_val) - 0usize];
-    ["Offset of field: realdgn::dec_val"][::std::mem::offset_of!(realdgn, dec_val) - 8usize];
+    ["Offset of field: realdgn::dec_val"][::std::mem::offset_of!(realdgn, dec_val) - 4usize];
 };
 pub type REALDGN = realdgn;
 #[repr(C)]
@@ -8550,8 +8549,8 @@ pub union odbdgn__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdgn__bindgen_ty_1"][::std::mem::size_of::<odbdgn__bindgen_ty_1>() - 512usize];
-    ["Alignment of odbdgn__bindgen_ty_1"][::std::mem::align_of::<odbdgn__bindgen_ty_1>() - 8usize];
+    ["Size of odbdgn__bindgen_ty_1"][::std::mem::size_of::<odbdgn__bindgen_ty_1>() - 256usize];
+    ["Alignment of odbdgn__bindgen_ty_1"][::std::mem::align_of::<odbdgn__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdgn__bindgen_ty_1::cdata"]
         [::std::mem::offset_of!(odbdgn__bindgen_ty_1, cdata) - 0usize];
     ["Offset of field: odbdgn__bindgen_ty_1::idata"]
@@ -8580,11 +8579,11 @@ impl Default for odbdgn__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdgn"][::std::mem::size_of::<odbdgn>() - 520usize];
-    ["Alignment of odbdgn"][::std::mem::align_of::<odbdgn>() - 8usize];
+    ["Size of odbdgn"][::std::mem::size_of::<odbdgn>() - 260usize];
+    ["Alignment of odbdgn"][::std::mem::align_of::<odbdgn>() - 4usize];
     ["Offset of field: odbdgn::datano"][::std::mem::offset_of!(odbdgn, datano) - 0usize];
     ["Offset of field: odbdgn::type_"][::std::mem::offset_of!(odbdgn, type_) - 2usize];
-    ["Offset of field: odbdgn::u"][::std::mem::offset_of!(odbdgn, u) - 8usize];
+    ["Offset of field: odbdgn::u"][::std::mem::offset_of!(odbdgn, u) - 4usize];
 };
 impl Default for odbdgn {
     fn default() -> Self {
@@ -8862,18 +8861,18 @@ pub struct odbprs {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbprs"][::std::mem::size_of::<odbprs>() - 848usize];
-    ["Alignment of odbprs"][::std::mem::align_of::<odbprs>() - 8usize];
+    ["Size of odbprs"][::std::mem::size_of::<odbprs>() - 432usize];
+    ["Alignment of odbprs"][::std::mem::align_of::<odbprs>() - 4usize];
     ["Offset of field: odbprs::datano"][::std::mem::offset_of!(odbprs, datano) - 0usize];
     ["Offset of field: odbprs::type_"][::std::mem::offset_of!(odbprs, type_) - 2usize];
     ["Offset of field: odbprs::data_info"][::std::mem::offset_of!(odbprs, data_info) - 4usize];
     ["Offset of field: odbprs::rstr_bc"][::std::mem::offset_of!(odbprs, rstr_bc) - 16usize];
-    ["Offset of field: odbprs::rstr_m"][::std::mem::offset_of!(odbprs, rstr_m) - 24usize];
-    ["Offset of field: odbprs::rstr_t"][::std::mem::offset_of!(odbprs, rstr_t) - 304usize];
-    ["Offset of field: odbprs::rstr_s"][::std::mem::offset_of!(odbprs, rstr_s) - 320usize];
-    ["Offset of field: odbprs::rstr_b"][::std::mem::offset_of!(odbprs, rstr_b) - 328usize];
-    ["Offset of field: odbprs::dest"][::std::mem::offset_of!(odbprs, dest) - 336usize];
-    ["Offset of field: odbprs::dist"][::std::mem::offset_of!(odbprs, dist) - 592usize];
+    ["Offset of field: odbprs::rstr_m"][::std::mem::offset_of!(odbprs, rstr_m) - 20usize];
+    ["Offset of field: odbprs::rstr_t"][::std::mem::offset_of!(odbprs, rstr_t) - 160usize];
+    ["Offset of field: odbprs::rstr_s"][::std::mem::offset_of!(odbprs, rstr_s) - 168usize];
+    ["Offset of field: odbprs::rstr_b"][::std::mem::offset_of!(odbprs, rstr_b) - 172usize];
+    ["Offset of field: odbprs::dest"][::std::mem::offset_of!(odbprs, dest) - 176usize];
+    ["Offset of field: odbprs::dist"][::std::mem::offset_of!(odbprs, dist) - 304usize];
 };
 impl Default for odbprs {
     fn default() -> Self {
@@ -8901,18 +8900,18 @@ pub struct odbprsm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbprsm"][::std::mem::size_of::<odbprsm>() - 848usize];
-    ["Alignment of odbprsm"][::std::mem::align_of::<odbprsm>() - 8usize];
+    ["Size of odbprsm"][::std::mem::size_of::<odbprsm>() - 432usize];
+    ["Alignment of odbprsm"][::std::mem::align_of::<odbprsm>() - 4usize];
     ["Offset of field: odbprsm::datano"][::std::mem::offset_of!(odbprsm, datano) - 0usize];
     ["Offset of field: odbprsm::type_"][::std::mem::offset_of!(odbprsm, type_) - 2usize];
     ["Offset of field: odbprsm::data_info"][::std::mem::offset_of!(odbprsm, data_info) - 4usize];
     ["Offset of field: odbprsm::rstr_bc"][::std::mem::offset_of!(odbprsm, rstr_bc) - 16usize];
-    ["Offset of field: odbprsm::rstr_m"][::std::mem::offset_of!(odbprsm, rstr_m) - 24usize];
-    ["Offset of field: odbprsm::rstr_t"][::std::mem::offset_of!(odbprsm, rstr_t) - 304usize];
-    ["Offset of field: odbprsm::rstr_s"][::std::mem::offset_of!(odbprsm, rstr_s) - 320usize];
-    ["Offset of field: odbprsm::rstr_b"][::std::mem::offset_of!(odbprsm, rstr_b) - 328usize];
-    ["Offset of field: odbprsm::dest"][::std::mem::offset_of!(odbprsm, dest) - 336usize];
-    ["Offset of field: odbprsm::dist"][::std::mem::offset_of!(odbprsm, dist) - 592usize];
+    ["Offset of field: odbprsm::rstr_m"][::std::mem::offset_of!(odbprsm, rstr_m) - 20usize];
+    ["Offset of field: odbprsm::rstr_t"][::std::mem::offset_of!(odbprsm, rstr_t) - 160usize];
+    ["Offset of field: odbprsm::rstr_s"][::std::mem::offset_of!(odbprsm, rstr_s) - 168usize];
+    ["Offset of field: odbprsm::rstr_b"][::std::mem::offset_of!(odbprsm, rstr_b) - 172usize];
+    ["Offset of field: odbprsm::dest"][::std::mem::offset_of!(odbprsm, dest) - 176usize];
+    ["Offset of field: odbprsm::dist"][::std::mem::offset_of!(odbprsm, dist) - 304usize];
 };
 impl Default for odbprsm {
     fn default() -> Self {
@@ -9308,21 +9307,21 @@ pub struct odbfinfo__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbfinfo__bindgen_ty_1"][::std::mem::size_of::<odbfinfo__bindgen_ty_1>() - 24usize];
+    ["Size of odbfinfo__bindgen_ty_1"][::std::mem::size_of::<odbfinfo__bindgen_ty_1>() - 16usize];
     ["Alignment of odbfinfo__bindgen_ty_1"]
-        [::std::mem::align_of::<odbfinfo__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbfinfo__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbfinfo__bindgen_ty_1::sysname"]
         [::std::mem::offset_of!(odbfinfo__bindgen_ty_1, sysname) - 0usize];
     ["Offset of field: odbfinfo__bindgen_ty_1::fromsize"]
-        [::std::mem::offset_of!(odbfinfo__bindgen_ty_1, fromsize) - 16usize];
+        [::std::mem::offset_of!(odbfinfo__bindgen_ty_1, fromsize) - 12usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbfinfo"][::std::mem::size_of::<odbfinfo>() - 792usize];
-    ["Alignment of odbfinfo"][::std::mem::align_of::<odbfinfo>() - 8usize];
+    ["Size of odbfinfo"][::std::mem::size_of::<odbfinfo>() - 528usize];
+    ["Alignment of odbfinfo"][::std::mem::align_of::<odbfinfo>() - 4usize];
     ["Offset of field: odbfinfo::slotname"][::std::mem::offset_of!(odbfinfo, slotname) - 0usize];
-    ["Offset of field: odbfinfo::fromnum"][::std::mem::offset_of!(odbfinfo, fromnum) - 16usize];
-    ["Offset of field: odbfinfo::info"][::std::mem::offset_of!(odbfinfo, info) - 24usize];
+    ["Offset of field: odbfinfo::fromnum"][::std::mem::offset_of!(odbfinfo, fromnum) - 12usize];
+    ["Offset of field: odbfinfo::info"][::std::mem::offset_of!(odbfinfo, info) - 16usize];
 };
 pub type ODBFINFO = odbfinfo;
 #[repr(C)]
@@ -9343,25 +9342,25 @@ pub struct odbfinform__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbfinform__bindgen_ty_1"]
-        [::std::mem::size_of::<odbfinform__bindgen_ty_1>() - 32usize];
+        [::std::mem::size_of::<odbfinform__bindgen_ty_1>() - 20usize];
     ["Alignment of odbfinform__bindgen_ty_1"]
-        [::std::mem::align_of::<odbfinform__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbfinform__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbfinform__bindgen_ty_1::sysname"]
         [::std::mem::offset_of!(odbfinform__bindgen_ty_1, sysname) - 0usize];
     ["Offset of field: odbfinform__bindgen_ty_1::fromsize"]
-        [::std::mem::offset_of!(odbfinform__bindgen_ty_1, fromsize) - 16usize];
+        [::std::mem::offset_of!(odbfinform__bindgen_ty_1, fromsize) - 12usize];
     ["Offset of field: odbfinform__bindgen_ty_1::fromattrib"]
-        [::std::mem::offset_of!(odbfinform__bindgen_ty_1, fromattrib) - 24usize];
+        [::std::mem::offset_of!(odbfinform__bindgen_ty_1, fromattrib) - 16usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbfinform"][::std::mem::size_of::<odbfinform>() - 4128usize];
-    ["Alignment of odbfinform"][::std::mem::align_of::<odbfinform>() - 8usize];
+    ["Size of odbfinform"][::std::mem::size_of::<odbfinform>() - 2580usize];
+    ["Alignment of odbfinform"][::std::mem::align_of::<odbfinform>() - 4usize];
     ["Offset of field: odbfinform::slotno"][::std::mem::offset_of!(odbfinform, slotno) - 0usize];
     ["Offset of field: odbfinform::slotname"]
-        [::std::mem::offset_of!(odbfinform, slotname) - 8usize];
-    ["Offset of field: odbfinform::fromnum"][::std::mem::offset_of!(odbfinform, fromnum) - 24usize];
-    ["Offset of field: odbfinform::info"][::std::mem::offset_of!(odbfinform, info) - 32usize];
+        [::std::mem::offset_of!(odbfinform, slotname) - 4usize];
+    ["Offset of field: odbfinform::fromnum"][::std::mem::offset_of!(odbfinform, fromnum) - 16usize];
+    ["Offset of field: odbfinform::info"][::std::mem::offset_of!(odbfinform, info) - 20usize];
 };
 impl Default for odbfinform {
     fn default() -> Self {
@@ -9389,24 +9388,24 @@ pub struct odbsinfo__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsinfo__bindgen_ty_1"][::std::mem::size_of::<odbsinfo__bindgen_ty_1>() - 128usize];
+    ["Size of odbsinfo__bindgen_ty_1"][::std::mem::size_of::<odbsinfo__bindgen_ty_1>() - 116usize];
     ["Alignment of odbsinfo__bindgen_ty_1"]
-        [::std::mem::align_of::<odbsinfo__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbsinfo__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbsinfo__bindgen_ty_1::sramname"]
         [::std::mem::offset_of!(odbsinfo__bindgen_ty_1, sramname) - 0usize];
     ["Offset of field: odbsinfo__bindgen_ty_1::sramsize"]
-        [::std::mem::offset_of!(odbsinfo__bindgen_ty_1, sramsize) - 16usize];
+        [::std::mem::offset_of!(odbsinfo__bindgen_ty_1, sramsize) - 12usize];
     ["Offset of field: odbsinfo__bindgen_ty_1::divnumber"]
-        [::std::mem::offset_of!(odbsinfo__bindgen_ty_1, divnumber) - 24usize];
+        [::std::mem::offset_of!(odbsinfo__bindgen_ty_1, divnumber) - 16usize];
     ["Offset of field: odbsinfo__bindgen_ty_1::fname"]
-        [::std::mem::offset_of!(odbsinfo__bindgen_ty_1, fname) - 26usize];
+        [::std::mem::offset_of!(odbsinfo__bindgen_ty_1, fname) - 18usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsinfo"][::std::mem::size_of::<odbsinfo>() - 1032usize];
-    ["Alignment of odbsinfo"][::std::mem::align_of::<odbsinfo>() - 8usize];
+    ["Size of odbsinfo"][::std::mem::size_of::<odbsinfo>() - 932usize];
+    ["Alignment of odbsinfo"][::std::mem::align_of::<odbsinfo>() - 4usize];
     ["Offset of field: odbsinfo::sramnum"][::std::mem::offset_of!(odbsinfo, sramnum) - 0usize];
-    ["Offset of field: odbsinfo::info"][::std::mem::offset_of!(odbsinfo, info) - 8usize];
+    ["Offset of field: odbsinfo::info"][::std::mem::offset_of!(odbsinfo, info) - 4usize];
 };
 pub type ODBSINFO = odbsinfo;
 #[repr(C)]
@@ -9418,11 +9417,11 @@ pub struct sramaddr {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of sramaddr"][::std::mem::size_of::<sramaddr>() - 24usize];
-    ["Alignment of sramaddr"][::std::mem::align_of::<sramaddr>() - 8usize];
+    ["Size of sramaddr"][::std::mem::size_of::<sramaddr>() - 12usize];
+    ["Alignment of sramaddr"][::std::mem::align_of::<sramaddr>() - 4usize];
     ["Offset of field: sramaddr::type_"][::std::mem::offset_of!(sramaddr, type_) - 0usize];
-    ["Offset of field: sramaddr::size"][::std::mem::offset_of!(sramaddr, size) - 8usize];
-    ["Offset of field: sramaddr::offset"][::std::mem::offset_of!(sramaddr, offset) - 16usize];
+    ["Offset of field: sramaddr::size"][::std::mem::offset_of!(sramaddr, size) - 4usize];
+    ["Offset of field: sramaddr::offset"][::std::mem::offset_of!(sramaddr, offset) - 8usize];
 };
 pub type SRAMADDR = sramaddr;
 #[repr(C)]
@@ -9443,9 +9442,9 @@ pub struct odbdsdir__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdsdir__bindgen_ty_1"][::std::mem::size_of::<odbdsdir__bindgen_ty_1>() - 104usize];
+    ["Size of odbdsdir__bindgen_ty_1"][::std::mem::size_of::<odbdsdir__bindgen_ty_1>() - 100usize];
     ["Alignment of odbdsdir__bindgen_ty_1"]
-        [::std::mem::align_of::<odbdsdir__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbdsdir__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdsdir__bindgen_ty_1::file_name"]
         [::std::mem::offset_of!(odbdsdir__bindgen_ty_1, file_name) - 0usize];
     ["Offset of field: odbdsdir__bindgen_ty_1::comment"]
@@ -9453,7 +9452,7 @@ const _: () = {
     ["Offset of field: odbdsdir__bindgen_ty_1::size"]
         [::std::mem::offset_of!(odbdsdir__bindgen_ty_1, size) - 80usize];
     ["Offset of field: odbdsdir__bindgen_ty_1::date"]
-        [::std::mem::offset_of!(odbdsdir__bindgen_ty_1, date) - 88usize];
+        [::std::mem::offset_of!(odbdsdir__bindgen_ty_1, date) - 84usize];
 };
 impl Default for odbdsdir__bindgen_ty_1 {
     fn default() -> Self {
@@ -9466,12 +9465,12 @@ impl Default for odbdsdir__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdsdir"][::std::mem::size_of::<odbdsdir>() - 3352usize];
-    ["Alignment of odbdsdir"][::std::mem::align_of::<odbdsdir>() - 8usize];
+    ["Size of odbdsdir"][::std::mem::size_of::<odbdsdir>() - 3212usize];
+    ["Alignment of odbdsdir"][::std::mem::align_of::<odbdsdir>() - 4usize];
     ["Offset of field: odbdsdir::file_num"][::std::mem::offset_of!(odbdsdir, file_num) - 0usize];
-    ["Offset of field: odbdsdir::remainder"][::std::mem::offset_of!(odbdsdir, remainder) - 8usize];
-    ["Offset of field: odbdsdir::data_num"][::std::mem::offset_of!(odbdsdir, data_num) - 16usize];
-    ["Offset of field: odbdsdir::data"][::std::mem::offset_of!(odbdsdir, data) - 24usize];
+    ["Offset of field: odbdsdir::remainder"][::std::mem::offset_of!(odbdsdir, remainder) - 4usize];
+    ["Offset of field: odbdsdir::data_num"][::std::mem::offset_of!(odbdsdir, data_num) - 8usize];
+    ["Offset of field: odbdsdir::data"][::std::mem::offset_of!(odbdsdir, data) - 12usize];
 };
 impl Default for odbdsdir {
     fn default() -> Self {
@@ -9530,13 +9529,13 @@ pub struct odbdsmnt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdsmnt"][::std::mem::size_of::<odbdsmnt>() - 32usize];
-    ["Alignment of odbdsmnt"][::std::mem::align_of::<odbdsmnt>() - 8usize];
+    ["Size of odbdsmnt"][::std::mem::size_of::<odbdsmnt>() - 16usize];
+    ["Alignment of odbdsmnt"][::std::mem::align_of::<odbdsmnt>() - 4usize];
     ["Offset of field: odbdsmnt::empty_cnt"][::std::mem::offset_of!(odbdsmnt, empty_cnt) - 0usize];
     ["Offset of field: odbdsmnt::total_size"]
-        [::std::mem::offset_of!(odbdsmnt, total_size) - 8usize];
-    ["Offset of field: odbdsmnt::read_ptr"][::std::mem::offset_of!(odbdsmnt, read_ptr) - 16usize];
-    ["Offset of field: odbdsmnt::write_ptr"][::std::mem::offset_of!(odbdsmnt, write_ptr) - 24usize];
+        [::std::mem::offset_of!(odbdsmnt, total_size) - 4usize];
+    ["Offset of field: odbdsmnt::read_ptr"][::std::mem::offset_of!(odbdsmnt, read_ptr) - 8usize];
+    ["Offset of field: odbdsmnt::write_ptr"][::std::mem::offset_of!(odbdsmnt, write_ptr) - 12usize];
 };
 pub type ODBDSMNT = odbdsmnt;
 #[repr(C)]
@@ -9547,10 +9546,10 @@ pub struct odbpser {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpser"][::std::mem::size_of::<odbpser>() - 16usize];
-    ["Alignment of odbpser"][::std::mem::align_of::<odbpser>() - 8usize];
+    ["Size of odbpser"][::std::mem::size_of::<odbpser>() - 8usize];
+    ["Alignment of odbpser"][::std::mem::align_of::<odbpser>() - 4usize];
     ["Offset of field: odbpser::poserr1"][::std::mem::offset_of!(odbpser, poserr1) - 0usize];
-    ["Offset of field: odbpser::poserr2"][::std::mem::offset_of!(odbpser, poserr2) - 8usize];
+    ["Offset of field: odbpser::poserr2"][::std::mem::offset_of!(odbpser, poserr2) - 4usize];
 };
 pub type ODBPSER = odbpser;
 #[repr(C)]
@@ -9599,12 +9598,12 @@ pub struct odbsvfback {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsvfback"][::std::mem::size_of::<odbsvfback>() - 520usize];
-    ["Alignment of odbsvfback"][::std::mem::align_of::<odbsvfback>() - 8usize];
+    ["Size of odbsvfback"][::std::mem::size_of::<odbsvfback>() - 260usize];
+    ["Alignment of odbsvfback"][::std::mem::align_of::<odbsvfback>() - 4usize];
     ["Offset of field: odbsvfback::dummy"][::std::mem::offset_of!(odbsvfback, dummy) - 0usize];
     ["Offset of field: odbsvfback::dtype"][::std::mem::offset_of!(odbsvfback, dtype) - 2usize];
-    ["Offset of field: odbsvfback::fback"][::std::mem::offset_of!(odbsvfback, fback) - 8usize];
-    ["Offset of field: odbsvfback::afback"][::std::mem::offset_of!(odbsvfback, afback) - 264usize];
+    ["Offset of field: odbsvfback::fback"][::std::mem::offset_of!(odbsvfback, fback) - 4usize];
+    ["Offset of field: odbsvfback::afback"][::std::mem::offset_of!(odbsvfback, afback) - 132usize];
 };
 pub type ODBSVFBACK = odbsvfback;
 #[repr(C)]
@@ -9653,9 +9652,9 @@ const _: () = {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbwave__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbwave__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::size_of::<iodbwave__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Alignment of iodbwave__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbwave__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbwave__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbwave__bindgen_ty_1__bindgen_ty_1::axis"]
         [::std::mem::offset_of!(iodbwave__bindgen_ty_1__bindgen_ty_1, axis) - 0usize];
     ["Offset of field: iodbwave__bindgen_ty_1__bindgen_ty_1::io"]
@@ -9672,13 +9671,13 @@ impl Default for iodbwave__bindgen_ty_1__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbwave__bindgen_ty_1"][::std::mem::size_of::<iodbwave__bindgen_ty_1>() - 16usize];
+    ["Size of iodbwave__bindgen_ty_1"][::std::mem::size_of::<iodbwave__bindgen_ty_1>() - 8usize];
     ["Alignment of iodbwave__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbwave__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbwave__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbwave__bindgen_ty_1::kind"]
         [::std::mem::offset_of!(iodbwave__bindgen_ty_1, kind) - 0usize];
     ["Offset of field: iodbwave__bindgen_ty_1::u"]
-        [::std::mem::offset_of!(iodbwave__bindgen_ty_1, u) - 8usize];
+        [::std::mem::offset_of!(iodbwave__bindgen_ty_1, u) - 4usize];
 };
 impl Default for iodbwave__bindgen_ty_1 {
     fn default() -> Self {
@@ -9691,15 +9690,15 @@ impl Default for iodbwave__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbwave"][::std::mem::size_of::<iodbwave>() - 208usize];
-    ["Alignment of iodbwave"][::std::mem::align_of::<iodbwave>() - 8usize];
+    ["Size of iodbwave"][::std::mem::size_of::<iodbwave>() - 108usize];
+    ["Alignment of iodbwave"][::std::mem::align_of::<iodbwave>() - 4usize];
     ["Offset of field: iodbwave::condition"][::std::mem::offset_of!(iodbwave, condition) - 0usize];
     ["Offset of field: iodbwave::trg_adr"][::std::mem::offset_of!(iodbwave, trg_adr) - 2usize];
     ["Offset of field: iodbwave::trg_bit"][::std::mem::offset_of!(iodbwave, trg_bit) - 3usize];
     ["Offset of field: iodbwave::trg_no"][::std::mem::offset_of!(iodbwave, trg_no) - 4usize];
     ["Offset of field: iodbwave::delay"][::std::mem::offset_of!(iodbwave, delay) - 6usize];
     ["Offset of field: iodbwave::t_range"][::std::mem::offset_of!(iodbwave, t_range) - 8usize];
-    ["Offset of field: iodbwave::ch"][::std::mem::offset_of!(iodbwave, ch) - 16usize];
+    ["Offset of field: iodbwave::ch"][::std::mem::offset_of!(iodbwave, ch) - 12usize];
 };
 impl Default for iodbwave {
     fn default() -> Self {
@@ -9759,9 +9758,9 @@ const _: () = {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbwvprm__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbwvprm__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::size_of::<iodbwvprm__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Alignment of iodbwvprm__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbwvprm__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbwvprm__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbwvprm__bindgen_ty_1__bindgen_ty_1::axis"]
         [::std::mem::offset_of!(iodbwvprm__bindgen_ty_1__bindgen_ty_1, axis) - 0usize];
     ["Offset of field: iodbwvprm__bindgen_ty_1__bindgen_ty_1::io"]
@@ -9778,15 +9777,15 @@ impl Default for iodbwvprm__bindgen_ty_1__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbwvprm__bindgen_ty_1"][::std::mem::size_of::<iodbwvprm__bindgen_ty_1>() - 24usize];
+    ["Size of iodbwvprm__bindgen_ty_1"][::std::mem::size_of::<iodbwvprm__bindgen_ty_1>() - 12usize];
     ["Alignment of iodbwvprm__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbwvprm__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbwvprm__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbwvprm__bindgen_ty_1::kind"]
         [::std::mem::offset_of!(iodbwvprm__bindgen_ty_1, kind) - 0usize];
     ["Offset of field: iodbwvprm__bindgen_ty_1::u"]
-        [::std::mem::offset_of!(iodbwvprm__bindgen_ty_1, u) - 8usize];
+        [::std::mem::offset_of!(iodbwvprm__bindgen_ty_1, u) - 4usize];
     ["Offset of field: iodbwvprm__bindgen_ty_1::reserve2"]
-        [::std::mem::offset_of!(iodbwvprm__bindgen_ty_1, reserve2) - 16usize];
+        [::std::mem::offset_of!(iodbwvprm__bindgen_ty_1, reserve2) - 8usize];
 };
 impl Default for iodbwvprm__bindgen_ty_1 {
     fn default() -> Self {
@@ -9799,8 +9798,8 @@ impl Default for iodbwvprm__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbwvprm"][::std::mem::size_of::<iodbwvprm>() - 312usize];
-    ["Alignment of iodbwvprm"][::std::mem::align_of::<iodbwvprm>() - 8usize];
+    ["Size of iodbwvprm"][::std::mem::size_of::<iodbwvprm>() - 160usize];
+    ["Alignment of iodbwvprm"][::std::mem::align_of::<iodbwvprm>() - 4usize];
     ["Offset of field: iodbwvprm::condition"]
         [::std::mem::offset_of!(iodbwvprm, condition) - 0usize];
     ["Offset of field: iodbwvprm::trg_adr"][::std::mem::offset_of!(iodbwvprm, trg_adr) - 2usize];
@@ -9808,8 +9807,8 @@ const _: () = {
     ["Offset of field: iodbwvprm::trg_no"][::std::mem::offset_of!(iodbwvprm, trg_no) - 4usize];
     ["Offset of field: iodbwvprm::reserve1"][::std::mem::offset_of!(iodbwvprm, reserve1) - 6usize];
     ["Offset of field: iodbwvprm::delay"][::std::mem::offset_of!(iodbwvprm, delay) - 8usize];
-    ["Offset of field: iodbwvprm::t_range"][::std::mem::offset_of!(iodbwvprm, t_range) - 16usize];
-    ["Offset of field: iodbwvprm::ch"][::std::mem::offset_of!(iodbwvprm, ch) - 24usize];
+    ["Offset of field: iodbwvprm::t_range"][::std::mem::offset_of!(iodbwvprm, t_range) - 12usize];
+    ["Offset of field: iodbwvprm::ch"][::std::mem::offset_of!(iodbwvprm, ch) - 16usize];
 };
 impl Default for iodbwvprm {
     fn default() -> Self {
@@ -9861,9 +9860,9 @@ pub struct iodbwvprm3__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbwvprm3__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbwvprm3__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1>() - 16usize];
+        [::std::mem::size_of::<iodbwvprm3__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1>() - 8usize];
     ["Alignment of iodbwvprm3__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbwvprm3__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbwvprm3__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbwvprm3__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1::axis"][::std::mem::offset_of!(
         iodbwvprm3__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1,
         axis
@@ -9871,7 +9870,7 @@ const _: () = {
     ["Offset of field: iodbwvprm3__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1::reserve3"][::std::mem::offset_of!(
         iodbwvprm3__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1,
         reserve3
-    ) - 8usize];
+    ) - 4usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -9910,9 +9909,9 @@ const _: () = {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbwvprm3__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbwvprm3__bindgen_ty_1__bindgen_ty_1>() - 16usize];
+        [::std::mem::size_of::<iodbwvprm3__bindgen_ty_1__bindgen_ty_1>() - 8usize];
     ["Alignment of iodbwvprm3__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbwvprm3__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbwvprm3__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbwvprm3__bindgen_ty_1__bindgen_ty_1::ax"]
         [::std::mem::offset_of!(iodbwvprm3__bindgen_ty_1__bindgen_ty_1, ax) - 0usize];
     ["Offset of field: iodbwvprm3__bindgen_ty_1__bindgen_ty_1::io"]
@@ -9930,15 +9929,15 @@ impl Default for iodbwvprm3__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbwvprm3__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbwvprm3__bindgen_ty_1>() - 24usize];
+        [::std::mem::size_of::<iodbwvprm3__bindgen_ty_1>() - 12usize];
     ["Alignment of iodbwvprm3__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbwvprm3__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbwvprm3__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbwvprm3__bindgen_ty_1::kind"]
         [::std::mem::offset_of!(iodbwvprm3__bindgen_ty_1, kind) - 0usize];
     ["Offset of field: iodbwvprm3__bindgen_ty_1::reserve2"]
         [::std::mem::offset_of!(iodbwvprm3__bindgen_ty_1, reserve2) - 2usize];
     ["Offset of field: iodbwvprm3__bindgen_ty_1::u"]
-        [::std::mem::offset_of!(iodbwvprm3__bindgen_ty_1, u) - 8usize];
+        [::std::mem::offset_of!(iodbwvprm3__bindgen_ty_1, u) - 4usize];
 };
 impl Default for iodbwvprm3__bindgen_ty_1 {
     fn default() -> Self {
@@ -9951,8 +9950,8 @@ impl Default for iodbwvprm3__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbwvprm3"][::std::mem::size_of::<iodbwvprm3>() - 1000usize];
-    ["Alignment of iodbwvprm3"][::std::mem::align_of::<iodbwvprm3>() - 8usize];
+    ["Size of iodbwvprm3"][::std::mem::size_of::<iodbwvprm3>() - 508usize];
+    ["Alignment of iodbwvprm3"][::std::mem::align_of::<iodbwvprm3>() - 4usize];
     ["Offset of field: iodbwvprm3::condition"]
         [::std::mem::offset_of!(iodbwvprm3, condition) - 0usize];
     ["Offset of field: iodbwvprm3::trg_unittype"]
@@ -9968,12 +9967,12 @@ const _: () = {
     ["Offset of field: iodbwvprm3::reserve1"]
         [::std::mem::offset_of!(iodbwvprm3, reserve1) - 14usize];
     ["Offset of field: iodbwvprm3::delay"][::std::mem::offset_of!(iodbwvprm3, delay) - 16usize];
-    ["Offset of field: iodbwvprm3::t_range"][::std::mem::offset_of!(iodbwvprm3, t_range) - 24usize];
+    ["Offset of field: iodbwvprm3::t_range"][::std::mem::offset_of!(iodbwvprm3, t_range) - 20usize];
     ["Offset of field: iodbwvprm3::wav_cycle"]
-        [::std::mem::offset_of!(iodbwvprm3, wav_cycle) - 32usize];
+        [::std::mem::offset_of!(iodbwvprm3, wav_cycle) - 24usize];
     ["Offset of field: iodbwvprm3::dio_cycle"]
-        [::std::mem::offset_of!(iodbwvprm3, dio_cycle) - 34usize];
-    ["Offset of field: iodbwvprm3::ch"][::std::mem::offset_of!(iodbwvprm3, ch) - 40usize];
+        [::std::mem::offset_of!(iodbwvprm3, dio_cycle) - 26usize];
+    ["Offset of field: iodbwvprm3::ch"][::std::mem::offset_of!(iodbwvprm3, ch) - 28usize];
 };
 impl Default for iodbwvprm3 {
     fn default() -> Self {
@@ -10404,20 +10403,20 @@ const _: () = {
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbrmtprm"][::std::mem::size_of::<iodbrmtprm>() - 152usize];
-    ["Alignment of iodbrmtprm"][::std::mem::align_of::<iodbrmtprm>() - 8usize];
+    ["Size of iodbrmtprm"][::std::mem::size_of::<iodbrmtprm>() - 148usize];
+    ["Alignment of iodbrmtprm"][::std::mem::align_of::<iodbrmtprm>() - 4usize];
     ["Offset of field: iodbrmtprm::condition"]
         [::std::mem::offset_of!(iodbrmtprm, condition) - 0usize];
     ["Offset of field: iodbrmtprm::reserve"][::std::mem::offset_of!(iodbrmtprm, reserve) - 2usize];
     ["Offset of field: iodbrmtprm::trg"][::std::mem::offset_of!(iodbrmtprm, trg) - 4usize];
     ["Offset of field: iodbrmtprm::delay"][::std::mem::offset_of!(iodbrmtprm, delay) - 8usize];
     ["Offset of field: iodbrmtprm::wv_intrvl"]
-        [::std::mem::offset_of!(iodbrmtprm, wv_intrvl) - 16usize];
+        [::std::mem::offset_of!(iodbrmtprm, wv_intrvl) - 12usize];
     ["Offset of field: iodbrmtprm::io_intrvl"]
-        [::std::mem::offset_of!(iodbrmtprm, io_intrvl) - 18usize];
-    ["Offset of field: iodbrmtprm::kind1"][::std::mem::offset_of!(iodbrmtprm, kind1) - 20usize];
-    ["Offset of field: iodbrmtprm::kind2"][::std::mem::offset_of!(iodbrmtprm, kind2) - 22usize];
-    ["Offset of field: iodbrmtprm::smpl"][::std::mem::offset_of!(iodbrmtprm, smpl) - 24usize];
+        [::std::mem::offset_of!(iodbrmtprm, io_intrvl) - 14usize];
+    ["Offset of field: iodbrmtprm::kind1"][::std::mem::offset_of!(iodbrmtprm, kind1) - 16usize];
+    ["Offset of field: iodbrmtprm::kind2"][::std::mem::offset_of!(iodbrmtprm, kind2) - 18usize];
+    ["Offset of field: iodbrmtprm::smpl"][::std::mem::offset_of!(iodbrmtprm, smpl) - 20usize];
 };
 impl Default for iodbrmtprm {
     fn default() -> Self {
@@ -10448,8 +10447,8 @@ pub struct odbrmtdt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbrmtdt"][::std::mem::size_of::<odbrmtdt>() - 3864usize];
-    ["Alignment of odbrmtdt"][::std::mem::align_of::<odbrmtdt>() - 8usize];
+    ["Size of odbrmtdt"][::std::mem::size_of::<odbrmtdt>() - 3856usize];
+    ["Alignment of odbrmtdt"][::std::mem::align_of::<odbrmtdt>() - 4usize];
     ["Offset of field: odbrmtdt::channel"][::std::mem::offset_of!(odbrmtdt, channel) - 0usize];
     ["Offset of field: odbrmtdt::kind"][::std::mem::offset_of!(odbrmtdt, kind) - 2usize];
     ["Offset of field: odbrmtdt::year"][::std::mem::offset_of!(odbrmtdt, year) - 4usize];
@@ -10461,8 +10460,8 @@ const _: () = {
     ["Offset of field: odbrmtdt::t_intrvl"][::std::mem::offset_of!(odbrmtdt, t_intrvl) - 10usize];
     ["Offset of field: odbrmtdt::trg_data"][::std::mem::offset_of!(odbrmtdt, trg_data) - 12usize];
     ["Offset of field: odbrmtdt::ins_ptr"][::std::mem::offset_of!(odbrmtdt, ins_ptr) - 16usize];
-    ["Offset of field: odbrmtdt::t_delta"][::std::mem::offset_of!(odbrmtdt, t_delta) - 24usize];
-    ["Offset of field: odbrmtdt::data"][::std::mem::offset_of!(odbrmtdt, data) - 26usize];
+    ["Offset of field: odbrmtdt::t_delta"][::std::mem::offset_of!(odbrmtdt, t_delta) - 20usize];
+    ["Offset of field: odbrmtdt::data"][::std::mem::offset_of!(odbrmtdt, data) - 22usize];
 };
 impl Default for odbrmtdt {
     fn default() -> Self {
@@ -10502,12 +10501,12 @@ pub struct odbmgrp {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmgrp"][::std::mem::size_of::<odbmgrp>() - 32usize];
-    ["Alignment of odbmgrp"][::std::mem::align_of::<odbmgrp>() - 8usize];
+    ["Size of odbmgrp"][::std::mem::size_of::<odbmgrp>() - 28usize];
+    ["Alignment of odbmgrp"][::std::mem::align_of::<odbmgrp>() - 4usize];
     ["Offset of field: odbmgrp::m_code"][::std::mem::offset_of!(odbmgrp, m_code) - 0usize];
-    ["Offset of field: odbmgrp::grp_no"][::std::mem::offset_of!(odbmgrp, grp_no) - 8usize];
-    ["Offset of field: odbmgrp::m_name"][::std::mem::offset_of!(odbmgrp, m_name) - 10usize];
-    ["Offset of field: odbmgrp::dummy"][::std::mem::offset_of!(odbmgrp, dummy) - 31usize];
+    ["Offset of field: odbmgrp::grp_no"][::std::mem::offset_of!(odbmgrp, grp_no) - 4usize];
+    ["Offset of field: odbmgrp::m_name"][::std::mem::offset_of!(odbmgrp, m_name) - 6usize];
+    ["Offset of field: odbmgrp::dummy"][::std::mem::offset_of!(odbmgrp, dummy) - 27usize];
 };
 pub type ODBMGRP = odbmgrp;
 #[repr(C)]
@@ -10554,23 +10553,23 @@ pub struct odbexem__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbexem__bindgen_ty_1"][::std::mem::size_of::<odbexem__bindgen_ty_1>() - 16usize];
+    ["Size of odbexem__bindgen_ty_1"][::std::mem::size_of::<odbexem__bindgen_ty_1>() - 8usize];
     ["Alignment of odbexem__bindgen_ty_1"]
-        [::std::mem::align_of::<odbexem__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbexem__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbexem__bindgen_ty_1::no"]
         [::std::mem::offset_of!(odbexem__bindgen_ty_1, no) - 0usize];
     ["Offset of field: odbexem__bindgen_ty_1::flag"]
-        [::std::mem::offset_of!(odbexem__bindgen_ty_1, flag) - 8usize];
+        [::std::mem::offset_of!(odbexem__bindgen_ty_1, flag) - 4usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbexem"][::std::mem::size_of::<odbexem>() - 112usize];
-    ["Alignment of odbexem"][::std::mem::align_of::<odbexem>() - 8usize];
+    ["Size of odbexem"][::std::mem::size_of::<odbexem>() - 68usize];
+    ["Alignment of odbexem"][::std::mem::align_of::<odbexem>() - 4usize];
     ["Offset of field: odbexem::grp_no"][::std::mem::offset_of!(odbexem, grp_no) - 0usize];
     ["Offset of field: odbexem::mem_no"][::std::mem::offset_of!(odbexem, mem_no) - 2usize];
-    ["Offset of field: odbexem::m_code"][::std::mem::offset_of!(odbexem, m_code) - 8usize];
-    ["Offset of field: odbexem::m_name"][::std::mem::offset_of!(odbexem, m_name) - 88usize];
-    ["Offset of field: odbexem::dummy"][::std::mem::offset_of!(odbexem, dummy) - 109usize];
+    ["Offset of field: odbexem::m_code"][::std::mem::offset_of!(odbexem, m_code) - 4usize];
+    ["Offset of field: odbexem::m_name"][::std::mem::offset_of!(odbexem, m_name) - 44usize];
+    ["Offset of field: odbexem::dummy"][::std::mem::offset_of!(odbexem, dummy) - 65usize];
 };
 pub type ODBEXEM = odbexem;
 #[repr(C)]
@@ -10588,21 +10587,21 @@ pub struct odbrstrm__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbrstrm__bindgen_ty_1"][::std::mem::size_of::<odbrstrm__bindgen_ty_1>() - 16usize];
+    ["Size of odbrstrm__bindgen_ty_1"][::std::mem::size_of::<odbrstrm__bindgen_ty_1>() - 8usize];
     ["Alignment of odbrstrm__bindgen_ty_1"]
-        [::std::mem::align_of::<odbrstrm__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbrstrm__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbrstrm__bindgen_ty_1::no"]
         [::std::mem::offset_of!(odbrstrm__bindgen_ty_1, no) - 0usize];
     ["Offset of field: odbrstrm__bindgen_ty_1::flag"]
-        [::std::mem::offset_of!(odbrstrm__bindgen_ty_1, flag) - 8usize];
+        [::std::mem::offset_of!(odbrstrm__bindgen_ty_1, flag) - 4usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbrstrm"][::std::mem::size_of::<odbrstrm>() - 88usize];
-    ["Alignment of odbrstrm"][::std::mem::align_of::<odbrstrm>() - 8usize];
+    ["Size of odbrstrm"][::std::mem::size_of::<odbrstrm>() - 44usize];
+    ["Alignment of odbrstrm"][::std::mem::align_of::<odbrstrm>() - 4usize];
     ["Offset of field: odbrstrm::grp_no"][::std::mem::offset_of!(odbrstrm, grp_no) - 0usize];
     ["Offset of field: odbrstrm::mem_no"][::std::mem::offset_of!(odbrstrm, mem_no) - 2usize];
-    ["Offset of field: odbrstrm::m_code"][::std::mem::offset_of!(odbrstrm, m_code) - 8usize];
+    ["Offset of field: odbrstrm::m_code"][::std::mem::offset_of!(odbrstrm, m_code) - 4usize];
 };
 pub type ODBRSTRM = odbrstrm;
 #[repr(C)]
@@ -10621,24 +10620,24 @@ pub struct odbptime__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbptime__bindgen_ty_1"][::std::mem::size_of::<odbptime__bindgen_ty_1>() - 16usize];
+    ["Size of odbptime__bindgen_ty_1"][::std::mem::size_of::<odbptime__bindgen_ty_1>() - 8usize];
     ["Alignment of odbptime__bindgen_ty_1"]
-        [::std::mem::align_of::<odbptime__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbptime__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbptime__bindgen_ty_1::prg_no"]
         [::std::mem::offset_of!(odbptime__bindgen_ty_1, prg_no) - 0usize];
     ["Offset of field: odbptime__bindgen_ty_1::hour"]
-        [::std::mem::offset_of!(odbptime__bindgen_ty_1, hour) - 8usize];
+        [::std::mem::offset_of!(odbptime__bindgen_ty_1, hour) - 4usize];
     ["Offset of field: odbptime__bindgen_ty_1::minute"]
-        [::std::mem::offset_of!(odbptime__bindgen_ty_1, minute) - 10usize];
+        [::std::mem::offset_of!(odbptime__bindgen_ty_1, minute) - 6usize];
     ["Offset of field: odbptime__bindgen_ty_1::second"]
-        [::std::mem::offset_of!(odbptime__bindgen_ty_1, second) - 11usize];
+        [::std::mem::offset_of!(odbptime__bindgen_ty_1, second) - 7usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbptime"][::std::mem::size_of::<odbptime>() - 168usize];
-    ["Alignment of odbptime"][::std::mem::align_of::<odbptime>() - 8usize];
+    ["Size of odbptime"][::std::mem::size_of::<odbptime>() - 84usize];
+    ["Alignment of odbptime"][::std::mem::align_of::<odbptime>() - 4usize];
     ["Offset of field: odbptime::num"][::std::mem::offset_of!(odbptime, num) - 0usize];
-    ["Offset of field: odbptime::data"][::std::mem::offset_of!(odbptime, data) - 8usize];
+    ["Offset of field: odbptime::data"][::std::mem::offset_of!(odbptime, data) - 4usize];
 };
 pub type ODBPTIME = odbptime;
 #[repr(C)]
@@ -10668,11 +10667,11 @@ pub struct prgdirtm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of prgdirtm"][::std::mem::size_of::<prgdirtm>() - 72usize];
-    ["Alignment of prgdirtm"][::std::mem::align_of::<prgdirtm>() - 8usize];
+    ["Size of prgdirtm"][::std::mem::size_of::<prgdirtm>() - 68usize];
+    ["Alignment of prgdirtm"][::std::mem::align_of::<prgdirtm>() - 4usize];
     ["Offset of field: prgdirtm::prg_no"][::std::mem::offset_of!(prgdirtm, prg_no) - 0usize];
-    ["Offset of field: prgdirtm::comment"][::std::mem::offset_of!(prgdirtm, comment) - 8usize];
-    ["Offset of field: prgdirtm::cuttime"][::std::mem::offset_of!(prgdirtm, cuttime) - 59usize];
+    ["Offset of field: prgdirtm::comment"][::std::mem::offset_of!(prgdirtm, comment) - 4usize];
+    ["Offset of field: prgdirtm::cuttime"][::std::mem::offset_of!(prgdirtm, cuttime) - 55usize];
 };
 impl Default for prgdirtm {
     fn default() -> Self {
@@ -10694,12 +10693,12 @@ pub struct prgdir2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of prgdir2"][::std::mem::size_of::<prgdir2>() - 72usize];
-    ["Alignment of prgdir2"][::std::mem::align_of::<prgdir2>() - 8usize];
+    ["Size of prgdir2"][::std::mem::size_of::<prgdir2>() - 60usize];
+    ["Alignment of prgdir2"][::std::mem::align_of::<prgdir2>() - 4usize];
     ["Offset of field: prgdir2::number"][::std::mem::offset_of!(prgdir2, number) - 0usize];
-    ["Offset of field: prgdir2::length"][::std::mem::offset_of!(prgdir2, length) - 8usize];
-    ["Offset of field: prgdir2::comment"][::std::mem::offset_of!(prgdir2, comment) - 16usize];
-    ["Offset of field: prgdir2::dummy"][::std::mem::offset_of!(prgdir2, dummy) - 67usize];
+    ["Offset of field: prgdir2::length"][::std::mem::offset_of!(prgdir2, length) - 4usize];
+    ["Offset of field: prgdir2::comment"][::std::mem::offset_of!(prgdir2, comment) - 8usize];
+    ["Offset of field: prgdir2::dummy"][::std::mem::offset_of!(prgdir2, dummy) - 59usize];
 };
 impl Default for prgdir2 {
     fn default() -> Self {
@@ -10779,14 +10778,14 @@ const _: () = {
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of prgdir3"][::std::mem::size_of::<prgdir3>() - 104usize];
-    ["Alignment of prgdir3"][::std::mem::align_of::<prgdir3>() - 8usize];
+    ["Size of prgdir3"][::std::mem::size_of::<prgdir3>() - 88usize];
+    ["Alignment of prgdir3"][::std::mem::align_of::<prgdir3>() - 4usize];
     ["Offset of field: prgdir3::number"][::std::mem::offset_of!(prgdir3, number) - 0usize];
-    ["Offset of field: prgdir3::length"][::std::mem::offset_of!(prgdir3, length) - 8usize];
-    ["Offset of field: prgdir3::page"][::std::mem::offset_of!(prgdir3, page) - 16usize];
-    ["Offset of field: prgdir3::comment"][::std::mem::offset_of!(prgdir3, comment) - 24usize];
-    ["Offset of field: prgdir3::mdate"][::std::mem::offset_of!(prgdir3, mdate) - 76usize];
-    ["Offset of field: prgdir3::cdate"][::std::mem::offset_of!(prgdir3, cdate) - 88usize];
+    ["Offset of field: prgdir3::length"][::std::mem::offset_of!(prgdir3, length) - 4usize];
+    ["Offset of field: prgdir3::page"][::std::mem::offset_of!(prgdir3, page) - 8usize];
+    ["Offset of field: prgdir3::comment"][::std::mem::offset_of!(prgdir3, comment) - 12usize];
+    ["Offset of field: prgdir3::mdate"][::std::mem::offset_of!(prgdir3, mdate) - 64usize];
+    ["Offset of field: prgdir3::cdate"][::std::mem::offset_of!(prgdir3, cdate) - 76usize];
 };
 impl Default for prgdir3 {
     fn default() -> Self {
@@ -10818,25 +10817,25 @@ pub struct iodbcprm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbcprm"][::std::mem::size_of::<iodbcprm>() - 208usize];
-    ["Alignment of iodbcprm"][::std::mem::align_of::<iodbcprm>() - 8usize];
+    ["Size of iodbcprm"][::std::mem::size_of::<iodbcprm>() - 168usize];
+    ["Alignment of iodbcprm"][::std::mem::align_of::<iodbcprm>() - 4usize];
     ["Offset of field: iodbcprm::NcApli"][::std::mem::offset_of!(iodbcprm, NcApli) - 0usize];
     ["Offset of field: iodbcprm::Dummy1"][::std::mem::offset_of!(iodbcprm, Dummy1) - 65usize];
     ["Offset of field: iodbcprm::HostApli"][::std::mem::offset_of!(iodbcprm, HostApli) - 66usize];
     ["Offset of field: iodbcprm::Dummy2"][::std::mem::offset_of!(iodbcprm, Dummy2) - 131usize];
-    ["Offset of field: iodbcprm::StatPstv"][::std::mem::offset_of!(iodbcprm, StatPstv) - 136usize];
-    ["Offset of field: iodbcprm::StatNgtv"][::std::mem::offset_of!(iodbcprm, StatNgtv) - 144usize];
-    ["Offset of field: iodbcprm::Statmask"][::std::mem::offset_of!(iodbcprm, Statmask) - 152usize];
+    ["Offset of field: iodbcprm::StatPstv"][::std::mem::offset_of!(iodbcprm, StatPstv) - 132usize];
+    ["Offset of field: iodbcprm::StatNgtv"][::std::mem::offset_of!(iodbcprm, StatNgtv) - 136usize];
+    ["Offset of field: iodbcprm::Statmask"][::std::mem::offset_of!(iodbcprm, Statmask) - 140usize];
     ["Offset of field: iodbcprm::AlarmStat"]
-        [::std::mem::offset_of!(iodbcprm, AlarmStat) - 160usize];
+        [::std::mem::offset_of!(iodbcprm, AlarmStat) - 144usize];
     ["Offset of field: iodbcprm::PsclHaddr"]
-        [::std::mem::offset_of!(iodbcprm, PsclHaddr) - 168usize];
+        [::std::mem::offset_of!(iodbcprm, PsclHaddr) - 148usize];
     ["Offset of field: iodbcprm::PsclLaddr"]
-        [::std::mem::offset_of!(iodbcprm, PsclLaddr) - 176usize];
-    ["Offset of field: iodbcprm::SvcMode1"][::std::mem::offset_of!(iodbcprm, SvcMode1) - 184usize];
-    ["Offset of field: iodbcprm::SvcMode2"][::std::mem::offset_of!(iodbcprm, SvcMode2) - 186usize];
-    ["Offset of field: iodbcprm::FileTout"][::std::mem::offset_of!(iodbcprm, FileTout) - 192usize];
-    ["Offset of field: iodbcprm::RemTout"][::std::mem::offset_of!(iodbcprm, RemTout) - 200usize];
+        [::std::mem::offset_of!(iodbcprm, PsclLaddr) - 152usize];
+    ["Offset of field: iodbcprm::SvcMode1"][::std::mem::offset_of!(iodbcprm, SvcMode1) - 156usize];
+    ["Offset of field: iodbcprm::SvcMode2"][::std::mem::offset_of!(iodbcprm, SvcMode2) - 158usize];
+    ["Offset of field: iodbcprm::FileTout"][::std::mem::offset_of!(iodbcprm, FileTout) - 160usize];
+    ["Offset of field: iodbcprm::RemTout"][::std::mem::offset_of!(iodbcprm, RemTout) - 164usize];
 };
 impl Default for iodbcprm {
     fn default() -> Self {
@@ -10858,8 +10857,8 @@ pub struct iodbint {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbint"][::std::mem::size_of::<iodbint>() - 200usize];
-    ["Alignment of iodbint"][::std::mem::align_of::<iodbint>() - 8usize];
+    ["Size of iodbint"][::std::mem::size_of::<iodbint>() - 104usize];
+    ["Alignment of iodbint"][::std::mem::align_of::<iodbint>() - 4usize];
     ["Offset of field: iodbint::datano_s"][::std::mem::offset_of!(iodbint, datano_s) - 0usize];
     ["Offset of field: iodbint::type_"][::std::mem::offset_of!(iodbint, type_) - 2usize];
     ["Offset of field: iodbint::datano_e"][::std::mem::offset_of!(iodbint, datano_e) - 4usize];
@@ -10875,11 +10874,11 @@ pub struct iodbwcsf {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbwcsf"][::std::mem::size_of::<iodbwcsf>() - 264usize];
-    ["Alignment of iodbwcsf"][::std::mem::align_of::<iodbwcsf>() - 8usize];
+    ["Size of iodbwcsf"][::std::mem::size_of::<iodbwcsf>() - 132usize];
+    ["Alignment of iodbwcsf"][::std::mem::align_of::<iodbwcsf>() - 4usize];
     ["Offset of field: iodbwcsf::datano"][::std::mem::offset_of!(iodbwcsf, datano) - 0usize];
     ["Offset of field: iodbwcsf::type_"][::std::mem::offset_of!(iodbwcsf, type_) - 2usize];
-    ["Offset of field: iodbwcsf::data"][::std::mem::offset_of!(iodbwcsf, data) - 8usize];
+    ["Offset of field: iodbwcsf::data"][::std::mem::offset_of!(iodbwcsf, data) - 4usize];
 };
 pub type IODBWCSF = iodbwcsf;
 #[repr(C)]
@@ -10943,8 +10942,8 @@ pub struct iodbbto {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbbto"][::std::mem::size_of::<iodbbto>() - 152usize];
-    ["Alignment of iodbbto"][::std::mem::align_of::<iodbbto>() - 8usize];
+    ["Size of iodbbto"][::std::mem::size_of::<iodbbto>() - 80usize];
+    ["Alignment of iodbbto"][::std::mem::align_of::<iodbbto>() - 4usize];
     ["Offset of field: iodbbto::datano_s"][::std::mem::offset_of!(iodbbto, datano_s) - 0usize];
     ["Offset of field: iodbbto::type_"][::std::mem::offset_of!(iodbbto, type_) - 2usize];
     ["Offset of field: iodbbto::datano_e"][::std::mem::offset_of!(iodbbto, datano_e) - 4usize];
@@ -10977,8 +10976,8 @@ pub struct odbbaxis {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbbaxis"][::std::mem::size_of::<odbbaxis>() - 16usize];
-    ["Alignment of odbbaxis"][::std::mem::align_of::<odbbaxis>() - 8usize];
+    ["Size of odbbaxis"][::std::mem::size_of::<odbbaxis>() - 12usize];
+    ["Alignment of odbbaxis"][::std::mem::align_of::<odbbaxis>() - 4usize];
     ["Offset of field: odbbaxis::flag"][::std::mem::offset_of!(odbbaxis, flag) - 0usize];
     ["Offset of field: odbbaxis::command"][::std::mem::offset_of!(odbbaxis, command) - 2usize];
     ["Offset of field: odbbaxis::speed"][::std::mem::offset_of!(odbbaxis, speed) - 4usize];
@@ -11406,16 +11405,16 @@ pub struct odbsysh {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsysh"][::std::mem::size_of::<odbsysh>() - 32usize];
-    ["Alignment of odbsysh"][::std::mem::align_of::<odbsysh>() - 8usize];
+    ["Size of odbsysh"][::std::mem::size_of::<odbsysh>() - 20usize];
+    ["Alignment of odbsysh"][::std::mem::align_of::<odbsysh>() - 4usize];
     ["Offset of field: odbsysh::id1"][::std::mem::offset_of!(odbsysh, id1) - 0usize];
-    ["Offset of field: odbsysh::id2"][::std::mem::offset_of!(odbsysh, id2) - 8usize];
-    ["Offset of field: odbsysh::group_id"][::std::mem::offset_of!(odbsysh, group_id) - 16usize];
-    ["Offset of field: odbsysh::hard_id"][::std::mem::offset_of!(odbsysh, hard_id) - 18usize];
-    ["Offset of field: odbsysh::hard_num"][::std::mem::offset_of!(odbsysh, hard_num) - 20usize];
-    ["Offset of field: odbsysh::slot_no"][::std::mem::offset_of!(odbsysh, slot_no) - 22usize];
-    ["Offset of field: odbsysh::id1_format"][::std::mem::offset_of!(odbsysh, id1_format) - 24usize];
-    ["Offset of field: odbsysh::id2_format"][::std::mem::offset_of!(odbsysh, id2_format) - 26usize];
+    ["Offset of field: odbsysh::id2"][::std::mem::offset_of!(odbsysh, id2) - 4usize];
+    ["Offset of field: odbsysh::group_id"][::std::mem::offset_of!(odbsysh, group_id) - 8usize];
+    ["Offset of field: odbsysh::hard_id"][::std::mem::offset_of!(odbsysh, hard_id) - 10usize];
+    ["Offset of field: odbsysh::hard_num"][::std::mem::offset_of!(odbsysh, hard_num) - 12usize];
+    ["Offset of field: odbsysh::slot_no"][::std::mem::offset_of!(odbsysh, slot_no) - 14usize];
+    ["Offset of field: odbsysh::id1_format"][::std::mem::offset_of!(odbsysh, id1_format) - 16usize];
+    ["Offset of field: odbsysh::id2_format"][::std::mem::offset_of!(odbsysh, id2_format) - 18usize];
 };
 pub type ODBSYSH = odbsysh;
 #[repr(C)]
@@ -11557,27 +11556,27 @@ pub struct iodbpscd {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpscd"][::std::mem::size_of::<iodbpscd>() - 64usize];
-    ["Alignment of iodbpscd"][::std::mem::align_of::<iodbpscd>() - 8usize];
+    ["Size of iodbpscd"][::std::mem::size_of::<iodbpscd>() - 44usize];
+    ["Alignment of iodbpscd"][::std::mem::align_of::<iodbpscd>() - 4usize];
     ["Offset of field: iodbpscd::slct"][::std::mem::offset_of!(iodbpscd, slct) - 0usize];
-    ["Offset of field: iodbpscd::feed"][::std::mem::offset_of!(iodbpscd, feed) - 8usize];
-    ["Offset of field: iodbpscd::power"][::std::mem::offset_of!(iodbpscd, power) - 16usize];
-    ["Offset of field: iodbpscd::freq"][::std::mem::offset_of!(iodbpscd, freq) - 18usize];
-    ["Offset of field: iodbpscd::duty"][::std::mem::offset_of!(iodbpscd, duty) - 20usize];
-    ["Offset of field: iodbpscd::g_press"][::std::mem::offset_of!(iodbpscd, g_press) - 22usize];
-    ["Offset of field: iodbpscd::g_kind"][::std::mem::offset_of!(iodbpscd, g_kind) - 24usize];
-    ["Offset of field: iodbpscd::g_ready_t"][::std::mem::offset_of!(iodbpscd, g_ready_t) - 26usize];
-    ["Offset of field: iodbpscd::displace"][::std::mem::offset_of!(iodbpscd, displace) - 28usize];
-    ["Offset of field: iodbpscd::supple"][::std::mem::offset_of!(iodbpscd, supple) - 32usize];
-    ["Offset of field: iodbpscd::edge_slt"][::std::mem::offset_of!(iodbpscd, edge_slt) - 40usize];
-    ["Offset of field: iodbpscd::appr_slt"][::std::mem::offset_of!(iodbpscd, appr_slt) - 42usize];
-    ["Offset of field: iodbpscd::pwr_ctrl"][::std::mem::offset_of!(iodbpscd, pwr_ctrl) - 44usize];
-    ["Offset of field: iodbpscd::displace2"][::std::mem::offset_of!(iodbpscd, displace2) - 48usize];
-    ["Offset of field: iodbpscd::gap_axis"][::std::mem::offset_of!(iodbpscd, gap_axis) - 56usize];
-    ["Offset of field: iodbpscd::feed_dec"][::std::mem::offset_of!(iodbpscd, feed_dec) - 57usize];
+    ["Offset of field: iodbpscd::feed"][::std::mem::offset_of!(iodbpscd, feed) - 4usize];
+    ["Offset of field: iodbpscd::power"][::std::mem::offset_of!(iodbpscd, power) - 8usize];
+    ["Offset of field: iodbpscd::freq"][::std::mem::offset_of!(iodbpscd, freq) - 10usize];
+    ["Offset of field: iodbpscd::duty"][::std::mem::offset_of!(iodbpscd, duty) - 12usize];
+    ["Offset of field: iodbpscd::g_press"][::std::mem::offset_of!(iodbpscd, g_press) - 14usize];
+    ["Offset of field: iodbpscd::g_kind"][::std::mem::offset_of!(iodbpscd, g_kind) - 16usize];
+    ["Offset of field: iodbpscd::g_ready_t"][::std::mem::offset_of!(iodbpscd, g_ready_t) - 18usize];
+    ["Offset of field: iodbpscd::displace"][::std::mem::offset_of!(iodbpscd, displace) - 20usize];
+    ["Offset of field: iodbpscd::supple"][::std::mem::offset_of!(iodbpscd, supple) - 24usize];
+    ["Offset of field: iodbpscd::edge_slt"][::std::mem::offset_of!(iodbpscd, edge_slt) - 28usize];
+    ["Offset of field: iodbpscd::appr_slt"][::std::mem::offset_of!(iodbpscd, appr_slt) - 30usize];
+    ["Offset of field: iodbpscd::pwr_ctrl"][::std::mem::offset_of!(iodbpscd, pwr_ctrl) - 32usize];
+    ["Offset of field: iodbpscd::displace2"][::std::mem::offset_of!(iodbpscd, displace2) - 36usize];
+    ["Offset of field: iodbpscd::gap_axis"][::std::mem::offset_of!(iodbpscd, gap_axis) - 40usize];
+    ["Offset of field: iodbpscd::feed_dec"][::std::mem::offset_of!(iodbpscd, feed_dec) - 41usize];
     ["Offset of field: iodbpscd::supple_dec"]
-        [::std::mem::offset_of!(iodbpscd, supple_dec) - 58usize];
-    ["Offset of field: iodbpscd::dsp2_dec"][::std::mem::offset_of!(iodbpscd, dsp2_dec) - 59usize];
+        [::std::mem::offset_of!(iodbpscd, supple_dec) - 42usize];
+    ["Offset of field: iodbpscd::dsp2_dec"][::std::mem::offset_of!(iodbpscd, dsp2_dec) - 43usize];
 };
 pub type IODBPSCD = iodbpscd;
 #[repr(C)]
@@ -11606,31 +11605,31 @@ pub struct iodbpscd2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpscd2"][::std::mem::size_of::<iodbpscd2>() - 80usize];
-    ["Alignment of iodbpscd2"][::std::mem::align_of::<iodbpscd2>() - 8usize];
+    ["Size of iodbpscd2"][::std::mem::size_of::<iodbpscd2>() - 64usize];
+    ["Alignment of iodbpscd2"][::std::mem::align_of::<iodbpscd2>() - 4usize];
     ["Offset of field: iodbpscd2::slct"][::std::mem::offset_of!(iodbpscd2, slct) - 0usize];
-    ["Offset of field: iodbpscd2::feed"][::std::mem::offset_of!(iodbpscd2, feed) - 8usize];
-    ["Offset of field: iodbpscd2::power"][::std::mem::offset_of!(iodbpscd2, power) - 16usize];
-    ["Offset of field: iodbpscd2::freq"][::std::mem::offset_of!(iodbpscd2, freq) - 18usize];
-    ["Offset of field: iodbpscd2::duty"][::std::mem::offset_of!(iodbpscd2, duty) - 20usize];
-    ["Offset of field: iodbpscd2::g_press"][::std::mem::offset_of!(iodbpscd2, g_press) - 22usize];
-    ["Offset of field: iodbpscd2::g_kind"][::std::mem::offset_of!(iodbpscd2, g_kind) - 24usize];
+    ["Offset of field: iodbpscd2::feed"][::std::mem::offset_of!(iodbpscd2, feed) - 4usize];
+    ["Offset of field: iodbpscd2::power"][::std::mem::offset_of!(iodbpscd2, power) - 8usize];
+    ["Offset of field: iodbpscd2::freq"][::std::mem::offset_of!(iodbpscd2, freq) - 10usize];
+    ["Offset of field: iodbpscd2::duty"][::std::mem::offset_of!(iodbpscd2, duty) - 12usize];
+    ["Offset of field: iodbpscd2::g_press"][::std::mem::offset_of!(iodbpscd2, g_press) - 14usize];
+    ["Offset of field: iodbpscd2::g_kind"][::std::mem::offset_of!(iodbpscd2, g_kind) - 16usize];
     ["Offset of field: iodbpscd2::g_ready_t"]
-        [::std::mem::offset_of!(iodbpscd2, g_ready_t) - 26usize];
-    ["Offset of field: iodbpscd2::displace"][::std::mem::offset_of!(iodbpscd2, displace) - 28usize];
-    ["Offset of field: iodbpscd2::supple"][::std::mem::offset_of!(iodbpscd2, supple) - 32usize];
-    ["Offset of field: iodbpscd2::edge_slt"][::std::mem::offset_of!(iodbpscd2, edge_slt) - 40usize];
-    ["Offset of field: iodbpscd2::appr_slt"][::std::mem::offset_of!(iodbpscd2, appr_slt) - 42usize];
-    ["Offset of field: iodbpscd2::pwr_ctrl"][::std::mem::offset_of!(iodbpscd2, pwr_ctrl) - 44usize];
+        [::std::mem::offset_of!(iodbpscd2, g_ready_t) - 18usize];
+    ["Offset of field: iodbpscd2::displace"][::std::mem::offset_of!(iodbpscd2, displace) - 20usize];
+    ["Offset of field: iodbpscd2::supple"][::std::mem::offset_of!(iodbpscd2, supple) - 24usize];
+    ["Offset of field: iodbpscd2::edge_slt"][::std::mem::offset_of!(iodbpscd2, edge_slt) - 28usize];
+    ["Offset of field: iodbpscd2::appr_slt"][::std::mem::offset_of!(iodbpscd2, appr_slt) - 30usize];
+    ["Offset of field: iodbpscd2::pwr_ctrl"][::std::mem::offset_of!(iodbpscd2, pwr_ctrl) - 32usize];
     ["Offset of field: iodbpscd2::displace2"]
-        [::std::mem::offset_of!(iodbpscd2, displace2) - 48usize];
-    ["Offset of field: iodbpscd2::gap_axis"][::std::mem::offset_of!(iodbpscd2, gap_axis) - 56usize];
-    ["Offset of field: iodbpscd2::feed_dec"][::std::mem::offset_of!(iodbpscd2, feed_dec) - 57usize];
+        [::std::mem::offset_of!(iodbpscd2, displace2) - 36usize];
+    ["Offset of field: iodbpscd2::gap_axis"][::std::mem::offset_of!(iodbpscd2, gap_axis) - 40usize];
+    ["Offset of field: iodbpscd2::feed_dec"][::std::mem::offset_of!(iodbpscd2, feed_dec) - 41usize];
     ["Offset of field: iodbpscd2::supple_dec"]
-        [::std::mem::offset_of!(iodbpscd2, supple_dec) - 58usize];
-    ["Offset of field: iodbpscd2::dsp2_dec"][::std::mem::offset_of!(iodbpscd2, dsp2_dec) - 59usize];
-    ["Offset of field: iodbpscd2::pb_power"][::std::mem::offset_of!(iodbpscd2, pb_power) - 60usize];
-    ["Offset of field: iodbpscd2::reserve"][::std::mem::offset_of!(iodbpscd2, reserve) - 62usize];
+        [::std::mem::offset_of!(iodbpscd2, supple_dec) - 42usize];
+    ["Offset of field: iodbpscd2::dsp2_dec"][::std::mem::offset_of!(iodbpscd2, dsp2_dec) - 43usize];
+    ["Offset of field: iodbpscd2::pb_power"][::std::mem::offset_of!(iodbpscd2, pb_power) - 44usize];
+    ["Offset of field: iodbpscd2::reserve"][::std::mem::offset_of!(iodbpscd2, reserve) - 46usize];
 };
 pub type IODBPSCD2 = iodbpscd2;
 #[repr(C)]
@@ -11656,8 +11655,8 @@ pub struct iodbpirc {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpirc"][::std::mem::size_of::<iodbpirc>() - 48usize];
-    ["Alignment of iodbpirc"][::std::mem::align_of::<iodbpirc>() - 8usize];
+    ["Size of iodbpirc"][::std::mem::size_of::<iodbpirc>() - 36usize];
+    ["Alignment of iodbpirc"][::std::mem::align_of::<iodbpirc>() - 4usize];
     ["Offset of field: iodbpirc::slct"][::std::mem::offset_of!(iodbpirc, slct) - 0usize];
     ["Offset of field: iodbpirc::power"][::std::mem::offset_of!(iodbpirc, power) - 2usize];
     ["Offset of field: iodbpirc::freq"][::std::mem::offset_of!(iodbpirc, freq) - 4usize];
@@ -11667,15 +11666,15 @@ const _: () = {
     ["Offset of field: iodbpirc::step_t"][::std::mem::offset_of!(iodbpirc, step_t) - 12usize];
     ["Offset of field: iodbpirc::step_sum"][::std::mem::offset_of!(iodbpirc, step_sum) - 14usize];
     ["Offset of field: iodbpirc::pier_t"][::std::mem::offset_of!(iodbpirc, pier_t) - 16usize];
-    ["Offset of field: iodbpirc::g_press"][::std::mem::offset_of!(iodbpirc, g_press) - 24usize];
-    ["Offset of field: iodbpirc::g_kind"][::std::mem::offset_of!(iodbpirc, g_kind) - 26usize];
-    ["Offset of field: iodbpirc::g_time"][::std::mem::offset_of!(iodbpirc, g_time) - 28usize];
-    ["Offset of field: iodbpirc::def_pos"][::std::mem::offset_of!(iodbpirc, def_pos) - 30usize];
-    ["Offset of field: iodbpirc::def_pos2"][::std::mem::offset_of!(iodbpirc, def_pos2) - 32usize];
-    ["Offset of field: iodbpirc::gap_axis"][::std::mem::offset_of!(iodbpirc, gap_axis) - 40usize];
+    ["Offset of field: iodbpirc::g_press"][::std::mem::offset_of!(iodbpirc, g_press) - 20usize];
+    ["Offset of field: iodbpirc::g_kind"][::std::mem::offset_of!(iodbpirc, g_kind) - 22usize];
+    ["Offset of field: iodbpirc::g_time"][::std::mem::offset_of!(iodbpirc, g_time) - 24usize];
+    ["Offset of field: iodbpirc::def_pos"][::std::mem::offset_of!(iodbpirc, def_pos) - 26usize];
+    ["Offset of field: iodbpirc::def_pos2"][::std::mem::offset_of!(iodbpirc, def_pos2) - 28usize];
+    ["Offset of field: iodbpirc::gap_axis"][::std::mem::offset_of!(iodbpirc, gap_axis) - 32usize];
     ["Offset of field: iodbpirc::def_pos2_dec"]
-        [::std::mem::offset_of!(iodbpirc, def_pos2_dec) - 41usize];
-    ["Offset of field: iodbpirc::pb_power"][::std::mem::offset_of!(iodbpirc, pb_power) - 42usize];
+        [::std::mem::offset_of!(iodbpirc, def_pos2_dec) - 33usize];
+    ["Offset of field: iodbpirc::pb_power"][::std::mem::offset_of!(iodbpirc, pb_power) - 34usize];
 };
 pub type IODBPIRC = iodbpirc;
 #[repr(C)]
@@ -11698,22 +11697,22 @@ pub struct iodbedge {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbedge"][::std::mem::size_of::<iodbedge>() - 56usize];
-    ["Alignment of iodbedge"][::std::mem::align_of::<iodbedge>() - 8usize];
+    ["Size of iodbedge"][::std::mem::size_of::<iodbedge>() - 40usize];
+    ["Alignment of iodbedge"][::std::mem::align_of::<iodbedge>() - 4usize];
     ["Offset of field: iodbedge::slct"][::std::mem::offset_of!(iodbedge, slct) - 0usize];
     ["Offset of field: iodbedge::angle"][::std::mem::offset_of!(iodbedge, angle) - 2usize];
     ["Offset of field: iodbedge::power"][::std::mem::offset_of!(iodbedge, power) - 4usize];
     ["Offset of field: iodbedge::freq"][::std::mem::offset_of!(iodbedge, freq) - 6usize];
     ["Offset of field: iodbedge::duty"][::std::mem::offset_of!(iodbedge, duty) - 8usize];
-    ["Offset of field: iodbedge::pier_t"][::std::mem::offset_of!(iodbedge, pier_t) - 16usize];
-    ["Offset of field: iodbedge::g_press"][::std::mem::offset_of!(iodbedge, g_press) - 24usize];
-    ["Offset of field: iodbedge::g_kind"][::std::mem::offset_of!(iodbedge, g_kind) - 26usize];
-    ["Offset of field: iodbedge::r_len"][::std::mem::offset_of!(iodbedge, r_len) - 32usize];
-    ["Offset of field: iodbedge::r_feed"][::std::mem::offset_of!(iodbedge, r_feed) - 40usize];
-    ["Offset of field: iodbedge::r_freq"][::std::mem::offset_of!(iodbedge, r_freq) - 42usize];
-    ["Offset of field: iodbedge::r_duty"][::std::mem::offset_of!(iodbedge, r_duty) - 44usize];
-    ["Offset of field: iodbedge::gap"][::std::mem::offset_of!(iodbedge, gap) - 46usize];
-    ["Offset of field: iodbedge::reserve"][::std::mem::offset_of!(iodbedge, reserve) - 48usize];
+    ["Offset of field: iodbedge::pier_t"][::std::mem::offset_of!(iodbedge, pier_t) - 12usize];
+    ["Offset of field: iodbedge::g_press"][::std::mem::offset_of!(iodbedge, g_press) - 16usize];
+    ["Offset of field: iodbedge::g_kind"][::std::mem::offset_of!(iodbedge, g_kind) - 18usize];
+    ["Offset of field: iodbedge::r_len"][::std::mem::offset_of!(iodbedge, r_len) - 20usize];
+    ["Offset of field: iodbedge::r_feed"][::std::mem::offset_of!(iodbedge, r_feed) - 24usize];
+    ["Offset of field: iodbedge::r_freq"][::std::mem::offset_of!(iodbedge, r_freq) - 26usize];
+    ["Offset of field: iodbedge::r_duty"][::std::mem::offset_of!(iodbedge, r_duty) - 28usize];
+    ["Offset of field: iodbedge::gap"][::std::mem::offset_of!(iodbedge, gap) - 30usize];
+    ["Offset of field: iodbedge::reserve"][::std::mem::offset_of!(iodbedge, reserve) - 32usize];
 };
 pub type IODBEDGE = iodbedge;
 #[repr(C)]
@@ -11730,18 +11729,18 @@ pub struct iodbslop {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbslop"][::std::mem::size_of::<iodbslop>() - 88usize];
-    ["Alignment of iodbslop"][::std::mem::align_of::<iodbslop>() - 8usize];
+    ["Size of iodbslop"][::std::mem::size_of::<iodbslop>() - 72usize];
+    ["Alignment of iodbslop"][::std::mem::align_of::<iodbslop>() - 4usize];
     ["Offset of field: iodbslop::slct"][::std::mem::offset_of!(iodbslop, slct) - 0usize];
-    ["Offset of field: iodbslop::upleng"][::std::mem::offset_of!(iodbslop, upleng) - 8usize];
-    ["Offset of field: iodbslop::upsp"][::std::mem::offset_of!(iodbslop, upsp) - 16usize];
-    ["Offset of field: iodbslop::dwleng"][::std::mem::offset_of!(iodbslop, dwleng) - 40usize];
-    ["Offset of field: iodbslop::dwsp"][::std::mem::offset_of!(iodbslop, dwsp) - 48usize];
+    ["Offset of field: iodbslop::upleng"][::std::mem::offset_of!(iodbslop, upleng) - 4usize];
+    ["Offset of field: iodbslop::upsp"][::std::mem::offset_of!(iodbslop, upsp) - 8usize];
+    ["Offset of field: iodbslop::dwleng"][::std::mem::offset_of!(iodbslop, dwleng) - 28usize];
+    ["Offset of field: iodbslop::dwsp"][::std::mem::offset_of!(iodbslop, dwsp) - 32usize];
     ["Offset of field: iodbslop::upleng_dec"]
-        [::std::mem::offset_of!(iodbslop, upleng_dec) - 68usize];
+        [::std::mem::offset_of!(iodbslop, upleng_dec) - 52usize];
     ["Offset of field: iodbslop::dwleng_dec"]
-        [::std::mem::offset_of!(iodbslop, dwleng_dec) - 69usize];
-    ["Offset of field: iodbslop::reserve"][::std::mem::offset_of!(iodbslop, reserve) - 70usize];
+        [::std::mem::offset_of!(iodbslop, dwleng_dec) - 53usize];
+    ["Offset of field: iodbslop::reserve"][::std::mem::offset_of!(iodbslop, reserve) - 54usize];
 };
 pub type IODBSLOP = iodbslop;
 #[repr(C)]
@@ -11777,16 +11776,16 @@ pub struct odblopdt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odblopdt"][::std::mem::size_of::<odblopdt>() - 24usize];
-    ["Alignment of odblopdt"][::std::mem::align_of::<odblopdt>() - 8usize];
+    ["Size of odblopdt"][::std::mem::size_of::<odblopdt>() - 20usize];
+    ["Alignment of odblopdt"][::std::mem::align_of::<odblopdt>() - 4usize];
     ["Offset of field: odblopdt::slct"][::std::mem::offset_of!(odblopdt, slct) - 0usize];
     ["Offset of field: odblopdt::pwr_mon"][::std::mem::offset_of!(odblopdt, pwr_mon) - 2usize];
     ["Offset of field: odblopdt::pwr_ofs"][::std::mem::offset_of!(odblopdt, pwr_ofs) - 4usize];
     ["Offset of field: odblopdt::pwr_act"][::std::mem::offset_of!(odblopdt, pwr_act) - 6usize];
     ["Offset of field: odblopdt::feed_act"][::std::mem::offset_of!(odblopdt, feed_act) - 8usize];
-    ["Offset of field: odblopdt::feed_dec"][::std::mem::offset_of!(odblopdt, feed_dec) - 16usize];
-    ["Offset of field: odblopdt::reserve"][::std::mem::offset_of!(odblopdt, reserve) - 17usize];
-    ["Offset of field: odblopdt::reserves"][::std::mem::offset_of!(odblopdt, reserves) - 18usize];
+    ["Offset of field: odblopdt::feed_dec"][::std::mem::offset_of!(odblopdt, feed_dec) - 12usize];
+    ["Offset of field: odblopdt::reserve"][::std::mem::offset_of!(odblopdt, reserve) - 13usize];
+    ["Offset of field: odblopdt::reserves"][::std::mem::offset_of!(odblopdt, reserves) - 14usize];
 };
 pub type ODBLOPDT = odblopdt;
 #[repr(C)]
@@ -11888,14 +11887,14 @@ pub struct iodblpcpr {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodblpcpr"][::std::mem::size_of::<iodblpcpr>() - 24usize];
-    ["Alignment of iodblpcpr"][::std::mem::align_of::<iodblpcpr>() - 8usize];
+    ["Size of iodblpcpr"][::std::mem::size_of::<iodblpcpr>() - 20usize];
+    ["Alignment of iodblpcpr"][::std::mem::align_of::<iodblpcpr>() - 4usize];
     ["Offset of field: iodblpcpr::slct"][::std::mem::offset_of!(iodblpcpr, slct) - 0usize];
     ["Offset of field: iodblpcpr::power"][::std::mem::offset_of!(iodblpcpr, power) - 2usize];
     ["Offset of field: iodblpcpr::freq"][::std::mem::offset_of!(iodblpcpr, freq) - 4usize];
     ["Offset of field: iodblpcpr::duty"][::std::mem::offset_of!(iodblpcpr, duty) - 6usize];
     ["Offset of field: iodblpcpr::time"][::std::mem::offset_of!(iodblpcpr, time) - 8usize];
-    ["Offset of field: iodblpcpr::reserve"][::std::mem::offset_of!(iodblpcpr, reserve) - 16usize];
+    ["Offset of field: iodblpcpr::reserve"][::std::mem::offset_of!(iodblpcpr, reserve) - 12usize];
 };
 pub type IODBLPCPR = iodblpcpr;
 #[repr(C)]
@@ -11921,28 +11920,28 @@ pub struct iodblcmdt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodblcmdt"][::std::mem::size_of::<iodblcmdt>() - 64usize];
-    ["Alignment of iodblcmdt"][::std::mem::align_of::<iodblcmdt>() - 8usize];
+    ["Size of iodblcmdt"][::std::mem::size_of::<iodblcmdt>() - 44usize];
+    ["Alignment of iodblcmdt"][::std::mem::align_of::<iodblcmdt>() - 4usize];
     ["Offset of field: iodblcmdt::slct"][::std::mem::offset_of!(iodblcmdt, slct) - 0usize];
-    ["Offset of field: iodblcmdt::feed"][::std::mem::offset_of!(iodblcmdt, feed) - 8usize];
-    ["Offset of field: iodblcmdt::power"][::std::mem::offset_of!(iodblcmdt, power) - 16usize];
-    ["Offset of field: iodblcmdt::freq"][::std::mem::offset_of!(iodblcmdt, freq) - 18usize];
-    ["Offset of field: iodblcmdt::duty"][::std::mem::offset_of!(iodblcmdt, duty) - 20usize];
-    ["Offset of field: iodblcmdt::g_kind"][::std::mem::offset_of!(iodblcmdt, g_kind) - 22usize];
+    ["Offset of field: iodblcmdt::feed"][::std::mem::offset_of!(iodblcmdt, feed) - 4usize];
+    ["Offset of field: iodblcmdt::power"][::std::mem::offset_of!(iodblcmdt, power) - 8usize];
+    ["Offset of field: iodblcmdt::freq"][::std::mem::offset_of!(iodblcmdt, freq) - 10usize];
+    ["Offset of field: iodblcmdt::duty"][::std::mem::offset_of!(iodblcmdt, duty) - 12usize];
+    ["Offset of field: iodblcmdt::g_kind"][::std::mem::offset_of!(iodblcmdt, g_kind) - 14usize];
     ["Offset of field: iodblcmdt::g_ready_t"]
-        [::std::mem::offset_of!(iodblcmdt, g_ready_t) - 24usize];
-    ["Offset of field: iodblcmdt::g_press"][::std::mem::offset_of!(iodblcmdt, g_press) - 26usize];
-    ["Offset of field: iodblcmdt::error"][::std::mem::offset_of!(iodblcmdt, error) - 28usize];
-    ["Offset of field: iodblcmdt::dsplc"][::std::mem::offset_of!(iodblcmdt, dsplc) - 32usize];
-    ["Offset of field: iodblcmdt::error2"][::std::mem::offset_of!(iodblcmdt, error2) - 40usize];
-    ["Offset of field: iodblcmdt::gap_axis"][::std::mem::offset_of!(iodblcmdt, gap_axis) - 48usize];
-    ["Offset of field: iodblcmdt::feed_dec"][::std::mem::offset_of!(iodblcmdt, feed_dec) - 49usize];
+        [::std::mem::offset_of!(iodblcmdt, g_ready_t) - 16usize];
+    ["Offset of field: iodblcmdt::g_press"][::std::mem::offset_of!(iodblcmdt, g_press) - 18usize];
+    ["Offset of field: iodblcmdt::error"][::std::mem::offset_of!(iodblcmdt, error) - 20usize];
+    ["Offset of field: iodblcmdt::dsplc"][::std::mem::offset_of!(iodblcmdt, dsplc) - 24usize];
+    ["Offset of field: iodblcmdt::error2"][::std::mem::offset_of!(iodblcmdt, error2) - 28usize];
+    ["Offset of field: iodblcmdt::gap_axis"][::std::mem::offset_of!(iodblcmdt, gap_axis) - 32usize];
+    ["Offset of field: iodblcmdt::feed_dec"][::std::mem::offset_of!(iodblcmdt, feed_dec) - 33usize];
     ["Offset of field: iodblcmdt::dsplc_dec"]
-        [::std::mem::offset_of!(iodblcmdt, dsplc_dec) - 50usize];
+        [::std::mem::offset_of!(iodblcmdt, dsplc_dec) - 34usize];
     ["Offset of field: iodblcmdt::error2_dec"]
-        [::std::mem::offset_of!(iodblcmdt, error2_dec) - 51usize];
-    ["Offset of field: iodblcmdt::pb_power"][::std::mem::offset_of!(iodblcmdt, pb_power) - 52usize];
-    ["Offset of field: iodblcmdt::reserve"][::std::mem::offset_of!(iodblcmdt, reserve) - 54usize];
+        [::std::mem::offset_of!(iodblcmdt, error2_dec) - 35usize];
+    ["Offset of field: iodblcmdt::pb_power"][::std::mem::offset_of!(iodblcmdt, pb_power) - 36usize];
+    ["Offset of field: iodblcmdt::reserve"][::std::mem::offset_of!(iodblcmdt, reserve) - 38usize];
 };
 pub type ODBLCMDT = iodblcmdt;
 #[repr(C)]
@@ -11991,16 +11990,16 @@ pub struct odbpwofst {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpwofst"][::std::mem::size_of::<odbpwofst>() - 32usize];
-    ["Alignment of odbpwofst"][::std::mem::align_of::<odbpwofst>() - 8usize];
+    ["Size of odbpwofst"][::std::mem::size_of::<odbpwofst>() - 20usize];
+    ["Alignment of odbpwofst"][::std::mem::align_of::<odbpwofst>() - 4usize];
     ["Offset of field: odbpwofst::pwratio"][::std::mem::offset_of!(odbpwofst, pwratio) - 0usize];
-    ["Offset of field: odbpwofst::rfvolt"][::std::mem::offset_of!(odbpwofst, rfvolt) - 8usize];
-    ["Offset of field: odbpwofst::year"][::std::mem::offset_of!(odbpwofst, year) - 16usize];
-    ["Offset of field: odbpwofst::month"][::std::mem::offset_of!(odbpwofst, month) - 18usize];
-    ["Offset of field: odbpwofst::day"][::std::mem::offset_of!(odbpwofst, day) - 20usize];
-    ["Offset of field: odbpwofst::hour"][::std::mem::offset_of!(odbpwofst, hour) - 22usize];
-    ["Offset of field: odbpwofst::minute"][::std::mem::offset_of!(odbpwofst, minute) - 24usize];
-    ["Offset of field: odbpwofst::second"][::std::mem::offset_of!(odbpwofst, second) - 26usize];
+    ["Offset of field: odbpwofst::rfvolt"][::std::mem::offset_of!(odbpwofst, rfvolt) - 4usize];
+    ["Offset of field: odbpwofst::year"][::std::mem::offset_of!(odbpwofst, year) - 8usize];
+    ["Offset of field: odbpwofst::month"][::std::mem::offset_of!(odbpwofst, month) - 10usize];
+    ["Offset of field: odbpwofst::day"][::std::mem::offset_of!(odbpwofst, day) - 12usize];
+    ["Offset of field: odbpwofst::hour"][::std::mem::offset_of!(odbpwofst, hour) - 14usize];
+    ["Offset of field: odbpwofst::minute"][::std::mem::offset_of!(odbpwofst, minute) - 16usize];
+    ["Offset of field: odbpwofst::second"][::std::mem::offset_of!(odbpwofst, second) - 18usize];
 };
 pub type ODBPWOFST = odbpwofst;
 #[repr(C)]
@@ -12011,10 +12010,10 @@ pub struct iodbmngtime {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbmngtime"][::std::mem::size_of::<iodbmngtime>() - 16usize];
-    ["Alignment of iodbmngtime"][::std::mem::align_of::<iodbmngtime>() - 8usize];
+    ["Size of iodbmngtime"][::std::mem::size_of::<iodbmngtime>() - 8usize];
+    ["Alignment of iodbmngtime"][::std::mem::align_of::<iodbmngtime>() - 4usize];
     ["Offset of field: iodbmngtime::life"][::std::mem::offset_of!(iodbmngtime, life) - 0usize];
-    ["Offset of field: iodbmngtime::total"][::std::mem::offset_of!(iodbmngtime, total) - 8usize];
+    ["Offset of field: iodbmngtime::total"][::std::mem::offset_of!(iodbmngtime, total) - 4usize];
 };
 pub type IODBMNGTIME = iodbmngtime;
 #[repr(C)]
@@ -12040,8 +12039,8 @@ pub struct odbdischrg {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdischrg"][::std::mem::size_of::<odbdischrg>() - 352usize];
-    ["Alignment of odbdischrg"][::std::mem::align_of::<odbdischrg>() - 8usize];
+    ["Size of odbdischrg"][::std::mem::size_of::<odbdischrg>() - 188usize];
+    ["Alignment of odbdischrg"][::std::mem::align_of::<odbdischrg>() - 4usize];
     ["Offset of field: odbdischrg::aps"][::std::mem::offset_of!(odbdischrg, aps) - 0usize];
     ["Offset of field: odbdischrg::year"][::std::mem::offset_of!(odbdischrg, year) - 2usize];
     ["Offset of field: odbdischrg::month"][::std::mem::offset_of!(odbdischrg, month) - 4usize];
@@ -12054,11 +12053,11 @@ const _: () = {
     ["Offset of field: odbdischrg::hdt"][::std::mem::offset_of!(odbdischrg, hdt) - 18usize];
     ["Offset of field: odbdischrg::hpa"][::std::mem::offset_of!(odbdischrg, hpa) - 20usize];
     ["Offset of field: odbdischrg::hce"][::std::mem::offset_of!(odbdischrg, hce) - 24usize];
-    ["Offset of field: odbdischrg::rfi"][::std::mem::offset_of!(odbdischrg, rfi) - 32usize];
-    ["Offset of field: odbdischrg::rfv"][::std::mem::offset_of!(odbdischrg, rfv) - 96usize];
-    ["Offset of field: odbdischrg::dci"][::std::mem::offset_of!(odbdischrg, dci) - 160usize];
-    ["Offset of field: odbdischrg::dcv"][::std::mem::offset_of!(odbdischrg, dcv) - 224usize];
-    ["Offset of field: odbdischrg::dcw"][::std::mem::offset_of!(odbdischrg, dcw) - 288usize];
+    ["Offset of field: odbdischrg::rfi"][::std::mem::offset_of!(odbdischrg, rfi) - 28usize];
+    ["Offset of field: odbdischrg::rfv"][::std::mem::offset_of!(odbdischrg, rfv) - 60usize];
+    ["Offset of field: odbdischrg::dci"][::std::mem::offset_of!(odbdischrg, dci) - 92usize];
+    ["Offset of field: odbdischrg::dcv"][::std::mem::offset_of!(odbdischrg, dcv) - 124usize];
+    ["Offset of field: odbdischrg::dcw"][::std::mem::offset_of!(odbdischrg, dcw) - 156usize];
 };
 pub type ODBDISCHRG = odbdischrg;
 #[repr(C)]
@@ -12090,8 +12089,8 @@ pub struct odbdischrgalm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdischrgalm"][::std::mem::size_of::<odbdischrgalm>() - 392usize];
-    ["Alignment of odbdischrgalm"][::std::mem::align_of::<odbdischrgalm>() - 8usize];
+    ["Size of odbdischrgalm"][::std::mem::size_of::<odbdischrgalm>() - 216usize];
+    ["Alignment of odbdischrgalm"][::std::mem::align_of::<odbdischrgalm>() - 4usize];
     ["Offset of field: odbdischrgalm::year"][::std::mem::offset_of!(odbdischrgalm, year) - 0usize];
     ["Offset of field: odbdischrgalm::month"]
         [::std::mem::offset_of!(odbdischrgalm, month) - 2usize];
@@ -12102,25 +12101,25 @@ const _: () = {
     ["Offset of field: odbdischrgalm::second"]
         [::std::mem::offset_of!(odbdischrgalm, second) - 10usize];
     ["Offset of field: odbdischrgalm::almnum"]
-        [::std::mem::offset_of!(odbdischrgalm, almnum) - 16usize];
-    ["Offset of field: odbdischrgalm::psec"][::std::mem::offset_of!(odbdischrgalm, psec) - 24usize];
-    ["Offset of field: odbdischrgalm::hpc"][::std::mem::offset_of!(odbdischrgalm, hpc) - 32usize];
-    ["Offset of field: odbdischrgalm::hfq"][::std::mem::offset_of!(odbdischrgalm, hfq) - 34usize];
-    ["Offset of field: odbdischrgalm::hdt"][::std::mem::offset_of!(odbdischrgalm, hdt) - 36usize];
-    ["Offset of field: odbdischrgalm::hpa"][::std::mem::offset_of!(odbdischrgalm, hpa) - 38usize];
-    ["Offset of field: odbdischrgalm::hce"][::std::mem::offset_of!(odbdischrgalm, hce) - 40usize];
-    ["Offset of field: odbdischrgalm::asq"][::std::mem::offset_of!(odbdischrgalm, asq) - 48usize];
-    ["Offset of field: odbdischrgalm::psu"][::std::mem::offset_of!(odbdischrgalm, psu) - 50usize];
-    ["Offset of field: odbdischrgalm::aps"][::std::mem::offset_of!(odbdischrgalm, aps) - 52usize];
+        [::std::mem::offset_of!(odbdischrgalm, almnum) - 12usize];
+    ["Offset of field: odbdischrgalm::psec"][::std::mem::offset_of!(odbdischrgalm, psec) - 16usize];
+    ["Offset of field: odbdischrgalm::hpc"][::std::mem::offset_of!(odbdischrgalm, hpc) - 20usize];
+    ["Offset of field: odbdischrgalm::hfq"][::std::mem::offset_of!(odbdischrgalm, hfq) - 22usize];
+    ["Offset of field: odbdischrgalm::hdt"][::std::mem::offset_of!(odbdischrgalm, hdt) - 24usize];
+    ["Offset of field: odbdischrgalm::hpa"][::std::mem::offset_of!(odbdischrgalm, hpa) - 26usize];
+    ["Offset of field: odbdischrgalm::hce"][::std::mem::offset_of!(odbdischrgalm, hce) - 28usize];
+    ["Offset of field: odbdischrgalm::asq"][::std::mem::offset_of!(odbdischrgalm, asq) - 32usize];
+    ["Offset of field: odbdischrgalm::psu"][::std::mem::offset_of!(odbdischrgalm, psu) - 34usize];
+    ["Offset of field: odbdischrgalm::aps"][::std::mem::offset_of!(odbdischrgalm, aps) - 36usize];
     ["Offset of field: odbdischrgalm::dummy"]
-        [::std::mem::offset_of!(odbdischrgalm, dummy) - 54usize];
-    ["Offset of field: odbdischrgalm::rfi"][::std::mem::offset_of!(odbdischrgalm, rfi) - 56usize];
-    ["Offset of field: odbdischrgalm::rfv"][::std::mem::offset_of!(odbdischrgalm, rfv) - 120usize];
-    ["Offset of field: odbdischrgalm::dci"][::std::mem::offset_of!(odbdischrgalm, dci) - 184usize];
-    ["Offset of field: odbdischrgalm::dcv"][::std::mem::offset_of!(odbdischrgalm, dcv) - 248usize];
-    ["Offset of field: odbdischrgalm::dcw"][::std::mem::offset_of!(odbdischrgalm, dcw) - 312usize];
+        [::std::mem::offset_of!(odbdischrgalm, dummy) - 38usize];
+    ["Offset of field: odbdischrgalm::rfi"][::std::mem::offset_of!(odbdischrgalm, rfi) - 40usize];
+    ["Offset of field: odbdischrgalm::rfv"][::std::mem::offset_of!(odbdischrgalm, rfv) - 72usize];
+    ["Offset of field: odbdischrgalm::dci"][::std::mem::offset_of!(odbdischrgalm, dci) - 104usize];
+    ["Offset of field: odbdischrgalm::dcv"][::std::mem::offset_of!(odbdischrgalm, dcv) - 136usize];
+    ["Offset of field: odbdischrgalm::dcw"][::std::mem::offset_of!(odbdischrgalm, dcw) - 168usize];
     ["Offset of field: odbdischrgalm::almcd"]
-        [::std::mem::offset_of!(odbdischrgalm, almcd) - 376usize];
+        [::std::mem::offset_of!(odbdischrgalm, almcd) - 200usize];
 };
 pub type ODBDISCHRGALM = odbdischrgalm;
 #[repr(C)]
@@ -12263,10 +12262,10 @@ pub struct iodbtime {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtime"][::std::mem::size_of::<iodbtime>() - 16usize];
-    ["Alignment of iodbtime"][::std::mem::align_of::<iodbtime>() - 8usize];
+    ["Size of iodbtime"][::std::mem::size_of::<iodbtime>() - 8usize];
+    ["Alignment of iodbtime"][::std::mem::align_of::<iodbtime>() - 4usize];
     ["Offset of field: iodbtime::minute"][::std::mem::offset_of!(iodbtime, minute) - 0usize];
-    ["Offset of field: iodbtime::msec"][::std::mem::offset_of!(iodbtime, msec) - 8usize];
+    ["Offset of field: iodbtime::msec"][::std::mem::offset_of!(iodbtime, msec) - 4usize];
 };
 pub type IODBTIME = iodbtime;
 #[repr(C)]
@@ -12284,8 +12283,8 @@ pub struct iodbtlctl {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtlctl"][::std::mem::size_of::<iodbtlctl>() - 64usize];
-    ["Alignment of iodbtlctl"][::std::mem::align_of::<iodbtlctl>() - 8usize];
+    ["Size of iodbtlctl"][::std::mem::size_of::<iodbtlctl>() - 48usize];
+    ["Alignment of iodbtlctl"][::std::mem::align_of::<iodbtlctl>() - 4usize];
     ["Offset of field: iodbtlctl::slct"][::std::mem::offset_of!(iodbtlctl, slct) - 0usize];
     ["Offset of field: iodbtlctl::used_tool"]
         [::std::mem::offset_of!(iodbtlctl, used_tool) - 2usize];
@@ -12294,13 +12293,13 @@ const _: () = {
     ["Offset of field: iodbtlctl::zero_tl_no"]
         [::std::mem::offset_of!(iodbtlctl, zero_tl_no) - 8usize];
     ["Offset of field: iodbtlctl::t_axis_move"]
-        [::std::mem::offset_of!(iodbtlctl, t_axis_move) - 16usize];
+        [::std::mem::offset_of!(iodbtlctl, t_axis_move) - 12usize];
     ["Offset of field: iodbtlctl::total_punch"]
-        [::std::mem::offset_of!(iodbtlctl, total_punch) - 24usize];
+        [::std::mem::offset_of!(iodbtlctl, total_punch) - 16usize];
     ["Offset of field: iodbtlctl::t_axis_dec"]
-        [::std::mem::offset_of!(iodbtlctl, t_axis_dec) - 40usize];
-    ["Offset of field: iodbtlctl::reserve"][::std::mem::offset_of!(iodbtlctl, reserve) - 41usize];
-    ["Offset of field: iodbtlctl::reserves"][::std::mem::offset_of!(iodbtlctl, reserves) - 42usize];
+        [::std::mem::offset_of!(iodbtlctl, t_axis_dec) - 24usize];
+    ["Offset of field: iodbtlctl::reserve"][::std::mem::offset_of!(iodbtlctl, reserve) - 25usize];
+    ["Offset of field: iodbtlctl::reserves"][::std::mem::offset_of!(iodbtlctl, reserves) - 26usize];
 };
 pub type IODBTLCTL = iodbtlctl;
 #[repr(C)]
@@ -12332,45 +12331,45 @@ pub struct iodbtldt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtldt"][::std::mem::size_of::<iodbtldt>() - 128usize];
-    ["Alignment of iodbtldt"][::std::mem::align_of::<iodbtldt>() - 8usize];
+    ["Size of iodbtldt"][::std::mem::size_of::<iodbtldt>() - 68usize];
+    ["Alignment of iodbtldt"][::std::mem::align_of::<iodbtldt>() - 4usize];
     ["Offset of field: iodbtldt::slct"][::std::mem::offset_of!(iodbtldt, slct) - 0usize];
-    ["Offset of field: iodbtldt::tool_no"][::std::mem::offset_of!(iodbtldt, tool_no) - 8usize];
+    ["Offset of field: iodbtldt::tool_no"][::std::mem::offset_of!(iodbtldt, tool_no) - 4usize];
     ["Offset of field: iodbtldt::x_axis_ofs"]
-        [::std::mem::offset_of!(iodbtldt, x_axis_ofs) - 16usize];
+        [::std::mem::offset_of!(iodbtldt, x_axis_ofs) - 8usize];
     ["Offset of field: iodbtldt::y_axis_ofs"]
-        [::std::mem::offset_of!(iodbtldt, y_axis_ofs) - 24usize];
+        [::std::mem::offset_of!(iodbtldt, y_axis_ofs) - 12usize];
     ["Offset of field: iodbtldt::turret_pos"]
-        [::std::mem::offset_of!(iodbtldt, turret_pos) - 32usize];
-    ["Offset of field: iodbtldt::chg_tl_no"][::std::mem::offset_of!(iodbtldt, chg_tl_no) - 40usize];
+        [::std::mem::offset_of!(iodbtldt, turret_pos) - 16usize];
+    ["Offset of field: iodbtldt::chg_tl_no"][::std::mem::offset_of!(iodbtldt, chg_tl_no) - 20usize];
     ["Offset of field: iodbtldt::punch_count"]
-        [::std::mem::offset_of!(iodbtldt, punch_count) - 48usize];
-    ["Offset of field: iodbtldt::tool_life"][::std::mem::offset_of!(iodbtldt, tool_life) - 56usize];
+        [::std::mem::offset_of!(iodbtldt, punch_count) - 24usize];
+    ["Offset of field: iodbtldt::tool_life"][::std::mem::offset_of!(iodbtldt, tool_life) - 28usize];
     ["Offset of field: iodbtldt::m_tl_radius"]
-        [::std::mem::offset_of!(iodbtldt, m_tl_radius) - 64usize];
+        [::std::mem::offset_of!(iodbtldt, m_tl_radius) - 32usize];
     ["Offset of field: iodbtldt::m_tl_angle"]
-        [::std::mem::offset_of!(iodbtldt, m_tl_angle) - 72usize];
-    ["Offset of field: iodbtldt::tl_shape"][::std::mem::offset_of!(iodbtldt, tl_shape) - 80usize];
-    ["Offset of field: iodbtldt::tl_size_i"][::std::mem::offset_of!(iodbtldt, tl_size_i) - 88usize];
-    ["Offset of field: iodbtldt::tl_size_j"][::std::mem::offset_of!(iodbtldt, tl_size_j) - 96usize];
-    ["Offset of field: iodbtldt::tl_angle"][::std::mem::offset_of!(iodbtldt, tl_angle) - 104usize];
+        [::std::mem::offset_of!(iodbtldt, m_tl_angle) - 36usize];
+    ["Offset of field: iodbtldt::tl_shape"][::std::mem::offset_of!(iodbtldt, tl_shape) - 40usize];
+    ["Offset of field: iodbtldt::tl_size_i"][::std::mem::offset_of!(iodbtldt, tl_size_i) - 44usize];
+    ["Offset of field: iodbtldt::tl_size_j"][::std::mem::offset_of!(iodbtldt, tl_size_j) - 48usize];
+    ["Offset of field: iodbtldt::tl_angle"][::std::mem::offset_of!(iodbtldt, tl_angle) - 52usize];
     ["Offset of field: iodbtldt::x_axis_dec"]
-        [::std::mem::offset_of!(iodbtldt, x_axis_dec) - 112usize];
+        [::std::mem::offset_of!(iodbtldt, x_axis_dec) - 56usize];
     ["Offset of field: iodbtldt::y_axis_dec"]
-        [::std::mem::offset_of!(iodbtldt, y_axis_dec) - 113usize];
+        [::std::mem::offset_of!(iodbtldt, y_axis_dec) - 57usize];
     ["Offset of field: iodbtldt::turret_dec"]
-        [::std::mem::offset_of!(iodbtldt, turret_dec) - 114usize];
+        [::std::mem::offset_of!(iodbtldt, turret_dec) - 58usize];
     ["Offset of field: iodbtldt::m_radius_dec"]
-        [::std::mem::offset_of!(iodbtldt, m_radius_dec) - 115usize];
+        [::std::mem::offset_of!(iodbtldt, m_radius_dec) - 59usize];
     ["Offset of field: iodbtldt::m_angle_dec"]
-        [::std::mem::offset_of!(iodbtldt, m_angle_dec) - 116usize];
+        [::std::mem::offset_of!(iodbtldt, m_angle_dec) - 60usize];
     ["Offset of field: iodbtldt::tl_size_i_dec"]
-        [::std::mem::offset_of!(iodbtldt, tl_size_i_dec) - 117usize];
+        [::std::mem::offset_of!(iodbtldt, tl_size_i_dec) - 61usize];
     ["Offset of field: iodbtldt::tl_size_j_dec"]
-        [::std::mem::offset_of!(iodbtldt, tl_size_j_dec) - 118usize];
+        [::std::mem::offset_of!(iodbtldt, tl_size_j_dec) - 62usize];
     ["Offset of field: iodbtldt::tl_angle_dec"]
-        [::std::mem::offset_of!(iodbtldt, tl_angle_dec) - 119usize];
-    ["Offset of field: iodbtldt::reserve"][::std::mem::offset_of!(iodbtldt, reserve) - 120usize];
+        [::std::mem::offset_of!(iodbtldt, tl_angle_dec) - 63usize];
+    ["Offset of field: iodbtldt::reserve"][::std::mem::offset_of!(iodbtldt, reserve) - 64usize];
 };
 pub type IODBTLDT = iodbtldt;
 #[repr(C)]
@@ -12398,40 +12397,40 @@ pub struct iodbmlttl {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbmlttl"][::std::mem::size_of::<iodbmlttl>() - 120usize];
-    ["Alignment of iodbmlttl"][::std::mem::align_of::<iodbmlttl>() - 8usize];
+    ["Size of iodbmlttl"][::std::mem::size_of::<iodbmlttl>() - 64usize];
+    ["Alignment of iodbmlttl"][::std::mem::align_of::<iodbmlttl>() - 4usize];
     ["Offset of field: iodbmlttl::slct"][::std::mem::offset_of!(iodbmlttl, slct) - 0usize];
     ["Offset of field: iodbmlttl::m_tl_no"][::std::mem::offset_of!(iodbmlttl, m_tl_no) - 2usize];
     ["Offset of field: iodbmlttl::m_tl_radius"]
-        [::std::mem::offset_of!(iodbmlttl, m_tl_radius) - 8usize];
+        [::std::mem::offset_of!(iodbmlttl, m_tl_radius) - 4usize];
     ["Offset of field: iodbmlttl::m_tl_angle"]
-        [::std::mem::offset_of!(iodbmlttl, m_tl_angle) - 16usize];
+        [::std::mem::offset_of!(iodbmlttl, m_tl_angle) - 8usize];
     ["Offset of field: iodbmlttl::x_axis_ofs"]
-        [::std::mem::offset_of!(iodbmlttl, x_axis_ofs) - 24usize];
+        [::std::mem::offset_of!(iodbmlttl, x_axis_ofs) - 12usize];
     ["Offset of field: iodbmlttl::y_axis_ofs"]
-        [::std::mem::offset_of!(iodbmlttl, y_axis_ofs) - 32usize];
-    ["Offset of field: iodbmlttl::tl_shape"][::std::mem::offset_of!(iodbmlttl, tl_shape) - 40usize];
+        [::std::mem::offset_of!(iodbmlttl, y_axis_ofs) - 16usize];
+    ["Offset of field: iodbmlttl::tl_shape"][::std::mem::offset_of!(iodbmlttl, tl_shape) - 20usize];
     ["Offset of field: iodbmlttl::tl_size_i"]
-        [::std::mem::offset_of!(iodbmlttl, tl_size_i) - 48usize];
+        [::std::mem::offset_of!(iodbmlttl, tl_size_i) - 24usize];
     ["Offset of field: iodbmlttl::tl_size_j"]
-        [::std::mem::offset_of!(iodbmlttl, tl_size_j) - 56usize];
-    ["Offset of field: iodbmlttl::tl_angle"][::std::mem::offset_of!(iodbmlttl, tl_angle) - 64usize];
+        [::std::mem::offset_of!(iodbmlttl, tl_size_j) - 28usize];
+    ["Offset of field: iodbmlttl::tl_angle"][::std::mem::offset_of!(iodbmlttl, tl_angle) - 32usize];
     ["Offset of field: iodbmlttl::m_radius_dec"]
-        [::std::mem::offset_of!(iodbmlttl, m_radius_dec) - 72usize];
+        [::std::mem::offset_of!(iodbmlttl, m_radius_dec) - 36usize];
     ["Offset of field: iodbmlttl::m_angle_dec"]
-        [::std::mem::offset_of!(iodbmlttl, m_angle_dec) - 73usize];
+        [::std::mem::offset_of!(iodbmlttl, m_angle_dec) - 37usize];
     ["Offset of field: iodbmlttl::x_axis_dec"]
-        [::std::mem::offset_of!(iodbmlttl, x_axis_dec) - 74usize];
+        [::std::mem::offset_of!(iodbmlttl, x_axis_dec) - 38usize];
     ["Offset of field: iodbmlttl::y_axis_dec"]
-        [::std::mem::offset_of!(iodbmlttl, y_axis_dec) - 75usize];
+        [::std::mem::offset_of!(iodbmlttl, y_axis_dec) - 39usize];
     ["Offset of field: iodbmlttl::tl_size_i_dec"]
-        [::std::mem::offset_of!(iodbmlttl, tl_size_i_dec) - 76usize];
+        [::std::mem::offset_of!(iodbmlttl, tl_size_i_dec) - 40usize];
     ["Offset of field: iodbmlttl::tl_size_j_dec"]
-        [::std::mem::offset_of!(iodbmlttl, tl_size_j_dec) - 77usize];
+        [::std::mem::offset_of!(iodbmlttl, tl_size_j_dec) - 41usize];
     ["Offset of field: iodbmlttl::tl_angle_dec"]
-        [::std::mem::offset_of!(iodbmlttl, tl_angle_dec) - 78usize];
-    ["Offset of field: iodbmlttl::reserve"][::std::mem::offset_of!(iodbmlttl, reserve) - 79usize];
-    ["Offset of field: iodbmlttl::reserves"][::std::mem::offset_of!(iodbmlttl, reserves) - 80usize];
+        [::std::mem::offset_of!(iodbmlttl, tl_angle_dec) - 42usize];
+    ["Offset of field: iodbmlttl::reserve"][::std::mem::offset_of!(iodbmlttl, reserve) - 43usize];
+    ["Offset of field: iodbmlttl::reserves"][::std::mem::offset_of!(iodbmlttl, reserves) - 44usize];
 };
 pub type IODBMLTTL = iodbmlttl;
 #[repr(C)]
@@ -12447,18 +12446,18 @@ pub struct iodbmtap {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbmtap"][::std::mem::size_of::<iodbmtap>() - 136usize];
-    ["Alignment of iodbmtap"][::std::mem::align_of::<iodbmtap>() - 8usize];
+    ["Size of iodbmtap"][::std::mem::size_of::<iodbmtap>() - 68usize];
+    ["Alignment of iodbmtap"][::std::mem::align_of::<iodbmtap>() - 4usize];
     ["Offset of field: iodbmtap::slct"][::std::mem::offset_of!(iodbmtap, slct) - 0usize];
-    ["Offset of field: iodbmtap::tool_no"][::std::mem::offset_of!(iodbmtap, tool_no) - 8usize];
+    ["Offset of field: iodbmtap::tool_no"][::std::mem::offset_of!(iodbmtap, tool_no) - 4usize];
     ["Offset of field: iodbmtap::x_axis_ofs"]
-        [::std::mem::offset_of!(iodbmtap, x_axis_ofs) - 16usize];
+        [::std::mem::offset_of!(iodbmtap, x_axis_ofs) - 8usize];
     ["Offset of field: iodbmtap::y_axis_ofs"]
-        [::std::mem::offset_of!(iodbmtap, y_axis_ofs) - 24usize];
+        [::std::mem::offset_of!(iodbmtap, y_axis_ofs) - 12usize];
     ["Offset of field: iodbmtap::punch_count"]
-        [::std::mem::offset_of!(iodbmtap, punch_count) - 32usize];
-    ["Offset of field: iodbmtap::tool_life"][::std::mem::offset_of!(iodbmtap, tool_life) - 40usize];
-    ["Offset of field: iodbmtap::reserve"][::std::mem::offset_of!(iodbmtap, reserve) - 48usize];
+        [::std::mem::offset_of!(iodbmtap, punch_count) - 16usize];
+    ["Offset of field: iodbmtap::tool_life"][::std::mem::offset_of!(iodbmtap, tool_life) - 20usize];
+    ["Offset of field: iodbmtap::reserve"][::std::mem::offset_of!(iodbmtap, reserve) - 24usize];
 };
 pub type IODBMTAP = iodbmtap;
 #[repr(C)]
@@ -12491,10 +12490,10 @@ pub struct iodbsafe {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbsafe"][::std::mem::size_of::<iodbsafe>() - 32usize];
-    ["Alignment of iodbsafe"][::std::mem::align_of::<iodbsafe>() - 8usize];
+    ["Size of iodbsafe"][::std::mem::size_of::<iodbsafe>() - 16usize];
+    ["Alignment of iodbsafe"][::std::mem::align_of::<iodbsafe>() - 4usize];
     ["Offset of field: iodbsafe::slct"][::std::mem::offset_of!(iodbsafe, slct) - 0usize];
-    ["Offset of field: iodbsafe::data"][::std::mem::offset_of!(iodbsafe, data) - 8usize];
+    ["Offset of field: iodbsafe::data"][::std::mem::offset_of!(iodbsafe, data) - 4usize];
 };
 pub type IODBSAFE = iodbsafe;
 #[repr(C)]
@@ -12505,10 +12504,10 @@ pub struct iodbtlzn {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbtlzn"][::std::mem::size_of::<iodbtlzn>() - 24usize];
-    ["Alignment of iodbtlzn"][::std::mem::align_of::<iodbtlzn>() - 8usize];
+    ["Size of iodbtlzn"][::std::mem::size_of::<iodbtlzn>() - 12usize];
+    ["Alignment of iodbtlzn"][::std::mem::align_of::<iodbtlzn>() - 4usize];
     ["Offset of field: iodbtlzn::slct"][::std::mem::offset_of!(iodbtlzn, slct) - 0usize];
-    ["Offset of field: iodbtlzn::data"][::std::mem::offset_of!(iodbtlzn, data) - 8usize];
+    ["Offset of field: iodbtlzn::data"][::std::mem::offset_of!(iodbtlzn, data) - 4usize];
 };
 pub type IODBTLZN = iodbtlzn;
 #[repr(C)]
@@ -12519,10 +12518,10 @@ pub struct odbacttlzn {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbacttlzn"][::std::mem::size_of::<odbacttlzn>() - 24usize];
-    ["Alignment of odbacttlzn"][::std::mem::align_of::<odbacttlzn>() - 8usize];
+    ["Size of odbacttlzn"][::std::mem::size_of::<odbacttlzn>() - 12usize];
+    ["Alignment of odbacttlzn"][::std::mem::align_of::<odbacttlzn>() - 4usize];
     ["Offset of field: odbacttlzn::act_no"][::std::mem::offset_of!(odbacttlzn, act_no) - 0usize];
-    ["Offset of field: odbacttlzn::data"][::std::mem::offset_of!(odbacttlzn, data) - 8usize];
+    ["Offset of field: odbacttlzn::data"][::std::mem::offset_of!(odbacttlzn, data) - 4usize];
 };
 pub type ODBACTTLZN = odbacttlzn;
 #[repr(C)]
@@ -12533,10 +12532,10 @@ pub struct odbbrs {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbbrs"][::std::mem::size_of::<odbbrs>() - 512usize];
-    ["Alignment of odbbrs"][::std::mem::align_of::<odbbrs>() - 8usize];
+    ["Size of odbbrs"][::std::mem::size_of::<odbbrs>() - 256usize];
+    ["Alignment of odbbrs"][::std::mem::align_of::<odbbrs>() - 4usize];
     ["Offset of field: odbbrs::dest"][::std::mem::offset_of!(odbbrs, dest) - 0usize];
-    ["Offset of field: odbbrs::dist"][::std::mem::offset_of!(odbbrs, dist) - 256usize];
+    ["Offset of field: odbbrs::dist"][::std::mem::offset_of!(odbbrs, dist) - 128usize];
 };
 pub type ODBBRS = odbbrs;
 #[repr(C)]
@@ -12548,8 +12547,8 @@ pub struct odbrofs {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbrofs"][::std::mem::size_of::<odbrofs>() - 24usize];
-    ["Alignment of odbrofs"][::std::mem::align_of::<odbrofs>() - 8usize];
+    ["Size of odbrofs"][::std::mem::size_of::<odbrofs>() - 16usize];
+    ["Alignment of odbrofs"][::std::mem::align_of::<odbrofs>() - 4usize];
     ["Offset of field: odbrofs::mode"][::std::mem::offset_of!(odbrofs, mode) - 0usize];
     ["Offset of field: odbrofs::pln_axes"][::std::mem::offset_of!(odbrofs, pln_axes) - 2usize];
     ["Offset of field: odbrofs::ofsvct"][::std::mem::offset_of!(odbrofs, ofsvct) - 8usize];
@@ -12563,10 +12562,10 @@ pub struct odblofs {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odblofs"][::std::mem::size_of::<odblofs>() - 264usize];
-    ["Alignment of odblofs"][::std::mem::align_of::<odblofs>() - 8usize];
+    ["Size of odblofs"][::std::mem::size_of::<odblofs>() - 132usize];
+    ["Alignment of odblofs"][::std::mem::align_of::<odblofs>() - 4usize];
     ["Offset of field: odblofs::mode"][::std::mem::offset_of!(odblofs, mode) - 0usize];
-    ["Offset of field: odblofs::ofsvct"][::std::mem::offset_of!(odblofs, ofsvct) - 8usize];
+    ["Offset of field: odblofs::ofsvct"][::std::mem::offset_of!(odblofs, ofsvct) - 4usize];
 };
 pub type ODBLOFS = odblofs;
 #[repr(C)]
@@ -12585,18 +12584,18 @@ pub struct odbfix {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbfix"][::std::mem::size_of::<odbfix>() - 72usize];
-    ["Alignment of odbfix"][::std::mem::align_of::<odbfix>() - 8usize];
+    ["Size of odbfix"][::std::mem::size_of::<odbfix>() - 40usize];
+    ["Alignment of odbfix"][::std::mem::align_of::<odbfix>() - 4usize];
     ["Offset of field: odbfix::mode"][::std::mem::offset_of!(odbfix, mode) - 0usize];
     ["Offset of field: odbfix::pln_axes"][::std::mem::offset_of!(odbfix, pln_axes) - 2usize];
     ["Offset of field: odbfix::drl_axes"][::std::mem::offset_of!(odbfix, drl_axes) - 6usize];
     ["Offset of field: odbfix::i_pos"][::std::mem::offset_of!(odbfix, i_pos) - 8usize];
-    ["Offset of field: odbfix::r_pos"][::std::mem::offset_of!(odbfix, r_pos) - 16usize];
-    ["Offset of field: odbfix::z_pos"][::std::mem::offset_of!(odbfix, z_pos) - 24usize];
-    ["Offset of field: odbfix::cmd_cnt"][::std::mem::offset_of!(odbfix, cmd_cnt) - 32usize];
-    ["Offset of field: odbfix::act_cnt"][::std::mem::offset_of!(odbfix, act_cnt) - 40usize];
-    ["Offset of field: odbfix::cut"][::std::mem::offset_of!(odbfix, cut) - 48usize];
-    ["Offset of field: odbfix::shift"][::std::mem::offset_of!(odbfix, shift) - 56usize];
+    ["Offset of field: odbfix::r_pos"][::std::mem::offset_of!(odbfix, r_pos) - 12usize];
+    ["Offset of field: odbfix::z_pos"][::std::mem::offset_of!(odbfix, z_pos) - 16usize];
+    ["Offset of field: odbfix::cmd_cnt"][::std::mem::offset_of!(odbfix, cmd_cnt) - 20usize];
+    ["Offset of field: odbfix::act_cnt"][::std::mem::offset_of!(odbfix, act_cnt) - 24usize];
+    ["Offset of field: odbfix::cut"][::std::mem::offset_of!(odbfix, cut) - 28usize];
+    ["Offset of field: odbfix::shift"][::std::mem::offset_of!(odbfix, shift) - 32usize];
 };
 pub type ODBFIX = odbfix;
 #[repr(C)]
@@ -12609,12 +12608,12 @@ pub struct odbrot {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbrot"][::std::mem::size_of::<odbrot>() - 32usize];
-    ["Alignment of odbrot"][::std::mem::align_of::<odbrot>() - 8usize];
+    ["Size of odbrot"][::std::mem::size_of::<odbrot>() - 20usize];
+    ["Alignment of odbrot"][::std::mem::align_of::<odbrot>() - 4usize];
     ["Offset of field: odbrot::mode"][::std::mem::offset_of!(odbrot, mode) - 0usize];
     ["Offset of field: odbrot::pln_axes"][::std::mem::offset_of!(odbrot, pln_axes) - 2usize];
     ["Offset of field: odbrot::center"][::std::mem::offset_of!(odbrot, center) - 8usize];
-    ["Offset of field: odbrot::angle"][::std::mem::offset_of!(odbrot, angle) - 24usize];
+    ["Offset of field: odbrot::angle"][::std::mem::offset_of!(odbrot, angle) - 16usize];
 };
 pub type ODBROT = odbrot;
 #[repr(C)]
@@ -12629,14 +12628,14 @@ pub struct odb3dcd {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odb3dcd"][::std::mem::size_of::<odb3dcd>() - 128usize];
-    ["Alignment of odb3dcd"][::std::mem::align_of::<odb3dcd>() - 8usize];
+    ["Size of odb3dcd"][::std::mem::size_of::<odb3dcd>() - 68usize];
+    ["Alignment of odb3dcd"][::std::mem::align_of::<odb3dcd>() - 4usize];
     ["Offset of field: odb3dcd::mode"][::std::mem::offset_of!(odb3dcd, mode) - 0usize];
     ["Offset of field: odb3dcd::dno"][::std::mem::offset_of!(odb3dcd, dno) - 2usize];
     ["Offset of field: odb3dcd::cd_axes"][::std::mem::offset_of!(odb3dcd, cd_axes) - 4usize];
-    ["Offset of field: odb3dcd::center"][::std::mem::offset_of!(odb3dcd, center) - 16usize];
-    ["Offset of field: odb3dcd::direct"][::std::mem::offset_of!(odb3dcd, direct) - 64usize];
-    ["Offset of field: odb3dcd::angle"][::std::mem::offset_of!(odb3dcd, angle) - 112usize];
+    ["Offset of field: odb3dcd::center"][::std::mem::offset_of!(odb3dcd, center) - 12usize];
+    ["Offset of field: odb3dcd::direct"][::std::mem::offset_of!(odb3dcd, direct) - 36usize];
+    ["Offset of field: odb3dcd::angle"][::std::mem::offset_of!(odb3dcd, angle) - 60usize];
 };
 pub type ODB3DCD = odb3dcd;
 #[repr(C)]
@@ -12648,11 +12647,11 @@ pub struct odbmir {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmir"][::std::mem::size_of::<odbmir>() - 272usize];
-    ["Alignment of odbmir"][::std::mem::align_of::<odbmir>() - 8usize];
+    ["Size of odbmir"][::std::mem::size_of::<odbmir>() - 136usize];
+    ["Alignment of odbmir"][::std::mem::align_of::<odbmir>() - 4usize];
     ["Offset of field: odbmir::mode"][::std::mem::offset_of!(odbmir, mode) - 0usize];
-    ["Offset of field: odbmir::mir_flag"][::std::mem::offset_of!(odbmir, mir_flag) - 8usize];
-    ["Offset of field: odbmir::mir_pos"][::std::mem::offset_of!(odbmir, mir_pos) - 16usize];
+    ["Offset of field: odbmir::mir_flag"][::std::mem::offset_of!(odbmir, mir_flag) - 4usize];
+    ["Offset of field: odbmir::mir_pos"][::std::mem::offset_of!(odbmir, mir_pos) - 8usize];
 };
 pub type ODBMIR = odbmir;
 #[repr(C)]
@@ -12664,11 +12663,11 @@ pub struct odbscl {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbscl"][::std::mem::size_of::<odbscl>() - 520usize];
-    ["Alignment of odbscl"][::std::mem::align_of::<odbscl>() - 8usize];
+    ["Size of odbscl"][::std::mem::size_of::<odbscl>() - 260usize];
+    ["Alignment of odbscl"][::std::mem::align_of::<odbscl>() - 4usize];
     ["Offset of field: odbscl::mode"][::std::mem::offset_of!(odbscl, mode) - 0usize];
-    ["Offset of field: odbscl::center"][::std::mem::offset_of!(odbscl, center) - 8usize];
-    ["Offset of field: odbscl::magnif"][::std::mem::offset_of!(odbscl, magnif) - 264usize];
+    ["Offset of field: odbscl::center"][::std::mem::offset_of!(odbscl, center) - 4usize];
+    ["Offset of field: odbscl::magnif"][::std::mem::offset_of!(odbscl, magnif) - 132usize];
 };
 pub type ODBSCL = odbscl;
 #[repr(C)]
@@ -12680,8 +12679,8 @@ pub struct odb3dto {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odb3dto"][::std::mem::size_of::<odb3dto>() - 32usize];
-    ["Alignment of odb3dto"][::std::mem::align_of::<odb3dto>() - 8usize];
+    ["Size of odb3dto"][::std::mem::size_of::<odb3dto>() - 20usize];
+    ["Alignment of odb3dto"][::std::mem::align_of::<odb3dto>() - 4usize];
     ["Offset of field: odb3dto::mode"][::std::mem::offset_of!(odb3dto, mode) - 0usize];
     ["Offset of field: odb3dto::ofs_axes"][::std::mem::offset_of!(odb3dto, ofs_axes) - 2usize];
     ["Offset of field: odb3dto::ofsvct"][::std::mem::offset_of!(odb3dto, ofsvct) - 8usize];
@@ -12695,10 +12694,10 @@ pub struct odbpofs {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpofs"][::std::mem::size_of::<odbpofs>() - 264usize];
-    ["Alignment of odbpofs"][::std::mem::align_of::<odbpofs>() - 8usize];
+    ["Size of odbpofs"][::std::mem::size_of::<odbpofs>() - 132usize];
+    ["Alignment of odbpofs"][::std::mem::align_of::<odbpofs>() - 4usize];
     ["Offset of field: odbpofs::mode"][::std::mem::offset_of!(odbpofs, mode) - 0usize];
-    ["Offset of field: odbpofs::ofsvct"][::std::mem::offset_of!(odbpofs, ofsvct) - 8usize];
+    ["Offset of field: odbpofs::ofsvct"][::std::mem::offset_of!(odbpofs, ofsvct) - 4usize];
 };
 pub type ODBPOFS = odbpofs;
 #[repr(C)]
@@ -12718,19 +12717,19 @@ pub struct iodbhpst {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbhpst"][::std::mem::size_of::<iodbhpst>() - 88usize];
-    ["Alignment of iodbhpst"][::std::mem::align_of::<iodbhpst>() - 8usize];
+    ["Size of iodbhpst"][::std::mem::size_of::<iodbhpst>() - 52usize];
+    ["Alignment of iodbhpst"][::std::mem::align_of::<iodbhpst>() - 4usize];
     ["Offset of field: iodbhpst::slct"][::std::mem::offset_of!(iodbhpst, slct) - 0usize];
     ["Offset of field: iodbhpst::hpcc"][::std::mem::offset_of!(iodbhpst, hpcc) - 2usize];
     ["Offset of field: iodbhpst::multi"][::std::mem::offset_of!(iodbhpst, multi) - 4usize];
     ["Offset of field: iodbhpst::ovr1"][::std::mem::offset_of!(iodbhpst, ovr1) - 6usize];
     ["Offset of field: iodbhpst::ign_f"][::std::mem::offset_of!(iodbhpst, ign_f) - 8usize];
     ["Offset of field: iodbhpst::foward"][::std::mem::offset_of!(iodbhpst, foward) - 10usize];
-    ["Offset of field: iodbhpst::max_f"][::std::mem::offset_of!(iodbhpst, max_f) - 16usize];
-    ["Offset of field: iodbhpst::ovr2"][::std::mem::offset_of!(iodbhpst, ovr2) - 24usize];
-    ["Offset of field: iodbhpst::ovr3"][::std::mem::offset_of!(iodbhpst, ovr3) - 26usize];
-    ["Offset of field: iodbhpst::ovr4"][::std::mem::offset_of!(iodbhpst, ovr4) - 28usize];
-    ["Offset of field: iodbhpst::reserve"][::std::mem::offset_of!(iodbhpst, reserve) - 32usize];
+    ["Offset of field: iodbhpst::max_f"][::std::mem::offset_of!(iodbhpst, max_f) - 12usize];
+    ["Offset of field: iodbhpst::ovr2"][::std::mem::offset_of!(iodbhpst, ovr2) - 16usize];
+    ["Offset of field: iodbhpst::ovr3"][::std::mem::offset_of!(iodbhpst, ovr3) - 18usize];
+    ["Offset of field: iodbhpst::ovr4"][::std::mem::offset_of!(iodbhpst, ovr4) - 20usize];
+    ["Offset of field: iodbhpst::reserve"][::std::mem::offset_of!(iodbhpst, reserve) - 24usize];
 };
 pub type IODBHPST = iodbhpst;
 #[repr(C)]
@@ -12758,9 +12757,9 @@ pub struct iodbhppr__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbhppr__bindgen_ty_1"][::std::mem::size_of::<iodbhppr__bindgen_ty_1>() - 112usize];
+    ["Size of iodbhppr__bindgen_ty_1"][::std::mem::size_of::<iodbhppr__bindgen_ty_1>() - 60usize];
     ["Alignment of iodbhppr__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbhppr__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbhppr__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbhppr__bindgen_ty_1::slct"]
         [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, slct) - 0usize];
     ["Offset of field: iodbhppr__bindgen_ty_1::diff"]
@@ -12772,28 +12771,28 @@ const _: () = {
     ["Offset of field: iodbhppr__bindgen_ty_1::max_f"]
         [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, max_f) - 8usize];
     ["Offset of field: iodbhppr__bindgen_ty_1::bipl"]
-        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, bipl) - 16usize];
+        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, bipl) - 12usize];
     ["Offset of field: iodbhppr__bindgen_ty_1::aipl"]
-        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, aipl) - 18usize];
+        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, aipl) - 14usize];
     ["Offset of field: iodbhppr__bindgen_ty_1::corner"]
-        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, corner) - 24usize];
+        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, corner) - 16usize];
     ["Offset of field: iodbhppr__bindgen_ty_1::clamp"]
-        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, clamp) - 32usize];
+        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, clamp) - 20usize];
     ["Offset of field: iodbhppr__bindgen_ty_1::radius"]
-        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, radius) - 40usize];
+        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, radius) - 24usize];
     ["Offset of field: iodbhppr__bindgen_ty_1::max_cf"]
-        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, max_cf) - 48usize];
+        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, max_cf) - 28usize];
     ["Offset of field: iodbhppr__bindgen_ty_1::min_cf"]
-        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, min_cf) - 56usize];
+        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, min_cf) - 32usize];
     ["Offset of field: iodbhppr__bindgen_ty_1::foward"]
-        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, foward) - 64usize];
+        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, foward) - 36usize];
     ["Offset of field: iodbhppr__bindgen_ty_1::reserve"]
-        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, reserve) - 72usize];
+        [::std::mem::offset_of!(iodbhppr__bindgen_ty_1, reserve) - 40usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbhppr"][::std::mem::size_of::<iodbhppr>() - 336usize];
-    ["Alignment of iodbhppr"][::std::mem::align_of::<iodbhppr>() - 8usize];
+    ["Size of iodbhppr"][::std::mem::size_of::<iodbhppr>() - 180usize];
+    ["Alignment of iodbhppr"][::std::mem::align_of::<iodbhppr>() - 4usize];
     ["Offset of field: iodbhppr::tune"][::std::mem::offset_of!(iodbhppr, tune) - 0usize];
 };
 pub type IODBHPPR = iodbhppr;
@@ -12819,9 +12818,9 @@ pub struct iodbhpac__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbhpac__bindgen_ty_1"][::std::mem::size_of::<iodbhpac__bindgen_ty_1>() - 120usize];
+    ["Size of iodbhpac__bindgen_ty_1"][::std::mem::size_of::<iodbhpac__bindgen_ty_1>() - 64usize];
     ["Alignment of iodbhpac__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbhpac__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbhpac__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbhpac__bindgen_ty_1::slct"]
         [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, slct) - 0usize];
     ["Offset of field: iodbhpac__bindgen_ty_1::diff"]
@@ -12833,22 +12832,22 @@ const _: () = {
     ["Offset of field: iodbhpac__bindgen_ty_1::bipl"]
         [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, bipl) - 8usize];
     ["Offset of field: iodbhpac__bindgen_ty_1::aipl"]
-        [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, aipl) - 16usize];
+        [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, aipl) - 12usize];
     ["Offset of field: iodbhpac__bindgen_ty_1::corner"]
-        [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, corner) - 24usize];
+        [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, corner) - 16usize];
     ["Offset of field: iodbhpac__bindgen_ty_1::clamp"]
-        [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, clamp) - 32usize];
+        [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, clamp) - 20usize];
     ["Offset of field: iodbhpac__bindgen_ty_1::c_acc"]
-        [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, c_acc) - 40usize];
+        [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, c_acc) - 24usize];
     ["Offset of field: iodbhpac__bindgen_ty_1::foward"]
-        [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, foward) - 48usize];
+        [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, foward) - 28usize];
     ["Offset of field: iodbhpac__bindgen_ty_1::reserve"]
-        [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, reserve) - 56usize];
+        [::std::mem::offset_of!(iodbhpac__bindgen_ty_1, reserve) - 32usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbhpac"][::std::mem::size_of::<iodbhpac>() - 360usize];
-    ["Alignment of iodbhpac"][::std::mem::align_of::<iodbhpac>() - 8usize];
+    ["Size of iodbhpac"][::std::mem::size_of::<iodbhpac>() - 192usize];
+    ["Alignment of iodbhpac"][::std::mem::align_of::<iodbhpac>() - 4usize];
     ["Offset of field: iodbhpac::tune"][::std::mem::offset_of!(iodbhpac, tune) - 0usize];
 };
 pub type IODBHPAC = iodbhpac;
@@ -12860,10 +12859,10 @@ pub struct odb3dhdl {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odb3dhdl"][::std::mem::size_of::<odb3dhdl>() - 56usize];
-    ["Alignment of odb3dhdl"][::std::mem::align_of::<odb3dhdl>() - 8usize];
+    ["Size of odb3dhdl"][::std::mem::size_of::<odb3dhdl>() - 32usize];
+    ["Alignment of odb3dhdl"][::std::mem::align_of::<odb3dhdl>() - 4usize];
     ["Offset of field: odb3dhdl::axes"][::std::mem::offset_of!(odb3dhdl, axes) - 0usize];
-    ["Offset of field: odb3dhdl::data"][::std::mem::offset_of!(odb3dhdl, data) - 16usize];
+    ["Offset of field: odb3dhdl::data"][::std::mem::offset_of!(odb3dhdl, data) - 12usize];
 };
 pub type ODB3DHDL = odb3dhdl;
 #[repr(C)]
@@ -12877,17 +12876,17 @@ pub struct odb3dpls {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odb3dpls"][::std::mem::size_of::<odb3dpls>() - 40usize];
-    ["Alignment of odb3dpls"][::std::mem::align_of::<odb3dpls>() - 8usize];
+    ["Size of odb3dpls"][::std::mem::size_of::<odb3dpls>() - 20usize];
+    ["Alignment of odb3dpls"][::std::mem::align_of::<odb3dpls>() - 4usize];
     ["Offset of field: odb3dpls::right_angle_x"]
         [::std::mem::offset_of!(odb3dpls, right_angle_x) - 0usize];
     ["Offset of field: odb3dpls::right_angle_y"]
-        [::std::mem::offset_of!(odb3dpls, right_angle_y) - 8usize];
-    ["Offset of field: odb3dpls::tool_axis"][::std::mem::offset_of!(odb3dpls, tool_axis) - 16usize];
+        [::std::mem::offset_of!(odb3dpls, right_angle_y) - 4usize];
+    ["Offset of field: odb3dpls::tool_axis"][::std::mem::offset_of!(odb3dpls, tool_axis) - 8usize];
     ["Offset of field: odb3dpls::tool_tip_a_b"]
-        [::std::mem::offset_of!(odb3dpls, tool_tip_a_b) - 24usize];
+        [::std::mem::offset_of!(odb3dpls, tool_tip_a_b) - 12usize];
     ["Offset of field: odb3dpls::tool_tip_c"]
-        [::std::mem::offset_of!(odb3dpls, tool_tip_c) - 32usize];
+        [::std::mem::offset_of!(odb3dpls, tool_tip_c) - 16usize];
 };
 pub type ODB3DPLS = odb3dpls;
 #[repr(C)]
@@ -12901,13 +12900,13 @@ pub struct odb5dhdl {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odb5dhdl"][::std::mem::size_of::<odb5dhdl>() - 24usize];
-    ["Alignment of odb5dhdl"][::std::mem::align_of::<odb5dhdl>() - 8usize];
+    ["Size of odb5dhdl"][::std::mem::size_of::<odb5dhdl>() - 16usize];
+    ["Alignment of odb5dhdl"][::std::mem::align_of::<odb5dhdl>() - 4usize];
     ["Offset of field: odb5dhdl::name"][::std::mem::offset_of!(odb5dhdl, name) - 0usize];
-    ["Offset of field: odb5dhdl::data"][::std::mem::offset_of!(odb5dhdl, data) - 8usize];
-    ["Offset of field: odb5dhdl::dec"][::std::mem::offset_of!(odb5dhdl, dec) - 16usize];
-    ["Offset of field: odb5dhdl::flag"][::std::mem::offset_of!(odb5dhdl, flag) - 18usize];
-    ["Offset of field: odb5dhdl::axis"][::std::mem::offset_of!(odb5dhdl, axis) - 20usize];
+    ["Offset of field: odb5dhdl::data"][::std::mem::offset_of!(odb5dhdl, data) - 4usize];
+    ["Offset of field: odb5dhdl::dec"][::std::mem::offset_of!(odb5dhdl, dec) - 8usize];
+    ["Offset of field: odb5dhdl::flag"][::std::mem::offset_of!(odb5dhdl, flag) - 10usize];
+    ["Offset of field: odb5dhdl::axis"][::std::mem::offset_of!(odb5dhdl, axis) - 12usize];
 };
 pub type ODB5DHDL = odb5dhdl;
 #[repr(C)]
@@ -12919,11 +12918,11 @@ pub struct odb5dpls {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odb5dpls"][::std::mem::size_of::<odb5dpls>() - 24usize];
-    ["Alignment of odb5dpls"][::std::mem::align_of::<odb5dpls>() - 8usize];
+    ["Size of odb5dpls"][::std::mem::size_of::<odb5dpls>() - 12usize];
+    ["Alignment of odb5dpls"][::std::mem::align_of::<odb5dpls>() - 4usize];
     ["Offset of field: odb5dpls::name"][::std::mem::offset_of!(odb5dpls, name) - 0usize];
-    ["Offset of field: odb5dpls::data"][::std::mem::offset_of!(odb5dpls, data) - 8usize];
-    ["Offset of field: odb5dpls::dec"][::std::mem::offset_of!(odb5dpls, dec) - 16usize];
+    ["Offset of field: odb5dpls::data"][::std::mem::offset_of!(odb5dpls, data) - 4usize];
+    ["Offset of field: odb5dpls::dec"][::std::mem::offset_of!(odb5dpls, dec) - 8usize];
 };
 pub type ODB5DPLS = odb5dpls;
 #[repr(C)]
@@ -13025,22 +13024,22 @@ pub struct iodbunsolic__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbunsolic__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<iodbunsolic__bindgen_ty_1__bindgen_ty_2>() - 24usize];
+        [::std::mem::size_of::<iodbunsolic__bindgen_ty_1__bindgen_ty_2>() - 12usize];
     ["Alignment of iodbunsolic__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<iodbunsolic__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<iodbunsolic__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: iodbunsolic__bindgen_ty_1__bindgen_ty_2::type_"]
         [::std::mem::offset_of!(iodbunsolic__bindgen_ty_1__bindgen_ty_2, type_) - 0usize];
     ["Offset of field: iodbunsolic__bindgen_ty_1__bindgen_ty_2::dummy1"]
-        [::std::mem::offset_of!(iodbunsolic__bindgen_ty_1__bindgen_ty_2, dummy1) - 8usize];
+        [::std::mem::offset_of!(iodbunsolic__bindgen_ty_1__bindgen_ty_2, dummy1) - 4usize];
     ["Offset of field: iodbunsolic__bindgen_ty_1__bindgen_ty_2::dummy2"]
-        [::std::mem::offset_of!(iodbunsolic__bindgen_ty_1__bindgen_ty_2, dummy2) - 16usize];
+        [::std::mem::offset_of!(iodbunsolic__bindgen_ty_1__bindgen_ty_2, dummy2) - 8usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbunsolic__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbunsolic__bindgen_ty_1>() - 24usize];
+        [::std::mem::size_of::<iodbunsolic__bindgen_ty_1>() - 12usize];
     ["Alignment of iodbunsolic__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbunsolic__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbunsolic__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbunsolic__bindgen_ty_1::pmc"]
         [::std::mem::offset_of!(iodbunsolic__bindgen_ty_1, pmc) - 0usize];
     ["Offset of field: iodbunsolic__bindgen_ty_1::dmy"]
@@ -13057,8 +13056,8 @@ impl Default for iodbunsolic__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbunsolic"][::std::mem::size_of::<iodbunsolic>() - 104usize];
-    ["Alignment of iodbunsolic"][::std::mem::align_of::<iodbunsolic>() - 8usize];
+    ["Size of iodbunsolic"][::std::mem::size_of::<iodbunsolic>() - 68usize];
+    ["Alignment of iodbunsolic"][::std::mem::align_of::<iodbunsolic>() - 4usize];
     ["Offset of field: iodbunsolic::ipaddr"][::std::mem::offset_of!(iodbunsolic, ipaddr) - 0usize];
     ["Offset of field: iodbunsolic::port"][::std::mem::offset_of!(iodbunsolic, port) - 16usize];
     ["Offset of field: iodbunsolic::reqaddr"]
@@ -13106,17 +13105,17 @@ pub struct unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1>() - 24usize];
+        [::std::mem::size_of::<unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1>() - 12usize];
     ["Alignment of unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1::path"]
         [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1, path) - 0usize];
     ["Offset of field: unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1::addr"]
         [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1, addr) - 2usize];
     ["Offset of field: unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1::no"]
-        [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1, no) - 8usize];
+        [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1, no) - 4usize];
     ["Offset of field: unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1::size"]
-        [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1, size) - 16usize];
+        [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_1, size) - 8usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -13129,24 +13128,24 @@ pub struct unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2>() - 24usize];
+        [::std::mem::size_of::<unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2>() - 12usize];
     ["Alignment of unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2::path"]
         [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2, path) - 0usize];
     ["Offset of field: unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2::dummy2"]
         [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2, dummy2) - 2usize];
     ["Offset of field: unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2::no"]
-        [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2, no) - 8usize];
+        [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2, no) - 4usize];
     ["Offset of field: unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2::num"]
-        [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2, num) - 16usize];
+        [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1__bindgen_ty_2, num) - 8usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of unsolicmsg_type_prm__bindgen_ty_1"]
-        [::std::mem::size_of::<unsolicmsg_type_prm__bindgen_ty_1>() - 24usize];
+        [::std::mem::size_of::<unsolicmsg_type_prm__bindgen_ty_1>() - 12usize];
     ["Alignment of unsolicmsg_type_prm__bindgen_ty_1"]
-        [::std::mem::align_of::<unsolicmsg_type_prm__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<unsolicmsg_type_prm__bindgen_ty_1>() - 4usize];
     ["Offset of field: unsolicmsg_type_prm__bindgen_ty_1::pmc"]
         [::std::mem::offset_of!(unsolicmsg_type_prm__bindgen_ty_1, pmc) - 0usize];
     ["Offset of field: unsolicmsg_type_prm__bindgen_ty_1::macro_"]
@@ -13163,14 +13162,14 @@ impl Default for unsolicmsg_type_prm__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of unsolicmsg_type_prm"][::std::mem::size_of::<unsolicmsg_type_prm>() - 32usize];
-    ["Alignment of unsolicmsg_type_prm"][::std::mem::align_of::<unsolicmsg_type_prm>() - 8usize];
+    ["Size of unsolicmsg_type_prm"][::std::mem::size_of::<unsolicmsg_type_prm>() - 16usize];
+    ["Alignment of unsolicmsg_type_prm"][::std::mem::align_of::<unsolicmsg_type_prm>() - 4usize];
     ["Offset of field: unsolicmsg_type_prm::type_"]
         [::std::mem::offset_of!(unsolicmsg_type_prm, type_) - 0usize];
     ["Offset of field: unsolicmsg_type_prm::dummy1"]
         [::std::mem::offset_of!(unsolicmsg_type_prm, dummy1) - 2usize];
     ["Offset of field: unsolicmsg_type_prm::prm"]
-        [::std::mem::offset_of!(unsolicmsg_type_prm, prm) - 8usize];
+        [::std::mem::offset_of!(unsolicmsg_type_prm, prm) - 4usize];
 };
 impl Default for unsolicmsg_type_prm {
     fn default() -> Self {
@@ -13198,25 +13197,25 @@ pub struct iodbunsolic2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbunsolic2"][::std::mem::size_of::<iodbunsolic2>() - 232usize];
-    ["Alignment of iodbunsolic2"][::std::mem::align_of::<iodbunsolic2>() - 8usize];
+    ["Size of iodbunsolic2"][::std::mem::size_of::<iodbunsolic2>() - 164usize];
+    ["Alignment of iodbunsolic2"][::std::mem::align_of::<iodbunsolic2>() - 4usize];
     ["Offset of field: iodbunsolic2::ipaddr"]
         [::std::mem::offset_of!(iodbunsolic2, ipaddr) - 0usize];
     ["Offset of field: iodbunsolic2::port"][::std::mem::offset_of!(iodbunsolic2, port) - 64usize];
-    ["Offset of field: iodbunsolic2::retry"][::std::mem::offset_of!(iodbunsolic2, retry) - 72usize];
+    ["Offset of field: iodbunsolic2::retry"][::std::mem::offset_of!(iodbunsolic2, retry) - 68usize];
     ["Offset of field: iodbunsolic2::timeout"]
-        [::std::mem::offset_of!(iodbunsolic2, timeout) - 74usize];
+        [::std::mem::offset_of!(iodbunsolic2, timeout) - 70usize];
     ["Offset of field: iodbunsolic2::alivetime"]
-        [::std::mem::offset_of!(iodbunsolic2, alivetime) - 76usize];
+        [::std::mem::offset_of!(iodbunsolic2, alivetime) - 72usize];
     ["Offset of field: iodbunsolic2::dummy1"]
-        [::std::mem::offset_of!(iodbunsolic2, dummy1) - 78usize];
-    ["Offset of field: iodbunsolic2::cntrl"][::std::mem::offset_of!(iodbunsolic2, cntrl) - 88usize];
+        [::std::mem::offset_of!(iodbunsolic2, dummy1) - 74usize];
+    ["Offset of field: iodbunsolic2::cntrl"][::std::mem::offset_of!(iodbunsolic2, cntrl) - 84usize];
     ["Offset of field: iodbunsolic2::transnum"]
-        [::std::mem::offset_of!(iodbunsolic2, transnum) - 120usize];
+        [::std::mem::offset_of!(iodbunsolic2, transnum) - 100usize];
     ["Offset of field: iodbunsolic2::dummy2"]
-        [::std::mem::offset_of!(iodbunsolic2, dummy2) - 122usize];
+        [::std::mem::offset_of!(iodbunsolic2, dummy2) - 102usize];
     ["Offset of field: iodbunsolic2::trans"]
-        [::std::mem::offset_of!(iodbunsolic2, trans) - 136usize];
+        [::std::mem::offset_of!(iodbunsolic2, trans) - 116usize];
 };
 impl Default for iodbunsolic2 {
     fn default() -> Self {
@@ -13243,13 +13242,13 @@ pub struct idbunsolicmsg__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of idbunsolicmsg__bindgen_ty_1"]
-        [::std::mem::size_of::<idbunsolicmsg__bindgen_ty_1>() - 16usize];
+        [::std::mem::size_of::<idbunsolicmsg__bindgen_ty_1>() - 8usize];
     ["Alignment of idbunsolicmsg__bindgen_ty_1"]
-        [::std::mem::align_of::<idbunsolicmsg__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<idbunsolicmsg__bindgen_ty_1>() - 4usize];
     ["Offset of field: idbunsolicmsg__bindgen_ty_1::rdsize"]
         [::std::mem::offset_of!(idbunsolicmsg__bindgen_ty_1, rdsize) - 0usize];
     ["Offset of field: idbunsolicmsg__bindgen_ty_1::data"]
-        [::std::mem::offset_of!(idbunsolicmsg__bindgen_ty_1, data) - 8usize];
+        [::std::mem::offset_of!(idbunsolicmsg__bindgen_ty_1, data) - 4usize];
 };
 impl Default for idbunsolicmsg__bindgen_ty_1 {
     fn default() -> Self {
@@ -13262,11 +13261,11 @@ impl Default for idbunsolicmsg__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbunsolicmsg"][::std::mem::size_of::<idbunsolicmsg>() - 56usize];
-    ["Alignment of idbunsolicmsg"][::std::mem::align_of::<idbunsolicmsg>() - 8usize];
+    ["Size of idbunsolicmsg"][::std::mem::size_of::<idbunsolicmsg>() - 28usize];
+    ["Alignment of idbunsolicmsg"][::std::mem::align_of::<idbunsolicmsg>() - 4usize];
     ["Offset of field: idbunsolicmsg::getno"]
         [::std::mem::offset_of!(idbunsolicmsg, getno) - 0usize];
-    ["Offset of field: idbunsolicmsg::msg"][::std::mem::offset_of!(idbunsolicmsg, msg) - 8usize];
+    ["Offset of field: idbunsolicmsg::msg"][::std::mem::offset_of!(idbunsolicmsg, msg) - 4usize];
 };
 impl Default for idbunsolicmsg {
     fn default() -> Self {
@@ -13302,17 +13301,17 @@ pub struct unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1>() - 24usize];
+        [::std::mem::size_of::<unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1>() - 12usize];
     ["Alignment of unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1::path"]
         [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1, path) - 0usize];
     ["Offset of field: unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1::dummy2"]
         [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1, dummy2) - 2usize];
     ["Offset of field: unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1::size"]
-        [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1, size) - 8usize];
+        [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1, size) - 4usize];
     ["Offset of field: unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1::data"]
-        [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1, data) - 16usize];
+        [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1, data) - 8usize];
 };
 impl Default for unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_1 {
     fn default() -> Self {
@@ -13334,17 +13333,17 @@ pub struct unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2>() - 24usize];
+        [::std::mem::size_of::<unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2>() - 12usize];
     ["Alignment of unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2::path"]
         [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2, path) - 0usize];
     ["Offset of field: unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2::dummy3"]
         [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2, dummy3) - 2usize];
     ["Offset of field: unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2::num"]
-        [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2, num) - 8usize];
+        [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2, num) - 4usize];
     ["Offset of field: unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2::data"]
-        [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2, data) - 16usize];
+        [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2, data) - 8usize];
 };
 impl Default for unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2 {
     fn default() -> Self {
@@ -13358,9 +13357,9 @@ impl Default for unsolicmsg_type_msg__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of unsolicmsg_type_msg__bindgen_ty_1"]
-        [::std::mem::size_of::<unsolicmsg_type_msg__bindgen_ty_1>() - 24usize];
+        [::std::mem::size_of::<unsolicmsg_type_msg__bindgen_ty_1>() - 12usize];
     ["Alignment of unsolicmsg_type_msg__bindgen_ty_1"]
-        [::std::mem::align_of::<unsolicmsg_type_msg__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<unsolicmsg_type_msg__bindgen_ty_1>() - 4usize];
     ["Offset of field: unsolicmsg_type_msg__bindgen_ty_1::pmc"]
         [::std::mem::offset_of!(unsolicmsg_type_msg__bindgen_ty_1, pmc) - 0usize];
     ["Offset of field: unsolicmsg_type_msg__bindgen_ty_1::macro_"]
@@ -13377,14 +13376,14 @@ impl Default for unsolicmsg_type_msg__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of unsolicmsg_type_msg"][::std::mem::size_of::<unsolicmsg_type_msg>() - 32usize];
-    ["Alignment of unsolicmsg_type_msg"][::std::mem::align_of::<unsolicmsg_type_msg>() - 8usize];
+    ["Size of unsolicmsg_type_msg"][::std::mem::size_of::<unsolicmsg_type_msg>() - 16usize];
+    ["Alignment of unsolicmsg_type_msg"][::std::mem::align_of::<unsolicmsg_type_msg>() - 4usize];
     ["Offset of field: unsolicmsg_type_msg::type_"]
         [::std::mem::offset_of!(unsolicmsg_type_msg, type_) - 0usize];
     ["Offset of field: unsolicmsg_type_msg::dummy1"]
         [::std::mem::offset_of!(unsolicmsg_type_msg, dummy1) - 2usize];
     ["Offset of field: unsolicmsg_type_msg::msg"]
-        [::std::mem::offset_of!(unsolicmsg_type_msg, msg) - 8usize];
+        [::std::mem::offset_of!(unsolicmsg_type_msg, msg) - 4usize];
 };
 impl Default for unsolicmsg_type_msg {
     fn default() -> Self {
@@ -13405,13 +13404,13 @@ pub struct idbunsolicmsg2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbunsolicmsg2"][::std::mem::size_of::<idbunsolicmsg2>() - 104usize];
-    ["Alignment of idbunsolicmsg2"][::std::mem::align_of::<idbunsolicmsg2>() - 8usize];
+    ["Size of idbunsolicmsg2"][::std::mem::size_of::<idbunsolicmsg2>() - 52usize];
+    ["Alignment of idbunsolicmsg2"][::std::mem::align_of::<idbunsolicmsg2>() - 4usize];
     ["Offset of field: idbunsolicmsg2::getnum"]
         [::std::mem::offset_of!(idbunsolicmsg2, getnum) - 0usize];
     ["Offset of field: idbunsolicmsg2::dummy"]
         [::std::mem::offset_of!(idbunsolicmsg2, dummy) - 2usize];
-    ["Offset of field: idbunsolicmsg2::get"][::std::mem::offset_of!(idbunsolicmsg2, get) - 8usize];
+    ["Offset of field: idbunsolicmsg2::get"][::std::mem::offset_of!(idbunsolicmsg2, get) - 4usize];
 };
 impl Default for idbunsolicmsg2 {
     fn default() -> Self {
@@ -13576,13 +13575,13 @@ pub struct iodbpmainte {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpmainte"][::std::mem::size_of::<iodbpmainte>() - 96usize];
-    ["Alignment of iodbpmainte"][::std::mem::align_of::<iodbpmainte>() - 8usize];
+    ["Size of iodbpmainte"][::std::mem::size_of::<iodbpmainte>() - 80usize];
+    ["Alignment of iodbpmainte"][::std::mem::align_of::<iodbpmainte>() - 4usize];
     ["Offset of field: iodbpmainte::name"][::std::mem::offset_of!(iodbpmainte, name) - 0usize];
     ["Offset of field: iodbpmainte::type_"][::std::mem::offset_of!(iodbpmainte, type_) - 64usize];
-    ["Offset of field: iodbpmainte::total"][::std::mem::offset_of!(iodbpmainte, total) - 72usize];
-    ["Offset of field: iodbpmainte::remain"][::std::mem::offset_of!(iodbpmainte, remain) - 80usize];
-    ["Offset of field: iodbpmainte::stat"][::std::mem::offset_of!(iodbpmainte, stat) - 88usize];
+    ["Offset of field: iodbpmainte::total"][::std::mem::offset_of!(iodbpmainte, total) - 68usize];
+    ["Offset of field: iodbpmainte::remain"][::std::mem::offset_of!(iodbpmainte, remain) - 72usize];
+    ["Offset of field: iodbpmainte::stat"][::std::mem::offset_of!(iodbpmainte, stat) - 76usize];
 };
 impl Default for iodbpmainte {
     fn default() -> Self {
@@ -13602,10 +13601,10 @@ pub struct odbofslen {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbofslen"][::std::mem::size_of::<odbofslen>() - 16usize];
-    ["Alignment of odbofslen"][::std::mem::align_of::<odbofslen>() - 8usize];
+    ["Size of odbofslen"][::std::mem::size_of::<odbofslen>() - 8usize];
+    ["Alignment of odbofslen"][::std::mem::align_of::<odbofslen>() - 4usize];
     ["Offset of field: odbofslen::len"][::std::mem::offset_of!(odbofslen, len) - 0usize];
-    ["Offset of field: odbofslen::dec"][::std::mem::offset_of!(odbofslen, dec) - 8usize];
+    ["Offset of field: odbofslen::dec"][::std::mem::offset_of!(odbofslen, dec) - 4usize];
 };
 pub type ODBOFSLEN = odbofslen;
 #[repr(C)]
@@ -13685,11 +13684,11 @@ pub struct wseterror {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of wseterror"][::std::mem::size_of::<wseterror>() - 16usize];
-    ["Alignment of wseterror"][::std::mem::align_of::<wseterror>() - 8usize];
+    ["Size of wseterror"][::std::mem::size_of::<wseterror>() - 8usize];
+    ["Alignment of wseterror"][::std::mem::align_of::<wseterror>() - 4usize];
     ["Offset of field: wseterror::data"][::std::mem::offset_of!(wseterror, data) - 0usize];
-    ["Offset of field: wseterror::dec"][::std::mem::offset_of!(wseterror, dec) - 8usize];
-    ["Offset of field: wseterror::dummy"][::std::mem::offset_of!(wseterror, dummy) - 10usize];
+    ["Offset of field: wseterror::dec"][::std::mem::offset_of!(wseterror, dec) - 4usize];
+    ["Offset of field: wseterror::dummy"][::std::mem::offset_of!(wseterror, dummy) - 6usize];
 };
 pub type REALWSET = wseterror;
 #[repr(C)]
@@ -13703,17 +13702,16 @@ pub struct iodbwseterror {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbwseterror"][::std::mem::size_of::<iodbwseterror>() - 1144usize];
-    ["Alignment of iodbwseterror"][::std::mem::align_of::<iodbwseterror>() - 8usize];
+    ["Size of iodbwseterror"][::std::mem::size_of::<iodbwseterror>() - 572usize];
+    ["Alignment of iodbwseterror"][::std::mem::align_of::<iodbwseterror>() - 4usize];
     ["Offset of field: iodbwseterror::d_no"][::std::mem::offset_of!(iodbwseterror, d_no) - 0usize];
     ["Offset of field: iodbwseterror::data_act"]
-        [::std::mem::offset_of!(iodbwseterror, data_act) - 8usize];
+        [::std::mem::offset_of!(iodbwseterror, data_act) - 4usize];
     ["Offset of field: iodbwseterror::dp_act"]
-        [::std::mem::offset_of!(iodbwseterror, dp_act) - 56usize];
+        [::std::mem::offset_of!(iodbwseterror, dp_act) - 28usize];
     ["Offset of field: iodbwseterror::dsp_ix"]
-        [::std::mem::offset_of!(iodbwseterror, dsp_ix) - 104usize];
-    ["Offset of field: iodbwseterror::data"]
-        [::std::mem::offset_of!(iodbwseterror, data) - 120usize];
+        [::std::mem::offset_of!(iodbwseterror, dsp_ix) - 52usize];
+    ["Offset of field: iodbwseterror::data"][::std::mem::offset_of!(iodbwseterror, data) - 60usize];
 };
 pub type IODBWSETERROR = iodbwseterror;
 #[repr(C)]
@@ -13875,8 +13873,8 @@ pub struct odbkeyinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbkeyinfo"][::std::mem::size_of::<odbkeyinfo>() - 16usize];
-    ["Alignment of odbkeyinfo"][::std::mem::align_of::<odbkeyinfo>() - 8usize];
+    ["Size of odbkeyinfo"][::std::mem::size_of::<odbkeyinfo>() - 8usize];
+    ["Alignment of odbkeyinfo"][::std::mem::align_of::<odbkeyinfo>() - 4usize];
     ["Offset of field: odbkeyinfo::key"][::std::mem::offset_of!(odbkeyinfo, key) - 0usize];
 };
 pub type ODBKEYINFO = odbkeyinfo;
@@ -13887,8 +13885,8 @@ pub struct prginf {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of prginf"][::std::mem::size_of::<prginf>() - 32usize];
-    ["Alignment of prginf"][::std::mem::align_of::<prginf>() - 8usize];
+    ["Size of prginf"][::std::mem::size_of::<prginf>() - 16usize];
+    ["Alignment of prginf"][::std::mem::align_of::<prginf>() - 4usize];
     ["Offset of field: prginf::prgid"][::std::mem::offset_of!(prginf, prgid) - 0usize];
 };
 pub type PRGINF = prginf;
@@ -13901,11 +13899,11 @@ pub struct toolinf {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of toolinf"][::std::mem::size_of::<toolinf>() - 24usize];
-    ["Alignment of toolinf"][::std::mem::align_of::<toolinf>() - 8usize];
+    ["Size of toolinf"][::std::mem::size_of::<toolinf>() - 12usize];
+    ["Alignment of toolinf"][::std::mem::align_of::<toolinf>() - 4usize];
     ["Offset of field: toolinf::tcode"][::std::mem::offset_of!(toolinf, tcode) - 0usize];
-    ["Offset of field: toolinf::magazin"][::std::mem::offset_of!(toolinf, magazin) - 8usize];
-    ["Offset of field: toolinf::pot"][::std::mem::offset_of!(toolinf, pot) - 16usize];
+    ["Offset of field: toolinf::magazin"][::std::mem::offset_of!(toolinf, magazin) - 4usize];
+    ["Offset of field: toolinf::pot"][::std::mem::offset_of!(toolinf, pot) - 8usize];
 };
 pub type TOOLINF = toolinf;
 #[repr(C)]
@@ -13925,18 +13923,18 @@ pub struct posinf__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of posinf__bindgen_ty_1"][::std::mem::size_of::<posinf__bindgen_ty_1>() - 32usize];
-    ["Alignment of posinf__bindgen_ty_1"][::std::mem::align_of::<posinf__bindgen_ty_1>() - 8usize];
+    ["Size of posinf__bindgen_ty_1"][::std::mem::size_of::<posinf__bindgen_ty_1>() - 16usize];
+    ["Alignment of posinf__bindgen_ty_1"][::std::mem::align_of::<posinf__bindgen_ty_1>() - 4usize];
     ["Offset of field: posinf__bindgen_ty_1::prec_pntr"]
         [::std::mem::offset_of!(posinf__bindgen_ty_1, prec_pntr) - 0usize];
     ["Offset of field: posinf__bindgen_ty_1::prec_time"]
         [::std::mem::offset_of!(posinf__bindgen_ty_1, prec_time) - 2usize];
     ["Offset of field: posinf__bindgen_ty_1::data"]
-        [::std::mem::offset_of!(posinf__bindgen_ty_1, data) - 8usize];
+        [::std::mem::offset_of!(posinf__bindgen_ty_1, data) - 4usize];
     ["Offset of field: posinf__bindgen_ty_1::dec"]
-        [::std::mem::offset_of!(posinf__bindgen_ty_1, dec) - 24usize];
+        [::std::mem::offset_of!(posinf__bindgen_ty_1, dec) - 12usize];
     ["Offset of field: posinf__bindgen_ty_1::unit"]
-        [::std::mem::offset_of!(posinf__bindgen_ty_1, unit) - 26usize];
+        [::std::mem::offset_of!(posinf__bindgen_ty_1, unit) - 14usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -13947,21 +13945,21 @@ pub struct posinf__bindgen_ty_2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of posinf__bindgen_ty_2"][::std::mem::size_of::<posinf__bindgen_ty_2>() - 16usize];
-    ["Alignment of posinf__bindgen_ty_2"][::std::mem::align_of::<posinf__bindgen_ty_2>() - 8usize];
+    ["Size of posinf__bindgen_ty_2"][::std::mem::size_of::<posinf__bindgen_ty_2>() - 8usize];
+    ["Alignment of posinf__bindgen_ty_2"][::std::mem::align_of::<posinf__bindgen_ty_2>() - 4usize];
     ["Offset of field: posinf__bindgen_ty_2::data"]
         [::std::mem::offset_of!(posinf__bindgen_ty_2, data) - 0usize];
     ["Offset of field: posinf__bindgen_ty_2::dec"]
-        [::std::mem::offset_of!(posinf__bindgen_ty_2, dec) - 8usize];
+        [::std::mem::offset_of!(posinf__bindgen_ty_2, dec) - 4usize];
     ["Offset of field: posinf__bindgen_ty_2::unit"]
-        [::std::mem::offset_of!(posinf__bindgen_ty_2, unit) - 10usize];
+        [::std::mem::offset_of!(posinf__bindgen_ty_2, unit) - 6usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of posinf"][::std::mem::size_of::<posinf>() - 48usize];
-    ["Alignment of posinf"][::std::mem::align_of::<posinf>() - 8usize];
+    ["Size of posinf"][::std::mem::size_of::<posinf>() - 24usize];
+    ["Alignment of posinf"][::std::mem::align_of::<posinf>() - 4usize];
     ["Offset of field: posinf::pos"][::std::mem::offset_of!(posinf, pos) - 0usize];
-    ["Offset of field: posinf::feed"][::std::mem::offset_of!(posinf, feed) - 32usize];
+    ["Offset of field: posinf::feed"][::std::mem::offset_of!(posinf, feed) - 16usize];
 };
 pub type POSINF = posinf;
 #[repr(C)]
@@ -13984,32 +13982,32 @@ pub struct odb3dchk__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odb3dchk__bindgen_ty_1"][::std::mem::size_of::<odb3dchk__bindgen_ty_1>() - 1664usize];
+    ["Size of odb3dchk__bindgen_ty_1"][::std::mem::size_of::<odb3dchk__bindgen_ty_1>() - 832usize];
     ["Alignment of odb3dchk__bindgen_ty_1"]
-        [::std::mem::align_of::<odb3dchk__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odb3dchk__bindgen_ty_1>() - 4usize];
     ["Offset of field: odb3dchk__bindgen_ty_1::mode"]
         [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, mode) - 0usize];
     ["Offset of field: odb3dchk__bindgen_ty_1::prginf"]
-        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, prginf) - 8usize];
+        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, prginf) - 4usize];
     ["Offset of field: odb3dchk__bindgen_ty_1::dummy"]
-        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, dummy) - 40usize];
+        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, dummy) - 20usize];
     ["Offset of field: odb3dchk__bindgen_ty_1::mcode"]
-        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, mcode) - 56usize];
+        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, mcode) - 28usize];
     ["Offset of field: odb3dchk__bindgen_ty_1::tlinf"]
-        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, tlinf) - 72usize];
+        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, tlinf) - 36usize];
     ["Offset of field: odb3dchk__bindgen_ty_1::dummy2"]
-        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, dummy2) - 96usize];
+        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, dummy2) - 48usize];
     ["Offset of field: odb3dchk__bindgen_ty_1::ctrlaxis"]
-        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, ctrlaxis) - 120usize];
+        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, ctrlaxis) - 60usize];
     ["Offset of field: odb3dchk__bindgen_ty_1::data"]
-        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, data) - 128usize];
+        [::std::mem::offset_of!(odb3dchk__bindgen_ty_1, data) - 64usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odb3dchk"][::std::mem::size_of::<odb3dchk>() - 24968usize];
-    ["Alignment of odb3dchk"][::std::mem::align_of::<odb3dchk>() - 8usize];
+    ["Size of odb3dchk"][::std::mem::size_of::<odb3dchk>() - 12484usize];
+    ["Alignment of odb3dchk"][::std::mem::align_of::<odb3dchk>() - 4usize];
     ["Offset of field: odb3dchk::pathno"][::std::mem::offset_of!(odb3dchk, pathno) - 0usize];
-    ["Offset of field: odb3dchk::path"][::std::mem::offset_of!(odb3dchk, path) - 8usize];
+    ["Offset of field: odb3dchk::path"][::std::mem::offset_of!(odb3dchk, path) - 4usize];
 };
 pub type ODB3DCHK = odb3dchk;
 #[repr(C)]
@@ -14024,16 +14022,16 @@ pub struct odb3dmtbinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odb3dmtbinfo"][::std::mem::size_of::<odb3dmtbinfo>() - 120usize];
-    ["Alignment of odb3dmtbinfo"][::std::mem::align_of::<odb3dmtbinfo>() - 8usize];
+    ["Size of odb3dmtbinfo"][::std::mem::size_of::<odb3dmtbinfo>() - 60usize];
+    ["Alignment of odb3dmtbinfo"][::std::mem::align_of::<odb3dmtbinfo>() - 4usize];
     ["Offset of field: odb3dmtbinfo::prginf"]
         [::std::mem::offset_of!(odb3dmtbinfo, prginf) - 0usize];
-    ["Offset of field: odb3dmtbinfo::mcode"][::std::mem::offset_of!(odb3dmtbinfo, mcode) - 32usize];
-    ["Offset of field: odb3dmtbinfo::bcode"][::std::mem::offset_of!(odb3dmtbinfo, bcode) - 56usize];
-    ["Offset of field: odb3dmtbinfo::tlinf"][::std::mem::offset_of!(odb3dmtbinfo, tlinf) - 64usize];
+    ["Offset of field: odb3dmtbinfo::mcode"][::std::mem::offset_of!(odb3dmtbinfo, mcode) - 16usize];
+    ["Offset of field: odb3dmtbinfo::bcode"][::std::mem::offset_of!(odb3dmtbinfo, bcode) - 28usize];
+    ["Offset of field: odb3dmtbinfo::tlinf"][::std::mem::offset_of!(odb3dmtbinfo, tlinf) - 32usize];
     ["Offset of field: odb3dmtbinfo::hisorder"]
-        [::std::mem::offset_of!(odb3dmtbinfo, hisorder) - 88usize];
-    ["Offset of field: odb3dmtbinfo::dummy"][::std::mem::offset_of!(odb3dmtbinfo, dummy) - 96usize];
+        [::std::mem::offset_of!(odb3dmtbinfo, hisorder) - 44usize];
+    ["Offset of field: odb3dmtbinfo::dummy"][::std::mem::offset_of!(odb3dmtbinfo, dummy) - 48usize];
 };
 pub type ODB3DMTBINFO = odb3dmtbinfo;
 #[repr(C)]
@@ -14048,19 +14046,19 @@ pub struct odb3dmtbinfo2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odb3dmtbinfo2"][::std::mem::size_of::<odb3dmtbinfo2>() - 128usize];
-    ["Alignment of odb3dmtbinfo2"][::std::mem::align_of::<odb3dmtbinfo2>() - 8usize];
+    ["Size of odb3dmtbinfo2"][::std::mem::size_of::<odb3dmtbinfo2>() - 64usize];
+    ["Alignment of odb3dmtbinfo2"][::std::mem::align_of::<odb3dmtbinfo2>() - 4usize];
     ["Offset of field: odb3dmtbinfo2::path"][::std::mem::offset_of!(odb3dmtbinfo2, path) - 0usize];
     ["Offset of field: odb3dmtbinfo2::prginf"]
-        [::std::mem::offset_of!(odb3dmtbinfo2, prginf) - 8usize];
+        [::std::mem::offset_of!(odb3dmtbinfo2, prginf) - 4usize];
     ["Offset of field: odb3dmtbinfo2::mcode"]
-        [::std::mem::offset_of!(odb3dmtbinfo2, mcode) - 40usize];
+        [::std::mem::offset_of!(odb3dmtbinfo2, mcode) - 20usize];
     ["Offset of field: odb3dmtbinfo2::bcode"]
-        [::std::mem::offset_of!(odb3dmtbinfo2, bcode) - 64usize];
+        [::std::mem::offset_of!(odb3dmtbinfo2, bcode) - 32usize];
     ["Offset of field: odb3dmtbinfo2::tlinf"]
-        [::std::mem::offset_of!(odb3dmtbinfo2, tlinf) - 72usize];
+        [::std::mem::offset_of!(odb3dmtbinfo2, tlinf) - 36usize];
     ["Offset of field: odb3dmtbinfo2::dummy"]
-        [::std::mem::offset_of!(odb3dmtbinfo2, dummy) - 96usize];
+        [::std::mem::offset_of!(odb3dmtbinfo2, dummy) - 48usize];
 };
 pub type ODB3DMTBINFO2 = odb3dmtbinfo2;
 #[repr(C)]
@@ -14077,18 +14075,18 @@ pub struct idb3dmstop__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of idb3dmstop__bindgen_ty_1"]
-        [::std::mem::size_of::<idb3dmstop__bindgen_ty_1>() - 16usize];
+        [::std::mem::size_of::<idb3dmstop__bindgen_ty_1>() - 8usize];
     ["Alignment of idb3dmstop__bindgen_ty_1"]
-        [::std::mem::align_of::<idb3dmstop__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<idb3dmstop__bindgen_ty_1>() - 4usize];
     ["Offset of field: idb3dmstop__bindgen_ty_1::plus"]
         [::std::mem::offset_of!(idb3dmstop__bindgen_ty_1, plus) - 0usize];
     ["Offset of field: idb3dmstop__bindgen_ty_1::minus"]
-        [::std::mem::offset_of!(idb3dmstop__bindgen_ty_1, minus) - 8usize];
+        [::std::mem::offset_of!(idb3dmstop__bindgen_ty_1, minus) - 4usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idb3dmstop"][::std::mem::size_of::<idb3dmstop>() - 240usize];
-    ["Alignment of idb3dmstop"][::std::mem::align_of::<idb3dmstop>() - 8usize];
+    ["Size of idb3dmstop"][::std::mem::size_of::<idb3dmstop>() - 120usize];
+    ["Alignment of idb3dmstop"][::std::mem::align_of::<idb3dmstop>() - 4usize];
     ["Offset of field: idb3dmstop::path"][::std::mem::offset_of!(idb3dmstop, path) - 0usize];
 };
 pub type IDB3DMSTOP = idb3dmstop;
@@ -14106,16 +14104,16 @@ pub struct cexeinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of cexeinfo"][::std::mem::size_of::<cexeinfo>() - 64usize];
-    ["Alignment of cexeinfo"][::std::mem::align_of::<cexeinfo>() - 8usize];
+    ["Size of cexeinfo"][::std::mem::size_of::<cexeinfo>() - 32usize];
+    ["Alignment of cexeinfo"][::std::mem::align_of::<cexeinfo>() - 4usize];
     ["Offset of field: cexeinfo::cond"][::std::mem::offset_of!(cexeinfo, cond) - 0usize];
-    ["Offset of field: cexeinfo::cycle"][::std::mem::offset_of!(cexeinfo, cycle) - 8usize];
-    ["Offset of field: cexeinfo::count"][::std::mem::offset_of!(cexeinfo, count) - 16usize];
-    ["Offset of field: cexeinfo::time"][::std::mem::offset_of!(cexeinfo, time) - 24usize];
-    ["Offset of field: cexeinfo::dummy1"][::std::mem::offset_of!(cexeinfo, dummy1) - 32usize];
-    ["Offset of field: cexeinfo::dummy2"][::std::mem::offset_of!(cexeinfo, dummy2) - 40usize];
-    ["Offset of field: cexeinfo::dummy3"][::std::mem::offset_of!(cexeinfo, dummy3) - 48usize];
-    ["Offset of field: cexeinfo::dummy4"][::std::mem::offset_of!(cexeinfo, dummy4) - 56usize];
+    ["Offset of field: cexeinfo::cycle"][::std::mem::offset_of!(cexeinfo, cycle) - 4usize];
+    ["Offset of field: cexeinfo::count"][::std::mem::offset_of!(cexeinfo, count) - 8usize];
+    ["Offset of field: cexeinfo::time"][::std::mem::offset_of!(cexeinfo, time) - 12usize];
+    ["Offset of field: cexeinfo::dummy1"][::std::mem::offset_of!(cexeinfo, dummy1) - 16usize];
+    ["Offset of field: cexeinfo::dummy2"][::std::mem::offset_of!(cexeinfo, dummy2) - 20usize];
+    ["Offset of field: cexeinfo::dummy3"][::std::mem::offset_of!(cexeinfo, dummy3) - 24usize];
+    ["Offset of field: cexeinfo::dummy4"][::std::mem::offset_of!(cexeinfo, dummy4) - 28usize];
 };
 pub type CEXEINFO = cexeinfo;
 #[repr(C)]
@@ -14127,11 +14125,11 @@ pub struct cmnddata {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of cmnddata"][::std::mem::size_of::<cmnddata>() - 24usize];
-    ["Alignment of cmnddata"][::std::mem::align_of::<cmnddata>() - 8usize];
+    ["Size of cmnddata"][::std::mem::size_of::<cmnddata>() - 16usize];
+    ["Alignment of cmnddata"][::std::mem::align_of::<cmnddata>() - 4usize];
     ["Offset of field: cmnddata::val"][::std::mem::offset_of!(cmnddata, val) - 0usize];
     ["Offset of field: cmnddata::dec"][::std::mem::offset_of!(cmnddata, dec) - 8usize];
-    ["Offset of field: cmnddata::dummy"][::std::mem::offset_of!(cmnddata, dummy) - 16usize];
+    ["Offset of field: cmnddata::dummy"][::std::mem::offset_of!(cmnddata, dummy) - 12usize];
 };
 pub type CMNDDATA = cmnddata;
 #[repr(C)]
@@ -14144,12 +14142,12 @@ pub struct odbcancmd {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbcancmd"][::std::mem::size_of::<odbcancmd>() - 96usize];
-    ["Alignment of odbcancmd"][::std::mem::align_of::<odbcancmd>() - 8usize];
+    ["Size of odbcancmd"][::std::mem::size_of::<odbcancmd>() - 64usize];
+    ["Alignment of odbcancmd"][::std::mem::align_of::<odbcancmd>() - 4usize];
     ["Offset of field: odbcancmd::p_data"][::std::mem::offset_of!(odbcancmd, p_data) - 0usize];
-    ["Offset of field: odbcancmd::q_data"][::std::mem::offset_of!(odbcancmd, q_data) - 24usize];
-    ["Offset of field: odbcancmd::r_data"][::std::mem::offset_of!(odbcancmd, r_data) - 48usize];
-    ["Offset of field: odbcancmd::z_data"][::std::mem::offset_of!(odbcancmd, z_data) - 72usize];
+    ["Offset of field: odbcancmd::q_data"][::std::mem::offset_of!(odbcancmd, q_data) - 16usize];
+    ["Offset of field: odbcancmd::r_data"][::std::mem::offset_of!(odbcancmd, r_data) - 32usize];
+    ["Offset of field: odbcancmd::z_data"][::std::mem::offset_of!(odbcancmd, z_data) - 48usize];
 };
 pub type ODBCANCMD = odbcancmd;
 #[repr(C)]
@@ -14163,14 +14161,14 @@ pub struct iodbmdginfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbmdginfo"][::std::mem::size_of::<iodbmdginfo>() - 16usize];
-    ["Alignment of iodbmdginfo"][::std::mem::align_of::<iodbmdginfo>() - 8usize];
+    ["Size of iodbmdginfo"][::std::mem::size_of::<iodbmdginfo>() - 12usize];
+    ["Alignment of iodbmdginfo"][::std::mem::align_of::<iodbmdginfo>() - 4usize];
     ["Offset of field: iodbmdginfo::alm_no"][::std::mem::offset_of!(iodbmdginfo, alm_no) - 0usize];
-    ["Offset of field: iodbmdginfo::type_"][::std::mem::offset_of!(iodbmdginfo, type_) - 8usize];
-    ["Offset of field: iodbmdginfo::axis"][::std::mem::offset_of!(iodbmdginfo, axis) - 10usize];
-    ["Offset of field: iodbmdginfo::path"][::std::mem::offset_of!(iodbmdginfo, path) - 12usize];
+    ["Offset of field: iodbmdginfo::type_"][::std::mem::offset_of!(iodbmdginfo, type_) - 4usize];
+    ["Offset of field: iodbmdginfo::axis"][::std::mem::offset_of!(iodbmdginfo, axis) - 6usize];
+    ["Offset of field: iodbmdginfo::path"][::std::mem::offset_of!(iodbmdginfo, path) - 8usize];
     ["Offset of field: iodbmdginfo::reserved"]
-        [::std::mem::offset_of!(iodbmdginfo, reserved) - 14usize];
+        [::std::mem::offset_of!(iodbmdginfo, reserved) - 10usize];
 };
 pub type IODBMDGINFO = iodbmdginfo;
 #[repr(C)]
@@ -14189,18 +14187,18 @@ pub struct odbmdgmsg {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmdgmsg"][::std::mem::size_of::<odbmdgmsg>() - 448usize];
-    ["Alignment of odbmdgmsg"][::std::mem::align_of::<odbmdgmsg>() - 8usize];
+    ["Size of odbmdgmsg"][::std::mem::size_of::<odbmdgmsg>() - 444usize];
+    ["Alignment of odbmdgmsg"][::std::mem::align_of::<odbmdgmsg>() - 4usize];
     ["Offset of field: odbmdgmsg::alm_no"][::std::mem::offset_of!(odbmdgmsg, alm_no) - 0usize];
-    ["Offset of field: odbmdgmsg::msgidx"][::std::mem::offset_of!(odbmdgmsg, msgidx) - 8usize];
-    ["Offset of field: odbmdgmsg::reserved"][::std::mem::offset_of!(odbmdgmsg, reserved) - 10usize];
-    ["Offset of field: odbmdgmsg::type_"][::std::mem::offset_of!(odbmdgmsg, type_) - 12usize];
-    ["Offset of field: odbmdgmsg::part"][::std::mem::offset_of!(odbmdgmsg, part) - 16usize];
-    ["Offset of field: odbmdgmsg::level"][::std::mem::offset_of!(odbmdgmsg, level) - 20usize];
-    ["Offset of field: odbmdgmsg::add_inf"][::std::mem::offset_of!(odbmdgmsg, add_inf) - 24usize];
-    ["Offset of field: odbmdgmsg::mark"][::std::mem::offset_of!(odbmdgmsg, mark) - 28usize];
-    ["Offset of field: odbmdgmsg::message"][::std::mem::offset_of!(odbmdgmsg, message) - 48usize];
-    ["Offset of field: odbmdgmsg::cause"][::std::mem::offset_of!(odbmdgmsg, cause) - 148usize];
+    ["Offset of field: odbmdgmsg::msgidx"][::std::mem::offset_of!(odbmdgmsg, msgidx) - 4usize];
+    ["Offset of field: odbmdgmsg::reserved"][::std::mem::offset_of!(odbmdgmsg, reserved) - 6usize];
+    ["Offset of field: odbmdgmsg::type_"][::std::mem::offset_of!(odbmdgmsg, type_) - 8usize];
+    ["Offset of field: odbmdgmsg::part"][::std::mem::offset_of!(odbmdgmsg, part) - 12usize];
+    ["Offset of field: odbmdgmsg::level"][::std::mem::offset_of!(odbmdgmsg, level) - 16usize];
+    ["Offset of field: odbmdgmsg::add_inf"][::std::mem::offset_of!(odbmdgmsg, add_inf) - 20usize];
+    ["Offset of field: odbmdgmsg::mark"][::std::mem::offset_of!(odbmdgmsg, mark) - 24usize];
+    ["Offset of field: odbmdgmsg::message"][::std::mem::offset_of!(odbmdgmsg, message) - 44usize];
+    ["Offset of field: odbmdgmsg::cause"][::std::mem::offset_of!(odbmdgmsg, cause) - 144usize];
 };
 impl Default for odbmdgmsg {
     fn default() -> Self {
@@ -14255,8 +14253,8 @@ pub struct odbmdgdtmsg {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmdgdtmsg"][::std::mem::size_of::<odbmdgdtmsg>() - 1608usize];
-    ["Alignment of odbmdgdtmsg"][::std::mem::align_of::<odbmdgdtmsg>() - 8usize];
+    ["Size of odbmdgdtmsg"][::std::mem::size_of::<odbmdgdtmsg>() - 1604usize];
+    ["Alignment of odbmdgdtmsg"][::std::mem::align_of::<odbmdgdtmsg>() - 4usize];
     ["Offset of field: odbmdgdtmsg::message"]
         [::std::mem::offset_of!(odbmdgdtmsg, message) - 0usize];
     ["Offset of field: odbmdgdtmsg::imgid"][::std::mem::offset_of!(odbmdgdtmsg, imgid) - 1600usize];
@@ -14283,8 +14281,8 @@ pub union odbmdgval {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmdgval"][::std::mem::size_of::<odbmdgval>() - 8usize];
-    ["Alignment of odbmdgval"][::std::mem::align_of::<odbmdgval>() - 8usize];
+    ["Size of odbmdgval"][::std::mem::size_of::<odbmdgval>() - 4usize];
+    ["Alignment of odbmdgval"][::std::mem::align_of::<odbmdgval>() - 4usize];
     ["Offset of field: odbmdgval::lval"][::std::mem::offset_of!(odbmdgval, lval) - 0usize];
     ["Offset of field: odbmdgval::ulval"][::std::mem::offset_of!(odbmdgval, ulval) - 0usize];
     ["Offset of field: odbmdgval::sval"][::std::mem::offset_of!(odbmdgval, sval) - 0usize];
@@ -14311,11 +14309,11 @@ pub struct odbmdgdt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmdgdt"][::std::mem::size_of::<odbmdgdt>() - 16usize];
-    ["Alignment of odbmdgdt"][::std::mem::align_of::<odbmdgdt>() - 8usize];
+    ["Size of odbmdgdt"][::std::mem::size_of::<odbmdgdt>() - 8usize];
+    ["Alignment of odbmdgdt"][::std::mem::align_of::<odbmdgdt>() - 4usize];
     ["Offset of field: odbmdgdt::dt"][::std::mem::offset_of!(odbmdgdt, dt) - 0usize];
-    ["Offset of field: odbmdgdt::fp"][::std::mem::offset_of!(odbmdgdt, fp) - 8usize];
-    ["Offset of field: odbmdgdt::reserved"][::std::mem::offset_of!(odbmdgdt, reserved) - 10usize];
+    ["Offset of field: odbmdgdt::fp"][::std::mem::offset_of!(odbmdgdt, fp) - 4usize];
+    ["Offset of field: odbmdgdt::reserved"][::std::mem::offset_of!(odbmdgdt, reserved) - 6usize];
 };
 impl Default for odbmdgdt {
     fn default() -> Self {
@@ -14358,19 +14356,19 @@ pub struct odbsv2_grp1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsv2_grp1"][::std::mem::size_of::<odbsv2_grp1>() - 56usize];
-    ["Alignment of odbsv2_grp1"][::std::mem::align_of::<odbsv2_grp1>() - 8usize];
+    ["Size of odbsv2_grp1"][::std::mem::size_of::<odbsv2_grp1>() - 28usize];
+    ["Alignment of odbsv2_grp1"][::std::mem::align_of::<odbsv2_grp1>() - 4usize];
     ["Offset of field: odbsv2_grp1::cmd_pls"]
         [::std::mem::offset_of!(odbsv2_grp1, cmd_pls) - 0usize];
-    ["Offset of field: odbsv2_grp1::fb_pls"][::std::mem::offset_of!(odbsv2_grp1, fb_pls) - 8usize];
-    ["Offset of field: odbsv2_grp1::refc"][::std::mem::offset_of!(odbsv2_grp1, refc) - 16usize];
+    ["Offset of field: odbsv2_grp1::fb_pls"][::std::mem::offset_of!(odbsv2_grp1, fb_pls) - 4usize];
+    ["Offset of field: odbsv2_grp1::refc"][::std::mem::offset_of!(odbsv2_grp1, refc) - 8usize];
     ["Offset of field: odbsv2_grp1::pos_err"]
-        [::std::mem::offset_of!(odbsv2_grp1, pos_err) - 24usize];
+        [::std::mem::offset_of!(odbsv2_grp1, pos_err) - 12usize];
     ["Offset of field: odbsv2_grp1::act_spd"]
-        [::std::mem::offset_of!(odbsv2_grp1, act_spd) - 32usize];
-    ["Offset of field: odbsv2_grp1::amr"][::std::mem::offset_of!(odbsv2_grp1, amr) - 48usize];
+        [::std::mem::offset_of!(odbsv2_grp1, act_spd) - 16usize];
+    ["Offset of field: odbsv2_grp1::amr"][::std::mem::offset_of!(odbsv2_grp1, amr) - 24usize];
     ["Offset of field: odbsv2_grp1::reserved"]
-        [::std::mem::offset_of!(odbsv2_grp1, reserved) - 50usize];
+        [::std::mem::offset_of!(odbsv2_grp1, reserved) - 26usize];
 };
 impl Default for odbsv2_grp1 {
     fn default() -> Self {
@@ -14395,17 +14393,17 @@ pub struct odbsv2_grp2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsv2_grp2"][::std::mem::size_of::<odbsv2_grp2>() - 32usize];
-    ["Alignment of odbsv2_grp2"][::std::mem::align_of::<odbsv2_grp2>() - 8usize];
+    ["Size of odbsv2_grp2"][::std::mem::size_of::<odbsv2_grp2>() - 20usize];
+    ["Alignment of odbsv2_grp2"][::std::mem::align_of::<odbsv2_grp2>() - 4usize];
     ["Offset of field: odbsv2_grp2::mt_cur"][::std::mem::offset_of!(odbsv2_grp2, mt_cur) - 0usize];
     ["Offset of field: odbsv2_grp2::trq_cmd"]
-        [::std::mem::offset_of!(odbsv2_grp2, trq_cmd) - 16usize];
+        [::std::mem::offset_of!(odbsv2_grp2, trq_cmd) - 8usize];
     ["Offset of field: odbsv2_grp2::efc_cur"]
-        [::std::mem::offset_of!(odbsv2_grp2, efc_cur) - 18usize];
-    ["Offset of field: odbsv2_grp2::dlvl"][::std::mem::offset_of!(odbsv2_grp2, dlvl) - 20usize];
-    ["Offset of field: odbsv2_grp2::heat"][::std::mem::offset_of!(odbsv2_grp2, heat) - 22usize];
-    ["Offset of field: odbsv2_grp2::opt"][::std::mem::offset_of!(odbsv2_grp2, opt) - 24usize];
-    ["Offset of field: odbsv2_grp2::opt2"][::std::mem::offset_of!(odbsv2_grp2, opt2) - 26usize];
+        [::std::mem::offset_of!(odbsv2_grp2, efc_cur) - 10usize];
+    ["Offset of field: odbsv2_grp2::dlvl"][::std::mem::offset_of!(odbsv2_grp2, dlvl) - 12usize];
+    ["Offset of field: odbsv2_grp2::heat"][::std::mem::offset_of!(odbsv2_grp2, heat) - 14usize];
+    ["Offset of field: odbsv2_grp2::opt"][::std::mem::offset_of!(odbsv2_grp2, opt) - 16usize];
+    ["Offset of field: odbsv2_grp2::opt2"][::std::mem::offset_of!(odbsv2_grp2, opt2) - 18usize];
 };
 impl Default for odbsv2_grp2 {
     fn default() -> Self {
@@ -14431,21 +14429,21 @@ pub struct odbsv2_grp3 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsv2_grp3"][::std::mem::size_of::<odbsv2_grp3>() - 56usize];
-    ["Alignment of odbsv2_grp3"][::std::mem::align_of::<odbsv2_grp3>() - 8usize];
+    ["Size of odbsv2_grp3"][::std::mem::size_of::<odbsv2_grp3>() - 32usize];
+    ["Alignment of odbsv2_grp3"][::std::mem::align_of::<odbsv2_grp3>() - 4usize];
     ["Offset of field: odbsv2_grp3::ps_vumb"]
         [::std::mem::offset_of!(odbsv2_grp3, ps_vumb) - 0usize];
     ["Offset of field: odbsv2_grp3::ps_vthd"]
-        [::std::mem::offset_of!(odbsv2_grp3, ps_vthd) - 16usize];
-    ["Offset of field: odbsv2_grp3::freq"][::std::mem::offset_of!(odbsv2_grp3, freq) - 32usize];
+        [::std::mem::offset_of!(odbsv2_grp3, ps_vthd) - 8usize];
+    ["Offset of field: odbsv2_grp3::freq"][::std::mem::offset_of!(odbsv2_grp3, freq) - 16usize];
     ["Offset of field: odbsv2_grp3::ps_vrms"]
-        [::std::mem::offset_of!(odbsv2_grp3, ps_vrms) - 48usize];
-    ["Offset of field: odbsv2_grp3::ps_cur"][::std::mem::offset_of!(odbsv2_grp3, ps_cur) - 50usize];
-    ["Offset of field: odbsv2_grp3::dvolt"][::std::mem::offset_of!(odbsv2_grp3, dvolt) - 52usize];
+        [::std::mem::offset_of!(odbsv2_grp3, ps_vrms) - 24usize];
+    ["Offset of field: odbsv2_grp3::ps_cur"][::std::mem::offset_of!(odbsv2_grp3, ps_cur) - 26usize];
+    ["Offset of field: odbsv2_grp3::dvolt"][::std::mem::offset_of!(odbsv2_grp3, dvolt) - 28usize];
     ["Offset of field: odbsv2_grp3::ps_statf"]
-        [::std::mem::offset_of!(odbsv2_grp3, ps_statf) - 54usize];
+        [::std::mem::offset_of!(odbsv2_grp3, ps_statf) - 30usize];
     ["Offset of field: odbsv2_grp3::reserved"]
-        [::std::mem::offset_of!(odbsv2_grp3, reserved) - 55usize];
+        [::std::mem::offset_of!(odbsv2_grp3, reserved) - 31usize];
 };
 impl Default for odbsv2_grp3 {
     fn default() -> Self {
@@ -14466,14 +14464,14 @@ pub struct odbsv2_grp4 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsv2_grp4"][::std::mem::size_of::<odbsv2_grp4>() - 24usize];
-    ["Alignment of odbsv2_grp4"][::std::mem::align_of::<odbsv2_grp4>() - 8usize];
+    ["Size of odbsv2_grp4"][::std::mem::size_of::<odbsv2_grp4>() - 16usize];
+    ["Alignment of odbsv2_grp4"][::std::mem::align_of::<odbsv2_grp4>() - 4usize];
     ["Offset of field: odbsv2_grp4::resistance"]
         [::std::mem::offset_of!(odbsv2_grp4, resistance) - 0usize];
     ["Offset of field: odbsv2_grp4::detect_res"]
-        [::std::mem::offset_of!(odbsv2_grp4, detect_res) - 16usize];
+        [::std::mem::offset_of!(odbsv2_grp4, detect_res) - 8usize];
     ["Offset of field: odbsv2_grp4::reserved"]
-        [::std::mem::offset_of!(odbsv2_grp4, reserved) - 17usize];
+        [::std::mem::offset_of!(odbsv2_grp4, reserved) - 9usize];
 };
 impl Default for odbsv2_grp4 {
     fn default() -> Self {
@@ -14628,19 +14626,19 @@ pub struct odbsp2_grp1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsp2_grp1"][::std::mem::size_of::<odbsp2_grp1>() - 24usize];
-    ["Alignment of odbsp2_grp1"][::std::mem::align_of::<odbsp2_grp1>() - 8usize];
+    ["Size of odbsp2_grp1"][::std::mem::size_of::<odbsp2_grp1>() - 20usize];
+    ["Alignment of odbsp2_grp1"][::std::mem::align_of::<odbsp2_grp1>() - 4usize];
     ["Offset of field: odbsp2_grp1::motion"][::std::mem::offset_of!(odbsp2_grp1, motion) - 0usize];
     ["Offset of field: odbsp2_grp1::cmd_spd"]
-        [::std::mem::offset_of!(odbsp2_grp1, cmd_spd) - 8usize];
-    ["Offset of field: odbsp2_grp1::mode"][::std::mem::offset_of!(odbsp2_grp1, mode) - 10usize];
-    ["Offset of field: odbsp2_grp1::gear"][::std::mem::offset_of!(odbsp2_grp1, gear) - 11usize];
-    ["Offset of field: odbsp2_grp1::osel"][::std::mem::offset_of!(odbsp2_grp1, osel) - 12usize];
+        [::std::mem::offset_of!(odbsp2_grp1, cmd_spd) - 4usize];
+    ["Offset of field: odbsp2_grp1::mode"][::std::mem::offset_of!(odbsp2_grp1, mode) - 6usize];
+    ["Offset of field: odbsp2_grp1::gear"][::std::mem::offset_of!(odbsp2_grp1, gear) - 7usize];
+    ["Offset of field: odbsp2_grp1::osel"][::std::mem::offset_of!(odbsp2_grp1, osel) - 8usize];
     ["Offset of field: odbsp2_grp1::reserved"]
-        [::std::mem::offset_of!(odbsp2_grp1, reserved) - 13usize];
-    ["Offset of field: odbsp2_grp1::sig_in"][::std::mem::offset_of!(odbsp2_grp1, sig_in) - 16usize];
+        [::std::mem::offset_of!(odbsp2_grp1, reserved) - 9usize];
+    ["Offset of field: odbsp2_grp1::sig_in"][::std::mem::offset_of!(odbsp2_grp1, sig_in) - 12usize];
     ["Offset of field: odbsp2_grp1::sig_out"]
-        [::std::mem::offset_of!(odbsp2_grp1, sig_out) - 20usize];
+        [::std::mem::offset_of!(odbsp2_grp1, sig_out) - 16usize];
 };
 pub type ODBSP2_GRP1 = odbsp2_grp1;
 #[repr(C)]
@@ -14659,24 +14657,24 @@ pub struct odbsp2_grp2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsp2_grp2"][::std::mem::size_of::<odbsp2_grp2>() - 56usize];
-    ["Alignment of odbsp2_grp2"][::std::mem::align_of::<odbsp2_grp2>() - 8usize];
+    ["Size of odbsp2_grp2"][::std::mem::size_of::<odbsp2_grp2>() - 32usize];
+    ["Alignment of odbsp2_grp2"][::std::mem::align_of::<odbsp2_grp2>() - 4usize];
     ["Offset of field: odbsp2_grp2::pos_err"]
         [::std::mem::offset_of!(odbsp2_grp2, pos_err) - 0usize];
     ["Offset of field: odbsp2_grp2::syn_err"]
-        [::std::mem::offset_of!(odbsp2_grp2, syn_err) - 8usize];
-    ["Offset of field: odbsp2_grp2::sp_spd"][::std::mem::offset_of!(odbsp2_grp2, sp_spd) - 16usize];
-    ["Offset of field: odbsp2_grp2::mt_spd"][::std::mem::offset_of!(odbsp2_grp2, mt_spd) - 24usize];
-    ["Offset of field: odbsp2_grp2::mt_cur"][::std::mem::offset_of!(odbsp2_grp2, mt_cur) - 32usize];
-    ["Offset of field: odbsp2_grp2::ldmtr"][::std::mem::offset_of!(odbsp2_grp2, ldmtr) - 48usize];
+        [::std::mem::offset_of!(odbsp2_grp2, syn_err) - 4usize];
+    ["Offset of field: odbsp2_grp2::sp_spd"][::std::mem::offset_of!(odbsp2_grp2, sp_spd) - 8usize];
+    ["Offset of field: odbsp2_grp2::mt_spd"][::std::mem::offset_of!(odbsp2_grp2, mt_spd) - 12usize];
+    ["Offset of field: odbsp2_grp2::mt_cur"][::std::mem::offset_of!(odbsp2_grp2, mt_cur) - 16usize];
+    ["Offset of field: odbsp2_grp2::ldmtr"][::std::mem::offset_of!(odbsp2_grp2, ldmtr) - 24usize];
     ["Offset of field: odbsp2_grp2::trq_cmd"]
-        [::std::mem::offset_of!(odbsp2_grp2, trq_cmd) - 50usize];
+        [::std::mem::offset_of!(odbsp2_grp2, trq_cmd) - 26usize];
     ["Offset of field: odbsp2_grp2::heat_mt"]
-        [::std::mem::offset_of!(odbsp2_grp2, heat_mt) - 52usize];
+        [::std::mem::offset_of!(odbsp2_grp2, heat_mt) - 28usize];
     ["Offset of field: odbsp2_grp2::heat_amp"]
-        [::std::mem::offset_of!(odbsp2_grp2, heat_amp) - 53usize];
+        [::std::mem::offset_of!(odbsp2_grp2, heat_amp) - 29usize];
     ["Offset of field: odbsp2_grp2::reserved"]
-        [::std::mem::offset_of!(odbsp2_grp2, reserved) - 54usize];
+        [::std::mem::offset_of!(odbsp2_grp2, reserved) - 30usize];
 };
 impl Default for odbsp2_grp2 {
     fn default() -> Self {
@@ -14702,21 +14700,21 @@ pub struct odbsp2_grp3 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsp2_grp3"][::std::mem::size_of::<odbsp2_grp3>() - 56usize];
-    ["Alignment of odbsp2_grp3"][::std::mem::align_of::<odbsp2_grp3>() - 8usize];
+    ["Size of odbsp2_grp3"][::std::mem::size_of::<odbsp2_grp3>() - 32usize];
+    ["Alignment of odbsp2_grp3"][::std::mem::align_of::<odbsp2_grp3>() - 4usize];
     ["Offset of field: odbsp2_grp3::ps_vumb"]
         [::std::mem::offset_of!(odbsp2_grp3, ps_vumb) - 0usize];
     ["Offset of field: odbsp2_grp3::ps_vthd"]
-        [::std::mem::offset_of!(odbsp2_grp3, ps_vthd) - 16usize];
-    ["Offset of field: odbsp2_grp3::freq"][::std::mem::offset_of!(odbsp2_grp3, freq) - 32usize];
+        [::std::mem::offset_of!(odbsp2_grp3, ps_vthd) - 8usize];
+    ["Offset of field: odbsp2_grp3::freq"][::std::mem::offset_of!(odbsp2_grp3, freq) - 16usize];
     ["Offset of field: odbsp2_grp3::ps_vrms"]
-        [::std::mem::offset_of!(odbsp2_grp3, ps_vrms) - 48usize];
-    ["Offset of field: odbsp2_grp3::ps_cur"][::std::mem::offset_of!(odbsp2_grp3, ps_cur) - 50usize];
-    ["Offset of field: odbsp2_grp3::dvolt"][::std::mem::offset_of!(odbsp2_grp3, dvolt) - 52usize];
+        [::std::mem::offset_of!(odbsp2_grp3, ps_vrms) - 24usize];
+    ["Offset of field: odbsp2_grp3::ps_cur"][::std::mem::offset_of!(odbsp2_grp3, ps_cur) - 26usize];
+    ["Offset of field: odbsp2_grp3::dvolt"][::std::mem::offset_of!(odbsp2_grp3, dvolt) - 28usize];
     ["Offset of field: odbsp2_grp3::ps_statf"]
-        [::std::mem::offset_of!(odbsp2_grp3, ps_statf) - 54usize];
+        [::std::mem::offset_of!(odbsp2_grp3, ps_statf) - 30usize];
     ["Offset of field: odbsp2_grp3::reserved"]
-        [::std::mem::offset_of!(odbsp2_grp3, reserved) - 55usize];
+        [::std::mem::offset_of!(odbsp2_grp3, reserved) - 31usize];
 };
 impl Default for odbsp2_grp3 {
     fn default() -> Self {
@@ -14737,14 +14735,14 @@ pub struct odbsp2_grp4 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsp2_grp4"][::std::mem::size_of::<odbsp2_grp4>() - 24usize];
-    ["Alignment of odbsp2_grp4"][::std::mem::align_of::<odbsp2_grp4>() - 8usize];
+    ["Size of odbsp2_grp4"][::std::mem::size_of::<odbsp2_grp4>() - 16usize];
+    ["Alignment of odbsp2_grp4"][::std::mem::align_of::<odbsp2_grp4>() - 4usize];
     ["Offset of field: odbsp2_grp4::resistance"]
         [::std::mem::offset_of!(odbsp2_grp4, resistance) - 0usize];
     ["Offset of field: odbsp2_grp4::detect_res"]
-        [::std::mem::offset_of!(odbsp2_grp4, detect_res) - 16usize];
+        [::std::mem::offset_of!(odbsp2_grp4, detect_res) - 8usize];
     ["Offset of field: odbsp2_grp4::reserved"]
-        [::std::mem::offset_of!(odbsp2_grp4, reserved) - 17usize];
+        [::std::mem::offset_of!(odbsp2_grp4, reserved) - 9usize];
 };
 impl Default for odbsp2_grp4 {
     fn default() -> Self {
@@ -14841,28 +14839,28 @@ pub struct odbsp2_grp7 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsp2_grp7"][::std::mem::size_of::<odbsp2_grp7>() - 48usize];
-    ["Alignment of odbsp2_grp7"][::std::mem::align_of::<odbsp2_grp7>() - 8usize];
+    ["Size of odbsp2_grp7"][::std::mem::size_of::<odbsp2_grp7>() - 32usize];
+    ["Alignment of odbsp2_grp7"][::std::mem::align_of::<odbsp2_grp7>() - 4usize];
     ["Offset of field: odbsp2_grp7::iab_amplt"]
         [::std::mem::offset_of!(odbsp2_grp7, iab_amplt) - 0usize];
     ["Offset of field: odbsp2_grp7::eab_amplt"]
-        [::std::mem::offset_of!(odbsp2_grp7, eab_amplt) - 16usize];
+        [::std::mem::offset_of!(odbsp2_grp7, eab_amplt) - 8usize];
     ["Offset of field: odbsp2_grp7::iab_ofs_a"]
-        [::std::mem::offset_of!(odbsp2_grp7, iab_ofs_a) - 32usize];
+        [::std::mem::offset_of!(odbsp2_grp7, iab_ofs_a) - 16usize];
     ["Offset of field: odbsp2_grp7::iab_ofs_b"]
-        [::std::mem::offset_of!(odbsp2_grp7, iab_ofs_b) - 34usize];
+        [::std::mem::offset_of!(odbsp2_grp7, iab_ofs_b) - 18usize];
     ["Offset of field: odbsp2_grp7::iab_noise"]
-        [::std::mem::offset_of!(odbsp2_grp7, iab_noise) - 36usize];
+        [::std::mem::offset_of!(odbsp2_grp7, iab_noise) - 20usize];
     ["Offset of field: odbsp2_grp7::eab_ofs_a"]
-        [::std::mem::offset_of!(odbsp2_grp7, eab_ofs_a) - 38usize];
+        [::std::mem::offset_of!(odbsp2_grp7, eab_ofs_a) - 22usize];
     ["Offset of field: odbsp2_grp7::eab_ofs_b"]
-        [::std::mem::offset_of!(odbsp2_grp7, eab_ofs_b) - 40usize];
+        [::std::mem::offset_of!(odbsp2_grp7, eab_ofs_b) - 24usize];
     ["Offset of field: odbsp2_grp7::eab_noise"]
-        [::std::mem::offset_of!(odbsp2_grp7, eab_noise) - 42usize];
+        [::std::mem::offset_of!(odbsp2_grp7, eab_noise) - 26usize];
     ["Offset of field: odbsp2_grp7::iab_max_flt"]
-        [::std::mem::offset_of!(odbsp2_grp7, iab_max_flt) - 44usize];
+        [::std::mem::offset_of!(odbsp2_grp7, iab_max_flt) - 28usize];
     ["Offset of field: odbsp2_grp7::eab_max_flt"]
-        [::std::mem::offset_of!(odbsp2_grp7, eab_max_flt) - 46usize];
+        [::std::mem::offset_of!(odbsp2_grp7, eab_max_flt) - 30usize];
 };
 impl Default for odbsp2_grp7 {
     fn default() -> Self {
@@ -14929,18 +14927,18 @@ pub struct odblat_grp1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odblat_grp1"][::std::mem::size_of::<odblat_grp1>() - 56usize];
-    ["Alignment of odblat_grp1"][::std::mem::align_of::<odblat_grp1>() - 8usize];
+    ["Size of odblat_grp1"][::std::mem::size_of::<odblat_grp1>() - 48usize];
+    ["Alignment of odblat_grp1"][::std::mem::align_of::<odblat_grp1>() - 4usize];
     ["Offset of field: odblat_grp1::nnum"][::std::mem::offset_of!(odblat_grp1, nnum) - 0usize];
-    ["Offset of field: odblat_grp1::prog"][::std::mem::offset_of!(odblat_grp1, prog) - 8usize];
-    ["Offset of field: odblat_grp1::year"][::std::mem::offset_of!(odblat_grp1, year) - 44usize];
-    ["Offset of field: odblat_grp1::mon"][::std::mem::offset_of!(odblat_grp1, mon) - 45usize];
-    ["Offset of field: odblat_grp1::day"][::std::mem::offset_of!(odblat_grp1, day) - 46usize];
-    ["Offset of field: odblat_grp1::hour"][::std::mem::offset_of!(odblat_grp1, hour) - 47usize];
-    ["Offset of field: odblat_grp1::min"][::std::mem::offset_of!(odblat_grp1, min) - 48usize];
-    ["Offset of field: odblat_grp1::sec"][::std::mem::offset_of!(odblat_grp1, sec) - 49usize];
+    ["Offset of field: odblat_grp1::prog"][::std::mem::offset_of!(odblat_grp1, prog) - 4usize];
+    ["Offset of field: odblat_grp1::year"][::std::mem::offset_of!(odblat_grp1, year) - 40usize];
+    ["Offset of field: odblat_grp1::mon"][::std::mem::offset_of!(odblat_grp1, mon) - 41usize];
+    ["Offset of field: odblat_grp1::day"][::std::mem::offset_of!(odblat_grp1, day) - 42usize];
+    ["Offset of field: odblat_grp1::hour"][::std::mem::offset_of!(odblat_grp1, hour) - 43usize];
+    ["Offset of field: odblat_grp1::min"][::std::mem::offset_of!(odblat_grp1, min) - 44usize];
+    ["Offset of field: odblat_grp1::sec"][::std::mem::offset_of!(odblat_grp1, sec) - 45usize];
     ["Offset of field: odblat_grp1::reserved"]
-        [::std::mem::offset_of!(odblat_grp1, reserved) - 50usize];
+        [::std::mem::offset_of!(odblat_grp1, reserved) - 46usize];
 };
 impl Default for odblat_grp1 {
     fn default() -> Self {
@@ -14974,8 +14972,8 @@ pub union odbviewgrp2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbviewgrp2"][::std::mem::size_of::<odbviewgrp2>() - 56usize];
-    ["Alignment of odbviewgrp2"][::std::mem::align_of::<odbviewgrp2>() - 8usize];
+    ["Size of odbviewgrp2"][::std::mem::size_of::<odbviewgrp2>() - 48usize];
+    ["Alignment of odbviewgrp2"][::std::mem::align_of::<odbviewgrp2>() - 4usize];
     ["Offset of field: odbviewgrp2::sv1"][::std::mem::offset_of!(odbviewgrp2, sv1) - 0usize];
     ["Offset of field: odbviewgrp2::sv2"][::std::mem::offset_of!(odbviewgrp2, sv2) - 0usize];
     ["Offset of field: odbviewgrp2::sv3"][::std::mem::offset_of!(odbviewgrp2, sv3) - 0usize];
@@ -15019,21 +15017,21 @@ pub struct odbmdgwvdt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmdgwvdt"][::std::mem::size_of::<odbmdgwvdt>() - 4016usize];
-    ["Alignment of odbmdgwvdt"][::std::mem::align_of::<odbmdgwvdt>() - 8usize];
+    ["Size of odbmdgwvdt"][::std::mem::size_of::<odbmdgwvdt>() - 2016usize];
+    ["Alignment of odbmdgwvdt"][::std::mem::align_of::<odbmdgwvdt>() - 4usize];
     ["Offset of field: odbmdgwvdt::ldata"][::std::mem::offset_of!(odbmdgwvdt, ldata) - 0usize];
-    ["Offset of field: odbmdgwvdt::p_dec"][::std::mem::offset_of!(odbmdgwvdt, p_dec) - 4000usize];
-    ["Offset of field: odbmdgwvdt::num"][::std::mem::offset_of!(odbmdgwvdt, num) - 4002usize];
+    ["Offset of field: odbmdgwvdt::p_dec"][::std::mem::offset_of!(odbmdgwvdt, p_dec) - 2000usize];
+    ["Offset of field: odbmdgwvdt::num"][::std::mem::offset_of!(odbmdgwvdt, num) - 2002usize];
     ["Offset of field: odbmdgwvdt::channel"]
-        [::std::mem::offset_of!(odbmdgwvdt, channel) - 4004usize];
-    ["Offset of field: odbmdgwvdt::axis"][::std::mem::offset_of!(odbmdgwvdt, axis) - 4006usize];
-    ["Offset of field: odbmdgwvdt::kind"][::std::mem::offset_of!(odbmdgwvdt, kind) - 4008usize];
+        [::std::mem::offset_of!(odbmdgwvdt, channel) - 2004usize];
+    ["Offset of field: odbmdgwvdt::axis"][::std::mem::offset_of!(odbmdgwvdt, axis) - 2006usize];
+    ["Offset of field: odbmdgwvdt::kind"][::std::mem::offset_of!(odbmdgwvdt, kind) - 2008usize];
     ["Offset of field: odbmdgwvdt::interval"]
-        [::std::mem::offset_of!(odbmdgwvdt, interval) - 4010usize];
+        [::std::mem::offset_of!(odbmdgwvdt, interval) - 2010usize];
     ["Offset of field: odbmdgwvdt::t_cycle"]
-        [::std::mem::offset_of!(odbmdgwvdt, t_cycle) - 4012usize];
-    ["Offset of field: odbmdgwvdt::unit"][::std::mem::offset_of!(odbmdgwvdt, unit) - 4014usize];
-    ["Offset of field: odbmdgwvdt::sw_alm"][::std::mem::offset_of!(odbmdgwvdt, sw_alm) - 4015usize];
+        [::std::mem::offset_of!(odbmdgwvdt, t_cycle) - 2012usize];
+    ["Offset of field: odbmdgwvdt::unit"][::std::mem::offset_of!(odbmdgwvdt, unit) - 2014usize];
+    ["Offset of field: odbmdgwvdt::sw_alm"][::std::mem::offset_of!(odbmdgwvdt, sw_alm) - 2015usize];
 };
 impl Default for odbmdgwvdt {
     fn default() -> Self {
@@ -15070,37 +15068,35 @@ pub struct iodbidinf {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbidinf"][::std::mem::size_of::<iodbidinf>() - 136usize];
-    ["Alignment of iodbidinf"][::std::mem::align_of::<iodbidinf>() - 8usize];
+    ["Size of iodbidinf"][::std::mem::size_of::<iodbidinf>() - 116usize];
+    ["Alignment of iodbidinf"][::std::mem::align_of::<iodbidinf>() - 4usize];
     ["Offset of field: iodbidinf::id_no"][::std::mem::offset_of!(iodbidinf, id_no) - 0usize];
-    ["Offset of field: iodbidinf::drv_no"][::std::mem::offset_of!(iodbidinf, drv_no) - 8usize];
+    ["Offset of field: iodbidinf::drv_no"][::std::mem::offset_of!(iodbidinf, drv_no) - 4usize];
     ["Offset of field: iodbidinf::acc_element"]
-        [::std::mem::offset_of!(iodbidinf, acc_element) - 10usize];
+        [::std::mem::offset_of!(iodbidinf, acc_element) - 6usize];
     ["Offset of field: iodbidinf::err_general"]
-        [::std::mem::offset_of!(iodbidinf, err_general) - 12usize];
+        [::std::mem::offset_of!(iodbidinf, err_general) - 8usize];
     ["Offset of field: iodbidinf::err_id_no"]
-        [::std::mem::offset_of!(iodbidinf, err_id_no) - 14usize];
+        [::std::mem::offset_of!(iodbidinf, err_id_no) - 10usize];
     ["Offset of field: iodbidinf::err_id_name"]
-        [::std::mem::offset_of!(iodbidinf, err_id_name) - 16usize];
-    ["Offset of field: iodbidinf::err_attr"][::std::mem::offset_of!(iodbidinf, err_attr) - 18usize];
-    ["Offset of field: iodbidinf::err_unit"][::std::mem::offset_of!(iodbidinf, err_unit) - 20usize];
+        [::std::mem::offset_of!(iodbidinf, err_id_name) - 12usize];
+    ["Offset of field: iodbidinf::err_attr"][::std::mem::offset_of!(iodbidinf, err_attr) - 14usize];
+    ["Offset of field: iodbidinf::err_unit"][::std::mem::offset_of!(iodbidinf, err_unit) - 16usize];
     ["Offset of field: iodbidinf::err_min_val"]
-        [::std::mem::offset_of!(iodbidinf, err_min_val) - 22usize];
+        [::std::mem::offset_of!(iodbidinf, err_min_val) - 18usize];
     ["Offset of field: iodbidinf::err_max_val"]
-        [::std::mem::offset_of!(iodbidinf, err_max_val) - 24usize];
+        [::std::mem::offset_of!(iodbidinf, err_max_val) - 20usize];
     ["Offset of field: iodbidinf::id_name_len"]
-        [::std::mem::offset_of!(iodbidinf, id_name_len) - 26usize];
+        [::std::mem::offset_of!(iodbidinf, id_name_len) - 22usize];
     ["Offset of field: iodbidinf::id_name_max"]
-        [::std::mem::offset_of!(iodbidinf, id_name_max) - 28usize];
-    ["Offset of field: iodbidinf::id_name"][::std::mem::offset_of!(iodbidinf, id_name) - 30usize];
-    ["Offset of field: iodbidinf::attr"][::std::mem::offset_of!(iodbidinf, attr) - 96usize];
-    ["Offset of field: iodbidinf::unit_len"]
-        [::std::mem::offset_of!(iodbidinf, unit_len) - 104usize];
-    ["Offset of field: iodbidinf::unit_max"]
-        [::std::mem::offset_of!(iodbidinf, unit_max) - 106usize];
-    ["Offset of field: iodbidinf::unit"][::std::mem::offset_of!(iodbidinf, unit) - 108usize];
-    ["Offset of field: iodbidinf::min_val"][::std::mem::offset_of!(iodbidinf, min_val) - 120usize];
-    ["Offset of field: iodbidinf::max_val"][::std::mem::offset_of!(iodbidinf, max_val) - 128usize];
+        [::std::mem::offset_of!(iodbidinf, id_name_max) - 24usize];
+    ["Offset of field: iodbidinf::id_name"][::std::mem::offset_of!(iodbidinf, id_name) - 26usize];
+    ["Offset of field: iodbidinf::attr"][::std::mem::offset_of!(iodbidinf, attr) - 88usize];
+    ["Offset of field: iodbidinf::unit_len"][::std::mem::offset_of!(iodbidinf, unit_len) - 92usize];
+    ["Offset of field: iodbidinf::unit_max"][::std::mem::offset_of!(iodbidinf, unit_max) - 94usize];
+    ["Offset of field: iodbidinf::unit"][::std::mem::offset_of!(iodbidinf, unit) - 96usize];
+    ["Offset of field: iodbidinf::min_val"][::std::mem::offset_of!(iodbidinf, min_val) - 108usize];
+    ["Offset of field: iodbidinf::max_val"][::std::mem::offset_of!(iodbidinf, max_val) - 112usize];
 };
 impl Default for iodbidinf {
     fn default() -> Self {
@@ -15164,13 +15160,13 @@ pub struct idbchan {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbchan"][::std::mem::size_of::<idbchan>() - 24usize];
-    ["Alignment of idbchan"][::std::mem::align_of::<idbchan>() - 8usize];
+    ["Size of idbchan"][::std::mem::size_of::<idbchan>() - 12usize];
+    ["Alignment of idbchan"][::std::mem::align_of::<idbchan>() - 4usize];
     ["Offset of field: idbchan::chno"][::std::mem::offset_of!(idbchan, chno) - 0usize];
     ["Offset of field: idbchan::axis"][::std::mem::offset_of!(idbchan, axis) - 1usize];
-    ["Offset of field: idbchan::datanum"][::std::mem::offset_of!(idbchan, datanum) - 8usize];
-    ["Offset of field: idbchan::datainf"][::std::mem::offset_of!(idbchan, datainf) - 16usize];
-    ["Offset of field: idbchan::dataadr"][::std::mem::offset_of!(idbchan, dataadr) - 18usize];
+    ["Offset of field: idbchan::datanum"][::std::mem::offset_of!(idbchan, datanum) - 4usize];
+    ["Offset of field: idbchan::datainf"][::std::mem::offset_of!(idbchan, datainf) - 8usize];
+    ["Offset of field: idbchan::dataadr"][::std::mem::offset_of!(idbchan, dataadr) - 10usize];
 };
 pub type IDBCHAN = idbchan;
 #[repr(C)]
@@ -15203,14 +15199,14 @@ pub struct idbchan2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbchan2"][::std::mem::size_of::<idbchan2>() - 120usize];
-    ["Alignment of idbchan2"][::std::mem::align_of::<idbchan2>() - 8usize];
+    ["Size of idbchan2"][::std::mem::size_of::<idbchan2>() - 108usize];
+    ["Alignment of idbchan2"][::std::mem::align_of::<idbchan2>() - 4usize];
     ["Offset of field: idbchan2::chno"][::std::mem::offset_of!(idbchan2, chno) - 0usize];
     ["Offset of field: idbchan2::axis"][::std::mem::offset_of!(idbchan2, axis) - 2usize];
-    ["Offset of field: idbchan2::datanum"][::std::mem::offset_of!(idbchan2, datanum) - 8usize];
-    ["Offset of field: idbchan2::datainf"][::std::mem::offset_of!(idbchan2, datainf) - 16usize];
-    ["Offset of field: idbchan2::dataadr"][::std::mem::offset_of!(idbchan2, dataadr) - 18usize];
-    ["Offset of field: idbchan2::io"][::std::mem::offset_of!(idbchan2, io) - 20usize];
+    ["Offset of field: idbchan2::datanum"][::std::mem::offset_of!(idbchan2, datanum) - 4usize];
+    ["Offset of field: idbchan2::datainf"][::std::mem::offset_of!(idbchan2, datainf) - 8usize];
+    ["Offset of field: idbchan2::dataadr"][::std::mem::offset_of!(idbchan2, dataadr) - 10usize];
+    ["Offset of field: idbchan2::io"][::std::mem::offset_of!(idbchan2, io) - 12usize];
 };
 pub type IDBCHAN2 = idbchan2;
 #[repr(C)]
@@ -15221,10 +15217,10 @@ pub struct trgdata {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of trgdata"][::std::mem::size_of::<trgdata>() - 16usize];
-    ["Alignment of trgdata"][::std::mem::align_of::<trgdata>() - 8usize];
+    ["Size of trgdata"][::std::mem::size_of::<trgdata>() - 12usize];
+    ["Alignment of trgdata"][::std::mem::align_of::<trgdata>() - 4usize];
     ["Offset of field: trgdata::seq_no"][::std::mem::offset_of!(trgdata, seq_no) - 0usize];
-    ["Offset of field: trgdata::pmc_trg"][::std::mem::offset_of!(trgdata, pmc_trg) - 8usize];
+    ["Offset of field: trgdata::pmc_trg"][::std::mem::offset_of!(trgdata, pmc_trg) - 4usize];
 };
 pub type TRG_DATA = trgdata;
 #[repr(C)]
@@ -15257,10 +15253,10 @@ pub struct odbsd {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsd"][::std::mem::size_of::<odbsd>() - 16usize];
-    ["Alignment of odbsd"][::std::mem::align_of::<odbsd>() - 8usize];
+    ["Size of odbsd"][::std::mem::size_of::<odbsd>() - 8usize];
+    ["Alignment of odbsd"][::std::mem::align_of::<odbsd>() - 4usize];
     ["Offset of field: odbsd::chadata"][::std::mem::offset_of!(odbsd, chadata) - 0usize];
-    ["Offset of field: odbsd::count"][::std::mem::offset_of!(odbsd, count) - 8usize];
+    ["Offset of field: odbsd::count"][::std::mem::offset_of!(odbsd, count) - 4usize];
 };
 impl Default for odbsd {
     fn default() -> Self {
@@ -15334,10 +15330,10 @@ pub struct idbsdttrg {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbsdttrg"][::std::mem::size_of::<idbsdttrg>() - 16usize];
-    ["Alignment of idbsdttrg"][::std::mem::align_of::<idbsdttrg>() - 8usize];
+    ["Size of idbsdttrg"][::std::mem::size_of::<idbsdttrg>() - 12usize];
+    ["Alignment of idbsdttrg"][::std::mem::align_of::<idbsdttrg>() - 4usize];
     ["Offset of field: idbsdttrg::seq_no"][::std::mem::offset_of!(idbsdttrg, seq_no) - 0usize];
-    ["Offset of field: idbsdttrg::pmc_trg"][::std::mem::offset_of!(idbsdttrg, pmc_trg) - 8usize];
+    ["Offset of field: idbsdttrg::pmc_trg"][::std::mem::offset_of!(idbsdttrg, pmc_trg) - 4usize];
 };
 pub type IDBSDTTRG = idbsdttrg;
 #[repr(C)]
@@ -15351,16 +15347,16 @@ pub struct rmtdgn_info {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of rmtdgn_info"][::std::mem::size_of::<rmtdgn_info>() - 56usize];
-    ["Alignment of rmtdgn_info"][::std::mem::align_of::<rmtdgn_info>() - 8usize];
+    ["Size of rmtdgn_info"][::std::mem::size_of::<rmtdgn_info>() - 48usize];
+    ["Alignment of rmtdgn_info"][::std::mem::align_of::<rmtdgn_info>() - 4usize];
     ["Offset of field: rmtdgn_info::receipt_num"]
         [::std::mem::offset_of!(rmtdgn_info, receipt_num) - 0usize];
-    ["Offset of field: rmtdgn_info::time"][::std::mem::offset_of!(rmtdgn_info, time) - 8usize];
-    ["Offset of field: rmtdgn_info::status"][::std::mem::offset_of!(rmtdgn_info, status) - 16usize];
+    ["Offset of field: rmtdgn_info::time"][::std::mem::offset_of!(rmtdgn_info, time) - 4usize];
+    ["Offset of field: rmtdgn_info::status"][::std::mem::offset_of!(rmtdgn_info, status) - 8usize];
     ["Offset of field: rmtdgn_info::err_num"]
-        [::std::mem::offset_of!(rmtdgn_info, err_num) - 18usize];
+        [::std::mem::offset_of!(rmtdgn_info, err_num) - 10usize];
     ["Offset of field: rmtdgn_info::err_msg"]
-        [::std::mem::offset_of!(rmtdgn_info, err_msg) - 20usize];
+        [::std::mem::offset_of!(rmtdgn_info, err_msg) - 12usize];
 };
 impl Default for rmtdgn_info {
     fn default() -> Self {
@@ -15397,11 +15393,11 @@ pub struct odbproo8 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbproo8"][::std::mem::size_of::<odbproo8>() - 24usize];
-    ["Alignment of odbproo8"][::std::mem::align_of::<odbproo8>() - 8usize];
+    ["Size of odbproo8"][::std::mem::size_of::<odbproo8>() - 12usize];
+    ["Alignment of odbproo8"][::std::mem::align_of::<odbproo8>() - 4usize];
     ["Offset of field: odbproo8::dummy"][::std::mem::offset_of!(odbproo8, dummy) - 0usize];
-    ["Offset of field: odbproo8::data"][::std::mem::offset_of!(odbproo8, data) - 8usize];
-    ["Offset of field: odbproo8::mdata"][::std::mem::offset_of!(odbproo8, mdata) - 16usize];
+    ["Offset of field: odbproo8::data"][::std::mem::offset_of!(odbproo8, data) - 4usize];
+    ["Offset of field: odbproo8::mdata"][::std::mem::offset_of!(odbproo8, mdata) - 8usize];
 };
 pub type ODBPROO8 = odbproo8;
 #[repr(C)]
@@ -15434,17 +15430,17 @@ pub struct odbdyo8__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdyo8__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<odbdyo8__bindgen_ty_1__bindgen_ty_1>() - 1024usize];
+        [::std::mem::size_of::<odbdyo8__bindgen_ty_1__bindgen_ty_1>() - 512usize];
     ["Alignment of odbdyo8__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<odbdyo8__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbdyo8__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdyo8__bindgen_ty_1__bindgen_ty_1::absolute"]
         [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_1, absolute) - 0usize];
     ["Offset of field: odbdyo8__bindgen_ty_1__bindgen_ty_1::machine"]
-        [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_1, machine) - 256usize];
+        [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_1, machine) - 128usize];
     ["Offset of field: odbdyo8__bindgen_ty_1__bindgen_ty_1::relative"]
-        [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_1, relative) - 512usize];
+        [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_1, relative) - 256usize];
     ["Offset of field: odbdyo8__bindgen_ty_1__bindgen_ty_1::distance"]
-        [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_1, distance) - 768usize];
+        [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_1, distance) - 384usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -15457,23 +15453,23 @@ pub struct odbdyo8__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbdyo8__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<odbdyo8__bindgen_ty_1__bindgen_ty_2>() - 32usize];
+        [::std::mem::size_of::<odbdyo8__bindgen_ty_1__bindgen_ty_2>() - 16usize];
     ["Alignment of odbdyo8__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<odbdyo8__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<odbdyo8__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: odbdyo8__bindgen_ty_1__bindgen_ty_2::absolute"]
         [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_2, absolute) - 0usize];
     ["Offset of field: odbdyo8__bindgen_ty_1__bindgen_ty_2::machine"]
-        [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_2, machine) - 8usize];
+        [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_2, machine) - 4usize];
     ["Offset of field: odbdyo8__bindgen_ty_1__bindgen_ty_2::relative"]
-        [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_2, relative) - 16usize];
+        [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_2, relative) - 8usize];
     ["Offset of field: odbdyo8__bindgen_ty_1__bindgen_ty_2::distance"]
-        [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_2, distance) - 24usize];
+        [::std::mem::offset_of!(odbdyo8__bindgen_ty_1__bindgen_ty_2, distance) - 12usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdyo8__bindgen_ty_1"][::std::mem::size_of::<odbdyo8__bindgen_ty_1>() - 1024usize];
+    ["Size of odbdyo8__bindgen_ty_1"][::std::mem::size_of::<odbdyo8__bindgen_ty_1>() - 512usize];
     ["Alignment of odbdyo8__bindgen_ty_1"]
-        [::std::mem::align_of::<odbdyo8__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbdyo8__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbdyo8__bindgen_ty_1::faxis"]
         [::std::mem::offset_of!(odbdyo8__bindgen_ty_1, faxis) - 0usize];
     ["Offset of field: odbdyo8__bindgen_ty_1::oaxis"]
@@ -15490,17 +15486,17 @@ impl Default for odbdyo8__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbdyo8"][::std::mem::size_of::<odbdyo8>() - 1072usize];
-    ["Alignment of odbdyo8"][::std::mem::align_of::<odbdyo8>() - 8usize];
+    ["Size of odbdyo8"][::std::mem::size_of::<odbdyo8>() - 540usize];
+    ["Alignment of odbdyo8"][::std::mem::align_of::<odbdyo8>() - 4usize];
     ["Offset of field: odbdyo8::dummy"][::std::mem::offset_of!(odbdyo8, dummy) - 0usize];
     ["Offset of field: odbdyo8::axis"][::std::mem::offset_of!(odbdyo8, axis) - 2usize];
     ["Offset of field: odbdyo8::alarm"][::std::mem::offset_of!(odbdyo8, alarm) - 4usize];
     ["Offset of field: odbdyo8::prgnum"][::std::mem::offset_of!(odbdyo8, prgnum) - 8usize];
-    ["Offset of field: odbdyo8::prgmnum"][::std::mem::offset_of!(odbdyo8, prgmnum) - 16usize];
-    ["Offset of field: odbdyo8::seqnum"][::std::mem::offset_of!(odbdyo8, seqnum) - 24usize];
-    ["Offset of field: odbdyo8::actf"][::std::mem::offset_of!(odbdyo8, actf) - 32usize];
-    ["Offset of field: odbdyo8::acts"][::std::mem::offset_of!(odbdyo8, acts) - 40usize];
-    ["Offset of field: odbdyo8::pos"][::std::mem::offset_of!(odbdyo8, pos) - 48usize];
+    ["Offset of field: odbdyo8::prgmnum"][::std::mem::offset_of!(odbdyo8, prgmnum) - 12usize];
+    ["Offset of field: odbdyo8::seqnum"][::std::mem::offset_of!(odbdyo8, seqnum) - 16usize];
+    ["Offset of field: odbdyo8::actf"][::std::mem::offset_of!(odbdyo8, actf) - 20usize];
+    ["Offset of field: odbdyo8::acts"][::std::mem::offset_of!(odbdyo8, acts) - 24usize];
+    ["Offset of field: odbdyo8::pos"][::std::mem::offset_of!(odbdyo8, pos) - 28usize];
 };
 impl Default for odbdyo8 {
     fn default() -> Self {
@@ -15522,12 +15518,12 @@ pub struct odbmdipo8 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmdipo8"][::std::mem::size_of::<odbmdipo8>() - 32usize];
-    ["Alignment of odbmdipo8"][::std::mem::align_of::<odbmdipo8>() - 8usize];
+    ["Size of odbmdipo8"][::std::mem::size_of::<odbmdipo8>() - 16usize];
+    ["Alignment of odbmdipo8"][::std::mem::align_of::<odbmdipo8>() - 4usize];
     ["Offset of field: odbmdipo8::mdiprog"][::std::mem::offset_of!(odbmdipo8, mdiprog) - 0usize];
-    ["Offset of field: odbmdipo8::mdipntr"][::std::mem::offset_of!(odbmdipo8, mdipntr) - 8usize];
-    ["Offset of field: odbmdipo8::crntprog"][::std::mem::offset_of!(odbmdipo8, crntprog) - 16usize];
-    ["Offset of field: odbmdipo8::crntpntr"][::std::mem::offset_of!(odbmdipo8, crntpntr) - 24usize];
+    ["Offset of field: odbmdipo8::mdipntr"][::std::mem::offset_of!(odbmdipo8, mdipntr) - 4usize];
+    ["Offset of field: odbmdipo8::crntprog"][::std::mem::offset_of!(odbmdipo8, crntprog) - 8usize];
+    ["Offset of field: odbmdipo8::crntpntr"][::std::mem::offset_of!(odbmdipo8, crntpntr) - 12usize];
 };
 pub type ODBMDIPO8 = odbmdipo8;
 #[repr(C)]
@@ -15540,12 +15536,12 @@ pub struct prgdir2o8 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of prgdir2o8"][::std::mem::size_of::<prgdir2o8>() - 72usize];
-    ["Alignment of prgdir2o8"][::std::mem::align_of::<prgdir2o8>() - 8usize];
+    ["Size of prgdir2o8"][::std::mem::size_of::<prgdir2o8>() - 60usize];
+    ["Alignment of prgdir2o8"][::std::mem::align_of::<prgdir2o8>() - 4usize];
     ["Offset of field: prgdir2o8::number"][::std::mem::offset_of!(prgdir2o8, number) - 0usize];
-    ["Offset of field: prgdir2o8::length"][::std::mem::offset_of!(prgdir2o8, length) - 8usize];
-    ["Offset of field: prgdir2o8::comment"][::std::mem::offset_of!(prgdir2o8, comment) - 16usize];
-    ["Offset of field: prgdir2o8::dummy"][::std::mem::offset_of!(prgdir2o8, dummy) - 67usize];
+    ["Offset of field: prgdir2o8::length"][::std::mem::offset_of!(prgdir2o8, length) - 4usize];
+    ["Offset of field: prgdir2o8::comment"][::std::mem::offset_of!(prgdir2o8, comment) - 8usize];
+    ["Offset of field: prgdir2o8::dummy"][::std::mem::offset_of!(prgdir2o8, dummy) - 59usize];
 };
 impl Default for prgdir2o8 {
     fn default() -> Self {
@@ -15572,19 +15568,19 @@ pub struct cfileinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of cfileinfo"][::std::mem::size_of::<cfileinfo>() - 48usize];
-    ["Alignment of cfileinfo"][::std::mem::align_of::<cfileinfo>() - 8usize];
+    ["Size of cfileinfo"][::std::mem::size_of::<cfileinfo>() - 32usize];
+    ["Alignment of cfileinfo"][::std::mem::align_of::<cfileinfo>() - 4usize];
     ["Offset of field: cfileinfo::fname"][::std::mem::offset_of!(cfileinfo, fname) - 0usize];
     ["Offset of field: cfileinfo::file_size"]
-        [::std::mem::offset_of!(cfileinfo, file_size) - 16usize];
+        [::std::mem::offset_of!(cfileinfo, file_size) - 12usize];
     ["Offset of field: cfileinfo::file_attr"]
-        [::std::mem::offset_of!(cfileinfo, file_attr) - 24usize];
-    ["Offset of field: cfileinfo::year"][::std::mem::offset_of!(cfileinfo, year) - 32usize];
-    ["Offset of field: cfileinfo::month"][::std::mem::offset_of!(cfileinfo, month) - 34usize];
-    ["Offset of field: cfileinfo::day"][::std::mem::offset_of!(cfileinfo, day) - 36usize];
-    ["Offset of field: cfileinfo::hour"][::std::mem::offset_of!(cfileinfo, hour) - 38usize];
-    ["Offset of field: cfileinfo::minute"][::std::mem::offset_of!(cfileinfo, minute) - 40usize];
-    ["Offset of field: cfileinfo::second"][::std::mem::offset_of!(cfileinfo, second) - 42usize];
+        [::std::mem::offset_of!(cfileinfo, file_attr) - 16usize];
+    ["Offset of field: cfileinfo::year"][::std::mem::offset_of!(cfileinfo, year) - 20usize];
+    ["Offset of field: cfileinfo::month"][::std::mem::offset_of!(cfileinfo, month) - 22usize];
+    ["Offset of field: cfileinfo::day"][::std::mem::offset_of!(cfileinfo, day) - 24usize];
+    ["Offset of field: cfileinfo::hour"][::std::mem::offset_of!(cfileinfo, hour) - 26usize];
+    ["Offset of field: cfileinfo::minute"][::std::mem::offset_of!(cfileinfo, minute) - 28usize];
+    ["Offset of field: cfileinfo::second"][::std::mem::offset_of!(cfileinfo, second) - 30usize];
 };
 pub type CFILEINFO = cfileinfo;
 #[repr(C)]
@@ -16100,30 +16096,30 @@ pub struct tagODBIFSBSYSALM {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tagODBIFSBSYSALM"][::std::mem::size_of::<tagODBIFSBSYSALM>() - 128usize];
-    ["Alignment of tagODBIFSBSYSALM"][::std::mem::align_of::<tagODBIFSBSYSALM>() - 8usize];
+    ["Size of tagODBIFSBSYSALM"][::std::mem::size_of::<tagODBIFSBSYSALM>() - 124usize];
+    ["Alignment of tagODBIFSBSYSALM"][::std::mem::align_of::<tagODBIFSBSYSALM>() - 4usize];
     ["Offset of field: tagODBIFSBSYSALM::num_sys_alm"]
         [::std::mem::offset_of!(tagODBIFSBSYSALM, num_sys_alm) - 0usize];
     ["Offset of field: tagODBIFSBSYSALM::error_line"]
-        [::std::mem::offset_of!(tagODBIFSBSYSALM, error_line) - 8usize];
+        [::std::mem::offset_of!(tagODBIFSBSYSALM, error_line) - 4usize];
     ["Offset of field: tagODBIFSBSYSALM::error_slvnum1"]
-        [::std::mem::offset_of!(tagODBIFSBSYSALM, error_slvnum1) - 10usize];
+        [::std::mem::offset_of!(tagODBIFSBSYSALM, error_slvnum1) - 6usize];
     ["Offset of field: tagODBIFSBSYSALM::error_slvnum2"]
-        [::std::mem::offset_of!(tagODBIFSBSYSALM, error_slvnum2) - 12usize];
+        [::std::mem::offset_of!(tagODBIFSBSYSALM, error_slvnum2) - 8usize];
     ["Offset of field: tagODBIFSBSYSALM::year"]
-        [::std::mem::offset_of!(tagODBIFSBSYSALM, year) - 14usize];
+        [::std::mem::offset_of!(tagODBIFSBSYSALM, year) - 10usize];
     ["Offset of field: tagODBIFSBSYSALM::mon"]
-        [::std::mem::offset_of!(tagODBIFSBSYSALM, mon) - 16usize];
+        [::std::mem::offset_of!(tagODBIFSBSYSALM, mon) - 12usize];
     ["Offset of field: tagODBIFSBSYSALM::day"]
-        [::std::mem::offset_of!(tagODBIFSBSYSALM, day) - 18usize];
+        [::std::mem::offset_of!(tagODBIFSBSYSALM, day) - 14usize];
     ["Offset of field: tagODBIFSBSYSALM::hour"]
-        [::std::mem::offset_of!(tagODBIFSBSYSALM, hour) - 20usize];
+        [::std::mem::offset_of!(tagODBIFSBSYSALM, hour) - 16usize];
     ["Offset of field: tagODBIFSBSYSALM::min"]
-        [::std::mem::offset_of!(tagODBIFSBSYSALM, min) - 22usize];
+        [::std::mem::offset_of!(tagODBIFSBSYSALM, min) - 18usize];
     ["Offset of field: tagODBIFSBSYSALM::sec"]
-        [::std::mem::offset_of!(tagODBIFSBSYSALM, sec) - 24usize];
+        [::std::mem::offset_of!(tagODBIFSBSYSALM, sec) - 20usize];
     ["Offset of field: tagODBIFSBSYSALM::alarm_cause"]
-        [::std::mem::offset_of!(tagODBIFSBSYSALM, alarm_cause) - 26usize];
+        [::std::mem::offset_of!(tagODBIFSBSYSALM, alarm_cause) - 22usize];
 };
 impl Default for tagODBIFSBSYSALM {
     fn default() -> Self {
@@ -16165,18 +16161,18 @@ pub struct tagODBIFSBCOMSTATDTL {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tagODBIFSBCOMSTATDTL"][::std::mem::size_of::<tagODBIFSBCOMSTATDTL>() - 24usize];
-    ["Alignment of tagODBIFSBCOMSTATDTL"][::std::mem::align_of::<tagODBIFSBCOMSTATDTL>() - 8usize];
+    ["Size of tagODBIFSBCOMSTATDTL"][::std::mem::size_of::<tagODBIFSBCOMSTATDTL>() - 12usize];
+    ["Alignment of tagODBIFSBCOMSTATDTL"][::std::mem::align_of::<tagODBIFSBCOMSTATDTL>() - 4usize];
     ["Offset of field: tagODBIFSBCOMSTATDTL::error_inf"]
         [::std::mem::offset_of!(tagODBIFSBCOMSTATDTL, error_inf) - 0usize];
     ["Offset of field: tagODBIFSBCOMSTATDTL::jitter_inf"]
-        [::std::mem::offset_of!(tagODBIFSBCOMSTATDTL, jitter_inf) - 8usize];
+        [::std::mem::offset_of!(tagODBIFSBCOMSTATDTL, jitter_inf) - 4usize];
     ["Offset of field: tagODBIFSBCOMSTATDTL::n_warning"]
-        [::std::mem::offset_of!(tagODBIFSBCOMSTATDTL, n_warning) - 16usize];
+        [::std::mem::offset_of!(tagODBIFSBCOMSTATDTL, n_warning) - 8usize];
     ["Offset of field: tagODBIFSBCOMSTATDTL::j_warning"]
-        [::std::mem::offset_of!(tagODBIFSBCOMSTATDTL, j_warning) - 17usize];
+        [::std::mem::offset_of!(tagODBIFSBCOMSTATDTL, j_warning) - 9usize];
     ["Offset of field: tagODBIFSBCOMSTATDTL::reserve"]
-        [::std::mem::offset_of!(tagODBIFSBCOMSTATDTL, reserve) - 18usize];
+        [::std::mem::offset_of!(tagODBIFSBCOMSTATDTL, reserve) - 10usize];
 };
 pub type ODBIFSBCOMSTATDTL = tagODBIFSBCOMSTATDTL;
 #[repr(C)]
@@ -16294,8 +16290,8 @@ pub struct tag_ODBMSUXTERM {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tag_ODBMSUXTERM"][::std::mem::size_of::<tag_ODBMSUXTERM>() - 16usize];
-    ["Alignment of tag_ODBMSUXTERM"][::std::mem::align_of::<tag_ODBMSUXTERM>() - 8usize];
+    ["Size of tag_ODBMSUXTERM"][::std::mem::size_of::<tag_ODBMSUXTERM>() - 8usize];
+    ["Alignment of tag_ODBMSUXTERM"][::std::mem::align_of::<tag_ODBMSUXTERM>() - 4usize];
     ["Offset of field: tag_ODBMSUXTERM::kind"]
         [::std::mem::offset_of!(tag_ODBMSUXTERM, kind) - 0usize];
     ["Offset of field: tag_ODBMSUXTERM::ch"][::std::mem::offset_of!(tag_ODBMSUXTERM, ch) - 1usize];
@@ -16304,7 +16300,7 @@ const _: () = {
     ["Offset of field: tag_ODBMSUXTERM::dec"]
         [::std::mem::offset_of!(tag_ODBMSUXTERM, dec) - 3usize];
     ["Offset of field: tag_ODBMSUXTERM::data"]
-        [::std::mem::offset_of!(tag_ODBMSUXTERM, data) - 8usize];
+        [::std::mem::offset_of!(tag_ODBMSUXTERM, data) - 4usize];
 };
 pub type ODBMSUXTERM = tag_ODBMSUXTERM;
 #[repr(C)]
@@ -16333,16 +16329,16 @@ pub struct tag_ODBMSUINF {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tag_ODBMSUINF"][::std::mem::size_of::<tag_ODBMSUINF>() - 24usize];
-    ["Alignment of tag_ODBMSUINF"][::std::mem::align_of::<tag_ODBMSUINF>() - 8usize];
+    ["Size of tag_ODBMSUINF"][::std::mem::size_of::<tag_ODBMSUINF>() - 12usize];
+    ["Alignment of tag_ODBMSUINF"][::std::mem::align_of::<tag_ODBMSUINF>() - 4usize];
     ["Offset of field: tag_ODBMSUINF::pmc_no"]
         [::std::mem::offset_of!(tag_ODBMSUINF, pmc_no) - 0usize];
     ["Offset of field: tag_ODBMSUINF::dummy"]
         [::std::mem::offset_of!(tag_ODBMSUINF, dummy) - 1usize];
     ["Offset of field: tag_ODBMSUINF::x_top_adrs"]
-        [::std::mem::offset_of!(tag_ODBMSUINF, x_top_adrs) - 8usize];
+        [::std::mem::offset_of!(tag_ODBMSUINF, x_top_adrs) - 4usize];
     ["Offset of field: tag_ODBMSUINF::y_top_adrs"]
-        [::std::mem::offset_of!(tag_ODBMSUINF, y_top_adrs) - 16usize];
+        [::std::mem::offset_of!(tag_ODBMSUINF, y_top_adrs) - 8usize];
 };
 pub type ODBMSUINF = tag_ODBMSUINF;
 #[repr(C)]
@@ -16354,11 +16350,11 @@ pub struct odbmsudat {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmsudat"][::std::mem::size_of::<odbmsudat>() - 344usize];
-    ["Alignment of odbmsudat"][::std::mem::align_of::<odbmsudat>() - 8usize];
+    ["Size of odbmsudat"][::std::mem::size_of::<odbmsudat>() - 204usize];
+    ["Alignment of odbmsudat"][::std::mem::align_of::<odbmsudat>() - 4usize];
     ["Offset of field: odbmsudat::inf"][::std::mem::offset_of!(odbmsudat, inf) - 0usize];
-    ["Offset of field: odbmsudat::x_term"][::std::mem::offset_of!(odbmsudat, x_term) - 24usize];
-    ["Offset of field: odbmsudat::y_term"][::std::mem::offset_of!(odbmsudat, y_term) - 280usize];
+    ["Offset of field: odbmsudat::x_term"][::std::mem::offset_of!(odbmsudat, x_term) - 12usize];
+    ["Offset of field: odbmsudat::y_term"][::std::mem::offset_of!(odbmsudat, y_term) - 140usize];
 };
 pub type ODBMSUDAT = odbmsudat;
 #[repr(C)]
@@ -16372,8 +16368,8 @@ pub struct tag_ODBEXPMCSGNLINF {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tag_ODBEXPMCSGNLINF"][::std::mem::size_of::<tag_ODBEXPMCSGNLINF>() - 16usize];
-    ["Alignment of tag_ODBEXPMCSGNLINF"][::std::mem::align_of::<tag_ODBEXPMCSGNLINF>() - 8usize];
+    ["Size of tag_ODBEXPMCSGNLINF"][::std::mem::size_of::<tag_ODBEXPMCSGNLINF>() - 8usize];
+    ["Alignment of tag_ODBEXPMCSGNLINF"][::std::mem::align_of::<tag_ODBEXPMCSGNLINF>() - 4usize];
     ["Offset of field: tag_ODBEXPMCSGNLINF::pmc_no"]
         [::std::mem::offset_of!(tag_ODBEXPMCSGNLINF, pmc_no) - 0usize];
     ["Offset of field: tag_ODBEXPMCSGNLINF::kind"]
@@ -16383,7 +16379,7 @@ const _: () = {
     ["Offset of field: tag_ODBEXPMCSGNLINF::dummy"]
         [::std::mem::offset_of!(tag_ODBEXPMCSGNLINF, dummy) - 3usize];
     ["Offset of field: tag_ODBEXPMCSGNLINF::top_adrs"]
-        [::std::mem::offset_of!(tag_ODBEXPMCSGNLINF, top_adrs) - 8usize];
+        [::std::mem::offset_of!(tag_ODBEXPMCSGNLINF, top_adrs) - 4usize];
 };
 pub type ODBEXPMCSGNLINF = tag_ODBEXPMCSGNLINF;
 #[repr(C)]
@@ -16410,11 +16406,11 @@ pub struct odbexpmcsgnl {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbexpmcsgnl"][::std::mem::size_of::<odbexpmcsgnl>() - 160usize];
-    ["Alignment of odbexpmcsgnl"][::std::mem::align_of::<odbexpmcsgnl>() - 8usize];
+    ["Size of odbexpmcsgnl"][::std::mem::size_of::<odbexpmcsgnl>() - 144usize];
+    ["Alignment of odbexpmcsgnl"][::std::mem::align_of::<odbexpmcsgnl>() - 4usize];
     ["Offset of field: odbexpmcsgnl::inf"][::std::mem::offset_of!(odbexpmcsgnl, inf) - 0usize];
     ["Offset of field: odbexpmcsgnl::exsgnlterm"]
-        [::std::mem::offset_of!(odbexpmcsgnl, exsgnlterm) - 32usize];
+        [::std::mem::offset_of!(odbexpmcsgnl, exsgnlterm) - 16usize];
 };
 pub type ODBEXPMCSGNL = odbexpmcsgnl;
 #[repr(C)]
@@ -16430,17 +16426,17 @@ pub struct odbmsrpmcsgnl {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmsrpmcsgnl"][::std::mem::size_of::<odbmsrpmcsgnl>() - 16usize];
-    ["Alignment of odbmsrpmcsgnl"][::std::mem::align_of::<odbmsrpmcsgnl>() - 8usize];
+    ["Size of odbmsrpmcsgnl"][::std::mem::size_of::<odbmsrpmcsgnl>() - 12usize];
+    ["Alignment of odbmsrpmcsgnl"][::std::mem::align_of::<odbmsrpmcsgnl>() - 4usize];
     ["Offset of field: odbmsrpmcsgnl::adrs"][::std::mem::offset_of!(odbmsrpmcsgnl, adrs) - 0usize];
     ["Offset of field: odbmsrpmcsgnl::pmc_no"]
-        [::std::mem::offset_of!(odbmsrpmcsgnl, pmc_no) - 8usize];
-    ["Offset of field: odbmsrpmcsgnl::kind"][::std::mem::offset_of!(odbmsrpmcsgnl, kind) - 9usize];
-    ["Offset of field: odbmsrpmcsgnl::data"][::std::mem::offset_of!(odbmsrpmcsgnl, data) - 10usize];
-    ["Offset of field: odbmsrpmcsgnl::mask"][::std::mem::offset_of!(odbmsrpmcsgnl, mask) - 11usize];
-    ["Offset of field: odbmsrpmcsgnl::enbl"][::std::mem::offset_of!(odbmsrpmcsgnl, enbl) - 12usize];
+        [::std::mem::offset_of!(odbmsrpmcsgnl, pmc_no) - 4usize];
+    ["Offset of field: odbmsrpmcsgnl::kind"][::std::mem::offset_of!(odbmsrpmcsgnl, kind) - 5usize];
+    ["Offset of field: odbmsrpmcsgnl::data"][::std::mem::offset_of!(odbmsrpmcsgnl, data) - 6usize];
+    ["Offset of field: odbmsrpmcsgnl::mask"][::std::mem::offset_of!(odbmsrpmcsgnl, mask) - 7usize];
+    ["Offset of field: odbmsrpmcsgnl::enbl"][::std::mem::offset_of!(odbmsrpmcsgnl, enbl) - 8usize];
     ["Offset of field: odbmsrpmcsgnl::dummy"]
-        [::std::mem::offset_of!(odbmsrpmcsgnl, dummy) - 13usize];
+        [::std::mem::offset_of!(odbmsrpmcsgnl, dummy) - 9usize];
 };
 pub type ODBMSRPMCSGNL = odbmsrpmcsgnl;
 #[repr(C)]
@@ -16463,25 +16459,25 @@ pub struct odbmsrncdat {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmsrncdat"][::std::mem::size_of::<odbmsrncdat>() - 2216usize];
-    ["Alignment of odbmsrncdat"][::std::mem::align_of::<odbmsrncdat>() - 8usize];
+    ["Size of odbmsrncdat"][::std::mem::size_of::<odbmsrncdat>() - 1524usize];
+    ["Alignment of odbmsrncdat"][::std::mem::align_of::<odbmsrncdat>() - 4usize];
     ["Offset of field: odbmsrncdat::sv_num"][::std::mem::offset_of!(odbmsrncdat, sv_num) - 0usize];
     ["Offset of field: odbmsrncdat::sp_num"][::std::mem::offset_of!(odbmsrncdat, sp_num) - 2usize];
-    ["Offset of field: odbmsrncdat::mcn"][::std::mem::offset_of!(odbmsrncdat, mcn) - 8usize];
-    ["Offset of field: odbmsrncdat::abs"][::std::mem::offset_of!(odbmsrncdat, abs) - 776usize];
-    ["Offset of field: odbmsrncdat::spdl"][::std::mem::offset_of!(odbmsrncdat, spdl) - 1544usize];
-    ["Offset of field: odbmsrncdat::actf"][::std::mem::offset_of!(odbmsrncdat, actf) - 1736usize];
+    ["Offset of field: odbmsrncdat::mcn"][::std::mem::offset_of!(odbmsrncdat, mcn) - 4usize];
+    ["Offset of field: odbmsrncdat::abs"][::std::mem::offset_of!(odbmsrncdat, abs) - 516usize];
+    ["Offset of field: odbmsrncdat::spdl"][::std::mem::offset_of!(odbmsrncdat, spdl) - 1028usize];
+    ["Offset of field: odbmsrncdat::actf"][::std::mem::offset_of!(odbmsrncdat, actf) - 1156usize];
     ["Offset of field: odbmsrncdat::ex_prg_name"]
-        [::std::mem::offset_of!(odbmsrncdat, ex_prg_name) - 1760usize];
+        [::std::mem::offset_of!(odbmsrncdat, ex_prg_name) - 1172usize];
     ["Offset of field: odbmsrncdat::ex_blk"]
-        [::std::mem::offset_of!(odbmsrncdat, ex_blk) - 2008usize];
-    ["Offset of field: odbmsrncdat::aut"][::std::mem::offset_of!(odbmsrncdat, aut) - 2016usize];
+        [::std::mem::offset_of!(odbmsrncdat, ex_blk) - 1420usize];
+    ["Offset of field: odbmsrncdat::aut"][::std::mem::offset_of!(odbmsrncdat, aut) - 1424usize];
     ["Offset of field: odbmsrncdat::tmmode"]
-        [::std::mem::offset_of!(odbmsrncdat, tmmode) - 2018usize];
-    ["Offset of field: odbmsrncdat::m_mdl"][::std::mem::offset_of!(odbmsrncdat, m_mdl) - 2024usize];
-    ["Offset of field: odbmsrncdat::s_mdl"][::std::mem::offset_of!(odbmsrncdat, s_mdl) - 2144usize];
-    ["Offset of field: odbmsrncdat::t_mdl"][::std::mem::offset_of!(odbmsrncdat, t_mdl) - 2168usize];
-    ["Offset of field: odbmsrncdat::b_mdl"][::std::mem::offset_of!(odbmsrncdat, b_mdl) - 2192usize];
+        [::std::mem::offset_of!(odbmsrncdat, tmmode) - 1426usize];
+    ["Offset of field: odbmsrncdat::m_mdl"][::std::mem::offset_of!(odbmsrncdat, m_mdl) - 1428usize];
+    ["Offset of field: odbmsrncdat::s_mdl"][::std::mem::offset_of!(odbmsrncdat, s_mdl) - 1488usize];
+    ["Offset of field: odbmsrncdat::t_mdl"][::std::mem::offset_of!(odbmsrncdat, t_mdl) - 1500usize];
+    ["Offset of field: odbmsrncdat::b_mdl"][::std::mem::offset_of!(odbmsrncdat, b_mdl) - 1512usize];
 };
 impl Default for odbmsrncdat {
     fn default() -> Self {
@@ -16503,16 +16499,16 @@ pub struct odbpowccyc {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpowccyc"][::std::mem::size_of::<odbpowccyc>() - 32usize];
-    ["Alignment of odbpowccyc"][::std::mem::align_of::<odbpowccyc>() - 8usize];
+    ["Size of odbpowccyc"][::std::mem::size_of::<odbpowccyc>() - 16usize];
+    ["Alignment of odbpowccyc"][::std::mem::align_of::<odbpowccyc>() - 4usize];
     ["Offset of field: odbpowccyc::cycletime"]
         [::std::mem::offset_of!(odbpowccyc, cycletime) - 0usize];
     ["Offset of field: odbpowccyc::powc_axis"]
-        [::std::mem::offset_of!(odbpowccyc, powc_axis) - 8usize];
+        [::std::mem::offset_of!(odbpowccyc, powc_axis) - 4usize];
     ["Offset of field: odbpowccyc::powc_spindle"]
-        [::std::mem::offset_of!(odbpowccyc, powc_spindle) - 16usize];
+        [::std::mem::offset_of!(odbpowccyc, powc_spindle) - 8usize];
     ["Offset of field: odbpowccyc::powc_outer"]
-        [::std::mem::offset_of!(odbpowccyc, powc_outer) - 24usize];
+        [::std::mem::offset_of!(odbpowccyc, powc_outer) - 12usize];
 };
 pub type ODBPOWCCYC = odbpowccyc;
 #[repr(C)]
@@ -16525,16 +16521,16 @@ pub struct odbpowcouter {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpowcouter"][::std::mem::size_of::<odbpowcouter>() - 72usize];
-    ["Alignment of odbpowcouter"][::std::mem::align_of::<odbpowcouter>() - 8usize];
+    ["Size of odbpowcouter"][::std::mem::size_of::<odbpowcouter>() - 36usize];
+    ["Alignment of odbpowcouter"][::std::mem::align_of::<odbpowcouter>() - 4usize];
     ["Offset of field: odbpowcouter::ave_pow"]
         [::std::mem::offset_of!(odbpowcouter, ave_pow) - 0usize];
     ["Offset of field: odbpowcouter::ref_ofs"]
-        [::std::mem::offset_of!(odbpowcouter, ref_ofs) - 64usize];
+        [::std::mem::offset_of!(odbpowcouter, ref_ofs) - 32usize];
     ["Offset of field: odbpowcouter::ref_adrs"]
-        [::std::mem::offset_of!(odbpowcouter, ref_adrs) - 66usize];
+        [::std::mem::offset_of!(odbpowcouter, ref_adrs) - 34usize];
     ["Offset of field: odbpowcouter::ref_path"]
-        [::std::mem::offset_of!(odbpowcouter, ref_path) - 67usize];
+        [::std::mem::offset_of!(odbpowcouter, ref_path) - 35usize];
 };
 pub type ODBPOWCOUTER = odbpowcouter;
 #[repr(C)]
@@ -16547,16 +16543,16 @@ pub struct odbpowchis {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpowchis"][::std::mem::size_of::<odbpowchis>() - 32usize];
-    ["Alignment of odbpowchis"][::std::mem::align_of::<odbpowchis>() - 8usize];
+    ["Size of odbpowchis"][::std::mem::size_of::<odbpowchis>() - 16usize];
+    ["Alignment of odbpowchis"][::std::mem::align_of::<odbpowchis>() - 4usize];
     ["Offset of field: odbpowchis::get_time"]
         [::std::mem::offset_of!(odbpowchis, get_time) - 0usize];
     ["Offset of field: odbpowchis::powc_axis"]
-        [::std::mem::offset_of!(odbpowchis, powc_axis) - 8usize];
+        [::std::mem::offset_of!(odbpowchis, powc_axis) - 4usize];
     ["Offset of field: odbpowchis::powc_spindle"]
-        [::std::mem::offset_of!(odbpowchis, powc_spindle) - 16usize];
+        [::std::mem::offset_of!(odbpowchis, powc_spindle) - 8usize];
     ["Offset of field: odbpowchis::powc_outer"]
-        [::std::mem::offset_of!(odbpowchis, powc_outer) - 24usize];
+        [::std::mem::offset_of!(odbpowchis, powc_outer) - 12usize];
 };
 pub type ODBPOWCHIS = odbpowchis;
 #[repr(C)]
@@ -16566,8 +16562,8 @@ pub struct odbpowchisall {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpowchisall"][::std::mem::size_of::<odbpowchisall>() - 960usize];
-    ["Alignment of odbpowchisall"][::std::mem::align_of::<odbpowchisall>() - 8usize];
+    ["Size of odbpowchisall"][::std::mem::size_of::<odbpowchisall>() - 480usize];
+    ["Alignment of odbpowchisall"][::std::mem::align_of::<odbpowchisall>() - 4usize];
     ["Offset of field: odbpowchisall::powchis"]
         [::std::mem::offset_of!(odbpowchisall, powchis) - 0usize];
 };
@@ -16582,12 +16578,12 @@ pub struct odbpwcm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpwcm"][::std::mem::size_of::<odbpwcm>() - 32usize];
-    ["Alignment of odbpwcm"][::std::mem::align_of::<odbpwcm>() - 8usize];
+    ["Size of odbpwcm"][::std::mem::size_of::<odbpwcm>() - 16usize];
+    ["Alignment of odbpwcm"][::std::mem::align_of::<odbpwcm>() - 4usize];
     ["Offset of field: odbpwcm::consump"][::std::mem::offset_of!(odbpwcm, consump) - 0usize];
-    ["Offset of field: odbpwcm::regen"][::std::mem::offset_of!(odbpwcm, regen) - 8usize];
-    ["Offset of field: odbpwcm::net"][::std::mem::offset_of!(odbpwcm, net) - 16usize];
-    ["Offset of field: odbpwcm::present"][::std::mem::offset_of!(odbpwcm, present) - 24usize];
+    ["Offset of field: odbpwcm::regen"][::std::mem::offset_of!(odbpwcm, regen) - 4usize];
+    ["Offset of field: odbpwcm::net"][::std::mem::offset_of!(odbpwcm, net) - 8usize];
+    ["Offset of field: odbpwcm::present"][::std::mem::offset_of!(odbpwcm, present) - 12usize];
 };
 pub type ODBPWCM = odbpwcm;
 #[repr(C)]
@@ -16602,17 +16598,17 @@ pub struct odbpwcmdat {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpwcmdat"][::std::mem::size_of::<odbpwcmdat>() - 1328usize];
-    ["Alignment of odbpwcmdat"][::std::mem::align_of::<odbpwcmdat>() - 8usize];
+    ["Size of odbpwcmdat"][::std::mem::size_of::<odbpwcmdat>() - 664usize];
+    ["Alignment of odbpwcmdat"][::std::mem::align_of::<odbpwcmdat>() - 4usize];
     ["Offset of field: odbpwcmdat::time"][::std::mem::offset_of!(odbpwcmdat, time) - 0usize];
     ["Offset of field: odbpwcmdat::axis_num"]
-        [::std::mem::offset_of!(odbpwcmdat, axis_num) - 8usize];
+        [::std::mem::offset_of!(odbpwcmdat, axis_num) - 4usize];
     ["Offset of field: odbpwcmdat::spindle_num"]
-        [::std::mem::offset_of!(odbpwcmdat, spindle_num) - 10usize];
-    ["Offset of field: odbpwcmdat::all"][::std::mem::offset_of!(odbpwcmdat, all) - 16usize];
-    ["Offset of field: odbpwcmdat::axis"][::std::mem::offset_of!(odbpwcmdat, axis) - 48usize];
+        [::std::mem::offset_of!(odbpwcmdat, spindle_num) - 6usize];
+    ["Offset of field: odbpwcmdat::all"][::std::mem::offset_of!(odbpwcmdat, all) - 8usize];
+    ["Offset of field: odbpwcmdat::axis"][::std::mem::offset_of!(odbpwcmdat, axis) - 24usize];
     ["Offset of field: odbpwcmdat::spindle"]
-        [::std::mem::offset_of!(odbpwcmdat, spindle) - 1072usize];
+        [::std::mem::offset_of!(odbpwcmdat, spindle) - 536usize];
 };
 pub type ODBPWCMDAT = odbpwcmdat;
 #[repr(C)]
@@ -16623,10 +16619,10 @@ pub struct posval {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of posval"][::std::mem::size_of::<posval>() - 16usize];
-    ["Alignment of posval"][::std::mem::align_of::<posval>() - 8usize];
+    ["Size of posval"][::std::mem::size_of::<posval>() - 8usize];
+    ["Alignment of posval"][::std::mem::align_of::<posval>() - 4usize];
     ["Offset of field: posval::data"][::std::mem::offset_of!(posval, data) - 0usize];
-    ["Offset of field: posval::dec"][::std::mem::offset_of!(posval, dec) - 8usize];
+    ["Offset of field: posval::dec"][::std::mem::offset_of!(posval, dec) - 4usize];
 };
 pub type POSVAL = posval;
 #[repr(C)]
@@ -16639,13 +16635,13 @@ pub struct odbgrppos {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbgrppos"][::std::mem::size_of::<odbgrppos>() - 40usize];
-    ["Alignment of odbgrppos"][::std::mem::align_of::<odbgrppos>() - 8usize];
+    ["Size of odbgrppos"][::std::mem::size_of::<odbgrppos>() - 20usize];
+    ["Alignment of odbgrppos"][::std::mem::align_of::<odbgrppos>() - 4usize];
     ["Offset of field: odbgrppos::abs"][::std::mem::offset_of!(odbgrppos, abs) - 0usize];
-    ["Offset of field: odbgrppos::mcn"][::std::mem::offset_of!(odbgrppos, mcn) - 16usize];
+    ["Offset of field: odbgrppos::mcn"][::std::mem::offset_of!(odbgrppos, mcn) - 8usize];
     ["Offset of field: odbgrppos::feed_type"]
-        [::std::mem::offset_of!(odbgrppos, feed_type) - 32usize];
-    ["Offset of field: odbgrppos::reserved"][::std::mem::offset_of!(odbgrppos, reserved) - 34usize];
+        [::std::mem::offset_of!(odbgrppos, feed_type) - 16usize];
+    ["Offset of field: odbgrppos::reserved"][::std::mem::offset_of!(odbgrppos, reserved) - 18usize];
 };
 pub type ODBGRPPOS = odbgrppos;
 #[repr(C)]
@@ -16671,8 +16667,8 @@ pub struct odbwact {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbwact"][::std::mem::size_of::<odbwact>() - 48usize];
-    ["Alignment of odbwact"][::std::mem::align_of::<odbwact>() - 8usize];
+    ["Size of odbwact"][::std::mem::size_of::<odbwact>() - 24usize];
+    ["Alignment of odbwact"][::std::mem::align_of::<odbwact>() - 4usize];
     ["Offset of field: odbwact::data"][::std::mem::offset_of!(odbwact, data) - 0usize];
 };
 pub type ODBWACT = odbwact;
@@ -16698,7 +16694,7 @@ pub union iodbpmc__bindgen_ty_1 {
 const _: () = {
     ["Size of iodbpmc__bindgen_ty_1"][::std::mem::size_of::<iodbpmc__bindgen_ty_1>() - 40usize];
     ["Alignment of iodbpmc__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbpmc__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbpmc__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbpmc__bindgen_ty_1::cdata"]
         [::std::mem::offset_of!(iodbpmc__bindgen_ty_1, cdata) - 0usize];
     ["Offset of field: iodbpmc__bindgen_ty_1::idata"]
@@ -16722,7 +16718,7 @@ impl Default for iodbpmc__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbpmc"][::std::mem::size_of::<iodbpmc>() - 48usize];
-    ["Alignment of iodbpmc"][::std::mem::align_of::<iodbpmc>() - 8usize];
+    ["Alignment of iodbpmc"][::std::mem::align_of::<iodbpmc>() - 4usize];
     ["Offset of field: iodbpmc::type_a"][::std::mem::offset_of!(iodbpmc, type_a) - 0usize];
     ["Offset of field: iodbpmc::type_d"][::std::mem::offset_of!(iodbpmc, type_d) - 2usize];
     ["Offset of field: iodbpmc::datano_s"][::std::mem::offset_of!(iodbpmc, datano_s) - 4usize];
@@ -16754,8 +16750,8 @@ pub struct iodbrwpmc {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbrwpmc"][::std::mem::size_of::<iodbrwpmc>() - 24usize];
-    ["Alignment of iodbrwpmc"][::std::mem::align_of::<iodbrwpmc>() - 8usize];
+    ["Size of iodbrwpmc"][::std::mem::size_of::<iodbrwpmc>() - 20usize];
+    ["Alignment of iodbrwpmc"][::std::mem::align_of::<iodbrwpmc>() - 4usize];
     ["Offset of field: iodbrwpmc::type_rw"][::std::mem::offset_of!(iodbrwpmc, type_rw) - 0usize];
     ["Offset of field: iodbrwpmc::type_a"][::std::mem::offset_of!(iodbrwpmc, type_a) - 2usize];
     ["Offset of field: iodbrwpmc::type_d"][::std::mem::offset_of!(iodbrwpmc, type_d) - 4usize];
@@ -17015,8 +17011,8 @@ pub struct iodbpmcext {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpmcext"][::std::mem::size_of::<iodbpmcext>() - 24usize];
-    ["Alignment of iodbpmcext"][::std::mem::align_of::<iodbpmcext>() - 8usize];
+    ["Size of iodbpmcext"][::std::mem::size_of::<iodbpmcext>() - 16usize];
+    ["Alignment of iodbpmcext"][::std::mem::align_of::<iodbpmcext>() - 4usize];
     ["Offset of field: iodbpmcext::type_a"][::std::mem::offset_of!(iodbpmcext, type_a) - 0usize];
     ["Offset of field: iodbpmcext::type_d"][::std::mem::offset_of!(iodbpmcext, type_d) - 2usize];
     ["Offset of field: iodbpmcext::datano_s"]
@@ -17027,7 +17023,7 @@ const _: () = {
         [::std::mem::offset_of!(iodbpmcext, err_code) - 8usize];
     ["Offset of field: iodbpmcext::reserved"]
         [::std::mem::offset_of!(iodbpmcext, reserved) - 10usize];
-    ["Offset of field: iodbpmcext::data"][::std::mem::offset_of!(iodbpmcext, data) - 16usize];
+    ["Offset of field: iodbpmcext::data"][::std::mem::offset_of!(iodbpmcext, data) - 12usize];
 };
 impl Default for iodbpmcext {
     fn default() -> Self {
@@ -17050,13 +17046,13 @@ pub struct odbpmcadr {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpmcadr"][::std::mem::size_of::<odbpmcadr>() - 32usize];
-    ["Alignment of odbpmcadr"][::std::mem::align_of::<odbpmcadr>() - 8usize];
+    ["Size of odbpmcadr"][::std::mem::size_of::<odbpmcadr>() - 16usize];
+    ["Alignment of odbpmcadr"][::std::mem::align_of::<odbpmcadr>() - 4usize];
     ["Offset of field: odbpmcadr::pmc_adr"][::std::mem::offset_of!(odbpmcadr, pmc_adr) - 0usize];
     ["Offset of field: odbpmcadr::adr_attr"][::std::mem::offset_of!(odbpmcadr, adr_attr) - 2usize];
-    ["Offset of field: odbpmcadr::adr"][::std::mem::offset_of!(odbpmcadr, adr) - 8usize];
-    ["Offset of field: odbpmcadr::top"][::std::mem::offset_of!(odbpmcadr, top) - 16usize];
-    ["Offset of field: odbpmcadr::num"][::std::mem::offset_of!(odbpmcadr, num) - 24usize];
+    ["Offset of field: odbpmcadr::adr"][::std::mem::offset_of!(odbpmcadr, adr) - 4usize];
+    ["Offset of field: odbpmcadr::top"][::std::mem::offset_of!(odbpmcadr, top) - 8usize];
+    ["Offset of field: odbpmcadr::num"][::std::mem::offset_of!(odbpmcadr, num) - 12usize];
 };
 pub type ODBPMCADR = odbpmcadr;
 #[repr(C)]
@@ -17071,20 +17067,20 @@ pub struct ODBPMCLADMEMTYPE {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of ODBPMCLADMEMTYPE"][::std::mem::size_of::<ODBPMCLADMEMTYPE>() - 96usize];
-    ["Alignment of ODBPMCLADMEMTYPE"][::std::mem::align_of::<ODBPMCLADMEMTYPE>() - 8usize];
+    ["Size of ODBPMCLADMEMTYPE"][::std::mem::size_of::<ODBPMCLADMEMTYPE>() - 80usize];
+    ["Alignment of ODBPMCLADMEMTYPE"][::std::mem::align_of::<ODBPMCLADMEMTYPE>() - 4usize];
     ["Offset of field: ODBPMCLADMEMTYPE::SystemType"]
         [::std::mem::offset_of!(ODBPMCLADMEMTYPE, SystemType) - 0usize];
     ["Offset of field: ODBPMCLADMEMTYPE::SystemAttribute"]
-        [::std::mem::offset_of!(ODBPMCLADMEMTYPE, SystemAttribute) - 8usize];
+        [::std::mem::offset_of!(ODBPMCLADMEMTYPE, SystemAttribute) - 4usize];
     ["Offset of field: ODBPMCLADMEMTYPE::TargetType"]
-        [::std::mem::offset_of!(ODBPMCLADMEMTYPE, TargetType) - 16usize];
+        [::std::mem::offset_of!(ODBPMCLADMEMTYPE, TargetType) - 8usize];
     ["Offset of field: ODBPMCLADMEMTYPE::TargetAttribute"]
-        [::std::mem::offset_of!(ODBPMCLADMEMTYPE, TargetAttribute) - 24usize];
+        [::std::mem::offset_of!(ODBPMCLADMEMTYPE, TargetAttribute) - 12usize];
     ["Offset of field: ODBPMCLADMEMTYPE::SystemTypeStr"]
-        [::std::mem::offset_of!(ODBPMCLADMEMTYPE, SystemTypeStr) - 32usize];
+        [::std::mem::offset_of!(ODBPMCLADMEMTYPE, SystemTypeStr) - 16usize];
     ["Offset of field: ODBPMCLADMEMTYPE::TargetTypeStr"]
-        [::std::mem::offset_of!(ODBPMCLADMEMTYPE, TargetTypeStr) - 64usize];
+        [::std::mem::offset_of!(ODBPMCLADMEMTYPE, TargetTypeStr) - 48usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -17097,18 +17093,18 @@ pub struct odbpmcadrinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpmcadrinfo"][::std::mem::size_of::<odbpmcadrinfo>() - 24usize];
-    ["Alignment of odbpmcadrinfo"][::std::mem::align_of::<odbpmcadrinfo>() - 8usize];
+    ["Size of odbpmcadrinfo"][::std::mem::size_of::<odbpmcadrinfo>() - 12usize];
+    ["Alignment of odbpmcadrinfo"][::std::mem::align_of::<odbpmcadrinfo>() - 4usize];
     ["Offset of field: odbpmcadrinfo::sPmcUnit"]
         [::std::mem::offset_of!(odbpmcadrinfo, sPmcUnit) - 0usize];
     ["Offset of field: odbpmcadrinfo::sAdrType"]
         [::std::mem::offset_of!(odbpmcadrinfo, sAdrType) - 2usize];
     ["Offset of field: odbpmcadrinfo::iAdrNum"]
-        [::std::mem::offset_of!(odbpmcadrinfo, iAdrNum) - 8usize];
+        [::std::mem::offset_of!(odbpmcadrinfo, iAdrNum) - 4usize];
     ["Offset of field: odbpmcadrinfo::sBitPos"]
-        [::std::mem::offset_of!(odbpmcadrinfo, sBitPos) - 16usize];
+        [::std::mem::offset_of!(odbpmcadrinfo, sBitPos) - 8usize];
     ["Offset of field: odbpmcadrinfo::sDataType"]
-        [::std::mem::offset_of!(odbpmcadrinfo, sDataType) - 18usize];
+        [::std::mem::offset_of!(odbpmcadrinfo, sDataType) - 10usize];
 };
 pub type ODBPMCADRINFO = odbpmcadrinfo;
 #[repr(C)]
@@ -17181,8 +17177,8 @@ pub struct iodbbusprm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbbusprm"][::std::mem::size_of::<iodbbusprm>() - 232usize];
-    ["Alignment of iodbbusprm"][::std::mem::align_of::<iodbbusprm>() - 8usize];
+    ["Size of iodbbusprm"][::std::mem::size_of::<iodbbusprm>() - 224usize];
+    ["Alignment of iodbbusprm"][::std::mem::align_of::<iodbbusprm>() - 4usize];
     ["Offset of field: iodbbusprm::fdl_add"][::std::mem::offset_of!(iodbbusprm, fdl_add) - 0usize];
     ["Offset of field: iodbbusprm::baudrate"]
         [::std::mem::offset_of!(iodbbusprm, baudrate) - 1usize];
@@ -17193,28 +17189,28 @@ const _: () = {
         [::std::mem::offset_of!(iodbbusprm, max_tsdr) - 6usize];
     ["Offset of field: iodbbusprm::tqui"][::std::mem::offset_of!(iodbbusprm, tqui) - 8usize];
     ["Offset of field: iodbbusprm::tset"][::std::mem::offset_of!(iodbbusprm, tset) - 9usize];
-    ["Offset of field: iodbbusprm::ttr"][::std::mem::offset_of!(iodbbusprm, ttr) - 16usize];
-    ["Offset of field: iodbbusprm::gap"][::std::mem::offset_of!(iodbbusprm, gap) - 24usize];
-    ["Offset of field: iodbbusprm::hsa"][::std::mem::offset_of!(iodbbusprm, hsa) - 25usize];
+    ["Offset of field: iodbbusprm::ttr"][::std::mem::offset_of!(iodbbusprm, ttr) - 12usize];
+    ["Offset of field: iodbbusprm::gap"][::std::mem::offset_of!(iodbbusprm, gap) - 16usize];
+    ["Offset of field: iodbbusprm::hsa"][::std::mem::offset_of!(iodbbusprm, hsa) - 17usize];
     ["Offset of field: iodbbusprm::max_retry"]
-        [::std::mem::offset_of!(iodbbusprm, max_retry) - 26usize];
-    ["Offset of field: iodbbusprm::bp_flag"][::std::mem::offset_of!(iodbbusprm, bp_flag) - 27usize];
+        [::std::mem::offset_of!(iodbbusprm, max_retry) - 18usize];
+    ["Offset of field: iodbbusprm::bp_flag"][::std::mem::offset_of!(iodbbusprm, bp_flag) - 19usize];
     ["Offset of field: iodbbusprm::min_slv_int"]
-        [::std::mem::offset_of!(iodbbusprm, min_slv_int) - 28usize];
+        [::std::mem::offset_of!(iodbbusprm, min_slv_int) - 20usize];
     ["Offset of field: iodbbusprm::poll_tout"]
-        [::std::mem::offset_of!(iodbbusprm, poll_tout) - 30usize];
+        [::std::mem::offset_of!(iodbbusprm, poll_tout) - 22usize];
     ["Offset of field: iodbbusprm::data_cntl"]
-        [::std::mem::offset_of!(iodbbusprm, data_cntl) - 32usize];
+        [::std::mem::offset_of!(iodbbusprm, data_cntl) - 24usize];
     ["Offset of field: iodbbusprm::reserve1"]
-        [::std::mem::offset_of!(iodbbusprm, reserve1) - 34usize];
+        [::std::mem::offset_of!(iodbbusprm, reserve1) - 26usize];
     ["Offset of field: iodbbusprm::cls2_name"]
-        [::std::mem::offset_of!(iodbbusprm, cls2_name) - 40usize];
+        [::std::mem::offset_of!(iodbbusprm, cls2_name) - 32usize];
     ["Offset of field: iodbbusprm::user_dlen"]
-        [::std::mem::offset_of!(iodbbusprm, user_dlen) - 72usize];
+        [::std::mem::offset_of!(iodbbusprm, user_dlen) - 64usize];
     ["Offset of field: iodbbusprm::user_data"]
-        [::std::mem::offset_of!(iodbbusprm, user_data) - 74usize];
+        [::std::mem::offset_of!(iodbbusprm, user_data) - 66usize];
     ["Offset of field: iodbbusprm::reserve2"]
-        [::std::mem::offset_of!(iodbbusprm, reserve2) - 136usize];
+        [::std::mem::offset_of!(iodbbusprm, reserve2) - 128usize];
 };
 impl Default for iodbbusprm {
     fn default() -> Self {
@@ -17613,32 +17609,32 @@ pub struct odbtransinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtransinfo"][::std::mem::size_of::<odbtransinfo>() - 64usize];
-    ["Alignment of odbtransinfo"][::std::mem::align_of::<odbtransinfo>() - 8usize];
+    ["Size of odbtransinfo"][::std::mem::size_of::<odbtransinfo>() - 36usize];
+    ["Alignment of odbtransinfo"][::std::mem::align_of::<odbtransinfo>() - 4usize];
     ["Offset of field: odbtransinfo::mas_buff_size"]
         [::std::mem::offset_of!(odbtransinfo, mas_buff_size) - 0usize];
     ["Offset of field: odbtransinfo::trans_start_reqflag"]
-        [::std::mem::offset_of!(odbtransinfo, trans_start_reqflag) - 8usize];
+        [::std::mem::offset_of!(odbtransinfo, trans_start_reqflag) - 4usize];
     ["Offset of field: odbtransinfo::trans_end_reqflag"]
-        [::std::mem::offset_of!(odbtransinfo, trans_end_reqflag) - 10usize];
+        [::std::mem::offset_of!(odbtransinfo, trans_end_reqflag) - 6usize];
     ["Offset of field: odbtransinfo::trans_start_respflag"]
-        [::std::mem::offset_of!(odbtransinfo, trans_start_respflag) - 12usize];
+        [::std::mem::offset_of!(odbtransinfo, trans_start_respflag) - 8usize];
     ["Offset of field: odbtransinfo::trans_end_respflag"]
-        [::std::mem::offset_of!(odbtransinfo, trans_end_respflag) - 14usize];
+        [::std::mem::offset_of!(odbtransinfo, trans_end_respflag) - 10usize];
     ["Offset of field: odbtransinfo::all_transfer_size"]
-        [::std::mem::offset_of!(odbtransinfo, all_transfer_size) - 16usize];
+        [::std::mem::offset_of!(odbtransinfo, all_transfer_size) - 12usize];
     ["Offset of field: odbtransinfo::data_id"]
-        [::std::mem::offset_of!(odbtransinfo, data_id) - 24usize];
+        [::std::mem::offset_of!(odbtransinfo, data_id) - 16usize];
     ["Offset of field: odbtransinfo::reserve"]
-        [::std::mem::offset_of!(odbtransinfo, reserve) - 26usize];
+        [::std::mem::offset_of!(odbtransinfo, reserve) - 18usize];
     ["Offset of field: odbtransinfo::data_write_pt"]
-        [::std::mem::offset_of!(odbtransinfo, data_write_pt) - 32usize];
+        [::std::mem::offset_of!(odbtransinfo, data_write_pt) - 20usize];
     ["Offset of field: odbtransinfo::data_read_pt"]
-        [::std::mem::offset_of!(odbtransinfo, data_read_pt) - 40usize];
+        [::std::mem::offset_of!(odbtransinfo, data_read_pt) - 24usize];
     ["Offset of field: odbtransinfo::accumulation_counter"]
-        [::std::mem::offset_of!(odbtransinfo, accumulation_counter) - 48usize];
+        [::std::mem::offset_of!(odbtransinfo, accumulation_counter) - 28usize];
     ["Offset of field: odbtransinfo::forwarding_status"]
-        [::std::mem::offset_of!(odbtransinfo, forwarding_status) - 56usize];
+        [::std::mem::offset_of!(odbtransinfo, forwarding_status) - 32usize];
 };
 pub type ODBTRANSINFO = odbtransinfo;
 #[repr(C)]
@@ -17831,16 +17827,16 @@ pub struct _odbhddinf {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _odbhddinf"][::std::mem::size_of::<_odbhddinf>() - 56usize];
-    ["Alignment of _odbhddinf"][::std::mem::align_of::<_odbhddinf>() - 8usize];
+    ["Size of _odbhddinf"][::std::mem::size_of::<_odbhddinf>() - 44usize];
+    ["Alignment of _odbhddinf"][::std::mem::align_of::<_odbhddinf>() - 4usize];
     ["Offset of field: _odbhddinf::file_num"]
         [::std::mem::offset_of!(_odbhddinf, file_num) - 0usize];
     ["Offset of field: _odbhddinf::remainder_l"]
-        [::std::mem::offset_of!(_odbhddinf, remainder_l) - 8usize];
+        [::std::mem::offset_of!(_odbhddinf, remainder_l) - 4usize];
     ["Offset of field: _odbhddinf::remainder_h"]
-        [::std::mem::offset_of!(_odbhddinf, remainder_h) - 16usize];
+        [::std::mem::offset_of!(_odbhddinf, remainder_h) - 8usize];
     ["Offset of field: _odbhddinf::current_dir"]
-        [::std::mem::offset_of!(_odbhddinf, current_dir) - 24usize];
+        [::std::mem::offset_of!(_odbhddinf, current_dir) - 12usize];
 };
 pub type ODBHDDINF = _odbhddinf;
 #[repr(C)]
@@ -17855,8 +17851,8 @@ pub struct _odbhdddir {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _odbhdddir"][::std::mem::size_of::<_odbhdddir>() - 176usize];
-    ["Alignment of _odbhdddir"][::std::mem::align_of::<_odbhdddir>() - 8usize];
+    ["Size of _odbhdddir"][::std::mem::size_of::<_odbhdddir>() - 168usize];
+    ["Alignment of _odbhdddir"][::std::mem::align_of::<_odbhdddir>() - 4usize];
     ["Offset of field: _odbhdddir::file_name"]
         [::std::mem::offset_of!(_odbhdddir, file_name) - 0usize];
     ["Offset of field: _odbhdddir::comment"][::std::mem::offset_of!(_odbhdddir, comment) - 64usize];
@@ -17864,8 +17860,8 @@ const _: () = {
         [::std::mem::offset_of!(_odbhdddir, attribute) - 144usize];
     ["Offset of field: _odbhdddir::reserved"]
         [::std::mem::offset_of!(_odbhdddir, reserved) - 146usize];
-    ["Offset of field: _odbhdddir::size"][::std::mem::offset_of!(_odbhdddir, size) - 152usize];
-    ["Offset of field: _odbhdddir::date"][::std::mem::offset_of!(_odbhdddir, date) - 160usize];
+    ["Offset of field: _odbhdddir::size"][::std::mem::offset_of!(_odbhdddir, size) - 148usize];
+    ["Offset of field: _odbhdddir::date"][::std::mem::offset_of!(_odbhdddir, date) - 152usize];
 };
 impl Default for _odbhdddir {
     fn default() -> Self {
@@ -17909,15 +17905,15 @@ pub struct _dsmntinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _dsmntinfo"][::std::mem::size_of::<_dsmntinfo>() - 24usize];
-    ["Alignment of _dsmntinfo"][::std::mem::align_of::<_dsmntinfo>() - 8usize];
+    ["Size of _dsmntinfo"][::std::mem::size_of::<_dsmntinfo>() - 12usize];
+    ["Alignment of _dsmntinfo"][::std::mem::align_of::<_dsmntinfo>() - 4usize];
     ["Offset of field: _dsmntinfo::empty_cnt"]
         [::std::mem::offset_of!(_dsmntinfo, empty_cnt) - 0usize];
     ["Offset of field: _dsmntinfo::total_size"]
-        [::std::mem::offset_of!(_dsmntinfo, total_size) - 8usize];
-    ["Offset of field: _dsmntinfo::ReadPtr"][::std::mem::offset_of!(_dsmntinfo, ReadPtr) - 16usize];
+        [::std::mem::offset_of!(_dsmntinfo, total_size) - 4usize];
+    ["Offset of field: _dsmntinfo::ReadPtr"][::std::mem::offset_of!(_dsmntinfo, ReadPtr) - 8usize];
     ["Offset of field: _dsmntinfo::WritePtr"]
-        [::std::mem::offset_of!(_dsmntinfo, WritePtr) - 18usize];
+        [::std::mem::offset_of!(_dsmntinfo, WritePtr) - 10usize];
 };
 pub type DSMNTINFO = _dsmntinfo;
 #[repr(C)]
@@ -17972,14 +17968,14 @@ pub struct _focas2_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _focas2_prm"][::std::mem::size_of::<_focas2_prm>() - 24usize];
-    ["Alignment of _focas2_prm"][::std::mem::align_of::<_focas2_prm>() - 8usize];
+    ["Size of _focas2_prm"][::std::mem::size_of::<_focas2_prm>() - 12usize];
+    ["Alignment of _focas2_prm"][::std::mem::align_of::<_focas2_prm>() - 4usize];
     ["Offset of field: _focas2_prm::TcpPort"]
         [::std::mem::offset_of!(_focas2_prm, TcpPort) - 0usize];
     ["Offset of field: _focas2_prm::UdpPort"]
-        [::std::mem::offset_of!(_focas2_prm, UdpPort) - 8usize];
+        [::std::mem::offset_of!(_focas2_prm, UdpPort) - 4usize];
     ["Offset of field: _focas2_prm::TimeInterval"]
-        [::std::mem::offset_of!(_focas2_prm, TimeInterval) - 16usize];
+        [::std::mem::offset_of!(_focas2_prm, TimeInterval) - 8usize];
 };
 pub type FOCAS2_PRM = _focas2_prm;
 #[repr(C)]
@@ -17994,20 +17990,20 @@ pub struct _ftp_client_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _ftp_client_prm"][::std::mem::size_of::<_ftp_client_prm>() - 272usize];
-    ["Alignment of _ftp_client_prm"][::std::mem::align_of::<_ftp_client_prm>() - 8usize];
+    ["Size of _ftp_client_prm"][::std::mem::size_of::<_ftp_client_prm>() - 264usize];
+    ["Alignment of _ftp_client_prm"][::std::mem::align_of::<_ftp_client_prm>() - 4usize];
     ["Offset of field: _ftp_client_prm::HostName"]
         [::std::mem::offset_of!(_ftp_client_prm, HostName) - 0usize];
     ["Offset of field: _ftp_client_prm::ControlPort"]
         [::std::mem::offset_of!(_ftp_client_prm, ControlPort) - 64usize];
     ["Offset of field: _ftp_client_prm::Dummy"]
-        [::std::mem::offset_of!(_ftp_client_prm, Dummy) - 72usize];
+        [::std::mem::offset_of!(_ftp_client_prm, Dummy) - 68usize];
     ["Offset of field: _ftp_client_prm::UserName"]
-        [::std::mem::offset_of!(_ftp_client_prm, UserName) - 80usize];
+        [::std::mem::offset_of!(_ftp_client_prm, UserName) - 72usize];
     ["Offset of field: _ftp_client_prm::Password"]
-        [::std::mem::offset_of!(_ftp_client_prm, Password) - 112usize];
+        [::std::mem::offset_of!(_ftp_client_prm, Password) - 104usize];
     ["Offset of field: _ftp_client_prm::LoginDirectory"]
-        [::std::mem::offset_of!(_ftp_client_prm, LoginDirectory) - 144usize];
+        [::std::mem::offset_of!(_ftp_client_prm, LoginDirectory) - 136usize];
 };
 impl Default for _ftp_client_prm {
     fn default() -> Self {
@@ -18054,8 +18050,8 @@ pub struct _ftptrans_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _ftptrans_prm"][::std::mem::size_of::<_ftptrans_prm>() - 816usize];
-    ["Alignment of _ftptrans_prm"][::std::mem::align_of::<_ftptrans_prm>() - 8usize];
+    ["Size of _ftptrans_prm"][::std::mem::size_of::<_ftptrans_prm>() - 792usize];
+    ["Alignment of _ftptrans_prm"][::std::mem::align_of::<_ftptrans_prm>() - 4usize];
     ["Offset of field: _ftptrans_prm::opposite"]
         [::std::mem::offset_of!(_ftptrans_prm, opposite) - 0usize];
 };
@@ -18077,11 +18073,11 @@ pub struct _dtsvr_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _dtsvr_prm"][::std::mem::size_of::<_dtsvr_prm>() - 1008usize];
-    ["Alignment of _dtsvr_prm"][::std::mem::align_of::<_dtsvr_prm>() - 8usize];
+    ["Size of _dtsvr_prm"][::std::mem::size_of::<_dtsvr_prm>() - 984usize];
+    ["Alignment of _dtsvr_prm"][::std::mem::align_of::<_dtsvr_prm>() - 4usize];
     ["Offset of field: _dtsvr_prm::opposite"]
         [::std::mem::offset_of!(_dtsvr_prm, opposite) - 0usize];
-    ["Offset of field: _dtsvr_prm::own"][::std::mem::offset_of!(_dtsvr_prm, own) - 816usize];
+    ["Offset of field: _dtsvr_prm::own"][::std::mem::offset_of!(_dtsvr_prm, own) - 792usize];
 };
 impl Default for _dtsvr_prm {
     fn default() -> Self {
@@ -18102,14 +18098,14 @@ pub struct _rmtdiag_client_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _rmtdiag_client_prm"][::std::mem::size_of::<_rmtdiag_client_prm>() - 136usize];
-    ["Alignment of _rmtdiag_client_prm"][::std::mem::align_of::<_rmtdiag_client_prm>() - 8usize];
+    ["Size of _rmtdiag_client_prm"][::std::mem::size_of::<_rmtdiag_client_prm>() - 132usize];
+    ["Alignment of _rmtdiag_client_prm"][::std::mem::align_of::<_rmtdiag_client_prm>() - 4usize];
     ["Offset of field: _rmtdiag_client_prm::HostName"]
         [::std::mem::offset_of!(_rmtdiag_client_prm, HostName) - 0usize];
     ["Offset of field: _rmtdiag_client_prm::Port"]
         [::std::mem::offset_of!(_rmtdiag_client_prm, Port) - 64usize];
     ["Offset of field: _rmtdiag_client_prm::InquiryName"]
-        [::std::mem::offset_of!(_rmtdiag_client_prm, InquiryName) - 72usize];
+        [::std::mem::offset_of!(_rmtdiag_client_prm, InquiryName) - 68usize];
 };
 impl Default for _rmtdiag_client_prm {
     fn default() -> Self {
@@ -18130,14 +18126,14 @@ pub struct _rmtdiag_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _rmtdiag_prm"][::std::mem::size_of::<_rmtdiag_prm>() - 448usize];
-    ["Alignment of _rmtdiag_prm"][::std::mem::align_of::<_rmtdiag_prm>() - 8usize];
+    ["Size of _rmtdiag_prm"][::std::mem::size_of::<_rmtdiag_prm>() - 432usize];
+    ["Alignment of _rmtdiag_prm"][::std::mem::align_of::<_rmtdiag_prm>() - 4usize];
     ["Offset of field: _rmtdiag_prm::MtbInformation"]
         [::std::mem::offset_of!(_rmtdiag_prm, MtbInformation) - 0usize];
     ["Offset of field: _rmtdiag_prm::MachineInformation"]
         [::std::mem::offset_of!(_rmtdiag_prm, MachineInformation) - 17usize];
     ["Offset of field: _rmtdiag_prm::opposite"]
-        [::std::mem::offset_of!(_rmtdiag_prm, opposite) - 40usize];
+        [::std::mem::offset_of!(_rmtdiag_prm, opposite) - 36usize];
 };
 impl Default for _rmtdiag_prm {
     fn default() -> Self {
@@ -18157,9 +18153,9 @@ pub struct _factolink_client_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _factolink_client_prm"][::std::mem::size_of::<_factolink_client_prm>() - 72usize];
+    ["Size of _factolink_client_prm"][::std::mem::size_of::<_factolink_client_prm>() - 68usize];
     ["Alignment of _factolink_client_prm"]
-        [::std::mem::align_of::<_factolink_client_prm>() - 8usize];
+        [::std::mem::align_of::<_factolink_client_prm>() - 4usize];
     ["Offset of field: _factolink_client_prm::HostName"]
         [::std::mem::offset_of!(_factolink_client_prm, HostName) - 0usize];
     ["Offset of field: _factolink_client_prm::Port"]
@@ -18182,8 +18178,8 @@ pub struct _factolink_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _factolink_prm"][::std::mem::size_of::<_factolink_prm>() - 216usize];
-    ["Alignment of _factolink_prm"][::std::mem::align_of::<_factolink_prm>() - 8usize];
+    ["Size of _factolink_prm"][::std::mem::size_of::<_factolink_prm>() - 204usize];
+    ["Alignment of _factolink_prm"][::std::mem::align_of::<_factolink_prm>() - 4usize];
     ["Offset of field: _factolink_prm::opposite"]
         [::std::mem::offset_of!(_factolink_prm, opposite) - 0usize];
 };
@@ -18260,27 +18256,27 @@ pub struct _netsrv_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _netsrv_prm"][::std::mem::size_of::<_netsrv_prm>() - 184usize];
-    ["Alignment of _netsrv_prm"][::std::mem::align_of::<_netsrv_prm>() - 8usize];
+    ["Size of _netsrv_prm"][::std::mem::size_of::<_netsrv_prm>() - 172usize];
+    ["Alignment of _netsrv_prm"][::std::mem::align_of::<_netsrv_prm>() - 4usize];
     ["Offset of field: _netsrv_prm::HostName"]
         [::std::mem::offset_of!(_netsrv_prm, HostName) - 0usize];
     ["Offset of field: _netsrv_prm::Port"][::std::mem::offset_of!(_netsrv_prm, Port) - 64usize];
     ["Offset of field: _netsrv_prm::TimeInterval"]
-        [::std::mem::offset_of!(_netsrv_prm, TimeInterval) - 72usize];
+        [::std::mem::offset_of!(_netsrv_prm, TimeInterval) - 68usize];
     ["Offset of field: _netsrv_prm::UdpPeriod"]
-        [::std::mem::offset_of!(_netsrv_prm, UdpPeriod) - 80usize];
+        [::std::mem::offset_of!(_netsrv_prm, UdpPeriod) - 72usize];
     ["Offset of field: _netsrv_prm::MachineNumber"]
-        [::std::mem::offset_of!(_netsrv_prm, MachineNumber) - 88usize];
+        [::std::mem::offset_of!(_netsrv_prm, MachineNumber) - 76usize];
     ["Offset of field: _netsrv_prm::dummy1"]
-        [::std::mem::offset_of!(_netsrv_prm, dummy1) - 113usize];
+        [::std::mem::offset_of!(_netsrv_prm, dummy1) - 101usize];
     ["Offset of field: _netsrv_prm::AcceptanceReply"]
-        [::std::mem::offset_of!(_netsrv_prm, AcceptanceReply) - 120usize];
+        [::std::mem::offset_of!(_netsrv_prm, AcceptanceReply) - 108usize];
     ["Offset of field: _netsrv_prm::dummy2"]
-        [::std::mem::offset_of!(_netsrv_prm, dummy2) - 145usize];
+        [::std::mem::offset_of!(_netsrv_prm, dummy2) - 133usize];
     ["Offset of field: _netsrv_prm::ErrorReply"]
-        [::std::mem::offset_of!(_netsrv_prm, ErrorReply) - 152usize];
+        [::std::mem::offset_of!(_netsrv_prm, ErrorReply) - 140usize];
     ["Offset of field: _netsrv_prm::dummy3"]
-        [::std::mem::offset_of!(_netsrv_prm, dummy3) - 177usize];
+        [::std::mem::offset_of!(_netsrv_prm, dummy3) - 165usize];
 };
 impl Default for _netsrv_prm {
     fn default() -> Self {
@@ -18308,28 +18304,28 @@ pub struct _unsolicmsg_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _unsolicmsg_prm"][::std::mem::size_of::<_unsolicmsg_prm>() - 232usize];
-    ["Alignment of _unsolicmsg_prm"][::std::mem::align_of::<_unsolicmsg_prm>() - 8usize];
+    ["Size of _unsolicmsg_prm"][::std::mem::size_of::<_unsolicmsg_prm>() - 164usize];
+    ["Alignment of _unsolicmsg_prm"][::std::mem::align_of::<_unsolicmsg_prm>() - 4usize];
     ["Offset of field: _unsolicmsg_prm::HostName"]
         [::std::mem::offset_of!(_unsolicmsg_prm, HostName) - 0usize];
     ["Offset of field: _unsolicmsg_prm::Port"]
         [::std::mem::offset_of!(_unsolicmsg_prm, Port) - 64usize];
     ["Offset of field: _unsolicmsg_prm::RetryCount"]
-        [::std::mem::offset_of!(_unsolicmsg_prm, RetryCount) - 72usize];
+        [::std::mem::offset_of!(_unsolicmsg_prm, RetryCount) - 68usize];
     ["Offset of field: _unsolicmsg_prm::Timeout"]
-        [::std::mem::offset_of!(_unsolicmsg_prm, Timeout) - 74usize];
+        [::std::mem::offset_of!(_unsolicmsg_prm, Timeout) - 70usize];
     ["Offset of field: _unsolicmsg_prm::AliveTime"]
-        [::std::mem::offset_of!(_unsolicmsg_prm, AliveTime) - 76usize];
+        [::std::mem::offset_of!(_unsolicmsg_prm, AliveTime) - 72usize];
     ["Offset of field: _unsolicmsg_prm::dummy1"]
-        [::std::mem::offset_of!(_unsolicmsg_prm, dummy1) - 78usize];
+        [::std::mem::offset_of!(_unsolicmsg_prm, dummy1) - 74usize];
     ["Offset of field: _unsolicmsg_prm::Control"]
-        [::std::mem::offset_of!(_unsolicmsg_prm, Control) - 88usize];
+        [::std::mem::offset_of!(_unsolicmsg_prm, Control) - 84usize];
     ["Offset of field: _unsolicmsg_prm::TransmissionNumber"]
-        [::std::mem::offset_of!(_unsolicmsg_prm, TransmissionNumber) - 120usize];
+        [::std::mem::offset_of!(_unsolicmsg_prm, TransmissionNumber) - 100usize];
     ["Offset of field: _unsolicmsg_prm::dummy2"]
-        [::std::mem::offset_of!(_unsolicmsg_prm, dummy2) - 122usize];
+        [::std::mem::offset_of!(_unsolicmsg_prm, dummy2) - 102usize];
     ["Offset of field: _unsolicmsg_prm::Transmission"]
-        [::std::mem::offset_of!(_unsolicmsg_prm, Transmission) - 136usize];
+        [::std::mem::offset_of!(_unsolicmsg_prm, Transmission) - 116usize];
 };
 impl Default for _unsolicmsg_prm {
     fn default() -> Self {
@@ -18350,11 +18346,11 @@ pub struct _pmc_addr {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _pmc_addr"][::std::mem::size_of::<_pmc_addr>() - 16usize];
-    ["Alignment of _pmc_addr"][::std::mem::align_of::<_pmc_addr>() - 8usize];
+    ["Size of _pmc_addr"][::std::mem::size_of::<_pmc_addr>() - 8usize];
+    ["Alignment of _pmc_addr"][::std::mem::align_of::<_pmc_addr>() - 4usize];
     ["Offset of field: _pmc_addr::Path"][::std::mem::offset_of!(_pmc_addr, Path) - 0usize];
     ["Offset of field: _pmc_addr::Kind"][::std::mem::offset_of!(_pmc_addr, Kind) - 2usize];
-    ["Offset of field: _pmc_addr::Address"][::std::mem::offset_of!(_pmc_addr, Address) - 8usize];
+    ["Offset of field: _pmc_addr::Address"][::std::mem::offset_of!(_pmc_addr, Address) - 4usize];
 };
 pub type PMC_ADDR = _pmc_addr;
 #[repr(C)]
@@ -18366,14 +18362,14 @@ pub struct _mbsvr_area_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _mbsvr_area_prm"][::std::mem::size_of::<_mbsvr_area_prm>() - 32usize];
-    ["Alignment of _mbsvr_area_prm"][::std::mem::align_of::<_mbsvr_area_prm>() - 8usize];
+    ["Size of _mbsvr_area_prm"][::std::mem::size_of::<_mbsvr_area_prm>() - 16usize];
+    ["Alignment of _mbsvr_area_prm"][::std::mem::align_of::<_mbsvr_area_prm>() - 4usize];
     ["Offset of field: _mbsvr_area_prm::DatSize"]
         [::std::mem::offset_of!(_mbsvr_area_prm, DatSize) - 0usize];
     ["Offset of field: _mbsvr_area_prm::DatModAddr"]
-        [::std::mem::offset_of!(_mbsvr_area_prm, DatModAddr) - 8usize];
+        [::std::mem::offset_of!(_mbsvr_area_prm, DatModAddr) - 4usize];
     ["Offset of field: _mbsvr_area_prm::DatPmcAddr"]
-        [::std::mem::offset_of!(_mbsvr_area_prm, DatPmcAddr) - 16usize];
+        [::std::mem::offset_of!(_mbsvr_area_prm, DatPmcAddr) - 8usize];
 };
 pub type MBSVR_AREA_PRM = _mbsvr_area_prm;
 #[repr(C)]
@@ -18387,14 +18383,14 @@ pub struct _mbsvr_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _mbsvr_prm"][::std::mem::size_of::<_mbsvr_prm>() - 128usize];
-    ["Alignment of _mbsvr_prm"][::std::mem::align_of::<_mbsvr_prm>() - 8usize];
+    ["Size of _mbsvr_prm"][::std::mem::size_of::<_mbsvr_prm>() - 64usize];
+    ["Alignment of _mbsvr_prm"][::std::mem::align_of::<_mbsvr_prm>() - 4usize];
     ["Offset of field: _mbsvr_prm::TcpPort"][::std::mem::offset_of!(_mbsvr_prm, TcpPort) - 0usize];
-    ["Offset of field: _mbsvr_prm::Option1"][::std::mem::offset_of!(_mbsvr_prm, Option1) - 8usize];
-    ["Offset of field: _mbsvr_prm::Option2"][::std::mem::offset_of!(_mbsvr_prm, Option2) - 10usize];
+    ["Offset of field: _mbsvr_prm::Option1"][::std::mem::offset_of!(_mbsvr_prm, Option1) - 4usize];
+    ["Offset of field: _mbsvr_prm::Option2"][::std::mem::offset_of!(_mbsvr_prm, Option2) - 6usize];
     ["Offset of field: _mbsvr_prm::StsPmcAddr"]
-        [::std::mem::offset_of!(_mbsvr_prm, StsPmcAddr) - 16usize];
-    ["Offset of field: _mbsvr_prm::AreaPrm"][::std::mem::offset_of!(_mbsvr_prm, AreaPrm) - 32usize];
+        [::std::mem::offset_of!(_mbsvr_prm, StsPmcAddr) - 8usize];
+    ["Offset of field: _mbsvr_prm::AreaPrm"][::std::mem::offset_of!(_mbsvr_prm, AreaPrm) - 16usize];
 };
 pub type MBSVR_PRM = _mbsvr_prm;
 #[repr(C)]
@@ -18422,14 +18418,14 @@ pub struct _httpsvr_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _httpsvr_prm"][::std::mem::size_of::<_httpsvr_prm>() - 144usize];
-    ["Alignment of _httpsvr_prm"][::std::mem::align_of::<_httpsvr_prm>() - 8usize];
+    ["Size of _httpsvr_prm"][::std::mem::size_of::<_httpsvr_prm>() - 136usize];
+    ["Alignment of _httpsvr_prm"][::std::mem::align_of::<_httpsvr_prm>() - 4usize];
     ["Offset of field: _httpsvr_prm::TcpPort"]
         [::std::mem::offset_of!(_httpsvr_prm, TcpPort) - 0usize];
     ["Offset of field: _httpsvr_prm::Timeout"]
-        [::std::mem::offset_of!(_httpsvr_prm, Timeout) - 8usize];
+        [::std::mem::offset_of!(_httpsvr_prm, Timeout) - 4usize];
     ["Offset of field: _httpsvr_prm::UserAccount"]
-        [::std::mem::offset_of!(_httpsvr_prm, UserAccount) - 16usize];
+        [::std::mem::offset_of!(_httpsvr_prm, UserAccount) - 8usize];
 };
 pub type HTTPSVR_PRM = _httpsvr_prm;
 #[repr(C)]
@@ -18441,14 +18437,14 @@ pub struct _stsntf_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _stsntf_prm"][::std::mem::size_of::<_stsntf_prm>() - 80usize];
-    ["Alignment of _stsntf_prm"][::std::mem::align_of::<_stsntf_prm>() - 8usize];
+    ["Size of _stsntf_prm"][::std::mem::size_of::<_stsntf_prm>() - 72usize];
+    ["Alignment of _stsntf_prm"][::std::mem::align_of::<_stsntf_prm>() - 4usize];
     ["Offset of field: _stsntf_prm::PopSvrPort"]
         [::std::mem::offset_of!(_stsntf_prm, PopSvrPort) - 0usize];
     ["Offset of field: _stsntf_prm::SmtpSvrPort"]
-        [::std::mem::offset_of!(_stsntf_prm, SmtpSvrPort) - 8usize];
+        [::std::mem::offset_of!(_stsntf_prm, SmtpSvrPort) - 4usize];
     ["Offset of field: _stsntf_prm::UserAccount"]
-        [::std::mem::offset_of!(_stsntf_prm, UserAccount) - 16usize];
+        [::std::mem::offset_of!(_stsntf_prm, UserAccount) - 8usize];
 };
 pub type STSNTF_PRM = _stsntf_prm;
 #[repr(C)]
@@ -19066,9 +19062,9 @@ pub union _in_ethprm__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _in_ethprm__bindgen_ty_1"]
-        [::std::mem::size_of::<_in_ethprm__bindgen_ty_1>() - 1008usize];
+        [::std::mem::size_of::<_in_ethprm__bindgen_ty_1>() - 984usize];
     ["Alignment of _in_ethprm__bindgen_ty_1"]
-        [::std::mem::align_of::<_in_ethprm__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<_in_ethprm__bindgen_ty_1>() - 4usize];
     ["Offset of field: _in_ethprm__bindgen_ty_1::common"]
         [::std::mem::offset_of!(_in_ethprm__bindgen_ty_1, common) - 0usize];
     ["Offset of field: _in_ethprm__bindgen_ty_1::focas2"]
@@ -19105,8 +19101,8 @@ impl Default for _in_ethprm__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _in_ethprm"][::std::mem::size_of::<_in_ethprm>() - 1024usize];
-    ["Alignment of _in_ethprm"][::std::mem::align_of::<_in_ethprm>() - 8usize];
+    ["Size of _in_ethprm"][::std::mem::size_of::<_in_ethprm>() - 996usize];
+    ["Alignment of _in_ethprm"][::std::mem::align_of::<_in_ethprm>() - 4usize];
     ["Offset of field: _in_ethprm::reserve01"]
         [::std::mem::offset_of!(_in_ethprm, reserve01) - 0usize];
     ["Offset of field: _in_ethprm::reserve02"]
@@ -19119,7 +19115,7 @@ const _: () = {
         [::std::mem::offset_of!(_in_ethprm, reserve05) - 8usize];
     ["Offset of field: _in_ethprm::reserve06"]
         [::std::mem::offset_of!(_in_ethprm, reserve06) - 10usize];
-    ["Offset of field: _in_ethprm::prm"][::std::mem::offset_of!(_in_ethprm, prm) - 16usize];
+    ["Offset of field: _in_ethprm::prm"][::std::mem::offset_of!(_in_ethprm, prm) - 12usize];
 };
 impl Default for _in_ethprm {
     fn default() -> Self {
@@ -19161,9 +19157,9 @@ pub union _out_ethprm__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _out_ethprm__bindgen_ty_1"]
-        [::std::mem::size_of::<_out_ethprm__bindgen_ty_1>() - 1008usize];
+        [::std::mem::size_of::<_out_ethprm__bindgen_ty_1>() - 984usize];
     ["Alignment of _out_ethprm__bindgen_ty_1"]
-        [::std::mem::align_of::<_out_ethprm__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<_out_ethprm__bindgen_ty_1>() - 4usize];
     ["Offset of field: _out_ethprm__bindgen_ty_1::common"]
         [::std::mem::offset_of!(_out_ethprm__bindgen_ty_1, common) - 0usize];
     ["Offset of field: _out_ethprm__bindgen_ty_1::focas2"]
@@ -19200,8 +19196,8 @@ impl Default for _out_ethprm__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_ethprm"][::std::mem::size_of::<_out_ethprm>() - 1024usize];
-    ["Alignment of _out_ethprm"][::std::mem::align_of::<_out_ethprm>() - 8usize];
+    ["Size of _out_ethprm"][::std::mem::size_of::<_out_ethprm>() - 996usize];
+    ["Alignment of _out_ethprm"][::std::mem::align_of::<_out_ethprm>() - 4usize];
     ["Offset of field: _out_ethprm::Option"][::std::mem::offset_of!(_out_ethprm, Option) - 0usize];
     ["Offset of field: _out_ethprm::Type"][::std::mem::offset_of!(_out_ethprm, Type) - 2usize];
     ["Offset of field: _out_ethprm::Dhcp"][::std::mem::offset_of!(_out_ethprm, Dhcp) - 4usize];
@@ -19211,7 +19207,7 @@ const _: () = {
         [::std::mem::offset_of!(_out_ethprm, DtsvrChannel) - 8usize];
     ["Offset of field: _out_ethprm::Storage"]
         [::std::mem::offset_of!(_out_ethprm, Storage) - 10usize];
-    ["Offset of field: _out_ethprm::prm"][::std::mem::offset_of!(_out_ethprm, prm) - 16usize];
+    ["Offset of field: _out_ethprm::prm"][::std::mem::offset_of!(_out_ethprm, prm) - 12usize];
 };
 impl Default for _out_ethprm {
     fn default() -> Self {
@@ -19565,21 +19561,21 @@ pub struct _out_ethtype2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_ethtype2"][::std::mem::size_of::<_out_ethtype2>() - 48usize];
-    ["Alignment of _out_ethtype2"][::std::mem::align_of::<_out_ethtype2>() - 8usize];
+    ["Size of _out_ethtype2"][::std::mem::size_of::<_out_ethtype2>() - 24usize];
+    ["Alignment of _out_ethtype2"][::std::mem::align_of::<_out_ethtype2>() - 4usize];
     ["Offset of field: _out_ethtype2::Kind"][::std::mem::offset_of!(_out_ethtype2, Kind) - 0usize];
     ["Offset of field: _out_ethtype2::dummy"]
         [::std::mem::offset_of!(_out_ethtype2, dummy) - 2usize];
     ["Offset of field: _out_ethtype2::FunctionEmb"]
-        [::std::mem::offset_of!(_out_ethtype2, FunctionEmb) - 8usize];
+        [::std::mem::offset_of!(_out_ethtype2, FunctionEmb) - 4usize];
     ["Offset of field: _out_ethtype2::FunctionEmbPcm"]
-        [::std::mem::offset_of!(_out_ethtype2, FunctionEmbPcm) - 16usize];
+        [::std::mem::offset_of!(_out_ethtype2, FunctionEmbPcm) - 8usize];
     ["Offset of field: _out_ethtype2::FunctionBoard"]
-        [::std::mem::offset_of!(_out_ethtype2, FunctionBoard) - 24usize];
+        [::std::mem::offset_of!(_out_ethtype2, FunctionBoard) - 12usize];
     ["Offset of field: _out_ethtype2::FunctionEmbCe"]
-        [::std::mem::offset_of!(_out_ethtype2, FunctionEmbCe) - 32usize];
+        [::std::mem::offset_of!(_out_ethtype2, FunctionEmbCe) - 16usize];
     ["Offset of field: _out_ethtype2::FunctionEmbCePcm"]
-        [::std::mem::offset_of!(_out_ethtype2, FunctionEmbCePcm) - 40usize];
+        [::std::mem::offset_of!(_out_ethtype2, FunctionEmbCePcm) - 20usize];
 };
 pub type OUT_ETHTYPE2 = _out_ethtype2;
 #[repr(C)]
@@ -19597,24 +19593,24 @@ pub struct _out_ethtype3 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_ethtype3"][::std::mem::size_of::<_out_ethtype3>() - 64usize];
-    ["Alignment of _out_ethtype3"][::std::mem::align_of::<_out_ethtype3>() - 8usize];
+    ["Size of _out_ethtype3"][::std::mem::size_of::<_out_ethtype3>() - 32usize];
+    ["Alignment of _out_ethtype3"][::std::mem::align_of::<_out_ethtype3>() - 4usize];
     ["Offset of field: _out_ethtype3::Kind"][::std::mem::offset_of!(_out_ethtype3, Kind) - 0usize];
     ["Offset of field: _out_ethtype3::KindFLnet"]
-        [::std::mem::offset_of!(_out_ethtype3, KindFLnet) - 8usize];
-    ["Offset of field: _out_ethtype3::Pad"][::std::mem::offset_of!(_out_ethtype3, Pad) - 10usize];
+        [::std::mem::offset_of!(_out_ethtype3, KindFLnet) - 4usize];
+    ["Offset of field: _out_ethtype3::Pad"][::std::mem::offset_of!(_out_ethtype3, Pad) - 6usize];
     ["Offset of field: _out_ethtype3::FunctionEmb"]
-        [::std::mem::offset_of!(_out_ethtype3, FunctionEmb) - 16usize];
+        [::std::mem::offset_of!(_out_ethtype3, FunctionEmb) - 8usize];
     ["Offset of field: _out_ethtype3::FunctionEmbPcm"]
-        [::std::mem::offset_of!(_out_ethtype3, FunctionEmbPcm) - 24usize];
+        [::std::mem::offset_of!(_out_ethtype3, FunctionEmbPcm) - 12usize];
     ["Offset of field: _out_ethtype3::FunctionBoard"]
-        [::std::mem::offset_of!(_out_ethtype3, FunctionBoard) - 32usize];
+        [::std::mem::offset_of!(_out_ethtype3, FunctionBoard) - 16usize];
     ["Offset of field: _out_ethtype3::FunctionEmbCe"]
-        [::std::mem::offset_of!(_out_ethtype3, FunctionEmbCe) - 40usize];
+        [::std::mem::offset_of!(_out_ethtype3, FunctionEmbCe) - 20usize];
     ["Offset of field: _out_ethtype3::FunctionEmbCePcm"]
-        [::std::mem::offset_of!(_out_ethtype3, FunctionEmbCePcm) - 48usize];
+        [::std::mem::offset_of!(_out_ethtype3, FunctionEmbCePcm) - 24usize];
     ["Offset of field: _out_ethtype3::FunctionReserve"]
-        [::std::mem::offset_of!(_out_ethtype3, FunctionReserve) - 56usize];
+        [::std::mem::offset_of!(_out_ethtype3, FunctionReserve) - 28usize];
 };
 pub type OUT_ETHTYPE3 = _out_ethtype3;
 #[repr(C)]
@@ -19630,8 +19626,8 @@ pub struct _out_dsstate {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_dsstate"][::std::mem::size_of::<_out_dsstate>() - 24usize];
-    ["Alignment of _out_dsstate"][::std::mem::align_of::<_out_dsstate>() - 8usize];
+    ["Size of _out_dsstate"][::std::mem::size_of::<_out_dsstate>() - 16usize];
+    ["Alignment of _out_dsstate"][::std::mem::align_of::<_out_dsstate>() - 4usize];
     ["Offset of field: _out_dsstate::DtsvrChannel"]
         [::std::mem::offset_of!(_out_dsstate, DtsvrChannel) - 0usize];
     ["Offset of field: _out_dsstate::pad"][::std::mem::offset_of!(_out_dsstate, pad) - 2usize];
@@ -19641,9 +19637,9 @@ const _: () = {
     ["Offset of field: _out_dsstate::TotalSize"]
         [::std::mem::offset_of!(_out_dsstate, TotalSize) - 8usize];
     ["Offset of field: _out_dsstate::WritePtr"]
-        [::std::mem::offset_of!(_out_dsstate, WritePtr) - 16usize];
+        [::std::mem::offset_of!(_out_dsstate, WritePtr) - 12usize];
     ["Offset of field: _out_dsstate::ReadPtr"]
-        [::std::mem::offset_of!(_out_dsstate, ReadPtr) - 18usize];
+        [::std::mem::offset_of!(_out_dsstate, ReadPtr) - 14usize];
 };
 pub type OUT_DSSTATE = _out_dsstate;
 #[repr(C)]
@@ -19680,14 +19676,14 @@ pub struct _clnt_info {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _clnt_info"][::std::mem::size_of::<_clnt_info>() - 80usize];
-    ["Alignment of _clnt_info"][::std::mem::align_of::<_clnt_info>() - 8usize];
+    ["Size of _clnt_info"][::std::mem::size_of::<_clnt_info>() - 72usize];
+    ["Alignment of _clnt_info"][::std::mem::align_of::<_clnt_info>() - 4usize];
     ["Offset of field: _clnt_info::IpAddress"]
         [::std::mem::offset_of!(_clnt_info, IpAddress) - 0usize];
     ["Offset of field: _clnt_info::SocketId"]
         [::std::mem::offset_of!(_clnt_info, SocketId) - 64usize];
     ["Offset of field: _clnt_info::ConnectTime"]
-        [::std::mem::offset_of!(_clnt_info, ConnectTime) - 72usize];
+        [::std::mem::offset_of!(_clnt_info, ConnectTime) - 68usize];
 };
 impl Default for _clnt_info {
     fn default() -> Self {
@@ -19708,12 +19704,12 @@ pub struct _out_fsinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_fsinfo"][::std::mem::size_of::<_out_fsinfo>() - 808usize];
-    ["Alignment of _out_fsinfo"][::std::mem::align_of::<_out_fsinfo>() - 8usize];
+    ["Size of _out_fsinfo"][::std::mem::size_of::<_out_fsinfo>() - 724usize];
+    ["Alignment of _out_fsinfo"][::std::mem::align_of::<_out_fsinfo>() - 4usize];
     ["Offset of field: _out_fsinfo::Number"][::std::mem::offset_of!(_out_fsinfo, Number) - 0usize];
     ["Offset of field: _out_fsinfo::pad"][::std::mem::offset_of!(_out_fsinfo, pad) - 2usize];
     ["Offset of field: _out_fsinfo::clntinfo"]
-        [::std::mem::offset_of!(_out_fsinfo, clntinfo) - 8usize];
+        [::std::mem::offset_of!(_out_fsinfo, clntinfo) - 4usize];
 };
 impl Default for _out_fsinfo {
     fn default() -> Self {
@@ -19733,8 +19729,8 @@ pub struct _mbsvr_clnt_info {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _mbsvr_clnt_info"][::std::mem::size_of::<_mbsvr_clnt_info>() - 72usize];
-    ["Alignment of _mbsvr_clnt_info"][::std::mem::align_of::<_mbsvr_clnt_info>() - 8usize];
+    ["Size of _mbsvr_clnt_info"][::std::mem::size_of::<_mbsvr_clnt_info>() - 68usize];
+    ["Alignment of _mbsvr_clnt_info"][::std::mem::align_of::<_mbsvr_clnt_info>() - 4usize];
     ["Offset of field: _mbsvr_clnt_info::IpAddress"]
         [::std::mem::offset_of!(_mbsvr_clnt_info, IpAddress) - 0usize];
     ["Offset of field: _mbsvr_clnt_info::ConnectTime"]
@@ -19759,13 +19755,13 @@ pub struct _out_mbsvrinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_mbsvrinfo"][::std::mem::size_of::<_out_mbsvrinfo>() - 728usize];
-    ["Alignment of _out_mbsvrinfo"][::std::mem::align_of::<_out_mbsvrinfo>() - 8usize];
+    ["Size of _out_mbsvrinfo"][::std::mem::size_of::<_out_mbsvrinfo>() - 684usize];
+    ["Alignment of _out_mbsvrinfo"][::std::mem::align_of::<_out_mbsvrinfo>() - 4usize];
     ["Offset of field: _out_mbsvrinfo::Number"]
         [::std::mem::offset_of!(_out_mbsvrinfo, Number) - 0usize];
     ["Offset of field: _out_mbsvrinfo::pad"][::std::mem::offset_of!(_out_mbsvrinfo, pad) - 2usize];
     ["Offset of field: _out_mbsvrinfo::clntinfo"]
-        [::std::mem::offset_of!(_out_mbsvrinfo, clntinfo) - 8usize];
+        [::std::mem::offset_of!(_out_mbsvrinfo, clntinfo) - 4usize];
 };
 impl Default for _out_mbsvrinfo {
     fn default() -> Self {
@@ -19789,20 +19785,20 @@ pub struct _out_fl_devtype {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_fl_devtype"][::std::mem::size_of::<_out_fl_devtype>() - 32usize];
-    ["Alignment of _out_fl_devtype"][::std::mem::align_of::<_out_fl_devtype>() - 8usize];
+    ["Size of _out_fl_devtype"][::std::mem::size_of::<_out_fl_devtype>() - 16usize];
+    ["Alignment of _out_fl_devtype"][::std::mem::align_of::<_out_fl_devtype>() - 4usize];
     ["Offset of field: _out_fl_devtype::Kind1"]
         [::std::mem::offset_of!(_out_fl_devtype, Kind1) - 0usize];
     ["Offset of field: _out_fl_devtype::pad1"]
         [::std::mem::offset_of!(_out_fl_devtype, pad1) - 2usize];
     ["Offset of field: _out_fl_devtype::FunctionFLnet1"]
-        [::std::mem::offset_of!(_out_fl_devtype, FunctionFLnet1) - 8usize];
+        [::std::mem::offset_of!(_out_fl_devtype, FunctionFLnet1) - 4usize];
     ["Offset of field: _out_fl_devtype::Kind2"]
-        [::std::mem::offset_of!(_out_fl_devtype, Kind2) - 16usize];
+        [::std::mem::offset_of!(_out_fl_devtype, Kind2) - 8usize];
     ["Offset of field: _out_fl_devtype::pad2"]
-        [::std::mem::offset_of!(_out_fl_devtype, pad2) - 18usize];
+        [::std::mem::offset_of!(_out_fl_devtype, pad2) - 10usize];
     ["Offset of field: _out_fl_devtype::FunctionFLnet2"]
-        [::std::mem::offset_of!(_out_fl_devtype, FunctionFLnet2) - 24usize];
+        [::std::mem::offset_of!(_out_fl_devtype, FunctionFLnet2) - 12usize];
 };
 pub type FL_DEVTYPE = _out_fl_devtype;
 #[repr(C)]
@@ -19814,14 +19810,14 @@ pub struct _out_pnc_devtype {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_pnc_devtype"][::std::mem::size_of::<_out_pnc_devtype>() - 16usize];
-    ["Alignment of _out_pnc_devtype"][::std::mem::align_of::<_out_pnc_devtype>() - 8usize];
+    ["Size of _out_pnc_devtype"][::std::mem::size_of::<_out_pnc_devtype>() - 8usize];
+    ["Alignment of _out_pnc_devtype"][::std::mem::align_of::<_out_pnc_devtype>() - 4usize];
     ["Offset of field: _out_pnc_devtype::Kind"]
         [::std::mem::offset_of!(_out_pnc_devtype, Kind) - 0usize];
     ["Offset of field: _out_pnc_devtype::pad"]
         [::std::mem::offset_of!(_out_pnc_devtype, pad) - 2usize];
     ["Offset of field: _out_pnc_devtype::FunctionPnc"]
-        [::std::mem::offset_of!(_out_pnc_devtype, FunctionPnc) - 8usize];
+        [::std::mem::offset_of!(_out_pnc_devtype, FunctionPnc) - 4usize];
 };
 pub type PNC_DEVTYPE = _out_pnc_devtype;
 #[repr(C)]
@@ -19838,9 +19834,9 @@ pub union _out_netdevprm__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _out_netdevprm__bindgen_ty_1"]
-        [::std::mem::size_of::<_out_netdevprm__bindgen_ty_1>() - 32usize];
+        [::std::mem::size_of::<_out_netdevprm__bindgen_ty_1>() - 16usize];
     ["Alignment of _out_netdevprm__bindgen_ty_1"]
-        [::std::mem::align_of::<_out_netdevprm__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<_out_netdevprm__bindgen_ty_1>() - 4usize];
     ["Offset of field: _out_netdevprm__bindgen_ty_1::Fldevtype"]
         [::std::mem::offset_of!(_out_netdevprm__bindgen_ty_1, Fldevtype) - 0usize];
     ["Offset of field: _out_netdevprm__bindgen_ty_1::Pncdevtype"]
@@ -19857,8 +19853,8 @@ impl Default for _out_netdevprm__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_netdevprm"][::std::mem::size_of::<_out_netdevprm>() - 32usize];
-    ["Alignment of _out_netdevprm"][::std::mem::align_of::<_out_netdevprm>() - 8usize];
+    ["Size of _out_netdevprm"][::std::mem::size_of::<_out_netdevprm>() - 16usize];
+    ["Alignment of _out_netdevprm"][::std::mem::align_of::<_out_netdevprm>() - 4usize];
     ["Offset of field: _out_netdevprm::prm"][::std::mem::offset_of!(_out_netdevprm, prm) - 0usize];
 };
 impl Default for _out_netdevprm {
@@ -19918,20 +19914,20 @@ pub struct _eipa_basic_prm__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _eipa_basic_prm__bindgen_ty_1"]
-        [::std::mem::size_of::<_eipa_basic_prm__bindgen_ty_1>() - 16usize];
+        [::std::mem::size_of::<_eipa_basic_prm__bindgen_ty_1>() - 8usize];
     ["Alignment of _eipa_basic_prm__bindgen_ty_1"]
-        [::std::mem::align_of::<_eipa_basic_prm__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<_eipa_basic_prm__bindgen_ty_1>() - 4usize];
     ["Offset of field: _eipa_basic_prm__bindgen_ty_1::Path"]
         [::std::mem::offset_of!(_eipa_basic_prm__bindgen_ty_1, Path) - 0usize];
     ["Offset of field: _eipa_basic_prm__bindgen_ty_1::Addr"]
         [::std::mem::offset_of!(_eipa_basic_prm__bindgen_ty_1, Addr) - 2usize];
     ["Offset of field: _eipa_basic_prm__bindgen_ty_1::No"]
-        [::std::mem::offset_of!(_eipa_basic_prm__bindgen_ty_1, No) - 8usize];
+        [::std::mem::offset_of!(_eipa_basic_prm__bindgen_ty_1, No) - 4usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _eipa_basic_prm"][::std::mem::size_of::<_eipa_basic_prm>() - 40usize];
-    ["Alignment of _eipa_basic_prm"][::std::mem::align_of::<_eipa_basic_prm>() - 8usize];
+    ["Size of _eipa_basic_prm"][::std::mem::size_of::<_eipa_basic_prm>() - 28usize];
+    ["Alignment of _eipa_basic_prm"][::std::mem::align_of::<_eipa_basic_prm>() - 4usize];
     ["Offset of field: _eipa_basic_prm::Common"]
         [::std::mem::offset_of!(_eipa_basic_prm, Common) - 0usize];
     ["Offset of field: _eipa_basic_prm::Option2"]
@@ -19947,7 +19943,7 @@ const _: () = {
     ["Offset of field: _eipa_basic_prm::Status"]
         [::std::mem::offset_of!(_eipa_basic_prm, Status) - 16usize];
     ["Offset of field: _eipa_basic_prm::StatusSize"]
-        [::std::mem::offset_of!(_eipa_basic_prm, StatusSize) - 32usize];
+        [::std::mem::offset_of!(_eipa_basic_prm, StatusSize) - 24usize];
 };
 pub type EIPA_BASIC_PRM = _eipa_basic_prm;
 pub type OUT_EIPA_BASIC_PRM = EIPA_BASIC_PRM;
@@ -20030,17 +20026,17 @@ pub struct _eip_type_prm__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _eip_type_prm__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<_eip_type_prm__bindgen_ty_1__bindgen_ty_1>() - 24usize];
+        [::std::mem::size_of::<_eip_type_prm__bindgen_ty_1__bindgen_ty_1>() - 12usize];
     ["Alignment of _eip_type_prm__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<_eip_type_prm__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<_eip_type_prm__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: _eip_type_prm__bindgen_ty_1__bindgen_ty_1::Path"]
         [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1__bindgen_ty_1, Path) - 0usize];
     ["Offset of field: _eip_type_prm__bindgen_ty_1__bindgen_ty_1::Addr"]
         [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1__bindgen_ty_1, Addr) - 2usize];
     ["Offset of field: _eip_type_prm__bindgen_ty_1__bindgen_ty_1::No"]
-        [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1__bindgen_ty_1, No) - 8usize];
+        [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1__bindgen_ty_1, No) - 4usize];
     ["Offset of field: _eip_type_prm__bindgen_ty_1__bindgen_ty_1::Size"]
-        [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1__bindgen_ty_1, Size) - 16usize];
+        [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1__bindgen_ty_1, Size) - 8usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -20053,24 +20049,24 @@ pub struct _eip_type_prm__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _eip_type_prm__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<_eip_type_prm__bindgen_ty_1__bindgen_ty_2>() - 24usize];
+        [::std::mem::size_of::<_eip_type_prm__bindgen_ty_1__bindgen_ty_2>() - 12usize];
     ["Alignment of _eip_type_prm__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<_eip_type_prm__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<_eip_type_prm__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: _eip_type_prm__bindgen_ty_1__bindgen_ty_2::Path"]
         [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1__bindgen_ty_2, Path) - 0usize];
     ["Offset of field: _eip_type_prm__bindgen_ty_1__bindgen_ty_2::pad"]
         [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1__bindgen_ty_2, pad) - 2usize];
     ["Offset of field: _eip_type_prm__bindgen_ty_1__bindgen_ty_2::No"]
-        [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1__bindgen_ty_2, No) - 8usize];
+        [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1__bindgen_ty_2, No) - 4usize];
     ["Offset of field: _eip_type_prm__bindgen_ty_1__bindgen_ty_2::Num"]
-        [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1__bindgen_ty_2, Num) - 16usize];
+        [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1__bindgen_ty_2, Num) - 8usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _eip_type_prm__bindgen_ty_1"]
-        [::std::mem::size_of::<_eip_type_prm__bindgen_ty_1>() - 24usize];
+        [::std::mem::size_of::<_eip_type_prm__bindgen_ty_1>() - 12usize];
     ["Alignment of _eip_type_prm__bindgen_ty_1"]
-        [::std::mem::align_of::<_eip_type_prm__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<_eip_type_prm__bindgen_ty_1>() - 4usize];
     ["Offset of field: _eip_type_prm__bindgen_ty_1::pmc"]
         [::std::mem::offset_of!(_eip_type_prm__bindgen_ty_1, pmc) - 0usize];
     ["Offset of field: _eip_type_prm__bindgen_ty_1::macro_"]
@@ -20087,14 +20083,14 @@ impl Default for _eip_type_prm__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _eip_type_prm"][::std::mem::size_of::<_eip_type_prm>() - 64usize];
-    ["Alignment of _eip_type_prm"][::std::mem::align_of::<_eip_type_prm>() - 8usize];
+    ["Size of _eip_type_prm"][::std::mem::size_of::<_eip_type_prm>() - 48usize];
+    ["Alignment of _eip_type_prm"][::std::mem::align_of::<_eip_type_prm>() - 4usize];
     ["Offset of field: _eip_type_prm::Type"][::std::mem::offset_of!(_eip_type_prm, Type) - 0usize];
     ["Offset of field: _eip_type_prm::pad"][::std::mem::offset_of!(_eip_type_prm, pad) - 2usize];
-    ["Offset of field: _eip_type_prm::prm"][::std::mem::offset_of!(_eip_type_prm, prm) - 8usize];
+    ["Offset of field: _eip_type_prm::prm"][::std::mem::offset_of!(_eip_type_prm, prm) - 4usize];
     ["Offset of field: _eip_type_prm::TagName"]
-        [::std::mem::offset_of!(_eip_type_prm, TagName) - 32usize];
-    ["Offset of field: _eip_type_prm::pad2"][::std::mem::offset_of!(_eip_type_prm, pad2) - 60usize];
+        [::std::mem::offset_of!(_eip_type_prm, TagName) - 16usize];
+    ["Offset of field: _eip_type_prm::pad2"][::std::mem::offset_of!(_eip_type_prm, pad2) - 44usize];
 };
 impl Default for _eip_type_prm {
     fn default() -> Self {
@@ -20117,16 +20113,16 @@ pub struct _eipa_alloc_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _eipa_alloc_prm"][::std::mem::size_of::<_eipa_alloc_prm>() - 136usize];
-    ["Alignment of _eipa_alloc_prm"][::std::mem::align_of::<_eipa_alloc_prm>() - 8usize];
+    ["Size of _eipa_alloc_prm"][::std::mem::size_of::<_eipa_alloc_prm>() - 100usize];
+    ["Alignment of _eipa_alloc_prm"][::std::mem::align_of::<_eipa_alloc_prm>() - 4usize];
     ["Offset of field: _eipa_alloc_prm::State"]
         [::std::mem::offset_of!(_eipa_alloc_prm, State) - 0usize];
     ["Offset of field: _eipa_alloc_prm::Option"]
         [::std::mem::offset_of!(_eipa_alloc_prm, Option) - 1usize];
     ["Offset of field: _eipa_alloc_prm::pad"]
         [::std::mem::offset_of!(_eipa_alloc_prm, pad) - 2usize];
-    ["Offset of field: _eipa_alloc_prm::DI"][::std::mem::offset_of!(_eipa_alloc_prm, DI) - 8usize];
-    ["Offset of field: _eipa_alloc_prm::DO"][::std::mem::offset_of!(_eipa_alloc_prm, DO) - 72usize];
+    ["Offset of field: _eipa_alloc_prm::DI"][::std::mem::offset_of!(_eipa_alloc_prm, DI) - 4usize];
+    ["Offset of field: _eipa_alloc_prm::DO"][::std::mem::offset_of!(_eipa_alloc_prm, DO) - 52usize];
 };
 impl Default for _eipa_alloc_prm {
     fn default() -> Self {
@@ -20225,8 +20221,8 @@ pub struct _out_eip_deviceinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_eip_deviceinfo"][::std::mem::size_of::<_out_eip_deviceinfo>() - 16usize];
-    ["Alignment of _out_eip_deviceinfo"][::std::mem::align_of::<_out_eip_deviceinfo>() - 8usize];
+    ["Size of _out_eip_deviceinfo"][::std::mem::size_of::<_out_eip_deviceinfo>() - 12usize];
+    ["Alignment of _out_eip_deviceinfo"][::std::mem::align_of::<_out_eip_deviceinfo>() - 4usize];
     ["Offset of field: _out_eip_deviceinfo::VendorId"]
         [::std::mem::offset_of!(_out_eip_deviceinfo, VendorId) - 0usize];
     ["Offset of field: _out_eip_deviceinfo::DeviceType"]
@@ -20250,14 +20246,14 @@ pub struct _out_eipa_scndata {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_eipa_scndata"][::std::mem::size_of::<_out_eipa_scndata>() - 56usize];
-    ["Alignment of _out_eipa_scndata"][::std::mem::align_of::<_out_eipa_scndata>() - 8usize];
+    ["Size of _out_eipa_scndata"][::std::mem::size_of::<_out_eipa_scndata>() - 48usize];
+    ["Alignment of _out_eipa_scndata"][::std::mem::align_of::<_out_eipa_scndata>() - 4usize];
     ["Offset of field: _out_eipa_scndata::ConnectionId"]
         [::std::mem::offset_of!(_out_eipa_scndata, ConnectionId) - 0usize];
     ["Offset of field: _out_eipa_scndata::ConnectTime"]
-        [::std::mem::offset_of!(_out_eipa_scndata, ConnectTime) - 8usize];
+        [::std::mem::offset_of!(_out_eipa_scndata, ConnectTime) - 4usize];
     ["Offset of field: _out_eipa_scndata::IpAddress"]
-        [::std::mem::offset_of!(_out_eipa_scndata, IpAddress) - 16usize];
+        [::std::mem::offset_of!(_out_eipa_scndata, IpAddress) - 8usize];
 };
 impl Default for _out_eipa_scndata {
     fn default() -> Self {
@@ -20288,34 +20284,34 @@ pub struct _out_eip_listdetail {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_eip_listdetail"][::std::mem::size_of::<_out_eip_listdetail>() - 72usize];
-    ["Alignment of _out_eip_listdetail"][::std::mem::align_of::<_out_eip_listdetail>() - 8usize];
+    ["Size of _out_eip_listdetail"][::std::mem::size_of::<_out_eip_listdetail>() - 64usize];
+    ["Alignment of _out_eip_listdetail"][::std::mem::align_of::<_out_eip_listdetail>() - 4usize];
     ["Offset of field: _out_eip_listdetail::IpAddress"]
         [::std::mem::offset_of!(_out_eip_listdetail, IpAddress) - 0usize];
     ["Offset of field: _out_eip_listdetail::ConnectTime"]
         [::std::mem::offset_of!(_out_eip_listdetail, ConnectTime) - 40usize];
     ["Offset of field: _out_eip_listdetail::ApplicationType"]
-        [::std::mem::offset_of!(_out_eip_listdetail, ApplicationType) - 48usize];
+        [::std::mem::offset_of!(_out_eip_listdetail, ApplicationType) - 44usize];
     ["Offset of field: _out_eip_listdetail::pad1"]
-        [::std::mem::offset_of!(_out_eip_listdetail, pad1) - 49usize];
+        [::std::mem::offset_of!(_out_eip_listdetail, pad1) - 45usize];
     ["Offset of field: _out_eip_listdetail::O2T_RPI"]
-        [::std::mem::offset_of!(_out_eip_listdetail, O2T_RPI) - 50usize];
+        [::std::mem::offset_of!(_out_eip_listdetail, O2T_RPI) - 46usize];
     ["Offset of field: _out_eip_listdetail::T2O_RPI"]
-        [::std::mem::offset_of!(_out_eip_listdetail, T2O_RPI) - 52usize];
+        [::std::mem::offset_of!(_out_eip_listdetail, T2O_RPI) - 48usize];
     ["Offset of field: _out_eip_listdetail::O2T_API"]
-        [::std::mem::offset_of!(_out_eip_listdetail, O2T_API) - 54usize];
+        [::std::mem::offset_of!(_out_eip_listdetail, O2T_API) - 50usize];
     ["Offset of field: _out_eip_listdetail::T2O_API"]
-        [::std::mem::offset_of!(_out_eip_listdetail, T2O_API) - 56usize];
+        [::std::mem::offset_of!(_out_eip_listdetail, T2O_API) - 52usize];
     ["Offset of field: _out_eip_listdetail::RecvPacket"]
-        [::std::mem::offset_of!(_out_eip_listdetail, RecvPacket) - 58usize];
+        [::std::mem::offset_of!(_out_eip_listdetail, RecvPacket) - 54usize];
     ["Offset of field: _out_eip_listdetail::SendPacket"]
-        [::std::mem::offset_of!(_out_eip_listdetail, SendPacket) - 60usize];
+        [::std::mem::offset_of!(_out_eip_listdetail, SendPacket) - 56usize];
     ["Offset of field: _out_eip_listdetail::LostPacket"]
-        [::std::mem::offset_of!(_out_eip_listdetail, LostPacket) - 62usize];
+        [::std::mem::offset_of!(_out_eip_listdetail, LostPacket) - 58usize];
     ["Offset of field: _out_eip_listdetail::AllocationId"]
-        [::std::mem::offset_of!(_out_eip_listdetail, AllocationId) - 64usize];
+        [::std::mem::offset_of!(_out_eip_listdetail, AllocationId) - 60usize];
     ["Offset of field: _out_eip_listdetail::pad2"]
-        [::std::mem::offset_of!(_out_eip_listdetail, pad2) - 66usize];
+        [::std::mem::offset_of!(_out_eip_listdetail, pad2) - 62usize];
 };
 impl Default for _out_eip_listdetail {
     fn default() -> Self {
@@ -20336,14 +20332,14 @@ pub struct _eip_unuse_addr {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _eip_unuse_addr"][::std::mem::size_of::<_eip_unuse_addr>() - 16usize];
-    ["Alignment of _eip_unuse_addr"][::std::mem::align_of::<_eip_unuse_addr>() - 8usize];
+    ["Size of _eip_unuse_addr"][::std::mem::size_of::<_eip_unuse_addr>() - 8usize];
+    ["Alignment of _eip_unuse_addr"][::std::mem::align_of::<_eip_unuse_addr>() - 4usize];
     ["Offset of field: _eip_unuse_addr::Param1"]
         [::std::mem::offset_of!(_eip_unuse_addr, Param1) - 0usize];
     ["Offset of field: _eip_unuse_addr::Param2"]
         [::std::mem::offset_of!(_eip_unuse_addr, Param2) - 2usize];
     ["Offset of field: _eip_unuse_addr::Param3"]
-        [::std::mem::offset_of!(_eip_unuse_addr, Param3) - 8usize];
+        [::std::mem::offset_of!(_eip_unuse_addr, Param3) - 4usize];
 };
 pub type EIP_UNUSE_ADDR = _eip_unuse_addr;
 #[repr(C)]
@@ -20355,11 +20351,11 @@ pub struct _eip_pmc_addr {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _eip_pmc_addr"][::std::mem::size_of::<_eip_pmc_addr>() - 16usize];
-    ["Alignment of _eip_pmc_addr"][::std::mem::align_of::<_eip_pmc_addr>() - 8usize];
+    ["Size of _eip_pmc_addr"][::std::mem::size_of::<_eip_pmc_addr>() - 8usize];
+    ["Alignment of _eip_pmc_addr"][::std::mem::align_of::<_eip_pmc_addr>() - 4usize];
     ["Offset of field: _eip_pmc_addr::Path"][::std::mem::offset_of!(_eip_pmc_addr, Path) - 0usize];
     ["Offset of field: _eip_pmc_addr::Addr"][::std::mem::offset_of!(_eip_pmc_addr, Addr) - 2usize];
-    ["Offset of field: _eip_pmc_addr::No"][::std::mem::offset_of!(_eip_pmc_addr, No) - 8usize];
+    ["Offset of field: _eip_pmc_addr::No"][::std::mem::offset_of!(_eip_pmc_addr, No) - 4usize];
 };
 pub type EIP_PMC_ADDR = _eip_pmc_addr;
 #[repr(C)]
@@ -20376,9 +20372,9 @@ pub union _eip_multi_addr__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _eip_multi_addr__bindgen_ty_1"]
-        [::std::mem::size_of::<_eip_multi_addr__bindgen_ty_1>() - 16usize];
+        [::std::mem::size_of::<_eip_multi_addr__bindgen_ty_1>() - 8usize];
     ["Alignment of _eip_multi_addr__bindgen_ty_1"]
-        [::std::mem::align_of::<_eip_multi_addr__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<_eip_multi_addr__bindgen_ty_1>() - 4usize];
     ["Offset of field: _eip_multi_addr__bindgen_ty_1::Unuse"]
         [::std::mem::offset_of!(_eip_multi_addr__bindgen_ty_1, Unuse) - 0usize];
     ["Offset of field: _eip_multi_addr__bindgen_ty_1::Pmc"]
@@ -20395,8 +20391,8 @@ impl Default for _eip_multi_addr__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _eip_multi_addr"][::std::mem::size_of::<_eip_multi_addr>() - 16usize];
-    ["Alignment of _eip_multi_addr"][::std::mem::align_of::<_eip_multi_addr>() - 8usize];
+    ["Size of _eip_multi_addr"][::std::mem::size_of::<_eip_multi_addr>() - 8usize];
+    ["Alignment of _eip_multi_addr"][::std::mem::align_of::<_eip_multi_addr>() - 4usize];
     ["Offset of field: _eip_multi_addr::Prm"]
         [::std::mem::offset_of!(_eip_multi_addr, Prm) - 0usize];
 };
@@ -20426,8 +20422,8 @@ pub struct _eips_basic_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _eips_basic_prm"][::std::mem::size_of::<_eips_basic_prm>() - 48usize];
-    ["Alignment of _eips_basic_prm"][::std::mem::align_of::<_eips_basic_prm>() - 8usize];
+    ["Size of _eips_basic_prm"][::std::mem::size_of::<_eips_basic_prm>() - 32usize];
+    ["Alignment of _eips_basic_prm"][::std::mem::align_of::<_eips_basic_prm>() - 4usize];
     ["Offset of field: _eips_basic_prm::Common"]
         [::std::mem::offset_of!(_eips_basic_prm, Common) - 0usize];
     ["Offset of field: _eips_basic_prm::Network"]
@@ -20445,9 +20441,9 @@ const _: () = {
     ["Offset of field: _eips_basic_prm::RPI_Max"]
         [::std::mem::offset_of!(_eips_basic_prm, RPI_Max) - 18usize];
     ["Offset of field: _eips_basic_prm::StatusAddr"]
-        [::std::mem::offset_of!(_eips_basic_prm, StatusAddr) - 24usize];
+        [::std::mem::offset_of!(_eips_basic_prm, StatusAddr) - 20usize];
     ["Offset of field: _eips_basic_prm::StatusSize"]
-        [::std::mem::offset_of!(_eips_basic_prm, StatusSize) - 40usize];
+        [::std::mem::offset_of!(_eips_basic_prm, StatusSize) - 28usize];
 };
 pub type EIPS_BASIC_PRM = _eips_basic_prm;
 pub type IN_EIPS_BASIC_PRM = EIPS_BASIC_PRM;
@@ -20486,31 +20482,31 @@ pub struct _eips_conn_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _eips_conn_prm"][::std::mem::size_of::<_eips_conn_prm>() - 88usize];
-    ["Alignment of _eips_conn_prm"][::std::mem::align_of::<_eips_conn_prm>() - 8usize];
+    ["Size of _eips_conn_prm"][::std::mem::size_of::<_eips_conn_prm>() - 64usize];
+    ["Alignment of _eips_conn_prm"][::std::mem::align_of::<_eips_conn_prm>() - 4usize];
     ["Offset of field: _eips_conn_prm::AssemblyInstance"]
         [::std::mem::offset_of!(_eips_conn_prm, AssemblyInstance) - 0usize];
     ["Offset of field: _eips_conn_prm::Type"]
-        [::std::mem::offset_of!(_eips_conn_prm, Type) - 8usize];
+        [::std::mem::offset_of!(_eips_conn_prm, Type) - 4usize];
     ["Offset of field: _eips_conn_prm::pad1"]
-        [::std::mem::offset_of!(_eips_conn_prm, pad1) - 10usize];
+        [::std::mem::offset_of!(_eips_conn_prm, pad1) - 6usize];
     ["Offset of field: _eips_conn_prm::Addr"]
-        [::std::mem::offset_of!(_eips_conn_prm, Addr) - 16usize];
+        [::std::mem::offset_of!(_eips_conn_prm, Addr) - 8usize];
     ["Offset of field: _eips_conn_prm::Size"]
-        [::std::mem::offset_of!(_eips_conn_prm, Size) - 32usize];
-    ["Offset of field: _eips_conn_prm::RPI"][::std::mem::offset_of!(_eips_conn_prm, RPI) - 40usize];
+        [::std::mem::offset_of!(_eips_conn_prm, Size) - 16usize];
+    ["Offset of field: _eips_conn_prm::RPI"][::std::mem::offset_of!(_eips_conn_prm, RPI) - 20usize];
     ["Offset of field: _eips_conn_prm::TransportType"]
-        [::std::mem::offset_of!(_eips_conn_prm, TransportType) - 48usize];
+        [::std::mem::offset_of!(_eips_conn_prm, TransportType) - 24usize];
     ["Offset of field: _eips_conn_prm::HeaderFormat"]
-        [::std::mem::offset_of!(_eips_conn_prm, HeaderFormat) - 50usize];
+        [::std::mem::offset_of!(_eips_conn_prm, HeaderFormat) - 26usize];
     ["Offset of field: _eips_conn_prm::Priority"]
-        [::std::mem::offset_of!(_eips_conn_prm, Priority) - 52usize];
+        [::std::mem::offset_of!(_eips_conn_prm, Priority) - 28usize];
     ["Offset of field: _eips_conn_prm::pad2"]
-        [::std::mem::offset_of!(_eips_conn_prm, pad2) - 54usize];
+        [::std::mem::offset_of!(_eips_conn_prm, pad2) - 30usize];
     ["Offset of field: _eips_conn_prm::reserve"]
-        [::std::mem::offset_of!(_eips_conn_prm, reserve) - 56usize];
+        [::std::mem::offset_of!(_eips_conn_prm, reserve) - 32usize];
     ["Offset of field: _eips_conn_prm::pad3"]
-        [::std::mem::offset_of!(_eips_conn_prm, pad3) - 84usize];
+        [::std::mem::offset_of!(_eips_conn_prm, pad3) - 60usize];
 };
 impl Default for _eips_conn_prm {
     fn default() -> Self {
@@ -20576,8 +20572,8 @@ pub struct _eips_alloc_prm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _eips_alloc_prm"][::std::mem::size_of::<_eips_alloc_prm>() - 296usize];
-    ["Alignment of _eips_alloc_prm"][::std::mem::align_of::<_eips_alloc_prm>() - 8usize];
+    ["Size of _eips_alloc_prm"][::std::mem::size_of::<_eips_alloc_prm>() - 216usize];
+    ["Alignment of _eips_alloc_prm"][::std::mem::align_of::<_eips_alloc_prm>() - 4usize];
     ["Offset of field: _eips_alloc_prm::IpAddress"]
         [::std::mem::offset_of!(_eips_alloc_prm, IpAddress) - 0usize];
     ["Offset of field: _eips_alloc_prm::Option1"]
@@ -20589,29 +20585,29 @@ const _: () = {
     ["Offset of field: _eips_alloc_prm::Endian"]
         [::std::mem::offset_of!(_eips_alloc_prm, Endian) - 43usize];
     ["Offset of field: _eips_alloc_prm::ConfigInstance"]
-        [::std::mem::offset_of!(_eips_alloc_prm, ConfigInstance) - 48usize];
+        [::std::mem::offset_of!(_eips_alloc_prm, ConfigInstance) - 44usize];
     ["Offset of field: _eips_alloc_prm::ConnT2O"]
-        [::std::mem::offset_of!(_eips_alloc_prm, ConnT2O) - 56usize];
+        [::std::mem::offset_of!(_eips_alloc_prm, ConnT2O) - 48usize];
     ["Offset of field: _eips_alloc_prm::ConnO2T"]
-        [::std::mem::offset_of!(_eips_alloc_prm, ConnO2T) - 144usize];
+        [::std::mem::offset_of!(_eips_alloc_prm, ConnO2T) - 112usize];
     ["Offset of field: _eips_alloc_prm::reserve1"]
-        [::std::mem::offset_of!(_eips_alloc_prm, reserve1) - 232usize];
+        [::std::mem::offset_of!(_eips_alloc_prm, reserve1) - 176usize];
     ["Offset of field: _eips_alloc_prm::reserve2"]
-        [::std::mem::offset_of!(_eips_alloc_prm, reserve2) - 248usize];
+        [::std::mem::offset_of!(_eips_alloc_prm, reserve2) - 184usize];
     ["Offset of field: _eips_alloc_prm::ProductTrigger"]
-        [::std::mem::offset_of!(_eips_alloc_prm, ProductTrigger) - 264usize];
+        [::std::mem::offset_of!(_eips_alloc_prm, ProductTrigger) - 192usize];
     ["Offset of field: _eips_alloc_prm::Timeout"]
-        [::std::mem::offset_of!(_eips_alloc_prm, Timeout) - 265usize];
+        [::std::mem::offset_of!(_eips_alloc_prm, Timeout) - 193usize];
     ["Offset of field: _eips_alloc_prm::Reconnect"]
-        [::std::mem::offset_of!(_eips_alloc_prm, Reconnect) - 266usize];
+        [::std::mem::offset_of!(_eips_alloc_prm, Reconnect) - 194usize];
     ["Offset of field: _eips_alloc_prm::pad"]
-        [::std::mem::offset_of!(_eips_alloc_prm, pad) - 267usize];
+        [::std::mem::offset_of!(_eips_alloc_prm, pad) - 195usize];
     ["Offset of field: _eips_alloc_prm::ElectronicKey"]
-        [::std::mem::offset_of!(_eips_alloc_prm, ElectronicKey) - 268usize];
+        [::std::mem::offset_of!(_eips_alloc_prm, ElectronicKey) - 196usize];
     ["Offset of field: _eips_alloc_prm::DataPerSec"]
-        [::std::mem::offset_of!(_eips_alloc_prm, DataPerSec) - 280usize];
+        [::std::mem::offset_of!(_eips_alloc_prm, DataPerSec) - 208usize];
     ["Offset of field: _eips_alloc_prm::DataPerSecTotal"]
-        [::std::mem::offset_of!(_eips_alloc_prm, DataPerSecTotal) - 288usize];
+        [::std::mem::offset_of!(_eips_alloc_prm, DataPerSecTotal) - 212usize];
 };
 impl Default for _eips_alloc_prm {
     fn default() -> Self {
@@ -20659,10 +20655,10 @@ pub struct _in_eips_basic {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _in_eips_basic"][::std::mem::size_of::<_in_eips_basic>() - 64usize];
-    ["Alignment of _in_eips_basic"][::std::mem::align_of::<_in_eips_basic>() - 8usize];
+    ["Size of _in_eips_basic"][::std::mem::size_of::<_in_eips_basic>() - 44usize];
+    ["Alignment of _in_eips_basic"][::std::mem::align_of::<_in_eips_basic>() - 4usize];
     ["Offset of field: _in_eips_basic::flg"][::std::mem::offset_of!(_in_eips_basic, flg) - 0usize];
-    ["Offset of field: _in_eips_basic::prm"][::std::mem::offset_of!(_in_eips_basic, prm) - 16usize];
+    ["Offset of field: _in_eips_basic::prm"][::std::mem::offset_of!(_in_eips_basic, prm) - 12usize];
 };
 pub type IN_EIPS_BASIC = _in_eips_basic;
 #[repr(C)]
@@ -20788,10 +20784,10 @@ pub struct _in_eips_alloc {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _in_eips_alloc"][::std::mem::size_of::<_in_eips_alloc>() - 344usize];
-    ["Alignment of _in_eips_alloc"][::std::mem::align_of::<_in_eips_alloc>() - 8usize];
+    ["Size of _in_eips_alloc"][::std::mem::size_of::<_in_eips_alloc>() - 260usize];
+    ["Alignment of _in_eips_alloc"][::std::mem::align_of::<_in_eips_alloc>() - 4usize];
     ["Offset of field: _in_eips_alloc::flg"][::std::mem::offset_of!(_in_eips_alloc, flg) - 0usize];
-    ["Offset of field: _in_eips_alloc::prm"][::std::mem::offset_of!(_in_eips_alloc, prm) - 48usize];
+    ["Offset of field: _in_eips_alloc::prm"][::std::mem::offset_of!(_in_eips_alloc, prm) - 44usize];
 };
 impl Default for _in_eips_alloc {
     fn default() -> Self {
@@ -20840,9 +20836,9 @@ pub struct _out_eips_detail_info {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_eips_detail_info"][::std::mem::size_of::<_out_eips_detail_info>() - 72usize];
+    ["Size of _out_eips_detail_info"][::std::mem::size_of::<_out_eips_detail_info>() - 68usize];
     ["Alignment of _out_eips_detail_info"]
-        [::std::mem::align_of::<_out_eips_detail_info>() - 8usize];
+        [::std::mem::align_of::<_out_eips_detail_info>() - 4usize];
     ["Offset of field: _out_eips_detail_info::Result"]
         [::std::mem::offset_of!(_out_eips_detail_info, Result) - 0usize];
     ["Offset of field: _out_eips_detail_info::pad1"]
@@ -20858,21 +20854,21 @@ const _: () = {
     ["Offset of field: _out_eips_detail_info::ConnectTime"]
         [::std::mem::offset_of!(_out_eips_detail_info, ConnectTime) - 48usize];
     ["Offset of field: _out_eips_detail_info::O2T_RPI"]
-        [::std::mem::offset_of!(_out_eips_detail_info, O2T_RPI) - 56usize];
+        [::std::mem::offset_of!(_out_eips_detail_info, O2T_RPI) - 52usize];
     ["Offset of field: _out_eips_detail_info::T2O_RPI"]
-        [::std::mem::offset_of!(_out_eips_detail_info, T2O_RPI) - 58usize];
+        [::std::mem::offset_of!(_out_eips_detail_info, T2O_RPI) - 54usize];
     ["Offset of field: _out_eips_detail_info::O2T_API"]
-        [::std::mem::offset_of!(_out_eips_detail_info, O2T_API) - 60usize];
+        [::std::mem::offset_of!(_out_eips_detail_info, O2T_API) - 56usize];
     ["Offset of field: _out_eips_detail_info::T2O_API"]
-        [::std::mem::offset_of!(_out_eips_detail_info, T2O_API) - 62usize];
+        [::std::mem::offset_of!(_out_eips_detail_info, T2O_API) - 58usize];
     ["Offset of field: _out_eips_detail_info::RecvPacket"]
-        [::std::mem::offset_of!(_out_eips_detail_info, RecvPacket) - 64usize];
+        [::std::mem::offset_of!(_out_eips_detail_info, RecvPacket) - 60usize];
     ["Offset of field: _out_eips_detail_info::SendPacket"]
-        [::std::mem::offset_of!(_out_eips_detail_info, SendPacket) - 66usize];
+        [::std::mem::offset_of!(_out_eips_detail_info, SendPacket) - 62usize];
     ["Offset of field: _out_eips_detail_info::LostPacket"]
-        [::std::mem::offset_of!(_out_eips_detail_info, LostPacket) - 68usize];
+        [::std::mem::offset_of!(_out_eips_detail_info, LostPacket) - 64usize];
     ["Offset of field: _out_eips_detail_info::pad3"]
-        [::std::mem::offset_of!(_out_eips_detail_info, pad3) - 70usize];
+        [::std::mem::offset_of!(_out_eips_detail_info, pad3) - 66usize];
 };
 impl Default for _out_eips_detail_info {
     fn default() -> Self {
@@ -20900,9 +20896,9 @@ pub struct _out_eips_identity_info {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_eips_identity_info"][::std::mem::size_of::<_out_eips_identity_info>() - 64usize];
+    ["Size of _out_eips_identity_info"][::std::mem::size_of::<_out_eips_identity_info>() - 52usize];
     ["Alignment of _out_eips_identity_info"]
-        [::std::mem::align_of::<_out_eips_identity_info>() - 8usize];
+        [::std::mem::align_of::<_out_eips_identity_info>() - 4usize];
     ["Offset of field: _out_eips_identity_info::Result"]
         [::std::mem::offset_of!(_out_eips_identity_info, Result) - 0usize];
     ["Offset of field: _out_eips_identity_info::pad1"]
@@ -20918,11 +20914,11 @@ const _: () = {
     ["Offset of field: _out_eips_identity_info::MinorRevision"]
         [::std::mem::offset_of!(_out_eips_identity_info, MinorRevision) - 11usize];
     ["Offset of field: _out_eips_identity_info::SerialNo"]
-        [::std::mem::offset_of!(_out_eips_identity_info, SerialNo) - 16usize];
+        [::std::mem::offset_of!(_out_eips_identity_info, SerialNo) - 12usize];
     ["Offset of field: _out_eips_identity_info::ProductName"]
-        [::std::mem::offset_of!(_out_eips_identity_info, ProductName) - 24usize];
+        [::std::mem::offset_of!(_out_eips_identity_info, ProductName) - 16usize];
     ["Offset of field: _out_eips_identity_info::pad2"]
-        [::std::mem::offset_of!(_out_eips_identity_info, pad2) - 57usize];
+        [::std::mem::offset_of!(_out_eips_identity_info, pad2) - 49usize];
 };
 impl Default for _out_eips_identity_info {
     fn default() -> Self {
@@ -20970,8 +20966,8 @@ pub struct _out_adpsafe_mntinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_adpsafe_mntinfo"][::std::mem::size_of::<_out_adpsafe_mntinfo>() - 56usize];
-    ["Alignment of _out_adpsafe_mntinfo"][::std::mem::align_of::<_out_adpsafe_mntinfo>() - 8usize];
+    ["Size of _out_adpsafe_mntinfo"][::std::mem::size_of::<_out_adpsafe_mntinfo>() - 52usize];
+    ["Alignment of _out_adpsafe_mntinfo"][::std::mem::align_of::<_out_adpsafe_mntinfo>() - 4usize];
     ["Offset of field: _out_adpsafe_mntinfo::SupervisorStatus"]
         [::std::mem::offset_of!(_out_adpsafe_mntinfo, SupervisorStatus) - 0usize];
     ["Offset of field: _out_adpsafe_mntinfo::SafetyNetworkNumber"]
@@ -20987,51 +20983,51 @@ const _: () = {
     ["Offset of field: _out_adpsafe_mntinfo::SafetyParameterCrc"]
         [::std::mem::offset_of!(_out_adpsafe_mntinfo, SafetyParameterCrc) - 16usize];
     ["Offset of field: _out_adpsafe_mntinfo::ChangeDateYear"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, ChangeDateYear) - 24usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, ChangeDateYear) - 20usize];
     ["Offset of field: _out_adpsafe_mntinfo::ChangeDateMonth"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, ChangeDateMonth) - 26usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, ChangeDateMonth) - 22usize];
     ["Offset of field: _out_adpsafe_mntinfo::ChangeDateDay"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, ChangeDateDay) - 27usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, ChangeDateDay) - 23usize];
     ["Offset of field: _out_adpsafe_mntinfo::ChangeTimeHours"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, ChangeTimeHours) - 28usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, ChangeTimeHours) - 24usize];
     ["Offset of field: _out_adpsafe_mntinfo::ChangeTimeMinutes"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, ChangeTimeMinutes) - 30usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, ChangeTimeMinutes) - 26usize];
     ["Offset of field: _out_adpsafe_mntinfo::ChangeTimeSeconds"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, ChangeTimeSeconds) - 32usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, ChangeTimeSeconds) - 28usize];
     ["Offset of field: _out_adpsafe_mntinfo::Pad"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, Pad) - 34usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, Pad) - 30usize];
     ["Offset of field: _out_adpsafe_mntinfo::DiConnectionStatusA"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiConnectionStatusA) - 36usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiConnectionStatusA) - 32usize];
     ["Offset of field: _out_adpsafe_mntinfo::DiConnectionStatusB"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiConnectionStatusB) - 37usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiConnectionStatusB) - 33usize];
     ["Offset of field: _out_adpsafe_mntinfo::DoConnectionStatusA"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoConnectionStatusA) - 38usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoConnectionStatusA) - 34usize];
     ["Offset of field: _out_adpsafe_mntinfo::DoConnectionStatusB"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoConnectionStatusB) - 39usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoConnectionStatusB) - 35usize];
     ["Offset of field: _out_adpsafe_mntinfo::DiConnectionDataSizeA"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiConnectionDataSizeA) - 40usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiConnectionDataSizeA) - 36usize];
     ["Offset of field: _out_adpsafe_mntinfo::DiConnectionDataSizeB"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiConnectionDataSizeB) - 41usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiConnectionDataSizeB) - 37usize];
     ["Offset of field: _out_adpsafe_mntinfo::DoConnectionDataSizeA"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoConnectionDataSizeA) - 42usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoConnectionDataSizeA) - 38usize];
     ["Offset of field: _out_adpsafe_mntinfo::DoConnectionDataSizeB"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoConnectionDataSizeB) - 43usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoConnectionDataSizeB) - 39usize];
     ["Offset of field: _out_adpsafe_mntinfo::DiConnectionErrorA"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiConnectionErrorA) - 44usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiConnectionErrorA) - 40usize];
     ["Offset of field: _out_adpsafe_mntinfo::DiConnectionErrorB"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiConnectionErrorB) - 45usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiConnectionErrorB) - 41usize];
     ["Offset of field: _out_adpsafe_mntinfo::DoConnectionErrorA"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoConnectionErrorA) - 46usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoConnectionErrorA) - 42usize];
     ["Offset of field: _out_adpsafe_mntinfo::DoConnectionErrorB"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoConnectionErrorB) - 47usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoConnectionErrorB) - 43usize];
     ["Offset of field: _out_adpsafe_mntinfo::DiRecvPacketNumberA"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiRecvPacketNumberA) - 48usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiRecvPacketNumberA) - 44usize];
     ["Offset of field: _out_adpsafe_mntinfo::DiRecvPacketNumberB"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiRecvPacketNumberB) - 50usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DiRecvPacketNumberB) - 46usize];
     ["Offset of field: _out_adpsafe_mntinfo::DoSendPacketNumberA"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoSendPacketNumberA) - 52usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoSendPacketNumberA) - 48usize];
     ["Offset of field: _out_adpsafe_mntinfo::DoSendPacketNumberB"]
-        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoSendPacketNumberB) - 54usize];
+        [::std::mem::offset_of!(_out_adpsafe_mntinfo, DoSendPacketNumberB) - 50usize];
 };
 pub type OUT_ADPSAFE_MNTINFO = _out_adpsafe_mntinfo;
 #[repr(C)]
@@ -21083,8 +21079,8 @@ pub struct _T_BUS_PARA {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _T_BUS_PARA"][::std::mem::size_of::<_T_BUS_PARA>() - 136usize];
-    ["Alignment of _T_BUS_PARA"][::std::mem::align_of::<_T_BUS_PARA>() - 8usize];
+    ["Size of _T_BUS_PARA"][::std::mem::size_of::<_T_BUS_PARA>() - 128usize];
+    ["Alignment of _T_BUS_PARA"][::std::mem::align_of::<_T_BUS_PARA>() - 4usize];
     ["Offset of field: _T_BUS_PARA::fdl_add"]
         [::std::mem::offset_of!(_T_BUS_PARA, fdl_add) - 0usize];
     ["Offset of field: _T_BUS_PARA::baud_rate"]
@@ -21096,25 +21092,25 @@ const _: () = {
         [::std::mem::offset_of!(_T_BUS_PARA, max_tsdr) - 6usize];
     ["Offset of field: _T_BUS_PARA::tqui"][::std::mem::offset_of!(_T_BUS_PARA, tqui) - 8usize];
     ["Offset of field: _T_BUS_PARA::tset"][::std::mem::offset_of!(_T_BUS_PARA, tset) - 9usize];
-    ["Offset of field: _T_BUS_PARA::ttr"][::std::mem::offset_of!(_T_BUS_PARA, ttr) - 16usize];
-    ["Offset of field: _T_BUS_PARA::g"][::std::mem::offset_of!(_T_BUS_PARA, g) - 24usize];
-    ["Offset of field: _T_BUS_PARA::hsa"][::std::mem::offset_of!(_T_BUS_PARA, hsa) - 25usize];
+    ["Offset of field: _T_BUS_PARA::ttr"][::std::mem::offset_of!(_T_BUS_PARA, ttr) - 12usize];
+    ["Offset of field: _T_BUS_PARA::g"][::std::mem::offset_of!(_T_BUS_PARA, g) - 16usize];
+    ["Offset of field: _T_BUS_PARA::hsa"][::std::mem::offset_of!(_T_BUS_PARA, hsa) - 17usize];
     ["Offset of field: _T_BUS_PARA::max_retry_limit"]
-        [::std::mem::offset_of!(_T_BUS_PARA, max_retry_limit) - 26usize];
+        [::std::mem::offset_of!(_T_BUS_PARA, max_retry_limit) - 18usize];
     ["Offset of field: _T_BUS_PARA::bp_flag"]
-        [::std::mem::offset_of!(_T_BUS_PARA, bp_flag) - 27usize];
+        [::std::mem::offset_of!(_T_BUS_PARA, bp_flag) - 19usize];
     ["Offset of field: _T_BUS_PARA::min_slave_interval"]
-        [::std::mem::offset_of!(_T_BUS_PARA, min_slave_interval) - 28usize];
+        [::std::mem::offset_of!(_T_BUS_PARA, min_slave_interval) - 20usize];
     ["Offset of field: _T_BUS_PARA::poll_timeout"]
-        [::std::mem::offset_of!(_T_BUS_PARA, poll_timeout) - 30usize];
+        [::std::mem::offset_of!(_T_BUS_PARA, poll_timeout) - 22usize];
     ["Offset of field: _T_BUS_PARA::data_control_time"]
-        [::std::mem::offset_of!(_T_BUS_PARA, data_control_time) - 32usize];
+        [::std::mem::offset_of!(_T_BUS_PARA, data_control_time) - 24usize];
     ["Offset of field: _T_BUS_PARA::reserved"]
-        [::std::mem::offset_of!(_T_BUS_PARA, reserved) - 34usize];
+        [::std::mem::offset_of!(_T_BUS_PARA, reserved) - 26usize];
     ["Offset of field: _T_BUS_PARA::master_class2_name"]
-        [::std::mem::offset_of!(_T_BUS_PARA, master_class2_name) - 40usize];
+        [::std::mem::offset_of!(_T_BUS_PARA, master_class2_name) - 32usize];
     ["Offset of field: _T_BUS_PARA::mas_usr"]
-        [::std::mem::offset_of!(_T_BUS_PARA, mas_usr) - 72usize];
+        [::std::mem::offset_of!(_T_BUS_PARA, mas_usr) - 64usize];
 };
 impl Default for _T_BUS_PARA {
     fn default() -> Self {
@@ -21473,7 +21469,7 @@ const _: () = {
     ["Size of _OUT_PBMPRM__bindgen_ty_1"]
         [::std::mem::size_of::<_OUT_PBMPRM__bindgen_ty_1>() - 392usize];
     ["Alignment of _OUT_PBMPRM__bindgen_ty_1"]
-        [::std::mem::align_of::<_OUT_PBMPRM__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<_OUT_PBMPRM__bindgen_ty_1>() - 4usize];
     ["Offset of field: _OUT_PBMPRM__bindgen_ty_1::bus_para"]
         [::std::mem::offset_of!(_OUT_PBMPRM__bindgen_ty_1, bus_para) - 0usize];
     ["Offset of field: _OUT_PBMPRM__bindgen_ty_1::mode_addr_alloc"]
@@ -21501,7 +21497,7 @@ impl Default for _OUT_PBMPRM__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _OUT_PBMPRM"][::std::mem::size_of::<_OUT_PBMPRM>() - 392usize];
-    ["Alignment of _OUT_PBMPRM"][::std::mem::align_of::<_OUT_PBMPRM>() - 8usize];
+    ["Alignment of _OUT_PBMPRM"][::std::mem::align_of::<_OUT_PBMPRM>() - 4usize];
     ["Offset of field: _OUT_PBMPRM::prm"][::std::mem::offset_of!(_OUT_PBMPRM, prm) - 0usize];
 };
 impl Default for _OUT_PBMPRM {
@@ -21895,7 +21891,7 @@ const _: () = {
     ["Size of _IN_PBMPRM__bindgen_ty_1"]
         [::std::mem::size_of::<_IN_PBMPRM__bindgen_ty_1>() - 392usize];
     ["Alignment of _IN_PBMPRM__bindgen_ty_1"]
-        [::std::mem::align_of::<_IN_PBMPRM__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<_IN_PBMPRM__bindgen_ty_1>() - 4usize];
     ["Offset of field: _IN_PBMPRM__bindgen_ty_1::bus_para"]
         [::std::mem::offset_of!(_IN_PBMPRM__bindgen_ty_1, bus_para) - 0usize];
     ["Offset of field: _IN_PBMPRM__bindgen_ty_1::mode_addr_alloc"]
@@ -21923,7 +21919,7 @@ impl Default for _IN_PBMPRM__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of _IN_PBMPRM"][::std::mem::size_of::<_IN_PBMPRM>() - 392usize];
-    ["Alignment of _IN_PBMPRM"][::std::mem::align_of::<_IN_PBMPRM>() - 8usize];
+    ["Alignment of _IN_PBMPRM"][::std::mem::align_of::<_IN_PBMPRM>() - 4usize];
     ["Offset of field: _IN_PBMPRM::prm"][::std::mem::offset_of!(_IN_PBMPRM, prm) - 0usize];
 };
 impl Default for _IN_PBMPRM {
@@ -22654,13 +22650,13 @@ pub struct odbnode {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbnode"][::std::mem::size_of::<odbnode>() - 56usize];
-    ["Alignment of odbnode"][::std::mem::align_of::<odbnode>() - 8usize];
+    ["Size of odbnode"][::std::mem::size_of::<odbnode>() - 36usize];
+    ["Alignment of odbnode"][::std::mem::align_of::<odbnode>() - 4usize];
     ["Offset of field: odbnode::node_no"][::std::mem::offset_of!(odbnode, node_no) - 0usize];
-    ["Offset of field: odbnode::io_base"][::std::mem::offset_of!(odbnode, io_base) - 8usize];
-    ["Offset of field: odbnode::status"][::std::mem::offset_of!(odbnode, status) - 16usize];
-    ["Offset of field: odbnode::cnc_type"][::std::mem::offset_of!(odbnode, cnc_type) - 24usize];
-    ["Offset of field: odbnode::node_name"][::std::mem::offset_of!(odbnode, node_name) - 32usize];
+    ["Offset of field: odbnode::io_base"][::std::mem::offset_of!(odbnode, io_base) - 4usize];
+    ["Offset of field: odbnode::status"][::std::mem::offset_of!(odbnode, status) - 8usize];
+    ["Offset of field: odbnode::cnc_type"][::std::mem::offset_of!(odbnode, cnc_type) - 12usize];
+    ["Offset of field: odbnode::node_name"][::std::mem::offset_of!(odbnode, node_name) - 16usize];
 };
 pub type ODBNODE = odbnode;
 #[repr(C)]
@@ -22671,10 +22667,10 @@ pub struct odbpmmslv {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpmmslv"][::std::mem::size_of::<odbpmmslv>() - 72usize];
-    ["Alignment of odbpmmslv"][::std::mem::align_of::<odbpmmslv>() - 8usize];
+    ["Size of odbpmmslv"][::std::mem::size_of::<odbpmmslv>() - 36usize];
+    ["Alignment of odbpmmslv"][::std::mem::align_of::<odbpmmslv>() - 4usize];
     ["Offset of field: odbpmmslv::slvnum"][::std::mem::offset_of!(odbpmmslv, slvnum) - 0usize];
-    ["Offset of field: odbpmmslv::group"][::std::mem::offset_of!(odbpmmslv, group) - 8usize];
+    ["Offset of field: odbpmmslv::group"][::std::mem::offset_of!(odbpmmslv, group) - 4usize];
 };
 pub type ODBPMMSLV = odbpmmslv;
 #[repr(C)]
@@ -22703,10 +22699,10 @@ pub struct idbpmmgti {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbpmmgti"][::std::mem::size_of::<idbpmmgti>() - 16usize];
-    ["Alignment of idbpmmgti"][::std::mem::align_of::<idbpmmgti>() - 8usize];
+    ["Size of idbpmmgti"][::std::mem::size_of::<idbpmmgti>() - 8usize];
+    ["Alignment of idbpmmgti"][::std::mem::align_of::<idbpmmgti>() - 4usize];
     ["Offset of field: idbpmmgti::top"][::std::mem::offset_of!(idbpmmgti, top) - 0usize];
-    ["Offset of field: idbpmmgti::num"][::std::mem::offset_of!(idbpmmgti, num) - 8usize];
+    ["Offset of field: idbpmmgti::num"][::std::mem::offset_of!(idbpmmgti, num) - 4usize];
 };
 pub type IDBPMMGTI = idbpmmgti;
 #[repr(C)]
@@ -22725,19 +22721,19 @@ pub struct odbpmmget {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpmmget"][::std::mem::size_of::<odbpmmget>() - 552usize];
-    ["Alignment of odbpmmget"][::std::mem::align_of::<odbpmmget>() - 8usize];
+    ["Size of odbpmmget"][::std::mem::size_of::<odbpmmget>() - 376usize];
+    ["Alignment of odbpmmget"][::std::mem::align_of::<odbpmmget>() - 4usize];
     ["Offset of field: odbpmmget::pos"][::std::mem::offset_of!(odbpmmget, pos) - 0usize];
-    ["Offset of field: odbpmmget::feed"][::std::mem::offset_of!(odbpmmget, feed) - 8usize];
-    ["Offset of field: odbpmmget::data"][::std::mem::offset_of!(odbpmmget, data) - 16usize];
-    ["Offset of field: odbpmmget::number"][::std::mem::offset_of!(odbpmmget, number) - 176usize];
-    ["Offset of field: odbpmmget::axis"][::std::mem::offset_of!(odbpmmget, axis) - 336usize];
-    ["Offset of field: odbpmmget::type_"][::std::mem::offset_of!(odbpmmget, type_) - 376usize];
-    ["Offset of field: odbpmmget::alaxis"][::std::mem::offset_of!(odbpmmget, alaxis) - 416usize];
+    ["Offset of field: odbpmmget::feed"][::std::mem::offset_of!(odbpmmget, feed) - 4usize];
+    ["Offset of field: odbpmmget::data"][::std::mem::offset_of!(odbpmmget, data) - 8usize];
+    ["Offset of field: odbpmmget::number"][::std::mem::offset_of!(odbpmmget, number) - 88usize];
+    ["Offset of field: odbpmmget::axis"][::std::mem::offset_of!(odbpmmget, axis) - 168usize];
+    ["Offset of field: odbpmmget::type_"][::std::mem::offset_of!(odbpmmget, type_) - 208usize];
+    ["Offset of field: odbpmmget::alaxis"][::std::mem::offset_of!(odbpmmget, alaxis) - 248usize];
     ["Offset of field: odbpmmget::alnumber"]
-        [::std::mem::offset_of!(odbpmmget, alnumber) - 456usize];
-    ["Offset of field: odbpmmget::chanl"][::std::mem::offset_of!(odbpmmget, chanl) - 536usize];
-    ["Offset of field: odbpmmget::group"][::std::mem::offset_of!(odbpmmget, group) - 544usize];
+        [::std::mem::offset_of!(odbpmmget, alnumber) - 288usize];
+    ["Offset of field: odbpmmget::chanl"][::std::mem::offset_of!(odbpmmget, chanl) - 368usize];
+    ["Offset of field: odbpmmget::group"][::std::mem::offset_of!(odbpmmget, group) - 372usize];
 };
 impl Default for odbpmmget {
     fn default() -> Self {
@@ -22759,12 +22755,12 @@ pub struct odbpmmprp {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpmmprp"][::std::mem::size_of::<odbpmmprp>() - 16usize];
-    ["Alignment of odbpmmprp"][::std::mem::align_of::<odbpmmprp>() - 8usize];
+    ["Size of odbpmmprp"][::std::mem::size_of::<odbpmmprp>() - 8usize];
+    ["Alignment of odbpmmprp"][::std::mem::align_of::<odbpmmprp>() - 4usize];
     ["Offset of field: odbpmmprp::data"][::std::mem::offset_of!(odbpmmprp, data) - 0usize];
-    ["Offset of field: odbpmmprp::number"][::std::mem::offset_of!(odbpmmprp, number) - 8usize];
-    ["Offset of field: odbpmmprp::axis"][::std::mem::offset_of!(odbpmmprp, axis) - 10usize];
-    ["Offset of field: odbpmmprp::type_"][::std::mem::offset_of!(odbpmmprp, type_) - 11usize];
+    ["Offset of field: odbpmmprp::number"][::std::mem::offset_of!(odbpmmprp, number) - 4usize];
+    ["Offset of field: odbpmmprp::axis"][::std::mem::offset_of!(odbpmmprp, axis) - 6usize];
+    ["Offset of field: odbpmmprp::type_"][::std::mem::offset_of!(odbpmmprp, type_) - 7usize];
 };
 pub type ODBPMMPRP = odbpmmprp;
 #[repr(C)]
@@ -22777,12 +22773,12 @@ pub struct idbpmmprp {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbpmmprp"][::std::mem::size_of::<idbpmmprp>() - 160usize];
-    ["Alignment of idbpmmprp"][::std::mem::align_of::<idbpmmprp>() - 8usize];
+    ["Size of idbpmmprp"][::std::mem::size_of::<idbpmmprp>() - 144usize];
+    ["Alignment of idbpmmprp"][::std::mem::align_of::<idbpmmprp>() - 4usize];
     ["Offset of field: idbpmmprp::chanl"][::std::mem::offset_of!(idbpmmprp, chanl) - 0usize];
-    ["Offset of field: idbpmmprp::group"][::std::mem::offset_of!(idbpmmprp, group) - 8usize];
-    ["Offset of field: idbpmmprp::folder"][::std::mem::offset_of!(idbpmmprp, folder) - 16usize];
-    ["Offset of field: idbpmmprp::warn"][::std::mem::offset_of!(idbpmmprp, warn) - 152usize];
+    ["Offset of field: idbpmmprp::group"][::std::mem::offset_of!(idbpmmprp, group) - 4usize];
+    ["Offset of field: idbpmmprp::folder"][::std::mem::offset_of!(idbpmmprp, folder) - 8usize];
+    ["Offset of field: idbpmmprp::warn"][::std::mem::offset_of!(idbpmmprp, warn) - 140usize];
 };
 impl Default for idbpmmprp {
     fn default() -> Self {
@@ -22801,8 +22797,8 @@ pub struct odbpmmio {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpmmio"][::std::mem::size_of::<odbpmmio>() - 8usize];
-    ["Alignment of odbpmmio"][::std::mem::align_of::<odbpmmio>() - 8usize];
+    ["Size of odbpmmio"][::std::mem::size_of::<odbpmmio>() - 4usize];
+    ["Alignment of odbpmmio"][::std::mem::align_of::<odbpmmio>() - 4usize];
     ["Offset of field: odbpmmio::chanlnum"][::std::mem::offset_of!(odbpmmio, chanlnum) - 0usize];
 };
 pub type ODBPMMIO = odbpmmio;
@@ -22816,12 +22812,12 @@ pub struct iodbrtmio {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbrtmio"][::std::mem::size_of::<iodbrtmio>() - 24usize];
-    ["Alignment of iodbrtmio"][::std::mem::align_of::<iodbrtmio>() - 8usize];
+    ["Size of iodbrtmio"][::std::mem::size_of::<iodbrtmio>() - 12usize];
+    ["Alignment of iodbrtmio"][::std::mem::align_of::<iodbrtmio>() - 4usize];
     ["Offset of field: iodbrtmio::adr_type"][::std::mem::offset_of!(iodbrtmio, adr_type) - 0usize];
     ["Offset of field: iodbrtmio::dummy"][::std::mem::offset_of!(iodbrtmio, dummy) - 2usize];
-    ["Offset of field: iodbrtmio::no"][::std::mem::offset_of!(iodbrtmio, no) - 8usize];
-    ["Offset of field: iodbrtmio::bit"][::std::mem::offset_of!(iodbrtmio, bit) - 16usize];
+    ["Offset of field: iodbrtmio::no"][::std::mem::offset_of!(iodbrtmio, no) - 4usize];
+    ["Offset of field: iodbrtmio::bit"][::std::mem::offset_of!(iodbrtmio, bit) - 8usize];
 };
 pub type IODBRTMIO = iodbrtmio;
 #[repr(C)]
@@ -22834,14 +22830,14 @@ pub struct iodbrtmior {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbrtmior"][::std::mem::size_of::<iodbrtmior>() - 32usize];
-    ["Alignment of iodbrtmior"][::std::mem::align_of::<iodbrtmior>() - 8usize];
+    ["Size of iodbrtmior"][::std::mem::size_of::<iodbrtmior>() - 16usize];
+    ["Alignment of iodbrtmior"][::std::mem::align_of::<iodbrtmior>() - 4usize];
     ["Offset of field: iodbrtmior::adr_type"]
         [::std::mem::offset_of!(iodbrtmior, adr_type) - 0usize];
     ["Offset of field: iodbrtmior::adr_attr"]
-        [::std::mem::offset_of!(iodbrtmior, adr_attr) - 8usize];
-    ["Offset of field: iodbrtmior::sno"][::std::mem::offset_of!(iodbrtmior, sno) - 16usize];
-    ["Offset of field: iodbrtmior::eno"][::std::mem::offset_of!(iodbrtmior, eno) - 24usize];
+        [::std::mem::offset_of!(iodbrtmior, adr_attr) - 4usize];
+    ["Offset of field: iodbrtmior::sno"][::std::mem::offset_of!(iodbrtmior, sno) - 8usize];
+    ["Offset of field: iodbrtmior::eno"][::std::mem::offset_of!(iodbrtmior, eno) - 12usize];
 };
 pub type IODBRTMIOR = iodbrtmior;
 #[repr(C)]
@@ -22871,11 +22867,11 @@ pub struct iodbaxis {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbaxis"][::std::mem::size_of::<iodbaxis>() - 520usize];
-    ["Alignment of iodbaxis"][::std::mem::align_of::<iodbaxis>() - 8usize];
+    ["Size of iodbaxis"][::std::mem::size_of::<iodbaxis>() - 260usize];
+    ["Alignment of iodbaxis"][::std::mem::align_of::<iodbaxis>() - 4usize];
     ["Offset of field: iodbaxis::axnum"][::std::mem::offset_of!(iodbaxis, axnum) - 0usize];
-    ["Offset of field: iodbaxis::data"][::std::mem::offset_of!(iodbaxis, data) - 8usize];
-    ["Offset of field: iodbaxis::dp"][::std::mem::offset_of!(iodbaxis, dp) - 264usize];
+    ["Offset of field: iodbaxis::data"][::std::mem::offset_of!(iodbaxis, data) - 4usize];
+    ["Offset of field: iodbaxis::dp"][::std::mem::offset_of!(iodbaxis, dp) - 132usize];
 };
 pub type IODBAXIS = iodbaxis;
 #[repr(C)]
@@ -22886,10 +22882,10 @@ pub struct realmes {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of realmes"][::std::mem::size_of::<realmes>() - 16usize];
-    ["Alignment of realmes"][::std::mem::align_of::<realmes>() - 8usize];
+    ["Size of realmes"][::std::mem::size_of::<realmes>() - 8usize];
+    ["Alignment of realmes"][::std::mem::align_of::<realmes>() - 4usize];
     ["Offset of field: realmes::mes_val"][::std::mem::offset_of!(realmes, mes_val) - 0usize];
-    ["Offset of field: realmes::dec_val"][::std::mem::offset_of!(realmes, dec_val) - 8usize];
+    ["Offset of field: realmes::dec_val"][::std::mem::offset_of!(realmes, dec_val) - 4usize];
 };
 pub type REALMES = realmes;
 #[repr(C)]
@@ -23026,22 +23022,22 @@ pub struct dcsmcc__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of dcsmcc__bindgen_ty_1"][::std::mem::size_of::<dcsmcc__bindgen_ty_1>() - 24usize];
-    ["Alignment of dcsmcc__bindgen_ty_1"][::std::mem::align_of::<dcsmcc__bindgen_ty_1>() - 8usize];
+    ["Size of dcsmcc__bindgen_ty_1"][::std::mem::size_of::<dcsmcc__bindgen_ty_1>() - 12usize];
+    ["Alignment of dcsmcc__bindgen_ty_1"][::std::mem::align_of::<dcsmcc__bindgen_ty_1>() - 4usize];
     ["Offset of field: dcsmcc__bindgen_ty_1::hour"]
         [::std::mem::offset_of!(dcsmcc__bindgen_ty_1, hour) - 0usize];
     ["Offset of field: dcsmcc__bindgen_ty_1::minute"]
-        [::std::mem::offset_of!(dcsmcc__bindgen_ty_1, minute) - 8usize];
+        [::std::mem::offset_of!(dcsmcc__bindgen_ty_1, minute) - 4usize];
     ["Offset of field: dcsmcc__bindgen_ty_1::second"]
-        [::std::mem::offset_of!(dcsmcc__bindgen_ty_1, second) - 16usize];
+        [::std::mem::offset_of!(dcsmcc__bindgen_ty_1, second) - 8usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of dcsmcc"][::std::mem::size_of::<dcsmcc>() - 40usize];
-    ["Alignment of dcsmcc"][::std::mem::align_of::<dcsmcc>() - 8usize];
+    ["Size of dcsmcc"][::std::mem::size_of::<dcsmcc>() - 20usize];
+    ["Alignment of dcsmcc"][::std::mem::align_of::<dcsmcc>() - 4usize];
     ["Offset of field: dcsmcc::time"][::std::mem::offset_of!(dcsmcc, time) - 0usize];
-    ["Offset of field: dcsmcc::testno"][::std::mem::offset_of!(dcsmcc, testno) - 24usize];
-    ["Offset of field: dcsmcc::sign"][::std::mem::offset_of!(dcsmcc, sign) - 32usize];
+    ["Offset of field: dcsmcc::testno"][::std::mem::offset_of!(dcsmcc, testno) - 12usize];
+    ["Offset of field: dcsmcc::sign"][::std::mem::offset_of!(dcsmcc, sign) - 16usize];
 };
 pub type DCSMCC = dcsmcc;
 #[repr(C)]
@@ -23052,11 +23048,11 @@ pub struct dcsmca {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of dcsmca"][::std::mem::size_of::<dcsmca>() - 16usize];
-    ["Alignment of dcsmca"][::std::mem::align_of::<dcsmca>() - 8usize];
+    ["Size of dcsmca"][::std::mem::size_of::<dcsmca>() - 8usize];
+    ["Alignment of dcsmca"][::std::mem::align_of::<dcsmca>() - 4usize];
     ["Offset of field: dcsmca::mgrp_no"][::std::mem::offset_of!(dcsmca, mgrp_no) - 0usize];
     ["Offset of field: dcsmca::mcc_test_inf"]
-        [::std::mem::offset_of!(dcsmca, mcc_test_inf) - 8usize];
+        [::std::mem::offset_of!(dcsmca, mcc_test_inf) - 4usize];
 };
 impl Default for dcsmca {
     fn default() -> Self {
@@ -23076,10 +23072,10 @@ pub struct dcsfmoni {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of dcsfmoni"][::std::mem::size_of::<dcsfmoni>() - 16usize];
-    ["Alignment of dcsfmoni"][::std::mem::align_of::<dcsfmoni>() - 8usize];
+    ["Size of dcsfmoni"][::std::mem::size_of::<dcsfmoni>() - 8usize];
+    ["Alignment of dcsfmoni"][::std::mem::align_of::<dcsfmoni>() - 4usize];
     ["Offset of field: dcsfmoni::data_d"][::std::mem::offset_of!(dcsfmoni, data_d) - 0usize];
-    ["Offset of field: dcsfmoni::data_p"][::std::mem::offset_of!(dcsfmoni, data_p) - 8usize];
+    ["Offset of field: dcsfmoni::data_p"][::std::mem::offset_of!(dcsfmoni, data_p) - 4usize];
 };
 pub type ODBDCSFMONI = dcsfmoni;
 #[repr(C)]
@@ -23100,18 +23096,17 @@ pub struct dcscrsalm__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of dcscrsalm__bindgen_ty_1"]
-        [::std::mem::size_of::<dcscrsalm__bindgen_ty_1>() - 144usize];
+    ["Size of dcscrsalm__bindgen_ty_1"][::std::mem::size_of::<dcscrsalm__bindgen_ty_1>() - 80usize];
     ["Alignment of dcscrsalm__bindgen_ty_1"]
-        [::std::mem::align_of::<dcscrsalm__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<dcscrsalm__bindgen_ty_1>() - 4usize];
     ["Offset of field: dcscrsalm__bindgen_ty_1::pmc_adr"]
         [::std::mem::offset_of!(dcscrsalm__bindgen_ty_1, pmc_adr) - 0usize];
     ["Offset of field: dcscrsalm__bindgen_ty_1::pmc_data"]
         [::std::mem::offset_of!(dcscrsalm__bindgen_ty_1, pmc_data) - 8usize];
     ["Offset of field: dcscrsalm__bindgen_ty_1::dcs_adr"]
-        [::std::mem::offset_of!(dcscrsalm__bindgen_ty_1, dcs_adr) - 72usize];
+        [::std::mem::offset_of!(dcscrsalm__bindgen_ty_1, dcs_adr) - 40usize];
     ["Offset of field: dcscrsalm__bindgen_ty_1::dcs_data"]
-        [::std::mem::offset_of!(dcscrsalm__bindgen_ty_1, dcs_data) - 80usize];
+        [::std::mem::offset_of!(dcscrsalm__bindgen_ty_1, dcs_data) - 48usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -23123,28 +23118,27 @@ pub struct dcscrsalm__bindgen_ty_2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of dcscrsalm__bindgen_ty_2"]
-        [::std::mem::size_of::<dcscrsalm__bindgen_ty_2>() - 144usize];
+    ["Size of dcscrsalm__bindgen_ty_2"][::std::mem::size_of::<dcscrsalm__bindgen_ty_2>() - 80usize];
     ["Alignment of dcscrsalm__bindgen_ty_2"]
-        [::std::mem::align_of::<dcscrsalm__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<dcscrsalm__bindgen_ty_2>() - 4usize];
     ["Offset of field: dcscrsalm__bindgen_ty_2::pmc_adr"]
         [::std::mem::offset_of!(dcscrsalm__bindgen_ty_2, pmc_adr) - 0usize];
     ["Offset of field: dcscrsalm__bindgen_ty_2::pmc_data"]
         [::std::mem::offset_of!(dcscrsalm__bindgen_ty_2, pmc_data) - 8usize];
     ["Offset of field: dcscrsalm__bindgen_ty_2::dcs_adr"]
-        [::std::mem::offset_of!(dcscrsalm__bindgen_ty_2, dcs_adr) - 72usize];
+        [::std::mem::offset_of!(dcscrsalm__bindgen_ty_2, dcs_adr) - 40usize];
     ["Offset of field: dcscrsalm__bindgen_ty_2::dcs_data"]
-        [::std::mem::offset_of!(dcscrsalm__bindgen_ty_2, dcs_data) - 80usize];
+        [::std::mem::offset_of!(dcscrsalm__bindgen_ty_2, dcs_data) - 48usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of dcscrsalm"][::std::mem::size_of::<dcscrsalm>() - 304usize];
-    ["Alignment of dcscrsalm"][::std::mem::align_of::<dcscrsalm>() - 8usize];
+    ["Size of dcscrsalm"][::std::mem::size_of::<dcscrsalm>() - 168usize];
+    ["Alignment of dcscrsalm"][::std::mem::align_of::<dcscrsalm>() - 4usize];
     ["Offset of field: dcscrsalm::existFlag"]
         [::std::mem::offset_of!(dcscrsalm, existFlag) - 0usize];
-    ["Offset of field: dcscrsalm::pmc_no"][::std::mem::offset_of!(dcscrsalm, pmc_no) - 8usize];
-    ["Offset of field: dcscrsalm::pmc"][::std::mem::offset_of!(dcscrsalm, pmc) - 16usize];
-    ["Offset of field: dcscrsalm::dcspmc"][::std::mem::offset_of!(dcscrsalm, dcspmc) - 160usize];
+    ["Offset of field: dcscrsalm::pmc_no"][::std::mem::offset_of!(dcscrsalm, pmc_no) - 4usize];
+    ["Offset of field: dcscrsalm::pmc"][::std::mem::offset_of!(dcscrsalm, pmc) - 8usize];
+    ["Offset of field: dcscrsalm::dcspmc"][::std::mem::offset_of!(dcscrsalm, dcspmc) - 88usize];
 };
 pub type DCSCRSALM = dcscrsalm;
 #[repr(C)]
@@ -23157,13 +23151,13 @@ pub struct dcssvspsts {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of dcssvspsts"][::std::mem::size_of::<dcssvspsts>() - 32usize];
-    ["Alignment of dcssvspsts"][::std::mem::align_of::<dcssvspsts>() - 8usize];
+    ["Size of dcssvspsts"][::std::mem::size_of::<dcssvspsts>() - 24usize];
+    ["Alignment of dcssvspsts"][::std::mem::align_of::<dcssvspsts>() - 4usize];
     ["Offset of field: dcssvspsts::name"][::std::mem::offset_of!(dcssvspsts, name) - 0usize];
-    ["Offset of field: dcssvspsts::dummy"][::std::mem::offset_of!(dcssvspsts, dummy) - 8usize];
-    ["Offset of field: dcssvspsts::ncdata"][::std::mem::offset_of!(dcssvspsts, ncdata) - 16usize];
+    ["Offset of field: dcssvspsts::dummy"][::std::mem::offset_of!(dcssvspsts, dummy) - 4usize];
+    ["Offset of field: dcssvspsts::ncdata"][::std::mem::offset_of!(dcssvspsts, ncdata) - 8usize];
     ["Offset of field: dcssvspsts::svspdata"]
-        [::std::mem::offset_of!(dcssvspsts, svspdata) - 24usize];
+        [::std::mem::offset_of!(dcssvspsts, svspdata) - 16usize];
 };
 pub type DCSSVSPSTS = dcssvspsts;
 #[repr(C)]
@@ -23181,7 +23175,7 @@ pub struct dcssvspst2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of dcssvspst2"][::std::mem::size_of::<dcssvspst2>() - 24usize];
-    ["Alignment of dcssvspst2"][::std::mem::align_of::<dcssvspst2>() - 8usize];
+    ["Alignment of dcssvspst2"][::std::mem::align_of::<dcssvspst2>() - 4usize];
     ["Offset of field: dcssvspst2::limit_dt_p"]
         [::std::mem::offset_of!(dcssvspst2, limit_dt_p) - 0usize];
     ["Offset of field: dcssvspst2::limit_dt_m"]
@@ -24155,8 +24149,8 @@ pub struct _dnsidentityinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _dnsidentityinfo"][::std::mem::size_of::<_dnsidentityinfo>() - 56usize];
-    ["Alignment of _dnsidentityinfo"][::std::mem::align_of::<_dnsidentityinfo>() - 8usize];
+    ["Size of _dnsidentityinfo"][::std::mem::size_of::<_dnsidentityinfo>() - 48usize];
+    ["Alignment of _dnsidentityinfo"][::std::mem::align_of::<_dnsidentityinfo>() - 4usize];
     ["Offset of field: _dnsidentityinfo::VenderID"]
         [::std::mem::offset_of!(_dnsidentityinfo, VenderID) - 0usize];
     ["Offset of field: _dnsidentityinfo::DeviceType"]
@@ -24170,9 +24164,9 @@ const _: () = {
     ["Offset of field: _dnsidentityinfo::SerialNo"]
         [::std::mem::offset_of!(_dnsidentityinfo, SerialNo) - 8usize];
     ["Offset of field: _dnsidentityinfo::ProductName"]
-        [::std::mem::offset_of!(_dnsidentityinfo, ProductName) - 16usize];
+        [::std::mem::offset_of!(_dnsidentityinfo, ProductName) - 12usize];
     ["Offset of field: _dnsidentityinfo::pad"]
-        [::std::mem::offset_of!(_dnsidentityinfo, pad) - 48usize];
+        [::std::mem::offset_of!(_dnsidentityinfo, pad) - 44usize];
 };
 pub type DNS_IDENTITY_INFO = _dnsidentityinfo;
 #[repr(C)]
@@ -24210,12 +24204,12 @@ pub struct _out_dnsmonitor {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_dnsmonitor"][::std::mem::size_of::<_out_dnsmonitor>() - 64usize];
-    ["Alignment of _out_dnsmonitor"][::std::mem::align_of::<_out_dnsmonitor>() - 8usize];
+    ["Size of _out_dnsmonitor"][::std::mem::size_of::<_out_dnsmonitor>() - 56usize];
+    ["Alignment of _out_dnsmonitor"][::std::mem::align_of::<_out_dnsmonitor>() - 4usize];
     ["Offset of field: _out_dnsmonitor::IdentityInfo"]
         [::std::mem::offset_of!(_out_dnsmonitor, IdentityInfo) - 0usize];
     ["Offset of field: _out_dnsmonitor::StatusInfo"]
-        [::std::mem::offset_of!(_out_dnsmonitor, StatusInfo) - 56usize];
+        [::std::mem::offset_of!(_out_dnsmonitor, StatusInfo) - 48usize];
 };
 pub type OUT_DNSINFO = _out_dnsmonitor;
 #[repr(C)]
@@ -24620,14 +24614,14 @@ pub struct _out_flntentry {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_flntentry"][::std::mem::size_of::<_out_flntentry>() - 72usize];
-    ["Alignment of _out_flntentry"][::std::mem::align_of::<_out_flntentry>() - 8usize];
+    ["Size of _out_flntentry"][::std::mem::size_of::<_out_flntentry>() - 36usize];
+    ["Alignment of _out_flntentry"][::std::mem::align_of::<_out_flntentry>() - 4usize];
     ["Offset of field: _out_flntentry::Node"]
         [::std::mem::offset_of!(_out_flntentry, Node) - 0usize];
     ["Offset of field: _out_flntentry::Reserved"]
         [::std::mem::offset_of!(_out_flntentry, Reserved) - 1usize];
     ["Offset of field: _out_flntentry::EntryNode"]
-        [::std::mem::offset_of!(_out_flntentry, EntryNode) - 8usize];
+        [::std::mem::offset_of!(_out_flntentry, EntryNode) - 4usize];
 };
 pub type OUT_FLNTENTRY = _out_flntentry;
 #[repr(C)]
@@ -24730,41 +24724,40 @@ pub struct _out_flntlog {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_flntlog"][::std::mem::size_of::<_out_flntlog>() - 136usize];
-    ["Alignment of _out_flntlog"][::std::mem::align_of::<_out_flntlog>() - 8usize];
+    ["Size of _out_flntlog"][::std::mem::size_of::<_out_flntlog>() - 68usize];
+    ["Alignment of _out_flntlog"][::std::mem::align_of::<_out_flntlog>() - 4usize];
     ["Offset of field: _out_flntlog::TotalSend"]
         [::std::mem::offset_of!(_out_flntlog, TotalSend) - 0usize];
     ["Offset of field: _out_flntlog::SendErr"]
-        [::std::mem::offset_of!(_out_flntlog, SendErr) - 8usize];
+        [::std::mem::offset_of!(_out_flntlog, SendErr) - 4usize];
     ["Offset of field: _out_flntlog::TotalRecv"]
-        [::std::mem::offset_of!(_out_flntlog, TotalRecv) - 16usize];
+        [::std::mem::offset_of!(_out_flntlog, TotalRecv) - 8usize];
     ["Offset of field: _out_flntlog::RecvErr"]
-        [::std::mem::offset_of!(_out_flntlog, RecvErr) - 24usize];
+        [::std::mem::offset_of!(_out_flntlog, RecvErr) - 12usize];
     ["Offset of field: _out_flntlog::CycErr"]
-        [::std::mem::offset_of!(_out_flntlog, CycErr) - 32usize];
+        [::std::mem::offset_of!(_out_flntlog, CycErr) - 16usize];
     ["Offset of field: _out_flntlog::MsgRetry"]
-        [::std::mem::offset_of!(_out_flntlog, MsgRetry) - 40usize];
+        [::std::mem::offset_of!(_out_flntlog, MsgRetry) - 20usize];
     ["Offset of field: _out_flntlog::MsgRetryOver"]
-        [::std::mem::offset_of!(_out_flntlog, MsgRetryOver) - 48usize];
+        [::std::mem::offset_of!(_out_flntlog, MsgRetryOver) - 24usize];
     ["Offset of field: _out_flntlog::RecvMsgErr"]
-        [::std::mem::offset_of!(_out_flntlog, RecvMsgErr) - 56usize];
+        [::std::mem::offset_of!(_out_flntlog, RecvMsgErr) - 28usize];
     ["Offset of field: _out_flntlog::AckErr"]
-        [::std::mem::offset_of!(_out_flntlog, AckErr) - 64usize];
+        [::std::mem::offset_of!(_out_flntlog, AckErr) - 32usize];
     ["Offset of field: _out_flntlog::DuplicatedToken"]
-        [::std::mem::offset_of!(_out_flntlog, DuplicatedToken) - 72usize];
+        [::std::mem::offset_of!(_out_flntlog, DuplicatedToken) - 36usize];
     ["Offset of field: _out_flntlog::DestroyedToken"]
-        [::std::mem::offset_of!(_out_flntlog, DestroyedToken) - 80usize];
+        [::std::mem::offset_of!(_out_flntlog, DestroyedToken) - 40usize];
     ["Offset of field: _out_flntlog::ReissueToken"]
-        [::std::mem::offset_of!(_out_flntlog, ReissueToken) - 88usize];
+        [::std::mem::offset_of!(_out_flntlog, ReissueToken) - 44usize];
     ["Offset of field: _out_flntlog::FrameWait"]
-        [::std::mem::offset_of!(_out_flntlog, FrameWait) - 96usize];
-    ["Offset of field: _out_flntlog::Entry"]
-        [::std::mem::offset_of!(_out_flntlog, Entry) - 104usize];
+        [::std::mem::offset_of!(_out_flntlog, FrameWait) - 48usize];
+    ["Offset of field: _out_flntlog::Entry"][::std::mem::offset_of!(_out_flntlog, Entry) - 52usize];
     ["Offset of field: _out_flntlog::OutRing"]
-        [::std::mem::offset_of!(_out_flntlog, OutRing) - 112usize];
-    ["Offset of field: _out_flntlog::Skip"][::std::mem::offset_of!(_out_flntlog, Skip) - 120usize];
+        [::std::mem::offset_of!(_out_flntlog, OutRing) - 56usize];
+    ["Offset of field: _out_flntlog::Skip"][::std::mem::offset_of!(_out_flntlog, Skip) - 60usize];
     ["Offset of field: _out_flntlog::Disconnect"]
-        [::std::mem::offset_of!(_out_flntlog, Disconnect) - 128usize];
+        [::std::mem::offset_of!(_out_flntlog, Disconnect) - 64usize];
 };
 pub type OUT_FLNTLOG = _out_flntlog;
 #[repr(C)]
@@ -24792,46 +24785,45 @@ pub struct _out_flntlog2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_flntlog2"][::std::mem::size_of::<_out_flntlog2>() - 144usize];
-    ["Alignment of _out_flntlog2"][::std::mem::align_of::<_out_flntlog2>() - 8usize];
+    ["Size of _out_flntlog2"][::std::mem::size_of::<_out_flntlog2>() - 72usize];
+    ["Alignment of _out_flntlog2"][::std::mem::align_of::<_out_flntlog2>() - 4usize];
     ["Offset of field: _out_flntlog2::TotalSend"]
         [::std::mem::offset_of!(_out_flntlog2, TotalSend) - 0usize];
     ["Offset of field: _out_flntlog2::SendErr"]
-        [::std::mem::offset_of!(_out_flntlog2, SendErr) - 8usize];
+        [::std::mem::offset_of!(_out_flntlog2, SendErr) - 4usize];
     ["Offset of field: _out_flntlog2::TotalRecv"]
-        [::std::mem::offset_of!(_out_flntlog2, TotalRecv) - 16usize];
+        [::std::mem::offset_of!(_out_flntlog2, TotalRecv) - 8usize];
     ["Offset of field: _out_flntlog2::RecvErr"]
-        [::std::mem::offset_of!(_out_flntlog2, RecvErr) - 24usize];
+        [::std::mem::offset_of!(_out_flntlog2, RecvErr) - 12usize];
     ["Offset of field: _out_flntlog2::CycErr"]
-        [::std::mem::offset_of!(_out_flntlog2, CycErr) - 32usize];
+        [::std::mem::offset_of!(_out_flntlog2, CycErr) - 16usize];
     ["Offset of field: _out_flntlog2::MsgRetry"]
-        [::std::mem::offset_of!(_out_flntlog2, MsgRetry) - 40usize];
+        [::std::mem::offset_of!(_out_flntlog2, MsgRetry) - 20usize];
     ["Offset of field: _out_flntlog2::MsgRetryOver"]
-        [::std::mem::offset_of!(_out_flntlog2, MsgRetryOver) - 48usize];
+        [::std::mem::offset_of!(_out_flntlog2, MsgRetryOver) - 24usize];
     ["Offset of field: _out_flntlog2::RecvMsgErr"]
-        [::std::mem::offset_of!(_out_flntlog2, RecvMsgErr) - 56usize];
+        [::std::mem::offset_of!(_out_flntlog2, RecvMsgErr) - 28usize];
     ["Offset of field: _out_flntlog2::AckErr"]
-        [::std::mem::offset_of!(_out_flntlog2, AckErr) - 64usize];
+        [::std::mem::offset_of!(_out_flntlog2, AckErr) - 32usize];
     ["Offset of field: _out_flntlog2::DuplicatedToken"]
-        [::std::mem::offset_of!(_out_flntlog2, DuplicatedToken) - 72usize];
+        [::std::mem::offset_of!(_out_flntlog2, DuplicatedToken) - 36usize];
     ["Offset of field: _out_flntlog2::DestroyedToken"]
-        [::std::mem::offset_of!(_out_flntlog2, DestroyedToken) - 80usize];
+        [::std::mem::offset_of!(_out_flntlog2, DestroyedToken) - 40usize];
     ["Offset of field: _out_flntlog2::ReissueToken"]
-        [::std::mem::offset_of!(_out_flntlog2, ReissueToken) - 88usize];
+        [::std::mem::offset_of!(_out_flntlog2, ReissueToken) - 44usize];
     ["Offset of field: _out_flntlog2::FrameWait"]
-        [::std::mem::offset_of!(_out_flntlog2, FrameWait) - 96usize];
+        [::std::mem::offset_of!(_out_flntlog2, FrameWait) - 48usize];
     ["Offset of field: _out_flntlog2::Entry"]
-        [::std::mem::offset_of!(_out_flntlog2, Entry) - 104usize];
+        [::std::mem::offset_of!(_out_flntlog2, Entry) - 52usize];
     ["Offset of field: _out_flntlog2::OutRing"]
-        [::std::mem::offset_of!(_out_flntlog2, OutRing) - 112usize];
-    ["Offset of field: _out_flntlog2::Skip"]
-        [::std::mem::offset_of!(_out_flntlog2, Skip) - 120usize];
+        [::std::mem::offset_of!(_out_flntlog2, OutRing) - 56usize];
+    ["Offset of field: _out_flntlog2::Skip"][::std::mem::offset_of!(_out_flntlog2, Skip) - 60usize];
     ["Offset of field: _out_flntlog2::Disconnect"]
-        [::std::mem::offset_of!(_out_flntlog2, Disconnect) - 128usize];
+        [::std::mem::offset_of!(_out_flntlog2, Disconnect) - 64usize];
     ["Offset of field: _out_flntlog2::Baudrate"]
-        [::std::mem::offset_of!(_out_flntlog2, Baudrate) - 136usize];
+        [::std::mem::offset_of!(_out_flntlog2, Baudrate) - 68usize];
     ["Offset of field: _out_flntlog2::Reserved"]
-        [::std::mem::offset_of!(_out_flntlog2, Reserved) - 138usize];
+        [::std::mem::offset_of!(_out_flntlog2, Reserved) - 70usize];
 };
 pub type OUT_FLNTLOG2 = _out_flntlog2;
 #[repr(C)]
@@ -24897,18 +24889,18 @@ pub struct _out_flntdevinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_flntdevinfo"][::std::mem::size_of::<_out_flntdevinfo>() - 32usize];
-    ["Alignment of _out_flntdevinfo"][::std::mem::align_of::<_out_flntdevinfo>() - 8usize];
+    ["Size of _out_flntdevinfo"][::std::mem::size_of::<_out_flntdevinfo>() - 16usize];
+    ["Alignment of _out_flntdevinfo"][::std::mem::align_of::<_out_flntdevinfo>() - 4usize];
     ["Offset of field: _out_flntdevinfo::Kind"]
         [::std::mem::offset_of!(_out_flntdevinfo, Kind) - 0usize];
     ["Offset of field: _out_flntdevinfo::dummy"]
         [::std::mem::offset_of!(_out_flntdevinfo, dummy) - 2usize];
     ["Offset of field: _out_flntdevinfo::FunctionFLnetBoard"]
-        [::std::mem::offset_of!(_out_flntdevinfo, FunctionFLnetBoard) - 8usize];
+        [::std::mem::offset_of!(_out_flntdevinfo, FunctionFLnetBoard) - 4usize];
     ["Offset of field: _out_flntdevinfo::FunctionFLnetEmb"]
-        [::std::mem::offset_of!(_out_flntdevinfo, FunctionFLnetEmb) - 16usize];
+        [::std::mem::offset_of!(_out_flntdevinfo, FunctionFLnetEmb) - 8usize];
     ["Offset of field: _out_flntdevinfo::FunctionFLnetCard"]
-        [::std::mem::offset_of!(_out_flntdevinfo, FunctionFLnetCard) - 24usize];
+        [::std::mem::offset_of!(_out_flntdevinfo, FunctionFLnetCard) - 12usize];
 };
 pub type OUT_FLNTDEVINFO = _out_flntdevinfo;
 #[repr(C)]
@@ -24920,14 +24912,14 @@ pub struct _out_flntdevinfo2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_flntdevinfo2"][::std::mem::size_of::<_out_flntdevinfo2>() - 16usize];
-    ["Alignment of _out_flntdevinfo2"][::std::mem::align_of::<_out_flntdevinfo2>() - 8usize];
+    ["Size of _out_flntdevinfo2"][::std::mem::size_of::<_out_flntdevinfo2>() - 8usize];
+    ["Alignment of _out_flntdevinfo2"][::std::mem::align_of::<_out_flntdevinfo2>() - 4usize];
     ["Offset of field: _out_flntdevinfo2::Kind"]
         [::std::mem::offset_of!(_out_flntdevinfo2, Kind) - 0usize];
     ["Offset of field: _out_flntdevinfo2::Pad"]
         [::std::mem::offset_of!(_out_flntdevinfo2, Pad) - 2usize];
     ["Offset of field: _out_flntdevinfo2::FunctionFLnet"]
-        [::std::mem::offset_of!(_out_flntdevinfo2, FunctionFLnet) - 8usize];
+        [::std::mem::offset_of!(_out_flntdevinfo2, FunctionFLnet) - 4usize];
 };
 pub type OUT_FLNTDEVINFO2 = _out_flntdevinfo2;
 #[repr(C)]
@@ -25008,16 +25000,16 @@ pub struct _out_flntsferrtbl {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_flntsferrtbl"][::std::mem::size_of::<_out_flntsferrtbl>() - 256usize];
-    ["Alignment of _out_flntsferrtbl"][::std::mem::align_of::<_out_flntsferrtbl>() - 8usize];
+    ["Size of _out_flntsferrtbl"][::std::mem::size_of::<_out_flntsferrtbl>() - 248usize];
+    ["Alignment of _out_flntsferrtbl"][::std::mem::align_of::<_out_flntsferrtbl>() - 4usize];
     ["Offset of field: _out_flntsferrtbl::SelfNode"]
         [::std::mem::offset_of!(_out_flntsferrtbl, SelfNode) - 0usize];
     ["Offset of field: _out_flntsferrtbl::Reserved"]
         [::std::mem::offset_of!(_out_flntsferrtbl, Reserved) - 1usize];
     ["Offset of field: _out_flntsferrtbl::EntryNode"]
-        [::std::mem::offset_of!(_out_flntsferrtbl, EntryNode) - 8usize];
+        [::std::mem::offset_of!(_out_flntsferrtbl, EntryNode) - 4usize];
     ["Offset of field: _out_flntsferrtbl::nodeErr"]
-        [::std::mem::offset_of!(_out_flntsferrtbl, nodeErr) - 16usize];
+        [::std::mem::offset_of!(_out_flntsferrtbl, nodeErr) - 8usize];
 };
 pub type OUT_FLNTSFERRTBL = _out_flntsferrtbl;
 #[repr(C)]
@@ -25320,12 +25312,12 @@ pub struct _pnd_addr {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _pnd_addr"][::std::mem::size_of::<_pnd_addr>() - 24usize];
-    ["Alignment of _pnd_addr"][::std::mem::align_of::<_pnd_addr>() - 8usize];
+    ["Size of _pnd_addr"][::std::mem::size_of::<_pnd_addr>() - 12usize];
+    ["Alignment of _pnd_addr"][::std::mem::align_of::<_pnd_addr>() - 4usize];
     ["Offset of field: _pnd_addr::Path"][::std::mem::offset_of!(_pnd_addr, Path) - 0usize];
     ["Offset of field: _pnd_addr::Kind"][::std::mem::offset_of!(_pnd_addr, Kind) - 2usize];
-    ["Offset of field: _pnd_addr::Addr"][::std::mem::offset_of!(_pnd_addr, Addr) - 8usize];
-    ["Offset of field: _pnd_addr::Size"][::std::mem::offset_of!(_pnd_addr, Size) - 16usize];
+    ["Offset of field: _pnd_addr::Addr"][::std::mem::offset_of!(_pnd_addr, Addr) - 4usize];
+    ["Offset of field: _pnd_addr::Size"][::std::mem::offset_of!(_pnd_addr, Size) - 8usize];
 };
 pub type PND_ADDR = _pnd_addr;
 #[repr(C)]
@@ -25416,8 +25408,8 @@ pub struct _pnd_setting_param {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _pnd_setting_param"][::std::mem::size_of::<_pnd_setting_param>() - 328usize];
-    ["Alignment of _pnd_setting_param"][::std::mem::align_of::<_pnd_setting_param>() - 8usize];
+    ["Size of _pnd_setting_param"][::std::mem::size_of::<_pnd_setting_param>() - 288usize];
+    ["Alignment of _pnd_setting_param"][::std::mem::align_of::<_pnd_setting_param>() - 4usize];
     ["Offset of field: _pnd_setting_param::PnDeviceMode"]
         [::std::mem::offset_of!(_pnd_setting_param, PnDeviceMode) - 0usize];
     ["Offset of field: _pnd_setting_param::DiDataOnAbnormal"]
@@ -25435,11 +25427,11 @@ const _: () = {
     ["Offset of field: _pnd_setting_param::DiData"]
         [::std::mem::offset_of!(_pnd_setting_param, DiData) - 8usize];
     ["Offset of field: _pnd_setting_param::DoData"]
-        [::std::mem::offset_of!(_pnd_setting_param, DoData) - 32usize];
+        [::std::mem::offset_of!(_pnd_setting_param, DoData) - 20usize];
     ["Offset of field: _pnd_setting_param::Status"]
-        [::std::mem::offset_of!(_pnd_setting_param, Status) - 56usize];
+        [::std::mem::offset_of!(_pnd_setting_param, Status) - 32usize];
     ["Offset of field: _pnd_setting_param::DeviceName"]
-        [::std::mem::offset_of!(_pnd_setting_param, DeviceName) - 80usize];
+        [::std::mem::offset_of!(_pnd_setting_param, DeviceName) - 44usize];
 };
 impl Default for _pnd_setting_param {
     fn default() -> Self {
@@ -25530,12 +25522,12 @@ pub struct _pnd_param {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _pnd_param"][::std::mem::size_of::<_pnd_param>() - 688usize];
-    ["Alignment of _pnd_param"][::std::mem::align_of::<_pnd_param>() - 8usize];
+    ["Size of _pnd_param"][::std::mem::size_of::<_pnd_param>() - 644usize];
+    ["Alignment of _pnd_param"][::std::mem::align_of::<_pnd_param>() - 4usize];
     ["Offset of field: _pnd_param::Common"][::std::mem::offset_of!(_pnd_param, Common) - 0usize];
     ["Offset of field: _pnd_param::Ping"][::std::mem::offset_of!(_pnd_param, Ping) - 288usize];
     ["Offset of field: _pnd_param::Setting"]
-        [::std::mem::offset_of!(_pnd_param, Setting) - 360usize];
+        [::std::mem::offset_of!(_pnd_param, Setting) - 356usize];
 };
 impl Default for _pnd_param {
     fn default() -> Self {
@@ -25556,10 +25548,10 @@ pub struct _in_pnd_param {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _in_pnd_param"][::std::mem::size_of::<_in_pnd_param>() - 712usize];
-    ["Alignment of _in_pnd_param"][::std::mem::align_of::<_in_pnd_param>() - 8usize];
+    ["Size of _in_pnd_param"][::std::mem::size_of::<_in_pnd_param>() - 664usize];
+    ["Alignment of _in_pnd_param"][::std::mem::align_of::<_in_pnd_param>() - 4usize];
     ["Offset of field: _in_pnd_param::flg"][::std::mem::offset_of!(_in_pnd_param, flg) - 0usize];
-    ["Offset of field: _in_pnd_param::prm"][::std::mem::offset_of!(_in_pnd_param, prm) - 24usize];
+    ["Offset of field: _in_pnd_param::prm"][::std::mem::offset_of!(_in_pnd_param, prm) - 20usize];
 };
 impl Default for _in_pnd_param {
     fn default() -> Self {
@@ -25639,12 +25631,12 @@ pub struct _pnc_addr {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _pnc_addr"][::std::mem::size_of::<_pnc_addr>() - 24usize];
-    ["Alignment of _pnc_addr"][::std::mem::align_of::<_pnc_addr>() - 8usize];
+    ["Size of _pnc_addr"][::std::mem::size_of::<_pnc_addr>() - 12usize];
+    ["Alignment of _pnc_addr"][::std::mem::align_of::<_pnc_addr>() - 4usize];
     ["Offset of field: _pnc_addr::Path"][::std::mem::offset_of!(_pnc_addr, Path) - 0usize];
     ["Offset of field: _pnc_addr::Kind"][::std::mem::offset_of!(_pnc_addr, Kind) - 2usize];
-    ["Offset of field: _pnc_addr::Addr"][::std::mem::offset_of!(_pnc_addr, Addr) - 8usize];
-    ["Offset of field: _pnc_addr::Size"][::std::mem::offset_of!(_pnc_addr, Size) - 16usize];
+    ["Offset of field: _pnc_addr::Addr"][::std::mem::offset_of!(_pnc_addr, Addr) - 4usize];
+    ["Offset of field: _pnc_addr::Size"][::std::mem::offset_of!(_pnc_addr, Size) - 8usize];
 };
 pub type PNC_ADDR = _pnc_addr;
 #[repr(C)]
@@ -25720,8 +25712,8 @@ pub struct _pnc_setting_param {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _pnc_setting_param"][::std::mem::size_of::<_pnc_setting_param>() - 96usize];
-    ["Alignment of _pnc_setting_param"][::std::mem::align_of::<_pnc_setting_param>() - 8usize];
+    ["Size of _pnc_setting_param"][::std::mem::size_of::<_pnc_setting_param>() - 52usize];
+    ["Alignment of _pnc_setting_param"][::std::mem::align_of::<_pnc_setting_param>() - 4usize];
     ["Offset of field: _pnc_setting_param::PnControllerMode"]
         [::std::mem::offset_of!(_pnc_setting_param, PnControllerMode) - 0usize];
     ["Offset of field: _pnc_setting_param::TotalDeviceNum"]
@@ -25731,13 +25723,13 @@ const _: () = {
     ["Offset of field: _pnc_setting_param::reserve1"]
         [::std::mem::offset_of!(_pnc_setting_param, reserve1) - 3usize];
     ["Offset of field: _pnc_setting_param::DiData"]
-        [::std::mem::offset_of!(_pnc_setting_param, DiData) - 8usize];
+        [::std::mem::offset_of!(_pnc_setting_param, DiData) - 4usize];
     ["Offset of field: _pnc_setting_param::DoData"]
-        [::std::mem::offset_of!(_pnc_setting_param, DoData) - 32usize];
+        [::std::mem::offset_of!(_pnc_setting_param, DoData) - 16usize];
     ["Offset of field: _pnc_setting_param::Status"]
-        [::std::mem::offset_of!(_pnc_setting_param, Status) - 56usize];
+        [::std::mem::offset_of!(_pnc_setting_param, Status) - 28usize];
     ["Offset of field: _pnc_setting_param::reserve2"]
-        [::std::mem::offset_of!(_pnc_setting_param, reserve2) - 80usize];
+        [::std::mem::offset_of!(_pnc_setting_param, reserve2) - 40usize];
 };
 pub type PNC_SETTING_PARAM = _pnc_setting_param;
 #[repr(C)]
@@ -25749,12 +25741,12 @@ pub struct _pnc_param {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _pnc_param"][::std::mem::size_of::<_pnc_param>() - 280usize];
-    ["Alignment of _pnc_param"][::std::mem::align_of::<_pnc_param>() - 8usize];
+    ["Size of _pnc_param"][::std::mem::size_of::<_pnc_param>() - 232usize];
+    ["Alignment of _pnc_param"][::std::mem::align_of::<_pnc_param>() - 4usize];
     ["Offset of field: _pnc_param::Common"][::std::mem::offset_of!(_pnc_param, Common) - 0usize];
     ["Offset of field: _pnc_param::Ping"][::std::mem::offset_of!(_pnc_param, Ping) - 112usize];
     ["Offset of field: _pnc_param::Setting"]
-        [::std::mem::offset_of!(_pnc_param, Setting) - 184usize];
+        [::std::mem::offset_of!(_pnc_param, Setting) - 180usize];
 };
 impl Default for _pnc_param {
     fn default() -> Self {
@@ -25776,11 +25768,11 @@ pub struct _pnc_addr_top {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _pnc_addr_top"][::std::mem::size_of::<_pnc_addr_top>() - 16usize];
-    ["Alignment of _pnc_addr_top"][::std::mem::align_of::<_pnc_addr_top>() - 8usize];
+    ["Size of _pnc_addr_top"][::std::mem::size_of::<_pnc_addr_top>() - 8usize];
+    ["Alignment of _pnc_addr_top"][::std::mem::align_of::<_pnc_addr_top>() - 4usize];
     ["Offset of field: _pnc_addr_top::Path"][::std::mem::offset_of!(_pnc_addr_top, Path) - 0usize];
     ["Offset of field: _pnc_addr_top::Kind"][::std::mem::offset_of!(_pnc_addr_top, Kind) - 2usize];
-    ["Offset of field: _pnc_addr_top::Addr"][::std::mem::offset_of!(_pnc_addr_top, Addr) - 8usize];
+    ["Offset of field: _pnc_addr_top::Addr"][::std::mem::offset_of!(_pnc_addr_top, Addr) - 4usize];
 };
 pub type PNC_ADDRTOP = _pnc_addr_top;
 #[repr(C)]
@@ -25825,8 +25817,8 @@ pub struct _pnc_setting_param_w {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _pnc_setting_param_w"][::std::mem::size_of::<_pnc_setting_param_w>() - 80usize];
-    ["Alignment of _pnc_setting_param_w"][::std::mem::align_of::<_pnc_setting_param_w>() - 8usize];
+    ["Size of _pnc_setting_param_w"][::std::mem::size_of::<_pnc_setting_param_w>() - 44usize];
+    ["Alignment of _pnc_setting_param_w"][::std::mem::align_of::<_pnc_setting_param_w>() - 4usize];
     ["Offset of field: _pnc_setting_param_w::PnControllerMode"]
         [::std::mem::offset_of!(_pnc_setting_param_w, PnControllerMode) - 0usize];
     ["Offset of field: _pnc_setting_param_w::pad"]
@@ -25836,13 +25828,13 @@ const _: () = {
     ["Offset of field: _pnc_setting_param_w::reserve1"]
         [::std::mem::offset_of!(_pnc_setting_param_w, reserve1) - 3usize];
     ["Offset of field: _pnc_setting_param_w::DiAddrTop"]
-        [::std::mem::offset_of!(_pnc_setting_param_w, DiAddrTop) - 8usize];
+        [::std::mem::offset_of!(_pnc_setting_param_w, DiAddrTop) - 4usize];
     ["Offset of field: _pnc_setting_param_w::DoAddrTop"]
-        [::std::mem::offset_of!(_pnc_setting_param_w, DoAddrTop) - 24usize];
+        [::std::mem::offset_of!(_pnc_setting_param_w, DoAddrTop) - 12usize];
     ["Offset of field: _pnc_setting_param_w::Status"]
-        [::std::mem::offset_of!(_pnc_setting_param_w, Status) - 40usize];
+        [::std::mem::offset_of!(_pnc_setting_param_w, Status) - 20usize];
     ["Offset of field: _pnc_setting_param_w::reserve2"]
-        [::std::mem::offset_of!(_pnc_setting_param_w, reserve2) - 64usize];
+        [::std::mem::offset_of!(_pnc_setting_param_w, reserve2) - 32usize];
 };
 pub type PNC_SETTING_PARAM_W = _pnc_setting_param_w;
 #[repr(C)]
@@ -25900,13 +25892,13 @@ pub struct _pnc_param_w {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _pnc_param_w"][::std::mem::size_of::<_pnc_param_w>() - 248usize];
-    ["Alignment of _pnc_param_w"][::std::mem::align_of::<_pnc_param_w>() - 8usize];
+    ["Size of _pnc_param_w"][::std::mem::size_of::<_pnc_param_w>() - 208usize];
+    ["Alignment of _pnc_param_w"][::std::mem::align_of::<_pnc_param_w>() - 4usize];
     ["Offset of field: _pnc_param_w::Common"]
         [::std::mem::offset_of!(_pnc_param_w, Common) - 0usize];
     ["Offset of field: _pnc_param_w::Ping"][::std::mem::offset_of!(_pnc_param_w, Ping) - 96usize];
     ["Offset of field: _pnc_param_w::Setting"]
-        [::std::mem::offset_of!(_pnc_param_w, Setting) - 168usize];
+        [::std::mem::offset_of!(_pnc_param_w, Setting) - 164usize];
 };
 impl Default for _pnc_param_w {
     fn default() -> Self {
@@ -25926,10 +25918,10 @@ pub struct _in_pnc_param {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _in_pnc_param"][::std::mem::size_of::<_in_pnc_param>() - 264usize];
-    ["Alignment of _in_pnc_param"][::std::mem::align_of::<_in_pnc_param>() - 8usize];
+    ["Size of _in_pnc_param"][::std::mem::size_of::<_in_pnc_param>() - 220usize];
+    ["Alignment of _in_pnc_param"][::std::mem::align_of::<_in_pnc_param>() - 4usize];
     ["Offset of field: _in_pnc_param::flg"][::std::mem::offset_of!(_in_pnc_param, flg) - 0usize];
-    ["Offset of field: _in_pnc_param::prm"][::std::mem::offset_of!(_in_pnc_param, prm) - 16usize];
+    ["Offset of field: _in_pnc_param::prm"][::std::mem::offset_of!(_in_pnc_param, prm) - 12usize];
 };
 impl Default for _in_pnc_param {
     fn default() -> Self {
@@ -25977,8 +25969,8 @@ pub struct _out_pnc_device_info {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_pnc_device_info"][::std::mem::size_of::<_out_pnc_device_info>() - 80usize];
-    ["Alignment of _out_pnc_device_info"][::std::mem::align_of::<_out_pnc_device_info>() - 8usize];
+    ["Size of _out_pnc_device_info"][::std::mem::size_of::<_out_pnc_device_info>() - 52usize];
+    ["Alignment of _out_pnc_device_info"][::std::mem::align_of::<_out_pnc_device_info>() - 4usize];
     ["Offset of field: _out_pnc_device_info::IpAddress"]
         [::std::mem::offset_of!(_out_pnc_device_info, IpAddress) - 0usize];
     ["Offset of field: _out_pnc_device_info::Status"]
@@ -25986,21 +25978,21 @@ const _: () = {
     ["Offset of field: _out_pnc_device_info::pad"]
         [::std::mem::offset_of!(_out_pnc_device_info, pad) - 17usize];
     ["Offset of field: _out_pnc_device_info::DiAddrTop"]
-        [::std::mem::offset_of!(_out_pnc_device_info, DiAddrTop) - 24usize];
+        [::std::mem::offset_of!(_out_pnc_device_info, DiAddrTop) - 20usize];
     ["Offset of field: _out_pnc_device_info::DoAddrTop"]
-        [::std::mem::offset_of!(_out_pnc_device_info, DoAddrTop) - 40usize];
+        [::std::mem::offset_of!(_out_pnc_device_info, DoAddrTop) - 28usize];
     ["Offset of field: _out_pnc_device_info::InputSize"]
-        [::std::mem::offset_of!(_out_pnc_device_info, InputSize) - 56usize];
+        [::std::mem::offset_of!(_out_pnc_device_info, InputSize) - 36usize];
     ["Offset of field: _out_pnc_device_info::OutputSize"]
-        [::std::mem::offset_of!(_out_pnc_device_info, OutputSize) - 58usize];
+        [::std::mem::offset_of!(_out_pnc_device_info, OutputSize) - 38usize];
     ["Offset of field: _out_pnc_device_info::InputCycleTime"]
-        [::std::mem::offset_of!(_out_pnc_device_info, InputCycleTime) - 60usize];
+        [::std::mem::offset_of!(_out_pnc_device_info, InputCycleTime) - 40usize];
     ["Offset of field: _out_pnc_device_info::OutputCycleTime"]
-        [::std::mem::offset_of!(_out_pnc_device_info, OutputCycleTime) - 62usize];
+        [::std::mem::offset_of!(_out_pnc_device_info, OutputCycleTime) - 42usize];
     ["Offset of field: _out_pnc_device_info::AlarmNum"]
-        [::std::mem::offset_of!(_out_pnc_device_info, AlarmNum) - 64usize];
+        [::std::mem::offset_of!(_out_pnc_device_info, AlarmNum) - 44usize];
     ["Offset of field: _out_pnc_device_info::ConnectTime"]
-        [::std::mem::offset_of!(_out_pnc_device_info, ConnectTime) - 72usize];
+        [::std::mem::offset_of!(_out_pnc_device_info, ConnectTime) - 48usize];
 };
 pub type OUT_PNC_DEVICE_INFO = _out_pnc_device_info;
 #[repr(C)]
@@ -26137,20 +26129,20 @@ pub struct _out_ectdevinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _out_ectdevinfo"][::std::mem::size_of::<_out_ectdevinfo>() - 40usize];
-    ["Alignment of _out_ectdevinfo"][::std::mem::align_of::<_out_ectdevinfo>() - 8usize];
+    ["Size of _out_ectdevinfo"][::std::mem::size_of::<_out_ectdevinfo>() - 24usize];
+    ["Alignment of _out_ectdevinfo"][::std::mem::align_of::<_out_ectdevinfo>() - 4usize];
     ["Offset of field: _out_ectdevinfo::EsiVersion"]
         [::std::mem::offset_of!(_out_ectdevinfo, EsiVersion) - 0usize];
     ["Offset of field: _out_ectdevinfo::VendorID"]
         [::std::mem::offset_of!(_out_ectdevinfo, VendorID) - 8usize];
     ["Offset of field: _out_ectdevinfo::ProductCode"]
-        [::std::mem::offset_of!(_out_ectdevinfo, ProductCode) - 16usize];
+        [::std::mem::offset_of!(_out_ectdevinfo, ProductCode) - 12usize];
     ["Offset of field: _out_ectdevinfo::RevisionNo"]
-        [::std::mem::offset_of!(_out_ectdevinfo, RevisionNo) - 24usize];
+        [::std::mem::offset_of!(_out_ectdevinfo, RevisionNo) - 16usize];
     ["Offset of field: _out_ectdevinfo::NodeAddress"]
-        [::std::mem::offset_of!(_out_ectdevinfo, NodeAddress) - 32usize];
+        [::std::mem::offset_of!(_out_ectdevinfo, NodeAddress) - 20usize];
     ["Offset of field: _out_ectdevinfo::pad"]
-        [::std::mem::offset_of!(_out_ectdevinfo, pad) - 34usize];
+        [::std::mem::offset_of!(_out_ectdevinfo, pad) - 22usize];
 };
 pub type OUT_ECTDEVINFO = _out_ectdevinfo;
 #[repr(C)]
@@ -26294,7 +26286,7 @@ const _: () = {
     ["Size of odbptaxistat__bindgen_ty_1__bindgen_ty_1"]
         [::std::mem::size_of::<odbptaxistat__bindgen_ty_1__bindgen_ty_1>() - 48usize];
     ["Alignment of odbptaxistat__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<odbptaxistat__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbptaxistat__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1__bindgen_ty_1::l_value_e"]
         [::std::mem::offset_of!(odbptaxistat__bindgen_ty_1__bindgen_ty_1, l_value_e) - 0usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1__bindgen_ty_1::pos_value_e"]
@@ -26338,9 +26330,9 @@ pub struct odbptaxistat__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbptaxistat__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<odbptaxistat__bindgen_ty_1__bindgen_ty_2>() - 56usize];
+        [::std::mem::size_of::<odbptaxistat__bindgen_ty_1__bindgen_ty_2>() - 44usize];
     ["Alignment of odbptaxistat__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<odbptaxistat__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<odbptaxistat__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1__bindgen_ty_2::l_value_e_sub"]
         [::std::mem::offset_of!(odbptaxistat__bindgen_ty_1__bindgen_ty_2, l_value_e_sub) - 0usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1__bindgen_ty_2::pos_value_e_sub"][::std::mem::offset_of!(
@@ -26352,36 +26344,36 @@ const _: () = {
     ["Offset of field: odbptaxistat__bindgen_ty_1__bindgen_ty_2::repeat_e_sub"]
         [::std::mem::offset_of!(odbptaxistat__bindgen_ty_1__bindgen_ty_2, repeat_e_sub) - 24usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1__bindgen_ty_2::repeat_sub"]
-        [::std::mem::offset_of!(odbptaxistat__bindgen_ty_1__bindgen_ty_2, repeat_sub) - 32usize];
+        [::std::mem::offset_of!(odbptaxistat__bindgen_ty_1__bindgen_ty_2, repeat_sub) - 28usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1__bindgen_ty_2::number_sub"]
-        [::std::mem::offset_of!(odbptaxistat__bindgen_ty_1__bindgen_ty_2, number_sub) - 40usize];
+        [::std::mem::offset_of!(odbptaxistat__bindgen_ty_1__bindgen_ty_2, number_sub) - 32usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1__bindgen_ty_2::next_table_sub"][::std::mem::offset_of!(
         odbptaxistat__bindgen_ty_1__bindgen_ty_2,
         next_table_sub
-    ) - 42usize];
+    ) - 34usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1__bindgen_ty_2::skip_table_sub"][::std::mem::offset_of!(
         odbptaxistat__bindgen_ty_1__bindgen_ty_2,
         skip_table_sub
-    ) - 44usize];
+    ) - 36usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1__bindgen_ty_2::skip_signal_sub"][::std::mem::offset_of!(
         odbptaxistat__bindgen_ty_1__bindgen_ty_2,
         skip_signal_sub
-    ) - 46usize];
+    ) - 38usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1__bindgen_ty_2::table_kind_sub"][::std::mem::offset_of!(
         odbptaxistat__bindgen_ty_1__bindgen_ty_2,
         table_kind_sub
-    ) - 48usize];
+    ) - 40usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1__bindgen_ty_2::master_indx_no_sub"][::std::mem::offset_of!(
         odbptaxistat__bindgen_ty_1__bindgen_ty_2,
         master_indx_no_sub
-    ) - 50usize];
+    ) - 42usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbptaxistat__bindgen_ty_1"]
-        [::std::mem::size_of::<odbptaxistat__bindgen_ty_1>() - 56usize];
+        [::std::mem::size_of::<odbptaxistat__bindgen_ty_1>() - 48usize];
     ["Alignment of odbptaxistat__bindgen_ty_1"]
-        [::std::mem::align_of::<odbptaxistat__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbptaxistat__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1::state1"]
         [::std::mem::offset_of!(odbptaxistat__bindgen_ty_1, state1) - 0usize];
     ["Offset of field: odbptaxistat__bindgen_ty_1::state2"]
@@ -26398,8 +26390,8 @@ impl Default for odbptaxistat__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbptaxistat"][::std::mem::size_of::<odbptaxistat>() - 56usize];
-    ["Alignment of odbptaxistat"][::std::mem::align_of::<odbptaxistat>() - 8usize];
+    ["Size of odbptaxistat"][::std::mem::size_of::<odbptaxistat>() - 48usize];
+    ["Alignment of odbptaxistat"][::std::mem::align_of::<odbptaxistat>() - 4usize];
     ["Offset of field: odbptaxistat::u"][::std::mem::offset_of!(odbptaxistat, u) - 0usize];
 };
 impl Default for odbptaxistat {
@@ -26443,9 +26435,9 @@ pub struct odbptspstat__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbptspstat__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<odbptspstat__bindgen_ty_1__bindgen_ty_1>() - 72usize];
+        [::std::mem::size_of::<odbptspstat__bindgen_ty_1__bindgen_ty_1>() - 56usize];
     ["Alignment of odbptspstat__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<odbptspstat__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbptspstat__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_1::l_value_e"]
         [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, l_value_e) - 0usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_1::pos_value_e"]
@@ -26457,21 +26449,21 @@ const _: () = {
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_1::srpm"]
         [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, srpm) - 32usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_1::sspm"]
-        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, sspm) - 40usize];
+        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, sspm) - 36usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_1::smax"]
-        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, smax) - 48usize];
+        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, smax) - 40usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_1::ov_time"]
-        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, ov_time) - 56usize];
+        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, ov_time) - 44usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_1::number"]
-        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, number) - 58usize];
+        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, number) - 46usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_1::next_table"]
-        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, next_table) - 60usize];
+        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, next_table) - 48usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_1::skip_table"]
-        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, skip_table) - 62usize];
+        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, skip_table) - 50usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_1::skip_signal"]
-        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, skip_signal) - 64usize];
+        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, skip_signal) - 52usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_1::sp_mode"]
-        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, sp_mode) - 66usize];
+        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_1, sp_mode) - 54usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -26489,9 +26481,9 @@ pub struct odbptspstat__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbptspstat__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<odbptspstat__bindgen_ty_1__bindgen_ty_2>() - 48usize];
+        [::std::mem::size_of::<odbptspstat__bindgen_ty_1__bindgen_ty_2>() - 40usize];
     ["Alignment of odbptspstat__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<odbptspstat__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<odbptspstat__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_2::l_value_e_sub"]
         [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_2, l_value_e_sub) - 0usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_2::pos_value_e_sub"]
@@ -26501,24 +26493,24 @@ const _: () = {
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_2::repeat_e_sub"]
         [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_2, repeat_e_sub) - 24usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_2::repeat_sub"]
-        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_2, repeat_sub) - 32usize];
+        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_2, repeat_sub) - 28usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_2::number_sub"]
-        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_2, number_sub) - 40usize];
+        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_2, number_sub) - 32usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_2::next_table_sub"]
-        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_2, next_table_sub) - 42usize];
+        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_2, next_table_sub) - 34usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_2::skip_table_sub"]
-        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_2, skip_table_sub) - 44usize];
+        [::std::mem::offset_of!(odbptspstat__bindgen_ty_1__bindgen_ty_2, skip_table_sub) - 36usize];
     ["Offset of field: odbptspstat__bindgen_ty_1__bindgen_ty_2::skip_signal_sub"][::std::mem::offset_of!(
         odbptspstat__bindgen_ty_1__bindgen_ty_2,
         skip_signal_sub
-    ) - 46usize];
+    ) - 38usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbptspstat__bindgen_ty_1"]
-        [::std::mem::size_of::<odbptspstat__bindgen_ty_1>() - 72usize];
+        [::std::mem::size_of::<odbptspstat__bindgen_ty_1>() - 56usize];
     ["Alignment of odbptspstat__bindgen_ty_1"]
-        [::std::mem::align_of::<odbptspstat__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbptspstat__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbptspstat__bindgen_ty_1::state1"]
         [::std::mem::offset_of!(odbptspstat__bindgen_ty_1, state1) - 0usize];
     ["Offset of field: odbptspstat__bindgen_ty_1::state2"]
@@ -26535,8 +26527,8 @@ impl Default for odbptspstat__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbptspstat"][::std::mem::size_of::<odbptspstat>() - 72usize];
-    ["Alignment of odbptspstat"][::std::mem::align_of::<odbptspstat>() - 8usize];
+    ["Size of odbptspstat"][::std::mem::size_of::<odbptspstat>() - 56usize];
+    ["Alignment of odbptspstat"][::std::mem::align_of::<odbptspstat>() - 4usize];
     ["Offset of field: odbptspstat::u"][::std::mem::offset_of!(odbptspstat, u) - 0usize];
 };
 impl Default for odbptspstat {
@@ -26579,9 +26571,9 @@ pub struct odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1>() - 64usize];
+        [::std::mem::size_of::<odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1>() - 52usize];
     ["Alignment of odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1::l_value_e"]
         [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, l_value_e) - 0usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1::l_value"]
@@ -26591,25 +26583,25 @@ const _: () = {
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1::m_code"]
         [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, m_code) - 24usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1::ov_time"]
-        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, ov_time) - 48usize];
+        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, ov_time) - 36usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1::number"]
-        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, number) - 50usize];
+        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, number) - 38usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1::next_table"]
-        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, next_table) - 52usize];
+        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, next_table) - 40usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1::skip_table"]
-        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, skip_table) - 54usize];
+        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, skip_table) - 42usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1::skip_signal"][::std::mem::offset_of!(
         odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1,
         skip_signal
-    ) - 56usize];
+    ) - 44usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1::table_kind"]
-        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, table_kind) - 58usize];
+        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, table_kind) - 46usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1::master_indx_no"][::std::mem::offset_of!(
         odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1,
         master_indx_no
-    ) - 60usize];
+    ) - 48usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1::m_count"]
-        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, m_count) - 62usize];
+        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_1, m_count) - 50usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -26628,9 +26620,9 @@ pub struct odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2>() - 48usize];
+        [::std::mem::size_of::<odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2>() - 36usize];
     ["Alignment of odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2::l_value_e_sub"][::std::mem::offset_of!(
         odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2,
         l_value_e_sub
@@ -26642,37 +26634,37 @@ const _: () = {
         repeat_e_sub
     ) - 16usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2::repeat_sub"]
-        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2, repeat_sub) - 24usize];
+        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2, repeat_sub) - 20usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2::number_sub"]
-        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2, number_sub) - 32usize];
+        [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2, number_sub) - 24usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2::next_table_sub"][::std::mem::offset_of!(
         odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2,
         next_table_sub
-    ) - 34usize];
+    ) - 26usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2::skip_table_sub"][::std::mem::offset_of!(
         odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2,
         skip_table_sub
-    ) - 36usize];
+    ) - 28usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2::skip_signal_sub"][::std::mem::offset_of!(
         odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2,
         skip_signal_sub
-    ) - 38usize];
+    ) - 30usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2::table_kind_sub"][::std::mem::offset_of!(
         odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2,
         table_kind_sub
-    ) - 40usize];
+    ) - 32usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2::master_indx_no_sub"][::std::mem::offset_of!(
         odbptaxfuncstat__bindgen_ty_1__bindgen_ty_2,
         master_indx_no_sub
     )
-        - 42usize];
+        - 34usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbptaxfuncstat__bindgen_ty_1"]
-        [::std::mem::size_of::<odbptaxfuncstat__bindgen_ty_1>() - 64usize];
+        [::std::mem::size_of::<odbptaxfuncstat__bindgen_ty_1>() - 52usize];
     ["Alignment of odbptaxfuncstat__bindgen_ty_1"]
-        [::std::mem::align_of::<odbptaxfuncstat__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<odbptaxfuncstat__bindgen_ty_1>() - 4usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1::state1"]
         [::std::mem::offset_of!(odbptaxfuncstat__bindgen_ty_1, state1) - 0usize];
     ["Offset of field: odbptaxfuncstat__bindgen_ty_1::state2"]
@@ -26689,8 +26681,8 @@ impl Default for odbptaxfuncstat__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbptaxfuncstat"][::std::mem::size_of::<odbptaxfuncstat>() - 64usize];
-    ["Alignment of odbptaxfuncstat"][::std::mem::align_of::<odbptaxfuncstat>() - 8usize];
+    ["Size of odbptaxfuncstat"][::std::mem::size_of::<odbptaxfuncstat>() - 52usize];
+    ["Alignment of odbptaxfuncstat"][::std::mem::align_of::<odbptaxfuncstat>() - 4usize];
     ["Offset of field: odbptaxfuncstat::u"][::std::mem::offset_of!(odbptaxfuncstat, u) - 0usize];
 };
 impl Default for odbptaxfuncstat {
@@ -26714,18 +26706,18 @@ pub struct odbptcomment {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbptcomment"][::std::mem::size_of::<odbptcomment>() - 336usize];
-    ["Alignment of odbptcomment"][::std::mem::align_of::<odbptcomment>() - 8usize];
+    ["Size of odbptcomment"][::std::mem::size_of::<odbptcomment>() - 328usize];
+    ["Alignment of odbptcomment"][::std::mem::align_of::<odbptcomment>() - 4usize];
     ["Offset of field: odbptcomment::t_code"]
         [::std::mem::offset_of!(odbptcomment, t_code) - 0usize];
     ["Offset of field: odbptcomment::comment_count"]
-        [::std::mem::offset_of!(odbptcomment, comment_count) - 8usize];
+        [::std::mem::offset_of!(odbptcomment, comment_count) - 4usize];
     ["Offset of field: odbptcomment::pto_mode"]
-        [::std::mem::offset_of!(odbptcomment, pto_mode) - 9usize];
+        [::std::mem::offset_of!(odbptcomment, pto_mode) - 5usize];
     ["Offset of field: odbptcomment::dummy1"]
-        [::std::mem::offset_of!(odbptcomment, dummy1) - 10usize];
+        [::std::mem::offset_of!(odbptcomment, dummy1) - 6usize];
     ["Offset of field: odbptcomment::comment"]
-        [::std::mem::offset_of!(odbptcomment, comment) - 12usize];
+        [::std::mem::offset_of!(odbptcomment, comment) - 8usize];
 };
 pub type ODBPTCOMMENT = odbptcomment;
 #[repr(C)]
@@ -26768,16 +26760,16 @@ const _: () = {
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpthis_gb"][::std::mem::size_of::<odbpthis_gb>() - 32usize];
-    ["Alignment of odbpthis_gb"][::std::mem::align_of::<odbpthis_gb>() - 8usize];
+    ["Size of odbpthis_gb"][::std::mem::size_of::<odbpthis_gb>() - 20usize];
+    ["Alignment of odbpthis_gb"][::std::mem::align_of::<odbpthis_gb>() - 4usize];
     ["Offset of field: odbpthis_gb::date"][::std::mem::offset_of!(odbpthis_gb, date) - 0usize];
     ["Offset of field: odbpthis_gb::reserve1"]
         [::std::mem::offset_of!(odbpthis_gb, reserve1) - 8usize];
-    ["Offset of field: odbpthis_gb::info1"][::std::mem::offset_of!(odbpthis_gb, info1) - 16usize];
+    ["Offset of field: odbpthis_gb::info1"][::std::mem::offset_of!(odbpthis_gb, info1) - 12usize];
     ["Offset of field: odbpthis_gb::path_num"]
-        [::std::mem::offset_of!(odbpthis_gb, path_num) - 24usize];
+        [::std::mem::offset_of!(odbpthis_gb, path_num) - 16usize];
     ["Offset of field: odbpthis_gb::reserve2"]
-        [::std::mem::offset_of!(odbpthis_gb, reserve2) - 25usize];
+        [::std::mem::offset_of!(odbpthis_gb, reserve2) - 17usize];
 };
 pub type ODBPTHIS_GB = odbpthis_gb;
 #[repr(C)]
@@ -26797,28 +26789,28 @@ pub struct odbpthis_pt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpthis_pt"][::std::mem::size_of::<odbpthis_pt>() - 32usize];
-    ["Alignment of odbpthis_pt"][::std::mem::align_of::<odbpthis_pt>() - 8usize];
+    ["Size of odbpthis_pt"][::std::mem::size_of::<odbpthis_pt>() - 24usize];
+    ["Alignment of odbpthis_pt"][::std::mem::align_of::<odbpthis_pt>() - 4usize];
     ["Offset of field: odbpthis_pt::time"][::std::mem::offset_of!(odbpthis_pt, time) - 0usize];
     ["Offset of field: odbpthis_pt::dist_err"]
         [::std::mem::offset_of!(odbpthis_pt, dist_err) - 8usize];
     ["Offset of field: odbpthis_pt::ov_time"]
         [::std::mem::offset_of!(odbpthis_pt, ov_time) - 10usize];
-    ["Offset of field: odbpthis_pt::info1"][::std::mem::offset_of!(odbpthis_pt, info1) - 16usize];
+    ["Offset of field: odbpthis_pt::info1"][::std::mem::offset_of!(odbpthis_pt, info1) - 12usize];
     ["Offset of field: odbpthis_pt::alarm_no"]
-        [::std::mem::offset_of!(odbpthis_pt, alarm_no) - 24usize];
+        [::std::mem::offset_of!(odbpthis_pt, alarm_no) - 16usize];
     ["Offset of field: odbpthis_pt::alarm_type"]
-        [::std::mem::offset_of!(odbpthis_pt, alarm_type) - 26usize];
+        [::std::mem::offset_of!(odbpthis_pt, alarm_type) - 18usize];
     ["Offset of field: odbpthis_pt::alarm_axis"]
-        [::std::mem::offset_of!(odbpthis_pt, alarm_axis) - 27usize];
+        [::std::mem::offset_of!(odbpthis_pt, alarm_axis) - 19usize];
     ["Offset of field: odbpthis_pt::path_axis_num"]
-        [::std::mem::offset_of!(odbpthis_pt, path_axis_num) - 28usize];
+        [::std::mem::offset_of!(odbpthis_pt, path_axis_num) - 20usize];
     ["Offset of field: odbpthis_pt::path_spdl_num"]
-        [::std::mem::offset_of!(odbpthis_pt, path_spdl_num) - 29usize];
+        [::std::mem::offset_of!(odbpthis_pt, path_spdl_num) - 21usize];
     ["Offset of field: odbpthis_pt::time_frac"]
-        [::std::mem::offset_of!(odbpthis_pt, time_frac) - 30usize];
+        [::std::mem::offset_of!(odbpthis_pt, time_frac) - 22usize];
     ["Offset of field: odbpthis_pt::reserve1"]
-        [::std::mem::offset_of!(odbpthis_pt, reserve1) - 31usize];
+        [::std::mem::offset_of!(odbpthis_pt, reserve1) - 23usize];
 };
 pub type ODBPTHIS_PT = odbpthis_pt;
 #[repr(C)]
@@ -26851,8 +26843,8 @@ pub struct odbpthis_ax {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpthis_ax"][::std::mem::size_of::<odbpthis_ax>() - 112usize];
-    ["Alignment of odbpthis_ax"][::std::mem::align_of::<odbpthis_ax>() - 8usize];
+    ["Size of odbpthis_ax"][::std::mem::size_of::<odbpthis_ax>() - 96usize];
+    ["Alignment of odbpthis_ax"][::std::mem::align_of::<odbpthis_ax>() - 4usize];
     ["Offset of field: odbpthis_ax::l_value"]
         [::std::mem::offset_of!(odbpthis_ax, l_value) - 0usize];
     ["Offset of field: odbpthis_ax::l_value_e"]
@@ -26872,32 +26864,31 @@ const _: () = {
     ["Offset of field: odbpthis_ax::repeat_sub"]
         [::std::mem::offset_of!(odbpthis_ax, repeat_sub) - 64usize];
     ["Offset of field: odbpthis_ax::repeat_e_sub"]
-        [::std::mem::offset_of!(odbpthis_ax, repeat_e_sub) - 72usize];
-    ["Offset of field: odbpthis_ax::info1"][::std::mem::offset_of!(odbpthis_ax, info1) - 80usize];
-    ["Offset of field: odbpthis_ax::number"][::std::mem::offset_of!(odbpthis_ax, number) - 88usize];
+        [::std::mem::offset_of!(odbpthis_ax, repeat_e_sub) - 68usize];
+    ["Offset of field: odbpthis_ax::info1"][::std::mem::offset_of!(odbpthis_ax, info1) - 72usize];
+    ["Offset of field: odbpthis_ax::number"][::std::mem::offset_of!(odbpthis_ax, number) - 76usize];
     ["Offset of field: odbpthis_ax::number_sub"]
-        [::std::mem::offset_of!(odbpthis_ax, number_sub) - 90usize];
+        [::std::mem::offset_of!(odbpthis_ax, number_sub) - 78usize];
     ["Offset of field: odbpthis_ax::number_cycle"]
-        [::std::mem::offset_of!(odbpthis_ax, number_cycle) - 92usize];
+        [::std::mem::offset_of!(odbpthis_ax, number_cycle) - 80usize];
     ["Offset of field: odbpthis_ax::table_kind"]
-        [::std::mem::offset_of!(odbpthis_ax, table_kind) - 94usize];
-    ["Offset of field: odbpthis_ax::name"][::std::mem::offset_of!(odbpthis_ax, name) - 96usize];
+        [::std::mem::offset_of!(odbpthis_ax, table_kind) - 82usize];
+    ["Offset of field: odbpthis_ax::name"][::std::mem::offset_of!(odbpthis_ax, name) - 84usize];
     ["Offset of field: odbpthis_ax::cs_spdl_idx_pt"]
-        [::std::mem::offset_of!(odbpthis_ax, cs_spdl_idx_pt) - 100usize];
+        [::std::mem::offset_of!(odbpthis_ax, cs_spdl_idx_pt) - 88usize];
     ["Offset of field: odbpthis_ax::cs_spdl_idx_rel"]
-        [::std::mem::offset_of!(odbpthis_ax, cs_spdl_idx_rel) - 101usize];
+        [::std::mem::offset_of!(odbpthis_ax, cs_spdl_idx_rel) - 89usize];
     ["Offset of field: odbpthis_ax::master_indx_no_pt"]
-        [::std::mem::offset_of!(odbpthis_ax, master_indx_no_pt) - 102usize];
+        [::std::mem::offset_of!(odbpthis_ax, master_indx_no_pt) - 90usize];
     ["Offset of field: odbpthis_ax::master_indx_no_rel"]
-        [::std::mem::offset_of!(odbpthis_ax, master_indx_no_rel) - 103usize];
+        [::std::mem::offset_of!(odbpthis_ax, master_indx_no_rel) - 91usize];
     ["Offset of field: odbpthis_ax::pos_frac"]
-        [::std::mem::offset_of!(odbpthis_ax, pos_frac) - 104usize];
-    ["Offset of field: odbpthis_ax::l_frac"]
-        [::std::mem::offset_of!(odbpthis_ax, l_frac) - 105usize];
+        [::std::mem::offset_of!(odbpthis_ax, pos_frac) - 92usize];
+    ["Offset of field: odbpthis_ax::l_frac"][::std::mem::offset_of!(odbpthis_ax, l_frac) - 93usize];
     ["Offset of field: odbpthis_ax::l_frac_cycle"]
-        [::std::mem::offset_of!(odbpthis_ax, l_frac_cycle) - 106usize];
+        [::std::mem::offset_of!(odbpthis_ax, l_frac_cycle) - 94usize];
     ["Offset of field: odbpthis_ax::reserve1"]
-        [::std::mem::offset_of!(odbpthis_ax, reserve1) - 107usize];
+        [::std::mem::offset_of!(odbpthis_ax, reserve1) - 95usize];
 };
 pub type ODBPTHIS_AX = odbpthis_ax;
 #[repr(C)]
@@ -26931,8 +26922,8 @@ pub struct odbpthis_sp {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpthis_sp"][::std::mem::size_of::<odbpthis_sp>() - 128usize];
-    ["Alignment of odbpthis_sp"][::std::mem::align_of::<odbpthis_sp>() - 8usize];
+    ["Size of odbpthis_sp"][::std::mem::size_of::<odbpthis_sp>() - 96usize];
+    ["Alignment of odbpthis_sp"][::std::mem::align_of::<odbpthis_sp>() - 4usize];
     ["Offset of field: odbpthis_sp::l_value"]
         [::std::mem::offset_of!(odbpthis_sp, l_value) - 0usize];
     ["Offset of field: odbpthis_sp::l_value_e"]
@@ -26948,34 +26939,32 @@ const _: () = {
     ["Offset of field: odbpthis_sp::repeat_sub"]
         [::std::mem::offset_of!(odbpthis_sp, repeat_sub) - 48usize];
     ["Offset of field: odbpthis_sp::repeat_e_sub"]
-        [::std::mem::offset_of!(odbpthis_sp, repeat_e_sub) - 56usize];
-    ["Offset of field: odbpthis_sp::srpm"][::std::mem::offset_of!(odbpthis_sp, srpm) - 64usize];
-    ["Offset of field: odbpthis_sp::rrpm"][::std::mem::offset_of!(odbpthis_sp, rrpm) - 72usize];
-    ["Offset of field: odbpthis_sp::sspm"][::std::mem::offset_of!(odbpthis_sp, sspm) - 80usize];
-    ["Offset of field: odbpthis_sp::smax"][::std::mem::offset_of!(odbpthis_sp, smax) - 88usize];
-    ["Offset of field: odbpthis_sp::info1"][::std::mem::offset_of!(odbpthis_sp, info1) - 96usize];
-    ["Offset of field: odbpthis_sp::number"]
-        [::std::mem::offset_of!(odbpthis_sp, number) - 104usize];
+        [::std::mem::offset_of!(odbpthis_sp, repeat_e_sub) - 52usize];
+    ["Offset of field: odbpthis_sp::srpm"][::std::mem::offset_of!(odbpthis_sp, srpm) - 56usize];
+    ["Offset of field: odbpthis_sp::rrpm"][::std::mem::offset_of!(odbpthis_sp, rrpm) - 60usize];
+    ["Offset of field: odbpthis_sp::sspm"][::std::mem::offset_of!(odbpthis_sp, sspm) - 64usize];
+    ["Offset of field: odbpthis_sp::smax"][::std::mem::offset_of!(odbpthis_sp, smax) - 68usize];
+    ["Offset of field: odbpthis_sp::info1"][::std::mem::offset_of!(odbpthis_sp, info1) - 72usize];
+    ["Offset of field: odbpthis_sp::number"][::std::mem::offset_of!(odbpthis_sp, number) - 76usize];
     ["Offset of field: odbpthis_sp::number_sub"]
-        [::std::mem::offset_of!(odbpthis_sp, number_sub) - 106usize];
+        [::std::mem::offset_of!(odbpthis_sp, number_sub) - 78usize];
     ["Offset of field: odbpthis_sp::table_kind"]
-        [::std::mem::offset_of!(odbpthis_sp, table_kind) - 108usize];
+        [::std::mem::offset_of!(odbpthis_sp, table_kind) - 80usize];
     ["Offset of field: odbpthis_sp::sp_mode"]
-        [::std::mem::offset_of!(odbpthis_sp, sp_mode) - 110usize];
-    ["Offset of field: odbpthis_sp::name"][::std::mem::offset_of!(odbpthis_sp, name) - 111usize];
-    ["Offset of field: odbpthis_sp::ov_sp"][::std::mem::offset_of!(odbpthis_sp, ov_sp) - 115usize];
+        [::std::mem::offset_of!(odbpthis_sp, sp_mode) - 82usize];
+    ["Offset of field: odbpthis_sp::name"][::std::mem::offset_of!(odbpthis_sp, name) - 83usize];
+    ["Offset of field: odbpthis_sp::ov_sp"][::std::mem::offset_of!(odbpthis_sp, ov_sp) - 87usize];
     ["Offset of field: odbpthis_sp::reserve1"]
-        [::std::mem::offset_of!(odbpthis_sp, reserve1) - 116usize];
+        [::std::mem::offset_of!(odbpthis_sp, reserve1) - 88usize];
     ["Offset of field: odbpthis_sp::cs_axis_idx_pt"]
-        [::std::mem::offset_of!(odbpthis_sp, cs_axis_idx_pt) - 117usize];
+        [::std::mem::offset_of!(odbpthis_sp, cs_axis_idx_pt) - 89usize];
     ["Offset of field: odbpthis_sp::cs_axis_idx_rel"]
-        [::std::mem::offset_of!(odbpthis_sp, cs_axis_idx_rel) - 118usize];
+        [::std::mem::offset_of!(odbpthis_sp, cs_axis_idx_rel) - 90usize];
     ["Offset of field: odbpthis_sp::pos_frac"]
-        [::std::mem::offset_of!(odbpthis_sp, pos_frac) - 119usize];
-    ["Offset of field: odbpthis_sp::l_frac"]
-        [::std::mem::offset_of!(odbpthis_sp, l_frac) - 120usize];
+        [::std::mem::offset_of!(odbpthis_sp, pos_frac) - 91usize];
+    ["Offset of field: odbpthis_sp::l_frac"][::std::mem::offset_of!(odbpthis_sp, l_frac) - 92usize];
     ["Offset of field: odbpthis_sp::reserve2"]
-        [::std::mem::offset_of!(odbpthis_sp, reserve2) - 121usize];
+        [::std::mem::offset_of!(odbpthis_sp, reserve2) - 93usize];
 };
 pub type ODBPTHIS_SP = odbpthis_sp;
 #[repr(C)]
@@ -27000,8 +26989,8 @@ pub struct odbpthis_aux {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpthis_aux"][::std::mem::size_of::<odbpthis_aux>() - 96usize];
-    ["Alignment of odbpthis_aux"][::std::mem::align_of::<odbpthis_aux>() - 8usize];
+    ["Size of odbpthis_aux"][::std::mem::size_of::<odbpthis_aux>() - 72usize];
+    ["Alignment of odbpthis_aux"][::std::mem::align_of::<odbpthis_aux>() - 4usize];
     ["Offset of field: odbpthis_aux::l_value"]
         [::std::mem::offset_of!(odbpthis_aux, l_value) - 0usize];
     ["Offset of field: odbpthis_aux::l_value_e"]
@@ -27013,26 +27002,26 @@ const _: () = {
     ["Offset of field: odbpthis_aux::repeat_sub"]
         [::std::mem::offset_of!(odbpthis_aux, repeat_sub) - 32usize];
     ["Offset of field: odbpthis_aux::repeat_e_sub"]
-        [::std::mem::offset_of!(odbpthis_aux, repeat_e_sub) - 40usize];
+        [::std::mem::offset_of!(odbpthis_aux, repeat_e_sub) - 36usize];
     ["Offset of field: odbpthis_aux::m_code"]
-        [::std::mem::offset_of!(odbpthis_aux, m_code) - 48usize];
-    ["Offset of field: odbpthis_aux::info1"][::std::mem::offset_of!(odbpthis_aux, info1) - 72usize];
+        [::std::mem::offset_of!(odbpthis_aux, m_code) - 40usize];
+    ["Offset of field: odbpthis_aux::info1"][::std::mem::offset_of!(odbpthis_aux, info1) - 52usize];
     ["Offset of field: odbpthis_aux::number"]
-        [::std::mem::offset_of!(odbpthis_aux, number) - 80usize];
+        [::std::mem::offset_of!(odbpthis_aux, number) - 56usize];
     ["Offset of field: odbpthis_aux::number_sub"]
-        [::std::mem::offset_of!(odbpthis_aux, number_sub) - 82usize];
+        [::std::mem::offset_of!(odbpthis_aux, number_sub) - 58usize];
     ["Offset of field: odbpthis_aux::table_kind"]
-        [::std::mem::offset_of!(odbpthis_aux, table_kind) - 84usize];
+        [::std::mem::offset_of!(odbpthis_aux, table_kind) - 60usize];
     ["Offset of field: odbpthis_aux::m_count"]
-        [::std::mem::offset_of!(odbpthis_aux, m_count) - 86usize];
+        [::std::mem::offset_of!(odbpthis_aux, m_count) - 62usize];
     ["Offset of field: odbpthis_aux::master_indx_no_pt"]
-        [::std::mem::offset_of!(odbpthis_aux, master_indx_no_pt) - 87usize];
+        [::std::mem::offset_of!(odbpthis_aux, master_indx_no_pt) - 63usize];
     ["Offset of field: odbpthis_aux::master_indx_no_rel"]
-        [::std::mem::offset_of!(odbpthis_aux, master_indx_no_rel) - 88usize];
+        [::std::mem::offset_of!(odbpthis_aux, master_indx_no_rel) - 64usize];
     ["Offset of field: odbpthis_aux::l_frac"]
-        [::std::mem::offset_of!(odbpthis_aux, l_frac) - 89usize];
+        [::std::mem::offset_of!(odbpthis_aux, l_frac) - 65usize];
     ["Offset of field: odbpthis_aux::reserve1"]
-        [::std::mem::offset_of!(odbpthis_aux, reserve1) - 90usize];
+        [::std::mem::offset_of!(odbpthis_aux, reserve1) - 66usize];
 };
 pub type ODBPTHIS_AUX = odbpthis_aux;
 #[repr(C)]
@@ -27061,14 +27050,14 @@ pub struct odbptcnvinfo2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbptcnvinfo2"][::std::mem::size_of::<odbptcnvinfo2>() - 240usize];
-    ["Alignment of odbptcnvinfo2"][::std::mem::align_of::<odbptcnvinfo2>() - 8usize];
+    ["Size of odbptcnvinfo2"][::std::mem::size_of::<odbptcnvinfo2>() - 160usize];
+    ["Alignment of odbptcnvinfo2"][::std::mem::align_of::<odbptcnvinfo2>() - 4usize];
     ["Offset of field: odbptcnvinfo2::executing"]
         [::std::mem::offset_of!(odbptcnvinfo2, executing) - 0usize];
     ["Offset of field: odbptcnvinfo2::conv_status"]
         [::std::mem::offset_of!(odbptcnvinfo2, conv_status) - 40usize];
     ["Offset of field: odbptcnvinfo2::ofs_change"]
-        [::std::mem::offset_of!(odbptcnvinfo2, ofs_change) - 200usize];
+        [::std::mem::offset_of!(odbptcnvinfo2, ofs_change) - 120usize];
 };
 pub type ODBPTCNVINFO2 = odbptcnvinfo2;
 #[repr(C)]
@@ -27078,8 +27067,8 @@ pub struct odbaxsts_bg {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbaxsts_bg"][::std::mem::size_of::<odbaxsts_bg>() - 8usize];
-    ["Alignment of odbaxsts_bg"][::std::mem::align_of::<odbaxsts_bg>() - 8usize];
+    ["Size of odbaxsts_bg"][::std::mem::size_of::<odbaxsts_bg>() - 4usize];
+    ["Alignment of odbaxsts_bg"][::std::mem::align_of::<odbaxsts_bg>() - 4usize];
     ["Offset of field: odbaxsts_bg::flag"][::std::mem::offset_of!(odbaxsts_bg, flag) - 0usize];
 };
 pub type ODBAXSTS_BG = odbaxsts_bg;
@@ -27091,10 +27080,10 @@ pub struct iodbpalax {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpalax"][::std::mem::size_of::<iodbpalax>() - 264usize];
-    ["Alignment of iodbpalax"][::std::mem::align_of::<iodbpalax>() - 8usize];
+    ["Size of iodbpalax"][::std::mem::size_of::<iodbpalax>() - 132usize];
+    ["Alignment of iodbpalax"][::std::mem::align_of::<iodbpalax>() - 4usize];
     ["Offset of field: iodbpalax::max_pal"][::std::mem::offset_of!(iodbpalax, max_pal) - 0usize];
-    ["Offset of field: iodbpalax::data"][::std::mem::offset_of!(iodbpalax, data) - 8usize];
+    ["Offset of field: iodbpalax::data"][::std::mem::offset_of!(iodbpalax, data) - 4usize];
 };
 pub type IODBPALAX = iodbpalax;
 #[repr(C)]
@@ -27137,14 +27126,14 @@ pub struct odbrstlist {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbrstlist"][::std::mem::size_of::<odbrstlist>() - 264usize];
-    ["Alignment of odbrstlist"][::std::mem::align_of::<odbrstlist>() - 8usize];
+    ["Size of odbrstlist"][::std::mem::size_of::<odbrstlist>() - 256usize];
+    ["Alignment of odbrstlist"][::std::mem::align_of::<odbrstlist>() - 4usize];
     ["Offset of field: odbrstlist::prg_name"]
         [::std::mem::offset_of!(odbrstlist, prg_name) - 0usize];
     ["Offset of field: odbrstlist::dummy"][::std::mem::offset_of!(odbrstlist, dummy) - 246usize];
     ["Offset of field: odbrstlist::seq_no"][::std::mem::offset_of!(odbrstlist, seq_no) - 248usize];
     ["Offset of field: odbrstlist::c_blck_cnt"]
-        [::std::mem::offset_of!(odbrstlist, c_blck_cnt) - 256usize];
+        [::std::mem::offset_of!(odbrstlist, c_blck_cnt) - 252usize];
 };
 impl Default for odbrstlist {
     fn default() -> Self {
@@ -27174,8 +27163,8 @@ pub struct odbrstlist2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbrstlist2"][::std::mem::size_of::<odbrstlist2>() - 312usize];
-    ["Alignment of odbrstlist2"][::std::mem::align_of::<odbrstlist2>() - 8usize];
+    ["Size of odbrstlist2"][::std::mem::size_of::<odbrstlist2>() - 280usize];
+    ["Alignment of odbrstlist2"][::std::mem::align_of::<odbrstlist2>() - 4usize];
     ["Offset of field: odbrstlist2::prg_name"]
         [::std::mem::offset_of!(odbrstlist2, prg_name) - 0usize];
     ["Offset of field: odbrstlist2::status"]
@@ -27184,20 +27173,20 @@ const _: () = {
     ["Offset of field: odbrstlist2::seq_no"]
         [::std::mem::offset_of!(odbrstlist2, seq_no) - 248usize];
     ["Offset of field: odbrstlist2::wait_m_code"]
-        [::std::mem::offset_of!(odbrstlist2, wait_m_code) - 256usize];
+        [::std::mem::offset_of!(odbrstlist2, wait_m_code) - 252usize];
     ["Offset of field: odbrstlist2::c_blck_cnt"]
-        [::std::mem::offset_of!(odbrstlist2, c_blck_cnt) - 264usize];
+        [::std::mem::offset_of!(odbrstlist2, c_blck_cnt) - 256usize];
     ["Offset of field: odbrstlist2::time_s"]
-        [::std::mem::offset_of!(odbrstlist2, time_s) - 272usize];
+        [::std::mem::offset_of!(odbrstlist2, time_s) - 260usize];
     ["Offset of field: odbrstlist2::time_m"]
-        [::std::mem::offset_of!(odbrstlist2, time_m) - 273usize];
+        [::std::mem::offset_of!(odbrstlist2, time_m) - 261usize];
     ["Offset of field: odbrstlist2::time_h"]
-        [::std::mem::offset_of!(odbrstlist2, time_h) - 274usize];
+        [::std::mem::offset_of!(odbrstlist2, time_h) - 262usize];
     ["Offset of field: odbrstlist2::time_d"]
-        [::std::mem::offset_of!(odbrstlist2, time_d) - 275usize];
-    ["Offset of field: odbrstlist2::id_no"][::std::mem::offset_of!(odbrstlist2, id_no) - 280usize];
+        [::std::mem::offset_of!(odbrstlist2, time_d) - 263usize];
+    ["Offset of field: odbrstlist2::id_no"][::std::mem::offset_of!(odbrstlist2, id_no) - 264usize];
     ["Offset of field: odbrstlist2::reserve"]
-        [::std::mem::offset_of!(odbrstlist2, reserve) - 288usize];
+        [::std::mem::offset_of!(odbrstlist2, reserve) - 268usize];
 };
 impl Default for odbrstlist2 {
     fn default() -> Self {
@@ -27232,41 +27221,41 @@ pub struct iodbrstinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbrstinfo"][::std::mem::size_of::<iodbrstinfo>() - 560usize];
-    ["Alignment of iodbrstinfo"][::std::mem::align_of::<iodbrstinfo>() - 8usize];
+    ["Size of iodbrstinfo"][::std::mem::size_of::<iodbrstinfo>() - 532usize];
+    ["Alignment of iodbrstinfo"][::std::mem::align_of::<iodbrstinfo>() - 4usize];
     ["Offset of field: iodbrstinfo::seq_no"][::std::mem::offset_of!(iodbrstinfo, seq_no) - 0usize];
     ["Offset of field: iodbrstinfo::c_blck_cnt"]
-        [::std::mem::offset_of!(iodbrstinfo, c_blck_cnt) - 8usize];
+        [::std::mem::offset_of!(iodbrstinfo, c_blck_cnt) - 4usize];
     ["Offset of field: iodbrstinfo::t_blck_cnt"]
-        [::std::mem::offset_of!(iodbrstinfo, t_blck_cnt) - 16usize];
+        [::std::mem::offset_of!(iodbrstinfo, t_blck_cnt) - 8usize];
     ["Offset of field: iodbrstinfo::call_from_no"]
-        [::std::mem::offset_of!(iodbrstinfo, call_from_no) - 24usize];
+        [::std::mem::offset_of!(iodbrstinfo, call_from_no) - 12usize];
     ["Offset of field: iodbrstinfo::call_from_blck"]
-        [::std::mem::offset_of!(iodbrstinfo, call_from_blck) - 32usize];
+        [::std::mem::offset_of!(iodbrstinfo, call_from_blck) - 16usize];
     ["Offset of field: iodbrstinfo::prg_rep"]
-        [::std::mem::offset_of!(iodbrstinfo, prg_rep) - 40usize];
+        [::std::mem::offset_of!(iodbrstinfo, prg_rep) - 20usize];
     ["Offset of field: iodbrstinfo::seq_rep"]
-        [::std::mem::offset_of!(iodbrstinfo, seq_rep) - 42usize];
+        [::std::mem::offset_of!(iodbrstinfo, seq_rep) - 22usize];
     ["Offset of field: iodbrstinfo::c_blck_rep"]
-        [::std::mem::offset_of!(iodbrstinfo, c_blck_rep) - 44usize];
+        [::std::mem::offset_of!(iodbrstinfo, c_blck_rep) - 24usize];
     ["Offset of field: iodbrstinfo::nest_lv"]
-        [::std::mem::offset_of!(iodbrstinfo, nest_lv) - 46usize];
+        [::std::mem::offset_of!(iodbrstinfo, nest_lv) - 26usize];
     ["Offset of field: iodbrstinfo::prg_name"]
-        [::std::mem::offset_of!(iodbrstinfo, prg_name) - 48usize];
+        [::std::mem::offset_of!(iodbrstinfo, prg_name) - 28usize];
     ["Offset of field: iodbrstinfo::dummy1"]
-        [::std::mem::offset_of!(iodbrstinfo, dummy1) - 294usize];
+        [::std::mem::offset_of!(iodbrstinfo, dummy1) - 274usize];
     ["Offset of field: iodbrstinfo::call_from_prg"]
-        [::std::mem::offset_of!(iodbrstinfo, call_from_prg) - 296usize];
+        [::std::mem::offset_of!(iodbrstinfo, call_from_prg) - 276usize];
     ["Offset of field: iodbrstinfo::dummy2"]
-        [::std::mem::offset_of!(iodbrstinfo, dummy2) - 542usize];
+        [::std::mem::offset_of!(iodbrstinfo, dummy2) - 522usize];
     ["Offset of field: iodbrstinfo::edit_flag"]
-        [::std::mem::offset_of!(iodbrstinfo, edit_flag) - 544usize];
+        [::std::mem::offset_of!(iodbrstinfo, edit_flag) - 524usize];
     ["Offset of field: iodbrstinfo::reserve"]
-        [::std::mem::offset_of!(iodbrstinfo, reserve) - 545usize];
+        [::std::mem::offset_of!(iodbrstinfo, reserve) - 525usize];
     ["Offset of field: iodbrstinfo::repeat"]
-        [::std::mem::offset_of!(iodbrstinfo, repeat) - 546usize];
+        [::std::mem::offset_of!(iodbrstinfo, repeat) - 526usize];
     ["Offset of field: iodbrstinfo::wait_m_code"]
-        [::std::mem::offset_of!(iodbrstinfo, wait_m_code) - 552usize];
+        [::std::mem::offset_of!(iodbrstinfo, wait_m_code) - 528usize];
 };
 impl Default for iodbrstinfo {
     fn default() -> Self {
@@ -27307,54 +27296,54 @@ pub struct iodbrstinfo2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbrstinfo2"][::std::mem::size_of::<iodbrstinfo2>() - 600usize];
-    ["Alignment of iodbrstinfo2"][::std::mem::align_of::<iodbrstinfo2>() - 8usize];
+    ["Size of iodbrstinfo2"][::std::mem::size_of::<iodbrstinfo2>() - 552usize];
+    ["Alignment of iodbrstinfo2"][::std::mem::align_of::<iodbrstinfo2>() - 4usize];
     ["Offset of field: iodbrstinfo2::seq_no"]
         [::std::mem::offset_of!(iodbrstinfo2, seq_no) - 0usize];
     ["Offset of field: iodbrstinfo2::c_blck_cnt"]
-        [::std::mem::offset_of!(iodbrstinfo2, c_blck_cnt) - 8usize];
+        [::std::mem::offset_of!(iodbrstinfo2, c_blck_cnt) - 4usize];
     ["Offset of field: iodbrstinfo2::t_blck_cnt"]
-        [::std::mem::offset_of!(iodbrstinfo2, t_blck_cnt) - 16usize];
+        [::std::mem::offset_of!(iodbrstinfo2, t_blck_cnt) - 8usize];
     ["Offset of field: iodbrstinfo2::call_from_no"]
-        [::std::mem::offset_of!(iodbrstinfo2, call_from_no) - 24usize];
+        [::std::mem::offset_of!(iodbrstinfo2, call_from_no) - 12usize];
     ["Offset of field: iodbrstinfo2::call_from_blck"]
-        [::std::mem::offset_of!(iodbrstinfo2, call_from_blck) - 32usize];
+        [::std::mem::offset_of!(iodbrstinfo2, call_from_blck) - 16usize];
     ["Offset of field: iodbrstinfo2::prg_rep"]
-        [::std::mem::offset_of!(iodbrstinfo2, prg_rep) - 40usize];
+        [::std::mem::offset_of!(iodbrstinfo2, prg_rep) - 20usize];
     ["Offset of field: iodbrstinfo2::seq_rep"]
-        [::std::mem::offset_of!(iodbrstinfo2, seq_rep) - 42usize];
+        [::std::mem::offset_of!(iodbrstinfo2, seq_rep) - 22usize];
     ["Offset of field: iodbrstinfo2::c_blck_rep"]
-        [::std::mem::offset_of!(iodbrstinfo2, c_blck_rep) - 44usize];
+        [::std::mem::offset_of!(iodbrstinfo2, c_blck_rep) - 24usize];
     ["Offset of field: iodbrstinfo2::nest_lv"]
-        [::std::mem::offset_of!(iodbrstinfo2, nest_lv) - 46usize];
+        [::std::mem::offset_of!(iodbrstinfo2, nest_lv) - 26usize];
     ["Offset of field: iodbrstinfo2::prg_name"]
-        [::std::mem::offset_of!(iodbrstinfo2, prg_name) - 48usize];
+        [::std::mem::offset_of!(iodbrstinfo2, prg_name) - 28usize];
     ["Offset of field: iodbrstinfo2::dummy1"]
-        [::std::mem::offset_of!(iodbrstinfo2, dummy1) - 294usize];
+        [::std::mem::offset_of!(iodbrstinfo2, dummy1) - 274usize];
     ["Offset of field: iodbrstinfo2::call_from_prg"]
-        [::std::mem::offset_of!(iodbrstinfo2, call_from_prg) - 296usize];
+        [::std::mem::offset_of!(iodbrstinfo2, call_from_prg) - 276usize];
     ["Offset of field: iodbrstinfo2::dummy2"]
-        [::std::mem::offset_of!(iodbrstinfo2, dummy2) - 542usize];
+        [::std::mem::offset_of!(iodbrstinfo2, dummy2) - 522usize];
     ["Offset of field: iodbrstinfo2::edit_flag"]
-        [::std::mem::offset_of!(iodbrstinfo2, edit_flag) - 544usize];
+        [::std::mem::offset_of!(iodbrstinfo2, edit_flag) - 524usize];
     ["Offset of field: iodbrstinfo2::reserve"]
-        [::std::mem::offset_of!(iodbrstinfo2, reserve) - 545usize];
+        [::std::mem::offset_of!(iodbrstinfo2, reserve) - 525usize];
     ["Offset of field: iodbrstinfo2::repeat"]
-        [::std::mem::offset_of!(iodbrstinfo2, repeat) - 546usize];
+        [::std::mem::offset_of!(iodbrstinfo2, repeat) - 526usize];
     ["Offset of field: iodbrstinfo2::wait_m_code"]
-        [::std::mem::offset_of!(iodbrstinfo2, wait_m_code) - 552usize];
+        [::std::mem::offset_of!(iodbrstinfo2, wait_m_code) - 528usize];
     ["Offset of field: iodbrstinfo2::time_s"]
-        [::std::mem::offset_of!(iodbrstinfo2, time_s) - 560usize];
+        [::std::mem::offset_of!(iodbrstinfo2, time_s) - 532usize];
     ["Offset of field: iodbrstinfo2::time_m"]
-        [::std::mem::offset_of!(iodbrstinfo2, time_m) - 561usize];
+        [::std::mem::offset_of!(iodbrstinfo2, time_m) - 533usize];
     ["Offset of field: iodbrstinfo2::time_h"]
-        [::std::mem::offset_of!(iodbrstinfo2, time_h) - 562usize];
+        [::std::mem::offset_of!(iodbrstinfo2, time_h) - 534usize];
     ["Offset of field: iodbrstinfo2::time_d"]
-        [::std::mem::offset_of!(iodbrstinfo2, time_d) - 563usize];
+        [::std::mem::offset_of!(iodbrstinfo2, time_d) - 535usize];
     ["Offset of field: iodbrstinfo2::id_no"]
-        [::std::mem::offset_of!(iodbrstinfo2, id_no) - 568usize];
+        [::std::mem::offset_of!(iodbrstinfo2, id_no) - 536usize];
     ["Offset of field: iodbrstinfo2::reserve2"]
-        [::std::mem::offset_of!(iodbrstinfo2, reserve2) - 576usize];
+        [::std::mem::offset_of!(iodbrstinfo2, reserve2) - 540usize];
 };
 impl Default for iodbrstinfo2 {
     fn default() -> Self {
@@ -27376,16 +27365,16 @@ pub struct odbrstmpinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbrstmpinfo"][::std::mem::size_of::<odbrstmpinfo>() - 272usize];
-    ["Alignment of odbrstmpinfo"][::std::mem::align_of::<odbrstmpinfo>() - 8usize];
+    ["Size of odbrstmpinfo"][::std::mem::size_of::<odbrstmpinfo>() - 260usize];
+    ["Alignment of odbrstmpinfo"][::std::mem::align_of::<odbrstmpinfo>() - 4usize];
     ["Offset of field: odbrstmpinfo::u_block_num"]
         [::std::mem::offset_of!(odbrstmpinfo, u_block_num) - 0usize];
     ["Offset of field: odbrstmpinfo::mltpiece_all"]
-        [::std::mem::offset_of!(odbrstmpinfo, mltpiece_all) - 8usize];
+        [::std::mem::offset_of!(odbrstmpinfo, mltpiece_all) - 4usize];
     ["Offset of field: odbrstmpinfo::mltpiece_exe"]
-        [::std::mem::offset_of!(odbrstmpinfo, mltpiece_exe) - 16usize];
+        [::std::mem::offset_of!(odbrstmpinfo, mltpiece_exe) - 8usize];
     ["Offset of field: odbrstmpinfo::u_file_name"]
-        [::std::mem::offset_of!(odbrstmpinfo, u_file_name) - 24usize];
+        [::std::mem::offset_of!(odbrstmpinfo, u_file_name) - 12usize];
 };
 impl Default for odbrstmpinfo {
     fn default() -> Self {
@@ -27405,10 +27394,10 @@ pub struct iodbsuofs {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbsuofs"][::std::mem::size_of::<iodbsuofs>() - 16usize];
-    ["Alignment of iodbsuofs"][::std::mem::align_of::<iodbsuofs>() - 8usize];
+    ["Size of iodbsuofs"][::std::mem::size_of::<iodbsuofs>() - 8usize];
+    ["Alignment of iodbsuofs"][::std::mem::align_of::<iodbsuofs>() - 4usize];
     ["Offset of field: iodbsuofs::vect_val"][::std::mem::offset_of!(iodbsuofs, vect_val) - 0usize];
-    ["Offset of field: iodbsuofs::frc_dgt"][::std::mem::offset_of!(iodbsuofs, frc_dgt) - 8usize];
+    ["Offset of field: iodbsuofs::frc_dgt"][::std::mem::offset_of!(iodbsuofs, frc_dgt) - 4usize];
 };
 pub type ODBSUOVECT = iodbsuofs;
 #[repr(C)]
@@ -27420,12 +27409,12 @@ pub struct odbsuodata {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsuodata"][::std::mem::size_of::<odbsuodata>() - 24usize];
-    ["Alignment of odbsuodata"][::std::mem::align_of::<odbsuodata>() - 8usize];
+    ["Size of odbsuodata"][::std::mem::size_of::<odbsuodata>() - 12usize];
+    ["Alignment of odbsuodata"][::std::mem::align_of::<odbsuodata>() - 4usize];
     ["Offset of field: odbsuodata::data_name"]
         [::std::mem::offset_of!(odbsuodata, data_name) - 0usize];
-    ["Offset of field: odbsuodata::prm_val"][::std::mem::offset_of!(odbsuodata, prm_val) - 8usize];
-    ["Offset of field: odbsuodata::frc_dgt"][::std::mem::offset_of!(odbsuodata, frc_dgt) - 16usize];
+    ["Offset of field: odbsuodata::prm_val"][::std::mem::offset_of!(odbsuodata, prm_val) - 4usize];
+    ["Offset of field: odbsuodata::frc_dgt"][::std::mem::offset_of!(odbsuodata, frc_dgt) - 8usize];
 };
 pub type ODBSUODATA = odbsuodata;
 #[repr(C)]
@@ -27442,19 +27431,19 @@ pub struct odbfilestatus {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbfilestatus"][::std::mem::size_of::<odbfilestatus>() - 40usize];
-    ["Alignment of odbfilestatus"][::std::mem::align_of::<odbfilestatus>() - 8usize];
+    ["Size of odbfilestatus"][::std::mem::size_of::<odbfilestatus>() - 32usize];
+    ["Alignment of odbfilestatus"][::std::mem::align_of::<odbfilestatus>() - 4usize];
     ["Offset of field: odbfilestatus::size"][::std::mem::offset_of!(odbfilestatus, size) - 0usize];
-    ["Offset of field: odbfilestatus::min"][::std::mem::offset_of!(odbfilestatus, min) - 8usize];
-    ["Offset of field: odbfilestatus::hour"][::std::mem::offset_of!(odbfilestatus, hour) - 9usize];
-    ["Offset of field: odbfilestatus::day"][::std::mem::offset_of!(odbfilestatus, day) - 10usize];
+    ["Offset of field: odbfilestatus::min"][::std::mem::offset_of!(odbfilestatus, min) - 4usize];
+    ["Offset of field: odbfilestatus::hour"][::std::mem::offset_of!(odbfilestatus, hour) - 5usize];
+    ["Offset of field: odbfilestatus::day"][::std::mem::offset_of!(odbfilestatus, day) - 6usize];
     ["Offset of field: odbfilestatus::month"]
-        [::std::mem::offset_of!(odbfilestatus, month) - 11usize];
-    ["Offset of field: odbfilestatus::year"][::std::mem::offset_of!(odbfilestatus, year) - 12usize];
+        [::std::mem::offset_of!(odbfilestatus, month) - 7usize];
+    ["Offset of field: odbfilestatus::year"][::std::mem::offset_of!(odbfilestatus, year) - 8usize];
     ["Offset of field: odbfilestatus::reserve"]
-        [::std::mem::offset_of!(odbfilestatus, reserve) - 14usize];
+        [::std::mem::offset_of!(odbfilestatus, reserve) - 10usize];
     ["Offset of field: odbfilestatus::filename"]
-        [::std::mem::offset_of!(odbfilestatus, filename) - 16usize];
+        [::std::mem::offset_of!(odbfilestatus, filename) - 12usize];
 };
 pub type ODBFILESTATUS = odbfilestatus;
 #[repr(C)]
@@ -27522,8 +27511,8 @@ pub struct odbpmcaxisinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpmcaxisinfo"][::std::mem::size_of::<odbpmcaxisinfo>() - 80usize];
-    ["Alignment of odbpmcaxisinfo"][::std::mem::align_of::<odbpmcaxisinfo>() - 8usize];
+    ["Size of odbpmcaxisinfo"][::std::mem::size_of::<odbpmcaxisinfo>() - 44usize];
+    ["Alignment of odbpmcaxisinfo"][::std::mem::align_of::<odbpmcaxisinfo>() - 4usize];
     ["Offset of field: odbpmcaxisinfo::datastatus"]
         [::std::mem::offset_of!(odbpmcaxisinfo, datastatus) - 0usize];
     ["Offset of field: odbpmcaxisinfo::axisstatus"]
@@ -27541,23 +27530,23 @@ const _: () = {
     ["Offset of field: odbpmcaxisinfo::axisctrldata"]
         [::std::mem::offset_of!(odbpmcaxisinfo, axisctrldata) - 8usize];
     ["Offset of field: odbpmcaxisinfo::subinstnum"]
-        [::std::mem::offset_of!(odbpmcaxisinfo, subinstnum) - 16usize];
+        [::std::mem::offset_of!(odbpmcaxisinfo, subinstnum) - 12usize];
     ["Offset of field: odbpmcaxisinfo::subinstlength"]
-        [::std::mem::offset_of!(odbpmcaxisinfo, subinstlength) - 18usize];
+        [::std::mem::offset_of!(odbpmcaxisinfo, subinstlength) - 14usize];
     ["Offset of field: odbpmcaxisinfo::subinstdata1"]
-        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata1) - 24usize];
+        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata1) - 16usize];
     ["Offset of field: odbpmcaxisinfo::subinstdata2"]
-        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata2) - 32usize];
+        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata2) - 20usize];
     ["Offset of field: odbpmcaxisinfo::subinstdata3"]
-        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata3) - 40usize];
+        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata3) - 24usize];
     ["Offset of field: odbpmcaxisinfo::subinstdata4"]
-        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata4) - 48usize];
+        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata4) - 28usize];
     ["Offset of field: odbpmcaxisinfo::subinstdata5"]
-        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata5) - 56usize];
+        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata5) - 32usize];
     ["Offset of field: odbpmcaxisinfo::subinstdata6"]
-        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata6) - 64usize];
+        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata6) - 36usize];
     ["Offset of field: odbpmcaxisinfo::subinstdata7"]
-        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata7) - 72usize];
+        [::std::mem::offset_of!(odbpmcaxisinfo, subinstdata7) - 40usize];
 };
 pub type ODBPMCAXISINFO = odbpmcaxisinfo;
 #[repr(C)]
@@ -27577,8 +27566,8 @@ pub struct odbmddinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmddinfo"][::std::mem::size_of::<odbmddinfo>() - 40usize];
-    ["Alignment of odbmddinfo"][::std::mem::align_of::<odbmddinfo>() - 8usize];
+    ["Size of odbmddinfo"][::std::mem::size_of::<odbmddinfo>() - 28usize];
+    ["Alignment of odbmddinfo"][::std::mem::align_of::<odbmddinfo>() - 4usize];
     ["Offset of field: odbmddinfo::status"][::std::mem::offset_of!(odbmddinfo, status) - 0usize];
     ["Offset of field: odbmddinfo::prot"][::std::mem::offset_of!(odbmddinfo, prot) - 2usize];
     ["Offset of field: odbmddinfo::year"][::std::mem::offset_of!(odbmddinfo, year) - 4usize];
@@ -27590,9 +27579,9 @@ const _: () = {
     ["Offset of field: odbmddinfo::reg_code"]
         [::std::mem::offset_of!(odbmddinfo, reg_code) - 16usize];
     ["Offset of field: odbmddinfo::cur_code"]
-        [::std::mem::offset_of!(odbmddinfo, cur_code) - 24usize];
+        [::std::mem::offset_of!(odbmddinfo, cur_code) - 20usize];
     ["Offset of field: odbmddinfo::modulate"]
-        [::std::mem::offset_of!(odbmddinfo, modulate) - 32usize];
+        [::std::mem::offset_of!(odbmddinfo, modulate) - 24usize];
 };
 pub type ODBMDDINFO = odbmddinfo;
 #[repr(C)]
@@ -27603,12 +27592,12 @@ pub struct iodbmddexceptinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbmddexceptinfo"][::std::mem::size_of::<iodbmddexceptinfo>() - 16usize];
-    ["Alignment of iodbmddexceptinfo"][::std::mem::align_of::<iodbmddexceptinfo>() - 8usize];
+    ["Size of iodbmddexceptinfo"][::std::mem::size_of::<iodbmddexceptinfo>() - 8usize];
+    ["Alignment of iodbmddexceptinfo"][::std::mem::align_of::<iodbmddexceptinfo>() - 4usize];
     ["Offset of field: iodbmddexceptinfo::sno"]
         [::std::mem::offset_of!(iodbmddexceptinfo, sno) - 0usize];
     ["Offset of field: iodbmddexceptinfo::eno"]
-        [::std::mem::offset_of!(iodbmddexceptinfo, eno) - 8usize];
+        [::std::mem::offset_of!(iodbmddexceptinfo, eno) - 4usize];
 };
 pub type IODBMDDEXCEPTPRM = iodbmddexceptinfo;
 #[repr(C)]
@@ -27621,16 +27610,16 @@ pub struct odbusbsize {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbusbsize"][::std::mem::size_of::<odbusbsize>() - 32usize];
-    ["Alignment of odbusbsize"][::std::mem::align_of::<odbusbsize>() - 8usize];
+    ["Size of odbusbsize"][::std::mem::size_of::<odbusbsize>() - 16usize];
+    ["Alignment of odbusbsize"][::std::mem::align_of::<odbusbsize>() - 4usize];
     ["Offset of field: odbusbsize::totalsize_h"]
         [::std::mem::offset_of!(odbusbsize, totalsize_h) - 0usize];
     ["Offset of field: odbusbsize::totalsize_l"]
-        [::std::mem::offset_of!(odbusbsize, totalsize_l) - 8usize];
+        [::std::mem::offset_of!(odbusbsize, totalsize_l) - 4usize];
     ["Offset of field: odbusbsize::freesize_h"]
-        [::std::mem::offset_of!(odbusbsize, freesize_h) - 16usize];
+        [::std::mem::offset_of!(odbusbsize, freesize_h) - 8usize];
     ["Offset of field: odbusbsize::freesize_l"]
-        [::std::mem::offset_of!(odbusbsize, freesize_l) - 24usize];
+        [::std::mem::offset_of!(odbusbsize, freesize_l) - 12usize];
 };
 pub type ODBUSBSIZE = odbusbsize;
 #[repr(C)]
@@ -27647,20 +27636,20 @@ pub struct idbusbfile {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbusbfile"][::std::mem::size_of::<idbusbfile>() - 272usize];
-    ["Alignment of idbusbfile"][::std::mem::align_of::<idbusbfile>() - 8usize];
+    ["Size of idbusbfile"][::std::mem::size_of::<idbusbfile>() - 268usize];
+    ["Alignment of idbusbfile"][::std::mem::align_of::<idbusbfile>() - 4usize];
     ["Offset of field: idbusbfile::path"][::std::mem::offset_of!(idbusbfile, path) - 0usize];
     ["Offset of field: idbusbfile::offset"][::std::mem::offset_of!(idbusbfile, offset) - 256usize];
     ["Offset of field: idbusbfile::req_num"]
-        [::std::mem::offset_of!(idbusbfile, req_num) - 264usize];
+        [::std::mem::offset_of!(idbusbfile, req_num) - 260usize];
     ["Offset of field: idbusbfile::req_attrib"]
-        [::std::mem::offset_of!(idbusbfile, req_attrib) - 266usize];
-    ["Offset of field: idbusbfile::sort"][::std::mem::offset_of!(idbusbfile, sort) - 268usize];
+        [::std::mem::offset_of!(idbusbfile, req_attrib) - 262usize];
+    ["Offset of field: idbusbfile::sort"][::std::mem::offset_of!(idbusbfile, sort) - 264usize];
     ["Offset of field: idbusbfile::req_comment"]
-        [::std::mem::offset_of!(idbusbfile, req_comment) - 269usize];
+        [::std::mem::offset_of!(idbusbfile, req_comment) - 265usize];
     ["Offset of field: idbusbfile::req_total"]
-        [::std::mem::offset_of!(idbusbfile, req_total) - 270usize];
-    ["Offset of field: idbusbfile::dummy"][::std::mem::offset_of!(idbusbfile, dummy) - 271usize];
+        [::std::mem::offset_of!(idbusbfile, req_total) - 266usize];
+    ["Offset of field: idbusbfile::dummy"][::std::mem::offset_of!(idbusbfile, dummy) - 267usize];
 };
 impl Default for idbusbfile {
     fn default() -> Self {
@@ -27682,13 +27671,13 @@ pub struct odbusbinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbusbinfo"][::std::mem::size_of::<odbusbinfo>() - 16usize];
-    ["Alignment of odbusbinfo"][::std::mem::align_of::<odbusbinfo>() - 8usize];
+    ["Size of odbusbinfo"][::std::mem::size_of::<odbusbinfo>() - 8usize];
+    ["Alignment of odbusbinfo"][::std::mem::align_of::<odbusbinfo>() - 4usize];
     ["Offset of field: odbusbinfo::f_num"][::std::mem::offset_of!(odbusbinfo, f_num) - 0usize];
     ["Offset of field: odbusbinfo::next_entry"]
         [::std::mem::offset_of!(odbusbinfo, next_entry) - 2usize];
     ["Offset of field: odbusbinfo::dummy"][::std::mem::offset_of!(odbusbinfo, dummy) - 3usize];
-    ["Offset of field: odbusbinfo::total"][::std::mem::offset_of!(odbusbinfo, total) - 8usize];
+    ["Offset of field: odbusbinfo::total"][::std::mem::offset_of!(odbusbinfo, total) - 4usize];
 };
 pub type ODBUSBINFO = odbusbinfo;
 #[repr(C)]
@@ -27709,22 +27698,22 @@ pub struct odbusbfile {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbusbfile"][::std::mem::size_of::<odbusbfile>() - 120usize];
-    ["Alignment of odbusbfile"][::std::mem::align_of::<odbusbfile>() - 8usize];
+    ["Size of odbusbfile"][::std::mem::size_of::<odbusbfile>() - 116usize];
+    ["Alignment of odbusbfile"][::std::mem::align_of::<odbusbfile>() - 4usize];
     ["Offset of field: odbusbfile::size"][::std::mem::offset_of!(odbusbfile, size) - 0usize];
     ["Offset of field: odbusbfile::attribute"]
-        [::std::mem::offset_of!(odbusbfile, attribute) - 8usize];
+        [::std::mem::offset_of!(odbusbfile, attribute) - 4usize];
     ["Offset of field: odbusbfile::long_name"]
-        [::std::mem::offset_of!(odbusbfile, long_name) - 10usize];
-    ["Offset of field: odbusbfile::year"][::std::mem::offset_of!(odbusbfile, year) - 12usize];
-    ["Offset of field: odbusbfile::mon"][::std::mem::offset_of!(odbusbfile, mon) - 14usize];
-    ["Offset of field: odbusbfile::day"][::std::mem::offset_of!(odbusbfile, day) - 15usize];
-    ["Offset of field: odbusbfile::hour"][::std::mem::offset_of!(odbusbfile, hour) - 16usize];
-    ["Offset of field: odbusbfile::min"][::std::mem::offset_of!(odbusbfile, min) - 17usize];
-    ["Offset of field: odbusbfile::sec"][::std::mem::offset_of!(odbusbfile, sec) - 18usize];
-    ["Offset of field: odbusbfile::dummy"][::std::mem::offset_of!(odbusbfile, dummy) - 19usize];
-    ["Offset of field: odbusbfile::fname"][::std::mem::offset_of!(odbusbfile, fname) - 20usize];
-    ["Offset of field: odbusbfile::comment"][::std::mem::offset_of!(odbusbfile, comment) - 56usize];
+        [::std::mem::offset_of!(odbusbfile, long_name) - 6usize];
+    ["Offset of field: odbusbfile::year"][::std::mem::offset_of!(odbusbfile, year) - 8usize];
+    ["Offset of field: odbusbfile::mon"][::std::mem::offset_of!(odbusbfile, mon) - 10usize];
+    ["Offset of field: odbusbfile::day"][::std::mem::offset_of!(odbusbfile, day) - 11usize];
+    ["Offset of field: odbusbfile::hour"][::std::mem::offset_of!(odbusbfile, hour) - 12usize];
+    ["Offset of field: odbusbfile::min"][::std::mem::offset_of!(odbusbfile, min) - 13usize];
+    ["Offset of field: odbusbfile::sec"][::std::mem::offset_of!(odbusbfile, sec) - 14usize];
+    ["Offset of field: odbusbfile::dummy"][::std::mem::offset_of!(odbusbfile, dummy) - 15usize];
+    ["Offset of field: odbusbfile::fname"][::std::mem::offset_of!(odbusbfile, fname) - 16usize];
+    ["Offset of field: odbusbfile::comment"][::std::mem::offset_of!(odbusbfile, comment) - 52usize];
 };
 impl Default for odbusbfile {
     fn default() -> Self {
@@ -28036,21 +28025,21 @@ pub struct iodbindexprm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbindexprm"][::std::mem::size_of::<iodbindexprm>() - 32usize];
-    ["Alignment of iodbindexprm"][::std::mem::align_of::<iodbindexprm>() - 8usize];
+    ["Size of iodbindexprm"][::std::mem::size_of::<iodbindexprm>() - 20usize];
+    ["Alignment of iodbindexprm"][::std::mem::align_of::<iodbindexprm>() - 4usize];
     ["Offset of field: iodbindexprm::ofs_limit"]
         [::std::mem::offset_of!(iodbindexprm, ofs_limit) - 0usize];
     ["Offset of field: iodbindexprm::detect_width"]
-        [::std::mem::offset_of!(iodbindexprm, detect_width) - 8usize];
+        [::std::mem::offset_of!(iodbindexprm, detect_width) - 4usize];
     ["Offset of field: iodbindexprm::jog_clamp"]
-        [::std::mem::offset_of!(iodbindexprm, jog_clamp) - 16usize];
+        [::std::mem::offset_of!(iodbindexprm, jog_clamp) - 8usize];
     ["Offset of field: iodbindexprm::matrix_single"]
-        [::std::mem::offset_of!(iodbindexprm, matrix_single) - 22usize];
+        [::std::mem::offset_of!(iodbindexprm, matrix_single) - 14usize];
     ["Offset of field: iodbindexprm::torque_ovr"]
-        [::std::mem::offset_of!(iodbindexprm, torque_ovr) - 23usize];
+        [::std::mem::offset_of!(iodbindexprm, torque_ovr) - 15usize];
     ["Offset of field: iodbindexprm::ofs_adjust"]
-        [::std::mem::offset_of!(iodbindexprm, ofs_adjust) - 24usize];
-    ["Offset of field: iodbindexprm::dummy"][::std::mem::offset_of!(iodbindexprm, dummy) - 25usize];
+        [::std::mem::offset_of!(iodbindexprm, ofs_adjust) - 16usize];
+    ["Offset of field: iodbindexprm::dummy"][::std::mem::offset_of!(iodbindexprm, dummy) - 17usize];
 };
 pub type IODBINDEXPRM = iodbindexprm;
 #[repr(C)]
@@ -28064,14 +28053,14 @@ pub struct iodbindexdat {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbindexdat"][::std::mem::size_of::<iodbindexdat>() - 24usize];
-    ["Alignment of iodbindexdat"][::std::mem::align_of::<iodbindexdat>() - 8usize];
+    ["Size of iodbindexdat"][::std::mem::size_of::<iodbindexdat>() - 12usize];
+    ["Alignment of iodbindexdat"][::std::mem::align_of::<iodbindexdat>() - 4usize];
     ["Offset of field: iodbindexdat::pos"][::std::mem::offset_of!(iodbindexdat, pos) - 0usize];
     ["Offset of field: iodbindexdat::inp_width"]
-        [::std::mem::offset_of!(iodbindexdat, inp_width) - 8usize];
-    ["Offset of field: iodbindexdat::speed"][::std::mem::offset_of!(iodbindexdat, speed) - 16usize];
-    ["Offset of field: iodbindexdat::f_flg"][::std::mem::offset_of!(iodbindexdat, f_flg) - 18usize];
-    ["Offset of field: iodbindexdat::dummy"][::std::mem::offset_of!(iodbindexdat, dummy) - 19usize];
+        [::std::mem::offset_of!(iodbindexdat, inp_width) - 4usize];
+    ["Offset of field: iodbindexdat::speed"][::std::mem::offset_of!(iodbindexdat, speed) - 8usize];
+    ["Offset of field: iodbindexdat::f_flg"][::std::mem::offset_of!(iodbindexdat, f_flg) - 10usize];
+    ["Offset of field: iodbindexdat::dummy"][::std::mem::offset_of!(iodbindexdat, dummy) - 11usize];
 };
 pub type IODBINDEXDAT = iodbindexdat;
 #[repr(C)]
@@ -28084,15 +28073,15 @@ pub struct indexposdat {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of indexposdat"][::std::mem::size_of::<indexposdat>() - 24usize];
-    ["Alignment of indexposdat"][::std::mem::align_of::<indexposdat>() - 8usize];
+    ["Size of indexposdat"][::std::mem::size_of::<indexposdat>() - 12usize];
+    ["Alignment of indexposdat"][::std::mem::align_of::<indexposdat>() - 4usize];
     ["Offset of field: indexposdat::min_value"]
         [::std::mem::offset_of!(indexposdat, min_value) - 0usize];
     ["Offset of field: indexposdat::max_value"]
-        [::std::mem::offset_of!(indexposdat, max_value) - 8usize];
+        [::std::mem::offset_of!(indexposdat, max_value) - 4usize];
     ["Offset of field: indexposdat::setting"]
-        [::std::mem::offset_of!(indexposdat, setting) - 16usize];
-    ["Offset of field: indexposdat::dummy"][::std::mem::offset_of!(indexposdat, dummy) - 17usize];
+        [::std::mem::offset_of!(indexposdat, setting) - 8usize];
+    ["Offset of field: indexposdat::dummy"][::std::mem::offset_of!(indexposdat, dummy) - 9usize];
 };
 pub type IODBINDEXPOSDAT = indexposdat;
 #[repr(C)]
@@ -28123,10 +28112,10 @@ pub struct realnum {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of realnum"][::std::mem::size_of::<realnum>() - 16usize];
-    ["Alignment of realnum"][::std::mem::align_of::<realnum>() - 8usize];
+    ["Size of realnum"][::std::mem::size_of::<realnum>() - 8usize];
+    ["Alignment of realnum"][::std::mem::align_of::<realnum>() - 4usize];
     ["Offset of field: realnum::val"][::std::mem::offset_of!(realnum, val) - 0usize];
-    ["Offset of field: realnum::dec"][::std::mem::offset_of!(realnum, dec) - 8usize];
+    ["Offset of field: realnum::dec"][::std::mem::offset_of!(realnum, dec) - 4usize];
 };
 pub type REALNUM = realnum;
 #[repr(C)]
@@ -28140,18 +28129,18 @@ pub struct odbchopping {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbchopping"][::std::mem::size_of::<odbchopping>() - 72usize];
-    ["Alignment of odbchopping"][::std::mem::align_of::<odbchopping>() - 8usize];
+    ["Size of odbchopping"][::std::mem::size_of::<odbchopping>() - 36usize];
+    ["Alignment of odbchopping"][::std::mem::align_of::<odbchopping>() - 4usize];
     ["Offset of field: odbchopping::cur_pos"]
         [::std::mem::offset_of!(odbchopping, cur_pos) - 0usize];
     ["Offset of field: odbchopping::cur_speed"]
-        [::std::mem::offset_of!(odbchopping, cur_speed) - 16usize];
+        [::std::mem::offset_of!(odbchopping, cur_speed) - 8usize];
     ["Offset of field: odbchopping::real_udp"]
-        [::std::mem::offset_of!(odbchopping, real_udp) - 32usize];
+        [::std::mem::offset_of!(odbchopping, real_udp) - 16usize];
     ["Offset of field: odbchopping::real_ldp"]
-        [::std::mem::offset_of!(odbchopping, real_ldp) - 48usize];
+        [::std::mem::offset_of!(odbchopping, real_ldp) - 24usize];
     ["Offset of field: odbchopping::stroke_cnt"]
-        [::std::mem::offset_of!(odbchopping, stroke_cnt) - 64usize];
+        [::std::mem::offset_of!(odbchopping, stroke_cnt) - 32usize];
 };
 pub type ODBCHOPPING = odbchopping;
 #[repr(C)]
@@ -28164,12 +28153,12 @@ pub struct _odbcoord {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of _odbcoord"][::std::mem::size_of::<_odbcoord>() - 48usize];
-    ["Alignment of _odbcoord"][::std::mem::align_of::<_odbcoord>() - 8usize];
+    ["Size of _odbcoord"][::std::mem::size_of::<_odbcoord>() - 32usize];
+    ["Alignment of _odbcoord"][::std::mem::align_of::<_odbcoord>() - 4usize];
     ["Offset of field: _odbcoord::orign"][::std::mem::offset_of!(_odbcoord, orign) - 0usize];
-    ["Offset of field: _odbcoord::vec_x"][::std::mem::offset_of!(_odbcoord, vec_x) - 24usize];
-    ["Offset of field: _odbcoord::vec_y"][::std::mem::offset_of!(_odbcoord, vec_y) - 30usize];
-    ["Offset of field: _odbcoord::vec_z"][::std::mem::offset_of!(_odbcoord, vec_z) - 36usize];
+    ["Offset of field: _odbcoord::vec_x"][::std::mem::offset_of!(_odbcoord, vec_x) - 12usize];
+    ["Offset of field: _odbcoord::vec_y"][::std::mem::offset_of!(_odbcoord, vec_y) - 18usize];
+    ["Offset of field: _odbcoord::vec_z"][::std::mem::offset_of!(_odbcoord, vec_z) - 24usize];
 };
 pub type ODBCOORD = _odbcoord;
 #[repr(C)]
@@ -28183,8 +28172,8 @@ pub struct idbtwp_euler_fmt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbtwp_euler_fmt"][::std::mem::size_of::<idbtwp_euler_fmt>() - 240usize];
-    ["Alignment of idbtwp_euler_fmt"][::std::mem::align_of::<idbtwp_euler_fmt>() - 8usize];
+    ["Size of idbtwp_euler_fmt"][::std::mem::size_of::<idbtwp_euler_fmt>() - 144usize];
+    ["Alignment of idbtwp_euler_fmt"][::std::mem::align_of::<idbtwp_euler_fmt>() - 4usize];
     ["Offset of field: idbtwp_euler_fmt::orign"]
         [::std::mem::offset_of!(idbtwp_euler_fmt, orign) - 0usize];
     ["Offset of field: idbtwp_euler_fmt::i"][::std::mem::offset_of!(idbtwp_euler_fmt, i) - 24usize];
@@ -28207,8 +28196,8 @@ pub struct idbtwp_rpy_fmt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbtwp_rpy_fmt"][::std::mem::size_of::<idbtwp_rpy_fmt>() - 240usize];
-    ["Alignment of idbtwp_rpy_fmt"][::std::mem::align_of::<idbtwp_rpy_fmt>() - 8usize];
+    ["Size of idbtwp_rpy_fmt"][::std::mem::size_of::<idbtwp_rpy_fmt>() - 144usize];
+    ["Alignment of idbtwp_rpy_fmt"][::std::mem::align_of::<idbtwp_rpy_fmt>() - 4usize];
     ["Offset of field: idbtwp_rpy_fmt::orign"]
         [::std::mem::offset_of!(idbtwp_rpy_fmt, orign) - 0usize];
     ["Offset of field: idbtwp_rpy_fmt::i"][::std::mem::offset_of!(idbtwp_rpy_fmt, i) - 24usize];
@@ -28219,7 +28208,7 @@ const _: () = {
     ["Offset of field: idbtwp_rpy_fmt::reserve0"]
         [::std::mem::offset_of!(idbtwp_rpy_fmt, reserve0) - 50usize];
     ["Offset of field: idbtwp_rpy_fmt::reserve"]
-        [::std::mem::offset_of!(idbtwp_rpy_fmt, reserve) - 56usize];
+        [::std::mem::offset_of!(idbtwp_rpy_fmt, reserve) - 52usize];
 };
 pub type IDBTWP_RPY_FMT = idbtwp_rpy_fmt;
 #[repr(C)]
@@ -28234,8 +28223,8 @@ pub struct idbtwp_3p_fmt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbtwp_3p_fmt"][::std::mem::size_of::<idbtwp_3p_fmt>() - 184usize];
-    ["Alignment of idbtwp_3p_fmt"][::std::mem::align_of::<idbtwp_3p_fmt>() - 8usize];
+    ["Size of idbtwp_3p_fmt"][::std::mem::size_of::<idbtwp_3p_fmt>() - 144usize];
+    ["Alignment of idbtwp_3p_fmt"][::std::mem::align_of::<idbtwp_3p_fmt>() - 4usize];
     ["Offset of field: idbtwp_3p_fmt::p1"][::std::mem::offset_of!(idbtwp_3p_fmt, p1) - 0usize];
     ["Offset of field: idbtwp_3p_fmt::p2"][::std::mem::offset_of!(idbtwp_3p_fmt, p2) - 24usize];
     ["Offset of field: idbtwp_3p_fmt::p3"][::std::mem::offset_of!(idbtwp_3p_fmt, p3) - 48usize];
@@ -28255,8 +28244,8 @@ pub struct idbtwp_2vct_fmt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbtwp_2vct_fmt"][::std::mem::size_of::<idbtwp_2vct_fmt>() - 216usize];
-    ["Alignment of idbtwp_2vct_fmt"][::std::mem::align_of::<idbtwp_2vct_fmt>() - 8usize];
+    ["Size of idbtwp_2vct_fmt"][::std::mem::size_of::<idbtwp_2vct_fmt>() - 144usize];
+    ["Alignment of idbtwp_2vct_fmt"][::std::mem::align_of::<idbtwp_2vct_fmt>() - 4usize];
     ["Offset of field: idbtwp_2vct_fmt::orign"]
         [::std::mem::offset_of!(idbtwp_2vct_fmt, orign) - 0usize];
     ["Offset of field: idbtwp_2vct_fmt::vtr1"]
@@ -28278,8 +28267,8 @@ pub struct idbtwp_pjct_fmt {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbtwp_pjct_fmt"][::std::mem::size_of::<idbtwp_pjct_fmt>() - 240usize];
-    ["Alignment of idbtwp_pjct_fmt"][::std::mem::align_of::<idbtwp_pjct_fmt>() - 8usize];
+    ["Size of idbtwp_pjct_fmt"][::std::mem::size_of::<idbtwp_pjct_fmt>() - 144usize];
+    ["Alignment of idbtwp_pjct_fmt"][::std::mem::align_of::<idbtwp_pjct_fmt>() - 4usize];
     ["Offset of field: idbtwp_pjct_fmt::orign"]
         [::std::mem::offset_of!(idbtwp_pjct_fmt, orign) - 0usize];
     ["Offset of field: idbtwp_pjct_fmt::i"][::std::mem::offset_of!(idbtwp_pjct_fmt, i) - 24usize];
@@ -28300,8 +28289,8 @@ pub union idbviewgrp {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbviewgrp"][::std::mem::size_of::<idbviewgrp>() - 240usize];
-    ["Alignment of idbviewgrp"][::std::mem::align_of::<idbviewgrp>() - 8usize];
+    ["Size of idbviewgrp"][::std::mem::size_of::<idbviewgrp>() - 144usize];
+    ["Alignment of idbviewgrp"][::std::mem::align_of::<idbviewgrp>() - 4usize];
     ["Offset of field: idbviewgrp::euler"][::std::mem::offset_of!(idbviewgrp, euler) - 0usize];
     ["Offset of field: idbviewgrp::rpy"][::std::mem::offset_of!(idbviewgrp, rpy) - 0usize];
     ["Offset of field: idbviewgrp::p3"][::std::mem::offset_of!(idbviewgrp, p3) - 0usize];
@@ -28327,7 +28316,7 @@ pub struct odbftrmtx {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of odbftrmtx"][::std::mem::size_of::<odbftrmtx>() - 96usize];
-    ["Alignment of odbftrmtx"][::std::mem::align_of::<odbftrmtx>() - 8usize];
+    ["Alignment of odbftrmtx"][::std::mem::align_of::<odbftrmtx>() - 4usize];
     ["Offset of field: odbftrmtx::orgn"][::std::mem::offset_of!(odbftrmtx, orgn) - 0usize];
     ["Offset of field: odbftrmtx::rot"][::std::mem::offset_of!(odbftrmtx, rot) - 24usize];
 };
@@ -28446,15 +28435,15 @@ pub struct iodbsfsgsiginf {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbsfsgsiginf"][::std::mem::size_of::<iodbsfsgsiginf>() - 24usize];
-    ["Alignment of iodbsfsgsiginf"][::std::mem::align_of::<iodbsfsgsiginf>() - 8usize];
+    ["Size of iodbsfsgsiginf"][::std::mem::size_of::<iodbsfsgsiginf>() - 12usize];
+    ["Alignment of iodbsfsgsiginf"][::std::mem::align_of::<iodbsfsgsiginf>() - 4usize];
     ["Offset of field: iodbsfsgsiginf::unittype"]
         [::std::mem::offset_of!(iodbsfsgsiginf, unittype) - 0usize];
     ["Offset of field: iodbsfsgsiginf::number"]
-        [::std::mem::offset_of!(iodbsfsgsiginf, number) - 8usize];
+        [::std::mem::offset_of!(iodbsfsgsiginf, number) - 4usize];
     ["Offset of field: iodbsfsgsiginf::adr_type"]
-        [::std::mem::offset_of!(iodbsfsgsiginf, adr_type) - 16usize];
-    ["Offset of field: iodbsfsgsiginf::bit"][::std::mem::offset_of!(iodbsfsgsiginf, bit) - 18usize];
+        [::std::mem::offset_of!(iodbsfsgsiginf, adr_type) - 8usize];
+    ["Offset of field: iodbsfsgsiginf::bit"][::std::mem::offset_of!(iodbsfsgsiginf, bit) - 10usize];
 };
 pub type IODBSFSGSIGINF = iodbsfsgsiginf;
 #[repr(C)]
@@ -28466,14 +28455,14 @@ pub struct odbsfsgsiginfex {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsfsgsiginfex"][::std::mem::size_of::<odbsfsgsiginfex>() - 32usize];
-    ["Alignment of odbsfsgsiginfex"][::std::mem::align_of::<odbsfsgsiginfex>() - 8usize];
+    ["Size of odbsfsgsiginfex"][::std::mem::size_of::<odbsfsgsiginfex>() - 16usize];
+    ["Alignment of odbsfsgsiginfex"][::std::mem::align_of::<odbsfsgsiginfex>() - 4usize];
     ["Offset of field: odbsfsgsiginfex::sfsg_siginf"]
         [::std::mem::offset_of!(odbsfsgsiginfex, sfsg_siginf) - 0usize];
     ["Offset of field: odbsfsgsiginfex::select"]
-        [::std::mem::offset_of!(odbsfsgsiginfex, select) - 24usize];
+        [::std::mem::offset_of!(odbsfsgsiginfex, select) - 12usize];
     ["Offset of field: odbsfsgsiginfex::reserve"]
-        [::std::mem::offset_of!(odbsfsgsiginfex, reserve) - 26usize];
+        [::std::mem::offset_of!(odbsfsgsiginfex, reserve) - 14usize];
 };
 pub type ODBSFSGSIGINFEX = odbsfsgsiginfex;
 #[repr(C)]
@@ -28557,9 +28546,9 @@ pub union iodbpunch1_ex__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbpunch1_ex__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbpunch1_ex__bindgen_ty_1>() - 16usize];
+        [::std::mem::size_of::<iodbpunch1_ex__bindgen_ty_1>() - 8usize];
     ["Alignment of iodbpunch1_ex__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbpunch1_ex__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbpunch1_ex__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbpunch1_ex__bindgen_ty_1::u2data"]
         [::std::mem::offset_of!(iodbpunch1_ex__bindgen_ty_1, u2data) - 0usize];
     ["Offset of field: iodbpunch1_ex__bindgen_ty_1::s2data"]
@@ -28582,16 +28571,16 @@ impl Default for iodbpunch1_ex__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpunch1_ex"][::std::mem::size_of::<iodbpunch1_ex>() - 32usize];
-    ["Alignment of iodbpunch1_ex"][::std::mem::align_of::<iodbpunch1_ex>() - 8usize];
+    ["Size of iodbpunch1_ex"][::std::mem::size_of::<iodbpunch1_ex>() - 16usize];
+    ["Alignment of iodbpunch1_ex"][::std::mem::align_of::<iodbpunch1_ex>() - 4usize];
     ["Offset of field: iodbpunch1_ex::number"]
         [::std::mem::offset_of!(iodbpunch1_ex, number) - 0usize];
     ["Offset of field: iodbpunch1_ex::attr"][::std::mem::offset_of!(iodbpunch1_ex, attr) - 2usize];
-    ["Offset of field: iodbpunch1_ex::u"][::std::mem::offset_of!(iodbpunch1_ex, u) - 8usize];
+    ["Offset of field: iodbpunch1_ex::u"][::std::mem::offset_of!(iodbpunch1_ex, u) - 4usize];
     ["Offset of field: iodbpunch1_ex::decimal"]
-        [::std::mem::offset_of!(iodbpunch1_ex, decimal) - 24usize];
+        [::std::mem::offset_of!(iodbpunch1_ex, decimal) - 12usize];
     ["Offset of field: iodbpunch1_ex::reserve"]
-        [::std::mem::offset_of!(iodbpunch1_ex, reserve) - 26usize];
+        [::std::mem::offset_of!(iodbpunch1_ex, reserve) - 14usize];
 };
 impl Default for iodbpunch1_ex {
     fn default() -> Self {
@@ -28624,9 +28613,9 @@ pub union iodbpunch2_ex__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbpunch2_ex__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbpunch2_ex__bindgen_ty_1>() - 16usize];
+        [::std::mem::size_of::<iodbpunch2_ex__bindgen_ty_1>() - 8usize];
     ["Alignment of iodbpunch2_ex__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbpunch2_ex__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbpunch2_ex__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbpunch2_ex__bindgen_ty_1::u2data"]
         [::std::mem::offset_of!(iodbpunch2_ex__bindgen_ty_1, u2data) - 0usize];
     ["Offset of field: iodbpunch2_ex__bindgen_ty_1::s2data"]
@@ -28649,16 +28638,16 @@ impl Default for iodbpunch2_ex__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpunch2_ex"][::std::mem::size_of::<iodbpunch2_ex>() - 40usize];
-    ["Alignment of iodbpunch2_ex"][::std::mem::align_of::<iodbpunch2_ex>() - 8usize];
+    ["Size of iodbpunch2_ex"][::std::mem::size_of::<iodbpunch2_ex>() - 20usize];
+    ["Alignment of iodbpunch2_ex"][::std::mem::align_of::<iodbpunch2_ex>() - 4usize];
     ["Offset of field: iodbpunch2_ex::number"]
         [::std::mem::offset_of!(iodbpunch2_ex, number) - 0usize];
-    ["Offset of field: iodbpunch2_ex::attr"][::std::mem::offset_of!(iodbpunch2_ex, attr) - 8usize];
-    ["Offset of field: iodbpunch2_ex::u"][::std::mem::offset_of!(iodbpunch2_ex, u) - 16usize];
+    ["Offset of field: iodbpunch2_ex::attr"][::std::mem::offset_of!(iodbpunch2_ex, attr) - 4usize];
+    ["Offset of field: iodbpunch2_ex::u"][::std::mem::offset_of!(iodbpunch2_ex, u) - 8usize];
     ["Offset of field: iodbpunch2_ex::decimal"]
-        [::std::mem::offset_of!(iodbpunch2_ex, decimal) - 32usize];
+        [::std::mem::offset_of!(iodbpunch2_ex, decimal) - 16usize];
     ["Offset of field: iodbpunch2_ex::reserve"]
-        [::std::mem::offset_of!(iodbpunch2_ex, reserve) - 34usize];
+        [::std::mem::offset_of!(iodbpunch2_ex, reserve) - 18usize];
 };
 impl Default for iodbpunch2_ex {
     fn default() -> Self {
@@ -28677,8 +28666,8 @@ pub struct odbmmscrninf {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbmmscrninf"][::std::mem::size_of::<odbmmscrninf>() - 8usize];
-    ["Alignment of odbmmscrninf"][::std::mem::align_of::<odbmmscrninf>() - 8usize];
+    ["Size of odbmmscrninf"][::std::mem::size_of::<odbmmscrninf>() - 4usize];
+    ["Alignment of odbmmscrninf"][::std::mem::align_of::<odbmmscrninf>() - 4usize];
     ["Offset of field: odbmmscrninf::scrn_id"]
         [::std::mem::offset_of!(odbmmscrninf, scrn_id) - 0usize];
 };
@@ -28692,14 +28681,14 @@ pub struct iodbmmiconcstmstring {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbmmiconcstmstring"][::std::mem::size_of::<iodbmmiconcstmstring>() - 24usize];
-    ["Alignment of iodbmmiconcstmstring"][::std::mem::align_of::<iodbmmiconcstmstring>() - 8usize];
+    ["Size of iodbmmiconcstmstring"][::std::mem::size_of::<iodbmmiconcstmstring>() - 20usize];
+    ["Alignment of iodbmmiconcstmstring"][::std::mem::align_of::<iodbmmiconcstmstring>() - 4usize];
     ["Offset of field: iodbmmiconcstmstring::scrninf"]
         [::std::mem::offset_of!(iodbmmiconcstmstring, scrninf) - 0usize];
     ["Offset of field: iodbmmiconcstmstring::string"]
-        [::std::mem::offset_of!(iodbmmiconcstmstring, string) - 8usize];
+        [::std::mem::offset_of!(iodbmmiconcstmstring, string) - 4usize];
     ["Offset of field: iodbmmiconcstmstring::reserve"]
-        [::std::mem::offset_of!(iodbmmiconcstmstring, reserve) - 21usize];
+        [::std::mem::offset_of!(iodbmmiconcstmstring, reserve) - 17usize];
 };
 pub type IODBMMICONCSTMSTRING = iodbmmiconcstmstring;
 #[repr(C)]
@@ -28728,14 +28717,14 @@ pub struct iodbmmmcscrndefdat {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbmmmcscrndefdat"][::std::mem::size_of::<iodbmmmcscrndefdat>() - 24usize];
-    ["Alignment of iodbmmmcscrndefdat"][::std::mem::align_of::<iodbmmmcscrndefdat>() - 8usize];
+    ["Size of iodbmmmcscrndefdat"][::std::mem::size_of::<iodbmmmcscrndefdat>() - 12usize];
+    ["Alignment of iodbmmmcscrndefdat"][::std::mem::align_of::<iodbmmmcscrndefdat>() - 4usize];
     ["Offset of field: iodbmmmcscrndefdat::scrninf"]
         [::std::mem::offset_of!(iodbmmmcscrndefdat, scrninf) - 0usize];
     ["Offset of field: iodbmmmcscrndefdat::icn_id"]
-        [::std::mem::offset_of!(iodbmmmcscrndefdat, icn_id) - 8usize];
+        [::std::mem::offset_of!(iodbmmmcscrndefdat, icn_id) - 4usize];
     ["Offset of field: iodbmmmcscrndefdat::msg_id"]
-        [::std::mem::offset_of!(iodbmmmcscrndefdat, msg_id) - 16usize];
+        [::std::mem::offset_of!(iodbmmmcscrndefdat, msg_id) - 8usize];
 };
 pub type IODBMMMCSCRNDEFDAT = iodbmmmcscrndefdat;
 #[repr(C)]
@@ -28745,8 +28734,8 @@ pub struct iodbmmmcctgrydefdat {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbmmmcctgrydefdat"][::std::mem::size_of::<iodbmmmcctgrydefdat>() - 8usize];
-    ["Alignment of iodbmmmcctgrydefdat"][::std::mem::align_of::<iodbmmmcctgrydefdat>() - 8usize];
+    ["Size of iodbmmmcctgrydefdat"][::std::mem::size_of::<iodbmmmcctgrydefdat>() - 4usize];
+    ["Alignment of iodbmmmcctgrydefdat"][::std::mem::align_of::<iodbmmmcctgrydefdat>() - 4usize];
     ["Offset of field: iodbmmmcctgrydefdat::cmsg_id"]
         [::std::mem::offset_of!(iodbmmmcctgrydefdat, cmsg_id) - 0usize];
 };
@@ -28778,32 +28767,32 @@ pub struct iodbedge2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbedge2"][::std::mem::size_of::<iodbedge2>() - 72usize];
-    ["Alignment of iodbedge2"][::std::mem::align_of::<iodbedge2>() - 8usize];
+    ["Size of iodbedge2"][::std::mem::size_of::<iodbedge2>() - 48usize];
+    ["Alignment of iodbedge2"][::std::mem::align_of::<iodbedge2>() - 4usize];
     ["Offset of field: iodbedge2::slct"][::std::mem::offset_of!(iodbedge2, slct) - 0usize];
     ["Offset of field: iodbedge2::power"][::std::mem::offset_of!(iodbedge2, power) - 2usize];
     ["Offset of field: iodbedge2::freq"][::std::mem::offset_of!(iodbedge2, freq) - 4usize];
     ["Offset of field: iodbedge2::duty"][::std::mem::offset_of!(iodbedge2, duty) - 6usize];
     ["Offset of field: iodbedge2::g_press"][::std::mem::offset_of!(iodbedge2, g_press) - 8usize];
     ["Offset of field: iodbedge2::g_kind"][::std::mem::offset_of!(iodbedge2, g_kind) - 10usize];
-    ["Offset of field: iodbedge2::pier_t"][::std::mem::offset_of!(iodbedge2, pier_t) - 16usize];
-    ["Offset of field: iodbedge2::angle"][::std::mem::offset_of!(iodbedge2, angle) - 24usize];
-    ["Offset of field: iodbedge2::gap"][::std::mem::offset_of!(iodbedge2, gap) - 32usize];
-    ["Offset of field: iodbedge2::r_len"][::std::mem::offset_of!(iodbedge2, r_len) - 40usize];
-    ["Offset of field: iodbedge2::r_feed"][::std::mem::offset_of!(iodbedge2, r_feed) - 48usize];
-    ["Offset of field: iodbedge2::r_freq"][::std::mem::offset_of!(iodbedge2, r_freq) - 56usize];
-    ["Offset of field: iodbedge2::r_duty"][::std::mem::offset_of!(iodbedge2, r_duty) - 58usize];
-    ["Offset of field: iodbedge2::gap_axis"][::std::mem::offset_of!(iodbedge2, gap_axis) - 60usize];
+    ["Offset of field: iodbedge2::pier_t"][::std::mem::offset_of!(iodbedge2, pier_t) - 12usize];
+    ["Offset of field: iodbedge2::angle"][::std::mem::offset_of!(iodbedge2, angle) - 16usize];
+    ["Offset of field: iodbedge2::gap"][::std::mem::offset_of!(iodbedge2, gap) - 20usize];
+    ["Offset of field: iodbedge2::r_len"][::std::mem::offset_of!(iodbedge2, r_len) - 24usize];
+    ["Offset of field: iodbedge2::r_feed"][::std::mem::offset_of!(iodbedge2, r_feed) - 28usize];
+    ["Offset of field: iodbedge2::r_freq"][::std::mem::offset_of!(iodbedge2, r_freq) - 32usize];
+    ["Offset of field: iodbedge2::r_duty"][::std::mem::offset_of!(iodbedge2, r_duty) - 34usize];
+    ["Offset of field: iodbedge2::gap_axis"][::std::mem::offset_of!(iodbedge2, gap_axis) - 36usize];
     ["Offset of field: iodbedge2::angle_dec"]
-        [::std::mem::offset_of!(iodbedge2, angle_dec) - 61usize];
-    ["Offset of field: iodbedge2::gap_dec"][::std::mem::offset_of!(iodbedge2, gap_dec) - 62usize];
+        [::std::mem::offset_of!(iodbedge2, angle_dec) - 37usize];
+    ["Offset of field: iodbedge2::gap_dec"][::std::mem::offset_of!(iodbedge2, gap_dec) - 38usize];
     ["Offset of field: iodbedge2::r_len_dec"]
-        [::std::mem::offset_of!(iodbedge2, r_len_dec) - 63usize];
+        [::std::mem::offset_of!(iodbedge2, r_len_dec) - 39usize];
     ["Offset of field: iodbedge2::r_feed_dec"]
-        [::std::mem::offset_of!(iodbedge2, r_feed_dec) - 64usize];
-    ["Offset of field: iodbedge2::reserve"][::std::mem::offset_of!(iodbedge2, reserve) - 65usize];
-    ["Offset of field: iodbedge2::pb_power"][::std::mem::offset_of!(iodbedge2, pb_power) - 66usize];
-    ["Offset of field: iodbedge2::reserves"][::std::mem::offset_of!(iodbedge2, reserves) - 68usize];
+        [::std::mem::offset_of!(iodbedge2, r_feed_dec) - 40usize];
+    ["Offset of field: iodbedge2::reserve"][::std::mem::offset_of!(iodbedge2, reserve) - 41usize];
+    ["Offset of field: iodbedge2::pb_power"][::std::mem::offset_of!(iodbedge2, pb_power) - 42usize];
+    ["Offset of field: iodbedge2::reserves"][::std::mem::offset_of!(iodbedge2, reserves) - 44usize];
 };
 pub type IODBEDGE2 = iodbedge2;
 #[repr(C)]
@@ -28827,8 +28816,8 @@ pub struct iodbpwrctl {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbpwrctl"][::std::mem::size_of::<iodbpwrctl>() - 40usize];
-    ["Alignment of iodbpwrctl"][::std::mem::align_of::<iodbpwrctl>() - 8usize];
+    ["Size of iodbpwrctl"][::std::mem::size_of::<iodbpwrctl>() - 32usize];
+    ["Alignment of iodbpwrctl"][::std::mem::align_of::<iodbpwrctl>() - 4usize];
     ["Offset of field: iodbpwrctl::slct"][::std::mem::offset_of!(iodbpwrctl, slct) - 0usize];
     ["Offset of field: iodbpwrctl::power_min"]
         [::std::mem::offset_of!(iodbpwrctl, power_min) - 2usize];
@@ -28847,15 +28836,15 @@ const _: () = {
     ["Offset of field: iodbpwrctl::reserve"][::std::mem::offset_of!(iodbpwrctl, reserve) - 15usize];
     ["Offset of field: iodbpwrctl::feed_r"][::std::mem::offset_of!(iodbpwrctl, feed_r) - 16usize];
     ["Offset of field: iodbpwrctl::ag_press_min"]
-        [::std::mem::offset_of!(iodbpwrctl, ag_press_min) - 24usize];
+        [::std::mem::offset_of!(iodbpwrctl, ag_press_min) - 20usize];
     ["Offset of field: iodbpwrctl::ag_press_sp_zr"]
-        [::std::mem::offset_of!(iodbpwrctl, ag_press_sp_zr) - 26usize];
+        [::std::mem::offset_of!(iodbpwrctl, ag_press_sp_zr) - 22usize];
     ["Offset of field: iodbpwrctl::pb_power_min"]
-        [::std::mem::offset_of!(iodbpwrctl, pb_power_min) - 28usize];
+        [::std::mem::offset_of!(iodbpwrctl, pb_power_min) - 24usize];
     ["Offset of field: iodbpwrctl::pb_pwr_sp_zr"]
-        [::std::mem::offset_of!(iodbpwrctl, pb_pwr_sp_zr) - 30usize];
+        [::std::mem::offset_of!(iodbpwrctl, pb_pwr_sp_zr) - 26usize];
     ["Offset of field: iodbpwrctl::reserves"]
-        [::std::mem::offset_of!(iodbpwrctl, reserves) - 32usize];
+        [::std::mem::offset_of!(iodbpwrctl, reserves) - 28usize];
 };
 pub type IODBPWRCTL = iodbpwrctl;
 #[repr(C)]
@@ -28869,14 +28858,14 @@ pub struct iodbdsplc {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbdsplc"][::std::mem::size_of::<iodbdsplc>() - 32usize];
-    ["Alignment of iodbdsplc"][::std::mem::align_of::<iodbdsplc>() - 8usize];
+    ["Size of iodbdsplc"][::std::mem::size_of::<iodbdsplc>() - 20usize];
+    ["Alignment of iodbdsplc"][::std::mem::align_of::<iodbdsplc>() - 4usize];
     ["Offset of field: iodbdsplc::slct"][::std::mem::offset_of!(iodbdsplc, slct) - 0usize];
-    ["Offset of field: iodbdsplc::dsplc"][::std::mem::offset_of!(iodbdsplc, dsplc) - 8usize];
+    ["Offset of field: iodbdsplc::dsplc"][::std::mem::offset_of!(iodbdsplc, dsplc) - 4usize];
     ["Offset of field: iodbdsplc::dsplc_dec"]
-        [::std::mem::offset_of!(iodbdsplc, dsplc_dec) - 16usize];
-    ["Offset of field: iodbdsplc::gap_ix"][::std::mem::offset_of!(iodbdsplc, gap_ix) - 18usize];
-    ["Offset of field: iodbdsplc::reserves"][::std::mem::offset_of!(iodbdsplc, reserves) - 20usize];
+        [::std::mem::offset_of!(iodbdsplc, dsplc_dec) - 8usize];
+    ["Offset of field: iodbdsplc::gap_ix"][::std::mem::offset_of!(iodbdsplc, gap_ix) - 10usize];
+    ["Offset of field: iodbdsplc::reserves"][::std::mem::offset_of!(iodbdsplc, reserves) - 12usize];
 };
 pub type IODBDSPLC = iodbdsplc;
 #[repr(C)]
@@ -28897,25 +28886,25 @@ pub struct odblstate {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odblstate"][::std::mem::size_of::<odblstate>() - 40usize];
-    ["Alignment of odblstate"][::std::mem::align_of::<odblstate>() - 8usize];
+    ["Size of odblstate"][::std::mem::size_of::<odblstate>() - 28usize];
+    ["Alignment of odblstate"][::std::mem::align_of::<odblstate>() - 4usize];
     ["Offset of field: odblstate::cmd_feed"][::std::mem::offset_of!(odblstate, cmd_feed) - 0usize];
-    ["Offset of field: odblstate::act_feed"][::std::mem::offset_of!(odblstate, act_feed) - 8usize];
+    ["Offset of field: odblstate::act_feed"][::std::mem::offset_of!(odblstate, act_feed) - 4usize];
     ["Offset of field: odblstate::cmd_power"]
-        [::std::mem::offset_of!(odblstate, cmd_power) - 16usize];
-    ["Offset of field: odblstate::cmd_freq"][::std::mem::offset_of!(odblstate, cmd_freq) - 18usize];
-    ["Offset of field: odblstate::cmd_duty"][::std::mem::offset_of!(odblstate, cmd_duty) - 20usize];
-    ["Offset of field: odblstate::beam"][::std::mem::offset_of!(odblstate, beam) - 22usize];
+        [::std::mem::offset_of!(odblstate, cmd_power) - 8usize];
+    ["Offset of field: odblstate::cmd_freq"][::std::mem::offset_of!(odblstate, cmd_freq) - 10usize];
+    ["Offset of field: odblstate::cmd_duty"][::std::mem::offset_of!(odblstate, cmd_duty) - 12usize];
+    ["Offset of field: odblstate::beam"][::std::mem::offset_of!(odblstate, beam) - 14usize];
     ["Offset of field: odblstate::beam_lock"]
-        [::std::mem::offset_of!(odblstate, beam_lock) - 23usize];
-    ["Offset of field: odblstate::cw_mode"][::std::mem::offset_of!(odblstate, cw_mode) - 24usize];
+        [::std::mem::offset_of!(odblstate, beam_lock) - 15usize];
+    ["Offset of field: odblstate::cw_mode"][::std::mem::offset_of!(odblstate, cw_mode) - 16usize];
     ["Offset of field: odblstate::pulse_mode"]
-        [::std::mem::offset_of!(odblstate, pulse_mode) - 25usize];
+        [::std::mem::offset_of!(odblstate, pulse_mode) - 17usize];
     ["Offset of field: odblstate::cmd_feed_dec"]
-        [::std::mem::offset_of!(odblstate, cmd_feed_dec) - 26usize];
+        [::std::mem::offset_of!(odblstate, cmd_feed_dec) - 18usize];
     ["Offset of field: odblstate::act_feed_dec"]
-        [::std::mem::offset_of!(odblstate, act_feed_dec) - 27usize];
-    ["Offset of field: odblstate::reserve"][::std::mem::offset_of!(odblstate, reserve) - 28usize];
+        [::std::mem::offset_of!(odblstate, act_feed_dec) - 19usize];
+    ["Offset of field: odblstate::reserve"][::std::mem::offset_of!(odblstate, reserve) - 20usize];
 };
 pub type ODBLSTATE = odblstate;
 #[repr(C)]
@@ -29060,8 +29049,8 @@ pub struct odbplsdata {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbplsdata"][::std::mem::size_of::<odbplsdata>() - 96usize];
-    ["Alignment of odbplsdata"][::std::mem::align_of::<odbplsdata>() - 8usize];
+    ["Size of odbplsdata"][::std::mem::size_of::<odbplsdata>() - 64usize];
+    ["Alignment of odbplsdata"][::std::mem::align_of::<odbplsdata>() - 4usize];
     ["Offset of field: odbplsdata::pulse_type"]
         [::std::mem::offset_of!(odbplsdata, pulse_type) - 0usize];
     ["Offset of field: odbplsdata::channel_state"]
@@ -29077,7 +29066,7 @@ const _: () = {
     ["Offset of field: odbplsdata::total_val"]
         [::std::mem::offset_of!(odbplsdata, total_val) - 32usize];
     ["Offset of field: odbplsdata::reserve4"]
-        [::std::mem::offset_of!(odbplsdata, reserve4) - 64usize];
+        [::std::mem::offset_of!(odbplsdata, reserve4) - 48usize];
 };
 pub type ODBPLSDATA = odbplsdata;
 #[repr(C)]
@@ -29091,18 +29080,18 @@ pub struct odbuvmcrpt2 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbuvmcrpt2"][::std::mem::size_of::<odbuvmcrpt2>() - 280usize];
-    ["Alignment of odbuvmcrpt2"][::std::mem::align_of::<odbuvmcrpt2>() - 8usize];
+    ["Size of odbuvmcrpt2"][::std::mem::size_of::<odbuvmcrpt2>() - 264usize];
+    ["Alignment of odbuvmcrpt2"][::std::mem::align_of::<odbuvmcrpt2>() - 4usize];
     ["Offset of field: odbuvmcrpt2::prog_name"]
         [::std::mem::offset_of!(odbuvmcrpt2, prog_name) - 0usize];
     ["Offset of field: odbuvmcrpt2::blk_no"]
         [::std::mem::offset_of!(odbuvmcrpt2, blk_no) - 248usize];
     ["Offset of field: odbuvmcrpt2::uvblk_no"]
-        [::std::mem::offset_of!(odbuvmcrpt2, uvblk_no) - 256usize];
+        [::std::mem::offset_of!(odbuvmcrpt2, uvblk_no) - 252usize];
     ["Offset of field: odbuvmcrpt2::mult_piece_no"]
-        [::std::mem::offset_of!(odbuvmcrpt2, mult_piece_no) - 264usize];
+        [::std::mem::offset_of!(odbuvmcrpt2, mult_piece_no) - 256usize];
     ["Offset of field: odbuvmcrpt2::reserve"]
-        [::std::mem::offset_of!(odbuvmcrpt2, reserve) - 272usize];
+        [::std::mem::offset_of!(odbuvmcrpt2, reserve) - 260usize];
 };
 impl Default for odbuvmcrpt2 {
     fn default() -> Self {
@@ -29126,8 +29115,8 @@ pub struct odbhmprogstat {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbhmprogstat"][::std::mem::size_of::<odbhmprogstat>() - 24usize];
-    ["Alignment of odbhmprogstat"][::std::mem::align_of::<odbhmprogstat>() - 8usize];
+    ["Size of odbhmprogstat"][::std::mem::size_of::<odbhmprogstat>() - 16usize];
+    ["Alignment of odbhmprogstat"][::std::mem::align_of::<odbhmprogstat>() - 4usize];
     ["Offset of field: odbhmprogstat::run"][::std::mem::offset_of!(odbhmprogstat, run) - 0usize];
     ["Offset of field: odbhmprogstat::disp"][::std::mem::offset_of!(odbhmprogstat, disp) - 2usize];
     ["Offset of field: odbhmprogstat::alm_no"]
@@ -29137,7 +29126,7 @@ const _: () = {
     ["Offset of field: odbhmprogstat::prog_no"]
         [::std::mem::offset_of!(odbhmprogstat, prog_no) - 8usize];
     ["Offset of field: odbhmprogstat::block_no"]
-        [::std::mem::offset_of!(odbhmprogstat, block_no) - 16usize];
+        [::std::mem::offset_of!(odbhmprogstat, block_no) - 12usize];
 };
 pub type ODBHMPROGSTAT = odbhmprogstat;
 #[repr(C)]
@@ -29243,26 +29232,25 @@ const _: () = {
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbtpaprg"][::std::mem::size_of::<odbtpaprg>() - 224usize];
-    ["Alignment of odbtpaprg"][::std::mem::align_of::<odbtpaprg>() - 8usize];
+    ["Size of odbtpaprg"][::std::mem::size_of::<odbtpaprg>() - 188usize];
+    ["Alignment of odbtpaprg"][::std::mem::align_of::<odbtpaprg>() - 4usize];
     ["Offset of field: odbtpaprg::format_version"]
         [::std::mem::offset_of!(odbtpaprg, format_version) - 0usize];
     ["Offset of field: odbtpaprg::func_version"]
         [::std::mem::offset_of!(odbtpaprg, func_version) - 2usize];
-    ["Offset of field: odbtpaprg::size"][::std::mem::offset_of!(odbtpaprg, size) - 8usize];
-    ["Offset of field: odbtpaprg::create"][::std::mem::offset_of!(odbtpaprg, create) - 16usize];
-    ["Offset of field: odbtpaprg::edit"][::std::mem::offset_of!(odbtpaprg, edit) - 28usize];
-    ["Offset of field: odbtpaprg::convert"][::std::mem::offset_of!(odbtpaprg, convert) - 40usize];
-    ["Offset of field: odbtpaprg::attr"][::std::mem::offset_of!(odbtpaprg, attr) - 56usize];
+    ["Offset of field: odbtpaprg::size"][::std::mem::offset_of!(odbtpaprg, size) - 4usize];
+    ["Offset of field: odbtpaprg::create"][::std::mem::offset_of!(odbtpaprg, create) - 8usize];
+    ["Offset of field: odbtpaprg::edit"][::std::mem::offset_of!(odbtpaprg, edit) - 20usize];
+    ["Offset of field: odbtpaprg::convert"][::std::mem::offset_of!(odbtpaprg, convert) - 32usize];
+    ["Offset of field: odbtpaprg::attr"][::std::mem::offset_of!(odbtpaprg, attr) - 44usize];
     ["Offset of field: odbtpaprg::name_copy"]
-        [::std::mem::offset_of!(odbtpaprg, name_copy) - 64usize];
-    ["Offset of field: odbtpaprg::prg_name"]
-        [::std::mem::offset_of!(odbtpaprg, prg_name) - 100usize];
-    ["Offset of field: odbtpaprg::comment"][::std::mem::offset_of!(odbtpaprg, comment) - 136usize];
-    ["Offset of field: odbtpaprg::axis"][::std::mem::offset_of!(odbtpaprg, axis) - 160usize];
+        [::std::mem::offset_of!(odbtpaprg, name_copy) - 48usize];
+    ["Offset of field: odbtpaprg::prg_name"][::std::mem::offset_of!(odbtpaprg, prg_name) - 84usize];
+    ["Offset of field: odbtpaprg::comment"][::std::mem::offset_of!(odbtpaprg, comment) - 120usize];
+    ["Offset of field: odbtpaprg::axis"][::std::mem::offset_of!(odbtpaprg, axis) - 140usize];
     ["Offset of field: odbtpaprg::out_nc_prg"]
-        [::std::mem::offset_of!(odbtpaprg, out_nc_prg) - 168usize];
-    ["Offset of field: odbtpaprg::reserve"][::std::mem::offset_of!(odbtpaprg, reserve) - 208usize];
+        [::std::mem::offset_of!(odbtpaprg, out_nc_prg) - 144usize];
+    ["Offset of field: odbtpaprg::reserve"][::std::mem::offset_of!(odbtpaprg, reserve) - 180usize];
 };
 impl Default for odbtpaprg {
     fn default() -> Self {
@@ -29285,14 +29273,14 @@ pub struct idbtpinfo {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of idbtpinfo"][::std::mem::size_of::<idbtpinfo>() - 120usize];
-    ["Alignment of idbtpinfo"][::std::mem::align_of::<idbtpinfo>() - 8usize];
+    ["Size of idbtpinfo"][::std::mem::size_of::<idbtpinfo>() - 104usize];
+    ["Alignment of idbtpinfo"][::std::mem::align_of::<idbtpinfo>() - 4usize];
     ["Offset of field: idbtpinfo::prg_name"][::std::mem::offset_of!(idbtpinfo, prg_name) - 0usize];
     ["Offset of field: idbtpinfo::comment"][::std::mem::offset_of!(idbtpinfo, comment) - 36usize];
     ["Offset of field: idbtpinfo::axis"][::std::mem::offset_of!(idbtpinfo, axis) - 56usize];
     ["Offset of field: idbtpinfo::out_nc_prg"]
-        [::std::mem::offset_of!(idbtpinfo, out_nc_prg) - 64usize];
-    ["Offset of field: idbtpinfo::reserve"][::std::mem::offset_of!(idbtpinfo, reserve) - 104usize];
+        [::std::mem::offset_of!(idbtpinfo, out_nc_prg) - 60usize];
+    ["Offset of field: idbtpinfo::reserve"][::std::mem::offset_of!(idbtpinfo, reserve) - 96usize];
 };
 impl Default for idbtpinfo {
     fn default() -> Self {
@@ -29340,22 +29328,22 @@ pub struct tprogcmd__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tprogcmd__bindgen_ty_1"][::std::mem::size_of::<tprogcmd__bindgen_ty_1>() - 16usize];
+    ["Size of tprogcmd__bindgen_ty_1"][::std::mem::size_of::<tprogcmd__bindgen_ty_1>() - 8usize];
     ["Alignment of tprogcmd__bindgen_ty_1"]
-        [::std::mem::align_of::<tprogcmd__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<tprogcmd__bindgen_ty_1>() - 4usize];
     ["Offset of field: tprogcmd__bindgen_ty_1::val"]
         [::std::mem::offset_of!(tprogcmd__bindgen_ty_1, val) - 0usize];
     ["Offset of field: tprogcmd__bindgen_ty_1::dec"]
-        [::std::mem::offset_of!(tprogcmd__bindgen_ty_1, dec) - 8usize];
+        [::std::mem::offset_of!(tprogcmd__bindgen_ty_1, dec) - 4usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tprogcmd"][::std::mem::size_of::<tprogcmd>() - 168usize];
-    ["Alignment of tprogcmd"][::std::mem::align_of::<tprogcmd>() - 8usize];
+    ["Size of tprogcmd"][::std::mem::size_of::<tprogcmd>() - 116usize];
+    ["Alignment of tprogcmd"][::std::mem::align_of::<tprogcmd>() - 4usize];
     ["Offset of field: tprogcmd::cmd_id"][::std::mem::offset_of!(tprogcmd, cmd_id) - 0usize];
-    ["Offset of field: tprogcmd::integer"][::std::mem::offset_of!(tprogcmd, integer) - 8usize];
-    ["Offset of field: tprogcmd::val"][::std::mem::offset_of!(tprogcmd, val) - 40usize];
-    ["Offset of field: tprogcmd::text"][::std::mem::offset_of!(tprogcmd, text) - 104usize];
+    ["Offset of field: tprogcmd::integer"][::std::mem::offset_of!(tprogcmd, integer) - 4usize];
+    ["Offset of field: tprogcmd::val"][::std::mem::offset_of!(tprogcmd, val) - 20usize];
+    ["Offset of field: tprogcmd::text"][::std::mem::offset_of!(tprogcmd, text) - 52usize];
 };
 impl Default for tprogcmd {
     fn default() -> Self {
@@ -29418,9 +29406,9 @@ pub struct iodbsimuelm__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_1>() - 64usize];
+        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_1>() - 32usize];
     ["Alignment of iodbsimuelm__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbsimuelm__bindgen_ty_1__bindgen_ty_1::mv_p"]
         [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_1, mv_p) - 0usize];
 };
@@ -29432,9 +29420,9 @@ pub struct iodbsimuelm__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_2>() - 64usize];
+        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_2>() - 32usize];
     ["Alignment of iodbsimuelm__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: iodbsimuelm__bindgen_ty_1__bindgen_ty_2::mv_p"]
         [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_2, mv_p) - 0usize];
 };
@@ -29447,13 +29435,13 @@ pub struct iodbsimuelm__bindgen_ty_1__bindgen_ty_3 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm__bindgen_ty_1__bindgen_ty_3"]
-        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_3>() - 96usize];
+        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_3>() - 48usize];
     ["Alignment of iodbsimuelm__bindgen_ty_1__bindgen_ty_3"]
-        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_3>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_3>() - 4usize];
     ["Offset of field: iodbsimuelm__bindgen_ty_1__bindgen_ty_3::mv_p"]
         [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_3, mv_p) - 0usize];
     ["Offset of field: iodbsimuelm__bindgen_ty_1__bindgen_ty_3::cnt_p"]
-        [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_3, cnt_p) - 64usize];
+        [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_3, cnt_p) - 32usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -29464,13 +29452,13 @@ pub struct iodbsimuelm__bindgen_ty_1__bindgen_ty_4 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm__bindgen_ty_1__bindgen_ty_4"]
-        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_4>() - 72usize];
+        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_4>() - 36usize];
     ["Alignment of iodbsimuelm__bindgen_ty_1__bindgen_ty_4"]
-        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_4>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_4>() - 4usize];
     ["Offset of field: iodbsimuelm__bindgen_ty_1__bindgen_ty_4::mv_p"]
         [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_4, mv_p) - 0usize];
     ["Offset of field: iodbsimuelm__bindgen_ty_1__bindgen_ty_4::ptch"]
-        [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_4, ptch) - 64usize];
+        [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_4, ptch) - 32usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -29482,15 +29470,15 @@ pub struct iodbsimuelm__bindgen_ty_1__bindgen_ty_5 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm__bindgen_ty_1__bindgen_ty_5"]
-        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_5>() - 88usize];
+        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_5>() - 44usize];
     ["Alignment of iodbsimuelm__bindgen_ty_1__bindgen_ty_5"]
-        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_5>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_5>() - 4usize];
     ["Offset of field: iodbsimuelm__bindgen_ty_1__bindgen_ty_5::mv_p"]
         [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_5, mv_p) - 0usize];
     ["Offset of field: iodbsimuelm__bindgen_ty_1__bindgen_ty_5::ptch"]
-        [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_5, ptch) - 64usize];
+        [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_5, ptch) - 32usize];
     ["Offset of field: iodbsimuelm__bindgen_ty_1__bindgen_ty_5::mv_p2"]
-        [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_5, mv_p2) - 72usize];
+        [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_5, mv_p2) - 36usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -29500,18 +29488,18 @@ pub struct iodbsimuelm__bindgen_ty_1__bindgen_ty_6 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm__bindgen_ty_1__bindgen_ty_6"]
-        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_6>() - 128usize];
+        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_6>() - 64usize];
     ["Alignment of iodbsimuelm__bindgen_ty_1__bindgen_ty_6"]
-        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_6>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1__bindgen_ty_6>() - 4usize];
     ["Offset of field: iodbsimuelm__bindgen_ty_1__bindgen_ty_6::mv_p"]
         [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1__bindgen_ty_6, mv_p) - 0usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1>() - 128usize];
+        [::std::mem::size_of::<iodbsimuelm__bindgen_ty_1>() - 64usize];
     ["Alignment of iodbsimuelm__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbsimuelm__bindgen_ty_1::rapid"]
         [::std::mem::offset_of!(iodbsimuelm__bindgen_ty_1, rapid) - 0usize];
     ["Offset of field: iodbsimuelm__bindgen_ty_1::line"]
@@ -29536,45 +29524,45 @@ impl Default for iodbsimuelm__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbsimuelm"][::std::mem::size_of::<iodbsimuelm>() - 400usize];
-    ["Alignment of iodbsimuelm"][::std::mem::align_of::<iodbsimuelm>() - 8usize];
+    ["Size of iodbsimuelm"][::std::mem::size_of::<iodbsimuelm>() - 200usize];
+    ["Alignment of iodbsimuelm"][::std::mem::align_of::<iodbsimuelm>() - 4usize];
     ["Offset of field: iodbsimuelm::type_"][::std::mem::offset_of!(iodbsimuelm, type_) - 0usize];
     ["Offset of field: iodbsimuelm::rot_w"][::std::mem::offset_of!(iodbsimuelm, rot_w) - 1usize];
     ["Offset of field: iodbsimuelm::type2"][::std::mem::offset_of!(iodbsimuelm, type2) - 2usize];
     ["Offset of field: iodbsimuelm::plane"][::std::mem::offset_of!(iodbsimuelm, plane) - 3usize];
-    ["Offset of field: iodbsimuelm::tcode"][::std::mem::offset_of!(iodbsimuelm, tcode) - 8usize];
-    ["Offset of field: iodbsimuelm::data"][::std::mem::offset_of!(iodbsimuelm, data) - 16usize];
+    ["Offset of field: iodbsimuelm::tcode"][::std::mem::offset_of!(iodbsimuelm, tcode) - 4usize];
+    ["Offset of field: iodbsimuelm::data"][::std::mem::offset_of!(iodbsimuelm, data) - 8usize];
     ["Offset of field: iodbsimuelm::dm_type"]
-        [::std::mem::offset_of!(iodbsimuelm, dm_type) - 144usize];
+        [::std::mem::offset_of!(iodbsimuelm, dm_type) - 72usize];
     ["Offset of field: iodbsimuelm::cssc_md"]
-        [::std::mem::offset_of!(iodbsimuelm, cssc_md) - 145usize];
-    ["Offset of field: iodbsimuelm::dm_x"][::std::mem::offset_of!(iodbsimuelm, dm_x) - 152usize];
-    ["Offset of field: iodbsimuelm::dm_y"][::std::mem::offset_of!(iodbsimuelm, dm_y) - 176usize];
-    ["Offset of field: iodbsimuelm::dm_z"][::std::mem::offset_of!(iodbsimuelm, dm_z) - 200usize];
-    ["Offset of field: iodbsimuelm::cnt_x"][::std::mem::offset_of!(iodbsimuelm, cnt_x) - 224usize];
-    ["Offset of field: iodbsimuelm::cord"][::std::mem::offset_of!(iodbsimuelm, cord) - 248usize];
+        [::std::mem::offset_of!(iodbsimuelm, cssc_md) - 73usize];
+    ["Offset of field: iodbsimuelm::dm_x"][::std::mem::offset_of!(iodbsimuelm, dm_x) - 76usize];
+    ["Offset of field: iodbsimuelm::dm_y"][::std::mem::offset_of!(iodbsimuelm, dm_y) - 88usize];
+    ["Offset of field: iodbsimuelm::dm_z"][::std::mem::offset_of!(iodbsimuelm, dm_z) - 100usize];
+    ["Offset of field: iodbsimuelm::cnt_x"][::std::mem::offset_of!(iodbsimuelm, cnt_x) - 112usize];
+    ["Offset of field: iodbsimuelm::cord"][::std::mem::offset_of!(iodbsimuelm, cord) - 124usize];
     ["Offset of field: iodbsimuelm::tlchng"]
-        [::std::mem::offset_of!(iodbsimuelm, tlchng) - 296usize];
+        [::std::mem::offset_of!(iodbsimuelm, tlchng) - 148usize];
     ["Offset of field: iodbsimuelm::fd_type"]
-        [::std::mem::offset_of!(iodbsimuelm, fd_type) - 297usize];
-    ["Offset of field: iodbsimuelm::mcode"][::std::mem::offset_of!(iodbsimuelm, mcode) - 304usize];
+        [::std::mem::offset_of!(iodbsimuelm, fd_type) - 149usize];
+    ["Offset of field: iodbsimuelm::mcode"][::std::mem::offset_of!(iodbsimuelm, mcode) - 152usize];
     ["Offset of field: iodbsimuelm::dummy4"]
-        [::std::mem::offset_of!(iodbsimuelm, dummy4) - 312usize];
+        [::std::mem::offset_of!(iodbsimuelm, dummy4) - 156usize];
     ["Offset of field: iodbsimuelm::cylndr"]
-        [::std::mem::offset_of!(iodbsimuelm, cylndr) - 320usize];
-    ["Offset of field: iodbsimuelm::aux"][::std::mem::offset_of!(iodbsimuelm, aux) - 328usize];
-    ["Offset of field: iodbsimuelm::dcode"][::std::mem::offset_of!(iodbsimuelm, dcode) - 336usize];
-    ["Offset of field: iodbsimuelm::smax"][::std::mem::offset_of!(iodbsimuelm, smax) - 344usize];
-    ["Offset of field: iodbsimuelm::dwell"][::std::mem::offset_of!(iodbsimuelm, dwell) - 352usize];
-    ["Offset of field: iodbsimuelm::fcode"][::std::mem::offset_of!(iodbsimuelm, fcode) - 360usize];
-    ["Offset of field: iodbsimuelm::scode"][::std::mem::offset_of!(iodbsimuelm, scode) - 368usize];
+        [::std::mem::offset_of!(iodbsimuelm, cylndr) - 160usize];
+    ["Offset of field: iodbsimuelm::aux"][::std::mem::offset_of!(iodbsimuelm, aux) - 164usize];
+    ["Offset of field: iodbsimuelm::dcode"][::std::mem::offset_of!(iodbsimuelm, dcode) - 168usize];
+    ["Offset of field: iodbsimuelm::smax"][::std::mem::offset_of!(iodbsimuelm, smax) - 172usize];
+    ["Offset of field: iodbsimuelm::dwell"][::std::mem::offset_of!(iodbsimuelm, dwell) - 176usize];
+    ["Offset of field: iodbsimuelm::fcode"][::std::mem::offset_of!(iodbsimuelm, fcode) - 180usize];
+    ["Offset of field: iodbsimuelm::scode"][::std::mem::offset_of!(iodbsimuelm, scode) - 184usize];
     ["Offset of field: iodbsimuelm::nummcd"]
-        [::std::mem::offset_of!(iodbsimuelm, nummcd) - 376usize];
+        [::std::mem::offset_of!(iodbsimuelm, nummcd) - 188usize];
     ["Offset of field: iodbsimuelm::fcddec"]
-        [::std::mem::offset_of!(iodbsimuelm, fcddec) - 377usize];
-    ["Offset of field: iodbsimuelm::shift"][::std::mem::offset_of!(iodbsimuelm, shift) - 384usize];
-    ["Offset of field: iodbsimuelm::fbsft"][::std::mem::offset_of!(iodbsimuelm, fbsft) - 392usize];
-    ["Offset of field: iodbsimuelm::tilt"][::std::mem::offset_of!(iodbsimuelm, tilt) - 393usize];
+        [::std::mem::offset_of!(iodbsimuelm, fcddec) - 189usize];
+    ["Offset of field: iodbsimuelm::shift"][::std::mem::offset_of!(iodbsimuelm, shift) - 192usize];
+    ["Offset of field: iodbsimuelm::fbsft"][::std::mem::offset_of!(iodbsimuelm, fbsft) - 196usize];
+    ["Offset of field: iodbsimuelm::tilt"][::std::mem::offset_of!(iodbsimuelm, tilt) - 197usize];
 };
 impl Default for iodbsimuelm {
     fn default() -> Self {
@@ -29643,9 +29631,9 @@ pub struct iodbsimuelm2__bindgen_ty_1__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm2__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_1>() - 64usize];
+        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_1>() - 32usize];
     ["Alignment of iodbsimuelm2__bindgen_ty_1__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbsimuelm2__bindgen_ty_1__bindgen_ty_1::mv_p"]
         [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_1, mv_p) - 0usize];
 };
@@ -29657,9 +29645,9 @@ pub struct iodbsimuelm2__bindgen_ty_1__bindgen_ty_2 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm2__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_2>() - 64usize];
+        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_2>() - 32usize];
     ["Alignment of iodbsimuelm2__bindgen_ty_1__bindgen_ty_2"]
-        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_2>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_2>() - 4usize];
     ["Offset of field: iodbsimuelm2__bindgen_ty_1__bindgen_ty_2::mv_p"]
         [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_2, mv_p) - 0usize];
 };
@@ -29672,13 +29660,13 @@ pub struct iodbsimuelm2__bindgen_ty_1__bindgen_ty_3 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm2__bindgen_ty_1__bindgen_ty_3"]
-        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_3>() - 96usize];
+        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_3>() - 48usize];
     ["Alignment of iodbsimuelm2__bindgen_ty_1__bindgen_ty_3"]
-        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_3>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_3>() - 4usize];
     ["Offset of field: iodbsimuelm2__bindgen_ty_1__bindgen_ty_3::mv_p"]
         [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_3, mv_p) - 0usize];
     ["Offset of field: iodbsimuelm2__bindgen_ty_1__bindgen_ty_3::cnt_p"]
-        [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_3, cnt_p) - 64usize];
+        [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_3, cnt_p) - 32usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -29689,13 +29677,13 @@ pub struct iodbsimuelm2__bindgen_ty_1__bindgen_ty_4 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm2__bindgen_ty_1__bindgen_ty_4"]
-        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_4>() - 72usize];
+        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_4>() - 36usize];
     ["Alignment of iodbsimuelm2__bindgen_ty_1__bindgen_ty_4"]
-        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_4>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_4>() - 4usize];
     ["Offset of field: iodbsimuelm2__bindgen_ty_1__bindgen_ty_4::mv_p"]
         [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_4, mv_p) - 0usize];
     ["Offset of field: iodbsimuelm2__bindgen_ty_1__bindgen_ty_4::ptch"]
-        [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_4, ptch) - 64usize];
+        [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_4, ptch) - 32usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -29707,15 +29695,15 @@ pub struct iodbsimuelm2__bindgen_ty_1__bindgen_ty_5 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm2__bindgen_ty_1__bindgen_ty_5"]
-        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_5>() - 88usize];
+        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_5>() - 44usize];
     ["Alignment of iodbsimuelm2__bindgen_ty_1__bindgen_ty_5"]
-        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_5>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_5>() - 4usize];
     ["Offset of field: iodbsimuelm2__bindgen_ty_1__bindgen_ty_5::mv_p"]
         [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_5, mv_p) - 0usize];
     ["Offset of field: iodbsimuelm2__bindgen_ty_1__bindgen_ty_5::ptch"]
-        [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_5, ptch) - 64usize];
+        [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_5, ptch) - 32usize];
     ["Offset of field: iodbsimuelm2__bindgen_ty_1__bindgen_ty_5::mv_p2"]
-        [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_5, mv_p2) - 72usize];
+        [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_5, mv_p2) - 36usize];
 };
 #[repr(C)]
 #[derive(Debug, Default, Copy, Clone)]
@@ -29725,18 +29713,18 @@ pub struct iodbsimuelm2__bindgen_ty_1__bindgen_ty_6 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm2__bindgen_ty_1__bindgen_ty_6"]
-        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_6>() - 128usize];
+        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_6>() - 64usize];
     ["Alignment of iodbsimuelm2__bindgen_ty_1__bindgen_ty_6"]
-        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_6>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1__bindgen_ty_6>() - 4usize];
     ["Offset of field: iodbsimuelm2__bindgen_ty_1__bindgen_ty_6::mv_p"]
         [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1__bindgen_ty_6, mv_p) - 0usize];
 };
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbsimuelm2__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1>() - 128usize];
+        [::std::mem::size_of::<iodbsimuelm2__bindgen_ty_1>() - 64usize];
     ["Alignment of iodbsimuelm2__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbsimuelm2__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbsimuelm2__bindgen_ty_1::rapid"]
         [::std::mem::offset_of!(iodbsimuelm2__bindgen_ty_1, rapid) - 0usize];
     ["Offset of field: iodbsimuelm2__bindgen_ty_1::line"]
@@ -29761,65 +29749,65 @@ impl Default for iodbsimuelm2__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbsimuelm2"][::std::mem::size_of::<iodbsimuelm2>() - 512usize];
-    ["Alignment of iodbsimuelm2"][::std::mem::align_of::<iodbsimuelm2>() - 8usize];
+    ["Size of iodbsimuelm2"][::std::mem::size_of::<iodbsimuelm2>() - 256usize];
+    ["Alignment of iodbsimuelm2"][::std::mem::align_of::<iodbsimuelm2>() - 4usize];
     ["Offset of field: iodbsimuelm2::type_"][::std::mem::offset_of!(iodbsimuelm2, type_) - 0usize];
     ["Offset of field: iodbsimuelm2::rot_w"][::std::mem::offset_of!(iodbsimuelm2, rot_w) - 1usize];
     ["Offset of field: iodbsimuelm2::type2"][::std::mem::offset_of!(iodbsimuelm2, type2) - 2usize];
     ["Offset of field: iodbsimuelm2::plane"][::std::mem::offset_of!(iodbsimuelm2, plane) - 3usize];
-    ["Offset of field: iodbsimuelm2::tcode"][::std::mem::offset_of!(iodbsimuelm2, tcode) - 8usize];
-    ["Offset of field: iodbsimuelm2::data"][::std::mem::offset_of!(iodbsimuelm2, data) - 16usize];
+    ["Offset of field: iodbsimuelm2::tcode"][::std::mem::offset_of!(iodbsimuelm2, tcode) - 4usize];
+    ["Offset of field: iodbsimuelm2::data"][::std::mem::offset_of!(iodbsimuelm2, data) - 8usize];
     ["Offset of field: iodbsimuelm2::dm_type"]
-        [::std::mem::offset_of!(iodbsimuelm2, dm_type) - 144usize];
+        [::std::mem::offset_of!(iodbsimuelm2, dm_type) - 72usize];
     ["Offset of field: iodbsimuelm2::cssc_md"]
-        [::std::mem::offset_of!(iodbsimuelm2, cssc_md) - 145usize];
-    ["Offset of field: iodbsimuelm2::dm_x"][::std::mem::offset_of!(iodbsimuelm2, dm_x) - 152usize];
-    ["Offset of field: iodbsimuelm2::dm_y"][::std::mem::offset_of!(iodbsimuelm2, dm_y) - 176usize];
-    ["Offset of field: iodbsimuelm2::dm_z"][::std::mem::offset_of!(iodbsimuelm2, dm_z) - 200usize];
+        [::std::mem::offset_of!(iodbsimuelm2, cssc_md) - 73usize];
+    ["Offset of field: iodbsimuelm2::dm_x"][::std::mem::offset_of!(iodbsimuelm2, dm_x) - 76usize];
+    ["Offset of field: iodbsimuelm2::dm_y"][::std::mem::offset_of!(iodbsimuelm2, dm_y) - 88usize];
+    ["Offset of field: iodbsimuelm2::dm_z"][::std::mem::offset_of!(iodbsimuelm2, dm_z) - 100usize];
     ["Offset of field: iodbsimuelm2::cnt_x"]
-        [::std::mem::offset_of!(iodbsimuelm2, cnt_x) - 224usize];
-    ["Offset of field: iodbsimuelm2::cord"][::std::mem::offset_of!(iodbsimuelm2, cord) - 248usize];
+        [::std::mem::offset_of!(iodbsimuelm2, cnt_x) - 112usize];
+    ["Offset of field: iodbsimuelm2::cord"][::std::mem::offset_of!(iodbsimuelm2, cord) - 124usize];
     ["Offset of field: iodbsimuelm2::tlchng"]
-        [::std::mem::offset_of!(iodbsimuelm2, tlchng) - 296usize];
+        [::std::mem::offset_of!(iodbsimuelm2, tlchng) - 148usize];
     ["Offset of field: iodbsimuelm2::fd_type"]
-        [::std::mem::offset_of!(iodbsimuelm2, fd_type) - 297usize];
+        [::std::mem::offset_of!(iodbsimuelm2, fd_type) - 149usize];
     ["Offset of field: iodbsimuelm2::mcode"]
-        [::std::mem::offset_of!(iodbsimuelm2, mcode) - 304usize];
+        [::std::mem::offset_of!(iodbsimuelm2, mcode) - 152usize];
     ["Offset of field: iodbsimuelm2::dummy4"]
-        [::std::mem::offset_of!(iodbsimuelm2, dummy4) - 312usize];
+        [::std::mem::offset_of!(iodbsimuelm2, dummy4) - 156usize];
     ["Offset of field: iodbsimuelm2::cylndr"]
-        [::std::mem::offset_of!(iodbsimuelm2, cylndr) - 320usize];
-    ["Offset of field: iodbsimuelm2::aux"][::std::mem::offset_of!(iodbsimuelm2, aux) - 328usize];
+        [::std::mem::offset_of!(iodbsimuelm2, cylndr) - 160usize];
+    ["Offset of field: iodbsimuelm2::aux"][::std::mem::offset_of!(iodbsimuelm2, aux) - 164usize];
     ["Offset of field: iodbsimuelm2::dcode"]
-        [::std::mem::offset_of!(iodbsimuelm2, dcode) - 336usize];
-    ["Offset of field: iodbsimuelm2::smax"][::std::mem::offset_of!(iodbsimuelm2, smax) - 344usize];
+        [::std::mem::offset_of!(iodbsimuelm2, dcode) - 168usize];
+    ["Offset of field: iodbsimuelm2::smax"][::std::mem::offset_of!(iodbsimuelm2, smax) - 172usize];
     ["Offset of field: iodbsimuelm2::dwell"]
-        [::std::mem::offset_of!(iodbsimuelm2, dwell) - 352usize];
+        [::std::mem::offset_of!(iodbsimuelm2, dwell) - 176usize];
     ["Offset of field: iodbsimuelm2::fcode"]
-        [::std::mem::offset_of!(iodbsimuelm2, fcode) - 360usize];
+        [::std::mem::offset_of!(iodbsimuelm2, fcode) - 180usize];
     ["Offset of field: iodbsimuelm2::scode"]
-        [::std::mem::offset_of!(iodbsimuelm2, scode) - 368usize];
+        [::std::mem::offset_of!(iodbsimuelm2, scode) - 184usize];
     ["Offset of field: iodbsimuelm2::nummcd"]
-        [::std::mem::offset_of!(iodbsimuelm2, nummcd) - 376usize];
+        [::std::mem::offset_of!(iodbsimuelm2, nummcd) - 188usize];
     ["Offset of field: iodbsimuelm2::fcddec"]
-        [::std::mem::offset_of!(iodbsimuelm2, fcddec) - 377usize];
+        [::std::mem::offset_of!(iodbsimuelm2, fcddec) - 189usize];
     ["Offset of field: iodbsimuelm2::shift"]
-        [::std::mem::offset_of!(iodbsimuelm2, shift) - 384usize];
+        [::std::mem::offset_of!(iodbsimuelm2, shift) - 192usize];
     ["Offset of field: iodbsimuelm2::fbsft"]
-        [::std::mem::offset_of!(iodbsimuelm2, fbsft) - 392usize];
-    ["Offset of field: iodbsimuelm2::tilt"][::std::mem::offset_of!(iodbsimuelm2, tilt) - 393usize];
+        [::std::mem::offset_of!(iodbsimuelm2, fbsft) - 196usize];
+    ["Offset of field: iodbsimuelm2::tilt"][::std::mem::offset_of!(iodbsimuelm2, tilt) - 197usize];
     ["Offset of field: iodbsimuelm2::dummy6"]
-        [::std::mem::offset_of!(iodbsimuelm2, dummy6) - 394usize];
+        [::std::mem::offset_of!(iodbsimuelm2, dummy6) - 198usize];
     ["Offset of field: iodbsimuelm2::mcode2"]
-        [::std::mem::offset_of!(iodbsimuelm2, mcode2) - 400usize];
+        [::std::mem::offset_of!(iodbsimuelm2, mcode2) - 200usize];
     ["Offset of field: iodbsimuelm2::mcode3"]
-        [::std::mem::offset_of!(iodbsimuelm2, mcode3) - 408usize];
+        [::std::mem::offset_of!(iodbsimuelm2, mcode3) - 204usize];
     ["Offset of field: iodbsimuelm2::mcode4"]
-        [::std::mem::offset_of!(iodbsimuelm2, mcode4) - 416usize];
+        [::std::mem::offset_of!(iodbsimuelm2, mcode4) - 208usize];
     ["Offset of field: iodbsimuelm2::mcode5"]
-        [::std::mem::offset_of!(iodbsimuelm2, mcode5) - 424usize];
+        [::std::mem::offset_of!(iodbsimuelm2, mcode5) - 212usize];
     ["Offset of field: iodbsimuelm2::reserve"]
-        [::std::mem::offset_of!(iodbsimuelm2, reserve) - 432usize];
+        [::std::mem::offset_of!(iodbsimuelm2, reserve) - 216usize];
 };
 impl Default for iodbsimuelm2 {
     fn default() -> Self {
@@ -29924,9 +29912,9 @@ pub union iodbrct_item_data_info__bindgen_ty_1 {
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
     ["Size of iodbrct_item_data_info__bindgen_ty_1"]
-        [::std::mem::size_of::<iodbrct_item_data_info__bindgen_ty_1>() - 512usize];
+        [::std::mem::size_of::<iodbrct_item_data_info__bindgen_ty_1>() - 256usize];
     ["Alignment of iodbrct_item_data_info__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbrct_item_data_info__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbrct_item_data_info__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbrct_item_data_info__bindgen_ty_1::bdata"]
         [::std::mem::offset_of!(iodbrct_item_data_info__bindgen_ty_1, bdata) - 0usize];
     ["Offset of field: iodbrct_item_data_info__bindgen_ty_1::cdata"]
@@ -29959,17 +29947,17 @@ impl Default for iodbrct_item_data_info__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbrct_item_data_info"][::std::mem::size_of::<iodbrct_item_data_info>() - 528usize];
+    ["Size of iodbrct_item_data_info"][::std::mem::size_of::<iodbrct_item_data_info>() - 264usize];
     ["Alignment of iodbrct_item_data_info"]
-        [::std::mem::align_of::<iodbrct_item_data_info>() - 8usize];
+        [::std::mem::align_of::<iodbrct_item_data_info>() - 4usize];
     ["Offset of field: iodbrct_item_data_info::enable"]
         [::std::mem::offset_of!(iodbrct_item_data_info, enable) - 0usize];
     ["Offset of field: iodbrct_item_data_info::dummy2"]
         [::std::mem::offset_of!(iodbrct_item_data_info, dummy2) - 1usize];
     ["Offset of field: iodbrct_item_data_info::attr2"]
-        [::std::mem::offset_of!(iodbrct_item_data_info, attr2) - 8usize];
+        [::std::mem::offset_of!(iodbrct_item_data_info, attr2) - 4usize];
     ["Offset of field: iodbrct_item_data_info::uParam"]
-        [::std::mem::offset_of!(iodbrct_item_data_info, uParam) - 16usize];
+        [::std::mem::offset_of!(iodbrct_item_data_info, uParam) - 8usize];
 };
 impl Default for iodbrct_item_data_info {
     fn default() -> Self {
@@ -29982,8 +29970,8 @@ impl Default for iodbrct_item_data_info {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbrct_item"][::std::mem::size_of::<iodbrct_item>() - 3176usize];
-    ["Alignment of iodbrct_item"][::std::mem::align_of::<iodbrct_item>() - 8usize];
+    ["Size of iodbrct_item"][::std::mem::size_of::<iodbrct_item>() - 1592usize];
+    ["Alignment of iodbrct_item"][::std::mem::align_of::<iodbrct_item>() - 4usize];
     ["Offset of field: iodbrct_item::item_num"]
         [::std::mem::offset_of!(iodbrct_item, item_num) - 0usize];
     ["Offset of field: iodbrct_item::type_"][::std::mem::offset_of!(iodbrct_item, type_) - 2usize];
@@ -30051,12 +30039,12 @@ pub struct odbrct_slctptnname {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbrct_slctptnname"][::std::mem::size_of::<odbrct_slctptnname>() - 16usize];
-    ["Alignment of odbrct_slctptnname"][::std::mem::align_of::<odbrct_slctptnname>() - 8usize];
+    ["Size of odbrct_slctptnname"][::std::mem::size_of::<odbrct_slctptnname>() - 8usize];
+    ["Alignment of odbrct_slctptnname"][::std::mem::align_of::<odbrct_slctptnname>() - 4usize];
     ["Offset of field: odbrct_slctptnname::sl_ptrn_no"]
         [::std::mem::offset_of!(odbrct_slctptnname, sl_ptrn_no) - 0usize];
     ["Offset of field: odbrct_slctptnname::sl_nm_slct"]
-        [::std::mem::offset_of!(odbrct_slctptnname, sl_nm_slct) - 8usize];
+        [::std::mem::offset_of!(odbrct_slctptnname, sl_nm_slct) - 4usize];
 };
 pub type ODBRCT_SLCTPTNNAME = odbrct_slctptnname;
 #[repr(C)]
@@ -30067,12 +30055,12 @@ pub struct odbpressure {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbpressure"][::std::mem::size_of::<odbpressure>() - 16usize];
-    ["Alignment of odbpressure"][::std::mem::align_of::<odbpressure>() - 8usize];
+    ["Size of odbpressure"][::std::mem::size_of::<odbpressure>() - 8usize];
+    ["Alignment of odbpressure"][::std::mem::align_of::<odbpressure>() - 4usize];
     ["Offset of field: odbpressure::cmd_val"]
         [::std::mem::offset_of!(odbpressure, cmd_val) - 0usize];
     ["Offset of field: odbpressure::feedbak_val"]
-        [::std::mem::offset_of!(odbpressure, feedbak_val) - 8usize];
+        [::std::mem::offset_of!(odbpressure, feedbak_val) - 4usize];
 };
 pub type ODBPRESSURE = odbpressure;
 #[repr(C)]
@@ -30084,11 +30072,11 @@ pub struct odbexpos {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbexpos"][::std::mem::size_of::<odbexpos>() - 24usize];
-    ["Alignment of odbexpos"][::std::mem::align_of::<odbexpos>() - 8usize];
+    ["Size of odbexpos"][::std::mem::size_of::<odbexpos>() - 16usize];
+    ["Alignment of odbexpos"][::std::mem::align_of::<odbexpos>() - 4usize];
     ["Offset of field: odbexpos::data"][::std::mem::offset_of!(odbexpos, data) - 0usize];
     ["Offset of field: odbexpos::dec"][::std::mem::offset_of!(odbexpos, dec) - 8usize];
-    ["Offset of field: odbexpos::digit"][::std::mem::offset_of!(odbexpos, digit) - 16usize];
+    ["Offset of field: odbexpos::digit"][::std::mem::offset_of!(odbexpos, digit) - 12usize];
 };
 pub type ODBEXPOS = odbexpos;
 #[repr(C)]
@@ -30099,12 +30087,12 @@ pub struct iodbwaitmcode {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbwaitmcode"][::std::mem::size_of::<iodbwaitmcode>() - 16usize];
-    ["Alignment of iodbwaitmcode"][::std::mem::align_of::<iodbwaitmcode>() - 8usize];
+    ["Size of iodbwaitmcode"][::std::mem::size_of::<iodbwaitmcode>() - 8usize];
+    ["Alignment of iodbwaitmcode"][::std::mem::align_of::<iodbwaitmcode>() - 4usize];
     ["Offset of field: iodbwaitmcode::mcode"]
         [::std::mem::offset_of!(iodbwaitmcode, mcode) - 0usize];
     ["Offset of field: iodbwaitmcode::pathnum"]
-        [::std::mem::offset_of!(iodbwaitmcode, pathnum) - 8usize];
+        [::std::mem::offset_of!(iodbwaitmcode, pathnum) - 4usize];
 };
 pub type IODBWAITMCODE = iodbwaitmcode;
 #[repr(C)]
@@ -30136,8 +30124,8 @@ pub struct curload {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of curload"][::std::mem::size_of::<curload>() - 16usize];
-    ["Alignment of curload"][::std::mem::align_of::<curload>() - 8usize];
+    ["Size of curload"][::std::mem::size_of::<curload>() - 12usize];
+    ["Alignment of curload"][::std::mem::align_of::<curload>() - 4usize];
     ["Offset of field: curload::current"][::std::mem::offset_of!(curload, current) - 0usize];
     ["Offset of field: curload::effect"][::std::mem::offset_of!(curload, effect) - 2usize];
     ["Offset of field: curload::target"][::std::mem::offset_of!(curload, target) - 4usize];
@@ -30156,8 +30144,8 @@ pub struct curtemp {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of curtemp"][::std::mem::size_of::<curtemp>() - 16usize];
-    ["Alignment of curtemp"][::std::mem::align_of::<curtemp>() - 8usize];
+    ["Size of curtemp"][::std::mem::size_of::<curtemp>() - 12usize];
+    ["Alignment of curtemp"][::std::mem::align_of::<curtemp>() - 4usize];
     ["Offset of field: curtemp::current"][::std::mem::offset_of!(curtemp, current) - 0usize];
     ["Offset of field: curtemp::start"][::std::mem::offset_of!(curtemp, start) - 2usize];
     ["Offset of field: curtemp::end"][::std::mem::offset_of!(curtemp, end) - 4usize];
@@ -30174,11 +30162,11 @@ pub struct currdtm {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of currdtm"][::std::mem::size_of::<currdtm>() - 16usize];
-    ["Alignment of currdtm"][::std::mem::align_of::<currdtm>() - 8usize];
+    ["Size of currdtm"][::std::mem::size_of::<currdtm>() - 8usize];
+    ["Alignment of currdtm"][::std::mem::align_of::<currdtm>() - 4usize];
     ["Offset of field: currdtm::current"][::std::mem::offset_of!(currdtm, current) - 0usize];
     ["Offset of field: currdtm::threshold"][::std::mem::offset_of!(currdtm, threshold) - 2usize];
-    ["Offset of field: currdtm::dummy"][::std::mem::offset_of!(currdtm, dummy) - 8usize];
+    ["Offset of field: currdtm::dummy"][::std::mem::offset_of!(currdtm, dummy) - 4usize];
 };
 pub type CURRDTM = currdtm;
 #[repr(C)]
@@ -30194,15 +30182,15 @@ pub struct odbsoccur {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of odbsoccur"][::std::mem::size_of::<odbsoccur>() - 72usize];
-    ["Alignment of odbsoccur"][::std::mem::align_of::<odbsoccur>() - 8usize];
+    ["Size of odbsoccur"][::std::mem::size_of::<odbsoccur>() - 48usize];
+    ["Alignment of odbsoccur"][::std::mem::align_of::<odbsoccur>() - 4usize];
     ["Offset of field: odbsoccur::mode"][::std::mem::offset_of!(odbsoccur, mode) - 0usize];
     ["Offset of field: odbsoccur::table"][::std::mem::offset_of!(odbsoccur, table) - 2usize];
-    ["Offset of field: odbsoccur::dummy"][::std::mem::offset_of!(odbsoccur, dummy) - 8usize];
-    ["Offset of field: odbsoccur::ovrr"][::std::mem::offset_of!(odbsoccur, ovrr) - 16usize];
-    ["Offset of field: odbsoccur::load"][::std::mem::offset_of!(odbsoccur, load) - 24usize];
-    ["Offset of field: odbsoccur::temp"][::std::mem::offset_of!(odbsoccur, temp) - 40usize];
-    ["Offset of field: odbsoccur::rdtm"][::std::mem::offset_of!(odbsoccur, rdtm) - 56usize];
+    ["Offset of field: odbsoccur::dummy"][::std::mem::offset_of!(odbsoccur, dummy) - 4usize];
+    ["Offset of field: odbsoccur::ovrr"][::std::mem::offset_of!(odbsoccur, ovrr) - 8usize];
+    ["Offset of field: odbsoccur::load"][::std::mem::offset_of!(odbsoccur, load) - 16usize];
+    ["Offset of field: odbsoccur::temp"][::std::mem::offset_of!(odbsoccur, temp) - 28usize];
+    ["Offset of field: odbsoccur::rdtm"][::std::mem::offset_of!(odbsoccur, rdtm) - 40usize];
 };
 pub type ODBSOCCUR = odbsoccur;
 #[repr(C)]
@@ -30234,9 +30222,9 @@ pub union soctldat__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of soctldat__bindgen_ty_1"][::std::mem::size_of::<soctldat__bindgen_ty_1>() - 16usize];
+    ["Size of soctldat__bindgen_ty_1"][::std::mem::size_of::<soctldat__bindgen_ty_1>() - 8usize];
     ["Alignment of soctldat__bindgen_ty_1"]
-        [::std::mem::align_of::<soctldat__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<soctldat__bindgen_ty_1>() - 4usize];
     ["Offset of field: soctldat__bindgen_ty_1::cdata"]
         [::std::mem::offset_of!(soctldat__bindgen_ty_1, cdata) - 0usize];
     ["Offset of field: soctldat__bindgen_ty_1::idata"]
@@ -30257,8 +30245,8 @@ impl Default for soctldat__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of soctldat"][::std::mem::size_of::<soctldat>() - 16usize];
-    ["Alignment of soctldat"][::std::mem::align_of::<soctldat>() - 8usize];
+    ["Size of soctldat"][::std::mem::size_of::<soctldat>() - 8usize];
+    ["Alignment of soctldat"][::std::mem::align_of::<soctldat>() - 4usize];
     ["Offset of field: soctldat::u"][::std::mem::offset_of!(soctldat, u) - 0usize];
 };
 impl Default for soctldat {
@@ -41270,9 +41258,9 @@ pub union iodbcbp__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbcbp__bindgen_ty_1"][::std::mem::size_of::<iodbcbp__bindgen_ty_1>() - 512usize];
+    ["Size of iodbcbp__bindgen_ty_1"][::std::mem::size_of::<iodbcbp__bindgen_ty_1>() - 256usize];
     ["Alignment of iodbcbp__bindgen_ty_1"]
-        [::std::mem::align_of::<iodbcbp__bindgen_ty_1>() - 8usize];
+        [::std::mem::align_of::<iodbcbp__bindgen_ty_1>() - 4usize];
     ["Offset of field: iodbcbp__bindgen_ty_1::cdata"]
         [::std::mem::offset_of!(iodbcbp__bindgen_ty_1, cdata) - 0usize];
     ["Offset of field: iodbcbp__bindgen_ty_1::idata"]
@@ -41301,11 +41289,11 @@ impl Default for iodbcbp__bindgen_ty_1 {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of iodbcbp"][::std::mem::size_of::<iodbcbp>() - 520usize];
-    ["Alignment of iodbcbp"][::std::mem::align_of::<iodbcbp>() - 8usize];
+    ["Size of iodbcbp"][::std::mem::size_of::<iodbcbp>() - 260usize];
+    ["Alignment of iodbcbp"][::std::mem::align_of::<iodbcbp>() - 4usize];
     ["Offset of field: iodbcbp::datano"][::std::mem::offset_of!(iodbcbp, datano) - 0usize];
     ["Offset of field: iodbcbp::type_"][::std::mem::offset_of!(iodbcbp, type_) - 2usize];
-    ["Offset of field: iodbcbp::u"][::std::mem::offset_of!(iodbcbp, u) - 8usize];
+    ["Offset of field: iodbcbp::u"][::std::mem::offset_of!(iodbcbp, u) - 4usize];
 };
 impl Default for iodbcbp {
     fn default() -> Self {
@@ -43411,9 +43399,9 @@ pub struct tag_PMCLAD_COIL_STRING {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tag_PMCLAD_COIL_STRING"][::std::mem::size_of::<tag_PMCLAD_COIL_STRING>() - 24usize];
+    ["Size of tag_PMCLAD_COIL_STRING"][::std::mem::size_of::<tag_PMCLAD_COIL_STRING>() - 16usize];
     ["Alignment of tag_PMCLAD_COIL_STRING"]
-        [::std::mem::align_of::<tag_PMCLAD_COIL_STRING>() - 8usize];
+        [::std::mem::align_of::<tag_PMCLAD_COIL_STRING>() - 4usize];
     ["Offset of field: tag_PMCLAD_COIL_STRING::pmc"]
         [::std::mem::offset_of!(tag_PMCLAD_COIL_STRING, pmc) - 0usize];
     ["Offset of field: tag_PMCLAD_COIL_STRING::program"]
@@ -43421,7 +43409,7 @@ const _: () = {
     ["Offset of field: tag_PMCLAD_COIL_STRING::string"]
         [::std::mem::offset_of!(tag_PMCLAD_COIL_STRING, string) - 8usize];
     ["Offset of field: tag_PMCLAD_COIL_STRING::_reserved"]
-        [::std::mem::offset_of!(tag_PMCLAD_COIL_STRING, _reserved) - 16usize];
+        [::std::mem::offset_of!(tag_PMCLAD_COIL_STRING, _reserved) - 12usize];
 };
 impl Default for tag_PMCLAD_COIL_STRING {
     fn default() -> Self {
@@ -43443,16 +43431,16 @@ pub struct tag_PMCLAD_MESSAGE {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of tag_PMCLAD_MESSAGE"][::std::mem::size_of::<tag_PMCLAD_MESSAGE>() - 24usize];
-    ["Alignment of tag_PMCLAD_MESSAGE"][::std::mem::align_of::<tag_PMCLAD_MESSAGE>() - 8usize];
+    ["Size of tag_PMCLAD_MESSAGE"][::std::mem::size_of::<tag_PMCLAD_MESSAGE>() - 16usize];
+    ["Alignment of tag_PMCLAD_MESSAGE"][::std::mem::align_of::<tag_PMCLAD_MESSAGE>() - 4usize];
     ["Offset of field: tag_PMCLAD_MESSAGE::message"]
         [::std::mem::offset_of!(tag_PMCLAD_MESSAGE, message) - 0usize];
     ["Offset of field: tag_PMCLAD_MESSAGE::lines"]
-        [::std::mem::offset_of!(tag_PMCLAD_MESSAGE, lines) - 8usize];
+        [::std::mem::offset_of!(tag_PMCLAD_MESSAGE, lines) - 4usize];
     ["Offset of field: tag_PMCLAD_MESSAGE::color_fg"]
-        [::std::mem::offset_of!(tag_PMCLAD_MESSAGE, color_fg) - 12usize];
+        [::std::mem::offset_of!(tag_PMCLAD_MESSAGE, color_fg) - 8usize];
     ["Offset of field: tag_PMCLAD_MESSAGE::color_bg"]
-        [::std::mem::offset_of!(tag_PMCLAD_MESSAGE, color_bg) - 16usize];
+        [::std::mem::offset_of!(tag_PMCLAD_MESSAGE, color_bg) - 12usize];
 };
 impl Default for tag_PMCLAD_MESSAGE {
     fn default() -> Self {

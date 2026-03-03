@@ -1,6 +1,7 @@
-use focas_rs::FocasClient;
+use focas_rs::FocasShell;
 
-fn main() {
+#[tokio::main]
+async fn main() {
     #[cfg(target_os = "linux")]
     {
         let log_path = "./focas2.log";
@@ -14,11 +15,10 @@ fn main() {
         }
         println!("CNC process started successfully");
     }
-    let client = FocasClient::new("192.168.0.10", 8193).unwrap();
-    println!("Connected to CNC, handle: {}", client.get_handle());
-    let tofs = client.rdtofs(1, 2).unwrap();
+    let client = FocasShell::new("192.168.0.1", 8193).expect("Failed to connect to CNC");
+    let tofs = client.rdtofs(1, 2).await.unwrap();
     println!("Current tool offset: {:?}", tofs);
-    client.wrtofs(1, 2, 10).unwrap();
+    client.wrtofs(1, 2, 10).await.unwrap();
     println!("TOFS: {:?}", tofs);
     #[cfg(target_os = "linux")]
     {
