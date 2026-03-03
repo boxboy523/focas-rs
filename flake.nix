@@ -14,9 +14,9 @@
         pkgs = import nixpkgs {
           inherit system overlays;
         };
-        
+
         pkgs32 = pkgs.pkgsi686Linux;
-        
+
         libraries = with pkgs; [
           stdenv.cc.cc.lib
         ];
@@ -54,8 +54,7 @@
                         export RUSTFLAGS="-L native=$XWIN_CACHE_DIR/xwin/crt/lib/x86 \
                         -L native=$XWIN_CACHE_DIR/xwin/sdk/lib/ucrt/x86 \
                         -L native=$XWIN_CACHE_DIR/xwin/sdk/lib/um/x86"
-'';
-
+          '';
         };
       }
     );
