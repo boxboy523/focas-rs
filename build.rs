@@ -3,8 +3,9 @@ use std::path::PathBuf;
 
 fn main() {
     let target_os = env::var("CARGO_CFG_TARGET_OS").unwrap();
+    let manifest_dir = env::var("CARGO_MANIFEST_DIR").unwrap();
 
-    let lib_dir = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap()).join("lib");
+    let lib_dir = PathBuf::from(&manifest_dir).join("lib");
     println!("cargo:rustc-link-search=native={}", lib_dir.display());
 
     if target_os == "windows" {
@@ -14,14 +15,14 @@ fn main() {
     }
 
     let header_path = if target_os == "windows" {
-        "include/Fwlib32.h"
+        PathBuf::from(&manifest_dir).join("include/Fwlib32.h")
     } else {
-        "include/fwlib32.h"
+        PathBuf::from(&manifest_dir).join("include/fwlib32.h")
     };
-    println!("cargo:rerun-if-changed={}", header_path);
+    println!("cargo:rerun-if-changed={}", header_path.display());
 
     let mut builder = bindgen::Builder::default()
-        .header(header_path)
+        .header(header_path.display().to_string())
         .derive_debug(true)
         .derive_default(true)
         .parse_callbacks(Box::new(bindgen::CargoCallbacks::new()));
