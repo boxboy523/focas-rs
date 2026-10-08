@@ -85,6 +85,7 @@ impl FocasClient {
         let ip_cstr = CString::new(self.ip.clone()).map_err(|_| FocasError::InvalidIpFormat)?;
         let ret = unsafe { cnc_allclibhndl3(ip_cstr.as_ptr(), self.port, 10, &mut handle) };
         if ret != 0 {
+            let _ = self.free_handle(handle);
             return Err(FocasError::ConnectionFailed(ret));
         }
         Ok(handle)
@@ -104,6 +105,7 @@ impl FocasClient {
         let handle = self.get_handle()?;
         let ret = unsafe { cnc_sysinfo(handle.try_into().unwrap(), &mut info) };
         if ret != 0 {
+            let _ = self.free_handle(handle);
             return Err(FocasError::ApiError(ret));
         }
         let _ = self.free_handle(handle);
@@ -116,6 +118,7 @@ impl FocasClient {
         let handle = self.get_handle()?;
         let ret = unsafe { cnc_rdtofs(handle, ofs_number, ofs_type, 8, &mut info) };
         if ret != 0 {
+            let _ = self.free_handle(handle);
             return Err(FocasError::ApiError(ret));
         }
         let _ = self.free_handle(handle);
@@ -126,6 +129,7 @@ impl FocasClient {
         let handle = self.get_handle()?;
         let ret = unsafe { cnc_wrtofs(handle, ofs_number, ofs_type, 8, offset) };
         if ret != 0 {
+            let _ = self.free_handle(handle);
             return Err(FocasError::ApiError(ret));
         }
         let _ = self.free_handle(handle);
@@ -137,6 +141,7 @@ impl FocasClient {
         let handle = self.get_handle()?;
         let ret = unsafe { cnc_rdlife(handle, life_number, &mut info) };
         if ret != 0 {
+            let _ = self.free_handle(handle);
             return Err(FocasError::ApiError(ret));
         }
         let _ = self.free_handle(handle);
@@ -148,6 +153,7 @@ impl FocasClient {
         let handle = self.get_handle()?;
         let ret = unsafe { cnc_rdcount(handle, count_number, &mut info) };
         if ret != 0 {
+            let _ = self.free_handle(handle);
             return Err(FocasError::ApiError(ret));
         }
         let _ = self.free_handle(handle);
